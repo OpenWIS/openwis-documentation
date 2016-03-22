@@ -1,0 +1,18 @@
+{% assign the_coll = include.coll %}
+{% assign subpath = include.subpath %}
+
+<ul>
+	{% for item in the_coll.pages %}
+
+		{% assign item_url = item | prepend:subpath | append:".html" %}
+	
+		{% for p in site.pages %}
+
+			{% if p.url == item_url %}
+				<li>
+					<h3><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></h3>
+				</li>
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+</ul>

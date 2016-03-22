@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+  	<h2>{{ site.data.rules.title }}</h2>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.contents %}
+    	<nav class="in-page-navigation">
+    		<h3>Contents</h3>
+    		<ol>
+    			{% for item in page.contents %}
+					<li><a href="{{ item[0] }}">{{ item[1] }}</a></li>
+				{% endfor %}
+    		</ol>
+    	</nav>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

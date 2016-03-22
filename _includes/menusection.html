@@ -1,0 +1,11 @@
+{% assign the_coll = include.coll %}
+{% assign the_title = the_coll.title %}
+{% assign the_subpath = the_coll.subpath %}
+
+{% comment %} override default values by adding params to the include tag" {% endcomment %}
+{% if include.title %}{% assign the_title = include.title %}{% endif %}
+{% if include.subpath %}{% assign the_subpath = include.subpath %}{% endif %}
+
+<div class="row">
+	{% include collection_to_list.html coll=the_coll subpath=the_subpath %}
+</div>
