@@ -1,6 +1,8 @@
 # openwis-documentation
 Documentation repository for the OpenWIS Association AISBL. This project uses [Jekyll](https://jekyllrb.com/) to build HTML documentation from [Markdown](https://daringfireball.net/projects/markdown/). The early stages of this project will concentrate on documenting the governance framework of the OpenWIS Association. More will be added as time goes on ...
 
+For tips on writing [Markdown](https://daringfireball.net/projects/markdown/) see the [GitHub guide](https://guides.github.com/features/mastering-markdown/).
+
 Copyright and License
 ---------------------
 (C) Copyright OpenWIS Association AISBL.
