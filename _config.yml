@@ -4,7 +4,7 @@ email: contact@openwis.io
 description: The OpenWIS Association AISBL is an International Non-profit Organization (Association Internationale Sans But Lucrative, or abbreviated 'AISBL') that aims to facilitate collaboration on the development, promotion and sharing of open source software for the exchange of global meteorological information. 
 baseurl: "/governance" # the subpath of your site, e.g. /blog
 # url: "http://openwis.io" # the base hostname & protocol for your site ... http://openwis.io will be the final location; http://openwis.github.io/openwis-documentation/ is temporary
-url: http://openwis.github.io/openwis-documentation/
+url: http://openwis.github.io/openwis-documentation
 
 # Build settings
 markdown: kramdown
