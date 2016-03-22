@@ -5,7 +5,7 @@ description: The OpenWIS Association AISBL is an International Non-profit Organi
 # baseurl: "/governance" # the subpath of your site, e.g. /blog ... "/governance" should be the final location; "openwis-documentation" is a temporary path given gh-pages hosting
 baseurl: "/openwis-documentation"
 # url: "http://openwis.io" # the base hostname & protocol for your site ... "http://openwis.io" will be the final location; "http://openwis.github.io" is a temporary path given gh-pages hosting
-url: http://openwis.github.io
+url: "http://openwis.github.io"
 
 # Build settings
 markdown: kramdown
