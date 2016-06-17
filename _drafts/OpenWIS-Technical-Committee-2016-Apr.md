@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+#### OpenWIS Technical Committee - meeting minutes
+14th April 2016
 ###### Agenda
 1.  Review the progress of the uplift and other development works since the Seoul meeting. Release of 3.14.4.
 2.  Start to plan the work on v4 (review backlog, assign task).
@@ -51,5 +53,16 @@ layout: default
 5. MF RG: Yes, July and August are holiday periods in Europe, so September would be better.
 6. NWS MG: Understood.
 
-##### 4. AOB
-1. BoM WQ: Ok, so the date of the next meeting will be 12th May 2016.
+##### 4. Other business
+1. BoM WQ: The date of the next meeting will be 12th May 2016.
+
+###### Participants
+- BoM WQ: Australian Bureau of Meteorology, Weiqing Qu  (chair)
+- BoM LM: Australian Bureau of Meteorology, Leon Mika
+- KMA OL: Korea Meteorological Administration, Okki Lee
+- MF RG: Meteo-France, Remy Giraud
+- NWS PG: US National Weather Service, Pat Gillis
+- NWS MG: US National Weather Service, Marc Giannoni
+- UKMO PN: UK Met Office, Paul Nelson
+- UKMO PR: UK met Office, Paul Rogers
+- UKMO MG: UK Met Office, Martin Gollogly
