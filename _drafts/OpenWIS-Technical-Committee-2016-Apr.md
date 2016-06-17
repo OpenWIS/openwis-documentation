@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minutes
 ---
 #### OpenWIS Technical Committee - meeting minutes
 14th April 2016
