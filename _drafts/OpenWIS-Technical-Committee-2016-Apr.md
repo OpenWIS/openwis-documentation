@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ###### Agenda
 1.  Review the progress of the uplift and other development works since the Seoul meeting. Release of 3.14.4.
 2.  Start to plan the work on v4 (review backlog, assign task).
