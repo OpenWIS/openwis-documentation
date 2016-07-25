@@ -3,9 +3,11 @@ title: OpenWIS Association AISBL
 email: contact@openwis.io
 description: The OpenWIS Association AISBL is an International Non-profit Organization (Association Internationale Sans But Lucrative, or abbreviated 'AISBL') that aims to facilitate collaboration on the development, promotion and sharing of open source software for the exchange of global meteorological information. 
 # baseurl: "/documentation" # the subpath of your site, e.g. /blog ... "/documentation" should be the final location; "openwis-documentation" is a temporary path given gh-pages hosting
-baseurl: "/openwis-documentation"
+# UNCOMMENT next line before publishing to GitHub!!!  REcomment to run local tests with Jekyll serve
+# baseurl: "/openwis-documentation" 
 # url: "http://openwis.io" # the base hostname & protocol for your site ... "http://openwis.io" will be the final location; "http://openwis.github.io" is a temporary path given gh-pages hosting
-url: "http://openwis.github.io"
+# UNCOMMENT next line before publishing to GitHub!!!  REcomment to run local tests with Jekyll serve
+# url: "http://openwis.github.io"
 
 # Build settings
 markdown: kramdown

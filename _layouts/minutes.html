@@ -3,13 +3,17 @@
 
   {% include head.html %}
 
+
   <body>
 
-    {% include minutes_header.html %}
+    {% include header.html %}
 
     <div class="page-content">
       <div class="wrapper">
-        {{ content }}
+			  {% if content contains 'A-OWIS' %}
+				   I found an action!
+				{% endif %}
+				{{ content | replace: 'A-OWIS', '<span class="action">A-OWIS'| replace: 'OWIS-A', '</span>' }}
       </div>
     </div>
 
@@ -18,3 +22,5 @@
   </body>
 
 </html>
+
+

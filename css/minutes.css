@@ -1,0 +1,7 @@
+  * {font-family: helvetica, arial, sans-serif;}
+	h2 {color: SteelBlue;}
+	div.header-img {float: left;}
+	div.header-txt {font-size: 200%; color: SteelBlue;}
+	.h3 {color: SteelBlue; font-size: 150%;}
+	.body {color: black; font-size: 75%;}
+	.action {font-style: oblique; line-height: 3em; padding: 0.5em; border-left-width: 0.2em; border-left-style: solid; border-left-color: SteelBlue; color:SteelBlue; background-color: LemonChiffon;}

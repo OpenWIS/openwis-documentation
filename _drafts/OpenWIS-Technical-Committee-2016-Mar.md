@@ -40,7 +40,7 @@ layout: minutes
 	> _A-OWIS-TC-2016-7 MF-MF RG: Check with Francois that #32 is fixed._
 
 18. Issue #44: defer.
-19. Issue #93:
+19. Issue #93: defer.
 20. BOM WQ - Shall we aim to fix all these functional issues or aim to Release soon instead? [Round the room vote unanimous in favour of Release soon]
 21. BOM WQ - Ok we aim to release soon and defer these issues to a later release.
 22. UKMO MG - Ok then, on to the security test issues:
@@ -156,7 +156,7 @@ layout: minutes
 7. MF RG - is this for production or test?
 8. UKMO JT - I want to be able to deploy a fresh install of OpenWIS within 1 hour - at present it takes several hours.  To fully automate everything would be very hard.  But we should automate as much as possible.
 9. ECMWF BR - should your test and operational environments look the same?  Depends on the type of test - so yes the pre-prod should be very similar.
-10. UKMO MG slides: [Annex1](MG1)
+10. UKMO MG - slide 1 - (current AWS) Deployment: [Annex1](MG1)
 11. KMA OL - We need to distinguish between development, test, pre-production and production.  Hard to support everyone's deployment to production.
 12. MF RG - Production and pre-production are almost the same.
 13. UKMO MG - Some scripts from develop can be reused in the production/pre-production environment.
@@ -164,8 +164,8 @@ layout: minutes
 15. ECMWF BR - ideally we would get a puppet script to do a new install.
 16. UKMO JT - because each environment at each organisation differs in number of VMs etc, it is difficult to have one set of scripts to cover all these scenarios.
 17. ECMWF BR - puppet and docker can help you install to machines by role.
-18. UKMO MG slides on: Benefits of sub system approach: [Annex2](MG2)
-19. UKMO MG slides on: Building the Stack: [Annex3](MG3)
+18. UKMO MG - slide 2 - The toolbox: [Annex1](MG1)
+19. UKMO MG - slide 3 - Hypothetical Deployment Workflow: [Annex1](MG1)
 20. BOM WQ - are we recommending puppet etc?
 21. UKMO MG - we need to do an assessment of the different environments.
 22. UKMO JT - so you're saying you need to modularise the deployment to take advantage of the puppet modularity - is modularising that complex?
@@ -516,3 +516,5 @@ layout: minutes
 #### Apologies:
 - NWS RB: US National Weather Service, Robert Bunge
 - NWS SO: US National Weather Service, Steve Olson
+
+[MG1]: <www.metoffice.gov.uk>
