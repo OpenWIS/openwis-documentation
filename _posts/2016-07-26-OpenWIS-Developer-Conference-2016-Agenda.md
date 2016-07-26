@@ -1,9 +1,10 @@
 ---
 layout: page
+title: OpenWIS Developer Conference 2016 Agenda
 ---
-# Test Post 3
 
-## 7th July 2016 - teleconference - meeting minutes
+
+#### 26th July 2016 - teleconference - meeting minutes
 
 ---
 

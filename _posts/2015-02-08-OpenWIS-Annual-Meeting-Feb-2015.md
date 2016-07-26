@@ -1,9 +1,10 @@
 ---
 layout: page
+title: OpenWIS Annual Meeting Feb 2015
 ---
-# Test Post 1
 
-## 7th July 2016 - teleconference - meeting minutes
+
+#### 26th July 2016 - teleconference - meeting minutes
 
 ---
 
