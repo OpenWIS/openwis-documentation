@@ -6,7 +6,7 @@ title: OpenWIS Technical Committee Jul 2016
 ---
 1. OpenWIS 3.14
 	1. Update to the patchable version of Java that Martin and Marc are working on for the portals and OpenAM.
-		1. MGo - So Marc and I identified either a 2 day or a 2 week fix and we went for the 2 day fix.  It builds but there are issues during execution on the test environment.  Probably a couple of days work for Marc to work through the dependencies.  See https://openwis-association.ci.cloudbees.com/job/openwis-fix-openam-portals-java-version/
+		1. MGo - So Marc and I identified either a 2 day or a 2 week fix and we went for the 2 day fix.  It builds but there are issues during execution on the test environment.  Probably a couple of days work for Marc to work through the dependencies.  See the [build job](https://openwis-association.ci.cloudbees.com/job/openwis-fix-openam-portals-java-version/).
 		2. PN - So when can we expect 3.14.7?
 		3. SO - Does Marc know what the exceptions are?
 		4. MGo - Yes.
