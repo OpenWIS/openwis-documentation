@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OpenWIS Technical Committee Sep 2015
+title: OpenWIS Technical Committee 2015 February
 ---
 
 

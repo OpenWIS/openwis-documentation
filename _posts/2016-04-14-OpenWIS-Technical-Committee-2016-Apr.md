@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OpenWIS Technical Committee Apr 2016
+title: OpenWIS Technical Committee 2016 April
 ---
 ## 14th April 2016 - teleconference - meeting minutes
 ---

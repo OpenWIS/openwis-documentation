@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OpenWIS Steering Committee Feb 2015
+title: OpenWIS Annual Meeting 2015
 ---
 
 
