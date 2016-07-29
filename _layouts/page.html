@@ -7,7 +7,7 @@ layout: default
 	</header>
 
 	<div class="post-content">
-		{{ content | replace: 'A-OWIS', '<span class="action">A-OWIS'| replace: 'OWIS-A', '</span>' }}
+		{{ content | replace: 'A-OWIS', '<span class="action">A-OWIS'| replace: 'OWIS-A', '</span>'| replace: 'R-OWIS', '<span class="resolution">R-OWIS'| replace: 'OWIS-R', '</span>' }}
 	</div>
 
 </article>

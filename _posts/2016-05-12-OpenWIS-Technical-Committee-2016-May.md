@@ -4,7 +4,7 @@ title: OpenWIS Technical Committee 2016 May
 ---
 ## 12th May 2016 - teleconference - meeting minutes
 ---
-1. Discuss the licensing issue of OpenDJ and its implication.
+1. **Discuss the licensing issue of OpenDJ and its implication.**
 	1. WQ - UKMO has raised a question about license for OpenAM/DJ and there has been an email exchange between Remy and others that I circulated earlier.  Are we OK?
 	2. DW - That was from our internal accreditors and we have cleared it with them.
 	3. MGo - Is there a wider question?  Since we are compiling on Cloudbees and redistributing, do we need to redistribute with a licence?
@@ -15,8 +15,8 @@ title: OpenWIS Technical Committee 2016 May
 	8. RG - We have a small password issue with the current script, so we have asked for an update; but we will send the current script to MG.
 	9. LM - could we raise a pull request for the script?
 	10. A-OWIS-TC-2016-39: MG - Raise a pull request for the script. OWIS-A
-2. Review the progress of the development works since last meeting.
-	1. Release of 3.14.5
+2. **Review the progress of the development works since last meeting.**
+	1. **Release of 3.14.5**
 		1. MGo - Version 3.14.5 was released in April, a week after the last TC.  There was an issue with a missing dependency file, but that was sorted once it got added to Cloudbees.
 		2. WQ - So, will there be further 3.14.x releases?
 		3. MGo - MGi has been working on the downgraded Java JDK 7.19 issue and it looks like it can be resolved by updating the libraries on the portal; it's a work in progress.  This makes it possible to do a yum install.  The changes still need to be merged.
@@ -29,7 +29,7 @@ title: OpenWIS Technical Committee 2016 May
 		10. RG - they are 2 different issues.
 		11. PR - in principle, we should get a patch release out for fixes that are available, so that the community can choose whether to take them based on their local priorities, especially if the time to fix everything is uncertain.
 		12. WQ - Ok, so we will release 3.14.6 with the XSS fixed and release 3.14.7 with the fedlet fixes later.
-	2. Status of GeoNetwork integration.
+	2. **Status of GeoNetwork integration.**
 		1. PR - So, at UKMO, we had GeoCat, the main supporters of GeoNetwork, do a whole bunch of work to adapt GeoNetwork 3 and OpenWIS to each other, under the OpenWIS 4 banner.  Some changes were made to GeoNetwork 3 as contributions to their trunk, while the OpenWIS specific requirements were changed in the OpenWIS code.  GeoCat did a lot of good stuff - they worked in an interactive agile way so we got to tailor things as they went along.  So, we're pretty happy with what they gave us.
 		2. PR - Unfortunately, when it came to testing it all together, we couldn't get the harvesting to work.  This wasn't a feature we had been working on, so it took us a while to figure out that there was a fundamental problem with GeoNetwork 3 that couldn't be fixed by tinkering.  We have a theory that the Lucene indexing can't scale to the level required during bulk harvesting, at least as currently implemented; we even have an idea for a solution: implement Solr indexing for GeoNetwork.  But, we need to do more investigation before we choose a way forward and that is what we are intending to do, as soon as we get 3.14 into operations.
 		3. RG - Can we make it available now so that we can begin our onboarding?
@@ -46,9 +46,9 @@ title: OpenWIS Technical Committee 2016 May
 		14. RG - Yes, absolutely.
 		15. A-OWIS-TC-2016-41: RG - Give MGo/LM access to the MF cloud servers. OWIS-A
 		16. A-OWIS-TC-2016-42: MGo/LM Set up OpenWIS v4 on the MF cloud servers, by the next TC if possible. OWIS-A
-3. How everyone set up their development environment (feedback need to assess if anything further need to be done to on-boarding developers).
+3. **How everyone set up their development environment (feedback need to assess if anything further need to be done to on-boarding developers).**
 	1. OL - we're currently working through the set up of SSO.  We're using the MF scripts and the MGo instructions; some initial hurdles, but we're getting there.
-4. Review the status of Action items from last meeting.
+4. **Review the status of Action items from last meeting.**
 	1. Remy will share instructions for automatically installing OpenDJ in private network
 		1. RG - Done.
 	2. Product list of the task in GitHub + list from the TC F2F in Seoul (Leon)

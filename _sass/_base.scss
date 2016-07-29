@@ -222,6 +222,14 @@ td, th { text-align: left ; padding: 10px }
 		 border-left-width: 0.2em; border-left-style: solid; border-left-color: SteelBlue; 
 		 color:SteelBlue; background-color: LemonChiffon;}
 
+
+/**
+ * Resolution - additional style defined by Paul Rogers to highlight meeting resolutions
+ */
+.resolution {font-style: oblique; 
+		 line-height: 3em; padding: 0.5em; 
+		 border-left-width: 0.2em; border-left-style: solid; border-left-color: SteelBlue; 
+		 color:Red; background-color: LemonChiffon;}
 	
 	
 	

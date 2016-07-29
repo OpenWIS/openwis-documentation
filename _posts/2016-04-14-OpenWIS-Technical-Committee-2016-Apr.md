@@ -4,7 +4,7 @@ title: OpenWIS Technical Committee 2016 April
 ---
 ## 14th April 2016 - teleconference - meeting minutes
 ---
-1. Review the progress of the uplift and other development works since the Seoul meeting. Release of 3.14.4.
+1. **Review the progress of the uplift and other development works since the Seoul meeting. Release of 3.14.4.**
 	1. PN - OpenWIS version 3.14.5 is in test. Security testing has revealed a few XSS vulnerabilities. There will have to be a few code changes to fix these.
 	2. PN - Puppet scripting is underway on Dev.  We haven't started yet on Test or Production.
 	3. PN - The Java version on the OpenAM stack is stuck on 7.0.19.
@@ -19,7 +19,7 @@ title: OpenWIS Technical Committee 2016 April
 	12. RG - But in v 3.14 or v 3.15; are we changing our earlier decision to use Java 7.0.19?
 	13. MGi - We will continue to work on this issue and aim to release a 3.14.6 patch.
 	14. WQ - _Ok, so we are agreed, we will release v 3.14.5 with Java 7.0.19 and patch it in a later release._
-2. Start to plan the work on v4 (review backlog, assign task).
+2. **Start to plan the work on v4 (review backlog, assign task).**
 	1. LM - I've looked at the outstanding issues in GitHub and they roughly fall into those that relate to the portals and those that relate to other components.  Given that we are upgrading GeoNetwork, I propose that we defer portal issues until afterwards.  In the meantime, we could look at issues with the Data Service; there are about 12 of those.
 	2. PR - We have a lot of the changes for v 4 ready, but we need to sort out the issue with harvesting to be able to test it properly.  We hope to do that in June.
 	3. A-OWIS-TC-2016-33: LM/PR - draft a backlog for the next TC. OWIS-A
@@ -38,14 +38,14 @@ title: OpenWIS Technical Committee 2016 April
 	16. RG - Yes it is.
 	17. MGi - We opened an issue on GitHub where we suggested an outline for the doc set.
 	18. LM - Yes, that's Issue #41 under the openwis/deploy repo; we can base the documentation on that.
-3. The choice of the target week (and location?) of the OpenWIS Developer conference.
+3. **The choice of the target week (and location?) of the OpenWIS Developer conference.**
 	1. PG - NWS are intending to host the Dev Con this year, but we still need to confirm that and the date.  Steve Olson is leading on that.
 	2. RG - Can we target a date?
 	3. MGi - We are aiming for the summer but will need to get back with the options.
 	4. WQ - September might be the best time for most of us.
 	5. RG - Yes, July and August are holiday periods in Europe, so September would be better.
 	6. MGi - Understood.
-4. Other business
+4. **Any Other Business**
 	1. WQ - The date of the next meeting will be 12th May 2016.
 
 ---
