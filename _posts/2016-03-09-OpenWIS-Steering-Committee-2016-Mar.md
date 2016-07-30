@@ -294,7 +294,7 @@ title: OpenWIS Steering Committee 2016 March
 	4. **Approval of strategic programme and work plan(s)**
 		1. R-OWIS-SC-2016-06:Resolution: vote: 7-0 in favour - To recommend this strategic plan to the Board. OWIS-R
 	5. **Identification of investment required from OpenWIS Association required to deliver the work plan**
-		1. JT - Technical author - EURO10k
+		1. JT - Technical author - EUR10k
 		2. JT - Continuing costs around development environment and cloud tools - roughly the same as next year.
 		3. JT - SonarQube etc
 		4. JT - About $200 pcm all told
@@ -573,7 +573,7 @@ title: OpenWIS Steering Committee 2016 March
 	1. JT - we're not recommending any; we had a discussion about PMCs but decided the TC does that.
 17. **Finances of the OpenWIS Association**
 	1. **Challenges arising from existing funding mechanisms - Matteo Dell'Acqua**
-		2. MDA - The EURO200k contribution for Strategic Partner was set because that was what we all originally put in.  This mechanism may not suit new projects.  So OpenCDMS, for example, may have to contribute.  Say Met Morocco wants to join, we would ask for EURO200k euro, but I'm not sure this works.  So, what would a mechanism be, that allows people to engage and sit at the SC?
+		2. MDA - The EUR200k contribution for Strategic Partner was set because that was what we all originally put in.  This mechanism may not suit new projects.  So OpenCDMS, for example, may have to contribute.  Say Met Morocco wants to join, we would ask for EUR200k euro, but I'm not sure this works.  So, what would a mechanism be, that allows people to engage and sit at the SC?
 		3. JT – Let's distinguish between SC which is high level direction and PMC which guides a project: Met Morocco could contribute without any upfront costs. When we set up a new project the members of the PMC will be drawn from those who set up the project.
 		4. WQ - But how will the Association be sustained in the long term (financially)?
 		5. MDA - Why would someone be an Association Partner?
@@ -648,9 +648,9 @@ title: OpenWIS Steering Committee 2016 March
 	3. **Preparation of budget for 2016/17**
 		1. MV is now absent - SC proxy is MDA.
 		2. JT – I suggest the budget we set last year is used as the basis of this year's, but that we add some new items.
-		3. JT - Firstly: skills to setup website content: technical author/designer.  I propose an upper budget limit of EURO20k for that with a target of half that; any thoughts?
-		4. OL - We are non-profit, so we should try to reduce costs and we agreed EURO10k at the TC.
-		5. JT - Yes we did, but for budgetary purposes we would like to agree more.  The max that EE, MDA, or JT can sign-off is EURO10k, so we will have to have it signed off by the board anyway.
+		3. JT - Firstly: skills to setup website content: technical author/designer.  I propose an upper budget limit of EUR20k for that with a target of half that; any thoughts?
+		4. OL - We are non-profit, so we should try to reduce costs and we agreed EUR10k at the TC.
+		5. JT - Yes we did, but for budgetary purposes we would like to agree more.  The max that EE, MDA, or JT can sign-off is EUR10k, so we will have to have it signed off by the board anyway.
 		6. OL - I mean that we should try to reduce the amount if possible.
 		7. RGib - What is the purpose of this budget?
 		8. MDA – Some effort to structure the content/docs professionally.
@@ -659,22 +659,22 @@ title: OpenWIS Steering Committee 2016 March
 		11. MDA - MFI will coordinate?
 		12. MFI – Yes, but not sure we need to spend that amount of money.
 		13. OL - We can spend some seed money.
-		14. MDA - This is less than EURO1000/day.  I think we will need to spend more to get the job done properly and quickly.
+		14. MDA - This is less than EUR1000/day.  I think we will need to spend more to get the job done properly and quickly.
 		15. RGib - I will have to check if MFI can do some of this.
 		16. WQ - We want admin, user, dev docs in a consistent style, not just the web site, it is the design/style of the docs.
-		17. JT – Yes, how best to style and organise the information.  I just had a similar quote for work in UK of GBP400 per day but we don't know how many days are needed.  I am proposing an upper limit of EURO20k.
+		17. JT – Yes, how best to style and organise the information.  I just had a similar quote for work in UK of GBP400 per day but we don't know how many days are needed.  I am proposing an upper limit of EUR20k.
 		18. RGib - So maybe MFI could somehow reduce the cost.
 		19. WQ - How much have we in the bank?
-		20. RGir - EURO395k.
+		20. RGir - EUR395k.
 		21. OL - If it goes to the improvement of the code quality, I would spend more money, though I agree there is a need.
 		22. WQ - Docs are a key part of the software delivery.
 		23. MDA - Having this information for users on the website is important.
-		24. MDA - So can we say EURO15k.
+		24. MDA - So can we say EUR15k.
 		25. OL - We will spend whatever we set as a budget.
 		26. EE - We could spend more by agreement of the members at the time.
 		27. JT - Rule 10.6: any expenditure in excess of the annual budget...
 		28. MDA - No, that's the annual budget.
-		29. JT - So when we calculate the size of the annual budget, we will add EURO10k for the technical author?
+		29. JT - So when we calculate the size of the annual budget, we will add EUR10k for the technical author?
 		30. ALL - Agreed.
 		31. JT - Onto second budget item: any fees we will incur when transferring from MFI.
 		32. EE - No taxes are expected. 
@@ -683,22 +683,22 @@ title: OpenWIS Steering Committee 2016 March
 		35. MDA – It will be euro to euro, so make no provision.
 		36. JT – Next: repeat ongoing costs:-
 			- Amazon platform costs - USD150 pcm - USD1800 per yr, so round to USD2000 per yr.
-			- Renewal of openwis.io website - EURO150 per yr
+			- Renewal of openwis.io website - EUR150 per yr
 			- WQ - Do we pay for the trademark? 
 			- A-OWIS-SC-2016-32: EE - Check with Michael Robbins for fees related to trademarks. OWIS-A
-			- WQ – I think it was about EURO1000, but not sure if that was just for 1 year.
+			- WQ – I think it was about EUR1000, but not sure if that was just for 1 year.
 			- Software management tools - also about USD150 pcm - so say USD2000 per year.
-			- Last year we budgeted for EURO500 of promotional material, suggest the same this year.
-			- Last year we had EURO2000 for legal fees.
-			- RGir – As we said, there is an error in the submission to the Belgian Gazette, so we may need to pay for re-publication.  The notaries haven't said we will have to pay, but let's allow, say, EURO200.
-			- Last year we had EURO1000 for misc such as transfer of trademarks. That hasn't happened yet, so let's keep it in the budget for this year.
-			- Last year we set aside EURO84k for the salary and expenses of the Community Manager.  We spent none of that and we don't expect to hire one this year either, so we will not set aside any budget for that this year.
-			- So the total comes to about EURO15,850, give or take a bit on the EURO/USD exchange rate.
-			- EE - We should set aside EURO150 to cover bank and credit card charges.
-		37. So that takes us to - EURO16,000.
+			- Last year we budgeted for EUR500 of promotional material, suggest the same this year.
+			- Last year we had EUR2000 for legal fees.
+			- RGir – As we said, there is an error in the submission to the Belgian Gazette, so we may need to pay for re-publication.  The notaries haven't said we will have to pay, but let's allow, say, EUR200.
+			- Last year we had EUR1000 for misc such as transfer of trademarks. That hasn't happened yet, so let's keep it in the budget for this year.
+			- Last year we set aside EUR84k for the salary and expenses of the Community Manager.  We spent none of that and we don't expect to hire one this year either, so we will not set aside any budget for that this year.
+			- So the total comes to about EUR15,850, give or take a bit on the EUR/USD exchange rate.
+			- EE - We should set aside EUR150 to cover bank and credit card charges.
+		37. So that takes us to - EUR16,000.
 	4. **Budget Recommendations to the Board**
-		1. MDA - So we will recommend an annual budget provision of EURO20,000 to the board.
-		2. R-OWIS-SC-2016-12:Resolution: vote: 7-0 - in favour - Recommended to Board - an annual budget provision of EURO20,000. OWIS-R
+		1. MDA - So we will recommend an annual budget provision of EUR20,000 to the board.
+		2. R-OWIS-SC-2016-12:Resolution: vote: 7-0 - in favour - Recommended to Board - an annual budget provision of EUR20,000. OWIS-R
 18. **Any other business**
 	1. JT – Any other business?  Let's go round the table.
 	2. BB – I'm thinking of putting together a project for open spatial services - WFS, WMS etc.  Some of the existing services need to be extended to cover BUFR etc, support for time-series etc.
@@ -753,7 +753,7 @@ title: OpenWIS Steering Committee 2016 March
 	8. PR – Re: Section 17.2 Review of need for additional finance
 		- The SC recommends no additional finance is required this year.
 	9. PR – Re: Section 17.3 Preparation of budget for 2016/17
-		- The SC recommends an annual budget provision of EURO20,000.
+		- The SC recommends an annual budget provision of EUR20,000.
 20. **Closure of the meeting**
 	1. A-OWIS-SC-2016-33: JT - Set a date for the next SC in June 2016. OWIS-A
 	2. JT - Meeting closed, thank you all.

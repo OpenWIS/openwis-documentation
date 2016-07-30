@@ -48,12 +48,16 @@
 			</p>
 			<p>
 				 The Jekyll site warns about Byte Order Markers in files created on Windows (they crash the Jekyll build) and I have had to 
-				 remove these occassionally with a Hex editor. Any accented/special chars in the Markdown (eg: the 'e's in Meteo) also crash the build:
+				 remove these occassionally with a Hex editor. Any accented/special chars in the Markdown (eg: the '&eacute;'s in M&eacute;t&eacute;o) also crash the build:
 			</p>
 				 
-			<p><code>Error: could not read file C:/Users/Paul/Documents/GitHub/openwis-documentation/_posts/2016-03-09-OpenWIS-Steering-Committee-2016-Mar.md: invalid byte sequence in UTF-8
-  Liquid Exception: invalid byte sequence in UTF-8 in C:/Users/Paul/Documents/GitHub/openwis-documentation/_posts/2016-03-09-OpenWIS-Steering-Committee-2016-Mar.md
-jekyll 3.1.6 | Error:  invalid byte sequence in UTF-8</code></p>
+			<p>
+			<samp>Error: could not read file C:/Users/Paul/Documents/GitHub/openwis-documentation/_posts/2016-03-09-OpenWIS-Steering-Committee-2016-Mar.md: invalid byte sequence in UTF-8<br>
+  					Liquid Exception: invalid byte sequence in UTF-8 in C:/Users/Paul/Documents/GitHub/openwis-documentation/_posts/2016-03-09-OpenWIS-Steering-Committee-2016-Mar.md<br>
+						jekyll 3.1.6 | Error:  invalid byte sequence in UTF-8
+			</samp>
+			</p>
+			
 			<p>	 
 				 I am avoiding the problem at the moment by using only ANSI chars and editing-out or substituting as follows:
 			</p>
@@ -88,7 +92,7 @@ jekyll 3.1.6 | Error:  invalid byte sequence in UTF-8</code></p>
 							<td><code>&amplsquo;<code></td>
 							<td><code>2018</code></td>
 							<td class="notes">HTML Symbols - General Punctuation</td>
-							<td class="notes">Replace left-single-quote (smart quotes or curly quotes) with apostophe</td>
+							<td class="notes">Replace left-single-quote (smart quotes or curly quotes) with apostrophe</td>
 						 </tr>
 						 <tr>
 						  <td>&rsquo;</td>
@@ -96,7 +100,7 @@ jekyll 3.1.6 | Error:  invalid byte sequence in UTF-8</code></p>
 							<td><code>&amprsquo;<code></td>
 							<td><code>2019</code></td>
 							<td class="notes">HTML Symbols - General Punctuation</td>
-							<td class="notes">Replace right-single-quote (smart quotes or curly quotes) with apostophe</td>
+							<td class="notes">Replace right-single-quote (smart quotes or curly quotes) with apostrophe</td>
 						 </tr>
 						 <tr>
 						  <td>&eacute;</td>
@@ -140,11 +144,11 @@ jekyll 3.1.6 | Error:  invalid byte sequence in UTF-8</code></p>
 						 </tr>
 						 <tr>
 						  <td>&euro;</td>
-							<td>EURO</td>
+							<td>EUR</td>
 							<td><code>&ampeuro;<code></td>
 							<td><code>20AC</code></td>
 							<td class="notes">HTML Symbols - Currency Symbols</td>
-							<td class="notes">Replace euro symbol with EURO</td>
+							<td class="notes">Replace euro symbol with EUR</td>
 						 </tr>
 						 <tr>
 						  <td>$</td>
@@ -168,7 +172,7 @@ jekyll 3.1.6 | Error:  invalid byte sequence in UTF-8</code></p>
 			</p>
   		<p>
 				 There is a conversation taking place within the Jekyll community about Internationalisation (i18n) that perhaps will provide a better solution,
-				 but I haven't found it yet (queue Michael Buble sans accent). Most of the i18n involves plugins, which won't work for gh-pages, 
+				 but I haven't found it yet (queue Michael Buble, sans accent!). Most of the i18n involves plugins, which won't work for gh-pages, 
 				 because Jekyll runs there in '--safe' mode with plugins disabled.
 			</p>
 <hr />
