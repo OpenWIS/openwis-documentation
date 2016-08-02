@@ -11,10 +11,10 @@ title: OpenWIS Technical Committee 2016 May
 	4. RG - We provide scripts to generate the RPMs; we shouldn't distribute the RPMs.
 	5. MGo - that adds an hour to the build.
 	6. RG - OK, let's ask Michael Robbins for legal advice.
-	7. A-OWIS-TC-2016-38: PR - Ask Michael Robbins for legal advice. OWIS-A
+	7. ACT-OWIS-TC-2016-38: PR - Ask Michael Robbins for legal advice. OWIS-ACT
 	8. RG - We have a small password issue with the current script, so we have asked for an update; but we will send the current script to MG.
 	9. LM - could we raise a pull request for the script?
-	10. A-OWIS-TC-2016-39: MG - Raise a pull request for the script. OWIS-A
+	10. ACT-OWIS-TC-2016-39: MG - Raise a pull request for the script. OWIS-ACT
 2. **Review the progress of the development works since last meeting.**
 	1. **Release of 3.14.5**
 		1. MGo - Version 3.14.5 was released in April, a week after the last TC.  There was an issue with a missing dependency file, but that was sorted once it got added to Cloudbees.
@@ -36,7 +36,7 @@ title: OpenWIS Technical Committee 2016 May
 		4. MGo - I'm not sure it's fit for release in the current state.
 		5. DW - OK, but we do need people to look at it and come up with more requirements.
 		6. RG - I agree, we want to see what is missing - with the caveat that it is just for a look.
-		7. A-OWIS-TC-2016-40: MG - Ask the CM Team to open up OpenWIS 4.x so everyone else can take a look. OWIS-A
+		7. ACT-OWIS-TC-2016-40: MG - Ask the CM Team to open up OpenWIS 4.x so everyone else can take a look. OWIS-ACT
 		8. PN - Do we have docs on how to run it etc?
 		9. MGo - Needs some work to build the environments; there is something already up on AWS, the only problem with it is the harvesting.
 		10. LM - I volunteer to take a look at 4.x.
@@ -44,8 +44,8 @@ title: OpenWIS Technical Committee 2016 May
 		12. RG - Could we use the cloud servers set up by MF, where it could be a semi-permanent installation and everyone can have a look?
 		13. DW - Can we push data to that?
 		14. RG - Yes, absolutely.
-		15. A-OWIS-TC-2016-41: RG - Give MGo/LM access to the MF cloud servers. OWIS-A
-		16. A-OWIS-TC-2016-42: MGo/LM Set up OpenWIS v4 on the MF cloud servers, by the next TC if possible. OWIS-A
+		15. ACT-OWIS-TC-2016-41: RG - Give MGo/LM access to the MF cloud servers. OWIS-ACT
+		16. ACT-OWIS-TC-2016-42: MGo/LM Set up OpenWIS v4 on the MF cloud servers, by the next TC if possible. OWIS-ACT
 3. **How everyone set up their development environment (feedback need to assess if anything further need to be done to on-boarding developers).**
 	1. OL - we're currently working through the set up of SSO.  We're using the MF scripts and the MGo instructions; some initial hurdles, but we're getting there.
 4. **Review the status of Action items from last meeting.**

@@ -12,10 +12,10 @@ title: OpenWIS Technical Committee 2016 (FULL MONTH NAME)
 		1. lh level 3 or lower (no-em)
 			1. li 1
 			2. _li 2 (weak em)_
-			3. A-OWIS-TC-99:Action: XX - aaaaaaaaaaaaaaaaaaaa. OWIS-A
+			3. ACT-OWIS-TC-99:Action: XX - aaaaaaaaaaaaaaaaaaaa. OWIS-ACT
 2. **lh level 1**
 	1. li 1
-	2. R-OWIS-TC-99:Resolution: rrrrrrrrrrrrrrrrrrrr. OWIS-R
+	2. RES-OWIS-TC-99:Resolution: rrrrrrrrrrrrrrrrrrrr. OWIS-RES
 	3. **lh level 2 (strong em)**
 		1. > blockquote
 		2. li 2

@@ -45,23 +45,23 @@ title: OpenWIS Steering Committee 2016 March
 	4. MDA – I agree, we will need to change them at some time for other reasons and should leave it until then.
 	5. JT - Where articles are unclear the internal rules clarify.
 	6. MDA - So in the internal rules we could say that by default the tenure is 2 years and that re-election is routine unless others want to stand?
-	7. R-OWIS-SC-2016-01:Resolution: vote: 7-0 in favour - Amend Internal Rules to say that default tenure is 2 years unless others want to stand for election. OWIS-R
+	7. RES-OWIS-SC-2016-01:Resolution: vote: 7-0 in favour - Amend Internal Rules to say that default tenure is 2 years unless others want to stand for election. OWIS-RES
 	8. Call for nominations from amongst the Delegates
 		1. JT – The nominations so far received are: 
 			* JT as SC-Chair; 
 			* LLG as SC-Vice-Chair; 
 		2. JT - Are there any further nominations?  No?  Ok, let's vote.
 		3. Vote:
-			1. R-OWIS-SC-2016-02:Resolution: vote: 7-0 in favour - JT is elected as SC-Chair. OWIS-R
-			2. R-OWIS-SC-2016-03:Resolution: vote: 7-0 in favour - LLG is elected as SC-Vice-Chair. OWIS-R
+			1. RES-OWIS-SC-2016-02:Resolution: vote: 7-0 in favour - JT is elected as SC-Chair. OWIS-RES
+			2. RES-OWIS-SC-2016-03:Resolution: vote: 7-0 in favour - LLG is elected as SC-Vice-Chair. OWIS-RES
 8. **Election of chairperson ("TC-Chair") and vice-chairperson ("TC-Vice-Chair") of the Technical Committee (see Article A14.3)**
 	1. Call for nominations from amongst Delegates
 		1. JT – Many thanks to WQ for chairing the TC last year.  WQ is content to continue for another year so I nominate WQ for TC-Chair. No other nominations have been received.  
 		2. JT – TC-Vice-Chair is currently Bob Bunge.  However, NWS are moving internal responsibility for OpenWIS so Bob nominated Steve Olson (NWS).  Steve has good technical credentials and NWS are getting more involved now.
 		3. JT – Any other nominations?  None?  Ok, let's vote.
 		4. Vote:
-			1. R-OWIS-SC-2016-04:Resolution: vote: 7-0 in favour - WQ is elected TC-Chair. OWIS-R
-			2. R-OWIS-SC-2016-05:Resolution: vote: 7-0 in favour - SO is elected TC-Vice-Chair. OWIS-R
+			1. RES-OWIS-SC-2016-04:Resolution: vote: 7-0 in favour - WQ is elected TC-Chair. OWIS-RES
+			2. RES-OWIS-SC-2016-05:Resolution: vote: 7-0 in favour - SO is elected TC-Vice-Chair. OWIS-RES
 9. **Recommendations to the Board regarding admission of any person as a Member of the Organization**
 	1. JT - Have there been any formal requests for membership?
 	2. MDA - No.
@@ -213,15 +213,15 @@ title: OpenWIS Steering Committee 2016 March
 	7. **Identification of metrics and targets for OpenWIS Association performance**
 		1. What can we measure? - Paul Rogers
 			1. PR – So at the TC we decided to try the Kanban approach to managing delivery.  The main thing we're trying to manage in Kanban is the workflow, with the objective of ensuring consistent high quality products and releases.  The focus is on limiting the work-in-progress to control complexity and risk and to make sure things get properly finished before starting something new.  The current backlog status should be visible to all and clearly related to the services we are developing. There are cumulative flow diagrams and charts that can be used to track these things, and we will probably use GitHub and maybe some other tools, but rather than go into detail now, I'll work up a proposal with the TC.  We'll start using these methods for v 4.
-			2. A-OWIS-SC-2016-01: PR - make a proposal for Kanban backlog and metrics, agree with TC and then circulate to SC. OWIS-A
+			2. ACT-OWIS-SC-2016-01: PR - make a proposal for Kanban backlog and metrics, agree with TC and then circulate to SC. OWIS-ACT
 	8. **Recommendations to the Board**
 		1. Medium term goals; 3 year strategy:
 			1. **Stabilise OpenWIS software to a supportable version with good test coverage**
 				- Metric 1.1: Good test coverage (what %? – TC to define)
-				- A-OWIS-SC-2016-02: WQ – Define 'good test coverage' as a percentage (with TC). OWIS-A
+				- ACT-OWIS-SC-2016-02: WQ – Define 'good test coverage' as a percentage (with TC). OWIS-ACT
 				- Metric 1.2: Patchable (needs TC work to define this)
-				- A-OWIS-SC-2016-03: WQ – TC to define 'patchable'. OWIS-A
-				- A-OWIS-SC-2016-04: WQ - TC to agree lifecycle patching strategy. OWIS-A
+				- ACT-OWIS-SC-2016-03: WQ – TC to define 'patchable'. OWIS-ACT
+				- ACT-OWIS-SC-2016-04: WQ - TC to agree lifecycle patching strategy. OWIS-ACT
 				- Metric 1.3: OpenWIS 4.2 released by end of March 2017; ready for operational deployment.
 			2. **Delivery of OpenWIS software that meets needs of operational WIS Centres**
 				- Metric 2.1: At least two Member or Partner organisations have deployed OpenWIS 4 and accepted it for operational use by Q4 2017... quality assessment.
@@ -288,36 +288,36 @@ title: OpenWIS Steering Committee 2016 March
 	2. **Review plan for going 'fully' open source**
 		1. JT – Although we expect to complete the 3.14 release fairly soon, work on version 4 is well advanced and the architecture is quite different from version 3.14.  Therefore, it makes more sense to make the version 4 code public, rather than having potential developers looking at the older version 3 code and architecture.  I suggest that we use the development release version 4.1, due about June time, for this purpose.  We can then go open source any time after that, once we have the docs ready.
 		2. WQ – Yes, that seems reasonable.  
-		3. A-OWIS-SC-2016-05: PR - Do some more detailed tasking around production of docs for open source. OWIS-A
+		3. ACT-OWIS-SC-2016-05: PR - Do some more detailed tasking around production of docs for open source. OWIS-ACT
 	3. **Resolution of issues referred to SC (if any arising)**
 		- JT - no issues arising.
 	4. **Approval of strategic programme and work plan(s)**
-		1. R-OWIS-SC-2016-06:Resolution: vote: 7-0 in favour - To recommend this strategic plan to the Board. OWIS-R
+		1. RES-OWIS-SC-2016-06:Resolution: vote: 7-0 in favour - To recommend this strategic plan to the Board. OWIS-RES
 	5. **Identification of investment required from OpenWIS Association required to deliver the work plan**
 		1. JT - Technical author - EUR10k
 		2. JT - Continuing costs around development environment and cloud tools - roughly the same as next year.
 		3. JT - SonarQube etc
 		4. JT - About $200 pcm all told
 		5. JT - Black Duck – was supposed to inform us about licence issues etc.  However, customer service is poor so we're looking for an alternative.
-		6. A-OWIS-SC-2016-06: - BR - Put someone at UKMO in touch with ECMWF about using [PALAMIDA][BR1] OWIS-A
+		6. ACT-OWIS-SC-2016-06: - BR - Put someone at UKMO in touch with ECMWF about using [PALAMIDA][BR1] OWIS-ACT
 		7. MG - OWASP – An automatic report on library vulnerabilities is now included in the routine build.  Reporting some high and medium priority issues at present, which will need to be investigated.
 		8. JT – Maybe we'll need to remove/update some libraries; that's a question for the next TC.
 		9. JT - OpenWIS Core is released under GPL3 - other projects will choose an appropriate open source licence.
 		10. WQ - do we still need to check our licences for purposes of open source release under GPL3?
 		11. JT - Yes, so we will try PALAMIDA.
 		12. RGir - The cost of the cloud servers MF have set up is covered until March 2017.
-		13. A-OWIS-SC-2016-07: WQ - TC to review the use of these servers in Jan 2017 and decide whether to extend. OWIS-A
+		13. ACT-OWIS-SC-2016-07: WQ - TC to review the use of these servers in Jan 2017 and decide whether to extend. OWIS-ACT
 		14. JT - Developer Conference; for the event this year the OpenWIS Association covered the 2k budget of sending Lead Developer, should we do that this year?
 		15. MDA – No, the policy is that members cover travel costs other than in exceptional circumstances.
 	6. **Approve OpenWIS release roadmap**
 		- JT - there is no fixed roadmap now that we are using the new development  process.  We have agreed a Development release in about June and a stable release in March 2017.  We also said the Kanban board (work packages) must be visible to all participants.  So we should publish the candidate features and the progress against the list of features.
 	7. **Review of Lead Developer role**
 		1. JT - currently Leon Mika is doing a superb job in coordinating the development efforts across the teams.  Leon is always available, has good sense and strong technical knowledge.  
-		2. A-OWIS-SC-2016-08: MDA/JT will award Leon a certificate as formal recognition of his contribution. OWIS-A
+		2. ACT-OWIS-SC-2016-08: MDA/JT will award Leon a certificate as formal recognition of his contribution. OWIS-ACT
 		3. JT - Should we continue with the Lead Developer role?  All - Yes.
 		4. BB - Put it within the project governance.
 		5. JT - Would be great if Leon could continue in that role.
-		6. A-OWIS-SC-2016-09: WQ - Confirm that Leon will continue in the role for the next 12 months. OWIS-A
+		6. ACT-OWIS-SC-2016-09: WQ - Confirm that Leon will continue in the role for the next 12 months. OWIS-ACT
 	8. **Review need for [Community Manager][JT1] role - Jeremy Tandy**
 		1. JT - Paper attached; similar to Melbourne with a few feedback comments included.
 		2. JT - Are we ready yet for a Community Mgr?
@@ -336,7 +336,7 @@ title: OpenWIS Steering Committee 2016 March
 		15. JT - We recognise that the role is important for the health of the community in the long term.  But we don't need to do it quite yet.  When we go open source and people have the opportunity to contribute, we will need to assign these tasks, to members and partners.  At some point we may find that this role is needed or even self sustaining.  So let's review it then.
 		16. MDA - Will we find the resources to do the job?
 		17. JT - We will to do some of the job; we can do it ourselves for now.
-		18. A-OWIS-SC-2016-10: JT - As part of going open source we need a Communications Plan. OWIS-A
+		18. ACT-OWIS-SC-2016-10: JT - As part of going open source we need a Communications Plan. OWIS-ACT
 12. **Risk review and development of mitigation plans**
 	1. JT – I propose that we hold quarterly SC calls - so schedule for June - and look at the risks for the Association.  The TC manage the technical risks and escalate them to the SC when needed.
 	2. BB – The risks around management of IP and code provenance review won't wait until June.
@@ -363,36 +363,36 @@ title: OpenWIS Steering Committee 2016 March
 			19. BB - We may find it easier to extend an existing project rather than develop our own.
 			20. JT - With GeoNetwork we extended some of the core GeoNetwork and also built some packages specific to OpenWIS.
 		3. JT paper on [multiple projects][JT2]
-			1. A-OWIS-SC-2016-11: JT - Publish Articles, Internal Rules and Board etc on our website. OWIS-A
+			1. ACT-OWIS-SC-2016-11: JT - Publish Articles, Internal Rules and Board etc on our website. OWIS-ACT
 			2. OL - Is it not possible to have multiple projects without changing the internal rules?
 			3. JT/WQ - The internal rules are not clear about how we run projects.  This needs to be clear to ourselves and for others.
 			4. RGir - In French we have singular software rather than plural software(s), so it is explicitly singular.
 			5. JT - So we may need to clarify this in the articles in the future.
-			6. A-OWIS-SC-2016-12: JT - Make sure the role of User is clear in the internal rules. OWIS-A
+			6. ACT-OWIS-SC-2016-12: JT - Make sure the role of User is clear in the internal rules. OWIS-ACT
 			7. OL - As soon as we change the internal rules, does the OpenWIS software become a project?
 			8. JT - Yes.
 			9. WQ – Does it cover removing PMC members?  
 			10. JT - The process needs to cover that, probably escalated to SC for a decision.
 			11. BB - How are Contributors tied in with articles?  
 			12. JT - They are not because they are not partners or members.  We need to say they comply with the Code of Conduct, which we need to write down.
-			13. A-OWIS-SC-2016-13: JT (through Michael Robbins) get legal advice on whether the articles shelter the contributors from litigation. OWIS-A
+			13. ACT-OWIS-SC-2016-13: JT (through Michael Robbins) get legal advice on whether the articles shelter the contributors from litigation. OWIS-ACT
 			14. WQ – Is the PMC subordinate to the SC or the TC?
 			15. (JT captured a discussion about the roles of Technical Committee/Steering Committee/Project Management Committee, in real-time, in a diagram on-screen.  The meeting finally agreed this [Committee Role Structure][JT3])
 			16. JT – Ok, so we agree that the TC will continue to operate as PMC for OpenWIS Core for the time being so that the articles don't have to be changed.
-			17. A-OWIS-SC-2016-14: PR - RISK for Board Risk Register - That the articles of the Association are not fit for purpose regarding, particularly: 
+			17. ACT-OWIS-SC-2016-14: PR - RISK for Board Risk Register - That the articles of the Association are not fit for purpose regarding, particularly: 
 				Article 14.1 Architecture role of TC, 
 				Article 9.1 No mention of contributors, 
-				Article 21.2 Indemnity of partners and contributors. OWIS-A
-			18. A-OWIS-SC-2016-15: WQ(TC) - Define the roles in the development process - see JT doc. OWIS-A
-			19. A-OWIS-SC-2016-16: JT - Clarify articles that may appear to force other people to pay for your project.
-			20. R-OWIS-SC-2016-07:Resolution: vote: 7-0 in favour - JT is tasked to amend the Internal Rules to reflect what we have discussed here today about managing multiple projects. OWIS-R 
+				Article 21.2 Indemnity of partners and contributors. OWIS-ACT
+			18. ACT-OWIS-SC-2016-15: WQ(TC) - Define the roles in the development process - see JT doc. OWIS-ACT
+			19. ACT-OWIS-SC-2016-16: JT - Clarify articles that may appear to force other people to pay for your project.
+			20. RES-OWIS-SC-2016-07:Resolution: vote: 7-0 in favour - JT is tasked to amend the Internal Rules to reflect what we have discussed here today about managing multiple projects. OWIS-RES 
 	2. **Flexibility in [choice of open source license][JT4]**
 		1. JT - We agreed last year that projects could choose any licence accepted by Open Source Initiative.
 		2. JT - Let's refer to the OpenWIS software project as **OpenWIS Core**.  
 		3. JT - The OpenWIS Core project will continue to use GPL3.
 		4. JT - I propose that we change rule art.9, to say that each project shall declare which OSI licence they use.
 		5. BB - SC should have a veto in case of incompatibility between the licence chosen with other licences of dependent projects.
-		6. R-OWIS-SC-2016-08:Resolution: vote: 7-0 in favour - JT is tasked with changing rule art.9, to say that each project shall declare which OSI licence they use. OWIS-R
+		6. RES-OWIS-SC-2016-08:Resolution: vote: 7-0 in favour - JT is tasked with changing rule art.9, to say that each project shall declare which OSI licence they use. OWIS-RES
 14. **New opportunities for collaboration**
 	1. **Review proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
 		1. Status update on [OpenCDMS][BB2] - Bruce Bannerman
@@ -434,8 +434,8 @@ title: OpenWIS Steering Committee 2016 March
 		5. RabbitMQ/AMQP
 			1. JT - May also be a proposal - would any members be able to draft something?  
 			2. WQ - Do we just want to explore if pub/sub works or look at whether we would use it in OpenWIS?  
-			3. A-OWIS-SC-2016-17: WQ - To do a project proposal relating an investigation work package for the OpenWIS Core. OWIS-A
-			4. A-OWIS-SC-2016-18: MDA - Find out if NMS Canada is interested in bringing MetPX under the OpenWIS umbrella. OWIS-A
+			3. ACT-OWIS-SC-2016-17: WQ - To do a project proposal relating an investigation work package for the OpenWIS Core. OWIS-ACT
+			4. ACT-OWIS-SC-2016-18: MDA - Find out if NMS Canada is interested in bringing MetPX under the OpenWIS umbrella. OWIS-ACT
 	2. **Identification of opportunities to participate in calls for proposals in externally funded projects**
 		1. JT – I'm not aware of any – anyone else?  No.
 	3. **Recommendation to the Board regarding new projects to establish**
@@ -445,13 +445,13 @@ title: OpenWIS Steering Committee 2016 March
 		4. RGir – AFD, a 20 year old file distribution software.  It's a one man OSS project in the same situation as MetPX; old stable software. 
 		5. OL - Why bother with it?
 		6. RGir - AFD has no API etc so requires some extra development; it might complete an end-to-end dissemination harness for OpenWIS.
-		7. A-OWIS-SC-2016-19: RGir - Investigate appetite for a project proposal with DWD. OWIS-A
+		7. ACT-OWIS-SC-2016-19: RGir - Investigate appetite for a project proposal with DWD. OWIS-ACT
 15. **Outreach, communications and community**
 	1. **Recommendations to the Board regarding admission of new Partners**
 		1. JT - MDA talked to Canada - will have another go.
 		2. BR – For ECMWF, the paperwork has gone up now.
 		3. JT - is the SC ready to recommend ECMWF as an Associate Partner?
-		4. R-OWIS-SC-2016-09:Resolution: vote: 7-0 in favour - ECMWF is recommended as an Associate Partner. OWIS-R
+		4. RES-OWIS-SC-2016-09:Resolution: vote: 7-0 in favour - ECMWF is recommended as an Associate Partner. OWIS-RES
 		5. JT - Any others? No.
 	2. **Recommendations to the Board regarding engagement with third-parties to participate in consortia responding to calls for proposals in respect of externally funded projects - see also item (14.2)**
 		1. JT - None known.
@@ -459,14 +459,14 @@ title: OpenWIS Steering Committee 2016 March
 		1. [Contributor License Agreement][JT5]
 		2. JT - A lot of contributors won't want to physically post a form to our Belgian address.  I suggest we amend the Internal Rules... see JT paper.
 		3. BB - Why not have an umbrella agreement?
-		4. A-OWIS-SC-2016-20: JT/PR - Talk to Michael Robbins about whether an umbrella agreement would have legal standing. OWIS-A
+		4. ACT-OWIS-SC-2016-20: JT/PR - Talk to Michael Robbins about whether an umbrella agreement would have legal standing. OWIS-ACT
 		5. JT – I suggest an online CLA form
 		6. BB - Not sure click-through will be valid
-		7. A-OWIS-SC-2016-21: JT/PR - Work with Michael to determine legal validity in all territories of a click-through online CLA - and validity under Belgian law.  Refer to legal contact of IRM? OWIS-A
+		7. ACT-OWIS-SC-2016-21: JT/PR - Work with Michael to determine legal validity in all territories of a click-through online CLA - and validity under Belgian law.  Refer to legal contact of IRM? OWIS-ACT
 		8. Example CLA management service: CLA Assistant - (MG gave a demo of a click-through CLA)
 		9. BB - One OSS project that wanted to change its licence had to contact every contributor, so they needed a list.
 		10. JT - So this would be a simpler way to manage the licence agreements than managing paper copies.
-		11. A-OWIS-SC-2016-22: JT - Come up with suitable method for managing CLAs.  Bring back to SC to approve by correspondence.  Update CLA process and forms if approved. OWIS-A
+		11. ACT-OWIS-SC-2016-22: JT - Come up with suitable method for managing CLAs.  Bring back to SC to approve by correspondence.  Update CLA process and forms if approved. OWIS-ACT
 		12. JT - SC confirm that a single CLA for all projects is preferred.  And that we have an online system that manages the CLAs (otherwise TC will have to manage all the paperwork).  
 		13. **NOTE:** This needs a robust mechanism to backup/restore/copy the signed agreement.  We must resolve this before our OSS release.
 	4. **Development of community growth strategy (discussion)**
@@ -476,14 +476,14 @@ title: OpenWIS Steering Committee 2016 March
 		1. JT – We covered this earlier.
 	6. **Communications plan**
 		1. JT - how will we communicate our OSS release.  How will we communicate our stable release.  We wanted to improve communications from MFI about which of their customers are using OpenWIS.
-		2. A-OWIS-SC-2016-23: RGib - email info about who is using OpenWIS to both TC and SC. OWIS-A
+		2. ACT-OWIS-SC-2016-23: RGib - email info about who is using OpenWIS to both TC and SC. OWIS-ACT
 		3. JT – As RGib said, MFI users are mainly interested in being endorsed by WMO; they don't see other benefits of OpenWIS.  
 		4. JT - so our communications plan needs to be clearer about the benefits of being a contributor.  Community building is a secondary concern, after building quality software.  We said there are tasks that need doing to communicate about the project that fit in the role of the Community Manager role and that we would allocate those tasks as we approach our OSS release.  We agree that we will do that later, to coincide with the open-source release
-		5. A-OWIS-SC-2016-24: LLG – Clarify in the communications plan. OWIS-A
+		5. ACT-OWIS-SC-2016-24: LLG – Clarify in the communications plan. OWIS-ACT
 		6. RGir - Also we wanted to improve the content on the website.
-		7. A-OWIS-SC-2016-25: RGib - Improve the existing web-site (nothing grand). OWIS-A
+		7. ACT-OWIS-SC-2016-25: RGib - Improve the existing web-site (nothing grand). OWIS-ACT
 		8. RGib – We can provide to the Association the feedback received so far from users.
-		9. A-OWIS-SC-2016-26: RGib - Provide to the Association the feedback received so far from users to TC and SC. OWIS-A
+		9. ACT-OWIS-SC-2016-26: RGib - Provide to the Association the feedback received so far from users to TC and SC. OWIS-ACT
 		10. MDA - When we go open source, send CBS an email to announce it.  Also include in the plan how we communicate at the CBS meeting.
 		11. MDA – We should also communicate about enlarging the scope of the Association and explain the difference between that and the core software, especially to the other commissions.
 		12. JT – A 3.14.4 stable release will occur in less than a month. Then a development release around June, maybe another development release a little later, then a stable 4.2 in March 2017.
@@ -501,7 +501,7 @@ title: OpenWIS Steering Committee 2016 March
 		24. RGir - we are going to many WMO meetings in the next few weeks/months, so we could do a shared presentation that we all show.  It will be minuted and will start growing.
 		25. JT - In taking the initial steps, do you have something?
 		26. MDA - We have slides, we can prepare something.
-		27. A-OWIS-SC-2016-27: RGir – prepare a presentation. OWIS-A
+		27. ACT-OWIS-SC-2016-27: RGir – prepare a presentation. OWIS-ACT
 		28. WQ – Regarding AFD, if it is already OSS and has a main developer, then do we need to deal with DWD.
 		29. RGir - If we work with DWD that also has political as well as technical merit.
 		30. BB - Building the community; open spatial services for delivery of data.  Many NMS are already collaborating on OGC services so that would be a good way to collaborate.  
@@ -534,7 +534,7 @@ title: OpenWIS Steering Committee 2016 March
 		57. BB - And empowering that project to be successful.
 		58. RGib - I am not sure we will be together on a new project.  WIGOS is one, OGC services another.
 		59. JT - We will meet again as a Steering Committee in 3 months time.  Would someone take the lead in producing a strategy to say what future work will be the focus of our work together .
-		60. A-OWIS-SC-2016-28: JT - To write a strategy paper on: Where we can deliver the most value for the broader community in the near future. OWIS-A
+		60. ACT-OWIS-SC-2016-28: JT - To write a strategy paper on: Where we can deliver the most value for the broader community in the near future. OWIS-ACT
 		61. WQ - OPEX 2019?
 		62. MDA - When we started work I suggested OSS and ICAO said "No way!"  We started a project anyway.
 		63. JT - SC need to define clearly the vision of the Association.
@@ -545,7 +545,7 @@ title: OpenWIS Steering Committee 2016 March
 		68. MDA - WIGOS is at the very beginning.  15 years ago we put a lot of energy into defining WIS.  Let's wait until WIGOS know what they want.
 		69. JT - In the larger community we want to engage with the Internet of Things (IoT).  OSCAR is being built but it's premature to suggest we spin up a project around that.  Let's come back to this and the communications question again in 3 months.
 		70. JT – We've started using the term OpenWIS Core to describe the software we use to run operational WIS centres.  We need a name for this software so that we can clearly distinguish it.  
-		71. A-OWIS-SC-2016-29: OL - Come up with an appropriate name. OWIS-A
+		71. ACT-OWIS-SC-2016-29: OL - Come up with an appropriate name. OWIS-ACT
 		72. JT - We need to be clearer with people whether were just asking for contributions or whether we are asking people to become members/partners.  It is important that the rules make the role of contributor clear.
 		73. JT - We also need to make it clear that we have robust governance around running multiple projects for the benefit of the community.  How should we do this?  Can we address these topics in the slide deck?
 		74. WQ - The message should be that we have OSS governance set up and what it is.  Then welcome everyone.
@@ -564,7 +564,7 @@ title: OpenWIS Steering Committee 2016 March
 		87. OL - Present at AMS, Matteo?
 		88. MDA – Yes.
 		89. BB – There is an organisation called Join Up that focuses on OSS projects, so could put something out once we have strategy and governance etc and have the material ready on our website.
-		90. A-OWIS-SC-2016-30: JT - Let's put targeted communications on the agenda for the next SC meeting. OWIS-A
+		90. ACT-OWIS-SC-2016-30: JT - Let's put targeted communications on the agenda for the next SC meeting. OWIS-ACT
 		91. RGir – Ok, I'll have the draft slide deck (see action above) ready for a June SC.  If we plan to approach DWD we could have a couple of slides that show how we think AFD might fit.  Same for Canada and MetPX.
 		92. MDA – What about the ET-WISC in Melbourne in May, should we have the slides for then?
 		93. JT – That's not much of an opportunity because they'll only hear 'OpenWIS Core'.
@@ -613,7 +613,7 @@ title: OpenWIS Steering Committee 2016 March
 		39. WQ – Otherwise, the TC has been weakened.
 		40. BB - People can't argue with the published rules.
 		41. JT – I suggest we change 'eligibility' to 'right to appoint' and also scrub the phrase 'following election by SC'.
-		42. R-OWIS-SC-2016-10:Resolution: vote: 7-0 in favour - Recommended to Board that we change 'eligibility' to 'right to appoint' and also scrub the phrase 'following election by SC'. OWIS-R
+		42. RES-OWIS-SC-2016-10:Resolution: vote: 7-0 in favour - Recommended to Board that we change 'eligibility' to 'right to appoint' and also scrub the phrase 'following election by SC'. OWIS-RES
 		43. JT - Article 14.2 of the articles says ...  we must respect the articles in the internal rules.
 		44. JT - Options: eligible to be in TC subject to qualification in article 14.2.
 		45. OL - We don't need to change the rules to appoint ECMWF.
@@ -636,11 +636,11 @@ title: OpenWIS Steering Committee 2016 March
 		62. RGib - I require clarification on the JT proposed change.
 		63. MDA - An Associate Partner will get a TC seat so long as they have the right skills.  Worst case, they don't get a seat on the TC, but that is unlikely.
 		64. JT - I propose a vote on this clarification: eligible to be in TC subject to qualifying criteria in article 14.2.
-		65. R-OWIS-SC-2016-11:Resolution: vote:  6 in favour, 0 against and 1 abstained - Recommended to Board - clarification: eligible to be in TC subject to qualifying criteria in article 14.2. OWIS-R
+		65. RES-OWIS-SC-2016-11:Resolution: vote:  6 in favour, 0 against and 1 abstained - Recommended to Board - clarification: eligible to be in TC subject to qualifying criteria in article 14.2. OWIS-RES
 		66. JT - We recognise there is a challenge to year on year funding.  We need to clarify how we would seek additional year on year funding.  We could seek funding from organisations that seek developments from within the broader met community, by showing the value of OpenWIS projects to that community.  Being an OSS community should give some credibility.  We have no sponsors at the moment.  We agreed we're too small to charge for the Conference.  We agreed there may be opportunities to participate in externally funded projects, but we would need to be clear in our commitments to those projects.  
 		67. JT - We have the mechanisms in place to ask for more funds from Strategic Partners and Members and Associate Partners have the option to contribute.  Such funding requests require a unanimous board vote.
 		68. BB – The option with most potential is to seek funds from sponsors, but the Association would need to develop a value proposition for sponsoring organisations.  
-		69. A-OWIS-SC-2016-31: BB - Will help develop a value proposition.  But I'm not ideal; people in WMO have that experience, so I will ask around to see if I can identify the right people. OWIS-A
+		69. ACT-OWIS-SC-2016-31: BB - Will help develop a value proposition.  But I'm not ideal; people in WMO have that experience, so I will ask around to see if I can identify the right people. OWIS-ACT
 		70. JT – MDA, are you content we have covered that item?
 		71. MDA – Yes, thank you.		
 	2. **Review of need for additional finance**
@@ -685,7 +685,7 @@ title: OpenWIS Steering Committee 2016 March
 			- Amazon platform costs - USD150 pcm - USD1800 per yr, so round to USD2000 per yr.
 			- Renewal of openwis.io website - EUR150 per yr
 			- WQ - Do we pay for the trademark? 
-			- A-OWIS-SC-2016-32: EE - Check with Michael Robbins for fees related to trademarks. OWIS-A
+			- ACT-OWIS-SC-2016-32: EE - Check with Michael Robbins for fees related to trademarks. OWIS-ACT
 			- WQ – I think it was about EUR1000, but not sure if that was just for 1 year.
 			- Software management tools - also about USD150 pcm - so say USD2000 per year.
 			- Last year we budgeted for EUR500 of promotional material, suggest the same this year.
@@ -698,7 +698,7 @@ title: OpenWIS Steering Committee 2016 March
 		37. So that takes us to - EUR16,000.
 	4. **Budget Recommendations to the Board**
 		1. MDA - So we will recommend an annual budget provision of EUR20,000 to the board.
-		2. R-OWIS-SC-2016-12:Resolution: vote: 7-0 - in favour - Recommended to Board - an annual budget provision of EUR20,000. OWIS-R
+		2. RES-OWIS-SC-2016-12:Resolution: vote: 7-0 - in favour - Recommended to Board - an annual budget provision of EUR20,000. OWIS-RES
 18. **Any other business**
 	1. JT – Any other business?  Let's go round the table.
 	2. BB – I'm thinking of putting together a project for open spatial services - WFS, WMS etc.  Some of the existing services need to be extended to cover BUFR etc, support for time-series etc.
@@ -755,7 +755,7 @@ title: OpenWIS Steering Committee 2016 March
 	9. PR – Re: Section 17.3 Preparation of budget for 2016/17
 		- The SC recommends an annual budget provision of EUR20,000.
 20. **Closure of the meeting**
-	1. A-OWIS-SC-2016-33: JT - Set a date for the next SC in June 2016. OWIS-A
+	1. ACT-OWIS-SC-2016-33: JT - Set a date for the next SC in June 2016. OWIS-ACT
 	2. JT - Meeting closed, thank you all.
 
 ---

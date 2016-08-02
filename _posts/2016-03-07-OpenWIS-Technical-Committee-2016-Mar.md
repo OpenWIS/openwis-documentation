@@ -15,7 +15,7 @@ title: OpenWIS Technical Committee 2016 March
 		1. MGo - v3.14.3 is the current release candidate.  Issues have arisen from security testing.  We have fixed the critical issue.  There is a 3.14.4 release but this is experimental - it is being used to adapt OpenWIS to maven 3.
 		2. MGo - Dom Wollatt has completed User testing and produced a full [Test Report][TR] (from this [Test Plan][TP]). There were some issues for accreditation and some other existing known issues.  Dom Woollatt has made some recommendations in the report.  So, going through the report issue by issue (Use Cases [B.1][B1], [B.2][B2], [B.3][B3], [B.4][B4], [B.5][B5], [B.6][B6], [B.10][B10])...
 		3. MGo - Test report: UC.B1 - Issue #98; LM is looking at this one and has raised PR#99 - which has been merged.  However it looks like more work is needed.
-		4. A-OWIS-TC-2016-6: MGo - Raise a new issue. OWIS-A
+		4. ACT-OWIS-TC-2016-6: MGo - Raise a new issue. OWIS-ACT
 		5. WQ - this will affect when we release.
 		6. MGo - Issue #73...
 		7. RGr - FMI and MFI have had this issue raised during an audit by Marcus.  It is not against technical regulations so there is a question of whether to fix or accept it?    Meteo-France don't open this function to end-users.
@@ -30,17 +30,17 @@ title: OpenWIS Technical Committee 2016 March
 		16. LM - looks too involved to sort it quickly - defer.
 		17. LM - Issues #123,#124 - looks like repeat of old one? Needs research.  Not frequently occurring, so defer.
 		18. RGr - Issue #32 - think fixed by Francois
-		19. A-OWIS-TC-2016-7: RGr - Check with Francois that #32 is fixed. OWIS-A
+		19. ACT-OWIS-TC-2016-7: RGr - Check with Francois that #32 is fixed. OWIS-ACT
 		20. Issue #44: defer.
 		21. Issue #93: defer.
 		22. WQ - Shall we aim to fix all these functional issues or aim to Release soon instead? [Round the room vote unanimous in favour of Release soon]
 		23. WQ - Ok we aim to release soon and defer these issues to a later release.
 		24. MGo - Ok then, on to the security test issues:
 		25. MGo - Pen testing #3: web service leaks info - not an OpenWIS software issue - a deployment issue - propose that we update the install guide to inform system admins.
-		26. A-OWIS-TC-2016-8: LM - update the install guide (#3). OWIS-A
+		26. ACT-OWIS-TC-2016-8: LM - update the install guide (#3). OWIS-ACT
 		27. MGo - Pen testing #6: sensitive info sent between client & server in open format.
 		28. JT - in future UKMO will use https - Strict Transport Security, for all traffic. Once again this is not an OpenWIS software issue, so let's document in deployment guidelines.  UKMO will share experience in how to use https-STS.
-		29. A-OWIS-TC-2016-9: LM - update the install guide (#6). OWIS-A
+		29. ACT-OWIS-TC-2016-9: LM - update the install guide (#6). OWIS-ACT
 		30. MGo - Pen testing #8: privilege escalation - fixed by BoM, tested and passed by MF in 3.14.2.
 		31. MGo - Pen testing #9: editors able to modify all metadata - should only be able to mod own: propose fix in OpenWIS 4; defer.
 		32. MGo - there have also been some build improvements - notably, the OWASP dependency checker now auto reports on each build.  Demo later.
@@ -48,7 +48,7 @@ title: OpenWIS Technical Committee 2016 March
 		34. PR - Just waiting on response to whether Issue #32 is fixed.
 		35. RGr - MF have still to test;
 		36. MGo - we have got a cloud accessible version.
-		37. A-OWIS-TC-2016-10: MGo - send info on how to access the cloud testing to Francois. OWIS-A
+		37. ACT-OWIS-TC-2016-10: MGo - send info on how to access the cloud testing to Francois. OWIS-ACT
 		38. RGr - WMO CMP1.3 is in 3.14.3.
 	2. **Testing**
 		1. WQ - How is the parallel testing environment going?
@@ -56,11 +56,11 @@ title: OpenWIS Technical Committee 2016 March
 		3. RGr - we have 2 shared servers with OVH using a simple VM environment.  I will say more about it later.
 		4. WQ - so do we wait for the parallel testing environment or do our end-to-end testing in our own environment?
 		5. _Everyone agreed to do end-to-end tests in own environments for the 3.14 release_.
-		6. A-OWIS-TC-2016-11: ALL - do end-to-end tests in own environments for the 3.14 release. OWIS-A
+		6. ACT-OWIS-TC-2016-11: ALL - do end-to-end tests in own environments for the 3.14 release. OWIS-ACT
 	3. **Jenkins & Cloudbees**
 		1. MGo - we can feed OWASP dependency checks into Jenkins.
 		2. RGr - that would be useful, but we are getting Jenkins emails into the SC mail list - should we only have them going to the TC mail list? [All agreed on TC only]
-		3. A-OWIS-TC-2016-12: MGo - Set up Jenkins emails for the TC mail list only. OWIS-A
+		3. ACT-OWIS-TC-2016-12: MGo - Set up Jenkins emails for the TC mail list only. OWIS-ACT
 		4. MGo - We need a full set of DNS entries for OpenDJ to work properly.
 	4. **Deployment**
 		1. JT - Any comments on environment, technology etc., that we are using?
@@ -113,7 +113,7 @@ title: OpenWIS Technical Committee 2016 March
 		32. JT - so we need to write down the architectural policy.  Working code is the objective - so always make sure we can deliver in our current architecture, especially where mixing light and heavy might prevent this.
 		33. WQ - so the decision is: in the short term, we stick with Community JBOSS.  Longer term, we modularise components, and when we write new features we will try to keep the new framework in mind but fall-back on existing containers if needed.  We don't have to force compatibility with existing containers for new features.
 		34. JT - so we use Wildfly, but avoid using the enterprise features.  When we're developing the software we should apply the architectural policy.
-		35. A-OWIS-TC-2016-13: WQ - document the design pattern policy; still deploy to wildfly in short/medium term. OWIS-A
+		35. ACT-OWIS-TC-2016-13: WQ - document the design pattern policy; still deploy to wildfly in short/medium term. OWIS-ACT
 		36. WQ - long term is 'beyond v 4'?
 		37. JT - in v 4 I think we can try to: do the modularisation, avoid using container specific extensions and restrict ourselves to the web container spec.
 		38. OL - Each Met service can choose to deploy any other container but we don't have to support it; also up to them to replace the container if they wish and if they have the capability to do it themselves.
@@ -194,7 +194,7 @@ title: OpenWIS Technical Committee 2016 March
 				1. Core GeoNetwork changes
 				2. OpenWIS add-ons.
 			4. JT - However, we're not entirely happy with how GeoCat chose to integrate the OpenWIS code
-			5. A-OWIS-TC-2016-14: JT - Revisit the GeoCat code packaging. OWIS-A
+			5. ACT-OWIS-TC-2016-14: JT - Revisit the GeoCat code packaging. OWIS-ACT
 			6. JT - Authentication and Authorisation can all be done within GeoNetwork 3, or separated by having the authentication provided by an external SAML2 ID provider.
 			7. WQ - can we replace OpenAM/DJ with GeoNetwork to cut down the weight?
 			8. JT - yes, you could deploy OpenWIS 4 without an external security provider.  UKMO want to use the external OpenAM/DJ provider we already have for other purposes (ie: external to OpenWIS).
@@ -205,12 +205,12 @@ title: OpenWIS Technical Committee 2016 March
 			13. JT - yes, UKMO had a comparative study done a year ago and GeoNetwork was recommended as the most stable and complete at the time.
 			14. RGb - the user role is important - the Admin portal has several dashboards but the User portal has fewer and is focussed on the User portal functions.
 			15. JT - Remy, perhaps you could help with the design by drafting a User Story for the User Portal subscription process.
-			16. A-OWIS-TC-2016-15: RGb: draft a User Story for the User Portal subscription process. OWIS-A
+			16. ACT-OWIS-TC-2016-15: RGb: draft a User Story for the User Portal subscription process. OWIS-ACT
 			17. JT - we could investigate metadata classification to improve the User experience.
 			18. RGr - for bulk subscriptions - MF have an Admin User way of doing this.
 			19. JT - we could have a single build that can be deployed/configured as either Admin or User portal.
 			20. JT - we will share the GeoCat docs that show the changes we have made. Currently we are working on a suite of automated tests to verify all works as planned.
-			21. A-OWIS-TC-2016-16: JT: share the GeoCat docs. OWIS-A
+			21. ACT-OWIS-TC-2016-16: JT: share the GeoCat docs. OWIS-ACT
 		2. New features and/or technical enhancement (Note 3)
 			1. Improvements to subscription / ad-hoc data request UI : drive options from information in metadata record
 				1. WQ - we need a way to overcome the current restrictions on the information passed from the UI.
@@ -234,7 +234,7 @@ title: OpenWIS Technical Committee 2016 March
 				10. JT - this is just about the internal interfaces between components.
 			6. Eclipse
 				1. JT - NWS have raised the topic of Eclipse - NWS are keen to get OpenWIS working with Eclipse and will take the lead.  Eclipse makes it easier to get other people to join the community and can be shared easily with others.
-				2. A-OWIS-TC-2016-17 ALL: make NWS aware of our requirements for Eclipse.
+				2. ACT-OWIS-TC-2016-17 ALL: make NWS aware of our requirements for Eclipse.
 			7. Use of pre-defined 'channels' for subscription / ad-hoc data request; make it easier to integrate with MSS components
 				1. JT - channels make it easier to work with MSS.  Also, setting up subscriptions is much easier because you don't have to keep repeating the destination setup.  However, adding channels into the design would mean refactoring subscriptions etc.
 				2. OL - Canada use AMQP (metpx; python, on source forge) - queuing can be used between users and MSS but this is a medium term objective.
@@ -253,14 +253,14 @@ title: OpenWIS Technical Committee 2016 March
 				15. RGr - issue 1 - improving bulk subs; issue 2 queues etc.  Maybe we could have a separate project to look at the queueing issue - perhaps a harness between metpx and OpenWIS would do the job.
 				16. WQ - from what LM said about the bulk subs issue then we can take a small step to achieving both of these things by divorcing single product from single destination.  Are we talking about a dissemination tool?
 				17. JT - ok, let's add a task about UI improvement for bulk subs task to the plan for OpenWIS.  The other is a separate project.
-				18. A-OWIS-TC-2016-18: JT - Create work package on UI improvement for bulk subs. OWIS-A
+				18. ACT-OWIS-TC-2016-18: JT - Create work package on UI improvement for bulk subs. OWIS-ACT
 				19. JT - let's discuss the AMQP potential project during the SC.
 			8. Implementation of WMO Core Metadata Profile validation package in OpenWIS 4 (we think Simon Pigot has done much of this already for BoM)
 				1. GeoNetwork 3 supports metadata profiles that can be used to check your metadata is conformant.  It's a relatively small piece of work to package up the profile for GeoNetwork, a few days - probably mostly already done by Simon Pigot. BB has asked for an update).
-				2. A-OWIS-TC-2016-19: BB - Ask Simon Pigot for an update. OWIS-A
+				2. ACT-OWIS-TC-2016-19: BB - Ask Simon Pigot for an update. OWIS-ACT
 				3. BR - the install script should install this for everybody.
 				4. JT - we also want to investigate templates that implement WMO metadata guidance;  we will need a work package for that.
-				5. A-OWIS-TC-2016-20: JT - Create a work package for WMO metadata guidance templates. OWIS-A
+				5. ACT-OWIS-TC-2016-20: JT - Create a work package for WMO metadata guidance templates. OWIS-ACT
 			9. Improved integration with search engines; allowing search engines to index the catalogue.
 				1. JT - wouldn't it be great if we could just use Google or Bing to find the data we are after?
 				2. WQ - this is with the public community in mind rather than the met community - long term.
@@ -296,9 +296,9 @@ title: OpenWIS Technical Committee 2016 March
 				5. WQ - how would GeoNetwork expose these privileges etc to OpenWIS?
 				6. JT - GeoNetwork decides based on permissions whether to show you the buttons for the related actions.
 				7. RGb - we should investigate how to link the data policy in the metadata with the assignment of GeoNetwork privileges - but maybe too complicated.
-				8. A-OWIS-TC-2016-21: RGb - Investigate how to link the data policy in the metadata with the assignment of GeoNetwork privileges. OWIS-A
+				8. ACT-OWIS-TC-2016-21: RGb - Investigate how to link the data policy in the metadata with the assignment of GeoNetwork privileges. OWIS-ACT
 				9. RGr - We also have a problem syncing access privileges between GISCs or even agreeing a common understanding of roles between GISCs.
-				10. A-OWIS-TC-2016-22: RGr - Create a work package to review Data Policy and Access Control implications in detail. OWIS-A
+				10. ACT-OWIS-TC-2016-22: RGr - Create a work package to review Data Policy and Access Control implications in detail. OWIS-ACT
 		3. New technology (RESTful vs SOAP? More facilities such as a CI testing environment or servers for hosting Vagrant environments?)
 			1. Already discussed above.
 
@@ -306,7 +306,7 @@ title: OpenWIS Technical Committee 2016 March
 		1. JT - lets go thru the Use Cases for roles and groups and authorisation
 		2. RGr - We currently use the Security Service to control data access (as well as metadata access).  We do need something to do this - maybe GeoNetwork?
 		3. JT - that would be part of the Data Policy work package; though we may need to do some implementation work to get GeoNetwork to provide a token to allow a 3rd party service to verify a user can access a piece of data.
-		4. A-OWIS-TC-2016-23: JT - Include the requirement for the Security Service to control data access in the Data Policy workpackage. OWIS-A
+		4. ACT-OWIS-TC-2016-23: JT - Include the requirement for the Security Service to control data access in the Data Policy workpackage. OWIS-ACT
 		5. GeoNetwork accreditation/authorisation options are 1. Local (light weight) 2. LDAP 3. External SAML2 ID provider.
 		6. LM - what tech provides that?
 		7. JT - Apache Shibboleth for SAML2, Spring for LDAP.
@@ -317,7 +317,7 @@ title: OpenWIS Technical Committee 2016 March
 		1. PR - having observed the development over the last year, I would like to recommend that we adopt the Kanban method to improve our development practices.  Kanban is easy to understand and is effective where the availability of developer capacity and skills is variable.  Kanban is a 'pull' method, where work is added to a hopper or inbox, and then pulled for development when there is capacity and skill to do a particular work package.  Work packages cycle through a number of states eg: ready, develop, test, deploy, and the state of all work is visible to everyone, allowing for prioritisation and coordination.  A key feature of Kanban is that the amount of work-in-progress in each state is deliberately limited.  This ensures that we don't try to progress too many changes at once, which in turn helps to manage workload, complexity and quality and so ensure a smooth delivery of finished features.  The Kanban cycles result in releases that occur at fixed dates and so contain whatever features are ready by that time.  The fixed release dates make it easier to plan local testing and deployment and actually get new features into production through continuous improvement cycles.  Kanban would also work well with GitHub and with the open source community.
 		2. WQ - Ok, sounds like it would be worth a look.
 		3. PR - I'll make a proposal around the work packages for the v4 release and if everyone is happy with that we'll try it out.
-		4. A-OWIS-TC-2016-24: PR - Propose a Kanban workflow for v4 development work. OWIS-A
+		4. ACT-OWIS-TC-2016-24: PR - Propose a Kanban workflow for v4 development work. OWIS-ACT
 		5. WQ - so when do we think the v4 release will be?
 		6. PR - we're still working to resolve the harvester problem in GeoNetwork 3 and currently estimate June 2016 for a development release of 4.x.
 		7. JT - so shall we say 6 months or 9 months to the next Operational release?
@@ -333,13 +333,13 @@ title: OpenWIS Technical Committee 2016 March
 		17. OL - it takes time and money to produce docs.
 		18. JT - NWS find the code base impenetrable; there is no effective start-up or onboarding process... so we need docs for this ourselves anyway.  So not as polished as a Redhat release, but something to get newcomers started.
 		19. WQ - so we set a task to develop a doc set for developers and bear in mind open source users.
-		20. A-OWIS-TC-2016-25: WQ - TC to set a task to develop onboarding docs set for developers. OWIS-A
+		20. ACT-OWIS-TC-2016-25: WQ - TC to set a task to develop onboarding docs set for developers. OWIS-ACT
 	7. **Documentations - for user, developer, administrator (how we manage the documents, in what form, where etc)**
 		1. JT - so our decision last time was to use Github, Markdown, Jekyll, html.
 		2. MV - should someone be responsible for the docs?
 		3. JT - Yes, the developers, it's not part of the Community Mgr role.
 		4. PR - set up a Markdown to html conversion/publication process - see Richard Hattersley in the UKMO AVD team.
-		5. A-OWIS-TC-2016-26: PR - Investigate/arrange a Markdown to html publication process. OWIS-A
+		5. ACT-OWIS-TC-2016-26: PR - Investigate/arrange a Markdown to html publication process. OWIS-ACT
 		6. WQ - where should the docs be published?
 		7. JT - on Github and the openwis.io website.
 		8. WQ - is any retrospective work needed to convert existing docs to Markdown?
@@ -367,11 +367,11 @@ title: OpenWIS Technical Committee 2016 March
 6. **Review the 'Melbourne TC plan' and update the (technical) Roadmap.**
 	1. **Release scope (what should be included in the next release)**
 		1. PR - doesn't make sense to do this now, since we're going to try the new Kanban approach for v4 and the tasks required to finish 3.14 are well understood and in progress.  So, action on PR follows...
-		2. A-OWIS-TC-2016-27: PR - transfer backlog and Github issues for v 4 to a Kanban board. OWIS-A
+		2. ACT-OWIS-TC-2016-27: PR - transfer backlog and Github issues for v 4 to a Kanban board. OWIS-ACT
 		3. JT - there needs to be a governance process to approve work packages - we'll cover at the SC.
 	2. **Project scope (e.g. setting up open source community, writing documentation, set up web site)**
 		1. PR - should include on the Kanban board.
-		2. A-OWIS-TC-2016-28: PR - Include tasks on the Kanban board to cover: docs, open source community activities, setting up a web site etc. OWIS-A
+		2. ACT-OWIS-TC-2016-28: PR - Include tasks on the Kanban board to cover: docs, open source community activities, setting up a web site etc. OWIS-ACT
 	3. **Time line (schedule vs agile development 'ordered open-ended backlog')**
 		1. So aiming for open source release June/July.
 	4.  **Allocation of tasks (task tracking - Waffle Board? GitHub? Trello? )**
@@ -386,10 +386,10 @@ title: OpenWIS Technical Committee 2016 March
 		5. The TC acknowledged the good job LM has done as lead developer at the last Developer Conference and ever since.
 		6. RGr - Developer Conference could focus on OpenWIS 4 and GeoNetwork 3.
 		7. JT - we should pass on lessons from the last Dev Con.
-		8. A-OWIS-TC-2016-29: PR/LM - pass on lessons from the last Dev Con. OWIS-A
+		8. ACT-OWIS-TC-2016-29: PR/LM - pass on lessons from the last Dev Con. OWIS-ACT
 	2. **Next meeting (routine TC conference call, anything that needs to improve? Move to webex?)**
 		1. WQ - Trial TC by Webex.
-		2. A-OWIS-TC-2016-30: WQ - Trial TC by Webex. OWIS-A
+		2. ACT-OWIS-TC-2016-30: WQ - Trial TC by Webex. OWIS-ACT
 		3. RGr - encourage members and partners to attend TCs.
 	3. **Demonstration of OpenWIS Core 4.x**
 		1. Done earlier

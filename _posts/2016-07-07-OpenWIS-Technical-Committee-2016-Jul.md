@@ -11,7 +11,7 @@ title: OpenWIS Technical Committee 2016 July
 		2. PN - So when can we expect 3.14.7?
 		3. SO - Does Marc know what the exceptions are?
 		4. MGo - Yes.
-		5. A-OWIS-TC-2016-43: SO/MGo/MGi - will speak on Friday morning (8/7/16). OWIS-A
+		5. ACT-OWIS-TC-2016-43: SO/MGo/MGi - will speak on Friday morning (8/7/16). OWIS-ACT
 	2. **Revisit of action items pertaining to OpenAM and OpenDJ scripts and whether they are available in GitHub.**
 		1. MGo - MF provided the [install scripts](https://github.com/OpenWIS/open-dj-am-install-scripts). They install OpenAM and OpenDJ with just a few manual steps.
 		2. WQ - Is there any testing or deployment work to do?
@@ -71,7 +71,7 @@ title: OpenWIS Technical Committee 2016 July
 		3. RG - So, we need to allocate a team to manage the dev2 environment, that would configure VMs for everyone else.  MF has done this for Leon and Martin and then they have installed whatever stack they want on top.
 		4. WQ - Are MF happy to continue in this server management role?
 		5. RG - Yes, we are happy to continue to do that.
-		6. A-OWIS-TC-2016-44: RG - Will send round an email with the team contact email address. OWIS-A
+		6. ACT-OWIS-TC-2016-44: RG - Will send round an email with the team contact email address. OWIS-ACT
 		7. The NAT is done by IP tables but we are considering a proper proxy server on dev2, so that we can call the target URI openwis4.io or something.
 		8. OL - What is dev1 used for?
 		9. RG - other MF internal stuff.
@@ -90,7 +90,7 @@ title: OpenWIS Technical Committee 2016 July
 		11. WQ - Ok, so let's say 27th to 30th, 4 days max.
 		12. SO - Please let me know who is planning on attending.  The workshop facility is on the outer rim so delegates don't need to pass through to the higher security zones - but if you are intending any side meetings with other NOAA staff that would require deeper access, then please let me know.
 		13. RG - Please send the precise location of the meeting.
-		14. A-OWIS-TC-2016-45: SO - Will email round the address of the Developer Workshop venue. OWIS-A
+		14. ACT-OWIS-TC-2016-45: SO - Will email round the address of the Developer Workshop venue. OWIS-ACT
 5. **AOB**
 	1. **Personnel changes at UKMO**
 		1. PR - As I mentioned earlier, the guys from SCISYS are leaving the project.  We shall miss them, especially Martin who has worked with us for some time now.  Thank you Martin for all the excellent work you have done for us on the project.
