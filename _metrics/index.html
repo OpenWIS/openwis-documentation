@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Strategic Goals and Metrics
-permalink /metrics/
+permalink: /metrics/
 ---
 
 <article>
@@ -10,49 +10,13 @@ permalink /metrics/
 	</header>
 
 <div>
-
-		{% for metric in site.metrics %}
-			{{ metric.content }}
-		{% endfor %}
-
-<!--
-				{% if i == kanPriorityRanks %}
-					{% if kanCard.kanPriority > kanPriorityRanks or kanCard.kanPriority == null %}{% capture kanNullPrtyWarning %}{{ kanNullPrtyWarning | append: kanCard.kanBacklog | append: '. ' %}}{% endcapture %}{% endif %}
-				{% endif %}
-
-				{% if kanCard.kanPriority == i %}
-					<details class="kanCard">
-						<summary><strong>{{ kanCard.kanBacklog | append: '. ' | append: kanCard.title }}</strong></summary>
-						<div class="kanTask">
-		  				<p>
-								 {% if kanCard.kanPullReq %} pull-req#{{ kanCard.kanPullReq }}{% endif %}
-								 {% if kanCard.kanIssue %} issue#{{ kanCard.kanIssue }}{% endif %}
-								 {% if kanCard.kanSize %} size:{{ kanCard.kanSize }}{% endif %}
-								 {% if kanCard.kanMetric %} metric:{{ kanCard.kanMetric }}{% endif %}
-								 {% if kanCard.kanRelease %} release:{{ kanCard.kanRelease }}{% endif %}
-								 {% if kanCard.kanAssigned %} assigned:{{ kanCard.kanAssigned }}{% endif %}
-								 {% if kanCard.kanSubCategory %}<span class="kanSubCategory">{{ kanCard.kanSubCategory | upcase }}</span>{% endif %}
-							 </p>
-						</div>
-						<div class="kanTaskDesc">
-								 {% if kanCard.content.size > kanMaxChars %}
-								   {{ kanCard.content | truncate: kanMaxChars }}<a href="{{ kanCard.url }}" target=_blank><em>more</em></a>
-								 {% else %}
-								 		{{ kanCard.content }}<a href="{{ kanCard.url }}" target=_blank><em> - show</em></a>
-								 {% endif %}
-						</div>
-					</details>
-				{% endif %}
-		{% endfor %}
-		<div class="clear">
-		</div>
-{% endfor %}
 	<hr>
-	<p class="kanWarning">Oops! The following Backlog Items have no Priority or have a value greater than that allowed ({{ kanPriorityRanks }}):<br>
-				{{ kanNullPrtyWarning }}<br>
-				  Until this is corrected they will not appear in the Backlog.
-	</p>
--->
+	The following 3-year strategy was agreed at the Annual Meeting in March 2016; therefore, the objective is to achieve these goals by March 2019.
+
+	{% for m in site.metrics %}
+		{% unless forloop.last %}<p>{{ m.content }}</p>{% endunless %}
+	{% endfor %}
+
 </div>
 
 </article>

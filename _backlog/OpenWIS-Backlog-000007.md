@@ -9,7 +9,7 @@ kanIssue:
 kanPullReq:
 kanFeature: Automated deployment
 kanRelease: 3.14
-kanMetric: 2.3
+kanMetric: 2.2
 kanSize:
 kanPriority: 3
 ---

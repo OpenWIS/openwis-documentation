@@ -11,7 +11,22 @@ layout: default
 		<div class="kanTask">
 			<p>
 				 {% if page.kanSize %} size:{{ page.kanSize }}{% endif %}
-				 {% if page.kanMetric %} metric:{{ page.kanMetric }}{% endif %}
+
+				 {% if page.kanMetric %}
+				 		{% assign kanGoalMetric = page.kanMetric | split: "." %}
+
+						{% case kanGoalMetric[0].size %}
+  					{% when 1 %}
+							<a href="../metrics/OpenWIS-Metrics-0{{ kanGoalMetric[0] | prepend: site.baseurl }}.html">metric:{{ page.kanMetric }}</a>
+  					{% when 2 %}
+							<a href="../metrics/OpenWIS-Metrics-{{ kanGoalMetric[0] | prepend: site.baseurl }}.html">metric:{{ page.kanMetric }}</a>
+  					{% else %}
+     					<p class="kanWarning">Oops! Unable to link to Goal:{{ page.kanMetric }} because it has an unexpected format (expected a number between 1 and 99 inclusive)</p>
+						{% endcase %}
+
+
+				 {% endif %}
+
 				 {% if page.kanRelease %} release:{{ page.kanRelease }}{% endif %}
 				 {% if page.kanAssigned %} assigned:{{ page.kanAssigned }}{% endif %}
 				 {% if page.kanSubCategory %}<span class="kanSubCategory">{{ page.kanSubCategory | upcase }}</span>{% endif %}
