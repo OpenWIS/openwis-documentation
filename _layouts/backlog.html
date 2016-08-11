@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<article class="post">
+	<header class="post-header">
+		<h1 class="post-title">{{ page.title | prepend: '. ' | prepend: page.kanBacklog }}</h1>
+	</header>
+
+	<div class="post-content">
+
+		<div class="kanTask">
+			<p>
+				 {% if page.kanSize %} size:{{ page.kanSize }}{% endif %}
+				 {% if page.kanMetric %} metric:{{ page.kanMetric }}{% endif %}
+				 {% if page.kanRelease %} release:{{ page.kanRelease }}{% endif %}
+				 {% if page.kanAssigned %} assigned:{{ page.kanAssigned }}{% endif %}
+				 {% if page.kanSubCategory %}<span class="kanSubCategory">{{ page.kanSubCategory | upcase }}</span>{% endif %}
+				 priority:{{ page.kanPriority }}
+			 </p>
+		</div>
+
+			{% if page.kanPullReq %}
+				{% if page.kanRepo %}
+					pull-request#<a href="https://github.com/{{ page.kanRepo }}/pull/{{ page.kanPullReq }}">{{ page.kanPullReq }}</a>
+				{% else %}
+					<p class="kanWarning">Oops! Unable to link to GitHub PULL-REQUEST#{{ page.kanPullReq }} because there is no repo defined in {{ page.path }} - you could try these:
+					<ul>
+						<li><a href="https://github.com/OpenWIS/openwis/pull/{{ page.kanPullReq }}">OpenWIS/openwis/pull/{{ page.kanPullReq }}</a></li>
+						<li><a href="https://github.com/OpenWIS/openwis-documentation/pull/{{ page.kanPullReq }}">OpenWIS/openwis-documentation/pull/{{ page.kanPullReq }}</a></li>
+						<li><a href="https://github.com/OpenWIS/open-dj-am-install-scripts/pull/{{ page.kanPullReq }}">OpenWIS/open-dj-am-install-scripts/pull/{{ page.kanPullReq }}</a></li>
+						<li><a href="https://github.com/OpenWIS/openwis-deploy/pull/{{ page.kanPullReq }}">OpenWIS/openwis-deploy/pull/{{ page.kanPullReq }}</a></li>
+						<li><a href="https://github.com/OpenWIS/openwis-automated-tests/pull/{{ page.kanPullReq }}">OpenWIS/openwis-automated-tests/pull/{{ page.kanPullReq }}</a></li>
+						<li><a href="https://github.com/OpenWIS/data-harness-Moved-To-Stash/pull/{{ page.kanPullReq }}">OpenWIS/data-harness-Moved-To-Stash/pull/{{ page.kanPullReq }}</a></li>
+						<li><a href="https://github.com/OpenWIS/geonetwork-extensions/pull/{{ page.kanPullReq }}">OpenWIS/geonetwork-extensions/pull/{{ page.kanPullReq }}</a></li>
+						<li><a href="https://github.com/OpenWIS/core-geonetwork/pull/{{ page.kanPullReq }}">OpenWIS/core-geonetwork/pull/{{ page.kanPullReq }}</a></li>
+					</ul>
+					</p>
+				{% endif %}
+			{% endif %}
+
+			{% if page.kanIssue %}
+				{% if page.kanRepo %}
+					issue#<a href="https://github.com/{{ page.kanRepo }}/issues/{{ page.kanIssue }}">{{ page.kanIssue }}</a>
+				{% else %}
+					<p class="kanWarning">Oops! Unable to link to GitHub ISSUE#{{ page.kanIssue }} because there is no repo defined in {{ page.path }} - you could try these:
+					<ul>
+						<li><a href="https://github.com/OpenWIS/openwis/issues/{{ page.kanIssue }}">OpenWIS/openwis/issues/{{ page.kanIssue }}</a></li>
+						<li><a href="https://github.com/OpenWIS/openwis-documentation/issues/{{ page.kanIssue }}">OpenWIS/openwis-documentation/issues/{{ page.kanIssue }}</a></li>
+						<li><a href="https://github.com/OpenWIS/open-dj-am-install-scripts/issues/{{ page.kanIssue }}">OpenWIS/open-dj-am-install-scripts/issues/{{ page.kanIssue }}</a></li>
+						<li><a href="https://github.com/OpenWIS/openwis-deploy/issues/{{ page.kanIssue }}">OpenWIS/openwis-deploy/issues/{{ page.kanIssue }}</a></li>
+						<li><a href="https://github.com/OpenWIS/openwis-automated-tests/issues/{{ page.kanIssue }}">OpenWIS/openwis-automated-tests/issues/{{ page.kanIssue }}</a></li>
+						<li><a href="https://github.com/OpenWIS/data-harness-Moved-To-Stash/issues/{{ page.kanIssue }}">OpenWIS/data-harness-Moved-To-Stash/issues/{{ page.kanIssue }}</a></li>
+						<li><a href="https://github.com/OpenWIS/geonetwork-extensions/issues/{{ page.kanIssue }}">OpenWIS/geonetwork-extensions/issues/{{ page.kanIssue }}</a></li>
+						<li><a href="https://github.com/OpenWIS/core-geonetwork/issues/{{ page.kanIssue }}">OpenWIS/core-geonetwork/issues/{{ page.kanIssue }}</a></li>
+					</ul>
+					</p>
+				{% endif %}
+			{% endif %}
+
+
+
+		<p>{{ content }}<p>
+
+			Feature: {{ page.kanFeature }}
+
+	</div>
+
+</article>

@@ -1,0 +1,138 @@
+---
+layout: default
+title: Kanban Board
+---
+<article class="kanbanBoard">
+	<header class="kanbanBoard-header">
+		<h1 class="post-title">{{ page.title }}</h1>
+	</header>
+
+<div class="kanbanBoard-content">
+<hr>
+	<h2>Analyse (5)</h2>
+		{% for kanCard in site.kanban %}
+			  {% if kanCard.kanCategory == 'analyse' %}
+					<details class="kanCard">
+						<summary><strong>{{ kanCard.title }}</strong></summary>
+						<div class="kanTask">
+		  				<p>{{ kanCard.kanSubCategory | upcase }} assigned:{{ kanCard.kanAssigned }} size:{{ kanCard.kanSize }} backlog#{{ kanCard.kanBacklog }} Issue#{{ kanCard.kanIssue }}  PR#{{ kanCard.kanPullReq }} metric:{{ kanCard.kanMetric }} release:{{ kanCard.kanRelease }} {{ kanCard.kanFeature }}</p>
+								 {{ kanCard.content | truncatewords: 3, '...' }}
+						</div>
+					</details>
+				{% endif %}
+		{% endfor %}
+
+<div class="clear">
+<hr>
+<h2>Design (5)</h2>
+	{% for kanCard in site.kanban %}
+			{% if kanCard.kanCategory == 'design' %}
+			<details class="kanCard">
+				<summary><strong>{{ kanCard.title }}</strong></summary>
+				<div class="kanTask">
+					<p>{{ kanCard.kanSubCategory | upcase }} assigned:{{ kanCard.kanAssigned }} size:{{ kanCard.kanSize }} backlog#{{ kanCard.kanBacklog }} Issue#{{ kanCard.kanIssue }}  PR#{{ kanCard.kanPullReq }} metric:{{ kanCard.kanMetric }} release:{{ kanCard.kanRelease }} {{ kanCard.kanFeature }}</p>
+						 {{ kanCard.content | truncatewords: 4, '...' }}
+				</div>
+			</details>
+			{% endif %}
+	{% endfor %}
+</div>
+
+<div class="clear">
+	<hr>
+<h2>Develop (5)</h2>
+	{% for kanCard in site.kanban %}
+			{% if kanCard.kanCategory == 'develop' %}
+			<details class="kanCard">
+				<summary><strong>{{ kanCard.title }}</strong></summary>
+				<div class="kanTask">
+					<p>{{ kanCard.kanSubCategory | upcase }} assigned:{{ kanCard.kanAssigned }} size:{{ kanCard.kanSize }} backlog#{{ kanCard.kanBacklog }} Issue#{{ kanCard.kanIssue }}  PR#{{ kanCard.kanPullReq }} metric:{{ kanCard.kanMetric }} release:{{ kanCard.kanRelease }} {{ kanCard.kanFeature }}</p>
+						 {{ kanCard.content | truncatewords: 5, '...' }}
+				</div>
+			</details>
+			{% endif %}
+	{% endfor %}
+</div>
+
+<div class="clear">
+	<hr>
+<h2>Code Review (5)</h2>
+	{% for kanCard in site.kanban %}
+			{% if kanCard.kanCategory == 'code review' %}
+			<details class="kanCard">
+				<summary><strong>{{ kanCard.title }}</strong></summary>
+				<div class="kanTask">
+					<p>{{ kanCard.kanSubCategory | upcase }} assigned:{{ kanCard.kanAssigned }} size:{{ kanCard.kanSize }} backlog#{{ kanCard.kanBacklog }} Issue#{{ kanCard.kanIssue }}  PR#{{ kanCard.kanPullReq }} metric:{{ kanCard.kanMetric }} release:{{ kanCard.kanRelease }} {{ kanCard.kanFeature }}</p>
+						 {{ kanCard.content | truncatewords: 6, '...' }}
+				</div>
+			</details>
+			{% endif %}
+	{% endfor %}
+</div>
+
+<div class="clear">
+	<hr>
+<h2>Test (5)</h2>
+	{% for kanCard in site.kanban %}
+			{% if kanCard.kanCategory == 'test' %}
+			<details class="kanCard">
+				<summary><strong>{{ kanCard.title }}</strong></summary>
+				<div class="kanTask">
+					<p>{{ kanCard.kanSubCategory | upcase }} assigned:{{ kanCard.kanAssigned }} size:{{ kanCard.kanSize }} backlog#{{ kanCard.kanBacklog }} Issue#{{ kanCard.kanIssue }}  PR#{{ kanCard.kanPullReq }} metric:{{ kanCard.kanMetric }} release:{{ kanCard.kanRelease }} {{ kanCard.kanFeature }}</p>
+						 {{ kanCard.content | truncatewords: 7, '...' }}
+				</div>
+			</details>
+			{% endif %}
+	{% endfor %}
+</div>
+
+<div class="clear">
+	<hr>
+<h2>Test Review (5)</h2>
+	{% for kanCard in site.kanban %}
+			{% if kanCard.kanCategory == 'test review' %}
+			<details class="kanCard">
+				<summary><strong>{{ kanCard.title }}</strong></summary>
+				<div class="kanTask">
+					<p>{{ kanCard.kanSubCategory | upcase }} assigned:{{ kanCard.kanAssigned }} size:{{ kanCard.kanSize }} backlog#{{ kanCard.kanBacklog }} Issue#{{ kanCard.kanIssue }}  PR#{{ kanCard.kanPullReq }} metric:{{ kanCard.kanMetric }} release:{{ kanCard.kanRelease }} {{ kanCard.kanFeature }}</p>
+						 {{ kanCard.content | truncatewords: 8, '...' }}
+				</div>
+			</details>
+			{% endif %}
+	{% endfor %}
+</div>
+
+<div class="clear">
+	<hr>
+<h2>Release (5)</h2>
+	{% for kanCard in site.kanban %}
+			{% if kanCard.kanCategory == 'release' %}
+			<details class="kanCard">
+				<summary><strong>{{ kanCard.title }}</strong></summary>
+				<div class="kanTask">
+					<p>{{ kanCard.kanSubCategory | upcase }} assigned:{{ kanCard.kanAssigned }} size:{{ kanCard.kanSize }} backlog#{{ kanCard.kanBacklog }} Issue#{{ kanCard.kanIssue }}  PR#{{ kanCard.kanPullReq }} metric:{{ kanCard.kanMetric }} release:{{ kanCard.kanRelease }} {{ kanCard.kanFeature }}</p>
+						 {{ kanCard.content | truncatewords: 9, '...' }}
+				</div>
+			</details>
+			{% endif %}
+	{% endfor %}
+</div>
+
+<div class="clear">
+	<hr>
+<h2>Done (5)</h2>
+	{% for kanCard in site.kanban %}
+			{% if kanCard.kanCategory == 'done' %}
+			<details class="kanCard">
+				<summary><strong>{{ kanCard.title }}</strong></summary>
+				<div class="kanTask">
+					<p>{{ kanCard.kanSubCategory | upcase }} assigned:{{ kanCard.kanAssigned }} size:{{ kanCard.kanSize }} backlog#{{ kanCard.kanBacklog }} Issue#{{ kanCard.kanIssue }}  PR#{{ kanCard.kanPullReq }} metric:{{ kanCard.kanMetric }} release:{{ kanCard.kanRelease }} {{ kanCard.kanFeature }}</p>
+						 {{ kanCard.content | truncatewords: 10, '...' }}
+				</div>
+			</details>
+			{% endif %}
+	{% endfor %}
+</div>
+</div>
+
+</article>
