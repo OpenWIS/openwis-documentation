@@ -3,7 +3,7 @@ layout: backlog
 title: Renaming of Staging Post -> Products cart
 kanCategory: backlog
 kanSubCategory:
-kanAssigned: ??
+kanAssigned:
 kanBacklog: 10
 kanIssue:
 kanPullReq:
@@ -12,6 +12,7 @@ kanRelease: 3.14
 kanMetric: 5.1
 kanSize: 0.5
 kanPriority: 5
+kanRepo: 
 ---
 Renaming of Staging Post -> Products cart
 The following text was added to the **first 10** Backlog-MD files to test longer text. This document pulls together the financial operating aspects of the OpenWIS association. This is intended as a supplement to the Articles of Association and Internal Rules. In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.

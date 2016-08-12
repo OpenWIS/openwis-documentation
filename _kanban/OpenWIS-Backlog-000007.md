@@ -1,19 +1,20 @@
 ---
 layout: backlog
-title: Vagrant/Puppet for provisioning
-kanCategory: backlog
-kanSubCategory:
-kanAssigned: BoM
-kanBacklog: 5
-kanIssue: 169
+title: Puppet
+kanCategory: code review
+kanSubCategory: pending
+kanAssigned: UKMO
+kanBacklog: 7
+kanIssue:
 kanPullReq:
 kanFeature: Automated deployment
 kanRelease: 3.14
-kanMetric: 2.3
-kanSize: 2
+kanMetric: 2.2
+kanSize:
 kanPriority: 3
+kanRepo: 
 ---
-Add vagrant to repository using Puppet for provisioning. Currently waiting for sanitised Puppet scripts from UKMO
+Puppet currently best candidate for automation approach - UKMO will share their work.
 The following text was added to the **first 10** Backlog-MD files to test longer text. This document pulls together the financial operating aspects of the OpenWIS association. This is intended as a supplement to the Articles of Association and Internal Rules. In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.
 
 ### Approvals for Contracts/Agreements

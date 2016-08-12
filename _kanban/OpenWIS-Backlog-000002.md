@@ -1,19 +1,21 @@
 ---
 layout: backlog
-title: Puppet
-kanCategory: code review
+title: Portal to use OpenAM 12 federation
+kanCategory: develop
 kanSubCategory: pending
-kanAssigned: UKMO
-kanBacklog: 7
-kanIssue:
+kanAssigned: NWS
+kanBacklog: 2
+kanIssue: 180
 kanPullReq:
-kanFeature: Automated deployment
+kanFeature: Supported Java version
 kanRelease: 3.14
-kanMetric: 2.2
-kanSize:
-kanPriority: 3
+kanMetric: 1.2
+kanSize: 3
+kanPriority: 1
+kanRepo: OpenWIS/openwis
 ---
-Puppet currently best candidate for automation approach - UKMO will share their work.
+Update Portal code to use openam 12 federation libraries
+
 The following text was added to the **first 10** Backlog-MD files to test longer text. This document pulls together the financial operating aspects of the OpenWIS association. This is intended as a supplement to the Articles of Association and Internal Rules. In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.
 
 ### Approvals for Contracts/Agreements

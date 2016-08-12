@@ -1,19 +1,20 @@
 ---
 layout: backlog
-title: OpenAM downgraded Java Version issue
+title: Vagrant/Puppet for provisioning
 kanCategory: develop
 kanSubCategory: in-progress
-kanAssigned: NWS
-kanBacklog: 3
-kanIssue: 173
+kanAssigned: BoM
+kanBacklog: 5
+kanIssue: 169
 kanPullReq:
-kanFeature: Supported Java version
+kanFeature: Automated deployment
 kanRelease: 3.14
-kanMetric: 1.2
-kanSize: 5
-kanPriority: 1
+kanMetric: 2.3
+kanSize: 2
+kanPriority: 3
+kanRepo: OpenWIS/openwis
 ---
-Openam needs downgraded Java Version. Related to Issue #180 but focus more on making artefacts available in Cloudbees repository (i.e. OpenAM). Ticket indicates that this is the case now.
+Add vagrant to repository using Puppet for provisioning. Currently waiting for sanitised Puppet scripts from UKMO
 The following text was added to the **first 10** Backlog-MD files to test longer text. This document pulls together the financial operating aspects of the OpenWIS association. This is intended as a supplement to the Articles of Association and Internal Rules. In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.
 
 ### Approvals for Contracts/Agreements

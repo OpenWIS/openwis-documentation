@@ -1,21 +1,20 @@
 ---
 layout: backlog
-title: Security Service auto-deploy
-kanCategory: code review
+title: Data Harness - GISC Roles, Permissions, SEC Policy
+kanCategory: analyse
 kanSubCategory: in-progress
-kanAssigned: MF
-kanBacklog: 1
-kanIssue:
+kanAssigned: UKMO
+kanBacklog: 9
+kanIssue: 126
 kanPullReq:
-kanFeature: Security
+kanFeature: Dissemination options
 kanRelease: 3.14
-kanMetric: 2
-kanSize: 2
-kanPriority: 1
+kanMetric: 3
+kanSize:
+kanPriority: 4
+kanRepo: OpenWIS/openwis
 ---
-
-Automated Security Service deployment expected to be ready for April. LM - This might be done (or nearing completion). I think someone was looking at this (Martin?)
-
+DHA2: GISC Roles, Permissions, SEC Policy. Investigation looks to be satisfied. Also, what is DHA2?
 The following text was added to the **first 10** Backlog-MD files to test longer text. This document pulls together the financial operating aspects of the OpenWIS association. This is intended as a supplement to the Articles of Association and Internal Rules. In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.
 
 ### Approvals for Contracts/Agreements

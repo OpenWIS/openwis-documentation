@@ -1,19 +1,20 @@
 ---
 layout: backlog
-title: Data Harness - GISC Roles, Permissions, SEC Policy
-kanCategory: analyse
-kanSubCategory: pending
+title: Maven 3 build failure
+kanCategory: done
+kanSubCategory:
 kanAssigned: UKMO
-kanBacklog: 9
-kanIssue: 126
+kanBacklog: 6
+kanIssue: 136
 kanPullReq:
-kanFeature: Dissemination options
+kanFeature: Effective code management
 kanRelease: 3.14
-kanMetric: 3
-kanSize:
-kanPriority: 4
+kanMetric: 1.2
+kanSize: 5
+kanPriority: 3
+kanRepo: OpenWIS/openwis
 ---
-DHA2: GISC Roles, Permissions, SEC Policy. Investigation looks to be satisfied. Also, what is DHA2?
+Maven 3 build failure. Is the Maven 3 build still failing?
 The following text was added to the **first 10** Backlog-MD files to test longer text. This document pulls together the financial operating aspects of the OpenWIS association. This is intended as a supplement to the Articles of Association and Internal Rules. In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.
 
 ### Approvals for Contracts/Agreements

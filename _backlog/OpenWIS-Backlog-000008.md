@@ -3,7 +3,7 @@ layout: backlog
 title: Improved User management workflows for Admins
 kanCategory: backlog
 kanSubCategory:
-kanAssigned: ??
+kanAssigned: 
 kanBacklog: 8
 kanIssue:
 kanPullReq:
@@ -12,6 +12,7 @@ kanRelease: 3.14
 kanMetric: 5.1
 kanSize: 1
 kanPriority: 4
+kanRepo:
 ---
 Improved User management workflows for Administrators; use of more automation & self-service (lost password). Comes with OpenAM? MF to verify LM - Estimate is for the review
 The following text was added to the **first 10** Backlog-MD files to test longer text. This document pulls together the financial operating aspects of the OpenWIS association. This is intended as a supplement to the Articles of Association and Internal Rules. In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.

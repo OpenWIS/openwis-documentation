@@ -1,19 +1,22 @@
 ---
 layout: backlog
-title: Maven 3 build failure
-kanCategory: develop
+title: Security Service auto-deploy
+kanCategory: release
 kanSubCategory: pending
-kanAssigned: UKMO
-kanBacklog: 6
-kanIssue: 136
+kanAssigned: MF
+kanBacklog: 1
+kanIssue:
 kanPullReq:
-kanFeature: Effective code management
+kanFeature: Security
 kanRelease: 3.14
-kanMetric: 1.2
-kanSize: 5
-kanPriority: 3
+kanMetric: 2
+kanSize: 2
+kanPriority: 1
+kanRepo: OpenWIS/openwis
 ---
-Maven 3 build failure. Is the Maven 3 build still failing?
+
+Automated Security Service deployment expected to be ready for April. LM - This might be done (or nearing completion). I think someone was looking at this (Martin?)
+
 The following text was added to the **first 10** Backlog-MD files to test longer text. This document pulls together the financial operating aspects of the OpenWIS association. This is intended as a supplement to the Articles of Association and Internal Rules. In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.
 
 ### Approvals for Contracts/Agreements
