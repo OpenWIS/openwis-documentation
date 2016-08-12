@@ -7,19 +7,19 @@ title: Backlog
 {% assign kanMaxChars = 500 %}
 
 
-<article class="backlog">
-	<header class="backlog-header">
+<article>
+	<header>
 		<h1 class="post-title">{{ page.title }}</h1>
 	</header>
 
-<div class="backlog-content">
+<div>
 
 {% for i in (1..kanPriorityRanks) %}
 	<hr>
-	<h2>Priority {{i}}</h2>
+	<h2>priority {{i}}</h2>
 		{% for kanCard in site.backlog %}
 				{% if i == kanPriorityRanks %}
-					{% if kanCard.kanPriority > kanPriorityRanks or kanCard.kanPriority == null %}{% capture kanNullPrtyWarning %}{{ kanNullPrtyWarning | append: kanCard.kanBacklog | append: '. ' %}}{% endcapture %}{% endif %}
+					{% if kanCard.kanPriority > kanPriorityRanks or kanCard.kanPriority == null %}{% capture kanNullPrtyWarning %}{{ kanNullPrtyWarning | append: kanCard.kanBacklog | append: '. ' }}{% endcapture %}{% endif %}
 				{% endif %}
 
 				{% if kanCard.kanPriority == i %}
@@ -38,9 +38,9 @@ title: Backlog
 						</div>
 						<div class="kanTaskDesc">
 								 {% if kanCard.content.size > kanMaxChars %}
-								   {{ kanCard.content | truncate: kanMaxChars }}<a href="{{ kanCard.url }}" target=_blank><em>more</em></a>
+								   {{ kanCard.content | truncate: kanMaxChars }}<a href="{{ kanCard.url }}" target=_blank><br><br><em>more</em></a>
 								 {% else %}
-								 		{{ kanCard.content }}<a href="{{ kanCard.url }}" target=_blank><em> - show</em></a>
+								 		{{ kanCard.content }}<a href="{{ kanCard.url }}" target=_blank><em>show</em></a>
 								 {% endif %}
 						</div>
 					</details>

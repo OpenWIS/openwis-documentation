@@ -1,5 +1,5 @@
 ---
-layout: kanban
+layout: backlog
 
 kanCategory: analyse
 kanSubCategory: in-progress
