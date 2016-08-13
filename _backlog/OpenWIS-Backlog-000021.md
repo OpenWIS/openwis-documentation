@@ -11,6 +11,7 @@ kanFeature: Intuitive UI
 kanRelease: 3.14
 kanMetric: 5.1
 kanSize: 0.5
-kanPriority: 8
+kanPriority: 10
+kanRepo: OpenWIS/openwis
 ---
-Flash plugin notification in Portal. Bug that affects portals, which will be decomissioned when moving to 4.x
+Flash plugin notification in Portal. Bug that affects portals, which will be decomissioned when moving to 4.x.  (issue 135 needs to be closed on Github).

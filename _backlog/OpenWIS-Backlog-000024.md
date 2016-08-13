@@ -11,6 +11,7 @@ kanFeature: Effective code management
 kanRelease: 3.14
 kanMetric: 1.2
 kanSize:
-kanPriority:
+kanPriority: 10
+kanRepo: OpenWIS/openwis
 ---
-maven deploy fails due to permissions on CloudBees repo. No details and don't believe this is still ocurring. Close unless this is still experienced.
+maven deploy fails due to permissions on CloudBees repo. No details and don't believe this is still ocurring. Close unless this is still experienced. (issue 129 needs to be closed on GitHub).
