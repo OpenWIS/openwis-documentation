@@ -1,10 +1,10 @@
 ---
 layout: backlog
-title: ADMIN2 Browse product metadata table
+title: ADMIN3 Browse OpenWIS cache content
 kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: UKMO
-kanBacklog: 42
+kanBacklog: 43
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catologue
@@ -12,5 +12,6 @@ kanRelease: 4.1
 kanMetric: 2.1
 kanSize: 3
 kanPriority: 3
+kanRepo: 
 ---
-Enhancement ADMIN2: Browse product metadata table
+Enhancement ADMIN3: Browse OpenWIS cache content

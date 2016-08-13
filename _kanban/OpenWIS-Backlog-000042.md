@@ -1,16 +1,17 @@
 ---
 layout: backlog
-title: DDS3 Ad-hoc request for delivery
+title: ADMIN2 Browse product metadata table
 kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: UKMO
-kanBacklog: 50
+kanBacklog: 42
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catologue
 kanRelease: 4.1
-kanMetric: 5.2
+kanMetric: 2.1
 kanSize: 3
 kanPriority: 3
+kanRepo: 
 ---
-Enhancement DDS3: Ad-hoc request for delivery
+Enhancement ADMIN2: Browse product metadata table

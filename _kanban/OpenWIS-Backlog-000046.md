@@ -1,10 +1,10 @@
 ---
 layout: backlog
-title: ADMIN1 Blacklisting
+title: MM3 Metadata categories and category-based harvesting
 kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: UKMO
-kanBacklog: 41
+kanBacklog: 46
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catologue
@@ -12,5 +12,6 @@ kanRelease: 4.1
 kanMetric: 2.1
 kanSize: 3
 kanPriority: 3
+kanRepo: 
 ---
-Enhancement ADMIN1: Blacklisting
+Enhancement MM3: Metadata categories and category-based harvesting

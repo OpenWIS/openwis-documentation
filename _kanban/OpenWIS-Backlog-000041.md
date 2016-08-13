@@ -1,10 +1,10 @@
 ---
 layout: backlog
-title: ADMIN3 Browse OpenWIS cache content
+title: ADMIN1 Blacklisting
 kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: UKMO
-kanBacklog: 43
+kanBacklog: 41
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catologue
@@ -12,5 +12,6 @@ kanRelease: 4.1
 kanMetric: 2.1
 kanSize: 3
 kanPriority: 3
+kanRepo: 
 ---
-Enhancement ADMIN3: Browse OpenWIS cache content
+Enhancement ADMIN1: Blacklisting
