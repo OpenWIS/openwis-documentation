@@ -12,5 +12,6 @@ kanRelease: 4.1
 kanMetric: 1.2
 kanSize: 1
 kanPriority: 3
+kanRepo: OpenWIS/openwis
 ---
 Remove PostgresSQL JDBC driver jar dependencies from WAR file builds. How does GN3 handle JDBC drivers?

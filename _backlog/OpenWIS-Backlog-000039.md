@@ -7,10 +7,11 @@ kanAssigned: UKMO
 kanBacklog: 39
 kanIssue: 75
 kanPullReq:
-kanFeature: Integrated catologue
+kanFeature: Integrated catalogue
 kanRelease: 4.1
 kanMetric: 2
 kanSize: 1
 kanPriority: 3
+kanRepo: OpenWIS/openwis
 ---
 Map not showing
