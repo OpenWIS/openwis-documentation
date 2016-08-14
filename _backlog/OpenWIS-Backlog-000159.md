@@ -12,5 +12,6 @@ kanRelease: 5
 kanMetric: 2
 kanSize: 2
 kanPriority: 9
+kanRepo: 
 ---
 Investigate the use of Message Queues - possibly leading to a new project in the future. Possible adoption of pub/sub paradigm. LM - Estimate includes investigation

@@ -3,7 +3,7 @@ layout: backlog
 title: Add default footer
 kanCategory: backlog
 kanSubCategory:
-kanAssigned: ??
+kanAssigned:
 kanBacklog: 133
 kanIssue:
 kanPullReq:
@@ -12,5 +12,6 @@ kanRelease: 4.2
 kanMetric: 5.1
 kanSize: 1
 kanPriority: 5
+kanRepo: OpenWIS/openwis
 ---
 Add default footer. Comes with GeoNetwork trunk

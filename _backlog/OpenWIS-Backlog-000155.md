@@ -3,7 +3,7 @@ layout: backlog
 title: Email verification for self-registered users
 kanCategory: backlog
 kanSubCategory:
-kanAssigned: ??
+kanAssigned:
 kanBacklog: 155
 kanIssue:
 kanPullReq:
@@ -12,5 +12,6 @@ kanRelease: 5
 kanMetric: 4.3
 kanSize: 2
 kanPriority: 5
+kanRepo: 
 ---
 Verification of the email address for self-registered users. Comes with OpenAM? If not, leave until 5.x

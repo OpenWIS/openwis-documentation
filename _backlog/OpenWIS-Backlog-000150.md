@@ -12,5 +12,6 @@ kanRelease: 4.2
 kanMetric: 1.1
 kanSize:
 kanPriority: 5
+kanRepo: 
 ---
 Specify performance tests
