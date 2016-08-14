@@ -1,16 +1,17 @@
 ---
 layout: backlog
-title: MM4 Maintain product metadata table
+title: AAC3 New user with SAML Identity
 kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: UKMO
-kanBacklog: 52
+kanBacklog: 57
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catologue
 kanRelease: 4.1
-kanMetric: 6.1
-kanSize: 3
+kanMetric: 3.2
+kanSize: 5
 kanPriority: 3
+kanRepo: 
 ---
-Enhancement MM4: Maintain product metadata table
+Enhancement AAC3: New user with SAML Identity
