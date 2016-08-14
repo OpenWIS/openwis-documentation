@@ -1,16 +1,17 @@
 ---
 layout: backlog
-title: UI2 My-downloads page
+title: DDS4 Direct download via HTTP
 kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: UKMO
-kanBacklog: 80
+kanBacklog: 79
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catologue
+kanFeature: Integrated catalogue
 kanRelease: 4.1
 kanMetric: 5.2
 kanSize: 5
 kanPriority: 5
+kanRepo: 
 ---
-Enhancement UI2: My-downloads page
+Enhancement DDS4: Direct download via HTTP

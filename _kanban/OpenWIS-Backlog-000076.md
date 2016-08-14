@@ -12,5 +12,6 @@ kanRelease: 4.1
 kanMetric: 8.1
 kanSize: 3
 kanPriority: 5
+kanRepo: OpenWIS/openwis-documentation
 ---
 Publish collaborative development policies and procedures on website. LM - See above: need a functioning website first

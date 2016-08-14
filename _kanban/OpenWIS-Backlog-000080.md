@@ -1,16 +1,17 @@
 ---
 layout: backlog
-title: DDS1 Download offer
+title: UI2 My-downloads page
 kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: UKMO
-kanBacklog: 77
+kanBacklog: 80
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catologue
+kanFeature: Integrated catalogue
 kanRelease: 4.1
 kanMetric: 5.2
-kanSize: 3
+kanSize: 5
 kanPriority: 5
+kanRepo:
 ---
-Enhancement DDS1: Download offer
+Enhancement UI2: My-downloads page
