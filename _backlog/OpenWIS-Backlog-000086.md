@@ -7,10 +7,11 @@ kanAssigned: UKMO
 kanBacklog: 86
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catologue
+kanFeature: Integrated catalogue
 kanRelease: 4.1
 kanMetric: 5.1
 kanSize: 2
 kanPriority: 7
+kanRepo: 
 ---
 Browsable catalogue (similar to CMA) and breadcrumbs. Comes with GeoNetwork trunk; BoM to verify. LM - Estimate is verification task

@@ -7,10 +7,11 @@ kanAssigned: UKMO
 kanBacklog: 99
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catologue
+kanFeature: Integrated catalogue
 kanRelease: 4.2
 kanMetric: 5.1
 kanSize:
 kanPriority: 3
+kanRepo: 
 ---
 adopting GeoNetwork features and adapting OpenWIS.

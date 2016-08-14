@@ -7,10 +7,11 @@ kanAssigned: UKMO
 kanBacklog: 88
 kanIssue: 73
 kanPullReq:
-kanFeature: Integrated catologue
+kanFeature: Integrated catalogue
 kanRelease: 4.1
 kanMetric: 6
 kanSize: 1
-kanPriority:
+kanPriority: 3
+kanRepo: OpenWIS/openwis
 ---
 User right access on metadata editor. LM - Is this base-line rights management?
