@@ -11,6 +11,7 @@ kanFeature: Good development processes
 kanRelease: 4.1
 kanMetric: 8.1
 kanSize: 1
-kanPriority: 4
+kanPriority: 1
+kanRepo:
 ---
 Adopt the odd/even release number system.

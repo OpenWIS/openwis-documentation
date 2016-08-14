@@ -7,10 +7,11 @@ kanAssigned: UKMO
 kanBacklog: 62
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catologue
+kanFeature: Integrated catalogue
 kanRelease: 4.1
 kanMetric: 3.2
 kanSize:
 kanPriority: 3
+kanRepo: 
 ---
 [Enable] delegation of management of Users and Groups to Geonetwork. Will impact the Security Service

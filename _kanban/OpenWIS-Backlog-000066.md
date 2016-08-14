@@ -7,10 +7,11 @@ kanAssigned: UKMO
 kanBacklog: 66
 kanIssue: 166
 kanPullReq:
-kanFeature: Integrated catologue
+kanFeature: Integrated catalogue
 kanRelease: 4.1
 kanMetric: 2
 kanSize: 1
 kanPriority: 4
+kanRepo: OpenWIS/openwis
 ---
 Harvesting issue - v3.14.5 not downloading metadata from DWD - error - cannot find namespace to set for element gmd:MD_Metadata. Bug that needs fixing

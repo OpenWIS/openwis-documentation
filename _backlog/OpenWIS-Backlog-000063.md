@@ -12,5 +12,6 @@ kanRelease: 4.1
 kanMetric: 1.1
 kanSize:
 kanPriority: 3
+kanRepo: 
 ---
 A-OWIS-SC-2016-6 - BR - Put someone at UKMO in touch with ECMWF about using PALAMIDA (http://www.palamida.com)
