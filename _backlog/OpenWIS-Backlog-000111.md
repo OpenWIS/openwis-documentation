@@ -3,7 +3,7 @@ layout: backlog
 title: Need a better timeout mechanism on socketRead
 kanCategory: backlog
 kanSubCategory:
-kanAssigned: ??
+kanAssigned:
 kanBacklog: 111
 kanIssue: 84
 kanPullReq:
@@ -12,5 +12,6 @@ kanRelease: 4.2
 kanMetric: 2
 kanSize: 1
 kanPriority: 4
+kanRepo: OpenWIS/openwis
 ---
 Need a better timeout mechanism on socketRead

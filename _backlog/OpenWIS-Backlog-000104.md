@@ -3,7 +3,7 @@ layout: backlog
 title: OpenWIS Multi Data sources
 kanCategory: backlog
 kanSubCategory:
-kanAssigned: ??
+kanAssigned:
 kanBacklog: 104
 kanIssue:
 kanPullReq:
@@ -12,5 +12,6 @@ kanRelease: 4.2
 kanMetric: 5.1
 kanSize: 1
 kanPriority: 4
+kanRepo:
 ---
-OpenWIS Multi Data sources: possibility to define separate web services for sub selection (one per data source) - [DESIGN]
+OpenWIS Multi Data sources: possibility to define separate web services for sub selection (one per data source)

@@ -3,7 +3,7 @@ layout: backlog
 title: v3.14.2 - Admin Portal reports fail when exporting
 kanCategory: backlog
 kanSubCategory:
-kanAssigned: ??
+kanAssigned:
 kanBacklog: 114
 kanIssue: 152
 kanPullReq:
@@ -12,5 +12,6 @@ kanRelease: 4.2
 kanMetric: 2
 kanSize: 1
 kanPriority: 4
+kanRepo: OpenWIS/openwis
 ---
 v3.14.2 - Admin Portal reports fail when exporting

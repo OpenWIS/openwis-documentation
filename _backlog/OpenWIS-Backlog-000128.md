@@ -3,7 +3,7 @@ layout: backlog
 title: Display animation icon when search is running
 kanCategory: backlog
 kanSubCategory:
-kanAssigned: ??
+kanAssigned:
 kanBacklog: 128
 kanIssue:
 kanPullReq:
@@ -12,5 +12,6 @@ kanRelease: 4.2
 kanMetric: 5.1
 kanSize: 0.5
 kanPriority: 5
+kanRepo: 
 ---
 Display some animation icon when search is running. Contribute back to GeoNetwork trunk.

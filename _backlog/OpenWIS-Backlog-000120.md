@@ -12,5 +12,6 @@ kanRelease: 4.2
 kanMetric: 6.1
 kanSize: 3
 kanPriority: 4
+kanRepo: 
 ---
 Rationalise how Data Policy is applied to metadata records (Visibility/invisibility of metadata managed through the data policy OWT-230, OWT-229). Comes with GeoNetwork trunk

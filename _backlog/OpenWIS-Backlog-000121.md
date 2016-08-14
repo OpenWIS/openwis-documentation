@@ -12,5 +12,6 @@ kanRelease: 4.2
 kanMetric: 6
 kanSize: 3
 kanPriority: 4
+kanRepo: 
 ---
 Restrict categories user can upload metadata to. Contribute back to GeoNetwork trunk.
