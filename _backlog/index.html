@@ -1,0 +1,60 @@
+---
+layout: default
+title: Backlog
+---
+
+{% assign kanPriorityRanks = 10 %}
+{% assign kanMaxChars = 500 %}
+
+
+<article>
+	<header>
+		<h1 class="post-title">{{ page.title }}</h1>
+	</header>
+
+<div>
+
+{% for i in (1..kanPriorityRanks) %}
+	<hr>
+	<h2>priority {{i}}</h2>
+		{% for kanCard in site.backlog %}
+				{% if i == kanPriorityRanks %}
+					{% if kanCard.kanPriority > kanPriorityRanks or kanCard.kanPriority == null %}{% capture kanNullPrtyWarning %}{{ kanNullPrtyWarning | append: kanCard.kanBacklog | append: '. ' }}{% endcapture %}{% endif %}
+				{% endif %}
+
+				{% if kanCard.kanPriority == i %}
+					<details class="kanCard">
+						<summary><strong>{{ kanCard.kanBacklog | append: '. ' | append: kanCard.title }}</strong></summary>
+						<div class="kanTask">
+		  				<p>
+								 {% if kanCard.kanPullReq %} pull-req#{{ kanCard.kanPullReq }}{% endif %}
+								 {% if kanCard.kanIssue %} issue#{{ kanCard.kanIssue }}{% endif %}
+								 {% if kanCard.kanSize %} size:{{ kanCard.kanSize }}{% endif %}
+								 {% if kanCard.kanMetric %} metric:{{ kanCard.kanMetric }}{% endif %}
+								 {% if kanCard.kanRelease %} release:{{ kanCard.kanRelease }}{% endif %}
+								 {% if kanCard.kanAssigned %} assigned:{{ kanCard.kanAssigned }}{% endif %}
+								 {% if kanCard.kanSubCategory %}<span class="kanSubCategory">{{ kanCard.kanSubCategory | upcase }}</span>{% endif %}
+								 {% if kanCard.kanCategory != "backlog" %}{{ kanCard.kanCategory }}{% endif %}
+							 </p>
+						</div>
+						<div class="kanTaskDesc">
+								 {% if kanCard.content.size > kanMaxChars %}
+								   {{ kanCard.content | truncate: kanMaxChars }}<a href="{{ kanCard.url }}" target=_blank><br><br><em>more</em></a>
+								 {% else %}
+								 		{{ kanCard.content }}<a href="{{ kanCard.url }}" target=_blank><em>show</em></a>
+								 {% endif %}
+						</div>
+					</details>
+				{% endif %}
+		{% endfor %}
+		<div class="clear">
+		</div>
+{% endfor %}
+	<hr>
+	<p class="kanWarning">Oops! The following Backlog Items have no Priority or have a value greater than that allowed ({{ kanPriorityRanks }}):<br>
+				{{ kanNullPrtyWarning }}<br>
+				  Until this is corrected they will not appear in the Backlog.
+	</p>
+</div>
+
+</article>

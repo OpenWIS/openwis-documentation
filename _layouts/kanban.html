@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="post">
+	<header class="post-header">
+		<h1 class="post-title">{{ page.title }}</h1>
+	</header>
+
+	<div class="post-content">
+
+		{{ site.kanban.kanOwner }}
+
+		{% for kanCard in site.kanban %}
+		  <h2>{{ kanCard.title }}</h2>
+		  <p>Owned by: {{ kanCard.kanOwner }}{% if kanCard.kanBacklog %}, Backlog No.: {{ kanCard.kanBacklog }}{% endif %}</p>
+		{% endfor %}
+
+		{{ content | replace: 'kanOwner=',       '<span        class="kanOwner">Owner: '
+				   | replace: 'kanBacklog=',	 '</span><span class="kanBacklog">Backlog: '
+				   | replace: 'kanIssue=',	     '</span><span class="kanIssue">Issue: '
+				   | replace: 'kanPullReq=',	 '</span><span class="kanPullReq">Pull Req: '
+				   | replace: 'kanFeature=',	 '</span><span class="kanFeature">Feature: '
+				   | replace: 'kanTask=',	     '</span><span class="kanTask">Task: '
+				   | replace: 'kanRelease=',	 '</span><span class="kanRelease">Release: '
+				   | replace: 'kanMetric=',	     '</span><span class="kanMetric">Metric: '
+				   | replace: 'kanSize=',	     '</span><span class="kanSize">Size: '
+				   | replace: 'kanEnd',	         '</span>' }}
+	</div>
+
+</article>

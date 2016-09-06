@@ -208,6 +208,72 @@ pre {
 /**
  * Tables
  */
-table { border-collapse: collapse } 
+table { border-collapse: collapse }
 table, td, th { border: 1px solid #e8e8e8 }
 td, th { text-align: left ; padding: 10px }
+
+
+
+/**
+ * Action - additional style defined by Paul Rogers to highlight meeting actions
+ */
+.action {font-style: oblique;
+		 line-height: 3em; padding: 0.5em;
+		 border-left-width: 0.2em; border-left-style: solid; border-left-color: SteelBlue;
+		 color:SteelBlue; background-color: LemonChiffon;}
+
+
+/**
+ * Resolution - additional style defined by Paul Rogers to highlight meeting resolutions
+ */
+.resolution {font-style: oblique;
+		 line-height: 3em; padding: 0.5em;
+		 border-left-width: 0.2em; border-left-style: solid; border-left-color: SteelBlue;
+		 color:Red; background-color: LemonChiffon;}
+
+/**
+ * Task - additional style defined by Paul Rogers to style Kanban Tasks
+ */
+.kanTask {font-style: normal;
+		 line-height: 1em; padding: 0.5em; font-size: 90%; word-spacing: 1em;
+		 border-left-width: 0.2em; border-left-style: solid; border-left-color: SteelBlue;
+		 color:DimGrey; background-color: LemonChiffon;
+    }
+
+/**
+ * Task Description - additional style defined by Paul Rogers to style Kanban Tasks
+ */
+.kanTaskDesc {font-style: normal;
+    padding: 0.5em; font-size: 80%;
+    border-left-width: 0.2em; border-left-style: solid; border-left-color: SteelBlue;
+    color:Black; background-color: LemonChiffon;
+    }
+
+/**
+ * Warning msg - additional style defined by Paul Rogers to flag issues found in the markdown input etc
+ */
+.kanWarning {color: red;
+    font-family: courier;
+    font-size: 110%;
+    }
+
+
+
+
+/**
+ * Card - additional style defined by Paul Rogers to style Kanban Cards
+ */
+.kanCard {float: left; padding: 0.5em; width: 32%
+    }
+
+/**
+ * Card - additional style defined by Paul Rogers to style Kanban Cards
+ */
+.kanSubCategory {color:Red;
+    }
+
+/**
+ * Clear - to stop the section after the Kanban Cards from floating (Paul Rogers)
+ */
+.clear {clear: left;
+    }

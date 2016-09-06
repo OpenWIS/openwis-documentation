@@ -1,0 +1,50 @@
+---
+layout: default
+title: Kanban Board
+---
+
+{% assign kanMaxChars = 500 %}
+{% assign kanCategoryLabels = "analyse, design, develop, code review, test, test review, release, done" | split: ', ' %}
+
+<article>
+
+	<header>
+		<h1 class="post-title">{{ page.title }}</h1>
+	</header>
+
+{% for j in kanCategoryLabels %}
+
+<div>
+<hr>
+	<h2>{{ j }}</h2>
+		{% for kanCard in site.kanban %}
+			  {% if kanCard.kanCategory == j %}
+				<details class="kanCard">
+					<summary><strong>{{ kanCard.kanBacklog | append: '. ' | append: kanCard.title }}</strong></summary>
+					<div class="kanTask">
+						<p>
+							 {% if kanCard.kanPullReq %} pull-req#{{ kanCard.kanPullReq }}{% endif %}
+							 {% if kanCard.kanIssue %} issue#{{ kanCard.kanIssue }}{% endif %}
+							 {% if kanCard.kanSize %} size:{{ kanCard.kanSize }}{% endif %}
+							 {% if kanCard.kanMetric %} metric:{{ kanCard.kanMetric }}{% endif %}
+							 {% if kanCard.kanRelease %} release:{{ kanCard.kanRelease }}{% endif %}
+							 {% if kanCard.kanAssigned %} assigned:{{ kanCard.kanAssigned }}{% endif %}
+							 {% if kanCard.kanSubCategory %}<span class="kanSubCategory">{{ kanCard.kanSubCategory | upcase }}</span>{% endif %}
+						 </p>
+					</div>
+					<div class="kanTaskDesc">
+							 {% if kanCard.content.size > kanMaxChars %}
+								 {{ kanCard.content | truncate: kanMaxChars }}<a href="{{ kanCard.url }}" target=_blank><br><br><em>more</em></a>
+							 {% else %}
+									{{ kanCard.content }}<a href="{{ kanCard.url }}" target=_blank><em>show</em></a>
+							 {% endif %}
+					</div>
+				</details>
+				{% endif %}
+		{% endfor %}
+<div class="clear">
+</div>
+</div>
+{% endfor %}
+
+</article>
