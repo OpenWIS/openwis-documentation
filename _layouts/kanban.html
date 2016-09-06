@@ -15,15 +15,6 @@ layout: default
 		  <p>Owned by: {{ kanCard.kanOwner }}{% if kanCard.kanBacklog %}, Backlog No.: {{ kanCard.kanBacklog }}{% endif %}</p>
 		{% endfor %}
 
-
-
-
-
-
-
-
-
-
 		{{ content | replace: 'kanOwner=',       '<span        class="kanOwner">Owner: '
 				   | replace: 'kanBacklog=',	 '</span><span class="kanBacklog">Backlog: '
 				   | replace: 'kanIssue=',	     '</span><span class="kanIssue">Issue: '
