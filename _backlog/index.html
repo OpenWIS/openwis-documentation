@@ -39,9 +39,9 @@ title: Backlog
 						</div>
 						<div class="kanTaskDesc">
 								 {% if kanCard.content.size > kanMaxChars %}
-								   {{ kanCard.content | truncate: kanMaxChars }}<a href="{{ kanCard.url }}" target=_blank><br><br><em>more</em></a>
+								   {{ kanCard.content | truncate: kanMaxChars }}<a href="{{ kanCard.url | prepend: site.baseurl }}" target=_blank><br><br><em>more</em></a>
 								 {% else %}
-								 		{{ kanCard.content }}<a href="{{ kanCard.url }}" target=_blank><em>show</em></a>
+								 		{{ kanCard.content }}<a href="{{ kanCard.url | prepend: site.baseurl }}" target=_blank><em>show</em></a>
 								 {% endif %}
 						</div>
 					</details>
