@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 TMP3BBD.htm
 
+Gemfile
+*.lock
