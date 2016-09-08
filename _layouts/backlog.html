@@ -17,9 +17,9 @@ layout: default
 
 						{% case kanGoalMetric[0].size %}
   					{% when 1 %}
-							<a href="../metrics/OpenWIS-Metrics-0{{ kanGoalMetric[0] | prepend: site.baseurl }}.html">metric:{{ page.kanMetric }}</a>
+							<a href="../metrics/OpenWIS-Metrics-0{{ kanGoalMetric[0] }}.html">metric:{{ page.kanMetric }}</a>
   					{% when 2 %}
-							<a href="../metrics/OpenWIS-Metrics-{{ kanGoalMetric[0] | prepend: site.baseurl }}.html">metric:{{ page.kanMetric }}</a>
+							<a href="../metrics/OpenWIS-Metrics-{{ kanGoalMetric[0] }}.html">metric:{{ page.kanMetric }}</a>
   					{% else %}
      					<p class="kanWarning">Oops! Unable to link to Goal:{{ page.kanMetric }} because it has an unexpected format (expected a number between 1 and 99 inclusive)</p>
 						{% endcase %}
