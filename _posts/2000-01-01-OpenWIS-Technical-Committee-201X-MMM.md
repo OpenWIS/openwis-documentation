@@ -1,36 +1,40 @@
 ---
 layout: page
-title: OpenWIS Technical Committee 2016 (FULL MONTH NAME)
+title: A Markdown template for OpenWIS meeting minutes
 ---
+
+Note: You should change the 'title' in the yaml above to the title of the meeting, eg:
+OpenWIS Technical Committee 2016 May
 
 #### DDth (FULL MONTH NAME) 2016 - teleconference - meeting minutes
 
 ---
+(horizontal rule)
 
 1. **lh level 1 (strong em)**
 	1. **lh level 2 (strong em)**
 		1. lh level 3 or lower (no-em)
 			1. li 1
 			2. _li 2 (weak em)_
-			3. ACT-OWIS-TC-99:Action: XX - aaaaaaaaaaaaaaaaaaaa. OWIS-ACT
+			3. ACT-OWIS-TC-99:Action: XX - Note the opening and closing tags that markup this as an ACTION. OWIS-ACT
 2. **lh level 1**
 	1. li 1
-	2. RES-OWIS-TC-99:Resolution: rrrrrrrrrrrrrrrrrrrr. OWIS-RES
+	2. RES-OWIS-TC-99:Resolution: Note the opening and closing tags that markup this as a RESOLUTION. OWIS-RES
 	3. **lh level 2 (strong em)**
 		1. > blockquote
 		2. li 2
 3. **unordered list**
 	- ul li 1
-	- ul li 2 
-4. Links:
-	- [inline](http://www.example.com)
-	- [link ref][L1]
-	- [link to local assets][assets]
+	- ul li 2
+4. Links: (to see what is going on here, open the file as plain text, or refer to the Markdown docs)
+	- [inline ref to external link](http://www.example.com)
+	- [ref to link defined somewhere else on this page][L1]
+	- [link to local static assets that are stored in the /assets/ folder that is in the folder structure of the site ][assets]
 
 [L1]: http://www.example.com
-[assets]: {{ site.url }}/assets/filename
+[assets]: {{ site.url | prepend: site.baseurl }}/assets/filename
 
-	
+
 ---
 (horizontal rule)
 
@@ -61,6 +65,7 @@ title: OpenWIS Technical Committee 2016 (FULL MONTH NAME)
 - SO - Steve Olson, National Weather Service, USA [NWS], Vice-Chair
 - PG - Patrick Gillis, National Weather Service, USA [NWS]
 - KS - Kari Sheets, National Weather Service, USA [NWS]
+- MGi - Marc Giannoni, National Weather Service, USA [NWS]
 
 - BR - Baudouin Raoult, European Centre for Medium Range Weather Forecasting [ECMWF]
 
@@ -74,7 +79,10 @@ title: OpenWIS Technical Committee 2016 (FULL MONTH NAME)
 - JO - Julie Oakley, Met Office, UK [UKMO]
 - PR - Paul Rogers, Met Office, UK [UKMO]
 
+- NM - Nassos Michas, European Dynamics, Greece [UKMO]
+- GT - Giorgos Tryantafyllidis, European Dynamics, Greece [UKMO]
+- DG - Dimitris Gianneler, European Dynamics, Greece [UKMO]
+- DP - Dimitris Papadeas, European Dynamics, Greece [UKMO]
+
 #### Apologies
 - Robert Bunge, National Weather Service, USA [NWS]
-
-
