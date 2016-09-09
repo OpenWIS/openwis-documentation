@@ -7,6 +7,7 @@ title: OpenWIS Technical Committee 2016 September
 
 ---
 
+
 1. **Status of preparation for Developers Workshop**
 	1. SO - All attendees should have received an email requesting security details - please fax the response asap.
 	2. SO - The agenda is on Google - let me know if you need permission to view it.
