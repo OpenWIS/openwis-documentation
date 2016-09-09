@@ -20,4 +20,4 @@ title: How to post to the OpenWIS blog using GitHub
 - Then write the body text of your post, using Markdown or GitHub Flavored Markdown (GFM).
 - You can use the Preview button to see how it looks.
 - Once you're happy, fill-in the Commit details box below the editor and commit directly to the gh-pages branch.
-- Visit the blog to check all is ok - then you're done!
+- Visit the blog to check all is ok, you can re-edit and re-commit as many times as you like to make changes, then you're done!
