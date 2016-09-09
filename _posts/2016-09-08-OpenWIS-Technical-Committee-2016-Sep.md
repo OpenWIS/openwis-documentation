@@ -7,9 +7,6 @@ title: OpenWIS Technical Committee 2016 September
 
 ---
 
-Edit me: https://github.com/OpenWIS/openwis-documentation/blob/gh-pages/_posts/2016-09-08-OpenWIS-Technical-Committee-2016-Sep.md
-
-
 
 
 1. **Status of preparation for Developers Workshop**
