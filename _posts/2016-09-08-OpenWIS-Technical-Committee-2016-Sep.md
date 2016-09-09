@@ -19,7 +19,7 @@ title: OpenWIS Technical Committee 2016 September
 	4. DW - What access will we have to a version of GeoNetworks?
 	5. PN - I thought we had installed GeoNetworks onto the Proxmox servers?
 	6. LM - The portal is on Proxmox, so the core GeoNetwork is running there.
-	7. ACT-OWIS-TC-2016-46:Action: LM - Circulate the url of the portal on Proxmox. OWIS-ACT
+	7. ACT-OWIS-TC-2016-46: LM - Circulate the url of the portal on Proxmox. OWIS-ACT
 	8. NM - We could provide access to a running GeoNetwork too, either set-up a server or run it on our PC.
 	9. LM - We could have vagrant copies available.
 	10. PN - So, we'll have Proxmox and vagrant on laptops.
@@ -40,7 +40,7 @@ title: OpenWIS Technical Committee 2016 September
 3. **Collaboration with the GeoNetwork community**
 	1. LM - Been having a discussion about how to work with the GeoNetwork community.  The approach emerging from the work European Dynamics are doing involves adding additional hooks into core GeoNetwork as integration points for the plug-in OpenWIS components.  We would develop those hooks and contribute them to the core GeoNetwork for anyone to use.
 	2. PR - I had a look at the GeoNetwork mail-lists and they are very active; people raise questions and seem to get answers; there are a few on there we would be interetsted in.  So, we thought we could enter the GeoNetwork community by the front door and get our developers to join the Geonetworks developer mail-list.  We would then ask questions, write code, make pull requests and see how we are welcomed.  There is also a user mail-list, so Dom and others could perhaps join that and post user type questions there.  Anyway, I suggest we start with Leon and the guys from European Dynamics.
-	3. ACT-OWIS-TC-2016-47:Action: LM/NM/GT/DP/DG - Join the GeoNetworks developer mail-list. OWIS-ACT
+	3. ACT-OWIS-TC-2016-47: LM/NM/GT/DP/DG - Join the GeoNetworks developer mail-list. OWIS-ACT
 	4. PR - If that doesn't work for us then we'll try our other contacts in that community.
 4. **AOB**
 	1. **Deployment of 3.14**
