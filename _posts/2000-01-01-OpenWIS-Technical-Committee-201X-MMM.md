@@ -32,7 +32,7 @@ OpenWIS Technical Committee 2016 May
 	- [link to local static assets that are stored in the /assets/ folder that is in the folder structure of the site ][assets]
 
 [L1]: http://www.example.com
-[assets]: {{ site.url | prepend: site.baseurl }}/assets/filename
+[assets]: {{ site.baseurl | prepend: site.url }}/assets/filename
 
 
 ---

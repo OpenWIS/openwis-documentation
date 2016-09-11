@@ -12,15 +12,15 @@ title: OpenWIS Steering Committee 2016 March
 	1. Approved.
 3. **Agreement of working arrangements**
 	1. JT reminded the meeting of the relevant Articles and Rules pertaining to the operation of Steering Committee meetings:
-		
+
 		> A Delegate may represent up to one (1) other Member or Strategic Partner, besides the Member or Strategic Partner which appointed him or her, at a meeting of the Steering Committee. A written proxy, signed by the Member or Strategic Partner giving the proxy, shall be required for that purpose. The represented Member(s) and/or Strategic Partner(s) shall then be considered as present. (Article A13.8)
-		
+
 		> A meeting of the Steering Committee shall be quorate if at least three-quarters of the Members and Strategic Partners are together present. Delegates may be assisted by advisers at meetings of the Steering Committee. (Article A13.9)
-		
+
 		> Except where these Articles of Association require any matter to be decided unanimously, decision and recommendations of the Steering Committee shall be made by simple majority of those Delegates present. Each Delegate shall have one vote. (Article A13.10)
-		
+
 		> Associate  Partners may attend Steering Committee meetings as observers. WMO representatives may attend the Steering Committee meetings as observers to represent the interests of OpenWIS users. Observers may contribute to discussions but have no formal role in making decisions. (Article A13.13)
-		
+
 		> Resolutions and decisions of the Steering Committee shall be recorded in writing and made available to all Delegates. (Rule R8.14)
 	2. The working arrangements were agreed.
 4. **Approval of previous minutes**
@@ -39,17 +39,17 @@ title: OpenWIS Steering Committee 2016 March
 		* Okki Lee (OL) represents Korea Meteorological Administration
 	2. JT - Seven (7) members are represented, therefore the meeting is quorate.
 7. **Election of chairperson ("SC Chair") and vice-chairperson ("SC Vice-Chair") of the Steering Committee (see Article A13.5)**
-	1. MDA – Regarding the tenure - 1 year seems too short – should we change to 2 years? 
-	2. RGir – That is defined in the articles of Association, so we would need to ask the King of Belgium!  However, the version of the articles published by the notaries was corrupted in the PDF.  I have asked the notaries what to do and am awaiting an answer. Maybe we could include this rule change if we have to republish? 
+	1. MDA – Regarding the tenure - 1 year seems too short – should we change to 2 years?
+	2. RGir – That is defined in the articles of Association, so we would need to ask the King of Belgium!  However, the version of the articles published by the notaries was corrupted in the PDF.  I have asked the notaries what to do and am awaiting an answer. Maybe we could include this rule change if we have to republish?
 	3. JT – It doesn't seem right to change the meaning in that way.
 	4. MDA – I agree, we will need to change them at some time for other reasons and should leave it until then.
 	5. JT - Where articles are unclear the internal rules clarify.
 	6. MDA - So in the internal rules we could say that by default the tenure is 2 years and that re-election is routine unless others want to stand?
 	7. RES-OWIS-SC-2016-01:Resolution: vote: 7-0 in favour - Amend Internal Rules to say that default tenure is 2 years unless others want to stand for election. OWIS-RES
 	8. Call for nominations from amongst the Delegates
-		1. JT – The nominations so far received are: 
-			* JT as SC-Chair; 
-			* LLG as SC-Vice-Chair; 
+		1. JT – The nominations so far received are:
+			* JT as SC-Chair;
+			* LLG as SC-Vice-Chair;
 		2. JT - Are there any further nominations?  No?  Ok, let's vote.
 		3. Vote:
 			1. RES-OWIS-SC-2016-02:Resolution: vote: 7-0 in favour - JT is elected as SC-Chair. OWIS-RES
@@ -67,7 +67,7 @@ title: OpenWIS Steering Committee 2016 March
 	2. MDA - No.
 10. **Strategic positioning of OpenWIS software development activities**
 	1. JT – So the SC role is to guide/direct the work done in technical committees.
-	2. **Retrospective review of OpenWIS Association performance since SC-2015, Melbourne** 
+	2. **Retrospective review of OpenWIS Association performance since SC-2015, Melbourne**
 		1. WQ – We have done a good job and achieved a lot.  The uplift was a big job and we should be proud of that.
 		2. MDA – I see a lot of emails etc about technical progress.  Also we have the legal framework established and a bank account etc.  Now we have all elements in place to run the Association from now on.
 		3. OL – We tend to take what we have for granted.  Last year I visited Japan and China; they are working alone while we have this collaboration.  This is good because we share resources.  We have to make OpenWIS successful first then we can be more ambitious.
@@ -87,7 +87,7 @@ title: OpenWIS Steering Committee 2016 March
 		17. WQ - We've come together for the common task of running a GISC, we're not expecting many people to join in.
 		18. JT – Even for our own organisations it is still too hard to get people to understand where to start and to onboard new developers.  For example, when you have a 3 month block of development effort you want to spin up in a few days.
 		19. WQ – Yes we still need these docs so we can improve the way we develop.
-		20. JT – And if we can make it easier for ourselves to contribute then we might attract others. 
+		20. JT – And if we can make it easier for ourselves to contribute then we might attract others.
 		21. BB – there's a balance.  A lot of effort is spent getting development process and deployment working properly - then spend time getting other developers joining.
 		22. JT – Resume, 4/5 years ahead of us and now seeing it ramp up.
 		23. MDA - Our software is not freely available so it is hard for people to get it.
@@ -108,15 +108,15 @@ title: OpenWIS Steering Committee 2016 March
 		38. WQ – There are only 15 GISC but more than half are using Openwis and there are DCPC etc too.
 		39. JT - Item 10.4 covers measuring performance of the OpenWIS Association.
 		40. RGib – MFI have installed mainly for use as a DCPC: Kenya, Indonesia and Singapore, with a GISC at Casablanca.  However General Climate Centres need catalog software so we will use OpenWIS for this purpose at Botswana and Indonesia too. Also, Moscow is using a module of OpenWIS.
-		41. MDA - Do we have the poster? It had an updated list/map. 
+		41. MDA - Do we have the poster? It had an updated list/map.
 		42. RGir - Only for GISCs.  We had contact with Ukraine, but not sure they did anything with the software.
 	3. **Definition of strategic objectives for a sustainable OpenWIS Association**
 		1. JT – The OpenWIS Association has potential for broader scope, to work on other projects as well as the OpenWIS software.
 		2. What are the medium-term goals of the OpenWIS Association?
 			1. JT - Medium term is over the next year or two.  Here are some I think we are all clear we are committed to:
 				- Stabilise OpenWIS software to a supportable version with adequate, automated test coverage;
-				- Ensure that OpenWIS systems operate efficiently, are inherently secure and conform to relevant standards (see Article A13.2i); 
-				- Automated deployment of the OpenWIS software; 
+				- Ensure that OpenWIS systems operate efficiently, are inherently secure and conform to relevant standards (see Article A13.2i);
+				- Automated deployment of the OpenWIS software;
 				- Improved user search and data acquisition experience (through functional enhancements of user portal- GeoNetwork 3), and  
 				- Readiness for open source community engagement.
 			2. RGib – We would also like the OpenWIS software to be more customisable; the Indonesian portal wasn't easy to customise.
@@ -159,7 +159,7 @@ title: OpenWIS Steering Committee 2016 March
 			39. JT - In terms of the TC, we can measure success against the technical plan – ie: deliver on time.
 			40. JT - The SC needs to provide direction so that the software delivered does the right thing.
 			41. JT - In terms of the value we expect in the medium term: we said - OpenWIS software is being used to reach new communities; but the metadata issues mean we are a bit stuck - but we can focus on NC/DCPC.
-			42. MDA - Usability is a possible metric. 
+			42. MDA - Usability is a possible metric.
 			43. JT – How about a Usability measure that 'a non-WMO community member can use OpenWIS to find some data'.
 			44. JT - So over a 2 year timescale: in Mar 2017 we release the GeoNetwork 3 version.  Then we see DCPC deployment.
 			45. OL – For other commissions, not just CBS.
@@ -192,7 +192,7 @@ title: OpenWIS Steering Committee 2016 March
 				- Show that OpenWIS software is being used to reach new communities, eg: integrating OGC services, making search / discovery better, improving the user experience.
 				- Help the community produce better metadata.  Produce guidance and for the OpenWIS software project to use it.
 			67. BB - Work with the GeoNetwork community, this is something they want too.
-			68. JT – The goal of the Board is to make sure the Association is healthy and meeting the goals of partner organisations. 
+			68. JT – The goal of the Board is to make sure the Association is healthy and meeting the goals of partner organisations.
 			69. MDA - The Board should have a vision, so at least one goal.
 			70. OL - Do we have an objective to create operational quality software?  The SC should have that objective.
 			71. JT:
@@ -204,10 +204,10 @@ title: OpenWIS Steering Committee 2016 March
 			- Create open source releases, but we're not expecting a large open source community.
 			- Continue to provide a quality product to attract more OpenWIS software users and grow the membership.
 			- Remain focused on the OpenWIS software product, but start a new project at some point.
-			- How do we establish community around the OpenWIS software? 
+			- How do we establish community around the OpenWIS software?
 	6. **Future requirements of WIS Centres**
 		1. Future WIS strategy - Matteo Dell'Acqua, Chair WMO ICT-ISS
-			- MDA slides (slides not provided).	
+			- MDA slides (slides not provided).
 		2. Evolution of WMO Core Metadata Profile - Jeremy Tandy, Chair WMO IPET-MDRD
 			- JT - The ISO metadata standard has been around for 10 years.  A new standard has been published, but it has only minor improvements.  Nothing has been mentioned yet by INSPIRE or other infrastructure projects about adopting this new standard.  However, we still have a challenge getting our metadata to a better quality.  So, the ET decided to postpone the decision about adopting new standard for 2 years and instead focus on providing guidance about implementing metadata better using the existing standards.
 	7. **Identification of metrics and targets for OpenWIS Association performance**
@@ -254,7 +254,7 @@ title: OpenWIS Steering Committee 2016 March
 		1. Review of development over the past year, since Melbourne 2015
 			- OpenWIS 3.14 operational release expected in April 2016
 			- Security testing complete - 2 critical issues found and fixed.
-			- Functional testing complete - awaiting update on one outstanding issue #32 - Remy Giraud. (RGir update - Dom mentioned non-WMO data.  Need clarification from Dom) 
+			- Functional testing complete - awaiting update on one outstanding issue #32 - Remy Giraud. (RGir update - Dom mentioned non-WMO data.  Need clarification from Dom)
 			- OpenWIS 4.x development release expected in June 2016
 			- Scalability issues with metadata harvesting; working with GeoCat to fix.
 			- Majority of enhancements to GeoNetwork 3 complete.
@@ -264,8 +264,8 @@ title: OpenWIS Steering Committee 2016 March
 			- Sticking with J2EE and light-weight container preferences
 			- Automated deployment
 			- Automated Security Service deployment expected to be ready for April
-			- Puppet currently best candidate for automation approach - UKMO will share their work. 
-		3. Future development 
+			- Puppet currently best candidate for automation approach - UKMO will share their work.
+		3. Future development
 			- Adoption of GeoNetwork 3 in OpenWIS 4.
 			- Mainly concentrate on new features - backlog to be populated and prioritised by TC and proposed to SC governance process - to be described by Jeremy.
 			- Application of Roles and Groups to accreditation and authorisation, for data as well as metadata.
@@ -278,7 +278,7 @@ title: OpenWIS Steering Committee 2016 March
 			- Adopt a more flexible development methodology and match with governance changes - eg: Kanban.
 			- Adopt a fixed operational release schedule approach so that operations can plan for releases - beginning with a 12 month initial cycle - set for March 2017.  Development and emergency patch releases can occur at other times as required.
 			- Adopt the odd/even release number system.
-			- Promote the June 2016 Development Release (4.1.0) as the open source launch release. 
+			- Promote the June 2016 Development Release (4.1.0) as the open source launch release.
 			- Improve developer community documentation, both for our own use and to attract open source collaborators in future.  Appoint a Technical Author to quickly convert our existing documentation (say 10k euros worth of effort).
 			- Adopt Markdown and surrounding tools as documentation standard and appoint a document custodian from the partners.
 			- Documentations – for user, developer, administrator (how we manage the documents, in what form, where etc).
@@ -344,7 +344,7 @@ title: OpenWIS Steering Committee 2016 March
 	1. **Support for multiple concurrent projects within the OpenWIS governance framework  - Jeremy Tandy, Bruce Bannerman**
 		1. JT - So first we'll have a presentation from BB, who has 15 years experience of working with OSS projects.  
 		2. BB slides on [OSGeo][BB1]
-			3. MG - Who does testing for OSGeo? 
+			3. MG - Who does testing for OSGeo?
 			4. BB – The User Community and Developers.
 			5. OL – Are there any financial contributions?
 			6. BB - Mainly for the FOSS4G annual conference event, in the form of sponsorship.  Projects fund themselves.  FOSS4G will usually make a small surplus.
@@ -354,7 +354,7 @@ title: OpenWIS Steering Committee 2016 March
 			10. RGir - Would the MetPX project join the OpenWIS Association?
 			11. BB – It's more than the software, there's the community too.
 			12. JT - So we could invite them to bring MetPX into the OpenWIS Association.
-			13. OL - OpenWIS is built on top of existing software 
+			13. OL - OpenWIS is built on top of existing software
 			14. JT - So are all these other projects in OSGeo.  We can be good OSS citizens by contributing back to these projects.  They will then reciprocate.
 			15. OL – The OpenWIS user base is very small, while geospatial is very large.
 			16. JT - GeoCat were interested in us contributing 'subscriptions' to GeoNetwork.
@@ -379,13 +379,13 @@ title: OpenWIS Steering Committee 2016 March
 			14. WQ – Is the PMC subordinate to the SC or the TC?
 			15. (JT captured a discussion about the roles of Technical Committee/Steering Committee/Project Management Committee, in real-time, in a diagram on-screen.  The meeting finally agreed this [Committee Role Structure][JT3])
 			16. JT – Ok, so we agree that the TC will continue to operate as PMC for OpenWIS Core for the time being so that the articles don't have to be changed.
-			17. ACT-OWIS-SC-2016-14: PR - RISK for Board Risk Register - That the articles of the Association are not fit for purpose regarding, particularly: 
-				Article 14.1 Architecture role of TC, 
-				Article 9.1 No mention of contributors, 
+			17. ACT-OWIS-SC-2016-14: PR - RISK for Board Risk Register - That the articles of the Association are not fit for purpose regarding, particularly:
+				Article 14.1 Architecture role of TC,
+				Article 9.1 No mention of contributors,
 				Article 21.2 Indemnity of partners and contributors. OWIS-ACT
 			18. ACT-OWIS-SC-2016-15: WQ(TC) - Define the roles in the development process - see JT doc. OWIS-ACT
 			19. ACT-OWIS-SC-2016-16: JT - Clarify articles that may appear to force other people to pay for your project.
-			20. RES-OWIS-SC-2016-07:Resolution: vote: 7-0 in favour - JT is tasked to amend the Internal Rules to reflect what we have discussed here today about managing multiple projects. OWIS-RES 
+			20. RES-OWIS-SC-2016-07:Resolution: vote: 7-0 in favour - JT is tasked to amend the Internal Rules to reflect what we have discussed here today about managing multiple projects. OWIS-RES
 	2. **Flexibility in [choice of open source license][JT4]**
 		1. JT - We agreed last year that projects could choose any licence accepted by Open Source Initiative.
 		2. JT - Let's refer to the OpenWIS software project as **OpenWIS Core**.  
@@ -422,14 +422,14 @@ title: OpenWIS Steering Committee 2016 March
 			15. RGib – Don't you think this big project is a risk for OpenWIS?
 			16. JT - We did say we could start with modules.
 			17. RGib - Maybe we should try to find modules that are a common interest so we can all contribute.
-			18. WQ - OL was worrying that we will neglect OpenWIS core - we won't, we will be working very hard to continue work on OpenWIS core.  These projects don't have to use OpenWIS core. 
+			18. WQ - OL was worrying that we will neglect OpenWIS core - we won't, we will be working very hard to continue work on OpenWIS core.  These projects don't have to use OpenWIS core.
 			19. BB - we want to.
 			20. WQ - Ok.
 			21. RGib - I believe a huge project is important for the Association and I like the idea of offering participation around the room.  But, I think we have to find a way of doing CDMS in a way we might be able to contribute without covering the whole project.
 			22. JT - We should have this debate when a project proposal gets submitted, we then create the project charter and then vote on it.  I think it is clear that we should request the project charter for CDMS and then continue the debate.
 		3. Post-processing algorithm exchange / code repository - Jeremy Tandy - no paper
 			1. JT - Something we all do and could share more.
-		4. Weather-on-the-Web - Jeremy Tandy. 
+		4. Weather-on-the-Web - Jeremy Tandy.
 			1. JT - Phase-1 involves establishing a standardized mechanism to provide site-specific forecasts to content aggregators (e.g. Google, Bing etc.) for onward publication. Encoding (e.g. using schema.org vocabulary, see ISSUE #362) plus server and client application reference implementations.
 		5. RabbitMQ/AMQP
 			1. JT - May also be a proposal - would any members be able to draft something?  
@@ -442,7 +442,7 @@ title: OpenWIS Steering Committee 2016 March
 		1. JT – We're not recommending any right now.  At a suitable time (within the next 12 months) BB/JT will work up a project charter.
 		2. JT – If MetPX are joining then MDA will produce a project charter
 		3. JT - UKMO will discuss project proposals for NWS suggestions
-		4. RGir – AFD, a 20 year old file distribution software.  It's a one man OSS project in the same situation as MetPX; old stable software. 
+		4. RGir – AFD, a 20 year old file distribution software.  It's a one man OSS project in the same situation as MetPX; old stable software.
 		5. OL - Why bother with it?
 		6. RGir - AFD has no API etc so requires some extra development; it might complete an end-to-end dissemination harness for OpenWIS.
 		7. ACT-OWIS-SC-2016-19: RGir - Investigate appetite for a project proposal with DWD. OWIS-ACT
@@ -557,7 +557,7 @@ title: OpenWIS Steering Committee 2016 March
 		80. JT - The current commission structure may change.
 		81. JT - In terms of communicating, is there anything else?
 		82. BB – What about writing for Journals?
-		83. JT - Which journals? 
+		83. JT - Which journals?
 		84. MDA - [Meteorological Technology International][MDA2]
 		85. WQ - Operational Newsletter within Observations
 		86. MDA - Might need to involve WMO Secretariat for that, and they are not currently interested
@@ -677,14 +677,14 @@ title: OpenWIS Steering Committee 2016 March
 		29. JT - So when we calculate the size of the annual budget, we will add EUR10k for the technical author?
 		30. ALL - Agreed.
 		31. JT - Onto second budget item: any fees we will incur when transferring from MFI.
-		32. EE - No taxes are expected. 
+		32. EE - No taxes are expected.
 		33. JT - We would need to reimburse MFI; any idea how much?
 		34. EE - Just some bank fees, shouldn't be much.
 		35. MDA – It will be euro to euro, so make no provision.
 		36. JT – Next: repeat ongoing costs:-
 			- Amazon platform costs - USD150 pcm - USD1800 per yr, so round to USD2000 per yr.
 			- Renewal of openwis.io website - EUR150 per yr
-			- WQ - Do we pay for the trademark? 
+			- WQ - Do we pay for the trademark?
 			- ACT-OWIS-SC-2016-32: EE - Check with Michael Robbins for fees related to trademarks. OWIS-ACT
 			- WQ – I think it was about EUR1000, but not sure if that was just for 1 year.
 			- Software management tools - also about USD150 pcm - so say USD2000 per year.
@@ -764,15 +764,15 @@ title: OpenWIS Steering Committee 2016 March
 - Item (7) 'Election [for SC chair and vice-chair]': note that "The SC Chair and SC Vice-Chair shall serve a twelve month term and shall be eligible for re-election at the end of the term. There shall be a limit of four consecutive years on the term that an SC Chair or SC Vice Chair may serve. […]" (Article A13.6)
 - Item (9) 'Recommendations to the Board regarding admission of new Members': Article A13.3i indicates that the SC may make recommendations to the Board regarding admission of new Members. Candidates must fall within one of the following categories: (i) National Meteorological Services recognised by the World Meteorological Organization; (ii) Government Organisations which hold a mandate or authority to carry out weather and climate research and services; (iii) Other Public Organisations which, in the opinion of the Board, are constituted for a purpose which is compatible with the purpose and objectives of the Association; or (iv) Other Non-Profit Organizations (including Non-Governmental Organisations) which, in the opinion of the Board, are constituted for a purpose which is compatible with the purpose and objectives of the Association (Rule R4.4). Also note that "Applications for admission as a Member should be made in writing and addressed to the Chairperson of the Board. […]" (Rule R4.5). In assessing applications for admission of a new Member, the following matters should be considered: (i) The willingness of he candidate to abide by the Articles of Association and these Internal Rules; (ii) The compatibility of the candidate's corporate purpose with the purpose of the Organization; (iii) The financial soundness of the candidate; (iv) The scientific and technical capability of the candidate and the compatibility f these capabilities with the Association's purpose and its current and future strategic programmes and work plans; (v) Whether admission of the candidate would best serve the interests of the Association and its existing Members and Partners in ensuring that the purpose and objectives of the Association are met; and (vi) Any other matter which the Board reasonably feels may have a bearing on its decision (Rule R4.8).
 - Item (10.2) 'Retrospective review of OpenWIS Association performance since SC-2015': What have we achieved? Is OpenWIS Association meeting expectations of Members and Partners?
-- Item (10.3) 'Strategic objectives for OpenWIS; Medium-term goals': examples of objectives include- (i) stabilise OpenWIS software to a supportable version with adequate [automated] test coverage; (ii) ensure that OpenWIS systems operate efficiently, are inherently secure and conform to relevant standards (see Article A13.2i); (iii) automated deployment; (iv) improved user search and data acquisition experience (through functional enhancements of user portal- GeoNetwork 3); and (v) readiness for open source community engagement. 
+- Item (10.3) 'Strategic objectives for OpenWIS; Medium-term goals': examples of objectives include- (i) stabilise OpenWIS software to a supportable version with adequate [automated] test coverage; (ii) ensure that OpenWIS systems operate efficiently, are inherently secure and conform to relevant standards (see Article A13.2i); (iii) automated deployment; (iv) improved user search and data acquisition experience (through functional enhancements of user portal- GeoNetwork 3); and (v) readiness for open source community engagement.
 - Item (10.7) 'Identification of metrics and targets for OpenWIS Association performance': the intent is drive an increase in rigour for OpenWIS operations, clarity in what we aim to achieve and accountability for achieving that outcome.
-- Item (11.1) 'Report(s) from Technical Committee': Article A14.1 outlines the scope of advice to be provided by the Technical Committee. 
+- Item (11.1) 'Report(s) from Technical Committee': Article A14.1 outlines the scope of advice to be provided by the Technical Committee.
 - Item (11.2) 'Review plan for going fully open source': Referring to action SC-2015-21; we need to determine when the GitHub repository will be made public (open).
 - Item (11.3) 'Resolution of issues referred to SC': Article A13.2ii notes that the SC should adjudicate on issues about requirements, design, implementation and standards where established procedures are unable to achieve an outcome in line with the objectives of the Organization.
 - Item (13.2) 'Amendment to Internal Rules; flexibility in choice of open source license': Rule (R9.1) asserts that GPL3 shall be used to license OpenWIS software; this should be amended to reflect the agreement from SC-2015, Melbourne, that projects operating within OpenWIS governance framework may choose any license that has been accepted by the Open Source Initiative (OSI).
-- Item (14.2) 'Identification of opportunities to participate in calls for proposals in externally funded projects': The decision to participate in such calls should be approved by the Steering Committee, having due regard to the available resources; the existing strategic programme and work plan of the Association; and the interests of the Association's Members and Partners. (Rule R2.5) 
-- Item (15.1) 'Recommendations to the Board regarding admission of new Partners': Persons or organizations wishing to become a Partner of the Association should submit a written request to the SC Chair (Rule R5.4). Candidates for the granting of Strategic or Associate  Partner status should fall within one of the following categories: (i) National Meteorological Services recognised by the World Meteorological Organization; (ii) Government Organisations which hold a mandate or authority to carry out weather and climate research and services; (iii) Other Public Organisations which, in the opinion of the Board, are constituted for a purpose which is compatible with the purpose and objectives of the Association; (iv) Other Non-Profit Organizations (including Non-Governmental Organisations) which, in the opinion of the Board, are constituted for a purpose which is compatible with the purpose and objectives of the Association; or, in the case of Associate  Partners, (v) Private companies which, in the opinion of the Board, have a corporate purpose which is compatible with the purpose and objectives of the Association (Rule R5.5). 
-- Item (15.2) 'Recommendations to Board regarding engagement with third-parties to participate in consortia […]': Subject to unanimous confirmation by the Board that doing so furthers the objectives of the Organization, the Organization may participate in consortia […] in the context of calls for proposals in respect of externally funded projects. 
+- Item (14.2) 'Identification of opportunities to participate in calls for proposals in externally funded projects': The decision to participate in such calls should be approved by the Steering Committee, having due regard to the available resources; the existing strategic programme and work plan of the Association; and the interests of the Association's Members and Partners. (Rule R2.5)
+- Item (15.1) 'Recommendations to the Board regarding admission of new Partners': Persons or organizations wishing to become a Partner of the Association should submit a written request to the SC Chair (Rule R5.4). Candidates for the granting of Strategic or Associate  Partner status should fall within one of the following categories: (i) National Meteorological Services recognised by the World Meteorological Organization; (ii) Government Organisations which hold a mandate or authority to carry out weather and climate research and services; (iii) Other Public Organisations which, in the opinion of the Board, are constituted for a purpose which is compatible with the purpose and objectives of the Association; (iv) Other Non-Profit Organizations (including Non-Governmental Organisations) which, in the opinion of the Board, are constituted for a purpose which is compatible with the purpose and objectives of the Association; or, in the case of Associate  Partners, (v) Private companies which, in the opinion of the Board, have a corporate purpose which is compatible with the purpose and objectives of the Association (Rule R5.5).
+- Item (15.2) 'Recommendations to Board regarding engagement with third-parties to participate in consortia […]': Subject to unanimous confirmation by the Board that doing so furthers the objectives of the Organization, the Organization may participate in consortia […] in the context of calls for proposals in respect of externally funded projects.
 - Item (15.3) 'Management of Contributor License Agreements': there is currently no mechanism in place to manage CLAs signed by contributors; who should be responsible for maintaining the CLA database and how should it be done?
 - Item (15.3.1) 'Example CLA management service': CLA Assistant is an open source project from SAP (see https://github.com/cla-assistant/cla-assistant) that integrates CLA management with GitHub identifies and workflow. A hosted instance is provided at https://cla-assistant.io/.  
 - Item (15.5) 'Provision of developer community resources': we need to determine the set resources required to support a 'wider' open-source software project; e.g. development policies, developer documentation, project website, use of the forum, use of GitHub issue tracker and wiki etc. Do we want to contract a technical author to get things set up?
@@ -806,14 +806,11 @@ title: OpenWIS Steering Committee 2016 March
 - Loic Le Gallou [LLG], Meteo France International, France [MFI], Vice-Chair
 
 [BR1]: http://www.palamida.com
-[JT1]: {{ site.url }}/assets/ATT-OWIS-SC-2016-3_Community_Mgr.DOC
-[BB1]: {{ site.url }}/assets/ATT-OWIS-SC-2016-9_openWIS-assoc-bannerman-OSGeo-v0.1.pptx
-[JT2]: {{ site.url }}/assets/ATT-OWIS-SC-2016-6-governance_r4.pdf
-[JT3]: {{ site.url }}/assets/ATT-OWIS-SC-2016-7_owis-committee-structure.pdf
-[JT4]: {{ site.url }}/assets/ATT-OWIS-SC-2016-4_internal-rules-choice-of-license_r1.docx
-[JT5]: {{ site.url }}/assets/ATT-OWIS-SC-2016-5_contributor-license-agreement-v1.1.docx
-[BB2]: {{ site.url }}/assets/ATT-OWIS-SC-2016-8_openWIS-assoc-14.1.1-bannerman-open-cdms-v2.pptx
+[JT1]: {{ site.baseurl | prepend: site.url }}/assets/ATT-OWIS-SC-2016-3_Community_Mgr.DOC
+[BB1]: {{ site.baseurl | prepend: site.url }}/assets/ATT-OWIS-SC-2016-9_openWIS-assoc-bannerman-OSGeo-v0.1.pptx
+[JT2]: {{ site.baseurl | prepend: site.url }}/assets/ATT-OWIS-SC-2016-6-governance_r4.pdf
+[JT3]: {{ site.baseurl | prepend: site.url }}/assets/ATT-OWIS-SC-2016-7_owis-committee-structure.pdf
+[JT4]: {{ site.baseurl | prepend: site.url }}/assets/ATT-OWIS-SC-2016-4_internal-rules-choice-of-license_r1.docx
+[JT5]: {{ site.baseurl | prepend: site.url }}/assets/ATT-OWIS-SC-2016-5_contributor-license-agreement-v1.1.docx
+[BB2]: {{ site.baseurl | prepend: site.url }}/assets/ATT-OWIS-SC-2016-8_openWIS-assoc-14.1.1-bannerman-open-cdms-v2.pptx
 [MDA2]: http://www.ukipme.com/pub-meteorological.php
-
-
-
