@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Improved User management workflows for Admins
-kanCategory: backlog
-kanSubCategory:
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned:
 kanBacklog: 8
 kanIssue:
