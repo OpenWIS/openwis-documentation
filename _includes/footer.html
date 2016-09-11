@@ -1,6 +1,9 @@
 <footer class="site-footer">
 
   <div class="wrapper">
+    <div>
+      <p><a class="gh-pages-editor-link" href="{{ page.path | prepend: site.gh-pages-editor-url }}">Edit this page on gh-pages</a></p>
+    </div>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -14,12 +17,6 @@
         <p><a rel="license" href="//creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt="License"/></a></p>
         <p><small>Except where otherwise noted, content on <span href="http://openwis.io">this site</span> is licensed under a <a rel="license" href="//creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International license</a>.</small></p>
       </div>
-    </div>
-
-    <div>
-      <p>{{ page.path }}</p>
-      <p>{{ site.url }}</p>
-      <p>{{ baseurl }}</p>
     </div>
 
   </div>
