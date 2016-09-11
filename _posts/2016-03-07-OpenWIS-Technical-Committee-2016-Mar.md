@@ -445,7 +445,7 @@ title: OpenWIS Technical Committee 2016 March
 - SO - Steve Olson, National Weather Service, USA [NWS]
 - RB - Robert Bunge, National Weather Service, USA [NWS]
 
-[SR]: {{ site.url }}/assets/Summary-Report-of-Current-OpenWIS-Development-v1.1.docx
+[SR]: {{ site.baseurl | prepend: site.url }}/assets/Summary-Report-of-Current-OpenWIS-Development-v1.1.docx
 [TP]: {{ site.url }}/assets/Test_Plan3_14_2_v01.docx
 [TR]: {{ site.url }}/assets/Test_Report3_14_2_v01.docx
 [B1]: {{ site.url }}/assets/Use_Case_B.1-Provide_Metadata_for_Data_or_Product.xlsx
