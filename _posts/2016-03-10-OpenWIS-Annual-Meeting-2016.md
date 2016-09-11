@@ -11,7 +11,7 @@ title: OpenWIS Annual Meeting 2016
 	1. Matteo Dell'Acqua welcomed everyone to the meeting.
 
 2. **Approval of agenda**
-	1. JT - Do we want to start the Board meeting on Thursday evening to allow Emma to present items (8), the Annual Accounts, (11.1), proposals for amending the Internal Rules for improved financial controls, and (9.2), setting a reserve amount for the budget? 
+	1. JT - Do we want to start the Board meeting on Thursday evening to allow Emma to present items (8), the Annual Accounts, (11.1), proposals for amending the Internal Rules for improved financial controls, and (9.2), setting a reserve amount for the budget?
 	2. JT - I think you are aware that Emma Edwards will be taking maternity leave during this FY; how do you want to cover this period? Is temporary cover sufficient, or do you want to formally change the Treasurer? Either way, we should cover this in AOB (12.1). If we do decide to re-elect a Treasurer, then we should call for nominations, noting that written notice to the Board is required ("Any Managing Director may resign his or her office prior to the expiry of his or her term by giving written notice to the Board. […]"; Article A12.8) and that "[…] the Treasurer shall be appointed by a simple majority of the Representatives present and voting." (Article A12.6)  
 	3. MDA – I would like to add a board discussion about getting a better understanding about where we want to go regarding extension of the projects – please add to AOB (added at item 12.3).
 
@@ -40,8 +40,8 @@ title: OpenWIS Annual Meeting 2016
 7. **Reports and recommendations from the SC**
 	1. **Review of strategic programme and work plan(s)**
 		1. JT – The SC recommended the following work plan for the next year:
-			1. OpenWIS Core version 3.14 - release imminent (March/April 2016); 
-			2. OpenWIS Core version 4.1 – release around June 2016; 
+			1. OpenWIS Core version 3.14 - release imminent (March/April 2016);
+			2. OpenWIS Core version 4.1 – release around June 2016;
 			3. A stable OpenWIS Core version 4.2 – release in March 2017
 		2. JT – The SC have also recommended 9 medium term (3 year) goals - we will need to firm up timescales and work packages:
 			1. Stabilise OpenWIS software to a supportable version with good test coverage
@@ -155,7 +155,7 @@ title: OpenWIS Annual Meeting 2016
 		4. RES-OWIS-AM-11: Vote: 5-0 in favour – Delegation by EE to another qualified person in UKMO is Approved. OWIS-RES
 		5. EE – Ok, I will notify you who the delegate is, once that is clear.
 	2. **Risks to the Association**
-		1. JT – I suggest that the board chairman tracks risks to the Association by keeping a risk register and adding IP risks to that. 
+		1. JT – I suggest that the board chairman tracks risks to the Association by keeping a risk register and adding IP risks to that.
 		2. ACT-OWIS-AM-07: MDA – Establish a Risk Register for the OpenWIS Association AISBL. OWIS-ACT
 	3. **Extra funding - sponsorship - what level of funding are we after?**
 		1. JT – The current burn rate is EUR20k per year and we are not intending to employ anybody, so funding doesn't appear to be an urgent problem.
@@ -165,7 +165,7 @@ title: OpenWIS Annual Meeting 2016
 	4. **Date of next meeting**
 		1. JT – The next meeting will be in about a year, with teleconferences in-between if required, to consider actions of the SC.
 		2. MDA - So the next meeting will be in Toulouse.
- 
+
 ---
 
 #### Notes (provided with the agenda)
@@ -208,6 +208,5 @@ title: OpenWIS Annual Meeting 2016
 - Patrick Benichou [PB], Meteo France International, France [MFI]
 
 
-[Accounts]: {{ site.url }}/assets/OpenWIS-Association-Accounts-2015.html
-[Budget]: {{ site.url }}/assets/OpenWIS-Association-Budget-2016.html
-
+[Accounts]: {{ site.baseurl | prepend: site.url }}/assets/OpenWIS-Association-Accounts-2015.html
+[Budget]: {{ site.baseurl | prepend: site.url }}/assets/OpenWIS-Association-Budget-2016.html
