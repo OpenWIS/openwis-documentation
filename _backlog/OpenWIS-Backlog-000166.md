@@ -24,7 +24,7 @@ Maybe also for all other docs on the site - a link in every page footer?
 
 As a start, let's just get the address of the file on GitHub displayed in the footer of every page.
 
-##Analysis
+## Analysis
 
 The url of this page on the local jekyll server site is: http://127.0.0.1:4000/openwis-documentation/backlog/OpenWIS-Backlog-000166.html
 The url of this page on this openwis-documentation site page is: http://openwis.github.io/openwis-documentation/backlog/OpenWIS-Backlog-000166.html
