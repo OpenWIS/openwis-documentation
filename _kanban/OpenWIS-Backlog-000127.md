@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Extend the Data Harness.
-kanCategory: code review
-kanSubCategory: pending
+kanCategory: develop
+kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 127
 kanIssue:
