@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: MM1 Use of custom metadata file identifier
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 40
 kanIssue:

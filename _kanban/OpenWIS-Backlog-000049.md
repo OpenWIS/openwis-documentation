@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: ADMIN6 Browse subscriptions
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 49
 kanIssue:

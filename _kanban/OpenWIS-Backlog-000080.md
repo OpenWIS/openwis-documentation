@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: UI2 My-downloads page
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 80
 kanIssue:

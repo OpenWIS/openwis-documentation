@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: DDS1 Download offer
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 77
 kanIssue:

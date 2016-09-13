@@ -1,7 +1,7 @@
 ---
 layout: backlog
 title: Maven 3 build failure
-kanCategory: done
+kanCategory: backlog
 kanSubCategory:
 kanAssigned: UKMO
 kanBacklog: 6

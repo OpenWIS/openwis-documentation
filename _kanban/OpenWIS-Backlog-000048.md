@@ -1,7 +1,7 @@
 ---
 layout: backlog
 title: Ensure that a user can only update their own user profile
-kanCategory: analyse
+kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 48

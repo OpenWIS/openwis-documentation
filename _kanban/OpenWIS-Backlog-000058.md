@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: OpenWIS version 4.1 development release
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 58
 kanIssue:
@@ -12,6 +12,6 @@ kanRelease: 4.1
 kanMetric: 1.2
 kanSize: 8
 kanPriority: 3
-kanRepo: 
+kanRepo:
 ---
 OpenWIS version 4.1 development release:

@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: OpenAM downgraded Java Version issue
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: backlog
+kanSubCategory: 
 kanAssigned: NWS
 kanBacklog: 3
 kanIssue: 173

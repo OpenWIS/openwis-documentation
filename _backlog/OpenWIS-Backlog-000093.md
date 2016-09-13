@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Python script for install of the data/management services
-kanCategory: code review
-kanSubCategory: pending
+kanCategory: backlog
+kanSubCategory: 
 kanAssigned: BoM
 kanBacklog: 93
 kanIssue:

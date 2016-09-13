@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Data and Mgt service config no longer managed in JNDI
-kanCategory: code review
-kanSubCategory: pending
+kanCategory: done
+kanSubCategory: 
 kanAssigned: LM
 kanBacklog: 91
 kanIssue:

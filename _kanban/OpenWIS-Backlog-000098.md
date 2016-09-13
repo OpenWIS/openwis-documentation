@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Adopt a fixed operational release schedule
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 98
 kanIssue:

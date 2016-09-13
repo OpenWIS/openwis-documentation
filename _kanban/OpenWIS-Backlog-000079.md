@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: DDS4 Direct download via HTTP
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 79
 kanIssue:

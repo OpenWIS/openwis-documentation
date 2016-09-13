@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: DDS2 New subscription
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 53
 kanIssue:

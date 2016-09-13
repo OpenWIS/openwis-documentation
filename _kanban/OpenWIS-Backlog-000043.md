@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: ADMIN3 Browse OpenWIS cache content
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 43
 kanIssue:

@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Develop
-kanCategory: code review
-kanSubCategory: pending
+kanCategory: backlog
+kanSubCategory: 
 kanAssigned: UKMO
 kanBacklog: 92
 kanIssue:
