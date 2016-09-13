@@ -57,7 +57,7 @@ OpenWIS Technical Committee 2016 May
 - RGr - Remy Giraud, Meteo France, France [MF]
 - MC - Michael Claudon, Meteo France, France [MF]
 - YG - Yves Goupil, Meteo France, France [MF]
-- JP - Jean-Phillippe Janecek, Meteo France, France [MF]
+- JPJ - Jean-Phillippe Janecek, Meteo France, France [MF]
 
 - RGb - Remy Gibault, Meteo France International, France [MFI]
 - LLG - Loic Le Gallou, Meteo France International, France [MFI], Vice-Chair
