@@ -19,8 +19,14 @@ title: Kanban Board
 	<h2>{{ j }}</h2>
 		{% for kanCard in site.kanban %}
 			  {% if kanCard.kanCategory == j %}
+					{% if kanCard.kanSubCategory == "in-progress" %}
+						{% assign kanTask-in-progress-summary = "kanTask-in-progress-style" %}
+					{% else %}
+						{% assign kanTask-in-progress-summary = "kanTask-pending-style" %}
+					{% endif %}
+
 				<details class="kanCard">
-					<summary><strong>{{ kanCard.kanBacklog | append: '. ' | append: kanCard.title }}</strong></summary>
+					<summary class={{ kanTask-in-progress-summary }}><strong class="kanTask-board-title">{{ kanCard.kanBacklog | append: '. ' | append: kanCard.title }}</strong></summary>
 					<div class="kanTask">
 						<p>
 							 {% if kanCard.kanPullReq %} pull-req#{{ kanCard.kanPullReq }}{% endif %}
