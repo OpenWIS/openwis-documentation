@@ -86,4 +86,8 @@ SO - Thanks, a lot of people have been involved in organising it, I'll mention t
 - GT - Giorgos Tryantafyllidis, European Dynamics, Greece [UKMO]
 - DG - Dimitris Gianneler, European Dynamics, Greece [UKMO]
 - DP - Dimitris Papadeas, European Dynamics, Greece [UKMO]
+- MC - Michael Claudon, Meteo France, France [MF]
+- YG - Yves Goupil, Meteo France, France [MF]
+- JPJ - Jean-Phillippe Janecek, Meteo France, France [MF]
+
 
