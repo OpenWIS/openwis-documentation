@@ -51,7 +51,7 @@ title: OpenWIS Technical Committee 2016 September
 	2. **WMO WIS Monitoring**
 		1. WQ - Yang issued an updated python script based on the new spec - it produces a modified JSON file.  Is anybody using it yet?
 		2. PN - We're not yet but we expect to on v3.
-		3. At CBS on Nov 23rd we will do a demo.  At the last TT-GISC we agreed all centres would provide the JSON files by the beginning of October.
+		3. WQ - At CBS on Nov 23rd we will do a demo.  At the last TT-GISC we agreed all centres would provide the JSON files by the beginning of October.
 		4. PN - Ok, we'll try to do that.
 		5. OL - Have BoM done that yet?
 		6. WQ - Yes, yesterday.
