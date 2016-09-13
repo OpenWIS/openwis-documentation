@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Issue#32
-kanCategory: analyse
-kanSubCategory: in-progress
+kanCategory: backlog
+kanSubCategory: 
 kanAssigned:
 kanBacklog: 22
 kanIssue: 32

@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: MM4 Maintain product metadata table
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 52
 kanIssue:

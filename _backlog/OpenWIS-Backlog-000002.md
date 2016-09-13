@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Portal to use OpenAM 12 federation
-kanCategory: develop
-kanSubCategory: pending
+kanCategory: backlog
+kanSubCategory: 
 kanAssigned: NWS
 kanBacklog: 2
 kanIssue: 180

@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Puppet
-kanCategory: code review
-kanSubCategory: pending
+kanCategory: backlog
+kanSubCategory: 
 kanAssigned: UKMO
 kanBacklog: 7
 kanIssue:

@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: DM1 Default metadata insertion
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 51
 kanIssue:

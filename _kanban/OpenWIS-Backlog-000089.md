@@ -1,7 +1,7 @@
 ---
 layout: backlog
 title: Browse Cache Content not maintaining Metadata ID criteria
-kanCategory: code review
+kanCategory: test
 kanSubCategory: pending
 kanAssigned:
 kanBacklog: 89

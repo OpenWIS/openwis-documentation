@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Security Service auto-deploy
-kanCategory: release
-kanSubCategory: pending
+kanCategory: backlog
+kanSubCategory: 
 kanAssigned: MF
 kanBacklog: 1
 kanIssue:

@@ -1,7 +1,7 @@
 ---
 layout: backlog
 title: Adopt the odd/even release number system.
-kanCategory: develop
+kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 64

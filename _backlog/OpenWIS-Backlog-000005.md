@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Vagrant/Puppet for provisioning
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: backlog
+kanSubCategory: 
 kanAssigned: BoM
 kanBacklog: 5
 kanIssue: 169

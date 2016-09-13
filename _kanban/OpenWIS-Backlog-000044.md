@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: ADMIN4 Monitoring and statistics
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 44
 kanIssue:

@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: AAC1 SAML2 authentication
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 55
 kanIssue:

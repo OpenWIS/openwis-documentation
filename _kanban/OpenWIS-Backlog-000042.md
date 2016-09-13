@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: ADMIN2 Browse product metadata table
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 42
 kanIssue:

@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Data Harness - GISC Roles, Permissions, SEC Policy
-kanCategory: analyse
-kanSubCategory: in-progress
+kanCategory: backlog
+kanSubCategory: 
 kanAssigned: UKMO
 kanBacklog: 9
 kanIssue: 126

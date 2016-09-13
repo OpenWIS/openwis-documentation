@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: DDS3 Ad-hoc request for delivery
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 50
 kanIssue:

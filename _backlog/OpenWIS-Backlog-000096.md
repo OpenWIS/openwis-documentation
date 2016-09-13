@@ -1,7 +1,7 @@
 ---
 layout: backlog
 title: Add OWASP dependency Check to Main Openwis Build
-kanCategory: done
+kanCategory: backlog
 kanSubCategory:
 kanAssigned: UKMO
 kanBacklog: 96

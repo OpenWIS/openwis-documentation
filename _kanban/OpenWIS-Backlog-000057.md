@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: AAC3 New user with SAML Identity
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 57
 kanIssue:
