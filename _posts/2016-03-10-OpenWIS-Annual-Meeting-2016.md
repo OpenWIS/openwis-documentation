@@ -34,7 +34,7 @@ title: OpenWIS Annual Meeting 2016
 		1. MDA – As discussed at the SC, I have tried to get new partners.  So far, only ECMWF are interested, but they have not yet signed the documents – it's a work in progress.
 	2. **Approval of new Partners recommended by the SC**
 		1. JT – The SC recommended ECMWF, subject to completion of the relevant documents.  Shall we vote on that recommendation?
-		2. RES-OWIS-AM-01: Vote: 5-0 in favour – ECMWF membership is Approved. OWIS-RES
+		2. RES-OWIS-AM-2016-01: Vote: 5-0 in favour – ECMWF membership is Approved. OWIS-RES
 		3. JT – And no further written requests for membership have been received by the SC chair.
 
 7. **Reports and recommendations from the SC**
@@ -53,9 +53,9 @@ title: OpenWIS Annual Meeting 2016
 			7. Search algorithms in OpenWIS software favourably rank 'quality' metadata
 			8. Establish readiness of the OpenWIS Core software project for engagement with open source community
 			9. Demonstrate that the OpenWIS Association provides a reusable collaboration framework
-		3. ACT-OWIS-AM-01: WQ/PR - draft a process for separating PMC/TC tasks into appropriate meetings. OWIS-ACT
-		4. ACT-OWIS-AM-02: JT/SC - agree smart metrics for each goal by June SC. OWIS-ACT
-		5. RES-OWIS-AM-02: Vote: 5-0 in favour – SC work plan Approved. OWIS-RES
+		3. ACT-OWIS-AM-2016-01: WQ/PR - draft a process for separating PMC/TC tasks into appropriate meetings. OWIS-ACT
+		4. ACT-OWIS-AM-2016-02: JT/SC - agree smart metrics for each goal by June SC. OWIS-ACT
+		5. RES-OWIS-AM-2016-02: Vote: 5-0 in favour – SC work plan Approved. OWIS-RES
 		6. MDA - It is the role of the SC to prioritise the programme, but I suggest the last item (9), is given some priority - just a comment.
 	2. **Establishment of new Projects**
 		1. JT – The SC are not recommending any new projects right now.  At a suitable time (within the next 12 months) BB/JT will submit a project charter for OpenCDMS, for consideration by the SC.  SC will then assess the commitment implied by the scope of the work and decide whether to recommend.  If they do recommend then the Board vote could be by correspondence.
@@ -76,24 +76,24 @@ title: OpenWIS Annual Meeting 2016
 	11. EE - I will confirm by email that I approve the attached document/accounts.
 	12. MDA – Regarding the bank account - I went to ING to open the account but we also needed JT/EE in a face to face meeting with ING, because they wanted to ensure that they were dealing with bona fide representatives.  Since then we have had no message from Brussels.
 	13. EE - Me neither.  All the forms have been sent.
-	14. ACT-OWIS-AM-03: MDA - Talk to ING contact on return to France. OWIS-ACT
+	14. ACT-OWIS-AM-2016-03: MDA - Talk to ING contact on return to France. OWIS-ACT
 	15. MDA - We have a new version of the accounts from EE.
 	16. RGr - So MFI absorbed the cost of openwis.io.
 	17. RGb - Do we know when the bank transfer will occur?
 	18. MDA - No information on that, sorry.
 	19. MDA – Shall we vote to approve the statement of accounts?
-	20. RES-OWIS-AM-03: Vote: 5-0 in favour – Statement of Accounts is Approved. OWIS-RES
+	20. RES-OWIS-AM-2016-03: Vote: 5-0 in favour – Statement of Accounts is Approved. OWIS-RES
 
 9. **Approval of budget for 2016**
 	1. **Review of budget recommended by SC (SC Chair)**
 		1. JT – The SC recommended EUR20,000 budget provision for the year January 2016 to December 2016; see [OpenWIS Association Budget 2016][Budget].
-		2. RES-OWIS-AM-04: Vote: 5-0 in favour – Annual budget for 2016 Approved. OWIS-RES
+		2. RES-OWIS-AM-2016-04: Vote: 5-0 in favour – Annual budget for 2016 Approved. OWIS-RES
 	2. **Approval of amount of reserve fund (see Rule R10.7)**
 		1. MDA - EE do you know what we can put into the reserve fund?
 		2. EE - No.
 		3. JT - If we need more, do we come back to the board to request money from the reserve fund?
 		4. MDA - 10.6 says that if we may run out of annual budget then we must set a reserve.  Shall we say EUR10,000, that is, 50% of the budget provision?
-		5. RES-OWIS-AM-05: Vote: 5-0 in favour – Reserve fund of EUR10,000 is Approved. OWIS-RES
+		5. RES-OWIS-AM-2016-05: Vote: 5-0 in favour – Reserve fund of EUR10,000 is Approved. OWIS-RES
 
 10. **Approval of fees, subscriptions and contributions for 2016**
 	1. MDA - We discussed fees from Association partners and sponsorship but we are not changing anything at this time.  In accordance with article 10.3 the fees remain the same as last year.
@@ -133,30 +133,30 @@ title: OpenWIS Annual Meeting 2016
 		31. MDA – Since yesterday, EE has made the requested modifications to the Financial Management annex to the Internal Rules.  
 		32. JT – Which included requiring a quote or estimate prior to financial concurrence and sending that information to the Treasurer.
 		33. JT – Are we content to accept these changes and this annex to the Internal Rules?
-		34. RES-OWIS-AM-06: Vote: 5-0 in favour – Changes to internal rules Approved. OWIS-RES
+		34. RES-OWIS-AM-2016-06: Vote: 5-0 in favour – Changes to internal rules Approved. OWIS-RES
 	2. **Review of amendments recommended by SC (SC Chair)**
 		1. JT - The SC recommended clarifying the rules on Associate Partner eligibility to participate in the TC. I propose a vote on the clarification suggested by the SC, that 'Associate Partners are eligible to be on the TC, subject to the qualifying criteria in article 14.2'.
 		2. JT - The SC vote was 6-0 in favour with 1 abstention; 3/4 of the board must vote in favour to approve.
-		3. RES-OWIS-AM-07: Vote: 4-0 in favour with 1 abstention – Clarification of the Internal Rules on Associate Partner eligibility to participate in the TC is Approved. OWIS-RES
+		3. RES-OWIS-AM-2016-07: Vote: 4-0 in favou-r with 1 abstention – Clarification of the Internal Rules on Associate Partner eligibility to participate in the TC is Approved. OWIS-RES
 		4. JT - Change rule 9.1 to say each project shall declare which OSI licence they use (as per JT doc - revision 1 of attachment 4 to the SC pack); 3/4 of the board needed to carry.
-		5. RES-OWIS-AM-08: Vote : 5-0 in favour – Rule 9.1 change is Approved. OWIS-RES
+		5. RES-OWIS-AM-2016-08: Vote : 5-0 in favour – Rule 9.1 change is Approved. OWIS-RES
 		6. JT – Next is the recommendation regarding rule changes to help with the governance of multiple projects.  It's covered in attachment 6 revision 4 of the SC pack and the follow-on discussion under section 13.1 of the SC meeting.
 		7. OL - Within the purpose of the organisation?
 		8. MDA/JT – Yes.
-		9. RES-OWIS-AM-09: Vote: 5-0 in favour – Rule changes on governance of multiple projects are Approved. OWIS-RES
+		9. RES-OWIS-AM-2016-09: Vote: 5-0 in favour – Rule changes on governance of multiple projects are Approved. OWIS-RES
 		10. JT – The SC recommends an amendment to the Internal Rules to say that, for SC-Chair and SC-Vice-Chair, 'the default tenure is 2 years and that re-election is routine unless others want to stand'.
-		11. RES-OWIS-AM-10: Vote: 5-0 in favour – Rule changes on default tenure are Approved. OWIS-RES
+		11. RES-OWIS-AM-2016-10: Vote: 5-0 in favour – Rule changes on default tenure are Approved. OWIS-RES
 
 12. **Any Other Business**
 	1. **Cover for Treasurer during 2016/17**
 		1. EE – I will be on maternity leave from July 2016 for 6 to 12 months.
 		2. MDA - So do we need cover?
 		3. JT – I believe that EE is still the accountable person, but if the board approve delegation by EE to another qualified person (in the UKMO) then we are compliant.  Are we content to do that?
-		4. RES-OWIS-AM-11: Vote: 5-0 in favour – Delegation by EE to another qualified person in UKMO is Approved. OWIS-RES
+		4. RES-OWIS-AM-2016-11: Vote: 5-0 in favour – Delegation by EE to another qualified person in UKMO is Approved. OWIS-RES
 		5. EE – Ok, I will notify you who the delegate is, once that is clear.
 	2. **Risks to the Association**
 		1. JT – I suggest that the board chairman tracks risks to the Association by keeping a risk register and adding IP risks to that.
-		2. ACT-OWIS-AM-07: MDA – Establish a Risk Register for the OpenWIS Association AISBL. OWIS-ACT
+		2. ACT-OWIS-AM-2016-07: MDA – Establish a Risk Register for the OpenWIS Association AISBL. OWIS-ACT
 	3. **Extra funding - sponsorship - what level of funding are we after?**
 		1. JT – The current burn rate is EUR20k per year and we are not intending to employ anybody, so funding doesn't appear to be an urgent problem.
 		2. OL - Growth of the company doesn't guarantee greatness and we have to make each project we bring in a success.  We have to have a good core product.
