@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: Delegation of mgt of Users and Groups to Geonetwork
+title: Delegation of management of Users and Groups to Geonetwork
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
@@ -11,7 +11,7 @@ kanFeature: Integrated catalogue
 kanRelease: 4.1
 kanMetric: 3.2
 kanSize:
-kanPriority: 3
+kanPriority: 4
 kanRepo: 
 ---
-[Enable] delegation of management of Users and Groups to Geonetwork. Will impact the Security Service
+[Enable] delegation of management of Users and Groups to Geonetwork. Will impact the Security Service.
