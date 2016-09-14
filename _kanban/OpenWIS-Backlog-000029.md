@@ -11,7 +11,7 @@ kanFeature: Quality software
 kanRelease: 4.1
 kanMetric: 1.1
 kanSize: 5
-kanPriority: 1
+kanPriority: 3
 kanRepo: OpenWIS/openwis 
 ---
 
