@@ -17,16 +17,19 @@ kanRepo:
 Adopt the odd/even release number system.  So ODD=development release; EVEN=production release.  The middle digit of the fully qualified 3 digit release number is the digit that is odd or even.
 
 Examples of Odd/development release numbers would be:
+
 - 4.1.0
 - 4.1.2
 - 5.1.6
 
 Examples of Even/production release numbers would be:
+
 - 4.2.0
 - 4.2.1
 - 5.0.3
 
 So, just as an example, a development cycle might go:
+
 - 4.0.1 not released
 - 4.0.2 not released
 - 4.1.0 development release
