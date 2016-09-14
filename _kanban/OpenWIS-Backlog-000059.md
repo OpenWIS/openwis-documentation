@@ -11,7 +11,7 @@ kanFeature: Integrated catalogue
 kanRelease: 4.1
 kanMetric: 1.2
 kanSize: 21+
-kanPriority: 3
+kanPriority: 2
 kanRepo:
 ---
 Adoption of GeoNetwork 3 in OpenWIS 4.
