@@ -11,7 +11,7 @@ kanFeature: Good documentation
 kanRelease: 4.2
 kanMetric: 2.1
 kanSize: 3
-kanPriority: 5
+kanPriority: 8
 kanRepo: OpenWIS/openwis-documentation
 ---
 Sysadmin guide

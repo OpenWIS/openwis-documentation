@@ -2,7 +2,7 @@
 layout: backlog
 title: Security Service auto-deploy
 kanCategory: backlog
-kanSubCategory: 
+kanSubCategory:
 kanAssigned: MF
 kanBacklog: 1
 kanIssue:
@@ -11,7 +11,7 @@ kanFeature: Security
 kanRelease: 3.14
 kanMetric: 2
 kanSize: 2
-kanPriority: 1
+kanPriority: 6
 kanRepo: OpenWIS/openwis
 ---
 

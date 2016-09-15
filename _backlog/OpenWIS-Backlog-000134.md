@@ -11,7 +11,7 @@ kanFeature: Intuitive UI
 kanRelease: 4.2
 kanMetric: 5.1
 kanSize: 1
-kanPriority: 5
-kanRepo: 
+kanPriority: 8
+kanRepo:
 ---
 Click to reset selection on world map (JIRA ticket). Contribute back to GeoNetwork trunk.

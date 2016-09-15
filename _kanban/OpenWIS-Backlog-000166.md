@@ -1,7 +1,7 @@
 ---
 layout: backlog
 title: Link from backlog item to GitHub to edit
-kanCategory: backlog
+kanCategory: done
 kanSubCategory:
 kanAssigned:
 kanBacklog: 166

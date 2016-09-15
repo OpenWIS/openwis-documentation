@@ -11,7 +11,7 @@ kanFeature: Security
 kanRelease: 3.14
 kanMetric: 1
 kanSize: 1
-kanPriority: 7
-kanRepo: 
+kanPriority: 9
+kanRepo:
 ---
 [LOW] timeout user session after configurable period of inactivity. Comes with OpenAM? MF to verify

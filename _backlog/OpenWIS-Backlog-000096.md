@@ -11,7 +11,7 @@ kanFeature: Security
 kanRelease: 4.2
 kanMetric: 1.1
 kanSize: 1
-kanPriority: 2
+kanPriority: 6
 kanRepo: OpenWIS/openwis
 ---
 Add OWASP dependency Check to Main Openwis Build

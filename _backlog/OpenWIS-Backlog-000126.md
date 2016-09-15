@@ -11,7 +11,7 @@ kanFeature: Dissemination options
 kanRelease: 4.2
 kanMetric: 2
 kanSize: 13
-kanPriority: 4
-kanRepo: 
+kanPriority: 7
+kanRepo:
 ---
 Rationalise Dissemination sub-system to implement a common API for email, FTP and MSS/MSS distribution; provides extension path for future distribution methods. LM - Might require some largish design and implementation effort.

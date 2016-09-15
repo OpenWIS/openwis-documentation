@@ -11,7 +11,7 @@ kanFeature: Integrated catalogue
 kanRelease: 4.1
 kanMetric: 5.1
 kanSize: 2
-kanPriority: 7
-kanRepo: 
+kanPriority: 9
+kanRepo:
 ---
 Browsable catalogue (similar to CMA) and breadcrumbs. Comes with GeoNetwork trunk; BoM to verify. LM - Estimate is verification task

@@ -11,7 +11,7 @@ kanFeature: Quality software
 kanRelease: 4.2
 kanMetric: 1.1
 kanSize:
-kanPriority: 5
-kanRepo: 
+kanPriority: 8
+kanRepo:
 ---
 Specify performance tests

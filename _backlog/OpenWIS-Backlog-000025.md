@@ -11,7 +11,7 @@ kanFeature: Automated deployment
 kanRelease: 3.14
 kanMetric: 2.3
 kanSize:
-kanPriority: 2
+kanPriority: 6
 kanRepo: OpenWIS/openwis
 ---
 

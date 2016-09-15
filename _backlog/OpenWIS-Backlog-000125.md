@@ -11,7 +11,7 @@ kanFeature: Intuitive UI
 kanRelease: 4.2
 kanMetric: 5.1
 kanSize: 5
-kanPriority: 4
+kanPriority: 7
 kanRepo: OpenWIS/openwis
 ---
 Improvements to the sub-selection parameters. LM - Not sure what this is referring to, but I do have some ideas as to how to improve this.
