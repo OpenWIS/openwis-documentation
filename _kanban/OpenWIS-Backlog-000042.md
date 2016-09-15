@@ -11,7 +11,7 @@ kanFeature: Integrated catologue
 kanRelease: 4.1
 kanMetric: 2.1
 kanSize: 3
-kanPriority: 3
+kanPriority: 2
 kanRepo:
 ---
 Enhancement ADMIN2: Browse product metadata table
