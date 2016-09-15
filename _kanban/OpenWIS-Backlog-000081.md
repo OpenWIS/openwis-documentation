@@ -18,4 +18,4 @@ Refactoring to improve the modularity of the system architecture. LM - Important
 
 PR - The initial scope should at least improve the way OpenWIS code interfaces with GeoNetwork code.
 
-GT is documenting his investigation of the options here (https://github.com/NMichas/openwis-draft-analysis/wiki/Enhancing-GeoNetwork-UI)
+GT is documenting his investigation of the options [here](https://github.com/NMichas/openwis-draft-analysis/wiki/Enhancing-GeoNetwork-UI)
