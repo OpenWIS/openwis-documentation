@@ -11,7 +11,7 @@ kanFeature: Integrated catologue
 kanRelease: 4.1
 kanMetric: 2.1
 kanSize: 3
-kanPriority: 3
+kanPriority: 4
 kanRepo:
 ---
 Enhancement MM3: Metadata categories and category-based harvesting
