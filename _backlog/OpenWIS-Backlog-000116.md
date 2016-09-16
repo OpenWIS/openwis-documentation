@@ -11,7 +11,7 @@ kanFeature: Intuitive UI
 kanRelease: 4.2
 kanMetric: 5.1
 kanSize: 2
-kanPriority: 4
-kanRepo: 
+kanPriority: 7
+kanRepo:
 ---
 Sub Selection parameters: add ajax-based combo box with filtering mechanism. Follows Task 49

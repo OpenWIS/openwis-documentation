@@ -11,7 +11,7 @@ kanFeature: Intuitive UI
 kanRelease: 4.2
 kanMetric: 5.1
 kanSize: 1
-kanPriority: 5
+kanPriority: 8
 kanRepo: OpenWIS/openwis
 ---
 Remove templates from search results (user portal main page). Comes with GeoNetwork trunk; MFI to verify

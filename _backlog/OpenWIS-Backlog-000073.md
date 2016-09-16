@@ -11,7 +11,7 @@ kanFeature: Integrated catalogue
 kanRelease: 4.1
 kanMetric: 5.1
 kanSize: 2
-kanPriority: 5
-kanRepo: 
+kanPriority: 8
+kanRepo:
 ---
 Move metadata web editor and viewer to a separate page instead of a floating JavaScript window. Comes with GeoNetwork trunk; BoM to verify

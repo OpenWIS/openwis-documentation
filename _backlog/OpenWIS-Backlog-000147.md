@@ -11,7 +11,7 @@ kanFeature: Intuitive UI
 kanRelease: 4.2
 kanMetric: 5.2
 kanSize: 5
-kanPriority: 5
-kanRepo: 
+kanPriority: 8
+kanRepo:
 ---
 Improving set up of bulk subscriptions from User perspective.

@@ -11,7 +11,7 @@ kanFeature: Integrated catalogue
 kanRelease: 4.2
 kanMetric: 2
 kanSize: 2
-kanPriority: 3
+kanPriority: 7
 kanRepo: OpenWIS/openwis
 ---
 The role of Category for metadata sync. LM - Are categories in GN conceptually different than they were in OpenWIS 3.14?

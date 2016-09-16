@@ -11,7 +11,7 @@ kanFeature: Customisable
 kanRelease: 5
 kanMetric: 3.1
 kanSize: 13
-kanPriority: 8
-kanRepo: 
+kanPriority: 9
+kanRepo:
 ---
 Deprecation of SOAP, replacing with REST over long term (2-3 years).

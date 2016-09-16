@@ -11,7 +11,7 @@ kanFeature: Intuitive UI
 kanRelease: 4.2
 kanMetric: 5.1
 kanSize: 1
-kanPriority: 5
-kanRepo: 
+kanPriority: 8
+kanRepo:
 ---
 Ability to change the default size & positioning of the map. The map should be focused on the country providing the WIS portal. Comes with GeoNetwork trunk

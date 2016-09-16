@@ -11,7 +11,7 @@ kanFeature: Useful metadata
 kanRelease: 4.2
 kanMetric: 5.1
 kanSize: 2
-kanPriority: 4
+kanPriority: 7
 kanRepo: OpenWIS/openwis
 ---
 Cannot create metadata: OpenWIS derives an empty string as the value for GTS Category. Is this bug still occurring? Need to confirm if this will occur in GN3.
