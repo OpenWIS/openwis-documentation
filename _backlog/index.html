@@ -4,6 +4,7 @@ title: Backlog
 ---
 
 {% assign kanMaxChars = 500 %}
+{% assign kanWarning = false %}
 
 <article>
 	<header>
@@ -30,8 +31,13 @@ title: Backlog
 	<hr>
 	<h2>priority {{i}}{{ kanPriorityLabel }}</h2>
 		{% for kanCard in site.backlog %}
-			{% if kanCard.kanPriority > 10 or kanCard.kanPriority < 6 or kanCard.kanPriority == null %}
-				{% capture kanNullPrtyWarning %}{{ kanNullPrtyWarning | append: kanCard.kanBacklog | append: '. ' }}{% endcapture %}
+			{%if i == 10 %}
+				{% if kanCard.kanPriority > 10 or kanCard.kanPriority < 6 or kanCard.kanPriority == null %}
+					{% if kanCard.kanBacklog != null %}
+						{% capture kanNullPrtyWarning %}{{ kanNullPrtyWarning | append: kanCard.kanBacklog | append: '. ' }}{% endcapture %}
+						{% assign kanWarning = true %}
+					{% endif %}
+				{% endif %}
 			{% endif %}
 
 
@@ -64,10 +70,12 @@ title: Backlog
 		</div>
 {% endfor %}
 	<hr>
-	<p class="kanWarning">Oops! The following Backlog Items have no Priority or have a Priority value outside the range allowed (6 to 10):<br>
+	{% if kanWarning %}
+		<p class="kanWarning">Oops! The following Backlog Items have no Priority or have a Priority value outside the range allowed (6 to 10):<br>
 				{{ kanNullPrtyWarning }}<br>
 				  Until this is corrected they will not appear in the Backlog.
-	</p>
+		</p>
+	{% endif %}
 </div>
 
 </article>
