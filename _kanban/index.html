@@ -39,11 +39,20 @@ title: Kanban Board
 						 </p>
 					</div>
 					<div class="kanTaskDesc">
-							 {% if kanCard.content.size > kanMaxChars %}
-								 {{ kanCard.content | truncate: kanMaxChars }}<a href="{{ kanCard.url | prepend: site.baseurl  }}" target=_blank><br><br><em>more</em></a>
-							 {% else %}
-									{{ kanCard.content }}<a href="{{ kanCard.url | prepend: site.baseurl  }}" target=_blank><em>show</em></a>
-							 {% endif %}
+						{% if kanCard.content.size > kanMaxChars %}
+							 {% assign kanParas = kanCard.content | split: "</p>" %}
+							 {% assign kanChars = 0 %}
+							 {% for p in kanParas %}
+								 {{ p }}
+								 {% assign kanChars = kanChars | plus: p.size %}
+								 {% if kanChars >= kanMaxChars %}
+									 <a href="{{ kanCard.url | prepend: site.baseurl }}" target=_blank><br><br><em>more</em></a>
+									 {% break %}
+								 {% endif %}
+							 {% endfor %}
+						{% else %}
+							 {{ kanCard.content }}<a href="{{ kanCard.url | prepend: site.baseurl }}" target=_blank><em>show</em></a>
+						{% endif %}
 					</div>
 				</details>
 				{% endif %}
