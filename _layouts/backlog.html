@@ -32,6 +32,16 @@ layout: default
 				 {% if page.kanSubCategory %}<span class="kanSubCategory">{{ page.kanSubCategory | upcase }}</span>{% endif %}
 
 				 {% case page.kanPriority %}
+			   	{% when 1 %}
+			      	priority:1-blocker
+			 		{% when 2 %}
+			      	priority:2-must
+			 		{% when 3 %}
+			      	priority:3-should
+			 		{% when 4 %}
+			      	priority:4 could
+			 		{% when 5 %}
+			      	priority:5-won't
 			   	{% when 6 %}
 			      	priority:6-v.high
 			 		{% when 7 %}
