@@ -11,7 +11,7 @@ kanFeature: Useful metadata
 kanRelease: 4.2
 kanMetric: 6.1
 kanSize: 2
-kanPriority: 4
-kanRepo: 
+kanPriority: 7
+kanRepo:
 ---
 GeoNetwork plugin for WCMP profile 1.3/1.4. Done against GeoNetwork 2.12

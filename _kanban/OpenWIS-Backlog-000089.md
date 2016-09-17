@@ -1,7 +1,7 @@
 ---
 layout: backlog
 title: Browse Cache Content not maintaining Metadata ID criteria
-kanCategory: code review
+kanCategory: test
 kanSubCategory: pending
 kanAssigned:
 kanBacklog: 89
@@ -11,7 +11,7 @@ kanFeature: Intuitive UI
 kanRelease: 4.1
 kanMetric: 5.1
 kanSize: 1
-kanPriority:
+kanPriority: 3
 kanRepo: OpenWIS/openwis
 ---
 Browse Cache Content does not maintain Metadata ID criteria when change pages. Will not fix for 3.14.x portals. Confirm that this will work for GN3. LM - Fixed in 3.14.x

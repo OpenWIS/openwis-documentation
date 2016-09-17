@@ -9,6 +9,9 @@ baseurl: "/openwis-documentation"
 # UNCOMMENT next line before publishing to GitHub!!!  REcomment to run local tests with Jekyll serve
 url: "http://openwis.github.io"
 
+# gh-pages-editor-url is the main part of the web address we need to link to the GitHub editor to edit the page directly in the gh-pages source
+gh-pages-editor-url: "https://github.com/OpenWIS/openwis-documentation/blob/gh-pages/"
+
 # Build settings
 markdown: kramdown
 

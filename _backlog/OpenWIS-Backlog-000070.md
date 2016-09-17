@@ -11,7 +11,7 @@ kanFeature: Integrated catalogue
 kanRelease: 4.1
 kanMetric: 6.1
 kanSize: 2
-kanPriority: 5
-kanRepo: 
+kanPriority: 8
+kanRepo:
 ---
 Save unfinished metadata in a separate catalogue so only owner can view. Comes with GeoNetwork trunk; BoM to verify

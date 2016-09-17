@@ -11,7 +11,7 @@ kanFeature: Good documentation
 kanRelease: 4.1
 kanMetric: 9.2
 kanSize: 2
-kanPriority: 3
+kanPriority: 2
 kanRepo: OpenWIS/openwis-documentation
 ---
 A-OWIS-SC-2016-5 PR - Do some more detailed tasking around production of docs for open source (licence etc?).

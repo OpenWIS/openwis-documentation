@@ -11,7 +11,7 @@ kanFeature: Quality software
 kanRelease:
 kanMetric: 4.2
 kanSize:
-kanPriority: 9
+kanPriority: 10
 kanRepo:
 ---
 14.1.3 Post-processing algorithm exchange / code repository [Jeremy Tandy]

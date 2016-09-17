@@ -11,7 +11,7 @@ kanFeature: Quality software
 kanRelease: 4.2
 kanMetric: 2
 kanSize: 3
-kanPriority: 4
-kanRepo: OpenWIS/openwis 
+kanPriority: 7
+kanRepo: OpenWIS/openwis
 ---
 Metadata synchronisation: Partial Update v.s. ACID

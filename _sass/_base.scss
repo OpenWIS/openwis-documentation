@@ -212,6 +212,14 @@ table { border-collapse: collapse }
 table, td, th { border: 1px solid #e8e8e8 }
 td, th { text-align: left ; padding: 10px }
 
+/**
+ * task-in-progress / task-pending color - additional styles defined by Paul Rogers to highlight Kanban tasks in progress
+ */
+.kanTask-in-progress-style { color:Red; }
+
+.kanTask-pending-style { color:Black; }
+
+.kanTask-board-title { color:SteelBlue; }
 
 
 /**
@@ -277,3 +285,13 @@ td, th { text-align: left ; padding: 10px }
  */
 .clear {clear: left;
     }
+
+/**
+  * gh-pages-editor-link - additional style defined by Paul Rogers to style the gh-pages-editor-link
+  */
+.gh-pages-editor-link {font-style: normal;
+        padding: 0.5em; font-size: 80%;
+        border-width: 0.2em; border-style: solid; border-color: SteelBlue;
+        background-color: Silver;
+        border-radius: 5px;
+        }

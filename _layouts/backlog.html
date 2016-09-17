@@ -17,9 +17,9 @@ layout: default
 
 						{% case kanGoalMetric[0].size %}
   					{% when 1 %}
-							<a href="../metrics/OpenWIS-Metrics-0{{ kanGoalMetric[0] | prepend: site.baseurl }}.html">metric:{{ page.kanMetric }}</a>
+							<a href="../metrics/OpenWIS-Metrics-0{{ kanGoalMetric[0] }}.html">metric:{{ page.kanMetric }}</a>
   					{% when 2 %}
-							<a href="../metrics/OpenWIS-Metrics-{{ kanGoalMetric[0] | prepend: site.baseurl }}.html">metric:{{ page.kanMetric }}</a>
+							<a href="../metrics/OpenWIS-Metrics-{{ kanGoalMetric[0] }}.html">metric:{{ page.kanMetric }}</a>
   					{% else %}
      					<p class="kanWarning">Oops! Unable to link to Goal:{{ page.kanMetric }} because it has an unexpected format (expected a number between 1 and 99 inclusive)</p>
 						{% endcase %}
@@ -30,7 +30,31 @@ layout: default
 				 {% if page.kanRelease %} release:{{ page.kanRelease }}{% endif %}
 				 {% if page.kanAssigned %} assigned:{{ page.kanAssigned }}{% endif %}
 				 {% if page.kanSubCategory %}<span class="kanSubCategory">{{ page.kanSubCategory | upcase }}</span>{% endif %}
-				 priority:{{ page.kanPriority }}
+
+				 {% case page.kanPriority %}
+			   	{% when 1 %}
+			      	priority:1-blocker
+			 		{% when 2 %}
+			      	priority:2-must
+			 		{% when 3 %}
+			      	priority:3-should
+			 		{% when 4 %}
+			      	priority:4 could
+			 		{% when 5 %}
+			      	priority:5-won't
+			   	{% when 6 %}
+			      	priority:6-v.high
+			 		{% when 7 %}
+			      	priority:7-high
+			 		{% when 8 %}
+			      	priority:8-med
+			 		{% when 9 %}
+			      	priority:9-low
+			 		{% when 10 %}
+			      	priority:10-v.low
+			 	{% endcase %}
+
+
 			 </p>
 		</div>
 

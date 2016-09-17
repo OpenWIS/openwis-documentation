@@ -3,7 +3,7 @@ layout: default
 title: Kanban Board
 ---
 
-{% assign kanMaxChars = 500 %}
+{% assign kanMaxChars = 200 %}
 {% assign kanCategoryLabels = "analyse, design, develop, code review, test, test review, release, done" | split: ', ' %}
 
 <article>
@@ -19,10 +19,39 @@ title: Kanban Board
 	<h2>{{ j }}</h2>
 		{% for kanCard in site.kanban %}
 			  {% if kanCard.kanCategory == j %}
+					{% if kanCard.kanSubCategory == "in-progress" %}
+						{% assign kanTask-in-progress-summary = "kanTask-in-progress-style" %}
+					{% else %}
+						{% assign kanTask-in-progress-summary = "kanTask-pending-style" %}
+					{% endif %}
+
 				<details class="kanCard">
-					<summary><strong>{{ kanCard.kanBacklog | append: '. ' | append: kanCard.title }}</strong></summary>
+					<summary class={{ kanTask-in-progress-summary }}><strong class="kanTask-board-title">{{ kanCard.kanBacklog | append: '. ' | append: kanCard.title }}</strong></summary>
 					<div class="kanTask">
 						<p>
+							{% case kanCard.kanPriority %}
+								{% when 1 %}
+										priority:1-blocker
+								{% when 2 %}
+										priority:2-must
+								{% when 3 %}
+										priority:3-should
+								{% when 4 %}
+										priority:4 could
+								{% when 5 %}
+										priority:5-won't
+								{% when 6 %}
+										priority:6-v.high
+								{% when 7 %}
+										priority:7-high
+								{% when 8 %}
+										priority:8-med
+								{% when 9 %}
+										priority:9-low
+								{% when 10 %}
+										priority:10-v.low
+							{% endcase %}
+
 							 {% if kanCard.kanPullReq %} pull-req#{{ kanCard.kanPullReq }}{% endif %}
 							 {% if kanCard.kanIssue %} issue#{{ kanCard.kanIssue }}{% endif %}
 							 {% if kanCard.kanSize %} size:{{ kanCard.kanSize }}{% endif %}
@@ -30,14 +59,24 @@ title: Kanban Board
 							 {% if kanCard.kanRelease %} release:{{ kanCard.kanRelease }}{% endif %}
 							 {% if kanCard.kanAssigned %} assigned:{{ kanCard.kanAssigned }}{% endif %}
 							 {% if kanCard.kanSubCategory %}<span class="kanSubCategory">{{ kanCard.kanSubCategory | upcase }}</span>{% endif %}
+
 						 </p>
 					</div>
 					<div class="kanTaskDesc">
-							 {% if kanCard.content.size > kanMaxChars %}
-								 {{ kanCard.content | truncate: kanMaxChars }}<a href="{{ kanCard.url }}" target=_blank><br><br><em>more</em></a>
-							 {% else %}
-									{{ kanCard.content }}<a href="{{ kanCard.url }}" target=_blank><em>show</em></a>
-							 {% endif %}
+						{% if kanCard.content.size > kanMaxChars %}
+							 {% assign kanParas = kanCard.content | split: "</p>" %}
+							 {% assign kanChars = 0 %}
+							 {% for p in kanParas %}
+								 {{ p }}
+								 {% assign kanChars = kanChars | plus: p.size %}
+								 {% if kanChars >= kanMaxChars %}
+									 <a href="{{ kanCard.url | prepend: site.baseurl }}" target=_blank><br><br><em>more</em></a>
+									 {% break %}
+								 {% endif %}
+							 {% endfor %}
+						{% else %}
+							 {{ kanCard.content }}<a href="{{ kanCard.url | prepend: site.baseurl }}" target=_blank><em>show</em></a>
+						{% endif %}
 					</div>
 				</details>
 				{% endif %}

@@ -11,7 +11,7 @@ kanFeature: Customisable
 kanRelease: 4.2
 kanMetric: 3.1
 kanSize: 1
-kanPriority: 5
-kanRepo: 
+kanPriority: 8
+kanRepo:
 ---
 Disabling GISC functions on Administration Portal by configuration when running as DCPC (Synchronisation, Cache etc) - [DESIGN]. Design Review: June 2015 TC meeting LM - Lines between GISC and DCPC functionality is not clear cut. With GN 3 and refactoring efforts, may be worth making this clearer.

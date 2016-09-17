@@ -434,9 +434,9 @@ title: OpenWIS Technical Committee 2016 March
 - CSP - Chung Shin Park, Korea Meteorological Administration, Republic of Korea [KMA]
 - RGr - Remy Giraud, Meteo France, France [MF]
 - RGb - Remy Gibault, Meteo-France International [MFI]
-- MV - Mikko Visa, Finnish Meteorological Institute [FMI] 
-- MP - Mikko Partio, Finnish Meteorological Institute [FMI] 
-- BR - Baudouin Raoult, European Centre for Medium Range Weather Forecasting [ECMWF] 
+- MV - Mikko Visa, Finnish Meteorological Institute [FMI]
+- MP - Mikko Partio, Finnish Meteorological Institute [FMI]
+- BR - Baudouin Raoult, European Centre for Medium Range Weather Forecasting [ECMWF]
 - MGo - Martin Gollogly, SCISYS, UK [UKMO]
 - JT - Jeremy Tandy, Met Office, UK [UKMO]
 - PR - Paul Rogers, Met Office, UK [UKMO]
@@ -445,16 +445,16 @@ title: OpenWIS Technical Committee 2016 March
 - SO - Steve Olson, National Weather Service, USA [NWS]
 - RB - Robert Bunge, National Weather Service, USA [NWS]
 
-[SR]: {{ site.url }}/assets/Summary-Report-of-Current-OpenWIS-Development-v1.1.docx
-[TP]: {{ site.url }}/assets/Test_Plan3_14_2_v01.docx
-[TR]: {{ site.url }}/assets/Test_Report3_14_2_v01.docx
-[B1]: {{ site.url }}/assets/Use_Case_B.1-Provide_Metadata_for_Data_or_Product.xlsx
-[B2]: {{ site.url }}/assets/Use_Case_B.2-Upload_Data_or_Product_to_DCPC_or_GISC.xlsx
-[B3]: {{ site.url }}/assets/Use_Case_B.3-Control_Metadata_Association_to_Data_or_Product.xlsx
-[B4]: {{ site.url }}/assets/Use_Case_B.4-Manage_Cache_of_Data_across_GISCs.xlsx
-[B5]: {{ site.url }}/assets/Use_Case_B.5-Maintain_Identification_and_Role_Information_for_WIS_Users.xlsx
-[B6]: {{ site.url }}/assets/Use_Case_B.6-Discover_Data_or_Products.xlsx
-[B10]: {{ site.url }}/assets/Use_Case_B.10-Provide Dissemination_Metadata.xlsx
-[MGo1]: {{ site.url }}/assets/MGo1.html
+[SR]: {{ site.baseurl | prepend: site.url }}/assets/Summary-Report-of-Current-OpenWIS-Development-v1.1.docx
+[TP]: {{ site.baseurl | prepend: site.url }}/assets/Test_Plan3_14_2_v01.docx
+[TR]: {{ site.baseurl | prepend: site.url }}/assets/Test_Report3_14_2_v01.docx
+[B1]: {{ site.baseurl | prepend: site.url }}/assets/Use_Case_B.1-Provide_Metadata_for_Data_or_Product.xlsx
+[B2]: {{ site.baseurl | prepend: site.url }}/assets/Use_Case_B.2-Upload_Data_or_Product_to_DCPC_or_GISC.xlsx
+[B3]: {{ site.baseurl | prepend: site.url }}/assets/Use_Case_B.3-Control_Metadata_Association_to_Data_or_Product.xlsx
+[B4]: {{ site.baseurl | prepend: site.url }}/assets/Use_Case_B.4-Manage_Cache_of_Data_across_GISCs.xlsx
+[B5]: {{ site.baseurl | prepend: site.url }}/assets/Use_Case_B.5-Maintain_Identification_and_Role_Information_for_WIS_Users.xlsx
+[B6]: {{ site.baseurl | prepend: site.url }}/assets/Use_Case_B.6-Discover_Data_or_Products.xlsx
+[B10]: {{ site.baseurl | prepend: site.url }}/assets/Use_Case_B.10-Provide Dissemination_Metadata.xlsx
+[MGo1]: {{ site.baseurl | prepend: site.url }}/assets/MGo1.html
 [BR1]: https://www.rabbitmq.com/
 [JT1]: http://geonetwork-opensource.org/manuals/trunk/eng/users/administrator-guide/managing-users-and-groups/

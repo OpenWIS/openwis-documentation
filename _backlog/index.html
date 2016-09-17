@@ -3,9 +3,8 @@ layout: default
 title: Backlog
 ---
 
-{% assign kanPriorityRanks = 10 %}
-{% assign kanMaxChars = 500 %}
-
+{% assign kanMaxChars = 200 %}
+{% assign kanWarning = false %}
 
 <article>
 	<header>
@@ -14,13 +13,33 @@ title: Backlog
 
 <div>
 
-{% for i in (1..kanPriorityRanks) %}
+{% for i in (6..10) %}
+
+	{% case i %}
+  	{% when 6 %}
+     	{% assign kanPriorityLabel = " very high" %}
+		{% when 7 %}
+    	{% assign kanPriorityLabel = " high" %}
+		{% when 8 %}
+	    {% assign kanPriorityLabel = " medium" %}
+		{% when 9 %}
+			{% assign kanPriorityLabel = " low" %}
+		{% when 10 %}
+			{% assign kanPriorityLabel = " very low" %}
+	{% endcase %}
+
 	<hr>
-	<h2>priority {{i}}</h2>
+	<h2>priority {{i}}{{ kanPriorityLabel }}</h2>
 		{% for kanCard in site.backlog %}
-				{% if i == kanPriorityRanks %}
-					{% if kanCard.kanPriority > kanPriorityRanks or kanCard.kanPriority == null %}{% capture kanNullPrtyWarning %}{{ kanNullPrtyWarning | append: kanCard.kanBacklog | append: '. ' }}{% endcapture %}{% endif %}
+			{%if i == 10 %}
+				{% if kanCard.kanPriority > 10 or kanCard.kanPriority < 6 or kanCard.kanPriority == null %}
+					{% if kanCard.kanBacklog != null %}
+						{% capture kanNullPrtyWarning %}{{ kanNullPrtyWarning | append: kanCard.kanBacklog | append: '. ' }}{% endcapture %}
+						{% assign kanWarning = true %}
+					{% endif %}
 				{% endif %}
+			{% endif %}
+
 
 				{% if kanCard.kanPriority == i %}
 					<details class="kanCard">
@@ -39,7 +58,16 @@ title: Backlog
 						</div>
 						<div class="kanTaskDesc">
 								 {% if kanCard.content.size > kanMaxChars %}
-								   {{ kanCard.content | truncate: kanMaxChars }}<a href="{{ kanCard.url | prepend: site.baseurl }}" target=_blank><br><br><em>more</em></a>
+								 		{% assign kanParas = kanCard.content | split: "</p>" %}
+								 		{% assign kanChars = 0 %}
+								 		{% for p in kanParas %}
+ 											{{ p }}
+								 			{% assign kanChars = kanChars | plus: p.size %}
+											{% if kanChars >= kanMaxChars %}
+												<a href="{{ kanCard.url | prepend: site.baseurl }}" target=_blank><br><br><em>more</em></a>
+												{% break %}
+											{% endif %}
+										{% endfor %}
 								 {% else %}
 								 		{{ kanCard.content }}<a href="{{ kanCard.url | prepend: site.baseurl }}" target=_blank><em>show</em></a>
 								 {% endif %}
@@ -51,10 +79,12 @@ title: Backlog
 		</div>
 {% endfor %}
 	<hr>
-	<p class="kanWarning">Oops! The following Backlog Items have no Priority or have a value greater than that allowed ({{ kanPriorityRanks }}):<br>
+	{% if kanWarning %}
+		<p class="kanWarning">Oops! The following Backlog Items have no Priority or have a Priority value outside the range allowed (6 to 10):<br>
 				{{ kanNullPrtyWarning }}<br>
 				  Until this is corrected they will not appear in the Backlog.
-	</p>
+		</p>
+	{% endif %}
 </div>
 
 </article>

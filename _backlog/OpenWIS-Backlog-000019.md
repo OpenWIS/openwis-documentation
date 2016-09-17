@@ -11,7 +11,7 @@ kanFeature: Effective code management
 kanRelease: 3.14
 kanMetric: 1
 kanSize: 3
-kanPriority: 7
+kanPriority: 9
 kanRepo: OpenWIS/openwis
 ---
 Binaries / Middleware and artefact folders confusion. Not a high priority but would be worth doing before next major release.

@@ -11,7 +11,7 @@ kanFeature: Quality software
 kanRelease: 4.1
 kanMetric: 1.1
 kanSize: 1
-kanPriority: 2
+kanPriority: 4
 kanRepo:
 ---
 Code quality review; automated tools (Sonarqube).  PR - need to decide what we're doing in this space.

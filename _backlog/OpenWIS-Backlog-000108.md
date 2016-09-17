@@ -11,7 +11,7 @@ kanFeature: Quality software
 kanRelease: 4.2
 kanMetric: 2
 kanSize: 1
-kanPriority: 4
+kanPriority: 7
 kanRepo: OpenWIS/openwis
 ---
 Cronjob used to remove empty cache directories can also remove the cache directory itself
