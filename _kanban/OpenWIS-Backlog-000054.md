@@ -8,11 +8,12 @@ kanBacklog: 54
 kanIssue:
 kanPullReq:
 kanFeature: Subscriptions
-kanRelease: 4.1
+kanRelease: 4.2
 kanMetric: 5.2
 kanSize: 3
 kanPriority: 3
 kanRepo:
+kanProject:
 ---
 Enhancement UI1: Subscription management
 

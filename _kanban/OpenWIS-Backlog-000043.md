@@ -8,11 +8,12 @@ kanBacklog: 43
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catologue
-kanRelease: 4.1
+kanRelease: 4.2
 kanMetric: 2.1
 kanSize: 3
 kanPriority: 3
 kanRepo:
+kanProject:
 ---
 Enhancement ADMIN3: Browse OpenWIS cache content
 

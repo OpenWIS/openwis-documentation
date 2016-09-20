@@ -13,6 +13,7 @@ kanMetric: 2.1
 kanSize: 3
 kanPriority: 2
 kanRepo:
+kanProject:
 ---
 Enhancement ADMIN2: Browse product metadata table
 

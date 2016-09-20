@@ -13,6 +13,7 @@ kanMetric: 2
 kanSize:
 kanPriority: 1
 kanRepo:
+kanProject:
 ---
 Review the proposed changes developed by GeoCat for OpenWIS v4.
 
