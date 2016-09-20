@@ -26,7 +26,7 @@ OpenWIS Technical Committee 2016 May
 3. **unordered list**
 	- ul li 1
 	- ul li 2
-4. Links: (to see what is going on here, open the file as plain text, or refer to the Markdown docs)
+4. Links: (to see what is going on here, look at the code block below)
 	- [inline ref to external link](http://www.example.com)
 	- [ref to link defined somewhere else on this page][L1]
 	- [link to local static assets that are stored in the /assets/ folder that is in the folder structure of the site ][assets]
@@ -34,6 +34,12 @@ OpenWIS Technical Committee 2016 May
 [L1]: http://www.example.com
 [assets]: {{ site.baseurl | prepend: site.url }}/assets/filename
 
+    - [inline ref to external link](http://www.example.com)
+    - [ref to link defined somewhere else on this page][L1]
+    - [link to local static assets that are stored in the /assets/ folder that is in the folder structure of the site ][assets]
+
+    [L1]: http://www.example.com
+    [assets]: {{ site.baseurl | prepend: site.url }}/assets/filename
 
 ---
 (horizontal rule)
