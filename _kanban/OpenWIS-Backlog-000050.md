@@ -8,11 +8,12 @@ kanBacklog: 50
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catalogue
-kanRelease: 4.1
+kanRelease: 4.2
 kanMetric: 5.2
 kanSize: 3
 kanPriority: 4
 kanRepo:
+kanProject:
 ---
 Enhancement DDS3: Ad-hoc request for delivery
 

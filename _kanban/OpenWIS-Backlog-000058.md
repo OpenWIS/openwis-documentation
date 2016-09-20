@@ -13,5 +13,6 @@ kanMetric: 1.2
 kanSize: 8
 kanPriority: 4
 kanRepo:
+kanProject:
 ---
 OpenWIS version 4.1 development release:
