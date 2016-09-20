@@ -14,4 +14,7 @@ kanSize: 0.5
 kanPriority: 2
 kanRepo: OpenWIS/openwis
 ---
-Added wismon python package for WMO WIS monitoring
+Added wismon python package for WMO WIS monitoring.
+
+See the [WIS Monitoring repo](https://github.com/ywang-bom/wismon)
+
