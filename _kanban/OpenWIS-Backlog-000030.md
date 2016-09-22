@@ -8,10 +8,11 @@ kanBacklog: 30
 kanIssue:
 kanPullReq:
 kanFeature: Quality software
-kanRelease: 4.1
+kanRelease:
 kanMetric: 1.1
 kanSize: 1
-kanPriority: 2
+kanPriority: 4
 kanRepo:
+kanProject:
 ---
 Code quality review; automated tools (Sonarqube).  PR - need to decide what we're doing in this space.

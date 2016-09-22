@@ -8,11 +8,12 @@ kanBacklog: 57
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catologue
-kanRelease: 4.1
+kanRelease: 4.2
 kanMetric: 3.2
 kanSize: 5
 kanPriority: 3
 kanRepo:
+kanProject:
 ---
 Enhancement AAC3: New user with SAML Identity
 

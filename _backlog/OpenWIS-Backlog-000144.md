@@ -11,7 +11,7 @@ kanFeature: Intuitive UI
 kanRelease: 4.2
 kanMetric: 2.1
 kanSize: 3
-kanPriority: 5
-kanRepo: 
+kanPriority: 8
+kanRepo:
 ---
 Bulk management of metadata records; can be achieved through improvements in Geonetwork's workflow and UI. Comes with GeoNetwork trunk

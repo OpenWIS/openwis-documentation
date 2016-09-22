@@ -11,7 +11,7 @@ kanFeature: Security
 kanRelease: 4.1
 kanMetric: 4.2
 kanSize:
-kanPriority: 3
+kanPriority: 8
 kanRepo: OpenWIS/openwis
 ---
 OpenWIS 3.14 suffered a bug which allowed users to change properties of other users.

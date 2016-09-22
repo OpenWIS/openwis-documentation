@@ -11,7 +11,7 @@ kanFeature: Useful metadata
 kanRelease: 4.2
 kanMetric: 2
 kanSize: 3
-kanPriority: 4
+kanPriority: 7
 kanRepo:
 ---
 Application of GeoNetwork Roles and Groups to accreditation and authorisation, for data as well as metadata.

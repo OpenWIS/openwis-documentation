@@ -11,8 +11,9 @@ kanFeature: Integrated catalogue
 kanRelease: 4.1
 kanMetric: 6.1
 kanSize: 2
-kanPriority: 3
+kanPriority: 2
 kanRepo:
+kanProject:
 ---
 Enhancement MM1: Use of custom metadata file identifier
 

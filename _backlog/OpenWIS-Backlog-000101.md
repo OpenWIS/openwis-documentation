@@ -11,7 +11,7 @@ kanFeature: Intuitive UI
 kanRelease: 4.2
 kanMetric: 5.1
 kanSize: 1
-kanPriority: 4
+kanPriority: 7
 kanRepo: OpenWIS/openwis
 ---
 Removing harvesting and keep associated metadata

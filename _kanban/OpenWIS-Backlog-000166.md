@@ -1,7 +1,7 @@
 ---
 layout: backlog
 title: Link from backlog item to GitHub to edit
-kanCategory: backlog
+kanCategory: done
 kanSubCategory:
 kanAssigned:
 kanBacklog: 166
@@ -13,6 +13,7 @@ kanMetric:
 kanSize:
 kanPriority: 1
 kanRepo: OpenWIS/openwis-documentation
+kanProject: 1
 ---
 There should (automagically) be a link in every Backlog item that takes you to the page on GitHub.com where you can edit the item and save it.
 

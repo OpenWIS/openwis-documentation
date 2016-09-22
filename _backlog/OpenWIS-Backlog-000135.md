@@ -11,7 +11,7 @@ kanFeature: Intuitive UI
 kanRelease: 4.2
 kanMetric: 2
 kanSize: 1
-kanPriority: 5
+kanPriority: 8
 kanRepo: OpenWIS/openwis
 ---
 Detailed Report not available when a Synchronisation job fails

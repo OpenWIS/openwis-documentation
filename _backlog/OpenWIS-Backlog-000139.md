@@ -11,7 +11,7 @@ kanFeature: Useful Metadata
 kanRelease: 4.2
 kanMetric: 5.1
 kanSize: 2
-kanPriority: 5
+kanPriority: 8
 kanRepo: OpenWIS/openwis
 ---
 add ability to export all metadata from a category as a single MEF file. Was a feature request. May be considered a nice to have but not sure if GN3 has this out of the box.

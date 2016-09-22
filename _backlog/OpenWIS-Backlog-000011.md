@@ -11,7 +11,7 @@ kanFeature: Intuitive UI
 kanRelease: 3.14
 kanMetric: 5.1
 kanSize: 1
-kanPriority: 5
-kanRepo: 
+kanPriority: 8
+kanRepo:
 ---
 Auto refresh of the extraction page (summary tab) -> OWT-232

@@ -8,11 +8,12 @@ kanBacklog: 51
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catalogue
-kanRelease: 4.1
+kanRelease: 4.2
 kanMetric: 6.1
 kanSize: 3
-kanPriority: 3
+kanPriority: 4
 kanRepo:
+kanProject:
 ---
 Enhancement DM1: Default metadata insertion. LM - I'm not sure what this refers to
 

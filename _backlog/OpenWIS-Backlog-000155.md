@@ -11,7 +11,7 @@ kanFeature: Security
 kanRelease: 5
 kanMetric: 4.3
 kanSize: 2
-kanPriority: 5
-kanRepo: 
+kanPriority: 8
+kanRepo:
 ---
 Verification of the email address for self-registered users. Comes with OpenAM? If not, leave until 5.x

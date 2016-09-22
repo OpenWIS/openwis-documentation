@@ -11,7 +11,7 @@ kanFeature: Intuitive UI
 kanRelease: 3.14
 kanMetric: 5.1
 kanSize: 0.5
-kanPriority: 5
+kanPriority: 8
 kanRepo:
 ---
 Renaming of Staging Post -> Products cart

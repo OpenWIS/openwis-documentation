@@ -8,11 +8,12 @@ kanBacklog: 46
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catologue
-kanRelease: 4.1
+kanRelease: 4.2
 kanMetric: 2.1
 kanSize: 3
-kanPriority: 3
+kanPriority: 4
 kanRepo:
+kanProject:
 ---
 Enhancement MM3: Metadata categories and category-based harvesting
 
