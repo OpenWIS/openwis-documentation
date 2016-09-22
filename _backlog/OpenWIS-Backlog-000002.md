@@ -15,3 +15,5 @@ kanPriority: 1
 kanRepo: OpenWIS/openwis
 ---
 Update Portal code to use openam 12 federation libraries
+
+LM - Will this be relevant for OpenWIS 4?

@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Map not showing
-kanCategory: backlog
-kanSubCategory:
+kanCategory: analysis
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 39
 kanIssue: 75
@@ -15,3 +15,5 @@ kanPriority: 3
 kanRepo: OpenWIS/openwis
 ---
 Map not showing
+
+**LM** - Is map showing in GeoNetworks 4?  If so, close ticket.

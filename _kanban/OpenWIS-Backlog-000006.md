@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Maven 3 build failure
-kanCategory: backlog
-kanSubCategory:
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 6
 kanIssue: 136
@@ -15,3 +15,5 @@ kanPriority: 3
 kanRepo: OpenWIS/openwis
 ---
 Maven 3 build failure. Is the Maven 3 build still failing?
+
+**DUP** - This seems to fall under the responsibilties of Task 35.

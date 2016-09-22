@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: User right access on metadata editor
-kanCategory: backlog
-kanSubCategory:
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 88
 kanIssue: 73
@@ -14,4 +14,6 @@ kanSize: 1
 kanPriority: 3
 kanRepo: OpenWIS/openwis
 ---
-User right access on metadata editor. LM - Is this base-line rights management?
+User right access on metadata editor.
+
+**LM** - Please confirm this works in GeoNetworks 3.  If so, close this ticket.

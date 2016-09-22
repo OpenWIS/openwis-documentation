@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Arquillian tests from 3.12 fix
-kanCategory: code review
-kanSubCategory: in-progress
+kanCategory: release
+kanSubCategory: pending
 kanAssigned: BoM
 kanBacklog: 29
 kanIssue:

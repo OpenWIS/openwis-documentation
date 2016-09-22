@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Remove PostgresSQL JDBC driver jar dependencies
-kanCategory: backlog
-kanSubCategory:
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 38
 kanIssue: 74
@@ -15,3 +15,5 @@ kanPriority: 3
 kanRepo: OpenWIS/openwis
 ---
 Remove PostgresSQL JDBC driver jar dependencies from WAR file builds. How does GN3 handle JDBC drivers?
+
+**LM** - Is this still necessary for OpenWIS 4?  If not, close ticket
