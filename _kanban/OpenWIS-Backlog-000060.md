@@ -15,13 +15,11 @@ kanPriority: 1
 kanRepo: OpenWIS/openwis-documentation
 kanProject: 1
 ---
-Adopt a more flexible development methodology and match with governance changes - eg: Kanban. LM - This needs to be adopted soonish to enable the association to start working on features.
+Adopt a more flexible development methodology and match with governance changes - eg: Kanban.
 
-A [project](https://github.com/OpenWIS/openwis-documentation/projects/1) has been set up for this task on GitHub.
+LM - This needs to be adopted soonish to enable the association to start working on features.
 
-The main issue is #56 - Process: Document the process for managing the Backlog and Kanban Board and post it to gh-pages.
-
-I am writing my emerging thinking on this into this Kanban item and will eventually use it to form a post explaining the process.
+PR - I am writing my emerging thinking on this into this Kanban item and will eventually use it to form a post explaining the process.  The draft proposal follows below...
 
 
 ## Introduction
@@ -75,7 +73,7 @@ However, most software development of a sophisticated product like OpenWIS Core 
 
 So, by using this approach, we will be able to easily share with each other what progress we are making, where we might work on things together, provide help etc.
 
-## Template for new Backlog items
+## Backlog items
 
 New Backlog items should be saved as individual Markdown files into the folder *OpenWIS/openwis-documentation/_backlog/*.  The filename format is: *OpenWIS-Backlog-nnnnnn.md*, where *nnnnnn* is the 6 digit item number with explicit leading zeros; so Backlog item 60 has the filename *OpenWIS-Backlog-000060.md*.  Markdown is a plain text format; be sure to use a plain text editor to create the files because word processors introduce spurious characters that can crash the gh-pages processor or lead to formatting errors in the html output.
 
@@ -136,11 +134,11 @@ This yaml block defines metadata about the Backlog item.  Fill out the metadata 
 
 ### Body text: Markdown
 
-Text describing the item, written in [Markdown](https://daringfireball.net/projects/markdown/) or [GFM](https://guides.github.com/features/mastering-markdown/). This text can be any length and include links and images.
+Text describing the item, written in [Markdown](https://daringfireball.net/projects/markdown/) or [GFM](https://guides.github.com/features/mastering-markdown/). This text can be any length and include links and images.  It can be updated anytime there is new information related to the item.
 
-## Changes that transform a Backlog item into a Kanban Board item
+## Kanban Board items
 
-The exact same template used for Backlog items is also used for Kanban Board items.  There are only 2 changes that _need_ to be made to a backlog item file to promote the item from the Backlog to the Kanban Board (though there are a few other optional changes you may choose to make right away, or leave until later):
+The exact same template used for Backlog items is also used for Kanban Board items.  There are only 2 changes that _need_ to be made to a backlog item file to promote the item from the Backlog to the Kanban Board, plus another couple that usually get updated at the same time:
 
   - The first essential change is to move the file from the **/_backlog/** folder to the **/_kanban/** folder.  The filename stays exactly the same.
   - The second essential change is to update the **kanCategory** in the file yaml header block, from **backlog** to one of the Kanban Board categories. This is required because this is the field which represents the phases of the development cycle and that the Kanban Board items are grouped by:
@@ -155,8 +153,6 @@ The exact same template used for Backlog items is also used for Kanban Board ite
       - done
 
 For any item that will require significant work you are most likely to be updating the **kanCategory** to **analyse** when first promoting it to the Kanban Board. However, for a very small piece of work like a quick bug-fix, you might move it straight to **develop**.  Another possibility is that you move something directly to **test** to gather test evidence prior to moving it to **analyse**.  There is no enforced restriction or order, it is up to you to put items into sensible categories that fit the situation.
-
-### Further changes for the Kanban Board
 
 The next useful change to make to the item once it is on the Kanban Board is to update the **kanSubCategory**.  This is usually blank for a **backlog** item and is usually updated to _pending_ when an item is first moved onto the Kanban Board. The other option for **kanSubCategory** on the Kanban Board is _in-progress_.  This indicates whether the task is waiting to be assigned resources and for work to begin on it (pending) or is being actively worked on (in-progress). The **kanCategory** and **kanSubCategory** are then taken together to mean one of the following:
 
@@ -188,3 +184,15 @@ So you can see that, once an item has been promoted to the Kanban Board, we begi
 
       - Real showstoppers; if we can't do these then there is no point doing the Release/Project/Sprint at all,
       - or a task that is working on removing obstacles that are causing other tasks to be _blocked_.
+
+This last change may require some discussion with the Technical Committee, so we might decide that this only happens when the Technical Committee actions somebody to do that, based on the decisions they have taken.
+
+## Sprint or Project Backlogs
+
+I suggest we use GitHub projects for these low-level backlogs.  They are a brand new feature, GitHub only introduced them on 14th September 2016, but I thought it better to use them than invent another level of backlog ourselves.  They work by grouping related GitHub issues into 'projects' onto a Kanban-style board.  There are some limitations, such as they only work from within one repository, that make them unsuitable at present for our main Kanban Board, but I will keep an eye on how they develop.
+
+I have set up an example [project](https://github.com/OpenWIS/openwis-documentation/projects/1) for this very task (60. Adopt Kanban) on GitHub.
+
+## Practising Kanban during the Developer Conference
+
+I suggest we practise using Kanban during the hackathon activities.  I can then collect feedback as we go and make adjustments. I would also like to agree some work-in-progress limits during the developer conference, perhaps during the showcase at the end.
