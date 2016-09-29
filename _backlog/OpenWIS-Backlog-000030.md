@@ -11,7 +11,7 @@ kanFeature: Quality software
 kanRelease:
 kanMetric: 1.1
 kanSize: 1
-kanPriority: 4
+kanPriority: 6
 kanRepo:
 kanProject:
 ---

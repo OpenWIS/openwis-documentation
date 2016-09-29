@@ -1,21 +1,21 @@
 ---
 layout: backlog
-title: AAC3 New user with SAML Identity
+title: MM2 Limit on OAI-PMH metadata harvest response
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
-kanBacklog: 57
+kanBacklog: 45
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catologue
-kanRelease: 4.2
-kanMetric: 3.2
-kanSize: 5
-kanPriority: 3
+kanRelease: 4.1
+kanMetric: 2.1
+kanSize: 3
+kanPriority: 6
 kanRepo:
 kanProject:
 ---
-Enhancement AAC3: New user with SAML Identity
+Enhancement MM2: Configurable limit on OAI-PMH metadata harvest response
 
 This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to GeoCat in 2015.  The [documentation][doc] produced as part of that work describes the new functionality delivered.
 
@@ -24,6 +24,6 @@ This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to
 
 The outcome for this feature was:
 
-2015 status: **MO/GeoCat Review**; Percent complete: **90**; Priority: Normal; Questions outstanding: nil;
+2015 status: **MO Test**; Percent complete: **90**; Priority: Normal; Questions outstanding: nil;
 
-Extra info: Blocked by Backlog 55.
+Extra info: nil.

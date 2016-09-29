@@ -11,7 +11,7 @@ kanFeature: Integrated catalogue
 kanRelease: 4.2
 kanMetric: 2
 kanSize: 1
-kanPriority: 2
+kanPriority: 6
 kanRepo: OpenWIS/openwis
 kanProject:
 ---

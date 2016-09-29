@@ -11,7 +11,7 @@ kanFeature: Effective collaboration
 kanRelease: 4.2
 kanMetric: 2.3
 kanSize:
-kanPriority: 3
+kanPriority: 6
 kanRepo: OpenWIS/openwis-documentation
 kanProject:
 ---
