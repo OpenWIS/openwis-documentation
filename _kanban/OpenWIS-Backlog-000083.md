@@ -8,11 +8,12 @@ kanBacklog: 83
 kanIssue:
 kanPullReq: 1
 kanFeature: Good documentation
-kanRelease: 4.1
+kanRelease:
 kanMetric: 9.2
 kanSize: 8
 kanPriority: 1
 kanRepo: OpenWIS/openwis-documentation
+kanProject:
 ---
 Adopt Markdown and surrounding tools as documentation standard and appoint a document custodian from the partners. LM - The collateral for the website should and other doc will be worth thinking about before we start writing doco for version4. LM - Estimate includes rewriting existing doco in Markdown.
 

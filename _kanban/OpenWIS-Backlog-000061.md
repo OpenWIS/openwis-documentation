@@ -8,11 +8,12 @@ kanBacklog: 61
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catalogue
-kanRelease: 4.1
+kanRelease: 4.2
 kanMetric: 2
 kanSize:
 kanPriority: 1
 kanRepo:
+kanProject:
 ---
 Analyse, design, develop and implement solutions to current issues that v4.0 has with metadata harvesting and indexing scalability.
 

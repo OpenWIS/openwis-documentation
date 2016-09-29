@@ -8,11 +8,12 @@ kanBacklog: 53
 kanIssue:
 kanPullReq:
 kanFeature: Subscriptions
-kanRelease: 4.1
+kanRelease: 4.2
 kanMetric: 5.2
 kanSize: 3
 kanPriority: 4
 kanRepo:
+kanProject:
 ---
 Enhancement DDS2: New subscription
 
