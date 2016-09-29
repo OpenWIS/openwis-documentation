@@ -11,7 +11,7 @@ kanFeature: Integrated catalogue
 kanRelease: 4.2
 kanMetric: 5.2
 kanSize: 5
-kanPriority: 4
+kanPriority: 6
 kanRepo:
 kanProject:
 ---

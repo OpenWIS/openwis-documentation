@@ -11,7 +11,7 @@ kanFeature: Subscriptions
 kanRelease: 4.2
 kanMetric: 5.2
 kanSize: 3
-kanPriority: 3
+kanPriority: 6
 kanRepo:
 kanProject:
 ---

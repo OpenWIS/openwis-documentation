@@ -1,18 +1,18 @@
 ---
 layout: backlog
-title: Harvesting - Download Detailed Report issue
+title: OAI-PMH deleted metadata IDs shadow active metadata Ids
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
-kanBacklog: 67
-kanIssue: 165
+kanBacklog: 68
+kanIssue: 123
 kanPullReq:
 kanFeature: Integrated catalogue
 kanRelease: 4.2
 kanMetric: 2
 kanSize: 2
-kanPriority: 4
+kanPriority: 6
 kanRepo: OpenWIS/openwis
 kanProject:
 ---
-Harvesting Report 'Download Detailed Report' issue - not showing details of those that have Errors
+OAI-PMH: deleted metadata IDs shadow active metadata IDs in ListIdentifier results

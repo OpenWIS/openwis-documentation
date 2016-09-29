@@ -11,7 +11,7 @@ kanFeature: Useful metadata
 kanRelease: 4.2
 kanMetric: 6
 kanSize: 1
-kanPriority: 4
+kanPriority: 6
 kanRepo: OpenWIS/openwis
 kanProject:
 ---

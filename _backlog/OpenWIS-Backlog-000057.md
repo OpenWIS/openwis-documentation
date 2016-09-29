@@ -1,21 +1,21 @@
 ---
 layout: backlog
-title: DM1 Default metadata insertion
+title: AAC3 New user with SAML Identity
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
-kanBacklog: 51
+kanBacklog: 57
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Integrated catologue
 kanRelease: 4.2
-kanMetric: 6.1
-kanSize: 3
-kanPriority: 4
+kanMetric: 3.2
+kanSize: 5
+kanPriority: 6
 kanRepo:
 kanProject:
 ---
-Enhancement DM1: Default metadata insertion. LM - I'm not sure what this refers to
+Enhancement AAC3: New user with SAML Identity
 
 This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to GeoCat in 2015.  The [documentation][doc] produced as part of that work describes the new functionality delivered.
 
@@ -24,8 +24,6 @@ This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to
 
 The outcome for this feature was:
 
-2015 status: **MO/GeoCat Review**; Percent complete: **100**; Priority: Normal; Questions outstanding: Does the status remain UNPUBLISHED?;
+2015 status: **MO/GeoCat Review**; Percent complete: **90**; Priority: Normal; Questions outstanding: nil;
 
-Extra info:
-
-GeoNetwork shall be amended such that a software agent is able to insert a metadata record into the catalogue wherein it is associated with a specific Group and its status remains unpublished.
+Extra info: Blocked by Backlog 55.

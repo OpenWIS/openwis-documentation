@@ -11,7 +11,7 @@ kanFeature: Integrated catologue
 kanRelease: 4.2
 kanMetric: 2.1
 kanSize: 3
-kanPriority: 4
+kanPriority: 6
 kanRepo:
 kanProject:
 ---
