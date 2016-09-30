@@ -48,4 +48,4 @@ LM - discussed 3rd group - DCPC user.
 
 LM - in v3.14 data policies control access to subscriptions/data - need this in v4.  Data policies are stored in the database.  Groups are stored in sec service.
 
-![Whiteboard photo 1]({{ site.baseurl | prepend: site.url }}/assets/GeoNetwork-Sec-Reqs.JPG])
+![Whiteboard photo 1]({{ site.baseurl | prepend: site.url }}/assets/GeoNetwork-Sec-Reqs.JPG)
