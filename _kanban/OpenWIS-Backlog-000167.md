@@ -4,7 +4,7 @@ title: Review OpenWIS v4 changes
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned: UKMO
-kanBacklog: 167
+kanBacklog: 189
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catalogue
