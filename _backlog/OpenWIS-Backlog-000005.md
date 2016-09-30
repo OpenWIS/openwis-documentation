@@ -15,3 +15,5 @@ kanPriority: 7
 kanRepo: OpenWIS/openwis
 ---
 Add vagrant to repository using Puppet for provisioning. Currently waiting for sanitised Puppet scripts from UKMO
+
+LM - This needs to be revisited again to get data-services integrated with GeoNetworks/OpenWIS 4

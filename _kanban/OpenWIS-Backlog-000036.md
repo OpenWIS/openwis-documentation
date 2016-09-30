@@ -1,7 +1,7 @@
 ---
 layout: backlog
 title: Dev Con 2016
-kanCategory: design
+kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: NWS
 kanBacklog: 36

@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: The role of Category for metadata sync
-kanCategory: backlog
-kanSubCategory:
+kanCategory: analysis
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 97
 kanIssue: 122
@@ -14,4 +14,6 @@ kanSize: 2
 kanPriority: 7
 kanRepo: OpenWIS/openwis
 ---
-The role of Category for metadata sync. LM - Are categories in GN conceptually different than they were in OpenWIS 3.14?
+The role of Category for metadata sync.
+
+*LM* - Are categories in GN conceptually different than they were in OpenWIS 3.14?  Please check.
