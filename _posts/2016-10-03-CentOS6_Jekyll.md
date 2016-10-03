@@ -68,6 +68,7 @@ This again will inherit inaccessible permissions, so keep the script in place an
 
 The Documentation will finally build without any problems:
 
+```
 [openwis-documentation]$ bundle exec jekyll build
 Configuration file: /home/marcg/OpenWIS-3.14/openwis-documentation/_config.yml
             Source: /home/marcg/OpenWIS-3.14/openwis-documentation
@@ -76,4 +77,4 @@ Configuration file: /home/marcg/OpenWIS-3.14/openwis-documentation/_config.yml
       Generating... 
                     done in 3.312 seconds.
  Auto-regeneration: disabled. Use --watch to enable.
-
+```
