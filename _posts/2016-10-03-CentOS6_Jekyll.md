@@ -1,4 +1,7 @@
-yaml --- layout: page title: Jekyll On CentOS 6 ---
+---
+layout: page
+title: Ruby, Bundler, Jekyll, And GitHub Pages On CentOS 6
+---
 
 1. yum -y install libxslt-devel libyaml-devel \
 	libxml2-devel gdbm-devel libffi-devel \
@@ -38,15 +41,15 @@ and these again inherit inaccessible permissions.  SO... "/usr/local/bin/gem ins
 will fail and "/usr/local/bin/gem install jekyll" will fail.
 
 To resolve this you will need to run:
-
-!/bin/bash
+```
+#!/bin/bash
 while (true)
 do
   find /usr/local/lib/ruby -type d -exec chmod go+rx {} \; 
   find /usr/local/lib/ruby -type f -exec chmod go+r {} \; 
   echo cycling....
 done
-
+```
 With script in place you can now run "/usr/local/bin/gem install bundler" and allow the permissions to script to cycle.
 
 FURTHER Still!!!  RubyGems and Bundler will fail whenever a GEM attempts to Compile and Install BINARIES!  
