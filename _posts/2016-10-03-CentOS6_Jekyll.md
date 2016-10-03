@@ -3,6 +3,7 @@ layout: page
 title: Ruby, Bundler, Jekyll, And GitHub Pages On CentOS 6
 ---
 
+```
 1. yum -y install libxslt-devel libyaml-devel \
 	libxml2-devel gdbm-devel libffi-devel \
 	zlib-devel openssl-devel libyaml-devel \
@@ -27,14 +28,17 @@ title: Ruby, Bundler, Jekyll, And GitHub Pages On CentOS 6
 9. sudo /usr/local/bin/gem install bundler
 
 10. sudo /usr/local/bin/gem install jekyll
+```
 
 Ruby is not designed for a NIST 800-53 System that restricts SuperUser umask (0077).
 SO.... SuperUser installations that prevent user modifications will break Ruby's 
 internal management functions.  Naturally these trigger when even running as
 a normal user, so the Ruby system permissions will need modification:
 
+```
   find /usr/local/lib/ruby -type d -exec chmod go+rx {} \; 
   find /usr/local/lib/ruby -type f -exec chmod go+r {} \; 
+```
 
 Further, "Bundler" will automatically install and update GEMs whenever it is run, 
 and these again inherit inaccessible permissions.  SO... "/usr/local/bin/gem install bundler" 
