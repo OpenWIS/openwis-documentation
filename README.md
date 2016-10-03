@@ -9,8 +9,21 @@ To build the documentation site, we're using the `github-pages` gem from GitHub 
 bundle exec jekyll build
 ```
 
-That's it. 
+However you will probably wish to examine your changes prior to publishing them to GitHub.  To accomplish this you will need to edit "_config.yml"
 
+```
+UNCOMMENT next line before publishing to GitHub!!!  REcomment to run local tests with Jekyll serve
+baseurl: "/openwis-documentation"
+
+UNCOMMENT next line before publishing to GitHub!!!  REcomment to run local tests with Jekyll serve
+url: "http://openwis.github.io"
+```
+
+Then to view the site from "http://127.0.0.1:4000"
+
+```
+bundle exec jekyll serve
+```
 
 Copyright and License
 ---------------------
