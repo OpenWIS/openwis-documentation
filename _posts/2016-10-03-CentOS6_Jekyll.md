@@ -59,12 +59,12 @@ With script in place you can now run "/usr/local/bin/gem install bundler" and al
 FURTHER Still!!!  RubyGems and Bundler will fail whenever a GEM attempts to Compile and Install BINARIES!  
 At this point you must manually install the GEM as root and allow the permissions script to cycle:
 
-     1. gem install i18n -v '0.7.0'
-     2. gem install nokogiri -v '1.6.7.2'
-     3. gem install RedCloth -v '4.2.9'
-     4. gem install ffi -v '1.9.10'
-     5. gem install rdiscount -v '2.1.8'
-     6. gem install nokogiri -v '1.6.7.2' -- --use-system-libraries
+     1. sudo gem install i18n -v '0.7.0'
+     2. sudo gem install nokogiri -v '1.6.7.2'
+     3. sudo gem install RedCloth -v '4.2.9'
+     4. sudo gem install ffi -v '1.9.10'
+     5. sudo gem install rdiscount -v '2.1.8'
+     6. sudo gem install nokogiri -v '1.6.7.2' -- --use-system-libraries
 
 Finally "bundle exec jekyll build" will update stale GEMs and install the GitHub Pages GEM.
 This again will inherit inaccessible permissions, so keep the script in place and keep running 
