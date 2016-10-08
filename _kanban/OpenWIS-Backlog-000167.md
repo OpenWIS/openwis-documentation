@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Fix Code Repositories
-kanCategory: backlog
-kanSubCategory:
+kanCategory: analyse
+kanSubCategory: pending
 kanAssigned:
 kanBacklog: 167
 kanIssue: 
