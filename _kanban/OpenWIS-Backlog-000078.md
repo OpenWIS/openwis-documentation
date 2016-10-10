@@ -3,7 +3,7 @@ layout: backlog
 title: Improve the existing web-site
 kanCategory: develop
 kanSubCategory: in-progress
-kanAssigned: MFI
+kanAssigned: NWS
 kanBacklog: 78
 kanIssue:
 kanPullReq:
@@ -20,3 +20,7 @@ A-OWIS-SC-2016-25 RGib - Improve the existing web-site, both look and content (n
 PR - We haven't developed the existing website and it is inadequate for an open-source project.  The task remains to develop a better website, but I think it should be on gh-pages, which is much more accessible, both to our current developers and those to come as we expand or go open-source.
 
 So let's make the purpose of this task to develop a better website on gh-pages.
+
+### Dev Con 2016 update
+
+PR - NWS has taken on this task.  They will further develop the website using the gh-pages/GitHub/Jekyll/Markdown toolset.  The website will be redesigned as agreed at the Dev Con 2016 Workshop.
