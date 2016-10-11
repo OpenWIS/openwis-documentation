@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Adopt Kanban
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: done
+kanSubCategory: 
 kanAssigned: PR
 kanBacklog: 60
 kanIssue:
