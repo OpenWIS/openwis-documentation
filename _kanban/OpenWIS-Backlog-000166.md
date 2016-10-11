@@ -35,9 +35,10 @@ The url of the EDITOR page on GitHub that corresponds to this openwis-documentat
 All we want to do is open the editor page on GitHub.  We are not offering the ability to edit the local version of the file, because you would do that through your favourite editor or toolset.
 
 For this page:
- site.url resolves to http://openwis.github.io
- site.baseurl resolves to /openwis-documentation
- page.path resolves to _backlog/OpenWIS-Backlog-000166.md
 
- So the simplest approach would be to concatenate the string constant https://github.com/OpenWIS/openwis-documentation/blob/gh-pages/
- with the page.path and provide that as a link in the footer of the page.
+  - site.url resolves to http://openwis.github.io
+  - site.baseurl resolves to /openwis-documentation
+  - page.path resolves to _backlog/OpenWIS-Backlog-000166.md
+
+ So the simplest approach would be to concatenate the string constant **https://github.com/OpenWIS/openwis-documentation/blob/gh-pages/**
+ with the **page.path** and provide that as a link in the footer of the page.
