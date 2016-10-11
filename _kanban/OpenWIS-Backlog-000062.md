@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: Delegation of management of Users and Groups to Geonetwork
+title: v4 - Delegation of management of Users and Groups to Geonetwork
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO

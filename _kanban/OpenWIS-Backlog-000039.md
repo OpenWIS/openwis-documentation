@@ -1,7 +1,7 @@
 ---
 layout: backlog
 title: Map not showing
-kanCategory: analysis
+kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 39

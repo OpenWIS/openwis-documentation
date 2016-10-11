@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: User right access on metadata editor
+title: v4 - User right access on metadata editor
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO

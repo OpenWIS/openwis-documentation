@@ -1,7 +1,7 @@
 ---
 layout: backlog
-title: The role of Category for metadata sync
-kanCategory: analysis
+title: v4 - The role of Category for metadata sync
+kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 97

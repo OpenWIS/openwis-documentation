@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: Adoption of GeoNetwork 3 functions in OpenWIS 4.
+title: v4 - Adoption of GeoNetwork 3 functions in OpenWIS 4.
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
