@@ -5,13 +5,13 @@ kanCategory: analyse
 kanSubCategory: pending
 kanAssigned:
 kanBacklog: 167
-kanIssue: 
+kanIssue:
 kanPullReq:
 kanFeature: Good development processes
 kanRelease: 4.1
 kanMetric: 4.2
 kanSize:
-kanPriority: 7
+kanPriority: 2
 kanRepo: OpenWIS/openwis
 ---
 At the moment, the OpenWIS and Core GeoNetwork (with OpenWIS mods) is in separate repositories.
