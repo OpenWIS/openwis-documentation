@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: Extend the Data Harness.
+title: Extend the Dissemination Harness.
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO

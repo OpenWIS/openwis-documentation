@@ -1,7 +1,7 @@
 ---
 layout: backlog
 title: Refactoring to improve modularity
-kanCategory: analyse
+kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 81
@@ -20,3 +20,7 @@ Refactoring to improve the modularity of the system architecture. LM - Important
 PR - The initial scope should at least improve the way OpenWIS code interfaces with GeoNetwork code.
 
 GT is documenting his investigation of the options [here](https://github.com/NMichas/openwis-draft-analysis/wiki/Enhancing-GeoNetwork-UI)
+
+### Scrum update 2016-10-11
+
+George has made a change to Angular JS that allows OpenWIS components to be integrated with GeoNetwork in a modular way, without now needing the addition of tags to the IDs in the GeoNetwork UI.  George will now go on to integrate the outstanding changes on the Kanban Board into GeoNetwork using this technique.
