@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: Deployment guide - for clean install - not just a patch
+title: v3 - Deployment guide - for clean install - not just a patch
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: BoM/TA?

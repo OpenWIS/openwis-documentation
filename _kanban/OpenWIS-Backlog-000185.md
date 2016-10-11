@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: Set up Development environment for OpenWIS 4.1
+title: v4 - Set up Development environment for OpenWIS 4.1
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned: UKMO

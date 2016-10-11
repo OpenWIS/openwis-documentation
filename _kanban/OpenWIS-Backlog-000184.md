@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: Tidy code repo prior to working on OpenWIS 4.1
+title: v4 - Tidy code repo prior to working on OpenWIS 4.1
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned: UKMO

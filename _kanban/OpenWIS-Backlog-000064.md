@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: Adopt the odd/even release number system.
+title: v4 - Adopt the odd/even release number system.
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO

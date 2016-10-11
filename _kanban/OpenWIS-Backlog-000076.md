@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: Publish collaboration policies and procedures on website
+title: v3 - Publish collaboration policies and procedures on website
 kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: PR/LM

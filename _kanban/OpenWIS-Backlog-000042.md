@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: ADMIN2 Browse product metadata table
+title: v4 - ADMIN2 Browse product metadata table
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
