@@ -8,14 +8,14 @@ kanBacklog: 76
 kanIssue:
 kanPullReq:
 kanFeature: Good documentation
-kanRelease:
+kanRelease: 3.14
 kanMetric: 8.1
 kanSize: 3
 kanPriority: 2
 kanRepo: OpenWIS/openwis-documentation
-kanProject:
+kanProject: 2
 ---
-Publish collaborative development policies and procedures on website. LM - See above: need a functioning website first
+There is a [project](https://github.com/OpenWIS/openwis-documentation/projects/2) for this task on GitHub.
 
 ### Dev Con 2016 update
 
