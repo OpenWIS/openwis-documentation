@@ -16,5 +16,6 @@ kanRepo: OpenWIS/openwis
 kanProject:
 ---
 User story: As a potential open source contributor, user or association member, I want:
+
   - a package I can download that contains the OSS version of OpenWIS 3.14, ready for installation, 
   - an installation guide.
