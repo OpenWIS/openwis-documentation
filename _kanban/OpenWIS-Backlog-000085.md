@@ -28,8 +28,8 @@ The following tasks were then agreed:
   - 76.1 v3 - CLA (complete, review, publish)
   - 76.2 v3 - Technical rules (draft, review, publish)
   - 76.3 v3 - Code of Conduct (draft, review, publish)
-  - 78. v3 - Website improvements
-  - 190. v3 - Update OpenWIS poster
+  - 78 v3 - Website improvements
+  - 190 v3 - Update OpenWIS poster
   
 PR - I will add/update these tasks on the Kanban and add the subtasks as GitHub projects.
 
