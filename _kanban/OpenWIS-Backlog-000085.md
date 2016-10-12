@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: v3 - Tasking around production of docs for open source
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: done
+kanSubCategory: 
 kanAssigned: PR
 kanBacklog: 85
 kanIssue:
