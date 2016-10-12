@@ -13,7 +13,7 @@ kanMetric: 2.1
 kanSize: 3
 kanPriority: 3
 kanRepo: OpenWIS/openwis
-kanProject:
+kanProject: 1
 ---
 User story: As a potential open source contributor, user or association member, I want:
 
