@@ -1,5 +1,5 @@
 ---
-title: ANNEX A&#58; CONTRIBUTOR LICENSE AGREEMENT
+title: ANNEX A - CONTRIBUTOR LICENSE AGREEMENT
 layout: rules
 
 contents : [
@@ -17,15 +17,15 @@ contents : [
 ]
 ---
 
+# DRAFT
+
 Thank you for your interest in contributing to products owned or managed by the OpenWIS Association AISBL.
 
 In order to clarify the intellectual property license granted with Contributions from any person or entity, the OpenWIS Association AISBL must have a Contributor License Agreement ("**CLA**") on file that has been signed by each Contributor, indicating agreement to the license terms below.
 
 This license is for your protection as a Contributor as well as the protection of the OpenWIS Association AISBL and users of its products; it does not change your rights to use your own Contributions for any other purpose.
 
-<span style="background-color:yellow">*The OpenWIS Association AISBL provides an online mechanism for signing the CLA that is integrated with the OpenWIS® Project workflow within [GitHub](https://github.com/). When creating a Pull Request you simply need to click to sign the CLA. Your identity is verified using GitHub authentication. That's it; simple.*</span>
-
-<span style="background-color:yellow">*(more information on using Pull Requests can be found in the [GitHub help](https://help.github.com/articles/using-pull-requests/) pages)*</span>
+Contributions shall be made by submitting a Pull Request to the relevant project repository within [GitHub](https://github.com/). Information on using Pull Requests can be found in the [GitHub help](https://help.github.com/articles/using-pull-requests/) pages. When you have created your Pull Request, please contact the OpenWIS Community Manager via [email](mailto:contact@openwis.io) to request a CLA form. Once your CLA has been sucessfully processed, your Pull Request will be considered.
 
 The OpenWIS Association AISBL will use and process your details collected for the purposes of contribution to products owned or managed by the OpenWIS Association AISBL. Your details will be processed in accordance with European Data Protection Law.  Personal data processed by the OpenWIS Association AISBL will not be disclosed to third parties for marketing purposes, but may be disclosed to members of the OpenWIS Association AISBL for the purposes of managing your contributions. 
 
@@ -53,9 +53,9 @@ For the purposes of this definition, "**control**" means (i) the power, direct o
 
 <h2 id="2-grant-of-copyright-license">2. Grant of copyright license</h2>
 
-Subject to the terms and conditions of this Agreement, You hereby grant to the OpenWIS Association AISBL and to recipients of software distributed by the OpenWIS Association AISBL a perpetual, worldwide, non-exclusive, royalty-free, irrevocable copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute Your Contributions and such derivative works under the terms of <span style="background-color:yellow">*the license specified for the OpenWIS® Project to which a Contribution is submitted. Details of the license specified for each OpenWIS® Project shall be located in the LICENSE file of the project's repository within the [OpenWIS GitHub organization](https://github.com/openwis). As stated in [Rule 9.1]({{ "/rules/9-software-licensing.html#rule-9.1" | prepend: site.baseurl }}) of the [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}) of the OpenWIS Association AISBL, the license chosen for an OpenWIS® Project shall be one of the open source licenses from the list maintained by the Open Source Initiative (OSI) at: [https://opensource.org/licenses/](https://opensource.org/licenses/).*</span> 
+Subject to the terms and conditions of this Agreement, You hereby grant to the OpenWIS Association AISBL and to recipients of software distributed by the OpenWIS Association AISBL a perpetual, worldwide, non-exclusive, royalty-free, irrevocable copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute Your Contributions and such derivative works under the terms of the license specified for the OpenWIS® Project to which a Contribution is submitted. Details of the license specified for each OpenWIS® Project shall be located in the LICENSE file of the project's repository within the [OpenWIS GitHub organization](https://github.com/openwis). As stated in [Rule 9.1]({{ "/rules/9-software-licensing.html#rule-9.1" | prepend: site.baseurl }}) of the [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}) of the OpenWIS Association AISBL, the license chosen for an OpenWIS® Project shall be one of the open source licenses from the list maintained by the Open Source Initiative (OSI) at: [https://opensource.org/licenses/](https://opensource.org/licenses/).
 
-You agree and acknowledge that the OpenWIS Association AISBL and its licensees may sublicense and distribute your Contributions under any subsequent version of the GPL approved by the Free Software Foundation. <span style="background-color:yellow">*Furthermore, You agree that, by approval of the [OpenWIS Steering Committee]( {{"/structure/steering-committee.html" | prepend: site.baseurl}} ), an OpenWIS® Project may change the license from time to time to an alternative open source license from the list maintained by the OSI in order to suit the evolution of the project.*</span>
+You agree and acknowledge that the OpenWIS Association AISBL and its licensees may sublicense and distribute your Contributions under any subsequent version of the GPL approved by the Free Software Foundation. Furthermore, You agree that, by approval of the [OpenWIS Steering Committee]( {{"/structure/steering-committee.html" | prepend: site.baseurl}} ), an OpenWIS® Project may change the license from time to time to an alternative open source license from the list maintained by the OSI in order to suit the evolution of the project.
 
 <h2 id="3-intellectual-property-infringement">3. Intellectual property infringement</h2>
 
@@ -71,9 +71,9 @@ You represent that each of Your Contributions is Your original creation and that
 
 <h2 id="6-contribution-of-creation-on-behalf-of-third-party">6. Contribution of creation(s) on behalf of a third-party</h2>
 
-Should You wish to submit work that is not Your original creation, You may submit it to the OpenWIS Association AISBL separately from any Contribution, identifying the complete details of its source and of any license or other restriction (including, but not limited to, related patents, trademarks, and license agreements) of which you are personally aware, and conspicuously marking the work as "Submitted on behalf of a third-party: Third Party Name ________”. 
+Should You wish to submit work that is not Your original creation, You may submit it to the OpenWIS Association AISBL separately from any Contribution, identifying the complete details of its source and of any license or other restriction (including, but not limited to, related patents, trademarks, and license agreements) of which you are personally aware, and conspicuously marking the work as "Submitted on behalf of a third-party: Third Party Name ________". 
 
-<span style="background-color:yellow">*When appropriate, details of source, license, other restrictions and the identification that the submission is provided on behalf of a named third-party may be included within the Pull Request associated with the submission of work that is not Your original creation.*</span>
+When appropriate, details of source, license, other restrictions and the identification that the submission is provided on behalf of a named third-party may be included within the Pull Request associated with the submission of work that is not Your original creation.
 
 <h2 id="7-notification">7. Notification</h2>
 
@@ -101,7 +101,7 @@ Nothing in this Agreement affects the right of You or the OpenWIS Association AI
 
 <h2 id="10-policies-procedures">10. Policies and procedures</h2>
 
-<span style="background-color:yellow">*Any person or organization wishing to Contribute to an OpenWIS® Project shall abide by the [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}), [Technical Rules]({{ "/tr/" | prepend: site.baseurl }}) and [Code of Conduct]({{ "/conduct/" | prepend: site.baseurl }}) of the OpenWIS Association AISBL and the policies and procedures defined by the [OpenWIS Steering Committee]( {{"/structure/steering-committee.html" | prepend: site.baseurl}} ).*</span>
+Any person or organization wishing to Contribute to an OpenWIS® Project shall abide by the [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}), [Technical Rules]({{ "/tr/" | prepend: site.baseurl }}) and [Code of Conduct]({{ "/conduct/" | prepend: site.baseurl }}) of the OpenWIS Association AISBL and the policies and procedures defined by the [OpenWIS Steering Committee]( {{"/structure/steering-committee.html" | prepend: site.baseurl}} ).
 
 <h2 id="11-general">11. General</h2>
 
