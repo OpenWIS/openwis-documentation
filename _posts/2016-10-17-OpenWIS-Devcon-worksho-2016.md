@@ -2,11 +2,11 @@
 layout:  page
 Title: 2016 OpenWIS DevCon Workshop Final Report
 ---
-Report on the 2016 OpenWIS Developer Conference
+**Report on the 2016 OpenWIS Developer Conference**
 
-Day 1; Sept 27th, 2016
+**Day 1; Sept 27th, 2016**
 
-Day 1 Morning Session
+**Day 1 Morning Session**
 
 9am: Introductions around the table and on the phone. 
 
@@ -14,7 +14,7 @@ Participants in person:  Steve Olson, Bob Bunge, Marc Giannoni, Remy Giruad, Mic
 
 Participants remote:  Martin G. 
 
-Review of Goals
+**Review of Goals**
 
 Steve reviews goals worked up from the results of the meeting at KMA.  Shows list on screen, asks for other goals.   
 
@@ -23,7 +23,7 @@ Dominic: Need to conduct final testing of 3.14 and then put it into support mode
 Okki: 3.14 needs to be solid so it can be more operational.  Should be easy to deploy into the operational environment.    
 Paul points out they have gotten 3.14 install down to three hours instead of five days; mostly because of the use of Puppet.  
 
-Revised Goals:
+**Revised Goals:**
 
 Close out remaining 3.14 work and conduct final testing.  Move towards support mode for OpenWIS 3.
 Finalize remaining steps for automating, streamlined OpenWIS deployment and installation.  Applies to both OpenWIS 3 and 4.
