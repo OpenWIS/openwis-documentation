@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: Deployment guide - for clean install - not just a patch
+title: v3 - Deployment guide and package - for clean open source 3.14 install
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: BoM/TA?
@@ -8,10 +8,17 @@ kanBacklog: 75
 kanIssue: 107
 kanPullReq:
 kanFeature: Good documentation
-kanRelease: 4.1
+kanRelease: 3.14
 kanMetric: 2.1
 kanSize: 3
 kanPriority: 3
 kanRepo: OpenWIS/openwis
+kanProject: 1
 ---
-Deployment guide - for clean install - not just a patch. Looks to be done. LM - relates to version 4, but might be worth at least thinking for now
+
+There is a [project](https://github.com/OpenWIS/openwis/projects/1) for this task on GitHub.
+
+User story: As a potential open source contributor, user or association member, I want:
+
+  - a package I can download that contains the OSS version of OpenWIS 3.14, ready for installation, 
+  - an installation guide.

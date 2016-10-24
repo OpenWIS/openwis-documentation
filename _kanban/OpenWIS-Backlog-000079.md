@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: DDS4 Direct download via HTTP
+title: v4 - DDS4 Direct download via HTTP
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
@@ -8,11 +8,12 @@ kanBacklog: 79
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catalogue
-kanRelease: 4.1
+kanRelease: 4.2
 kanMetric: 5.2
 kanSize: 5
 kanPriority: 4
 kanRepo:
+kanProject:
 ---
 Enhancement DDS4: Direct download via HTTP
 

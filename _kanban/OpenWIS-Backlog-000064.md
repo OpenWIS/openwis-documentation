@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: Adopt the odd/even release number system.
+title: v4 - Adopt the odd/even release number system.
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
@@ -13,6 +13,7 @@ kanMetric: 8.1
 kanSize: 1
 kanPriority: 1
 kanRepo:
+kanProject:
 ---
 Adopt the odd/even release number system.  So ODD=development release; EVEN=production release.  The middle digit of the fully qualified 3 digit release number is the digit that is odd or even.
 
@@ -38,5 +39,3 @@ So, just as an example, a development cycle might go:
 - 4.1.3 not released
 - 4.2.0 production release
 - 4.2.1 production patch release.
-
-
