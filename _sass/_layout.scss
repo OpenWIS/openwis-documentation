@@ -5,7 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
+    
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -27,6 +27,11 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    position: absolute;
+    right: -webkit-calc(((100% - #{$content-width}) / 2) + #{$spacing-unit});
+    right:         calc(((100% - #{$content-width}) / 2) + #{$spacing-unit});
+    top: 0;
+    border: 1px solid red; 
 
     .menu-icon {
         display: none;
@@ -35,7 +40,9 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-
+        display: inline-block;
+        background-color: yellow; 
+        border: 1px solid yellow;
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
@@ -81,7 +88,7 @@
         }
 
         .page-link {
-            display: block;
+            display: inline-block;
             padding: 5px 10px;
 
             &:not(:last-child) {
@@ -93,6 +100,40 @@
 }
 
 
+/**
+ * For Dropdown Menus (usable in header)
+ */
+ul.dropdown {
+color: $text-color;
+line-height: $base-line-height;
+display: inline-block;
+vertical-align: top;
+position: relative;
+list-style:none;
+margin: 0;
+padding: 0;
+z-index: 1;
+background-color: inherit;
+//background-color: $dropdown-background-color; 
+}
+ul.dropdown > li {
+//display: none;
+position: absolute;
+left: -9999em;
+background-color: none;
+}
+ul.dropdown:hover > li { 
+//display: block;
+position: relative;
+left: $dropdown-left;
+background-color: inherit;
+}
+ul.dropdown input:checked ~ li {
+//display: block;
+position: relative;
+left: $dropdown-left;
+background-color: inherit;
+}
 
 /**
  * Site footer
