@@ -60,7 +60,7 @@ As set out in [Title 11]({{ "/rules/11-technical-rules.html" | prepend: site.bas
 - Designated members of the "release team" are responsible for the creation of releases of OpenWIS.
 - The process of release consist of the following steps, which MUST be followed by a member of the release team:
     - All changes from develop are merged into master.
-    - Master is tagged with the name `openwis-VERSION' where _version_ is the release number.
+    - Master is tagged with the name 'openwis-VERSION' where _version_ is the release number.
 
 ## Contributing To Third Party Projects
 
