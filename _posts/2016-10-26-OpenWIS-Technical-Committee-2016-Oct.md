@@ -16,7 +16,7 @@ title: OpenWIS Technical Committee 2016 October
 	5. SO - Are there any issues with merging the Java version changes into master?
 	6. OL - We have been testing 3.14.6 and it is stable. Ideally we wouldn't want to release it with security issues, but if we can't merge the changes quickly we should release v3.14.6. So, is it doable in 2 weeks?  Is it the XSS issues that get resolved?
 	7. WQ - No, the XSS fixes are already in v3.14.6.
-	8. OL - The Java version issue is not critical so a v3.14.6 release is safer.
+	8. OL - If the Java version issue is not critical, a v3.14.6 release is safer with the time constraints.
 	9. SO - We tested the Java version fix months ago and yesterday GISC-Washington went LIVE running v3.14.7.
 	10. WQ - So how much effort would be involved in merging?
 	11. LM - If it is just the Java vesion then it would affect the vagrant scripts.
