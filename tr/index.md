@@ -15,8 +15,8 @@ As set out in [Title 11]({{ "/rules/11-technical-rules.html" | prepend: site.bas
 
 ## Scope
 
-- Any code written as part of a project under the collective ownership of the OpenWIS association MUST adhere to the OpenWIS Technical Rules.
-- Any code under the collective ownership of the OpenWIS association that was written before the commission or alteration of the technical rules section MAY be in violation of said guidelines until updated.  In other words: these rules are not retroactive.  However, it is RECOMMENDED that said code be updated to meet the technical rules if at all possible.
+- Any code written as part of a project under the collective ownership of the OpenWIS Association MUST adhere to the OpenWIS Technical Rules.
+- Any code under the collective ownership of the OpenWIS Association that was written before the commission or alteration of the technical rules section MAY be in violation of said guidelines until updated.  In other words: these rules are not retroactive.  However, it is RECOMMENDED that said code be updated to meet the technical rules if at all possible.
 
 ## Governance
 
@@ -27,11 +27,11 @@ As set out in [Title 11]({{ "/rules/11-technical-rules.html" | prepend: site.bas
 
 ### Java Code
 
-- Any Java code that falls under the custody of the OpenWIS association MUST adhere to the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html), with the following exceptions:
+- Any Java code that falls under the custody of the OpenWIS Association MUST adhere to the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html), with the following exceptions:
     - The block indentation is **3 spaces** (this overrides Section 4.2)
     - The column limit is **120 characters** (this overrides Section 4.4)
     - Continuation lines are to be indented by **6 spaces** (this overrides Section 4.5.2)
-- Along with the rules outlined with the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html), any Java code that fulls under the custody of the OpenWIS association MUST also adhere to the following rules:
+- Along with the rules outlined with the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html), any Java code that fulls under the custody of the OpenWIS Association MUST also adhere to the following rules:
     - **Identifiers**: all Java identifiers (such as type names, method names, field names, constants, enums) MUST be named in American English
     - **Javadoc**: all Javadoc must be written in English and SHOULD be written in American English
     - **Comments**: all other comments SHOULD be written in American English
