@@ -17,7 +17,7 @@ contents : [
 ]
 ---
 
-# DRAFT
+# OpenWIS Association Contributor License Agreement - version 1 (CLAv1) - [Sign me up!]( {{"/static/CLA/CLAform.html" | prepend: site.baseurl}} )
 
 Thank you for your interest in contributing to products owned or managed by the OpenWIS Association AISBL.
 
