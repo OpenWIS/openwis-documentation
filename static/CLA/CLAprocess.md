@@ -13,7 +13,7 @@ First, check if the GitHub ID of the submitter is already registered on GitHub a
 
 ### Check for a signed CLA
 
-If they are a new contributor, they should have sent a scan of a signed CLA form to the OpenWIS Community Manager.  [Check for this file]( {{"/static/CLA/CLA-Forms-scanned-DO-NOT-DELETE/" | prepend: site.baseurl}} ).  The filename should include their GitHub ID and the name of the project they are contributing to, for example **rogers492-cdms-2016-11-01.pdf**.  If found, open the file and check the CLA form is complete and relevant to the pull request project.  If it is then you can go on to review the pull request in the normal way and skip the rest of this process.
+If they are a new contributor, they should have sent a scan of a signed CLA form to the OpenWIS Community Manager.  [Check for this file](https://github.com/OpenWIS/openwis-documentation/tree/gh-pages/static/CLA/CLA-Forms-scanned-DO-NOT-DELETE).  The filename should include their GitHub ID and the name of the project they are contributing to, for example **rogers492-cdms-2016-11-01.pdf**.  If found, open the file and check the CLA form is complete and relevant to the pull request project.  If it is then you can go on to review the pull request in the normal way and skip the rest of this process.
 
 ### Request a signed CLA
 
@@ -25,7 +25,7 @@ When a completed CLA form is received by email, check that the GitHub ID provide
 
 ## Save a copy of the scanned CLA form
 
-Name the file according to the convention **githubId-projectName-YYYY-MM-DD.ext**, using the information in the form, for example: **lmika-bom-cdms-2016-12-15.pdf**.  Save it to the GitHub repo folder at OpenWIS/openwis-documentation [/static/CLA/CLA-Forms-scanned-DO-NOT-DELETE/]( {{"/static/CLA/CLA-Forms-scanned-DO-NOT-DELETE/" | prepend: site.baseurl}} ).
+Name the file according to the convention **githubId-projectName-YYYY-MM-DD.ext**, using the information in the form, for example: **lmika-bom-cdms-2016-12-15.pdf**.  Save it to the GitHub repo folder at OpenWIS/openwis-documentation [/static/CLA/CLA-Forms-scanned-DO-NOT-DELETE/]( {{"https://github.com/OpenWIS/openwis-documentation/tree/gh-pages/static/CLA/CLA-Forms-scanned-DO-NOT-DELETE"}} ).
 
 ## Add the new contributor to the project organisation
 
@@ -33,4 +33,4 @@ Raise a request to do this with the [CM-Team](https://github.com/cmteam-metoffic
 
 ## Updates to the CLA and history
 
-Whenever the CLA (appendix A of the Internal rules) is changed, which will only happen as a result of formal approval by the Steering Committee, the old version should be saved to the GitHub repo folder at OpenWIS/openwis-documentation [/static/CLA/CLA-old-DO-NOT-DELETE/]( {{"/static/CLA/CLA-old-DO-NOT-DELETE/"}} ) before the new one replaces it.  Also, the [CLA history table]( {{"/static/CLA/CLAhistory.html" | prepend: site.baseurl}} ) should be updated to reflect the change.
+Whenever the CLA (appendix A of the Internal rules) is changed, which will only happen as a result of formal approval by the Steering Committee, the old version should be saved to the GitHub repo folder at OpenWIS/openwis-documentation [/static/CLA/CLA-old-DO-NOT-DELETE/](https://github.com/OpenWIS/openwis-documentation/tree/gh-pages/static/CLA/CLA-old-DO-NOT-DELETE) before the new one replaces it.  Also, the [CLA history table]( {{"/static/CLA/CLAhistory.html" | prepend: site.baseurl}} ) should be updated to reflect the change.
