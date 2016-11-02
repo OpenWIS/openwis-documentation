@@ -9,15 +9,22 @@ By completing and submitting this form, you confirm that you have read, understo
 
 Please submit a scan of this completed form to the OpenWIS Community Manager via [email](mailto:contact@openwis.io)
 
+----
 
-## Name (required):
+## For contributions to (OpenWIS Association project - required):
 
-## GitHub ID (required):
+## Current project license (required):
 
-##  Organisation (optional):
+## Your full name (required):
 
-## Signature (required):
+## Your GitHub account ID (required):
 
-## Date (required):  
+## Your organisation (optional):
+
+## Your signature (required):
+
+## Date of signature (required):  
+
+----
 
 # Thank you!
