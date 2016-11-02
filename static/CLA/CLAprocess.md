@@ -33,4 +33,4 @@ Raise a request to do this with the [CM-Team](https://github.com/cmteam-metoffic
 
 ## Updates to the CLA and history
 
-Whenever the CLA (appendix A of the Internal rules) is changed, which will only happen as a result of formal approval by the Steering Committee, the old version should be saved to the GitHub repo folder at OpenWIS/openwis-documentation [/static/CLA/CLA-old-DO-NOT-DELETE/]( {{"/static/CLA/CLA-old-DO-NOT-DELETE/#" | prepend: site.baseurl}} ) before the new one replaces it.  Also, the [CLA history table]( {{"/static/CLA/CLAhistory.html" | prepend: site.baseurl}} ) should be updated to reflect the change.
+Whenever the CLA (appendix A of the Internal rules) is changed, which will only happen as a result of formal approval by the Steering Committee, the old version should be saved to the GitHub repo folder at OpenWIS/openwis-documentation [/static/CLA/CLA-old-DO-NOT-DELETE/]( {{"/static/CLA/CLA-old-DO-NOT-DELETE/"}} ) before the new one replaces it.  Also, the [CLA history table]( {{"/static/CLA/CLAhistory.html" | prepend: site.baseurl}} ) should be updated to reflect the change.
