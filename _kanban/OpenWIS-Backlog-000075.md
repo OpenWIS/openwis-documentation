@@ -1,7 +1,7 @@
 ---
 layout: backlog
 title: v3 - Deployment guide and package - for clean open source 3.14 install
-kanCategory: analyse
+kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: BoM/TA?
 kanBacklog: 75
