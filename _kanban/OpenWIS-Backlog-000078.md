@@ -12,7 +12,7 @@ kanRelease:
 kanMetric: 8.3
 kanSize: 5
 kanPriority: 1
-kanRepo: OpenWIS/openwis-documentation
+kanRepo: OpenWIS/openwis
 kanProject:
 ---
 A-OWIS-SC-2016-25 RGib - Improve the existing web-site, both look and content (nothing grand). LM - See the above two tickets about this. Also, may need to make a decision as to technologies we use for the website (Joomla, Jekyll, etc.) LM - Estimate includes setting up new websight and writing some content but does NOT include the two tasks above (76 & 77).
