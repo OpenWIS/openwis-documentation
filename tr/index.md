@@ -15,8 +15,8 @@ As set out in [Title 11]({{ "/rules/11-technical-rules.html" | prepend: site.bas
 
 ## Scope
 
-- Any code written as part of a project under the collective ownership of the OpenWIS association MUST adhere to the OpenWIS Technical Rules.
-- Any code under the collective ownership of the OpenWIS association that was written before the commission or alteration of the technical rules section MAY be in violation of said guidelines until updated.  In other words: these rules are not retroactive.  However, it is RECOMMENDED that said code be updated to meet the technical rules if at all possible.
+- Any code written as part of a project under the collective ownership of the OpenWIS Association MUST adhere to the OpenWIS Technical Rules.
+- Any code under the collective ownership of the OpenWIS Association that was written before the commission or alteration of the technical rules section MAY be in violation of said guidelines until updated.  In other words: these rules are not retroactive.  However, it is RECOMMENDED that said code be updated to meet the technical rules if at all possible.
 
 ## Governance
 
@@ -27,13 +27,13 @@ As set out in [Title 11]({{ "/rules/11-technical-rules.html" | prepend: site.bas
 
 ### Java Code
 
-- Any Java code that falls under the custody of the OpenWIS association MUST adhere to the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html), with the following exceptions:
+- Any Java code that falls under the custody of the OpenWIS Association MUST adhere to the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html), with the following exceptions:
     - The block indentation is **3 spaces** (this overrides Section 4.2)
     - The column limit is **120 characters** (this overrides Section 4.4)
     - Continuation lines are to be indented by **6 spaces** (this overrides Section 4.5.2)
-- Along with the rules outlined with the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html), any Java code that fulls under the custody of the OpenWIS association MUST also adhere to the following rules:
+- Along with the rules outlined with the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html), any Java code that fulls under the custody of the OpenWIS Association MUST also adhere to the following rules:
     - **Identifiers**: all Java identifiers (such as type names, method names, field names, constants, enums) MUST be named in American English
-    - **Javadoc**: all Javadoc must be written in English and SHOULD be written in American English
+    - **Javadoc**: all Javadoc MUST be written in English and SHOULD be written in American English
     - **Comments**: all other comments SHOULD be written in American English
 
 ## Test Coverage
@@ -55,7 +55,34 @@ As set out in [Title 11]({{ "/rules/11-technical-rules.html" | prepend: site.bas
 - If the pull request is to be reviewed, the reviewer MUST sign off the changes by adding a comment to the pull request stating that the changes are ready to be merged.
 - Once the changes have been signed off by the reviewer, the developer submitting the pull request MUST merge the changes from within GitHub.
 
-### Release
+## Documentation
+
+### Wiki
+
+- The GitHub Wiki is intended for any documentation relevant for developers or contributors of OpenWIS.  This includes, but is not limited to:
+    - Getting started guides for developers
+    - Architecture and technical documentation
+    - Guides for making contributions
+  Non-developers MAY view the documents within this section but documentation intended for non-developers SHOULD NOT be added here.
+- Documentation published through the Wiki must be written in GitHub flavoured Markdown.
+
+### Website
+
+- The website is intended for any documentation relevant to end users.  This may include, but is not limited to:
+    - Installation guide
+    - Operation guides
+    - Release notes (should this be tracked on the website or should this be tracked somewhere in the repository/wiki?)
+    
+  Developer documentation MAY be added here but it is recommended to keep all developer documentation located in the GitHub Wiki (a link to the document in the Wiki is preferred over publishing the document in two places).
+- All documentation published through the website MUST be written in a text-based format (Markdown, HTML, plain text).  If a "printed" form of a particular document is required, it SHOULD be derived directly from the text-based version.
+- All documentation published through the website MUST be tracked within a git repository accessible to all developers, preferably a repository hosted on GitHub.
+- Updates to the contents of the website must be submitted in the form of a Pull Request to the documentation GitHub repository.  The contents of the Pull Request SHOULD be approved by the Community Manager before being merged and published to the web.  (Should this be the case?)
+
+### General
+
+- All documentation MUST be written in English and SHOULD be written in American English.
+
+## Release
 
 - Designated members of the "release team" are responsible for the creation of releases of OpenWIS.
 - The process of release consist of the following steps, which MUST be followed by a member of the release team:
