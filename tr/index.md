@@ -63,7 +63,6 @@ As set out in [Title 11]({{ "/rules/11-technical-rules.html" | prepend: site.bas
     - Getting started guides for developers
     - Architecture and technical documentation
     - Guides for making contributions
-    - Access to the contribution guides (should this be here?)
   Non-developers MAY view the documents within this section but documentation intended for non-developers SHOULD NOT be added here.
 - Documentation published through the Wiki must be written in GitHub flavoured Markdown.
 
