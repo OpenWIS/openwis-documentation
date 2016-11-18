@@ -1,9 +1,9 @@
 ---
 layout: backlog
 title: v3 - Deployment guide and package - for clean open source 3.14 install
-kanCategory: develop
-kanSubCategory: in-progress
-kanAssigned: BoM/TA?
+kanCategory: release
+kanSubCategory: pending
+kanAssigned: UKMO
 kanBacklog: 75
 kanIssue: 107
 kanPullReq:
@@ -15,6 +15,8 @@ kanPriority: 3
 kanRepo: OpenWIS/openwis
 kanProject: 1
 ---
+
+PR - We're ready to go open source.  Will get CMTeam to switch the repos from private to public w/b 21 Nov 2016.
 
 There is a [project](https://github.com/OpenWIS/openwis/projects/1) for this task on GitHub.
 
