@@ -8,7 +8,7 @@ kanBacklog: 62
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catalogue
-kanRelease: 4.2
+kanRelease: 4.1
 kanMetric: 3.2
 kanSize:
 kanPriority: 4

@@ -1,21 +1,25 @@
 ---
 layout: backlog
 title: ADMIN4 Monitoring and statistics
-kanCategory: analyse
+kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 44
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catologue
-kanRelease: 4.2
+kanFeature: Integrated catalogue
+kanRelease: 4.0
 kanMetric: 2.1
 kanSize: 3
-kanPriority: 6
+kanPriority: 2
 kanRepo:
 kanProject:
 ---
-Enhancement ADMIN4: Monitoring and statistics
+Enhancement ADMIN4: Monitoring and statistics.
+
+Update - scrum - 2016-11-17: GT - Migrated into new v4.0 as part on Kanban 81. v4 - Refactoring to improve modularity.
+
+---
 
 This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to GeoCat in 2015.  The [documentation][doc] produced as part of that work describes the new functionality delivered.
 

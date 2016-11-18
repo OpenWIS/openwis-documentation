@@ -1,21 +1,25 @@
 ---
 layout: backlog
-title: UI1 Subscription management
-kanCategory: analyse
+title: ADMIN6 Browse subscriptions
+kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
-kanBacklog: 54
+kanBacklog: 49
 kanIssue:
 kanPullReq:
-kanFeature: Subscriptions
-kanRelease: 4.2
+kanFeature: Integrated catalogue
+kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 3
-kanPriority: 6
+kanPriority: 2
 kanRepo:
 kanProject:
 ---
-Enhancement UI1: Subscription management
+Enhancement ADMIN6: Browse subscriptions.
+
+Update - scrum - 2016-11-17: GT - Migrated into new v4.0 as part on Kanban 81. v4 - Refactoring to improve modularity.
+
+---
 
 This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to GeoCat in 2015.  The [documentation][doc] produced as part of that work describes the new functionality delivered.
 
@@ -24,9 +28,13 @@ This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to
 
 The outcome for this feature was:
 
-2015 status: **MO/GeoCat Review**; Percent complete: **100**; Priority: Normal; Questions outstanding: In the manual, does 'redirect the user to the Users and Groups section of the admin console' really mean that, or just that identical functionality exists in the User Portal and Admin Portal?;
+2015 status: **MO/GeoCat Review**; Percent complete: **80**; Priority: Normal; Questions outstanding: Is this 100% Done or 80% Done? No bulk edit actions?;
 
 Extra info:
 
-GeoNetwork shall be amended to provide users with a web-based mechanism to review and manage (create, update and delete) their subscriptions for routine delivery of data.
+GeoNetwork shall be amended to provide a User Administrator with a web-based mechanism to:
+
+  1. browse the subscriptions for all users or users within a specific Group; and
+  2. suspend and reactivate specific subscriptions.
+
 The SubscriptionService SOAP web-service provides for retrieval and persistence of the subscription objects.

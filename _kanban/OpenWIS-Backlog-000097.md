@@ -8,10 +8,10 @@ kanBacklog: 97
 kanIssue: 122
 kanPullReq:
 kanFeature: Integrated catalogue
-kanRelease: 4.2
+kanRelease: 4.1
 kanMetric: 2
 kanSize: 2
-kanPriority: 7
+kanPriority: 3
 kanRepo: OpenWIS/openwis
 ---
 The role of Category for metadata sync.
