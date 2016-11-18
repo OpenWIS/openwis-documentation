@@ -1,7 +1,7 @@
 ---
 layout: backlog
 title: v4 - Set up Development environment for OpenWIS 4.1
-kanCategory: analyse
+kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 185
@@ -15,4 +15,6 @@ kanPriority: 1
 kanRepo:
 kanProject:
 ---
-Set up Development environment for OpenWIS 4.1 (Leon?)
+Set up Development environment for OpenWIS 4.1.
+
+PR - We've progressed this under the new OpenWIS v4.0, but I'll leave this open in case we have a few extra things to do to refine it for v4.1, where we share the Dev release more widely.

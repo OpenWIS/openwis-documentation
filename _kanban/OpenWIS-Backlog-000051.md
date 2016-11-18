@@ -8,14 +8,19 @@ kanBacklog: 51
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catalogue
-kanRelease: 4.2
+kanRelease: 4.0
 kanMetric: 6.1
 kanSize: 3
-kanPriority: 6
+kanPriority: 4
 kanRepo:
 kanProject:
 ---
-Enhancement DM1: Default metadata insertion. LM - I'm not sure what this refers to
+Enhancement DM1: Default metadata insertion. LM - I'm not sure what this refers to.
+
+Update - scrum - 2016-11-17: GT - Not Tested in new v4.0 as part on Kanban 81. v4 - Refactoring to improve modularity.
+Not tested in GeoCat version either.
+
+---
 
 This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to GeoCat in 2015.  The [documentation][doc] produced as part of that work describes the new functionality delivered.
 

@@ -8,7 +8,7 @@ kanBacklog: 78
 kanIssue: 233
 kanPullReq:
 kanFeature: Good documentation
-kanRelease:
+kanRelease: 3.14
 kanMetric: 8.3
 kanSize: 5
 kanPriority: 1

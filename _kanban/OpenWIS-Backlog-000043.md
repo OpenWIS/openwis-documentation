@@ -1,21 +1,25 @@
 ---
 layout: backlog
 title: v4 - ADMIN3 Browse OpenWIS cache content
-kanCategory: analyse
+kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 43
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catologue
-kanRelease: 4.2
+kanFeature: Integrated catalogue
+kanRelease: 4.0
 kanMetric: 2.1
 kanSize: 3
-kanPriority: 3
+kanPriority: 2
 kanRepo:
 kanProject:
 ---
-Enhancement ADMIN3: Browse OpenWIS cache content
+Enhancement ADMIN3: Browse OpenWIS cache content.
+
+Update - scrum - 2016-11-17: GT - Migrated into new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
+
+---
 
 This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to GeoCat in 2015.  The [documentation][doc] produced as part of that work describes the new functionality delivered.
 
