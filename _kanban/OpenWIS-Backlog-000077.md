@@ -8,14 +8,22 @@ kanBacklog: 77
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catalogue
-kanRelease: 4.2
+kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 3
 kanPriority: 4
 kanRepo:
 kanProject:
 ---
-Enhancement DDS1: Download offer
+Enhancement DDS1: Download offer.
+
+Update - scrum - 2016-11-17: GT - Migrated into new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
+
+The migrated version only shows the 'subscribe' action in the sample entries of the Search screen. It is possible that the metadata itself needs to have specific characteristics in order for the 'Deliver' and 'Download' actions to become available.  **Further investigation is required.**
+
+Furthermore, it is very important to point out that GN v3.2.0 appears to feature its own download mechanism.  This shows a Download button in the UI but not in the same place as OpenWIS.  It is possible that OpenWIS would like to integrate this functionality into its own delivery methods.
+
+---
 
 This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to GeoCat in 2015.  The [documentation][doc] produced as part of that work describes the new functionality delivered.
 

@@ -1,21 +1,25 @@
 ---
 layout: backlog
 title: v4 - ADMIN5 Configure dissemination channels for Groups
-kanCategory: analyse
+kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 69
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catalogue
-kanRelease: 4.2
+kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 5
 kanPriority: 3
 kanRepo:
 kanProject:
 ---
-Enhancement ADMIN5: Configure dissemination channels for Groups
+Enhancement ADMIN5: Configure dissemination channels for Groups.
+
+Update - scrum - 2016-11-17: GT - Migrated into new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
+
+---
 
 This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to GeoCat in 2015.  The [documentation][doc] produced as part of that work describes the new functionality delivered.
 

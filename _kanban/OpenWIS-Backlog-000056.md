@@ -1,21 +1,28 @@
 ---
 layout: backlog
-title: AAC3 New user with SAML Identity
-kanCategory: analyse
-kanSubCategory: pending
+title: AAC2 Assign SAML Identity to existing user
+kanCategory: develop
+kanSubCategory: in-progress
 kanAssigned: UKMO
-kanBacklog: 57
+kanBacklog: 56
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catologue
-kanRelease: 4.2
+kanFeature: Integrated catalogue
+kanRelease: 4.0
 kanMetric: 3.2
 kanSize: 5
-kanPriority: 6
+kanPriority: 3
 kanRepo:
 kanProject:
 ---
-Enhancement AAC3: New user with SAML Identity
+Enhancement AAC2: Assign SAML Identity to existing user.
+
+Update - scrum - 2016-11-17: GT - Not Tested in new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
+Not tested in GeoCat version either.
+
+GT will set up a SAML2 provider and test as a PoC (GeoCat were using Shibboleth).
+
+---
 
 This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to GeoCat in 2015.  The [documentation][doc] produced as part of that work describes the new functionality delivered.
 

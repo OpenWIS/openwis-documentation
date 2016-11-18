@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: v3 - Publish collaboration policies and procedures on website
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: done
+kanSubCategory:
 kanAssigned: PR/LM
 kanBacklog: 76
 kanIssue:
@@ -15,6 +15,8 @@ kanPriority: 2
 kanRepo: OpenWIS/openwis-documentation
 kanProject: 2
 ---
+Done, for CBS Nov 2016.
+
 There is a [project](https://github.com/OpenWIS/openwis-documentation/projects/2) for this task on GitHub.
 
 ### Dev Con 2016 update

@@ -1,21 +1,25 @@
 ---
 layout: backlog
 title: v4 - MM1 Use of custom metadata file identifier
-kanCategory: analyse
+kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 40
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catalogue
-kanRelease: 4.1
+kanRelease: 4.0
 kanMetric: 6.1
 kanSize: 2
 kanPriority: 2
 kanRepo:
 kanProject:
 ---
-Enhancement MM1: Use of custom metadata file identifier
+Enhancement MM1: Use of custom metadata file identifier.
+
+Update - scrum - 2016-11-17: GT - Migrated into new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
+
+---
 
 This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to GeoCat in 2015.  The [documentation][doc] produced as part of that work describes the new functionality delivered.
 

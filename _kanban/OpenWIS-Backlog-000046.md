@@ -1,21 +1,26 @@
 ---
 layout: backlog
 title: MM3 Metadata categories and category-based harvesting
-kanCategory: analyse
-kanSubCategory: pending
+kanCategory: develop
+kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 46
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catologue
-kanRelease: 4.2
+kanFeature: Integrated catalogue
+kanRelease: 4.0
 kanMetric: 2.1
 kanSize: 3
-kanPriority: 6
+kanPriority: 3
 kanRepo:
 kanProject:
 ---
-Enhancement MM3: Metadata categories and category-based harvesting
+Enhancement MM3: Metadata categories and category-based harvesting.
+
+Update - scrum - 2016-11-17: GT - Migrated into new v4.0 as part on Kanban 81. v4 - Refactoring to improve modularity.
+Works in the GeoCat version but not in the GT version: Getting an error when setting category for a group.  GT working on it.
+
+---
 
 This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to GeoCat in 2015.  The [documentation][doc] produced as part of that work describes the new functionality delivered.
 

@@ -8,7 +8,7 @@ kanBacklog: 33
 kanIssue:
 kanPullReq:
 kanFeature: Security
-kanRelease: 4.2
+kanRelease: 4.1
 kanMetric: 1.1
 kanSize: 1
 kanPriority: 3
