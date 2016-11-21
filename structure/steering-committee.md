@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: rules
 title: OpenWIS STEERING COMMITTEE
 
 # :contents is an array of two element arrays that defines the menu which appears in the masthead
