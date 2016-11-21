@@ -1,0 +1,19 @@
+---
+layout: default
+title: Instructions on How to Do Things for Github webpages
+# This generates a directory /howto/ with an index.html file containing the html output from the for loop below, which list all the files in _posts
+permalink: /howto/
+---
+<header>
+   <h1 class="post-title">{{ page.title }}</h1>
+</header>
+
+<div class="posts-index">
+	{% for post in site.howto %}
+	   {% unless forloop.last %}
+		<li>
+			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</li>
+	   {% endunless %}	  
+	{% endfor %}
+</div>

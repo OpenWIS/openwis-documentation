@@ -1,5 +1,5 @@
 ---
-layout: rules
+layout: page
 title: OpenWIS BOARD
 
 # :contents is an array of two element arrays that defines the menu which appears in the masthead
