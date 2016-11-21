@@ -7,15 +7,21 @@ kanAssigned: UKMO
 kanBacklog: 52
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catologue
-kanRelease: 4.1
+kanFeature: Integrated catalogue
+kanRelease: 4.0
 kanMetric: 6.1
 kanSize: 3
-kanPriority: 6
+kanPriority: 4
 kanRepo:
 kanProject:
 ---
-Enhancement MM4: Maintain product metadata table
+Enhancement MM4: Maintain product metadata table.
+
+Update - scrum - 2016-11-17: GT - Not mentioned re new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
+PR - Ask GT if he is aware of this one.
+
+---
+
 
 This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to GeoCat in 2015.  The [documentation][doc] produced as part of that work describes the new functionality delivered.
 

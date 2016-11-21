@@ -8,14 +8,20 @@ kanBacklog: 79
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catalogue
-kanRelease: 4.2
+kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 5
 kanPriority: 4
 kanRepo:
 kanProject:
 ---
-Enhancement DDS4: Direct download via HTTP
+Enhancement DDS4: Direct download via HTTP.
+
+Update - scrum - 2016-11-17: GT - Not mentioned re new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
+
+See the other DDS tasks.
+
+---
 
 This task was part of the OpenWISv4/GeoNetworksv3 [work package][WP] assigned to GeoCat in 2015.  The [documentation][doc] produced as part of that work describes the new functionality delivered.
 

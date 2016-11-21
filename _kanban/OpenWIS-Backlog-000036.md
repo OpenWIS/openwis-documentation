@@ -2,13 +2,13 @@
 layout: backlog
 title: Dev Con 2016
 kanCategory: done
-kanSubCategory: 
+kanSubCategory:
 kanAssigned: NWS
 kanBacklog: 36
 kanIssue:
 kanPullReq:
 kanFeature: Effective collaboration
-kanRelease: 4.1
+kanRelease: 4.0
 kanMetric: 9.2
 kanSize:
 kanPriority: 6

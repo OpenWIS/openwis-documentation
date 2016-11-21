@@ -1,14 +1,14 @@
 ---
 layout: backlog
 title: v4 - Adopt the odd/even release number system.
-kanCategory: analyse
-kanSubCategory: pending
+kanCategory: done
+kanSubCategory:
 kanAssigned: UKMO
 kanBacklog: 64
 kanIssue:
 kanPullReq:
 kanFeature: Good development processes
-kanRelease: 4.1
+kanRelease: 4.0
 kanMetric: 8.1
 kanSize: 1
 kanPriority: 1

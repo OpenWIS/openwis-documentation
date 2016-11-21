@@ -2,43 +2,49 @@
 
   <div class="wrapper">
 
-    <span class="site-title"><img src="http://openwis.io/cms/images/openwis.jpg" alt="OpenWIS®" style="max-height:40px; width:auto"/><a href="{{ site.baseurl }}/">{{ site.title }}</a></span>
+    <div class="site-banner"><span class="site-title"><img src="http://openwis.io/cms/images/openwis.jpg" alt="OpenWIS®" style="max-height:40px; width:auto"/><a href="{{ site.baseurl }}/">{{ site.title }}</a></span></div>
 
 
     <nav class="site-nav">
       <div class="trigger">
+	 <a class="page-link" href="{{site.baseurl | append: "/" }}">Home</a>      
          <div class="page-link">
-            <ul class="dropdown"><label for="a1">Association</label><input id="a1" type="checkbox" />   
-               <li>Members</li>
-               <li>
-               <ul class="dropdown"><label for="a22"><a href="{{ site.baseurl | append: "/" }}">Governance</a></label><input id="a22" type="checkbox" />
+            <ul class="dropdown"><label for="a1"><a href="/about/">Association</a></label><input id="a1" type="checkbox">
+                  <li><a href="{{ site.data.structure.subpath | prepend: site.baseurl | append: "members.html"}}">Members</a></li>
+	          <li><a href="{{ site.data.structure.subpath | prepend: site.baseurl | append: "governance.html"}}">Governance</a></li>
                   <li><a href="{{ site.data.articles.subpath | prepend: site.baseurl }}">{{ site.data.articles.title }}</a></li>
                   <li><a href="{{ site.data.rules.subpath | prepend: site.baseurl }}">{{ site.data.rules.title }}</a></li>
                   <li><a href="{{ site.data.conduct.subpath | prepend: site.baseurl }}">{{ site.data.conduct.title }}</a></li> 
-                  <li><a href="{{ site.data.posts.subpath | prepend: site.baseurl }}">{{ site.data.posts.title }}</a></li> 
-               </ul>
-               </li>
+                  <li><a href="{{ site.data.tr.subpath | prepend: site.baseurl }}">{{ site.data.tr.title }}</a></li>
+		  <li><a href="{{ site.data.rules2.subpath | prepend: site.baseurl }}">{{ site.data.rules2.title }}</a></li>
+                  <li><a href="{{ site.data.minutes.subpath | prepend: site.baseurl }}">{{ site.data.minutes.title }}</a></li> 
+                  <li><a href="{{ site.data.metrics.subpath | prepend: site.baseurl }}">{{ site.data.metrics.title }}</a></li> 
             </ul>
          </div>
          <div class="page-link">
-            <ul class="dropdown"><label for="p1">Projects</label><input id="p1" type="checkbox">
-               <li>OpenWis</li>
-               <li>Python Metadata Tool</li>
+            <ul class="dropdown"><label for="p1"><a href="/projects/">Projects</a></label><input id="p1" type="checkbox">
+               <li><ul class="dropdown"><label for="p21"><a href="{{ site.data.openwis.subpath | prepend: site.baseurl }}">OpenWIS</a></label><input id="p21" type="checkbox">
+		     <li><a href="{{ site.data.backlog.subpath | prepend: site.baseurl }}">{{ site.data.backlog.title }}</a></li>
+                     <li><a href="{{ site.data.kanban.subpath | prepend: site.baseurl }}">{{ site.data.kanban.title }}</a></li>
+		     <li><a href="https://openwis.github.io/openwis" target="_blank">Github Development*</a></li>
+                     <li><a href="https://github.com/OpenWIS/openwis" target="_blank">Github Repository*</a><li>
+                     <li><a href="https://github.com/OpenWIS/openwis/wiki" target="_blank">Wiki*</a></li>
+                     <li><a href="{{ site.data.openwis.subpath | prepend: site.baseurl | append: "#download"}}">Download</a></li>
+               </ul></li>
+               <li class="no-link">Python Metadata Tool</li>
             </ul>
          </div>
-         <a class="page-link">Contact</a>
+         <a class="page-link" href="mailto:contact@openwis.io">Contact</a>
          <div class="page-link">
             <ul class="dropdown"><label for="i1">Get Involved</label><input id="i1" type="checkbox">
-                <li><a>Steering Committee</a></li>
-                <li><a>Technical Committee</a></li>
-                <li><a>Developer</a></li>
+                <li><a href="{{ site.data.structure.subpath | prepend: site.baseurl | append: "steering-committee.html"}}">Steering Committee</a></li>
+                <li><a href="{{ site.data.structure.subpath | prepend: site.baseurl | append: "technical-committee.html"}}">Technical Committee</a></li>
+                <li class="no-link">Developers</li>
+		<li><a href="{{ site.data.howto.subpath | prepend: site.baseurl }}">How-to Instructions</a></li>
+                <li><a href="{{ site.data.posts.subpath | prepend: site.baseurl }}">Github Posts Archive</a></li>
+		<li><a href="https://www.openwis.io/cms/forum" target="_blank">Forum*</a></li>
             </ul>
          </div>          
-    <!-- <a class="page-link" href="{{ site.data.tr.subpath | prepend: site.baseurl }}">{{ site.data.tr.title }}</a> 
-         <a class="page-link" href="{{ site.data.metrics.subpath | prepend: site.baseurl }}">{{ site.data.metrics.title }}</a> 
-         <a class="page-link" href="{{ site.data.backlog.subpath | prepend: site.baseurl }}">{{ site.data.backlog.title }}</a> 
-         <a class="page-link" href="{{ site.data.kanban.subpath | prepend: site.baseurl }}">{{ site.data.kanban.title }}</a> 
-         <a class="page-link" href="{{ site.data.about.subpath | prepend: site.baseurl }}">{{ site.data.about.title }}</a>-->  
          
       </div>
     </nav>

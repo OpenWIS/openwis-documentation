@@ -1,14 +1,14 @@
 ---
 layout: backlog
 title: v4 - Review OpenWIS v4 changes
-kanCategory: analyse
-kanSubCategory: in-progress
+kanCategory: done
+kanSubCategory:
 kanAssigned: UKMO
 kanBacklog: 189
 kanIssue:
 kanPullReq:
 kanFeature: Integrated catalogue
-kanRelease: 4.1
+kanRelease: 4.0
 kanMetric: 2
 kanSize:
 kanPriority: 1

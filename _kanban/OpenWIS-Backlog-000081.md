@@ -1,20 +1,24 @@
 ---
 layout: backlog
 title: v4 - Refactoring to improve modularity
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: done
+kanSubCategory:
 kanAssigned: UKMO
 kanBacklog: 81
 kanIssue:
 kanPullReq:
 kanFeature: Quality software
-kanRelease: 4.1
+kanRelease: 4.0
 kanMetric: 1.2
 kanSize: 13
 kanPriority: 1
 kanRepo:
 kanProject:
 ---
+Done - GT is now using the approach developed to migrate the GeoCat functions into a new OpenWIS v4.0.  Further work will be scheduled under tasks for improvements to specific functionality or UX. 
+
+---
+
 Refactoring to improve the modularity of the system architecture. LM - Important but needs to be done with care to avoid a blowout of complexity. Est. just a guess as I'm not sure of the scope of this work.
 
 PR - The initial scope should at least improve the way OpenWIS code interfaces with GeoNetwork code.
