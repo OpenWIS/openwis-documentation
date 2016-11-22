@@ -10,37 +10,20 @@ baseurl: "/openwis-documentation"
 url: "http://openwis.github.io"
 
 # gh-pages-editor-url is the main part of the web address we need to link to the GitHub editor to edit the page directly in the gh-pages source
-gh-pages-editor-url: "https://github.com/OpenWIS/openwis-documentation/blob/gh-pages-nws/"
-
-# The all languages used
-languages: ['en']
+gh-pages-editor-url: "https://github.com/OpenWIS/openwis-documentation/blob/gh-pages/"
 
 # Build settings
 markdown: kramdown
-
-#include: ["_kanban"]
 
 # Set up for Kanban board - Paul Rogers
 collections:
 - kanban
 - backlog
 - metrics
-- howto
-- minutes
-- rules2
-- test
 collections:
   kanban:
     output: true
   backlog:
     output: true
   metrics:
-    output: true
-  howto:
-    output: true
-  minutes:
-    output: true
-  rules2:
-    output: true      
-  test:
     output: true

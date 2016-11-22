@@ -5,9 +5,14 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
+    
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    @include media-query-range(1149px, 640px) {
+       min-height: 84px;
+    }  
+
 }
 
 .site-title {
@@ -24,75 +29,183 @@
     }
 }
 
+/* 
+ * HEADER MENU - ALL SIZES 
+ */
+
+.page-link {
+background-color: LightGrey;
+border: 2px solid SteelBlue;
+border-radius: 0.5em;
+opacity: 1;
+padding-left: 0.25em;
+padding-right: 0.25em;
+   
+   a {
+   color: $text-color;
+   }
+}
+
+/*
+ * HEADER MENU - FOR LARGE SCREENS (width is 1150 px or greater) 
+ */
+
+@include media-query-range(10000px, 1150px) {
+
 .site-nav {
     float: right;
     line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
+    position: absolute;
+    right: -webkit-calc(((100% - #{$content-width}) / 2) + #{$spacing-unit});
+    right:         calc(((100% - #{$content-width}) / 2) + #{$spacing-unit});
+    top: 0;
 
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-
+        display: inline-block;
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            margin-right: $page-link-space;
         }
     }
 
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
+   ul.dropdown {
+   color: $text-color;
+   line-height: $base-line-height;
+   display: inline-block;
+   vertical-align: top;
+   position: relative;
+   list-style:none;
+   margin: 0;
+   padding: 0;
+   z-index: 1;
+   background-color: inherit;
+   border-radius: inherit;
+   }
+   ul.dropdown > li {
+   position: absolute;
+   left: -9999em;
+   }
+   ul.dropdown:hover > li { 
+   position: relative;
+   left: 0;
+   margin-left: $dropdown-left;
+   max-width: -webkit-calc( (#{$content-width} / #{$ndropdowns} ) + (#{$spacing-unit} * 4) - $dropdown-left       );
+   max-width:         calc( (#{$content-width} / #{$ndropdowns} ) + (#{$spacing-unit} * 4) - $dropdown-left       );
 
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
+   }
+   ul.dropdown input:checked ~ li {
+   position: relative;
+   left: 0;
+   margin-left: $dropdown-left;
+   max-width: -webkit-calc( (#{$content-width} / #{$ndropdowns} ) + (#{$spacing-unit} * 4) - $dropdown-left       );
+   max-width:         calc( (#{$content-width} / #{$ndropdowns} ) + (#{$spacing-unit} * 4) - $dropdown-left       );
+   }
 
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
+}
 }
 
+/*
+ * HEADER MENU - FOR MODERATE DISPLAYS (width is 1149-640 px) 
+ */
 
+@include media-query-range(1149px, 650px) {
+
+.site-nav {
+    line-height: 28px;
+    display: block;
+    position: absolute;
+    top: 56px;
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+        display: inline-block;
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin-right: $page-link-space-small;
+        }
+    }
+
+   ul.dropdown {
+   color: $text-color;
+   line-height: $base-line-height;
+   display: inline-block;
+   vertical-align: top;
+   position: relative;
+   list-style:none;
+   margin: 0;
+   padding: 0;
+   z-index: 1;
+   background-color: inherit;
+   border-radius: inherit;
+   }
+   ul.dropdown > li {
+   position: absolute;
+   left: -9999em;
+   }
+   ul.dropdown:hover > li { 
+   position: relative;
+   left: 0;
+   margin-left: $dropdown-left-small;
+   max-width: -webkit-calc( (#{$content-width} / #{$ndropdowns} ) + (#{$spacing-unit} * 4) - $dropdown-left-small );
+   max-width:         calc( (#{$content-width} / #{$ndropdowns} ) + (#{$spacing-unit} * 4) - $dropdown-left-small );
+   }
+   ul.dropdown input:checked ~ li {
+   position: relative;
+   left: 0;
+   margin-left: $dropdown-left-small;
+   max-width: -webkit-calc( (#{$content-width} / #{$ndropdowns} ) + (#{$spacing-unit} * 4) - $dropdown-left-small );
+   max-width:         calc( (#{$content-width} / #{$ndropdowns} ) + (#{$spacing-unit} * 4) - $dropdown-left-small );
+   }
+
+}
+}
+
+/*
+ * HEADER MENU - FOR SMALL DISPLAYS (width is < 640 px) 
+ */
+
+@include media-query-range(649px, 0) {
+
+.site-nav {
+    position: relative;
+    display: inline-block;
+    top: 0;
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+        display: inline-block;
+    }
+
+   ul.dropdown {
+   color: $text-color;
+   line-height: $base-line-height;
+   display: block;
+   vertical-align: top;
+   position: relative;
+   list-style:none;
+   margin: 0;
+   padding: 0;
+   z-index: 1;
+   background-color: inherit;
+   border-radius: inherit;  
+   }
+   ul.dropdown > li {
+   position: absolute;
+   left: -9999em;
+   }
+   ul.dropdown input:checked ~ li {
+   position: relative;
+   left: $dropdown-left-small;
+   max-width: -webkit-calc( (#{$content-width} / #{$ndropdowns} ) + (#{$spacing-unit} * 4) - $dropdown-left-small );
+   max-width:         calc( (#{$content-width} / #{$ndropdowns} ) + (#{$spacing-unit} * 4) - $dropdown-left-small);
+   }
+
+}
+}
 
 /**
  * Site footer
@@ -163,7 +276,6 @@
 }
 
 
-
 /**
  * Page content
  */
@@ -194,6 +306,186 @@
     font-size: 24px;
 }
 
+/** 
+  * Additional page formatting - by Cassie Stearns 
+  */ 
+
+/* Make 2 columns */ 
+.halfpage-left { 
+   vertical-align: top; 
+   width: -webkit-calc(50% - #{$spacing-unit}); 
+   width:         calc(50% - #{$spacing-unit});  
+   display: inline-block; 
+   padding: 0.5em; 
+   float: left; 
+   } 
+.halfpage-right { 
+   vertical-align: top; 
+   width: -webkit-calc(50% - #{$spacing-unit}); 
+   width:         calc(50% - #{$spacing-unit}); 
+   display: inline-block; 
+   padding: 0.5em; 
+   float: right; 
+   } 
+@include media-query(674px) {
+   .halfpage-left, .halfpage-right {
+      width: 100%;
+      display: block;
+      clear: both;
+   }
+}
+
+/* Create a block area for links */
+.linkblock {
+   position: relative;
+   display: block;
+   
+   a {
+     line-height: $base-line-height;
+     text-decoration: underline;
+     display: inline-block;
+//     Gaps between nav items, but not on the last one
+     &:not(:last-child) {
+            margin-right: $page-link-space;
+            }
+     }
+}
+
+/* link decorations */
+
+.linkbubble {
+   margin: 0.25em;
+   padding: 0.25em;
+   border: 1px solid $bubble-border;
+   border-radius: 0.25em;
+   background-color: #99ccff;
+   color: black;
+   
+   &:link, &:visited {
+      color: black;
+      text-decoration: none;
+   }
+   
+   &:hover {
+      background-color: #cccc99;
+   }
+}
+
+/* set link colors by type */
+.no-link {
+color: $no-link-color !important;
+text-decoration: none;
+}
+.away-link {
+color: $away-link-color !important;
+}
+
+/* List with images */
+ul.image-list {
+   list-style: none;
+   position: relative;
+   padding: 0;
+   margin-left: 0;
+   margin-right: 0;
+   vertical-align: top;  
+ 
+   li {
+      width: 200px;
+      display: inline-block;
+      border: 2px solid black;
+      border-radius: 0.5em;
+      margin: 0.25em;
+      padding: 0.5em;
+      
+      img {
+         max-width:100%;
+         height: -webkit-calc(#{$base-line-height} * 4);
+         height:         calc(#{$base-line-height} * 4);
+         border: 1px solid black;
+         text-align: center;
+         clear: both;
+         display: block; 
+      }
+   }
+}
+
+
+/**
+  * PROJECTS - PROJECT PAGE - Cassie Stearns
+  */
+
+.project-section {
+   border: 1px solid $bubble-border;
+   border-radius: 0.5em;
+   padding: 0.5em;
+   margin-left: 0.5em;
+   margin-right: 0.5em;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+   
+}
+
+
+/**
+  * PROJECTS / MENU PAGE - Cassie Stearns
+  */
+
+.projectoverbox {
+position: relative;
+display: inline-block;
+width: 100%;
+border: 1px solid $bubble-border;
+border-radius: 0.5em;
+padding: 0.5em;
+margin: 0.5em;
+  
+   h2 {
+   margin: 0;
+   padding: 0;
+//   border: 1px solid red;
+   }
+
+   img {
+   position:relative;
+   width: -webkit-calc(25% - (0.5em*1.5));
+   width:         calc(25% - (0.5em*1.5));
+   display: inline-block;
+   float: left;
+   margin: 0;
+   border: 1px solid black;
+   }
+   
+   .projecttextbox {
+   position: relative;
+   display: inline-block;
+   margin: 0;
+   width: -webkit-calc(75% - (0.5em*1.5));
+   width:         calc(75% - (0.5em*1.5));
+//   border: 1px dashed black;
+   padding: 0.5em;
+   padding-top: 0;
+   float: right;
+
+      p {
+      margin: 0;
+      }   
+   }
+
+   @include media-query-range(599px, 0) {
+      img {
+      width: 100%;
+      display: block;
+      float: none;
+      }
+      .projecttextbox {
+      width: 100%;
+      display: block;
+      float: none;
+      padding-top: 0.5em;
+      }
+   }  
+
+}
 
 
 /**
@@ -203,7 +495,7 @@
     margin-bottom: $spacing-unit;
 }
 
-.post-title {
+.post-title, h1 {
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
@@ -218,9 +510,11 @@
 
     h2 {
         font-size: 32px;
+        line-height: 32px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
+            line-height: 28px;
         }
     }
 
