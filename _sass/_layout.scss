@@ -107,10 +107,10 @@ padding-right: 0.25em;
 }
 
 /*
- * HEADER MENU - FOR MODERATE DISPLAYS (width is 1149-640 px) 
+ * HEADER MENU - FOR MODERATE DISPLAYS (width is 1149-670 px) 
  */
 
-@include media-query-range(1149px, 650px) {
+@include media-query-range(1149px, 670px) {
 
 .site-nav {
     line-height: 28px;
@@ -164,10 +164,10 @@ padding-right: 0.25em;
 }
 
 /*
- * HEADER MENU - FOR SMALL DISPLAYS (width is < 640 px) 
+ * HEADER MENU - FOR SMALL DISPLAYS (width is < 670 px) 
  */
 
-@include media-query-range(649px, 0) {
+@include media-query-range(669px, 0) {
 
 .site-nav {
     position: relative;

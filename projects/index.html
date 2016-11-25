@@ -7,15 +7,11 @@ permalink: /projects/
 <h1>{{site.data.projects.title}}</h1>
 
 <div class="projectoverbox">
-   <h2><a href="/projects/openwis/">OpenWIS</a></h2>
-   <a href="/projects/openwis/"><img src="/assets/openwis-home-usermap.png" alt=""></a>
+   <h2><a href="{{ site.data.openwis.subpath | prepend: site.baseurl }}">OpenWIS</a></h2>
+   <a href="{{ site.data.openwis.subpath | prepend: site.baseurl }}"><img src="{{ site.baseurl | append: "/assets/openwis-home-usermap.png"}}" alt=""></a>
    <div class="projecttextbox">
 
       <p>OpenWIS is an implementation of WMO Information Systems (WIS) and aims to perform the tree functions required by the WIS, i.e. GISC, DCPC, and NC. It is originally developed by AKKA Information System (France) on behalf of the OpenWIS Association (with UKMO, MF, BoM, KMA, and MFI as founding members).</p>
-<!--      <p>The OpenWIS association (originally a consortium) was created in 2011 by 4 National Meteorological Services (Australia, France, Korea and UK) and 1 service provider (MFI) in order to come up with a technical solution for WIS compliance.</p>
-      <p>
-   The first version of the OpenWIS software was released in 2012 and it has since then been engaged in a process of ongoing improvement. It allows fulfilling all WIS requirements for GISCs (Global Information System Centers), DCPCs (Data Collection or Production Centers) and NCs (National Centers).</p>
--->
    </div>
 </div>
 <div class="projectoverbox">
