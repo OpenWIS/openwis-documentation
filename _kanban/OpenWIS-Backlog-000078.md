@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: v3 - Improve the existing web-site
-kanCategory: develop
-kanSubCategory: in-progress
+kanCategory: done
+kanSubCategory: 
 kanAssigned: NWS
 kanBacklog: 78
 kanIssue: 233
