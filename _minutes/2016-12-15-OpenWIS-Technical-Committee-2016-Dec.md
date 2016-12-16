@@ -73,7 +73,7 @@ title: OpenWIS Technical Committee 2016 December
 
 	1. OL - I am getting a build failure with 3.14.7 on the new version of Ubuntu; a new Vagrant issue.  I havne't raised a GitHub issue for it yet, it may just be my environment.
 	2. SO - What are the dates for the March meeting in Toulouse?
-	3. WQ - Week beginning 2oth March.
+	3. WQ - Week beginning 20th March.
 	4. SO - Ah, so that clashes with the OGC TC in Delft.
 	5. WQ - Ok, raise it with Remy Giraud.
 	6. SO - Ok.
