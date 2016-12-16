@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OpenWIS Technical Committee 2016 Dec
+title: OpenWIS Technical Committee 2016 December
 ---
 
 #### 15th December 2016 - WebEx - meeting minutes
