@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: MM3 Metadata categories and category-based harvesting
+title: v4 - MM3 Metadata categories and category-based harvesting
 kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: UKMO

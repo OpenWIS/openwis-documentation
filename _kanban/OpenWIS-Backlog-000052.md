@@ -1,6 +1,6 @@
 ---
 layout: backlog
-title: MM4 Maintain product metadata table
+title: v4 - MM4 Maintain product metadata table
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
