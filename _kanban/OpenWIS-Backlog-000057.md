@@ -11,11 +11,13 @@ kanFeature: Integrated catalogue
 kanRelease: 4.0
 kanMetric: 3.2
 kanSize: 5
-kanPriority: 3
+kanPriority: 5
 kanRepo:
 kanProject:
 ---
 Enhancement AAC3: New user with SAML Identity.
+
+BLOCKED by 55.
 
 Update - scrum - 2016-11-17: GT - Not Tested in new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
 Not tested in GeoCat version either.
