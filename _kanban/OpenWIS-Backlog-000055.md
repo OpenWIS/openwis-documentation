@@ -11,11 +11,16 @@ kanFeature: Integrated catalogue
 kanRelease: 4.0
 kanMetric: 3.2
 kanSize: 5
-kanPriority: 3
+kanPriority: 1
 kanRepo:
 kanProject:
 ---
 Enhancement AAC1: SAML2 authentication.
+
+Update - scrum - 2017-01-10: GT will set up a SAML2 provider PoC using a direct Spring to OpenAM set up (we currently have no interest in using CAS or Shibboleth).
+
+---
+
 
 Update - scrum - 2016-11-17: GT - Not Tested in new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
 Not tested in GeoCat version either.
