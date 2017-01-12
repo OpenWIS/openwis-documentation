@@ -12,7 +12,7 @@ kanRelease: 4.1
 kanMetric: 3.2
 kanSize:
 kanPriority: 4
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 [Enable] delegation of management of Users and Groups to Geonetwork. Will impact the Security Service.

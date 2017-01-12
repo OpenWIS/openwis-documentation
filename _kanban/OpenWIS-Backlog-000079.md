@@ -12,7 +12,7 @@ kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 5
 kanPriority: 4
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement DDS4: Direct download via HTTP.

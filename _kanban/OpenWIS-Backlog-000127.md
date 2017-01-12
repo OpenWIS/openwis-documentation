@@ -12,7 +12,7 @@ kanRelease:
 kanMetric: 2
 kanSize:
 kanPriority: 4
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Extend the Data Harness.

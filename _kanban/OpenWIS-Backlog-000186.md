@@ -12,7 +12,7 @@ kanRelease: 4.1
 kanMetric:
 kanSize:
 kanPriority: 2
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Metadata lifecycle call-backs (Spring) - add/delete/remove metadata.

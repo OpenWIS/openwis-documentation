@@ -25,4 +25,4 @@ This requires:
 3. Corrections/improvements to the installation manual
 4. Confirmation that the package still also works with vagrant.
 
-Packages should be available for both v 3.14.5 (currently operational at UKMO) and v 3.14.7 (currently operational at NWS).  This will require a point release v 3.14.5.1 and either a v 3.14.7.1 or a v 3.14.8 (TBD).
+Packages should be available for both v 3.14.5 (currently operational at UKMO) and v 3.14.7 (currently operational at NWS).  This will require a point release v 3.14.5.1 and, because some artefacts are no-longer available from the Forgerock repo, a v 3.14.7.1.

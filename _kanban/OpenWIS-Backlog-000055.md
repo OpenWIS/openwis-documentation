@@ -12,7 +12,7 @@ kanRelease: 4.0
 kanMetric: 3.2
 kanSize: 5
 kanPriority: 1
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement AAC1: SAML2 authentication.

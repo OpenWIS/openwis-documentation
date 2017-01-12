@@ -12,7 +12,7 @@ kanRelease: 4.2
 kanMetric: 2
 kanSize:
 kanPriority: 1
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Analyse, design, develop and implement solutions to current issues that v4.0 has with metadata harvesting and indexing scalability.

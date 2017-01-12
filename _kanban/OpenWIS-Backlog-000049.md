@@ -12,7 +12,7 @@ kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 3
 kanPriority: 2
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement ADMIN6: Browse subscriptions.

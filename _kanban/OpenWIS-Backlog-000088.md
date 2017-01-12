@@ -12,7 +12,7 @@ kanRelease: 4.1
 kanMetric: 6
 kanSize: 1
 kanPriority: 2
-kanRepo: OpenWIS/openwis
+kanRepo: OpenWIS/openwis4
 ---
 User right access on metadata editor.
 

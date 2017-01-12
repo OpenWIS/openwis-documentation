@@ -12,10 +12,10 @@ kanRelease: 4.0
 kanMetric: 1.2
 kanSize: 13
 kanPriority: 1
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
-Done - GT is now using the approach developed to migrate the GeoCat functions into a new OpenWIS v4.0.  Further work will be scheduled under tasks for improvements to specific functionality or UX. 
+Done - GT is now using the approach developed to migrate the GeoCat functions into a new OpenWIS v4.0.  Further work will be scheduled under tasks for improvements to specific functionality or UX.
 
 ---
 

@@ -12,7 +12,7 @@ kanRelease: 4.0
 kanMetric: 8.1
 kanSize: 1
 kanPriority: 1
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Adopt the odd/even release number system.  So ODD=development release; EVEN=production release.  The middle digit of the fully qualified 3 digit release number is the digit that is odd or even.

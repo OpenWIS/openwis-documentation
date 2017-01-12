@@ -12,7 +12,7 @@ kanRelease: 4.0
 kanMetric: 6.1
 kanSize: 3
 kanPriority: 4
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement DM1: Default metadata insertion. LM - I'm not sure what this refers to.

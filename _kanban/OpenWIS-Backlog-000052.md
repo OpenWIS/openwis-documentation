@@ -12,7 +12,7 @@ kanRelease: 4.0
 kanMetric: 6.1
 kanSize: 3
 kanPriority: 4
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement MM4: Maintain product metadata table.

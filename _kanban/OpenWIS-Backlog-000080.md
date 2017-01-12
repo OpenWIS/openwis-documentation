@@ -12,7 +12,7 @@ kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 5
 kanPriority: 2
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement UI2: My-downloads page.

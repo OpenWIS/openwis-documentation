@@ -12,7 +12,7 @@ kanRelease: 4.1
 kanMetric:
 kanSize:
 kanPriority: 2
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Create a Sample Local Data Source Harness.
