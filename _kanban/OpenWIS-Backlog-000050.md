@@ -12,7 +12,7 @@ kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 3
 kanPriority: 4
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement DDS3: Ad-hoc request for delivery.

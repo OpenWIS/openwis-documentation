@@ -12,7 +12,7 @@ kanRelease: 4.2
 kanMetric: 1.2
 kanSize: 21+
 kanPriority: 2
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Adoption of GeoNetwork 3 in OpenWIS 4.

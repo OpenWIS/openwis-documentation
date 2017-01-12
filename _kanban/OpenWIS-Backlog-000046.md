@@ -12,7 +12,7 @@ kanRelease: 4.0
 kanMetric: 2.1
 kanSize: 3
 kanPriority: 3
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement MM3: Metadata categories and category-based harvesting.

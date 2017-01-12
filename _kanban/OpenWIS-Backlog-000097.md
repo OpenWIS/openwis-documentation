@@ -12,7 +12,7 @@ kanRelease: 4.1
 kanMetric: 2
 kanSize: 2
 kanPriority: 3
-kanRepo: OpenWIS/openwis
+kanRepo: OpenWIS/openwis4
 ---
 The role of Category for metadata sync.
 

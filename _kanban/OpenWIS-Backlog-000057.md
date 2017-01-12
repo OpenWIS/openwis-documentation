@@ -12,7 +12,7 @@ kanRelease: 4.0
 kanMetric: 3.2
 kanSize: 5
 kanPriority: 5
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement AAC3: New user with SAML Identity.

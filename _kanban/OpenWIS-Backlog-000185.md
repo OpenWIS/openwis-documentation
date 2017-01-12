@@ -12,7 +12,7 @@ kanRelease: 4.1
 kanMetric: 8
 kanSize:
 kanPriority: 1
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Set up Development environment for OpenWIS 4.1.

@@ -12,7 +12,7 @@ kanRelease: 4.1
 kanMetric:
 kanSize:
 kanPriority: 2
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Implement these in v4 in a way that integrates with GeoNetwork 3.
