@@ -2,7 +2,7 @@
 layout: backlog
 title: v4 - DM1 Default metadata insertion
 kanCategory: analyse
-kanSubCategory: pending
+kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 51
 kanIssue:
@@ -15,7 +15,11 @@ kanPriority: 4
 kanRepo: OpenWIS/openwis4
 kanProject:
 ---
-Enhancement DM1: Default metadata insertion. LM - I'm not sure what this refers to.
+Enhancement DM1: Default metadata insertion.
+
+Update - scrum - 2017-01-17: DW will test this on the OpenWIS4 demo instance.
+
+---
 
 Update - scrum - 2016-11-17: GT - Not Tested in new v4.0 as part on Kanban 81. v4 - Refactoring to improve modularity.
 Not tested in GeoCat version either.

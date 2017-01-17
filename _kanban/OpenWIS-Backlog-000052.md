@@ -17,6 +17,10 @@ kanProject:
 ---
 Enhancement MM4: Maintain product metadata table.
 
+Update - scrum - 2017-01-17: It looks like GeoCat didn't do anything on this and it's not mentioned in their docs for the work they delivered (from which GT derived his list of migrated features).  The requirement/spec is covered in Jeremy's work package.  GT will check to confirm that this feature was not migrated and is therefore outstanding.
+
+---
+
 Update - scrum - 2016-11-17: GT - Not mentioned re new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
 PR - Ask GT if he is aware of this one.
 

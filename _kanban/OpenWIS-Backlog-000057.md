@@ -2,7 +2,7 @@
 layout: backlog
 title: v4 - AAC3 New user with SAML Identity
 kanCategory: develop
-kanSubCategory: in-progress
+kanSubCategory: blocked
 kanAssigned: UKMO
 kanBacklog: 57
 kanIssue:

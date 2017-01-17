@@ -2,7 +2,7 @@
 layout: backlog
 title: v4 - Set up Development environment for OpenWIS 4.1
 kanCategory: develop
-kanSubCategory: in-progress
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 185
 kanIssue:

@@ -2,7 +2,7 @@
 layout: backlog
 title: v4 - Improve the development process
 kanCategory: analyse
-kanSubCategory: pending
+kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 191
 kanIssue:

@@ -2,7 +2,7 @@
 layout: backlog
 title: v4 - DDS3 Ad-hoc request for delivery
 kanCategory: analyse
-kanSubCategory: pending
+kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 50
 kanIssue:
@@ -16,6 +16,10 @@ kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement DDS3: Ad-hoc request for delivery.
+
+Update - scrum - 2017-01-17: LM and GT will investigate what metadata characteristics, or other system properties, need to be set to activate the data download features DDS1, DDS2, DDS3 and DDS4 (Kanban items 77, 53, 50 and 79 respectively).
+
+---
 
 Update - scrum - 2016-11-17: GT - Migrated into new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
 

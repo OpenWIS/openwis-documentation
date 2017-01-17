@@ -2,7 +2,7 @@
 layout: backlog
 title: v4 - Data access policies
 kanCategory: analyse
-kanSubCategory: pending
+kanSubCategory: in-progress
 kanAssigned:
 kanBacklog: 187
 kanIssue:
@@ -15,4 +15,4 @@ kanPriority: 2
 kanRepo: OpenWIS/openwis4
 kanProject:
 ---
-Implement these in v4 in a way that integrates with GeoNetwork 3.
+LM will look at whether we can just port the OpenWIS 3.14 Data Services policies to OpenWIS4 and integrate them with CGNv3.
