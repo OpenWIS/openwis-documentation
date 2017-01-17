@@ -16,6 +16,13 @@ kanRepo: OpenWIS/openwis
 kanProject:
 ---
 
+Update - scrum - 2017-01-17:
+
+- DP is making good progress with 3.14.7.1 but is expecting to hit the same issues with the final integration of OpenAM that he hit with 3.14.6; this time he will work to fix them.
+- DP will continue work with the 3.14.5.1 deployment once LM publishes the virtual box he has been using.
+
+---
+
 Ensure that stable 3.14 packages are available for maintenance activities, as configured in full operational deployment with all the supported middleware services (eg: OpenAM).
 
 This requires:

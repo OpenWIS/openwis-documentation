@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: v4 - Arquillian tests from 3.12 fix
-kanCategory: release
-kanSubCategory: pending
+kanCategory: done
+kanSubCategory: 
 kanAssigned: BoM
 kanBacklog: 29
 kanIssue:
@@ -14,6 +14,10 @@ kanSize: 5
 kanPriority: 3
 kanRepo: OpenWIS/openwis
 kanProject:
+---
+
+Update - scrum - 2017-01-17: LM - this is, in effect, done - we get this just by reusing the 3.14 Data Services for OpenWIS4, in which LM has fixed the tests in question.
+
 ---
 
 Earlier PRs: #67 #117 #192
