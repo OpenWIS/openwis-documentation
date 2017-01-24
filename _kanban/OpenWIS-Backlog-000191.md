@@ -9,16 +9,16 @@ kanIssue:
 kanPullReq:
 kanFeature: Good documentation
 kanRelease: 4
-kanMetric: 8.3
+kanMetric: 8.1
 kanSize: 5
-kanPriority: 1
+kanPriority: 2
 kanRepo: OpenWIS/openwis-documentation
 kanProject:
 ---
 Clarify and document the development process so that the remote teams can work together more effectively on version 4.
 
 ---
-[development process][DP]
+Link to [development process][DP] diagram.
 
 
 # The Development Lifecycle of OpenWIS Core version 4
@@ -51,90 +51,26 @@ So our list of requirements will come from:
 - security accreditation issues
 - new features or improvements to existing functions or the UX
 
-We want these requirements to be in a single list (in the Backlog or linked to from there) and contain sufficient detail for discussions of the relative priority of each; but they don’t have to be in fine detail until we decide we will actually develop them, or, even better, we develop comprehensive tests for them rather than detailed specifications. Note that we will require entries for those features of GeoNetwork we intend to adopt, because, even though we might not have to develop any code, we will have to develop tests to demonstrate that these features, or the way we have integrated them with OpenWIS4 code, do exactly what we want.
+We will gather these requirements into a single list, in the Backlog or linked to from there.  They will contain different levels of detail, from detailed bug descriptions in GitHub issues, to high level users stories from WIS 2.0 (epics). Note that we will require entries for those features of GeoNetwork we intend to adopt, because, even though we might not have to develop any code, we will have to develop tests to demonstrate that these features, or the way we have integrated them with OpenWIS4 code, do exactly what we want.
 
 ## Define the solution
-Once we have the Backlog, we need to agree the priority order of the requirements.  Some requirements will be linked, functionally or technically, so it will be necessary to agree a technical design and feature list to have a sensible discussion about priorities.  Some aspects of the design will also imply a specific development sequence for some interdependent features, so we should make that explicit too.  A well defined feature list and development sequence will also make the allocation of agile development tasks to teams more manageable later. After the first iteration, we will just need to update these documents. Once the first iteration of these documents have been reviewed and agreed by the TC and SC, we will transfer the tasks for our first development release to the Kanban board category ‘analyse and write tests’. We will then assign feature owners to each, to assist the developers with refining the requirements/features and designing acceptance tests for each feature. Where practicable, we will automate these tests so that they can be easily rerun and incorporated into the CI, though some tests will necessarily be manual.
+Once we have the Backlog, we need to agree the priority order of the requirements.  Some requirements will be linked, functionally or technically, so it will be necessary to agree a **technical design** and **feature list** to have a sensible discussion about priorities.  Some aspects of the design will also imply a specific **development sequence** for some interdependent features, so we should make that explicit too.  A well defined feature list and development sequence will also make the allocation of agile development tasks to teams more manageable later. After the first iteration, we will just need to update these documents. Once the first iteration of these documents have been reviewed and agreed by the TC and SC, we will transfer the tasks for our first development release to the Kanban board category ‘analyse and write tests’. We will then assign **feature owners** to each, to assist the developers with refining the requirements/features and designing acceptance tests for each feature. Where practicable, we will automate these tests so that they can be easily rerun and incorporated into the **continuous integration** later, though some tests will necessarily be manual.
 
-As we refine the features, we will decide whether the Kanban items and/or GitHub issues are adequate to describe the tasks for the development team; if not, we will set up a project in GitHub to manage the work.
+## Develop the software components
+We will create a fork in the code for each feature (a **feature branch**), into which all changes related to the development of that feature will initially be committed.  This will allow us to easily choose which features are fit for release at any release point and which features we will defer to a later release.  It avoids having a whole tangled mess of code changes that can't easily be made fit for release when the time comes.
 
-Feature owners will regularly review and test the outputs from the development team as they develop the features.  
+As we refine the features, we will convert the Kanban items and/or GitHub issues into tasks for the development team (or, in many cases, just tidy the ones we have already).  The GitHub issues (tasks) for each feature will be grouped into **feature projects**, in effect a mini Kanban board per feature.  This will allow us to track the progress of the tasks and the features that could go into a release.  A feature may consist of a group of functions and may span code from different system components, for example UI code and back-end code.  However, we should avoid making the features too large and monolithic, because we are more certain of delivering value with each release if we keep them small and manageable and deliverable within short iterations.
 
-### OpenWIS4
+Features will be developed by **feature squads** (sub-teams).  Each developer within the squad will fork the feature branch and make atomic (indivisible, testable) code changes to their own fork.  Once they are happy each change is ready and passing unit tests, they will issue a pull request to merge their change back into the feature branch. They will continue to iterate in this way, through each change they are required to contribute to the feature.
 
-### Purpose
-To deliver the next major upgrade to the OpenWIS core software, in a form that is suitable both for release as an open source package and for operational deployments to GISCs, DCPCs and NCs around the global WIS network.
+Feature owners will regularly review and test the new or changed features and provide feedback as they are developed.  In particular, they will run acceptance tests against a feature branch, which must pass before the feature is merged back into the **develop branch**.  This will involve a test review, code review and of course, a pull request.
 
-*Composition:* A description of the major sub-products to be delivered by the project, for example the major features or epics.
+## Integrate the software components    
+The develop branch will be permanently incorporated into the continuous integration suite, so that integration tests are run nightly to verify that changes have been successful.  Any test failures will be fixed by the squad that developed the feature.  If the test failures cannot be quickly resolved, then the develop branch will be rolled back to the previous stable state, in effect removing the broken feature(s).
 
-*Derivation:* The source products from which this product is derived, for example:
+## Release the software packages
+The dates for software releases will be proposed by the Technical Committee and fixed by agreement at the Steering Committee.  The type of releases will also be fixed, that is, **development release** or **production release**.
 
-  - Existing products to be modified
-  - Design specifications
-  - A feasibility report
-  - A project mandate
-
-*Development skills required:* The skills required to develop the products or areas that should supply the development resources.
-
-*Customer's quality expectations:* A description of the quality expected of the project's product and the standards and processes that will be applied to achieve that quality.  They will impact on every part of the product development and thus on time and cost.   The quality expectations are captured in discussion with the Customer and should be prioritized.
-
-*Acceptance criteria:* A prioritized list of criteria that the project product must meet before the Customer will accept it.  That is, measurable definitions of the attributes the product must have to be acceptable to the key stakeholders, in particular, the Users and the Operations and Maintenance organisations.  For example: ease of use, ease of support, ease of maintenance, appearance, major functions, development costs, running costs, capacity, availability, reliability, security, accuracy or performance.
-
-*Project-level quality tolerances:* Tolerances that apply to the acceptance criteria.
-
-*Acceptance method:* The means by which acceptance will be confirmed.  May simply be a case of confirming all the project's products are approved or may involve complex handover arrangements, including any phased handover.
-
-*Acceptance responsibilities:* Define who will be responsible for approvals and acceptance.
-
----
-
-### Project Product Description
-
-#### Purpose:
-The Project Product Description defines what the project must do to gain acceptance; it is the 'Definition of Done' for the entire project.
-
-#### Composition:
-*Title:* Name by which the project is known.
-
-*Purpose:* Defines the purpose that the project's product will fulfil and who will use it.  Helpful in understanding the product's functions, size, quality, complexity, robustness, etc.  It should focus on the outcomes and benefits of the project, not describe a solution.
-
-*Composition:* A description of the major sub-products to be delivered by the project, for example the major features or epics.
-
-*Derivation:* The source products from which this product is derived, for example:
-
-  - Existing products to be modified
-  - Design specifications
-  - A feasibility report
-  - A project mandate
-
-*Development skills required:* The skills required to develop the products or areas that should supply the development resources.
-
-*Customer's quality expectations:* A description of the quality expected of the project's product and the standards and processes that will be applied to achieve that quality.  They will impact on every part of the product development and thus on time and cost.   The quality expectations are captured in discussion with the Customer and should be prioritized.
-
-*Acceptance criteria:* A prioritized list of criteria that the project product must meet before the Customer will accept it.  That is, measurable definitions of the attributes the product must have to be acceptable to the key stakeholders, in particular, the Users and the Operations and Maintenance organisations.  For example: ease of use, ease of support, ease of maintenance, appearance, major functions, development costs, running costs, capacity, availability, reliability, security, accuracy or performance.
-
-*Project-level quality tolerances:* Tolerances that apply to the acceptance criteria.
-
-*Acceptance method:* The means by which acceptance will be confirmed.  May simply be a case of confirming all the project's products are approved or may involve complex handover arrangements, including any phased handover.
-
-*Acceptance responsibilities:* Define who will be responsible for approvals and acceptance.
-
----
-
-## Backlog to Kanban
-
----
-
-## Allocating Work
-
----
-
-## Integration
-
----
-
-## Release
-
----
+The release will go ahead with the features that are available at the time, within the stable develop branch.  The develop branch will be merged into the **master branch** by the CM team and the rest of the release package prepared (eg: documentation updates).  All subsequent development will make a clean start with a fork of this master.
 
 [DP]: {{ site.baseurl | prepend: site.url }}/assets/OpenWIS4-development-process.svg
