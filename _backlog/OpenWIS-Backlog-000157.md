@@ -1,8 +1,8 @@
 ---
 layout: backlog
 title: Remove FTPReplication Tool
-kanCategory: close
-kanSubCategory: won't do
+kanCategory: backlog
+kanSubCategory: 
 kanAssigned:
 kanBacklog: 157
 kanIssue: 105
@@ -14,4 +14,9 @@ kanSize: 1
 kanPriority: 10
 kanRepo: OpenWIS/openwis
 ---
-Remove FTPReplication Tool. TC decision is to keep the FTP Replication tool for the time being
+
+Deferred until OpenWIS 4
+
+This is to fix issue #105.  See issue #106
+
+As part of this fix, only the actual FTP replication tool is removed. Nothing in the data services have been changed, which means that the "fromReplication" directories can still be used.
