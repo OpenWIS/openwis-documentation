@@ -1,6 +1,6 @@
 ---
 layout:  page
-Title: 2016 OpenWIS DevCon Workshop Final Report
+title: 2016 OpenWIS DevCon Workshop Final Report
 ---
 **Report on the 2016 OpenWIS Developer Conference**
 
@@ -8,11 +8,11 @@ Title: 2016 OpenWIS DevCon Workshop Final Report
 
 **Day 1 Morning Session**
 
-9am: Introductions around the table and on the phone. 
+9am: Introductions around the table and on the phone.
 
-Participants in person:  Steve Olson, Bob Bunge, Marc Giannoni, Remy Giruad, Michael Claudon, Paul Rogers, Dimitris Papadeas, Dom Woollatt, Leon Mika, Lee okki, 
+Participants in person:  Steve Olson, Bob Bunge, Marc Giannoni, Remy Giruad, Michael Claudon, Paul Rogers, Dimitris Papadeas, Dom Woollatt, Leon Mika, Lee okki,
 
-Participants remote:  Martin G. 
+Participants remote:  Martin G.
 
 **Review of Goals**
 
@@ -44,7 +44,7 @@ Nice review of the architecture and components of OW.  Good explanation of the v
 OpenWIS Architecture Presentation
 
 
-Second Presentation:  Review of data management services (Leon) 
+Second Presentation:  Review of data management services (Leon)
 Discussion over the boundaries of the data services; as this applies to both operational installation and for security purposes.  Review of the portal environment.  Note there are two portals running in the system (user/admin).  Steve asks about use of SOAP and what what WSDLs are uses in the system.  Review of code organisation.  Good review of the code by directories.  List in slide.  Note:  Since the OpenWIS implementation of SOLR plugin is a bastardized version, should it be reworked?
 
 Introduction to possible architecture of OW 4.x.  Presented some ideas for OW 4, including the use of Spring and Angular.  Outstanding architecture tasks are reviewed, including separating out geonetworks with no specific OW code in geonetworks.  
@@ -77,13 +77,13 @@ Detailed development policies
 Developer documentation
 Project and association  websites
 Access to user forum
-Supporting tools needed (e.g. Dashboard for monitoring progress, etc). 
+Supporting tools needed (e.g. Dashboard for monitoring progress, etc).
 This was followed by a whiteboard session and suggestions to move OW more towards open source.  
 
 Paul: release that we will make OS; need some rules; make announcements;
-Paul: Technical Rules .. Needs work still 
+Paul: Technical Rules .. Needs work still
 Dom: Repository issues. Sorted out.
-Leon: how will we do documentation? 
+Leon: how will we do documentation?
 We should contribute back to Geonetwork?  Plugin?  
 Open up mailing lists to those who want to contribute.
 An approach towards management the community we hope to form.
@@ -214,7 +214,7 @@ Day 2 ; Sept 28th, 2016
 
 Day 2 Morning Session
 
-Participants in person:  Steve Olson, Bob Bunge, Marc Giannoni, Remy Giruad, Michael Claudon, Paul Rogers, Dimitris Papadeas, Dom Woollatt, Leon Mika, Lee Yiokki, 
+Participants in person:  Steve Olson, Bob Bunge, Marc Giannoni, Remy Giruad, Michael Claudon, Paul Rogers, Dimitris Papadeas, Dom Woollatt, Leon Mika, Lee Yiokki,
 
 Participants remote:  Martin G, Ling T, Giorgos
 
@@ -259,7 +259,7 @@ User set up is similar.  Adding data can allow assignment of icons for different
 Discussion about admin features and Dom reverse engineering what different changes mean and how they impact OW and management of the system.   Dom reviews MD tools, including creating and editing the metadata.  Leon asks about tools for moving metadata.  Some review of tools to batch metadata.  
 
 UI Presentation by Dom
- 
+
 
 Presentation on JBoss Domain (Mark G./NOAA)
 
@@ -288,8 +288,8 @@ Three tracks.  Discussion over the tracks and what can be done.
 
 Discussion about federated security.  Do we need it?   What are the security requirements today?
 
-Harvest Evolution 
-Functional gap analysis 
+Harvest Evolution
+Functional gap analysis
 Current security requirements
 
 The team broke up into two groups to cover topics 2 and 3.  
@@ -307,10 +307,10 @@ Wrapping up.  Steve asks if it is still in range to announce open source at CBS.
 Actions from Day 2:
 
 Geonetwork 3 analysis and report due by end of October (Action: Eurodyn)
-Work with Geonetwork in understanding users and groups within GN3.  These apply to metadata records.  Can something similar be created for data? (Action: Dom, Paul) 
-General examination of extended JBOSS capabilities for portals) (Action: Entire Team, led by Leon) 
-Seek TC and SC approval of OpenWIS 3.14.7 as stable open source version. (Action: Dom, Paul) 
-Examination of using GN3 LDAP for user accounts.  Work to understand is how to shoehorn user permissions and groups to data as well as metadata, and the application of this to cache.  (Action: Dom, Leon, Eurodyn) 
+Work with Geonetwork in understanding users and groups within GN3.  These apply to metadata records.  Can something similar be created for data? (Action: Dom, Paul)
+General examination of extended JBOSS capabilities for portals) (Action: Entire Team, led by Leon)
+Seek TC and SC approval of OpenWIS 3.14.7 as stable open source version. (Action: Dom, Paul)
+Examination of using GN3 LDAP for user accounts.  Work to understand is how to shoehorn user permissions and groups to data as well as metadata, and the application of this to cache.  (Action: Dom, Leon, Eurodyn)
 OpenWIS Public Announcement CBS material for review/comment period (Action: Remy)
 
 
@@ -319,7 +319,7 @@ OpenWIS Public Announcement CBS material for review/comment period (Action: Remy
 
 Day 3 ; Sept 29th, 2016
 
-Participants in person:  Steve Olson, Bob Bunge, Marc Giannoni, Remy Giruad, Michael Claudon, Paul Rogers, Dimitris Papadeas, Dom Woollatt, Leon Mika, Lee yiokki, 
+Participants in person:  Steve Olson, Bob Bunge, Marc Giannoni, Remy Giruad, Michael Claudon, Paul Rogers, Dimitris Papadeas, Dom Woollatt, Leon Mika, Lee yiokki,
 
 Participants remote:  Ling T, Giorgos
 
@@ -367,7 +367,7 @@ Messaging Solutions
 
 Day 3 Lunch
 
-Presentation: OpenWIS DCPC (Michael Claudon) 
+Presentation: OpenWIS DCPC (Michael Claudon)
 Reviews how they have deployed OW for use by a DCPC with binary NWP data.   Description of file structures and how the data is moved to the cache and the related harnesses.  Leon takes a task to add an action to Kanban regarding a file issue described in the talk and shared with the bureau.  
 
 Discussion about how to make it easier to subscribe to related products.  Model data… user doesn’t want to subscribe to 200+ products that make up the model.  Or VAAC products that include  text and also have an image.  How to handle this?  This is just a warning that this is a DCPC issue that will need to be dealt with in the future.  
@@ -474,9 +474,9 @@ Spent some time helping KMA troubleshooting an indexing problems on VM on laptop
 Actions from Day 3:
 
 Examination of the use of message queues.  This won’t happen in the initial 4.0 release, but occur downstream (Action: Entire Development Team)
-Update Kanban list with a set of resources, once its determined a path forward with GN3 (Action: Paul to create in Kanban with support for entire development team) 
-Update OpenDJ/OpenAM scripts for deployment (Action: Michael Claudon) 
-Add NWS to bi weekly scrum meetings (Action: Paul) 
+Update Kanban list with a set of resources, once its determined a path forward with GN3 (Action: Paul to create in Kanban with support for entire development team)
+Update OpenDJ/OpenAM scripts for deployment (Action: Michael Claudon)
+Add NWS to bi weekly scrum meetings (Action: Paul)
 
 Day 4 ; Sept 30th, 2016
 
@@ -507,6 +507,3 @@ Meeting Adjourned!
 Thanks you all for a great DevCon 2016!
 
 Steve Olson
-
-
-

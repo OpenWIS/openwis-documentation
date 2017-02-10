@@ -2,7 +2,7 @@
 layout: backlog
 title: v4 - DDS4 Direct download via HTTP
 kanCategory: analyse
-kanSubCategory: pending
+kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 79
 kanIssue:
@@ -12,10 +12,14 @@ kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 5
 kanPriority: 4
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement DDS4: Direct download via HTTP.
+
+Update - scrum - 2017-01-17: LM and GT will investigate what metadata characteristics, or other system properties, need to be set to activate the data download features DDS1, DDS2, DDS3 and DDS4 (Kanban items 77, 53, 50 and 79 respectively).
+
+---
 
 Update - scrum - 2016-11-17: GT - Not mentioned re new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
 

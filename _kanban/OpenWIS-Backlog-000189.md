@@ -12,7 +12,7 @@ kanRelease: 4.0
 kanMetric: 2
 kanSize:
 kanPriority: 1
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Review the proposed changes developed by GeoCat for OpenWIS v4.

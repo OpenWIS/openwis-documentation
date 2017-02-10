@@ -2,7 +2,7 @@
 layout: backlog
 title: v4 - AAC2 Assign SAML Identity to existing user
 kanCategory: develop
-kanSubCategory: in-progress
+kanSubCategory: blocked
 kanAssigned: UKMO
 kanBacklog: 56
 kanIssue:
@@ -11,11 +11,13 @@ kanFeature: Integrated catalogue
 kanRelease: 4.0
 kanMetric: 3.2
 kanSize: 5
-kanPriority: 3
-kanRepo:
+kanPriority: 5
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement AAC2: Assign SAML Identity to existing user.
+
+BLOCKED by 55.
 
 Update - scrum - 2016-11-17: GT - Not Tested in new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
 Not tested in GeoCat version either.

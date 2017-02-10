@@ -11,11 +11,21 @@ kanFeature: Integrated catalogue
 kanRelease: 4.0
 kanMetric: 3.2
 kanSize: 5
-kanPriority: 3
-kanRepo:
+kanPriority: 1
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement AAC1: SAML2 authentication.
+
+Update - scrum - 2017-01-17: GT has set up the direct Spring to OpenAM config and is currently debugging.
+
+This is related to Kanban item 62 - Delegation of management of Users and Groups to GeoNetwork, in that these are alternatives.  Some organisations will want SSO whereas some will want a local OpenWIS authN and authZ.  Once they have decided on a method then they will likely stick with it.
+
+---
+
+Update - scrum - 2017-01-10: GT will set up a SAML2 provider PoC using a direct Spring to OpenAM set up (we currently have no interest in using CAS or Shibboleth).
+
+---
 
 Update - scrum - 2016-11-17: GT - Not Tested in new v4.0 as part of Kanban 81. v4 - Refactoring to improve modularity.
 Not tested in GeoCat version either.

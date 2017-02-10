@@ -12,10 +12,14 @@ kanRelease: 4.0
 kanMetric: 2.1
 kanSize: 3
 kanPriority: 2
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement ADMIN1: Blacklisting.
+
+Update - scrum - 2017-01-17: DW will take a broader look at the Blacklisting requirement; the current process seems to be redundant and fragile.
+
+---
 
 Update - scrum - 2016-11-17: GT - Migrated into new v4.0 as part on Kanban 81. v4 - Refactoring to improve modularity.
 

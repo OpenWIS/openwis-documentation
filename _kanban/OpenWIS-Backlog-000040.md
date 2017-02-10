@@ -12,7 +12,7 @@ kanRelease: 4.0
 kanMetric: 6.1
 kanSize: 2
 kanPriority: 2
-kanRepo:
+kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement MM1: Use of custom metadata file identifier.
