@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - ADMIN3 Browse OpenWIS cache content
+title: v4 SYS - ADMIN3 Browse OpenWIS cache content
 kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 43
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: System Admin
 kanRelease: 4.0
 kanMetric: 2.1
 kanSize: 3

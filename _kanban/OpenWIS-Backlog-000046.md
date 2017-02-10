@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - MM3 Metadata categories and category-based harvesting
+title: v4 DIS - MM3 Metadata categories and category-based harvesting
 kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 46
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Discovery
 kanRelease: 4.0
 kanMetric: 2.1
 kanSize: 3

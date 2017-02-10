@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - Data access policies
+title: v4 ACC - Data access policies
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned:
 kanBacklog: 187
 kanIssue:
 kanPullReq:
-kanFeature:
+kanFeature: Access
 kanRelease: 4.1
 kanMetric:
 kanSize:

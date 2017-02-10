@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - Delegation of management of Users and Groups to Geonetwork
+title: v4 ACC - Delegation of management of Users and Groups to Geonetwork
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 62
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Access
 kanRelease: 4.1
 kanMetric: 3.2
 kanSize:

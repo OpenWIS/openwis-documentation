@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: Further OpenWIS Association documentation improvements
+title: COM - Further OpenWIS Association documentation improvements
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned: various
 kanBacklog: 193
 kanIssue:
 kanPullReq:
-kanFeature: Good development processes
+kanFeature: Community
 kanRelease:
 kanMetric: 9.2
 kanSize:

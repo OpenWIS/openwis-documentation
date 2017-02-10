@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - UI1 Subscription management
+title: v4 RET - UI1 Subscription management
 kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 54
 kanIssue:
 kanPullReq:
-kanFeature: Subscriptions
+kanFeature: Retrieval
 kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 3

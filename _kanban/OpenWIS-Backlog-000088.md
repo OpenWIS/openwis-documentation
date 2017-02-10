@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - User right access on metadata editor
+title: v4 ACC - User right access on metadata editor
 kanCategory: test
 kanSubCategory: pending
 kanAssigned: MF
 kanBacklog: 88
 kanIssue: 73
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Access
 kanRelease: 4.1
 kanMetric: 6
 kanSize: 1

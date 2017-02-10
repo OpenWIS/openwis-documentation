@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v3 - 3.14 Operational Deployment Packages
+title: v3 COM - 3.14 Operational Deployment Packages
 kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: DP
 kanBacklog: 192
 kanIssue:
 kanPullReq:
-kanFeature:
+kanFeature: Community
 kanRelease: 3.14
 kanMetric: 2
 kanSize: 3

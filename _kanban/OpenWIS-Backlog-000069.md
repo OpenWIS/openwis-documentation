@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - ADMIN5 Configure dissemination channels for Groups
+title: v4 SYS - ADMIN5 Configure dissemination channels for Groups
 kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 69
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: System Admin
 kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 5

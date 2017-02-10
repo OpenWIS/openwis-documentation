@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - Metadata lifecycle call-backs
+title: v4 DIS - Metadata lifecycle call-backs
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned:
 kanBacklog: 186
 kanIssue:
 kanPullReq:
-kanFeature:
+kanFeature: Discovery
 kanRelease: 4.1
 kanMetric:
 kanSize:

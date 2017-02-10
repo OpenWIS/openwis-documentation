@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - UI2 My-downloads page
+title: v4 RET - UI2 My-downloads page
 kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 80
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Retrieval
 kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 5

@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - ADMIN4 Monitoring and statistics
+title: v4 SYS - ADMIN4 Monitoring and statistics
 kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 44
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: System Admin
 kanRelease: 4.0
 kanMetric: 2.1
 kanSize: 3
