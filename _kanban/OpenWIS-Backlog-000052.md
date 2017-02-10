@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - MM4 Maintain product metadata table
+title: v4 DIS - MM4 Maintain product metadata table
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 52
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Discovery
 kanRelease: 4.0
 kanMetric: 6.1
 kanSize: 3

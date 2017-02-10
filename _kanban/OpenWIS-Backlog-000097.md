@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - The role of Category for metadata sync
+title: v4 DIS - The role of Category for metadata sync
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 97
 kanIssue: 122
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Discovery
 kanRelease: 4.1
 kanMetric: 2
 kanSize: 2

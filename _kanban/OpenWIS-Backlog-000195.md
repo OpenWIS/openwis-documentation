@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: Draft agendas for annual meeting (TC/SC/AM)
+title: COM - Draft agendas for annual meeting (TC/SC/AM)
 kanCategory: develop
 kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 195
 kanIssue:
 kanPullReq:
-kanFeature: Good documentation
+kanFeature: Community
 kanRelease:
 kanMetric: 8.1
 kanSize: 5

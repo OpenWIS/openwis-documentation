@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - AAC2 Assign SAML Identity to existing user
+title: v4 ACC - AAC2 Assign SAML Identity to existing user
 kanCategory: develop
 kanSubCategory: blocked
 kanAssigned: UKMO
 kanBacklog: 56
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Access
 kanRelease: 4.0
 kanMetric: 3.2
 kanSize: 5

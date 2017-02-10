@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - DDS2 New subscription
+title: v4 RET - DDS2 New subscription
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 53
 kanIssue:
 kanPullReq:
-kanFeature: Subscriptions
+kanFeature: Retrieval
 kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 3

@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - AAC3 New user with SAML Identity
+title: v4 ACC - AAC3 New user with SAML Identity
 kanCategory: develop
 kanSubCategory: blocked
 kanAssigned: UKMO
 kanBacklog: 57
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Access
 kanRelease: 4.0
 kanMetric: 3.2
 kanSize: 5
