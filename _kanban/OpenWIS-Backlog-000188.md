@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 DIS - Sample Local Data Source Harness
+title: v4 RET - Sample Local Data Source Harness
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned:
 kanBacklog: 188
 kanIssue:
 kanPullReq:
-kanFeature: Discovery
+kanFeature: Retrieval
 kanRelease: 4.1
 kanMetric:
 kanSize:
