@@ -40,8 +40,9 @@ title: Provisional Agenda - OpenWIS Steering Committee 2017 March - Toulouse
     6. **Recommendations to the Board**
         - JT - Medium term goals; 3 year strategy:
 10. **Review of recommendations from Technical Committee**
-	  1. **Report(s) from Technical Committee March 2017, Toulouse, France  - Weiqing Qu, TC Chair**
-		    1. Review of development over the past year, since Seoul 2016
+    1. **Report(s) from Technical Committee March 2017, Toulouse, France  - Weiqing Qu, TC Chair**
+        1. Review of development over the past year, since Seoul 2016
+        2. Proposed work plan for 2017.
 	3. **Resolution of issues referred to SC (if any arising)**
 		  - JT
 	4. **Approval of strategic programme and work plan(s)**
