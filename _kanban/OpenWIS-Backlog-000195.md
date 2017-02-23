@@ -36,44 +36,50 @@ Draft agendas for the annual meetings in Toulouse, March 2017: Technical Committ
 5. **Development retrospective (past year)**
     1. LM - OpenWIS 3.14 release
 6. **Current development planning (coming year)**
-    1. WQ - Plans for operations within each organisation
+    1. WQ - Status and plans for operations within each organisation
+		    1. Operational architectures for GISC/DCPC/NC
+				2. What harnesses are in use for dissemination, local data source, data source?
+				3. Tools around OpenWIS
+				    1. MC - Metadata tool 'excel2wis'
     2. **Development process for OpenWIS4**
         1. PR - Lifecycle description; with particular emphasis on what the new terms 'feature' and 'squad' mean in this context, and how they will work in practice
         2. NM - Overlay Approach; what is it and why do we need it?
         3. NM - Skills and training - how will we transfer skills in the Overlay Approach?
         4. PR - Developer Conference - when and where is best to embed Overlay Approach skills?
+				5. XX - Engagement with the Core GeoNetwork Community
+				6. SO - Process for handling contributions offered from external collaborators
     3. **Development facilities for OpenWIS4**
         1. MC - status of MF servers
         2. XX - status of AWS CI
+				3. SO - Options for Forum - Discus, Discourse, BBnotes
     4. **OpenWIS 4**
         1. XX - Progress to date
         2. PR - Release roadmap for next 12 months - schedule releases 4.1 and 4.2
-        3. XX - Demo of Core GeoNetwork 3.2 and OpenWIS 4.0
-        4. DW - GeoNetwork3 features relevant to OpenWIS4
-        5. PR - Features planning workshop
-            - kanban board at: http://openwis.github.io/openwis-documentation/kanban/
-            - backlog at: http://openwis.github.io/openwis-documentation/backlog/
-            - We will go through the kanban/backlog items and agree the following:
-                - the definition and priority (MSCW) of each kanban/backlog item
-                - which kanban/backlog items belong to which Features
-                - which Features are candidates for releases 4.1 and 4.2
-            - this will include work on the website and docs as well as the code (they are all on the kanban)
-            - PR will add any new ideas to the backlog, preferably before the meeting, but can do during as well
-            - new backlog items can just refer to an issue on GitHub, otherwise, a brief description would be useful for PR to publish on the website prior to the meeting
-        6.  **Allocation of people to squads to features**
-            1. PR - work allocation:
-                - establish who is interested in each feature
-                - build squads accordingly
-                - firm up on list of Features for release 4.1
+        3. DW - GeoNetwork3 features relevant to OpenWIS4; including demo of Core GeoNetwork 3.2 and OpenWIS 4.0
+				4. XX - Compliance of OpenWIS4 to WIS Technical Regulations
 7. **Future strategy (to 3 years ahead)**
     1. **WIS 2.0**
-        1. JT - xxxx:
+        1. JT - WIS 2.0 Status Update:
     2. **Advanced Message Queue PoC**
-        1. NM - xxxxx
+        1. NM - Description/demo of the PoC
     3. **Metadata hierarchies**
-        1. DW - xxxxx
-
-8. **AOB**
+        1. DW - Why we need metadata hierarchies
+8. **Planning workshop**
+  - kanban board at: http://openwis.github.io/openwis-documentation/kanban/
+  - backlog at: http://openwis.github.io/openwis-documentation/backlog/
+  - We will go through the kanban/backlog items and agree the following:
+    - the definition and priority (MSCW) of each kanban/backlog item
+    - which kanban/backlog items belong to which Features
+    - which Features are candidates for releases 4.1 and 4.2
+  - this will include work on the website and docs as well as the code (they are all on the kanban)
+  - PR will add any new ideas to the backlog, preferably before the meeting, but can do during as well
+  - new backlog items can just refer to an issue on GitHub, otherwise, a brief description would be useful for PR to publish on the website prior to the meeting
+9.  **Allocation of people to squads to features**
+    1. PR - work allocation:
+      - establish who is interested in each feature
+      - build squads accordingly
+      - firm up on lists of Features for upcoming releases (eg: 3.14.9 and 4.1)
+10. **AOB**
 
 ---
 
@@ -105,9 +111,8 @@ Draft agendas for the annual meetings in Toulouse, March 2017: Technical Committ
   4. **How do we see OpenWIS Association evolving?**
   		1. JT
   5. **Future requirements of WIS Centres**
-  		1. XX - Future WIS strategy
-  		2. XX - Evolution of WMO Core Metadata Profile
-      3. XX - etc
+  		1. MF - Future WIS strategy
+  		2. JT - Evolution of WMO Core Metadata Profile
 	6. **Review of Strategic Goals and Metrics (3 year horizon)**
 		1. JT
 	7. **Recommendations to the Board**
@@ -142,14 +147,14 @@ Draft agendas for the annual meetings in Toulouse, March 2017: Technical Committ
 		1. JT
 	3. **Management of Contributor License Agreements**
 		1. http://openwis.github.io/openwis-documentation/rules/A-contributor-license-agreement.html
-		2. JT - MR: Click-thru; jurisidiction - local or Belgian?
+		2. JT - MR: Click-thru; jurisdiction - local or Belgian?
     3. JT - Item (15.3.1) 'Example CLA management service': CLA Assistant is an open source project from SAP (see https://github.com/cla-assistant/cla-assistant) that integrates CLA management with GitHub identifies and workflow. A hosted instance is provided at https://cla-assistant.io/.
     4. JT - Article 9.7: All member and partner contributors (staff and contractors) must sign the CLA.
 	4. **Community growth strategy**
 		1. JT
 	6. **Communications plan**
 		1. JT
-  8. **Review need for Community Manager**
+  8. **Review need for Community Manager and any other new roles**
   		1. JT
 15. **Recommendations to the Board regarding the creation of ad-hoc committees or subsidiary bodies**
 	1. JT
@@ -203,6 +208,7 @@ Draft agendas for the annual meetings in Toulouse, March 2017: Technical Committ
 		1. JT
 10. **Annual accounts from 2016 (Treasurer)**
 	1. EE (Treasurer) via WebEx.
+	2. MDA - Status of OpenWIS Association bank account
 11. **Approval of budget for 2017**
 	1. **Review of budget recommended by SC (SC Chair)**
 		1. JT
