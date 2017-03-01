@@ -1,11 +1,11 @@
 ---
 layout: backlog
 title: v4 DIS - MM4 Maintain product metadata table
-kanCategory: analyse
+kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 52
-kanIssue:
+kanIssue: 8
 kanPullReq:
 kanFeature: Discovery
 kanRelease: 4.0
@@ -17,6 +17,9 @@ kanProject:
 ---
 Enhancement MM4: Maintain product metadata table.
 
+Update - GT email - 2017-03-01:As you can also see in the Github issue, the functionality actually exists and works on OpenWISv4.
+
+---
 Update - scrum - 2017-01-17: It looks like GeoCat didn't do anything on this and it's not mentioned in their docs for the work they delivered (from which GT derived his list of migrated features).  The requirement/spec is covered in Jeremy's work package.  GT will check to confirm that this feature was not migrated and is therefore outstanding.
 
 ---
