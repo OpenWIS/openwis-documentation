@@ -16,7 +16,8 @@ OpenWIS Technical Committee 2016 May
 		1. lh level 3 or lower (no-em)
 			1. li 1
 			2. _li 2 (weak em)_
-			3. ACT-OWIS-TC-99:Action: XX - Note the opening and closing tags that markup this as an ACTION. OWIS-ACT
+			3. ACT-OWIS-TC-99:Action: XX - Note the opening and closing tags that markup this as an ACTION. OWIS-ACT  
+
 2. **lh level 1**
 	1. li 1
 	2. RES-OWIS-TC-99:Resolution: Note the opening and closing tags that markup this as a RESOLUTION. OWIS-RES
@@ -26,6 +27,8 @@ OpenWIS Technical Committee 2016 May
 3. **unordered list**
 	- ul li 1
 	- ul li 2
+
+
 4. Links: (to see what is going on here, look at the code block below)
 	- [inline ref to external link](http://www.example.com)
 	- [ref to link defined somewhere else on this page][L1]
