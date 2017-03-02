@@ -8,13 +8,13 @@ title: Provisional Agenda - OpenWIS Technical Committee 2017 March - Toulouse
 ---
 
 1. **Welcome and introductions**
-	- WQ
+    - WQ
 2. **Approval of agenda**
-	- WQ
+    - WQ
 3. **Declaration of delegates**
-  - PR - Record who is a TC member and who is an observer and any proxies.
+    - PR - Record who is a TC member and who is an observer and any proxies.
 4. **Outstanding actions**
-  - PR - Action Tracker
+    - PR - Action Tracker
 5. **Development retrospective (past year)**
     1. LM - OpenWIS 3.14 release
 6. **Current development planning (coming year)**
@@ -28,8 +28,8 @@ title: Provisional Agenda - OpenWIS Technical Committee 2017 March - Toulouse
         2. NM - Overlay Approach; what is it and why do we need it?
         3. NM - Skills and training - how will we transfer skills in the Overlay Approach?
         4. PR - Developer Conference - when and where is best to embed Overlay Approach skills?
-				5. XX - Engagement with the Core GeoNetwork Community
-				6. SO - Process for handling contributions offered from external collaborators
+        5. XX - Engagement with the Core GeoNetwork Community
+        6. SO - Process for handling contributions offered from external collaborators
     3. **Development facilities for OpenWIS4**
         1. MC - status of MF servers
         2. XX - status of AWS CI  
@@ -47,20 +47,20 @@ title: Provisional Agenda - OpenWIS Technical Committee 2017 March - Toulouse
     3. **Metadata hierarchies**
         1. DW - Why we need metadata hierarchies
 8. **Planning workshop**
-  - kanban board at: http://openwis.github.io/openwis-documentation/kanban/
-  - backlog at: http://openwis.github.io/openwis-documentation/backlog/
-  - We will go through the kanban/backlog items and agree the following:
-    - the definition and priority (MSCW) of each kanban/backlog item
-    - which kanban/backlog items belong to which Features
-    - which Features are candidates for releases 4.1 and 4.2
-  - this will include work on the website and docs as well as the code (they are all on the kanban)
-  - PR will add any new ideas to the backlog, preferably before the meeting, but can do during as well
-  - new backlog items can just refer to an issue on GitHub, otherwise, a brief description would be useful for PR to publish on the website prior to the meeting
+    - kanban board at: http://openwis.github.io/openwis-documentation/kanban/
+    - backlog at: http://openwis.github.io/openwis-documentation/backlog/
+    - We will go through the kanban/backlog items and agree the following:
+        - the definition and priority (MSCW) of each kanban/backlog item
+        - which kanban/backlog items belong to which Features
+        - which Features are candidates for releases 4.1 and 4.2
+    - this will include work on the website and docs as well as the code (they are all on the kanban)
+    - PR will add any new ideas to the backlog, preferably before the meeting, but can do during as well
+    - new backlog items can just refer to an issue on GitHub, otherwise, a brief description would be useful for PR to publish on the website prior to the meeting
 9.  **Allocation of people to squads to features**
     1. PR - work allocation:
-      - establish who is interested in each feature
-      - build squads accordingly
-      - firm up on lists of Features for upcoming releases (eg: 3.14.9 and 4.1)
+        - establish who is interested in each feature
+        - build squads accordingly
+        - firm up on lists of Features for upcoming releases (eg: 3.14.9 and 4.1)
 10. **AOB**
 
 ---
