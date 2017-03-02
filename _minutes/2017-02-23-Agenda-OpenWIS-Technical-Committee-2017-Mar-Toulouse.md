@@ -19,9 +19,10 @@ title: Provisional Agenda - OpenWIS Technical Committee 2017 March - Toulouse
     1. LM - OpenWIS 3.14 release
 6. **Current development planning (coming year)**
     1. WQ - Status and plans for operations within each organisation  
-        1. Operational architectures for GISC/DCPC/NC  
-        2. What harnesses are in use for dissemination, local data source, data source?  
-        3. Tools around OpenWIS  
+        1. OpenWIS v3.14 deployment experiences
+        2. Operational architectures for GISC/DCPC/NC  
+        3. What harnesses are in use for dissemination, local data source, data source?  
+        4. Tools around OpenWIS  
             1. MC - Metadata tool 'excel2wis'              
     2. **Development process for OpenWIS4**
         1. PR - Lifecycle description; with particular emphasis on what the new terms 'feature' and 'squad' mean in this context, and how they will work in practice
@@ -31,21 +32,24 @@ title: Provisional Agenda - OpenWIS Technical Committee 2017 March - Toulouse
         5. XX - Engagement with the Core GeoNetwork Community
         6. SO - Process for handling contributions offered from external collaborators
     3. **Development facilities for OpenWIS4**
-        1. MC - status of MF servers
-        2. XX - status of AWS CI  
+        1. MC - status of MF servers - are they useful and should we keep them?
+        2. XX - status of AWS CI - is it still useful and should we repurpose it for v4?
         3. SO - Options for Forum - Discus, Discourse, BBnotes
     4. **OpenWIS 4**
-        1. XX - Progress to date
-        2. PR - Release roadmap for next 12 months - schedule releases 4.1 and 4.2
+        1. NM - Progress to date
+        2. NM - OpenWIS v4 harvesting performance
         3. DW - GeoNetwork3 features relevant to OpenWIS4; including demo of Core GeoNetwork 3.2 and OpenWIS 4.0  
         4. XX - Compliance of OpenWIS4 to WIS Technical Regulations
+        5. PR - Release roadmap for next 12 months - schedule releases 4.1 and 4.2
 7. **Future strategy (to 3 years ahead)**
-    1. **WIS 2.0**
-        1. JT - WIS 2.0 Status Update:
-    2. **Advanced Message Queue PoC**
-        1. NM - Description/demo of the PoC
-    3. **Metadata hierarchies**
+    1. **Metadata hierarchies**
         1. DW - Why we need metadata hierarchies
+    2. **WIS 2.0**
+        1. JT - WIS 2.0 Status Update
+    3. **Advanced Message Queue PoC**
+        1. NM - Description/demo of the PoC
+    4. **Architecture Possibilities for OpenWIS v5**
+        1. NM - Including pros and cons of v4 vs v5
 8. **Planning workshop**
     - kanban board at: http://openwis.github.io/openwis-documentation/kanban/
     - backlog at: http://openwis.github.io/openwis-documentation/backlog/
@@ -55,7 +59,7 @@ title: Provisional Agenda - OpenWIS Technical Committee 2017 March - Toulouse
         - which Features are candidates for releases 4.1 and 4.2
     - this will include work on the website and docs as well as the code (they are all on the kanban)
     - PR will add any new ideas to the backlog, preferably before the meeting, but can do during as well
-    - new backlog items can just refer to an issue on GitHub, otherwise, a brief description would be useful for PR to publish on the website prior to the meeting
+    - new backlog items can just refer to an issue on GitHub, otherwise, a brief description would be useful for PR to publish on the website prior to the meeting (for example, the MF/INSPIRE question on the metadata query performance of OpenWIS v3 should be raised as a GitHub issue)
 9.  **Allocation of people to squads to features**
     1. PR - work allocation:
         - establish who is interested in each feature
