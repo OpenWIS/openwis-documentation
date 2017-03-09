@@ -1,0 +1,51 @@
+
+<div class="wrapper">
+
+{% if page.discourse %}
+<div class="comments_block">
+
+{% if page.discourseid != 0 %}
+<!-- Put any scraping code here -->
+
+<div class="discourse_title">Loading Discourse comments for topic number: {{ page.discourseid }}<br /> 
+Click "Continue Discussion" to see original topic post and additional replies<br />
+<br />
+</div>
+{% endif %}
+
+<div id='discourse-comments'></div>
+<!-- discourseEmbedUrl: 'http://140.90.90.171:4000/test/discourse.html' -->
+<script type="text/javascript">
+
+  DiscourseEmbed = {};
+  DiscourseEmbed.discourseUrl = 'https://discourse.dev2.openwis.io/';
+  {% if page.discourseid == 0 %}
+      DiscourseEmbed.discourseEmbedUrl = '{{ site.url }}{{ page.url }}';
+  {% else %}
+      DiscourseEmbed.topicId = {{ page.discourseid }};
+  {% endif %}
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+function showComments(topic) {
+  var comments = document.getElementById('discourse-comments');
+  var iframe = document.getElementById('discourse-embed-frame');
+  if (iframe) { iframe.remove(); }
+  iframe.id = 'discourse-embed-frame';
+  iframe.width = '100%';
+  iframe.frameBorder = '0';
+  iframe.scrolling = 'yes';
+  comments.appendChild(iframe);
+  iFrameResize({}, iframe);
+};
+showComments({{ url }});
+</script>
+
+</div>
+{% endif %}
+
+</div>
+
