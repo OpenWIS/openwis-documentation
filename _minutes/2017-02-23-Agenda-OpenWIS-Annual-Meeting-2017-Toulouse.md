@@ -51,11 +51,16 @@ title: Provisional Agenda - OpenWIS Annual Meeting 2017 - Toulouse
 13. **Approval of changes to Internal Rules (see Rule A12.17)**
     1. **Financial controls for the OpenWIS Association**
         1. MDA – Do we need the help of a professional company in Belgium to ensure we comply with the Belgian accounting and tax rules?
+        2. EE suggested rule change:
+            - **Support to meet Belgian Requirements (suggest adding after ‘Taxation’ section)**  It is recommended that the association engages with specialist support to ensure all legal, taxation and filing requirements are met. Costs need to be included in the budget to cover this.
+        3. EE suggested rule change:
+            - **Benefit in Kind received by the Association (suggest adding after ‘Staff Costs’ section)**   As part of the operation of the association, the partners contribute effort to the furthering and support of the aims of the association. This can be in the form of external spend with other suppliers or use of internal resources of the partners (e.g. staff time) to achieve this. This is an in kind transaction of the association and as such to the extent that this is measurable, the association should record this in their accounts as an in kind transaction. For Income & Expenditure Statement purposes in the annual accounts, this is represented as a received income and a matching expense in the year. In order to fulfil this obligation, the partners are required to submit an annual return to the Treasurer confirming the amount of ‘in kind’ costs they have occurred. Partners should consider what information they need to retain in year to be able to do this and raise any queries with the Treasurer.
     2. **Review of amendments recommended by SC (SC Chair)**
         1. JT
 14. **Management of Risks to the Association**
+    1. MDA
 15. **Any Other Business**
-16. **Date of next meeting**
+16. **Host of next meeting**
     1. MDA
 
 ---

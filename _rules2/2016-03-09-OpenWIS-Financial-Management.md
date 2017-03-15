@@ -8,7 +8,7 @@ title: OpenWIS Financial Management
 This document pulls together the financial operating aspects of the OpenWIS association. This is intended as a supplement to the Articles of Association and Internal Rules. In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.
 
 ### Approvals for Contracts/Agreements
-This covers all costs to be incurred by OpenWIS whether directly as the contracting party or indirectly through the Members, Strategic Partners, and Associate Partners supporting the Association. Expenditure must be approved prior to incurring.
+This covers all costs to be incurred by OpenWIS whether directly as the contracting party or indirectly through the Members, Strategic Partners, and Associate Partners supporting the Association. Expenditure must be approved prior to incurring where required and due diligence should be taken when entering into contracts or incurring expenses on behalf of the association, to ensure the association is getting value for money.
 
 ### Invoice Administration
 Invoices should be passed to the Treasurer who will ensure that sufficient approval is currently in place for the expenditure before approving the invoice for payment and proceeding with payment. Invoices shall be retained with approvals and evidence of payment (where appropriate) for accounting record purposes.
@@ -45,7 +45,6 @@ The following requirements are specified in relation to budgets:
 
 - Budgets are prepared annually for presentation at the Annual General Meeting.
 - The budget will determine the level of membership contributions for the financial year.
-- Proposed budgets need to be circulated 30 days in advance of the Annual General Meeting
 - The budget shall reflect the estimated income and costs and shall be calculated in Euros.
 - A reserve fund for unexpected developments or events should be maintained. To be determined at the Annual Meeting.
 - Actual expenditure in year is compared against the budgeted amounts.
@@ -89,7 +88,7 @@ Large organizations must:
 
 **SMALL** Definition & Requirements:
 
-Category _Small_ are all others (examples: 2 employees and EUR 20,000 in revenues; or no workers and very little revenue).
+Category _Small_ are all organisations not meeting the criteria of Large or Very Large organisations (examples: 2 employees and EUR 20,000 in revenues; or no workers and very little revenue).
 
 Small organizations need only:
 
@@ -98,4 +97,4 @@ Small organizations need only:
 
 Note: accounts can be prepared in line with the requirements for large companies, this does not introduce a filing obligation with the National Bank.
 
-The OpenWIS Association AISBL qualifies as a **Small** entity for filing purposes under Belgian Law as at February 2016. This position will need to be monitored annually.
+The OpenWIS Association AISBL currently qualifies as a **Small** entity for filing purposes under Belgian Law, meeting only one of the criteria for Large organisations and this position is likely to continue. This position will need to be monitored annually.
