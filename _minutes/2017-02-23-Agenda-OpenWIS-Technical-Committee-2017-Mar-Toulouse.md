@@ -8,51 +8,61 @@ title: Provisional Agenda - OpenWIS Technical Committee 2017 March - Toulouse
 ---
 
 1. **Welcome and introductions**
-    - WQ
+    - SO
 2. **Approval of agenda**
-    - WQ
+    - SO
 3. **Declaration of delegates**
     - PR - Record who is a TC member and who is an observer and any proxies.
 4. **Outstanding actions**
     - PR - Action Tracker
-5. **Development retrospective (past year)**
-    1. LM - OpenWIS 3.14 release
+5. **Retrospective (past year)**
+    1. OpenWIS v3.14 release
+    2. OpenWIS v3.14 deployment experiences
+    3. Operational architectures for GISC/DCPC/NC  
+    4. What harnesses are in use for dissemination, local data source, data source?
+    5. Status and plans for operations within each organisation
+    6. MC - Metadata tool [excel2wis](https://github.com/OpenWIS/excel2wis)  
 6. **Current development planning (coming year)**
-    1. WQ - Status and plans for operations within each organisation  
-        1. OpenWIS v3.14 deployment experiences
-        2. Operational architectures for GISC/DCPC/NC  
-        3. What harnesses are in use for dissemination, local data source, data source?  
-        4. Tools around OpenWIS  
-            1. MC - Metadata tool 'excel2wis'              
+    4. **OpenWIS4**
+        1. NM - [Progress to date]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Progress-to-date.pdf)
+        2. NM - OpenWIS v4 harvesting performance
+        3. DW - GeoNetwork3 features relevant to OpenWIS4; including demo of Core GeoNetwork 3.2 and OpenWIS 4.0 - [powerpoint]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pptx)/[pdf]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pdf)
+        4. XX - Compliance of OpenWIS4 to WIS Technical Regulations
+        5. PR - Release roadmap for next 12 months - schedule releases 4.1 and 4.2
     2. **Development process for OpenWIS4**
         1. PR - Lifecycle description; with particular emphasis on what the new terms 'feature' and 'squad' mean in this context, and how they will work in practice
-        2. NM - Overlay Approach; what is it and why do we need it?
-        3. NM - Skills and training - how will we transfer skills in the Overlay Approach?
+        2. NM - [Overlay Approach]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Overlay-approach.pdf); what is it and why do we need it?
+        3. NM - [Skills and training]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Skills-and-training.pdf) - how will we transfer skills in the Overlay Approach?
         4. PR - Developer Conference - when and where is best to embed Overlay Approach skills?
         5. XX - Engagement with the Core GeoNetwork Community
         6. SO - Process for handling contributions offered from external collaborators
     3. **Development facilities for OpenWIS4**
         1. MC - status of MF servers - are they useful and should we keep them?
         2. XX - status of AWS CI - is it still useful and should we repurpose it for v4?
-        3. SO - Options for Forum - Discus, Discourse, BBnotes
-    4. **OpenWIS 4**
-        1. NM - Progress to date
-        2. NM - OpenWIS v4 harvesting performance
-        3. DW - GeoNetwork3 features relevant to OpenWIS4; including demo of Core GeoNetwork 3.2 and OpenWIS 4.0  
-        4. XX - Compliance of OpenWIS4 to WIS Technical Regulations
-        5. PR - Release roadmap for next 12 months - schedule releases 4.1 and 4.2
+        3. SO - Options for Forum - [Discus]({{ site.baseurl | prepend: site.url }}/assets/TC201703-DisqusNotes.pdf), [Discourse]({{ site.baseurl | prepend: site.url }}/assets/TC201703-DiscourseNotes.pdf), [NodeBB]({{ site.baseurl | prepend: site.url }}/assets/TC201703-NodebbNotes.pdf)
+            - [Discourse forum](https://discourse.dev2.openwis.io);
+            - [Discourse website plugin](https://cassie-stearns.github.io/test/discourse40.html)
+            - [NodeBB forum](https://nodebb.dev2.openwis.io);
+            - (log in to both forums through a portal using: username: openwis password: 9Sym2c3ypjv; You should be able to register on the front page. If you are having problems, please email Cassie with **subject:openwis forum help**
+        4. We would like to evaluate the following:
+            - Which forum do you prefer (Discourse or NodeBB)? Why?
+            - Are the categories and subcategories good? What do you want to change?
+            - What tags do you think should be used?
+            - Any other comments or questions
+            - [Comparison so far]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWISForumDevelopment.pdf)
 7. **Future strategy (to 3 years ahead)**
     1. **Metadata hierarchies**
         1. DW - Why we need metadata hierarchies
     2. **WIS 2.0**
         1. JT - WIS 2.0 Status Update
-    3. **Advanced Message Queue PoC**
-        1. NM - Description/demo of the PoC
-    4. **Architecture Possibilities for OpenWIS v5**
-        1. NM - Including pros and cons of v4 vs v5
+    3. **Architecture Possibilities for OpenWIS5**
+        1. NM - [OpenWIS5]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWIS5.pdf); including pros and cons of v4 vs v5 and description/demo of the advanced MQ PoC
 8. **Planning workshop**
-    - kanban board at: http://openwis.github.io/openwis-documentation/kanban/
-    - backlog at: http://openwis.github.io/openwis-documentation/backlog/
+    - [kanban board](http://openwis.github.io/openwis-documentation/kanban/)
+    - [backlog](http://openwis.github.io/openwis-documentation/backlog/)
+    - [github issues: OpenWIS4](https://github.com/OpenWIS/openwis4/issues)
+    - [github issues: OpenWIS3](https://github.com/OpenWIS/openwis/issues)
+    - [github issues: openwis-documentation](https://github.com/OpenWIS/openwis-documentation/issues)
     - We will go through the kanban/backlog items and agree the following:
         - the definition and priority (MSCW) of each kanban/backlog item
         - which kanban/backlog items belong to which Features
