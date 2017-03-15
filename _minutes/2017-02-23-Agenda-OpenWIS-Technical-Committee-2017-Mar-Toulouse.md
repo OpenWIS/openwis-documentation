@@ -23,10 +23,13 @@ title: Provisional Agenda - OpenWIS Technical Committee 2017 March - Toulouse
     5. Status and plans for operations within each organisation
     6. MC - Metadata tool [excel2wis](https://github.com/OpenWIS/excel2wis)  
 6. **Current development planning (coming year)**
-    4. **OpenWIS4**
+    1. **OpenWIS4**
         1. NM - [Progress to date]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Progress-to-date.pdf)
         2. NM - OpenWIS v4 harvesting performance
         3. DW - GeoNetwork3 features relevant to OpenWIS4; including demo of Core GeoNetwork 3.2 and OpenWIS 4.0 - [powerpoint]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pptx)/[pdf]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pdf)
+            - [GeoNetwork 3.2.1](http://cgn-original.eurodyn.com:8080/geonetwork)
+            - [OpenWIS 4 (using GeoNetwork 3.2.1)](http://cgn-openwis.eurodyn.com/geonetwork)
+            - (see George's email for credentials)
         4. XX - Compliance of OpenWIS4 to WIS Technical Regulations
         5. PR - Release roadmap for next 12 months - schedule releases 4.1 and 4.2
     2. **Development process for OpenWIS4**
