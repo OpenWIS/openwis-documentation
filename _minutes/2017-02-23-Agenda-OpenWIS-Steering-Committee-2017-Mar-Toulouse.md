@@ -33,7 +33,9 @@ title: Provisional Agenda - OpenWIS Steering Committee 2017 March - Toulouse
     3. **How do we see OpenWIS Association evolving?**
         - JT
     4. **Future requirements of WIS Centres**
-        1. MF - Future WIS strategy
+        1. MF - Future Requirements of WIS Centres -
+        [ppt]({{ site.baseurl | prepend: site.url }}/assets/SC201703-Future-requirements-of-WIS-Centres-Toulouse-March-2017.pptx) /
+        [pdf]({{ site.baseurl | prepend: site.url }}/assets/SC201703-Future-requirements-of-WIS-Centres-Toulouse-March-2017.pdf)
         2. JT - Evolution of WMO Core Metadata Profile
     5. **Review of Strategic Goals and Metrics (3 year horizon)**
         - JT
@@ -59,6 +61,10 @@ title: Provisional Agenda - OpenWIS Steering Committee 2017 March - Toulouse
 13. **New opportunities for collaboration**
 	  1. **Review proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
 		    1. JT
+        2. MV - FMI Smartmet Server. ([on GitHub:](https://github.com/fmidev/)) and as described [here](https://github.com/fmidev/smartmet-server/) and [here](http://www.slideshare.net/tervo/smartmet-server-providing-metocean-data).
+            1. does it match the purpose of OpenWIS Association? [1](http://openwis.github.io/openwis-documentation/articles/2-purpose.html#article-2.1)
+            2. how / if the project governance could / should be integrated into OpenWIS?  
+            3. whether any other Members or Partners want to contribute resources to the project?
     2. **Identification of opportunities to participate in calls for proposals in externally funded projects**
         1. JT
     3. **Recommendation to the Board regarding new projects to establish**
