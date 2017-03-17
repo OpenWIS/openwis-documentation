@@ -25,13 +25,12 @@ title: Provisional Agenda - OpenWIS Technical Committee 2017 March - Toulouse
 6. **Current development planning (coming year)**
     1. **OpenWIS4**
         1. NM - [Progress to date]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Progress-to-date.pdf)
-        2. NM - OpenWIS v4 harvesting performance
-        3. DW - GeoNetwork3 features relevant to OpenWIS4; including demo of Core GeoNetwork 3.2 and OpenWIS 4.0 - [powerpoint]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pptx)/[pdf]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pdf)
+        2. DW - GeoNetwork3 features relevant to OpenWIS4; including demo of Core GeoNetwork 3.2 and OpenWIS 4.0 - [powerpoint]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pptx)/[pdf]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pdf)
             - [GeoNetwork 3.2.1](http://cgn-original.eurodyn.com:8080/geonetwork)
             - [OpenWIS 4 (using GeoNetwork 3.2.1)](http://cgn-openwis.eurodyn.com/geonetwork)
             - (see George's email for credentials)
-        4. XX - Compliance of OpenWIS4 to WIS Technical Regulations
-        5. PR - Release roadmap for next 12 months - schedule releases 4.1 and 4.2
+        3. XX - Compliance of OpenWIS4 to WIS Technical Regulations
+        4. PR - Release roadmap for next 12 months - schedule releases 4.1 and 4.2
     2. **Development process for OpenWIS4**
         1. PR - Lifecycle description; with particular emphasis on what the new terms 'feature' and 'squad' mean in this context, and how they will work in practice
         2. NM - [Overlay Approach]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Overlay-approach.pdf); what is it and why do we need it?
