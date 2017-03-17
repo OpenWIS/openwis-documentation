@@ -20,6 +20,7 @@ title: Provisional Agenda - OpenWIS Technical Committee 2017 March - Toulouse
 6. **Current development planning (coming year)**
     1. **OpenWIS4**
         1. NM - [Progress to date]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Progress-to-date.pdf)
+
         2. NM - [Overlay Approach]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Overlay-approach.pdf); what is it and why do we need it?
         3. NM - [Skills and training]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Skills-and-training.pdf) - how will we transfer skills in the Overlay Approach?
         4. PR - Developer Conference - when and where is best to embed Overlay Approach skills?
