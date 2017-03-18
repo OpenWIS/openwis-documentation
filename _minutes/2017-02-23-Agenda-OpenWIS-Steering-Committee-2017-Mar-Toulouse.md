@@ -33,7 +33,9 @@ title: Provisional Agenda - OpenWIS Steering Committee 2017 March - Toulouse
     3. **How do we see OpenWIS Association evolving?**
         - JT
     4. **Future requirements of WIS Centres**
-        1. MF - Future Requirements of WIS Centres - [ppt](Future-requirements-of-WIS-Centres-Toulouse-March-2017.pptx) / [pdf](Future-requirements-of-WIS-Centres-Toulouse-March-2017.pdf)
+        1. MF - Future Requirements of WIS Centres -
+        [ppt]({{ site.baseurl | prepend: site.url }}/assets/SC201703-Future-requirements-of-WIS-Centres-Toulouse-March-2017.pptx) /
+        [pdf]({{ site.baseurl | prepend: site.url }}/assets/SC201703-Future-requirements-of-WIS-Centres-Toulouse-March-2017.pdf)
         2. JT - Evolution of WMO Core Metadata Profile
     5. **Review of Strategic Goals and Metrics (3 year horizon)**
         - JT
