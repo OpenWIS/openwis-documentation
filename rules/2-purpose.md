@@ -62,6 +62,6 @@ The Association may host multiple concurrent open source software development pr
 
 <h2 id="rule-2.11">Rule 2.11</h2>
 
-The term "OpenWIS&reg; software" (and its variants) should be taken to mean the software deliverables produced by the Projects of the Association.
+The term "OpenWIS&reg; software" shall be taken to mean the software deliverables produced by the Projects of the Association.
 
 [previous: TITLE 1]({{ "/rules/1-name-legal-status-and-trademarks.html" | prepend: site.baseurl }}) \| [next: TITLE 3]({{ "/rules/3-registered-office.html" | prepend: site.baseurl }})
