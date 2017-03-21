@@ -13,7 +13,8 @@ contents : [
     ["#rule-6.5", "Rule 6.5"],
     ["#rule-6.6", "Rule 6.6"],
     ["#rule-6.7", "Rule 6.7"],
-    ["#rule-6.8", "Rule 6.8"]
+    ["#rule-6.8", "Rule 6.8"],
+    ["#rule-6.9", "Rule 6.9"]
 ]
 ---
 
@@ -81,5 +82,9 @@ Members and Partners hold the following obligations towards the Association:
 <h2 id="rule-6.8">Rule 6.8</h2>
 
 Amounts due to the Association must be paid within 30 days of becoming due. In accordance with the Belgian Late Payment Law, interest on amounts overdue by more than 30 days will be charged at 8 percentage points on top of the interest rate applied by the European Central Bank to its most recent main refinancing operation, rounded up to the higher half percentage point.
+
+<h2 id="rule-6.9">Rule 6.9</h2>
+
+Contributors shall comply with the [OpenWIS&reg; Code of Conduct]({{ "/conduct/" | prepend: site.baseurl }}).
 
 [previous: TITLE 5]({{ "/rules/5-relationship-with-organisational-partners.html" | prepend: site.baseurl }}) \| [next: TITLE 7]({{ "/rules/7-management-structure-and-qualification-of-officers.html" | prepend: site.baseurl }})
