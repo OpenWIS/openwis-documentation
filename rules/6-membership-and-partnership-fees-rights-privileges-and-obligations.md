@@ -21,6 +21,8 @@ contents : [
 
 Membership fees, subscriptions and contributions are due from all Members and Partners of the Association, as set down in these [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}).
 
+A **Contributor** is a person contributing to code and/or non-code activities within a Project. Individual Contributors pay no fees or subscriptions. 
+
 <h2 id="rule-6.2">Rule 6.2</h2>
 
 In accordance with [Article 12.5]({{ "/articles/12-board.html#article-12.5" | prepend: site.baseurl }}) of the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}), membership fees shall be set by the Board at each Annual Meeting, following review and approval of the accounts of the Association and approval of the Association’s budget for the coming financial year. [Rule 6.3](#rule-6.3) of these [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}) will be updated accordingly. In the event that the Board does not explicitly change the membership fees, the fees from the previous year will continue to apply.
