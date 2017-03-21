@@ -10,7 +10,8 @@ contents : [
     ["#rule-7.2", "Rule 7.2"],
     ["#rule-7.3", "Rule 7.3"],
     ["#rule-7.4", "Rule 7.4"],
-    ["#rule-7.5", "Rule 7.5"]
+    ["#rule-7.5", "Rule 7.5"],
+    ["#rule-7.6", "Rule 7.6"]
 ]
 ---
 
@@ -37,5 +38,9 @@ A Managing Director who is approaching the end of his or her two-year term shoul
 <h2 id="rule-7.5">Rule 7.5</h2>
 
 An SC Chair or SC Vice-Chair who is approaching the end of his or her twelve-month term should if eligible for re-election, inform the other Delegates as to whether he or she plans to stand for re-election at least one months before his or her term comes to an end.
+
+<h2 id="rule-7.6">Rule 7.6</h2>
+
+For every Project established within the Association, the Steering Committee shall, in accordance with [Article 13.2]({{ "/articles/13-steering-committee.html#article-13.2" | prepend: site.baseurl }}), create a **Project Management Committee** with responsibility for leading each Project.
 
 [previous: TITLE 6]({{ "/rules/6-membership-and-partnership-fees-rights-privileges-and-obligations.html" | prepend: site.baseurl }}) \| [next: TITLE 8]({{ "/rules/8-meetings.html" | prepend: site.baseurl }})
