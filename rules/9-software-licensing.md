@@ -13,7 +13,11 @@ contents : [
 
 <h2 id="rule-9.1">Rule 9.1</h2>
 
-For the purposes of [Article 9.6]({{ "/articles/9-organizational-partners-and-relationship-with-other-third-parties.html#article-9.6" | prepend: site.baseurl }}) of the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}), the Open Source Licence approved by the Association is the [GNU General Public Licence, version 3.0](http://www.gnu.org/licenses/gpl-3.0.en.html), or any subsequent version of that licence.
+For the purposes of [Article 9.6]({{ "/articles/9-organizational-partners-and-relationship-with-other-third-parties.html#article-9.6" | prepend: site.baseurl }}) of the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}), each OpenWIS&reg; project shall declare which open source license under which the software artefacts are to be made available.
+
+The set of permissible open source licenses is maintained by the Open Source Initiative (OSI) at: https://opensource.org/licenses/.
+
+The Steering Committee shall be required to approve the license selected by each OpenWIS&reg; project.  
 
 <h2 id="rule-9.2">Rule 9.2</h2>
 
