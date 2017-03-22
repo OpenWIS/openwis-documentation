@@ -17,7 +17,8 @@ contents : [
     ["#rule-5.9", "Rule 5.9"],
     ["#rule-5.10", "Rule 5.10"],
     ["#rule-5.11", "Rule 5.11"],
-    ["#rule-5.12", "Rule 5.12"]
+    ["#rule-5.12", "Rule 5.12"],
+    ["#rule-5.13", "Rule 5.13"]
 ]
 ---
 
@@ -83,5 +84,9 @@ If any Partner puts the Association’s activities at risk by failing to meet it
 <h2 id="rule-5.12">Rule 5.12</h2>
 
 Non-Partner organisations which are willing to contribute to the achievement of the Association’s objectives may participate in workshops and conferences organised by the Association and conduct work or research under contract.
+
+<h2 id="rule-5.13">Rule 5.13</h2>
+
+A Partner may decide to terminate their contract with the Association at any time by giving written notice to the Board.
 
 [previous: TITLE 4]({{ "/rules/4-member-admission-resignation-exclusion-and-readmission.html" | prepend: site.baseurl }}) \| [next: TITLE 6]({{ "/rules/6-membership-and-partnership-fees-rights-privileges-and-obligations.html" | prepend: site.baseurl }})
