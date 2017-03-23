@@ -38,6 +38,8 @@ The current fees payable by Members and Partners of the Association are set out 
 **Strategic Partner** | €200,000                                | NIL
 **Associate Partner** | NIL                                     | €10,000 **or** €40,000 for a five year term, at the Partner’s option
 
+An Associate Partner may, by mutual consent with the Association, substitute an agreed in-kind contribution for the Annual Contribution fee of €10,000.
+
 <h2 id="rule-6.4">Rule 6.4</h2>
 
 The rights and privileges afforded to Members, Strategic Partners, Associate Partners, and Contributors in return for their fees (where applicable), shall be as set out in the table below:
