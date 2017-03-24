@@ -59,7 +59,7 @@ Replies to new feature requests | &#x2713; | &#x2713; | &#x2713; | X
 Access to a sandbox reference implementation | &#x2713; | &#x2713; | &#x2713; | &#x2713;
 Eligible to serve on the Technical Committee, subject to qualifying criteria in [Article 14.2]({{ "/articles/articles/14-technical-committee.html#article-14.2" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | &#x2713;
 Eligible to serve on OpenWIS&reg; Project Management Committees, subject to procedures defined in [OpenWIS&reg; Project Governance rules supplement]({{ "/rules2/2016-03-11-OpenWIS-Project-Governance.md" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | &#x2713;
-Eligible to participate in OpenWIS&reg; user groups, workshops and conferences | &#x2713; | &#x2713; | &#x2713; | &#x2713;
+Eligible to participate in OpenWIS&reg; meetings, user groups, workshops and conferences | &#x2713; | &#x2713; | &#x2713; | &#x2713;
 
 <h2 id="rule-6.5">Rule 6.5</h2>
 
