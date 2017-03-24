@@ -29,6 +29,9 @@ This document describes the governance regime for Projects of the OpenWIS&reg; A
 - A PMC may, by mutual consent (two-thirds majority), choose to elect new or additional Project Leaders from amongst the members of the PMC.
 - A PMC may, by mutual consent (two-thirds majority), choose to elect new or additional PMC Members from amongst the Project’s active Contributors.
 
+### Member and Partner organisation commitments
+- Member and Partner organisations shall apply reasonable endeavours to meet their stated commitment to the Project.
+
 ### Project delivery
 - Anyone can Contribute to the Project delivery; subject to completion of a CLA and their good standing within the OpenWIS&reg; community.
 - A simple KANBAN approach to agile delivery is recommended; using a ‘**notice board**’ to manage the flow of work within each Project.
