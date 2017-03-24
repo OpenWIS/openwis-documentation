@@ -14,7 +14,9 @@ contents : [
     ["#rule-2.6", "Rule 2.5"],
     ["#rule-2.7", "Rule 2.6"],
     ["#rule-2.8", "Rule 2.7"],
-    ["#rule-2.9", "Rule 2.9"]
+    ["#rule-2.9", "Rule 2.9"],
+    ["#rule-2.10", "Rule 2.10"],
+    ["#rule-2.11", "Rule 2.11"]
 ]
 ---
 
@@ -53,5 +55,15 @@ In line with [Article 2.5]({{ "/articles/2-purpose.html#article-2.5" | prepend: 
 <h2 id="rule-2.9">Rule 2.9</h2>
 
 Nothing in [Rule 2.8](#rule-2.8) shall prevent any Member or Partner from pursuing commercial activities of its own, outside of the Association (whether alone or through any other legal entity or consortium), including any commercial activity which makes use of software or other products produced by the Association, provided that such Members and Partners comply with the licence conditions attached to such software and products.
+
+<h2 id="rule-2.10">Rule 2.10</h2>
+
+The Association may host multiple concurrent open source software development projects (“**Projects**”) and foster community around each of those projects.
+
+Projects shall be governed according to the procedures defined in the [OpenWIS&reg; Project Governance rules supplement]({{ "/rules2/2016-03-11-OpenWIS-Project-Governance.md" | prepend: site.baseurl }}).
+
+<h2 id="rule-2.11">Rule 2.11</h2>
+
+The term "OpenWIS&reg; software" shall be taken to mean the software deliverables produced by the Projects of the Association.
 
 [previous: TITLE 1]({{ "/rules/1-name-legal-status-and-trademarks.html" | prepend: site.baseurl }}) \| [next: TITLE 3]({{ "/rules/3-registered-office.html" | prepend: site.baseurl }})
