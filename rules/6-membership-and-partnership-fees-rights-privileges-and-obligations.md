@@ -58,7 +58,8 @@ Visibility of the OpenWIS&reg; development roadmap | &#x2713; | &#x2713; | &#x27
 Replies to new feature requests | &#x2713; | &#x2713; | &#x2713; | X
 Access to a sandbox reference implementation | &#x2713; | &#x2713; | &#x2713; | &#x2713;
 Eligible to participate in the Technical Committee subject to qualifying criteria in [Article 14.2]({{ "/articles/articles/14-technical-committee.html#article-14.2" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | &#x2713;
-Eligible to participate in OpenWIS&reg; Project Management Committees, user groups, workshops and conferences | &#x2713; | &#x2713; | &#x2713; | &#x2713;
+Eligible to participate in OpenWIS&reg; Project Management Committees, subject to the demonstration of appropriate skills and/or experience to the Project Leader(s) | &#x2713; | &#x2713; | &#x2713; | &#x2713;
+Eligible to participate in OpenWIS&reg; user groups, workshops and conferences | &#x2713; | &#x2713; | &#x2713; | &#x2713;
 
 <h2 id="rule-6.5">Rule 6.5</h2>
 
