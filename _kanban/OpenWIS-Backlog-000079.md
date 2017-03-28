@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - DDS4 Direct download via HTTP
+title: v4 RET - DDS4 Direct download via HTTP
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 79
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Retrieval
 kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 5

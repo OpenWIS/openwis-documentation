@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - Fix v4.0 harvesting
+title: v4 DIS - Fix v4.0 harvesting
 kanCategory: design
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 61
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Discovery
 kanRelease: 4.2
 kanMetric: 2
 kanSize:

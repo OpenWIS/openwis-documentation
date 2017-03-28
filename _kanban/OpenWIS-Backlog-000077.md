@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - DDS1 Download offer
+title: v4 RET - DDS1 Download offer
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 77
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Retrieval
 kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 3

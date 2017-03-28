@@ -15,7 +15,7 @@ contents : [
 
 The Organization is a legal entity with its proper assets and liabilities, separate from those of its Members, that may be employed and contracted solely for the achievement of the purpose of the Organization as defined in these [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}).
 
-<h2 id="article-21.1">Article 21.1</h2>
+<h2 id="article-21.1">Article 21.2</h2>
 
 No Member may lay claim on the assets of the Organization, nor will any Member be held personally liable for the liabilities contracted by or action brought against the Organization.
 

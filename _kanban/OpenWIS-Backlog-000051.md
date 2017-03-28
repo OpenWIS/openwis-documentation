@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - DM1 Default metadata insertion
+title: v4 DIS - DM1 Default metadata insertion
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 51
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Discovery
 kanRelease: 4.0
 kanMetric: 6.1
 kanSize: 3

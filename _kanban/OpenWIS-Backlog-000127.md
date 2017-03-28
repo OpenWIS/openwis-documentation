@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - Extend the Dissemination Harness.
+title: v4 RET - Extend the Dissemination Harness.
 kanCategory: analyse
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 127
 kanIssue:
 kanPullReq:
-kanFeature: Dissemination options
+kanFeature: Retrieval
 kanRelease:
 kanMetric: 2
 kanSize:

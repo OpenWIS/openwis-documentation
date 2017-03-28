@@ -1,6 +1,6 @@
 ---
 layout: articles
-title: ARTICLE 10&#58; MEMBERSHIP CONTRIBUTIONS, SUBSCRIPTIONS, FEES AND ADDITONAL FINANCE
+title: ARTICLE 10&#58; MEMBERSHIP CONTRIBUTIONS, SUBSCRIPTIONS, FEES AND ADDITIONAL FINANCE
 
 # :contents is an array of two element arrays that defines the menu which appears in the masthead
 # each subarray should be in the form ["anchor-name","clickable title"]

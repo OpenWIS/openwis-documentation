@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - DDS3 Ad-hoc request for delivery
+title: v4 RET - DDS3 Ad-hoc request for delivery
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 50
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Retrieval
 kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 3

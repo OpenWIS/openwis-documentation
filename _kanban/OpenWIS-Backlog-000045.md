@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - MM2 Limit on OAI-PMH metadata harvest response
+title: v4 SYS - MM2 Limit on OAI-PMH metadata harvest response
 kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 45
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: System Admin
 kanRelease: 4.0
 kanMetric: 2.1
 kanSize: 3

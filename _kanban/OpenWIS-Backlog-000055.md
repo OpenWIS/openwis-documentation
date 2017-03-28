@@ -1,21 +1,32 @@
 ---
 layout: backlog
-title: v4 - AAC1 SAML2 authentication
-kanCategory: develop
-kanSubCategory: in-progress
+title: v4 ACC - AAC1 SAML2 authentication
+kanCategory: test
+kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 55
 kanIssue:
-kanPullReq:
-kanFeature: Integrated catalogue
+kanPullReq: 35
+kanFeature: Access
 kanRelease: 4.0
 kanMetric: 3.2
 kanSize: 5
-kanPriority: 1
+kanPriority: 2
 kanRepo: OpenWIS/openwis4
 kanProject:
 ---
 Enhancement AAC1: SAML2 authentication.
+
+Update - GT email - 2017-02-28:
+I just wanted to let you know that I merged a couple of PRs that allow OpenWIS4 to have proper SSO through OpenAM, using the email address as agreed.
+I have also modified the "save user" and "update user" services to validate that the email provided doesn't already exist in the database (emails must be unique as discussed).
+
+I just want to remind you that the user operations (add, update, delete) are not propagated from OpenWIS to OpenAM.
+Modifications to one of them might require manual intervention to the other.
+
+PRs #5, #35, #36
+
+---
 
 Update - scrum - 2017-01-17: GT has set up the direct Spring to OpenAM config and is currently debugging.
 

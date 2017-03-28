@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - Improve the development process
+title: v4 COM - Improve the development process
 kanCategory: analyse
 kanSubCategory: in-progress
 kanAssigned: UKMO
 kanBacklog: 191
 kanIssue:
 kanPullReq:
-kanFeature: Good documentation
+kanFeature: Community
 kanRelease: 4
 kanMetric: 8.1
 kanSize: 5

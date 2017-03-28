@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - MM1 Use of custom metadata file identifier
+title: v4 DIS - MM1 Use of custom metadata file identifier
 kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 40
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: Discovery
 kanRelease: 4.0
 kanMetric: 6.1
 kanSize: 2

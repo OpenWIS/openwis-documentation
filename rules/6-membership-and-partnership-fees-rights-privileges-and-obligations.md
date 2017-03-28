@@ -13,13 +13,16 @@ contents : [
     ["#rule-6.5", "Rule 6.5"],
     ["#rule-6.6", "Rule 6.6"],
     ["#rule-6.7", "Rule 6.7"],
-    ["#rule-6.8", "Rule 6.8"]
+    ["#rule-6.8", "Rule 6.8"],
+    ["#rule-6.9", "Rule 6.9"]
 ]
 ---
 
 <h2 id="rule-6.1">Rule 6.1</h2>
 
 Membership fees, subscriptions and contributions are due from all Members and Partners of the Association, as set down in these [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}).
+
+A **Contributor** is a person contributing to code and/or non-code activities within a Project. Individual Contributors pay no fees or subscriptions. 
 
 <h2 id="rule-6.2">Rule 6.2</h2>
 
@@ -35,26 +38,30 @@ The current fees payable by Members and Partners of the Association are set out 
 **Strategic Partner** | €200,000                                | NIL
 **Associate Partner** | NIL                                     | €10,000 **or** €40,000 for a five year term, at the Partner’s option
 
+An Associate Partner may, by mutual consent with the Association, substitute an agreed in-kind contribution for the Annual Contribution fee of €10,000.
+
 <h2 id="rule-6.4">Rule 6.4</h2>
 
-The rights and privileges afforded to Members, Strategic Partners, and Associate Partners, in return for their fees, shall be as set out in the table below:
+The rights and privileges afforded to Members, Strategic Partners, Associate Partners, and Contributors in return for their fees (where applicable), shall be as set out in the table below:
 
-&nbsp; | **Member** | **Strategic Partner** | **Associate Partner**
------- | ---------- | --------------------- | ---------------------
-Right to appoint a Representative to the Board | &#x2713; | X | X
-Right to appoint a Delegate to the Steering Committee (with vote) | &#x2713; | &#x2713; | X
-Right to attend Steering Committee meetings as an observer (without vote) | X | X | &#x2713;
-Reception of copies of the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}) and [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713;
-Reception of appropriate notice of all meetings of the Association which Member or Partner is eligible to attend | &#x2713; | &#x2713; | &#x2713;
-Information and consultation on an on-going basis about the activities of the Association | &#x2713; | &#x2713; | &#x2713;
-Access to the OpenWIS Software | &#x2713; | &#x2713; | &#x2713;
-Access to documentation and reference implementations | &#x2713; | &#x2713; | &#x2713;
-OpenWIS Community Support | &#x2713; | &#x2713; | &#x2713;
-Visibility of the OpenWIS development roadmap | &#x2713; | &#x2713; | &#x2713;
-Replies to new feature requests | &#x2713; | &#x2713; | &#x2713;
-Access to a sandbox reference implementation | &#x2713; | &#x2713; | &#x2713;
-Eligibility to participate in the Technical Committee (following election by the Steering Committee) | &#x2713; | &#x2713; | &#x2713;
-Eligibility to participate in OpenWIS user groups, workshops and conferences | &#x2713; | &#x2713; | &#x2713;
+&nbsp; | **Member** | **Strategic Partner** | **Associate Partner** | **Contributors**
+------ | ---------- | --------------------- | --------------------- | ----------------
+Right to appoint a Representative to the Board | &#x2713; | X | X | X
+Right to appoint a Delegate to the Steering Committee (with vote) | &#x2713; | &#x2713; | X | X
+Right to attend Steering Committee meetings as an observer (without vote) | X | X | &#x2713; | X
+Right to propose new Projects | &#x2713; | &#x2713; | &#x2713; | X
+Reception of copies of the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}) and [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | &#x2713;
+Reception of appropriate notice of all meetings of the Association which Member or Partner is eligible to attend | &#x2713; | &#x2713; | &#x2713; | X
+Information and consultation on an on-going basis about the activities of the Association | &#x2713; | &#x2713; | &#x2713; | X
+Access to the OpenWIS&reg; software | &#x2713; | &#x2713; | &#x2713; | &#x2713;
+Access to documentation and reference implementations | &#x2713; | &#x2713; | &#x2713; | &#x2713;
+OpenWIS&reg; Community Support | &#x2713; | &#x2713; | &#x2713; | &#x2713;
+Visibility of the OpenWIS&reg; development roadmap | &#x2713; | &#x2713; | &#x2713; | &#x2713;
+Replies to new feature requests | &#x2713; | &#x2713; | &#x2713; | X
+Access to a sandbox reference implementation | &#x2713; | &#x2713; | &#x2713; | &#x2713;
+Eligible to serve on the Technical Committee, subject to qualifying criteria in [Article 14.2]({{ "/articles/articles/14-technical-committee.html#article-14.2" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | &#x2713;
+Eligible to serve on OpenWIS&reg; Project Management Committees, subject to procedures defined in [OpenWIS&reg; Project Governance rules supplement]({{ "/rules2/2016-03-11-OpenWIS-Project-Governance.md" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | &#x2713;
+Eligible to participate in OpenWIS&reg; meetings, user groups, workshops and conferences | &#x2713; | &#x2713; | &#x2713; | &#x2713;
 
 <h2 id="rule-6.5">Rule 6.5</h2>
 
@@ -78,5 +85,9 @@ Members and Partners hold the following obligations towards the Association:
 <h2 id="rule-6.8">Rule 6.8</h2>
 
 Amounts due to the Association must be paid within 30 days of becoming due. In accordance with the Belgian Late Payment Law, interest on amounts overdue by more than 30 days will be charged at 8 percentage points on top of the interest rate applied by the European Central Bank to its most recent main refinancing operation, rounded up to the higher half percentage point.
+
+<h2 id="rule-6.9">Rule 6.9</h2>
+
+Contributors shall comply with the [OpenWIS&reg; Code of Conduct]({{ "/conduct/" | prepend: site.baseurl }}).
 
 [previous: TITLE 5]({{ "/rules/5-relationship-with-organisational-partners.html" | prepend: site.baseurl }}) \| [next: TITLE 7]({{ "/rules/7-management-structure-and-qualification-of-officers.html" | prepend: site.baseurl }})

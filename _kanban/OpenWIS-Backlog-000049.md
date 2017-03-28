@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - ADMIN6 Browse subscriptions
+title: v4 SYS - ADMIN6 Browse subscriptions
 kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 49
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: System Admin
 kanRelease: 4.0
 kanMetric: 5.2
 kanSize: 3

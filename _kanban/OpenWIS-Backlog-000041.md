@@ -1,13 +1,13 @@
 ---
 layout: backlog
-title: v4 - ADMIN1 Blacklisting
+title: v4 SYS - ADMIN1 Blacklisting
 kanCategory: test
 kanSubCategory: pending
 kanAssigned: UKMO
 kanBacklog: 41
 kanIssue:
 kanPullReq:
-kanFeature: Integrated catalogue
+kanFeature: System Admin
 kanRelease: 4.0
 kanMetric: 2.1
 kanSize: 3
