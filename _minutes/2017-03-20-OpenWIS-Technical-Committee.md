@@ -8,23 +8,103 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
 ---
 
 1. **Welcome and introductions**
-    - SO
+    - SO - Welcome everybody.
 2. **Approval of agenda**
-    - SO - Approved
+    - SO - The agenda is approved.
 3. **Declaration of delegates**
-    - PR - Record who is a TC member and who is an observer and any proxies.
-    Benjamin, Michael, Yves, Jean, Remy G, Sungsoo, Baudoin, Matteo, Steve, Mark F, Carrie, Dom, Paul, Nassos, Miko V, Mikko P.
-    WebEx: WQ, DP, LM, GT, Cassie, Mark G
+    - PR - Delegates and attendees are listed at the foot of these minutes.  
+    - PR - Six delegates are present in the room and one delegate is on WebEx; with seven of seven represented, the meeting is quorate.
 4. **Outstanding actions**
-    - PR - Action Tracker
+    - PR - So, just running down the Action Tracker, which lists Actions open at 15th March 2017:
+    - Sep DC-2016-01: LM - Creation of video on the build process
+        - LM - To do.  Tracked [here](https://github.com/OpenWIS/openwis-documentation/issues/149)
+    - Sep DC-2016-05: PR - Have full sponsor’s Legal review CLA agreement and comment
+        - PR - In progress; also on the agenda later. Tracked [here](https://github.com/OpenWIS/openwis-documentation/issues/98)
+    - Sep DC-2016-07: RGr - Administration of Open Mailing list. Probably need to have one administrators of this list
+        - PR - Done, closed.
+    - Sep DC-2016-11: LM - General examination of extended JBOSS capabilities for portals) (Action: Entire Team, led by Leon)
+        - LM - To do. Tracked [here](https://github.com/OpenWIS/openwis-documentation/issues/233)
+    - Sep DC-2016-13: LM - Examination of using GN3 LDAP for user accounts. Work to understand is how to shoehorn user permissions and groups to data as well as metadata, and the application of this to cache.
+        - LM - Covered by the general examination of CGN v3 for OpenWIS v4.  Action closed.
+    - Sep DC-2016-17: MC - Update OpenDJ/OpenAM scripts for deployment
+        - MC - Done, the code was pushed to the dev branch in Dec.  Action closed.  New action to update master branch tracked [here]( https://github.com/OpenWIS/openwis-documentation/issues/151)
+    - Dec TC-2016-59: All - review OpenWIS v4.0 and provide the feedback as GitHub Issues within the OpenWIS4 repository.
+        - DW - Will report on this later on. Action closed.
+    - Sep TC-2016-46: LM - Circulate the url of the portal on Proxmox.
+        - LM - Done, closed.
+    - Jul TC-2016-44: RGr - Will send round an email with the team contact email address.
+        - PR - Done, closed.
+    - Mar TC-2016-25: WQ - TC to set a task to develop on-boarding docs set for developers.
+        - LM - Pretty much done except for the architecture docs.  Action closed.  New action for architecture docs tracked [here]( https://github.com/OpenWIS/openwis-documentation/issues/152)
+    - Mar TC-2016-23: JT - Include the requirement for the Security Service to control data access in the Data Policy workpackage.
+        - PR - Covered by the general examination of CGN v3 for OpenWIS v4.  Action closed.
+    - Mar TC-2016-22: RGr - Create a work package to review Data Policy and Access Control implications in detail.
+        - PR - Probably still need this - tracked [here](https://github.com/OpenWIS/openwis-documentation/issues/234)
+    - Mar TC-2016-21: RGb - Investigate how to link the data policy in the metadata with the assignment of GeoNetwork privileges.
+        - RGb - Covered by the general examination of CGN v3 for OpenWIS v4.  Action closed.
+    - Mar TC-2016-20: JT - Create a work package for WMO metadata guidance templates.
+        - PR - To do.  Tracked [here](https://github.com/OpenWIS/openwis-documentation/issues/150)
+    - Mar TC-2016-18: JT - Create work package on UI improvement for bulk subs.
+        - PR - Bulk subscriptions is one of the hot issues we expect to resolve using the Overlay approach, so we'll specify a requirement when we do that work.  Action closed.
+    - Mar TC-2016-15: RGb - draft a User Story for the User Portal subscription process.
+        - PR - Action closed, for same reason as action 18 above.
+    - Mar TC-2016-13: WQ - document the design pattern policy; still deploy to wildfly in short/medium term.
+        - LM - There is an issue here; Java 8 won't work with JBOSS 7.  Pass action to LM.  Now tracked [here](https://github.com/OpenWIS/openwis-documentation/issues/235)
+
 5. **Retrospective (past year)**
-    1. LM - [OpenWIS Retrospective](https://docs.google.com/presentation/d/1ymCkRa-0elUnMYOJhztjJu-k4-SqhqPH8-d8lt58v_Q/edit?usp=sharing​)
+    1. LM presented this summary of the work over the past year: [OpenWIS Retrospective](https://docs.google.com/presentation/d/1ymCkRa-0elUnMYOJhztjJu-k4-SqhqPH8-d8lt58v_Q/edit?usp=sharing​)
+    2. LM presented the results of an online survey he ran within the OpenWIS community: [OpenWIS Survey]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWIS_Retrospective_Survey.pdf)
+    3. LM - From the survey results it is clear that the time it takes to rollout or install is considered by most to be a serious issue.
+    4. MF - Regarding the check on compliance with the Technical Specifications (1.0), during the Developer Conference - how was that check done?
+        1. LM - We did a theoretical comparison of the technical regulations with the expected features of OpenWISv4.  It looked good in that we didn't find anything we thought would be a major non-compliance.
 6. **Current development planning (coming year)**
     1. **OpenWIS4**
-        1. NM - [Progress to date]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Progress-to-date.pdf)
-        2. NM - [Overlay Approach]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Overlay-approach.pdf); what is it and why do we need it?
-        3. NM - [Skills and training]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Skills-and-training.pdf) - how will we transfer skills in the Overlay Approach?
-        4. PR - Developer Conference - when and where is best to embed Overlay Approach skills?
+        1. NM presented this summary of the work on OpenWIS4: [Progress to date]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Progress-to-date-v2.pdf)
+            1. NM - we are in the process of releasing v3.14.8, but we ran into a problem with the ForgeRock open source repository - they have closed it!  This means we can't build v3.14.8 until we put the artefacts we were getting from there somewhere accessible.  The situation with ForgeRock is strange - it raises the question whether we want to continue using ForgeRock open source.
+            2. SO - Regarding the testing referred to on slide 5, I assume that's for the build; are there plans to run audit tests?
+                1. NM - We have not discussed that yet.  We will need a full set of tests for future releases, unit tests and everything else.
+            3. SO - How much attention do we want to pay to SAML? If we envision the use of SAML for individual users, we may want to discuss that here this week.
+                1. NM - GT has worked on that.  We have the choice of using an external SAML provider or using the internal security in CGN.
+            4. SO - What about automated installation?
+                1. NM - We have used Puppet for these instances.  
+                2. BR - Only for the development environment?
+                3. NM - We have cleaned up the Puppet scripts we use for the Vagrant installs; now you can use them on VMware or on bare metal.  I wouldn't say they were production quality scripts, but they're good enough for serious testing.
+                4. SO - That's good; we use Puppet for our operations.  If there is interest from other operations centres then we can share those.
+                5. NM - If there is interest in operational Puppet scripts then we can make those too.
+                6. KS - Are ECMWF using Puppet?
+                7. BR - Yes, we are moving to Puppet.
+                8. SO - By using Puppet, we have deployment down to a couple hours.
+                9. NM - We have put instructions on the wiki about how to use Puppet for VM and non-VM installations.
+        2. GT presented: [Overlay Approach]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Overlay-approach.pdf); what is it and why do we need it?
+            1. GT - So, the Overlay approach adds a little more complexity at the start, because you have to learn to use the method that applies to each kind of plug-in you want to make, but, it gives you independence from whatever GeoNetwork may do, unless they make a major change.  Even then, we just have to adapt our approach.
+            2. SO - This is repeatable, scalable and flexible?
+                1. NM - Yes.
+            3. SO - Have we investigated how receptive the CGN community are to our changes?
+                1. NM - Well, we fixed a small bug and the pull-request took 2 and a half months to be accepted.  So, contributing our features could be long and complex. For any major contribution, we would have to agree with them in advance that they want it.
+                2. GT - Loose coupling would be best for OpenWIS; it would also be best for CGN.  We could contribute the whole approach to CGN.  It gives anyone flexibility in contributing back to them.  But, it all depends on what they want to do; we should discuss that with them.
+                3. NM - So we need a background communications channel if we work in their code.  While it would be useful, we don't depend on that communications channel if we use the Overlay approach; we release as often as we want without CGN approval.
+                4. GT - So far, we have added the plug-in mechanism, as well as the features that GeoCat worked on before.  It would be better if we were able to plug-in directly, but CGN has no hooks, it was not designed to work that way. We could contribute some glue code, but we would need to contact them about that.  We could also contribute some features they do not have, like subscriptions.
+            4. Are there any compatibility issues with the Overlay approach?
+                1. NM - As long as the plug-in places don't change we don't have any compatibility issues.  If they removed a major feature, say the entire Admin Menu, then our code would break and we would have to fix it. But, we would only have to fix that part.  We are as independent as it is possible to be.
+        3. NM presented: [Skills and training]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Skills-and-training.pdf) - how will we transfer skills in the Overlay Approach?
+            1. NM - So its a mixture of skills; there is some legacy technology left hanging around in CGN as well as some newer technology.  This is expected of a 10 year old project.  A lot of it is XML based.
+                1. SO - What schemas are supported out of the box?
+                2. NM - This XML refers to component configuration rather than for metadata. Wro4j also uses XML.
+                3. SO - Is there support to change that through plug-ins?
+                4. NM - No need to do that, just change the XML.
+            2. NM - We have made plug-in examples of all the components we could think of; there may be a few others.
+            3. RGr - Is it possible to disable SSO?
+                1. NM - OpenWIS v4 does not use SSO by default; you have to enable SSO if you want it.  You can do that, but CGN will not create new users in your SSO.  CGN has built-in security that you can use out of the box.  If you are currently using SSO then you might need a way to port your User accounts from your v3 SSO to the v4 CGN database.
+        4. Developer Conference - when and where is best to embed Overlay Approach skills?
+            1. PR - Can we just take a poll of how many coders each organisation is likely to have who will need training in the Overlay approach:
+                - KMA = 1
+                - MF = 2/3
+                - MFI = 1
+                - FMI = 1
+                - ECMWF = 1
+                - NWS = 2/3
+                - BoM = 2
+            2. PR - Ok, what we thought is that we could do some WebEx training first, so that GT can take small groups through the approach and get people started.  Then later, if further consolidation is required, we could arrange a Developer Conference.
         5. DW - GeoNetwork3 features relevant to OpenWIS4; including demo of Core GeoNetwork 3.2 and OpenWIS 4.0 - [powerpoint]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pptx)/[pdf]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pdf)
             - [GeoNetwork 3.2.1](http://cgn-original.eurodyn.com:8080/geonetwork)
             - [OpenWIS 4 (using GeoNetwork 3.2.1)](http://cgn-openwis.eurodyn.com/geonetwork)
@@ -81,3 +161,30 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
     1. JT - WIS 2.0 Status Update
 15. **AOB**
 16. **Summary for SC**
+
+---
+
+#### Participants
+- SO - Steve Olson, National Weather Service, United States of America [NWS], [delegate], Chair
+- WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM], [delegate], (WebEx)
+- SD - Sungsoo Do, Korea Meteorological Administration, Republic of Korea [KMA], [delegate]
+- MC - Michael Claudon, Meteo-France, France [MF], [delegate]
+- RGb - Remy Gibault, Meteo-France International [MFI], [delegate]
+- MP - Mikko Partio, Finnish Meteorological Institute [FMI], [delegate]
+- JT - Jeremy Tandy, Met Office, UK [UKMO], [delegate]
+- KS - Kari Sheets, National Weather Service, United States of America [NWS]
+- MG - Marc Giannoni, National Weather Service, United States of America [NWS], (WebEx)
+- CS - Cassie Stearns, National Weather Service, United States of America [NWS] (WebEx)
+- LM - Leon Mika, Bureau of Meteorology, Australia [BoM], (WebEx)
+- BS - Benjamin Saclier, Meteo-France, France [MF]
+- YG - Yves Goupil, Meteo-France, France [MF]
+- JMD - Jean Marie Dumas, Meteo-France, France [MF]
+- RGr - Remy Giraud, Meteo-France, France [MF]
+- MV - Mikko Visa, Finnish Meteorological Institute [FMI]
+- BR - Baudouin Raoult, European Centre for Medium Range Weather Forecasting [ECMWF]
+- PR - Paul Rogers, Met Office, UK [UKMO]
+- MF - Mark Francis, Met Office, UK [UKMO]
+- DW - Dominic Woollatt, Met Office, UK [UKMO]
+- NM - Nassos Michas, European Dynamics, [UKMO]
+- GT - Giorgios Triantafyllidis, European Dynamics, [UKMO], (WebEx)
+- NM - Dimitris Papadeas, European Dynamics, [UKMO], (WebEx)
