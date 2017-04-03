@@ -17,17 +17,18 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
 4. **Outstanding actions**
     - PR - So, just running down the Action Tracker, which lists Actions open at 15th March 2017:
     - Sep DC-2016-01: LM - Creation of video on the build process
-        - LM - To do.  Tracked [here](https://github.com/OpenWIS/openwis-documentation/issues/149)
+        - LM - To do: [Action-DC-2016-01-Build process video](https://github.com/OpenWIS/openwis-documentation/issues/149)
     - Sep DC-2016-05: PR - Have full sponsor’s Legal review CLA agreement and comment
-        - PR - In progress; also on the agenda later. Tracked [here](https://github.com/OpenWIS/openwis-documentation/issues/98)
+        - PR - In progress: [review of CLA, form and process](https://github.com/OpenWIS/openwis-documentation/issues/98)
     - Sep DC-2016-07: RGr - Administration of Open Mailing list. Probably need to have one administrators of this list
         - PR - Done, closed.
     - Sep DC-2016-11: LM - General examination of extended JBOSS capabilities for portals) (Action: Entire Team, led by Leon)
-        - LM - To do. Tracked [here](https://github.com/OpenWIS/openwis-documentation/issues/233)
+        - LM - To do: [Action-DC-2016-11 JBOSS Capabilities](https://github.com/OpenWIS/openwis-documentation/issues/233)
     - Sep DC-2016-13: LM - Examination of using GN3 LDAP for user accounts. Work to understand is how to shoehorn user permissions and groups to data as well as metadata, and the application of this to cache.
         - LM - Covered by the general examination of CGN v3 for OpenWIS v4.  Action closed.
     - Sep DC-2016-17: MC - Update OpenDJ/OpenAM scripts for deployment
-        - MC - Done, the code was pushed to the dev branch in Dec.  Action closed.  New action to update master branch tracked [here]( https://github.com/OpenWIS/openwis-documentation/issues/151)
+        - MC - Done, the code was pushed to the dev branch in Dec.  Action closed.
+        - PR - New: [Action-TC-2017-01 Merge OpenAM/DJ changes to master]( https://github.com/OpenWIS/openwis-documentation/issues/151)
     - Dec TC-2016-59: All - review OpenWIS v4.0 and provide the feedback as GitHub Issues within the OpenWIS4 repository.
         - DW - Will report on this later on. Action closed.
     - Sep TC-2016-46: LM - Circulate the url of the portal on Proxmox.
@@ -35,21 +36,22 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
     - Jul TC-2016-44: RGr - Will send round an email with the team contact email address.
         - PR - Done, closed.
     - Mar TC-2016-25: WQ - TC to set a task to develop on-boarding docs set for developers.
-        - LM - Pretty much done except for the architecture docs.  Action closed.  New action for architecture docs tracked [here]( https://github.com/OpenWIS/openwis-documentation/issues/152)
+        - LM - Pretty much done except for the architecture docs.  Action closed.
+        - LM - New: [Action-TC-2017-02 Architecture docs]( https://github.com/OpenWIS/openwis-documentation/issues/152)
     - Mar TC-2016-23: JT - Include the requirement for the Security Service to control data access in the Data Policy workpackage.
         - PR - Covered by the general examination of CGN v3 for OpenWIS v4.  Action closed.
     - Mar TC-2016-22: RGr - Create a work package to review Data Policy and Access Control implications in detail.
-        - PR - Probably still need this - tracked [here](https://github.com/OpenWIS/openwis-documentation/issues/234)
+        - MC - To do: [Action-TC-2016-22 Review Data Policy and Access Control](https://github.com/OpenWIS/openwis-documentation/issues/234)
     - Mar TC-2016-21: RGb - Investigate how to link the data policy in the metadata with the assignment of GeoNetwork privileges.
         - RGb - Covered by the general examination of CGN v3 for OpenWIS v4.  Action closed.
     - Mar TC-2016-20: JT - Create a work package for WMO metadata guidance templates.
-        - PR - To do.  Tracked [here](https://github.com/OpenWIS/openwis-documentation/issues/150)
+        - JT - To do: [Action-TC-2016-20 WMO metadata guidance](https://github.com/OpenWIS/openwis-documentation/issues/150)
     - Mar TC-2016-18: JT - Create work package on UI improvement for bulk subs.
         - PR - Bulk subscriptions is one of the hot issues we expect to resolve using the Overlay approach, so we'll specify a requirement when we do that work.  Action closed.
     - Mar TC-2016-15: RGb - draft a User Story for the User Portal subscription process.
         - PR - Action closed, for same reason as action 18 above.
     - Mar TC-2016-13: WQ - document the design pattern policy; still deploy to wildfly in short/medium term.
-        - LM - There is an issue here; Java 8 won't work with JBOSS 7.  Pass action to LM.  Now tracked [here](https://github.com/OpenWIS/openwis-documentation/issues/235)
+        - LM - There is an issue here; Java 8 won't work with JBOSS 7.  Pass action to LM: [Action-TC-2016-13 Investigate Wildfly](https://github.com/OpenWIS/openwis-documentation/issues/235)
 
 5. **Retrospective (past year)**
     1. LM presented this summary of the work over the past year: [OpenWIS Retrospective](https://docs.google.com/presentation/d/1ymCkRa-0elUnMYOJhztjJu-k4-SqhqPH8-d8lt58v_Q/edit?usp=sharing​)
@@ -105,10 +107,86 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
                 - NWS = 2/3
                 - BoM = 2
             2. PR - Ok, what we thought is that we could do some WebEx training first, so that GT can take small groups through the approach and get people started.  Then later, if further consolidation is required, we could arrange a Developer Conference.
-        5. DW - GeoNetwork3 features relevant to OpenWIS4; including demo of Core GeoNetwork 3.2 and OpenWIS 4.0 - [powerpoint]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pptx)/[pdf]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pdf)
+        5. GeoNetwork3 features relevant to OpenWIS4
+            1. DW presented the following analysis of GeoNetwork v3.2.1 and OpenWIS v4.0: [powerpoint]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pptx)/[pdf]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pdf); additional discussions about each slide are captured below:
+                1. **Home Page**
+                    1. DW - The main question I would raise here is whether we need the Admin and User portals to be separate; something to think about.
+                2. **Search Page**
+                    1. DW - The keywords you see here are extracted from the metadata.
+                    2. DW - GeoNetwork has built pseudo parent/child metadata.
+                    3. DW - The keywords can be used to narrow your search, better than we can in v3.14.
+                    4. DW - There are more map search options in v3.14; but do we need them all?  There is no Lat/Long search, which would be useful, I think, so we might need to develop that.
+                    5. DW - The documentation for GeoNetwork v3 isn't finished yet and is poor in places, or even misleading, because it is still the old v2 documentation.
+                    6. SO - Does the left hand column show all the metadata you put in, or is that configurable?
+                    7. DW - Don't know. It's all from your metadata, Geonetwork seems to recognise what it can use; perhaps it works it out from the ISO schema?
+                    8. BR - Have you loaded the whole catalog?
+                    9. DW - No, just a few.
+                    10. BR - If you load more, will the left hand side explode?
+                    11. DW - There seems to be a limit of 25 per heading; but that's no good to us, maybe it is configurable.
+                    12. BR - Looking at the keywords, it looks random.
+                    13. DW - Perhaps it needs work with our metadata; we could get rid of this tool, but I found it useful.
+                    14. MG - How many levels to the parent/child relations go?
+                    15. DW - It's not really parent/child; it's just grabbed headings from the metadata.
+                    16. MG - Lucene flattens the metadata out, so you lose structure.
+                    17. DW - There is no parent/child in the WMO metadata.
+                    18. BS - Can we configure this?
+                    19. DW - Nothing in the documentation to say whether we can or not. GeoNetwork acknowledge that the documentation is incomplete. We may find some information on their forum; might be best if we raise a list of questions on there.
+                    20. DW - The initial metadata view is a cut-down version; it can be expanded, but it is useful for a quick check that you have the thing.
+                    21. DW - The _subscribe_ button is part of the OpenWIS4 overlay.
+                    22. DW - the other display icons, such as the social sharing buttons, may be useful, or we can remove them.  No other GISC will have them so maybe hide them.
+                    23. SO - Are subscriptions _push_ or _pull_?
+                    24. DW - Depends how your Harness works; we would use _push_ through our Message Switch. That bit isn't working yet, there is no data in the data cache.  Note that _provided-by:_ is missing; it would be useful to add that.
+                    25. BR - Unless it's from the OAI-PMH source.
+                    26. DW - Maybe.
+                    27. **View Metadata**
+                        1. DW - Nice _dataset_ and _climat_ icons.
+                        2. DW - Icons built from keywords and topics.
+                    28. **Metadata Options**
+                        1. DW - It's not clear how _owners_ and _groups_ work when managing metadata.
+                        2. DW - You can create a child group, but that wouldn't work for other GISCs.  This is why we need parent/child in the WMO metadata model. WE should switch that feature off until we have that.
+                        3. DW - Can transfer ownership eg: _institutional_.
+                3. **Admin Page**
+                    1. DW - The summary on the right hand side is similar to OpenWISv3 but it is broken down further.
+                    2. DW - Groups, roles and privileges are similar to how it was before, though now a user can be a member of more than one group. But, lining this up with harvesting doesn't work well.
+                    3. BS - Is it possible to associate and editor with a specific group of metadata?
+                    4. DW - Yes, but on the GISC all metadata belongs to a single group: _institutional_. Could be useful for a DCPC.
+                    5. BS - But any user can upload to any group, not just their own?
+                    6. DW - Not tried that, we'll need to test.
+                    7. **Groups**
+                        1. DW - In GeoNetworkv3.2.1 and OpenWISv4.0, groups cover metadata, not access to the data itself.
+                        2. DW - A user has to be in the group to see the metadata.
+                        3. DW - You can subscribe to the data but you have to get your privileges uplifted manually to get the data. Maybe AKKA put something in to cover this; if so we need to add that.
+                        4. DW - There are no overall group privileges like in v3.14.
+                    8. **Privileges**
+                        1. DW - There is a difference between metadata and data access privileges.
+                        2. DW - Privileges are now assigned to groups rather than users, which causes issues with sync.
+                        3. DW - We want everyone to discover metadata but not necessarily have access to the data.
+                        4. PR -Where are the data access policies in v3.14?
+                        5. DW - Data Services?
+                        6. PR - So we need to migrate the v3.14 Data Services to OpenWISv4.
+                        7. SO - Various ways we could do this, eg: assign to LDAP.
+                        8. DW - Managing the metadata in groups makes sense, but we need the functionality that AKKA added into GeoNetworkv2 in OpenWISv4.
+                        9. RGb - Metadata visibility; how is this affected?
+                        10. DW - If you assign metadata to a group that none of the users are in, none of them will see the metadata.
+                    9. **Roles**
+                        1. DW - Helpful for DCPCs; if they used the _metadata-portal_, then the GISC could approve before publication and the metadata only gets displayed when it is ready.
+                    10. **Blacklisting**
+                        1. DW - This function is added via the overlay technique.
+                        2. DW - I've never seen the point of Blacklisting. If users have access to the whole catalog, then they have access to the whole cache. Yes, that is a lot of data, but isn't the point that if they are allowed access to the data then they are allowed to get it. We might discuss this during the workshop later.
+                        3. BS - We use it to prevent a user getting too much data.
+                        4. DW - Aren't customers allowed to subscribe to whatever they discover? We'll debate this later.
+                            - DW/BS/SO: [Action-TC-2017-03 Blacklisting](https://github.com/OpenWIS/openwis-documentation/issues/153)
+                    11. **Users**
+                        1. DW - There are more fields we can fill in, but also some missing, such as _class of service_ and _favorites_; do we need these?
+                    12. **Managing Categories**
+                        1. DW - The way GeoNetworkv3 does this is not the way we currently work; we do it by GISCs, but they want it broken down by datasets.
+                        2. DW - Categories can have a logo; could we use them for GISCs?
+                        3. DW - Though the UI looks different, it works in a similar way to the old one.
+                    13. 
+
             - [GeoNetwork 3.2.1](http://cgn-original.eurodyn.com:8080/geonetwork)
             - [OpenWIS 4 (using GeoNetwork 3.2.1)](http://cgn-openwis.eurodyn.com/geonetwork)
-            - (see George's email for credentials)
+            - (The credentials required to log into these instances are available from GT)
         6. XX - Compliance of OpenWIS4 to WIS Technical Regulations
     2. **Development process for OpenWIS4**
         1. XX - Engagement with the Core GeoNetwork Community
