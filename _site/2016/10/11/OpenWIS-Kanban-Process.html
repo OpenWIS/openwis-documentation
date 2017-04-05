@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Kanban process for OpenWIS</title>
+  <meta name="description" content="Introduction">
+
+
+  <link rel="canonical" href="http://openwis.github.io/openwis-documentation/2016/10/11/OpenWIS-Kanban-Process.html">
+  <link rel="alternate" type="application/rss+xml" title="OpenWIS Association AISBL" href="http://openwis.github.io/openwis-documentation/feed.xml">
+  <link rel="stylesheet" href="/openwis-documentation/css/main.css">
+  <link rel="shortcut icon" href="/openwis-documentation/favicon.ico?r=31241">
+  <link rel="icon" href="/openwis-documentation/favicon.ico?r=31241">
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <div class="site-banner"><span class="site-title"><img src="http://openwis.io/cms/images/openwis.jpg" alt="OpenWIS®" style="max-height:40px; width:auto"/><a href="/openwis-documentation/">OpenWIS Association AISBL</a></span></div>
+
+
+    <nav class="site-nav">
+      <div class="trigger">
+	 <a class="page-link" href="/openwis-documentation/">Home</a>      
+         <div class="page-link">
+            <ul class="dropdown"><label for="a1"><a href="/about/">Association</a></label><input id="a1" type="checkbox">
+                  <li><a href="/openwis-documentation/structure/members.html">Members</a></li>
+	          <li><a href="/openwis-documentation/structure/governance.html">Governance</a></li>
+                  <li><a href="/openwis-documentation/articles/">Articles of Association</a></li>
+                  <li><a href="/openwis-documentation/rules/">Internal Rules</a></li>
+                  <li><a href="/openwis-documentation/conduct/">Code of Conduct</a></li> 
+                  <li><a href="/openwis-documentation/tr/">Technical Rules</a></li>
+		  <li><a href="/openwis-documentation/rules2/">Rules Supplements</a></li>
+                  <li><a href="/openwis-documentation/minutes/">Meetings Minutes and Notes</a></li> 
+                  <li><a href="/openwis-documentation/metrics/">Goals</a></li> 
+            </ul>
+         </div>
+         <div class="page-link">
+            <ul class="dropdown"><label for="p1"><a href="/projects/">Projects</a></label><input id="p1" type="checkbox">
+               <li><ul class="dropdown"><label for="p21"><a href="/openwis-documentation/projects/openwis/">OpenWIS</a></label><input id="p21" type="checkbox">
+		     <li><a href="/openwis-documentation/backlog/">Backlog</a></li>
+                     <li><a href="/openwis-documentation/kanban/">Kanban</a></li>
+		     <li><a href="https://openwis.github.io/openwis" target="_blank">Github Development*</a></li>
+                     <li><a href="https://github.com/OpenWIS/openwis" target="_blank">Github Repository*</a><li>
+                     <li><a href="https://github.com/OpenWIS/openwis/wiki" target="_blank">Wiki*</a></li>
+                     <li><a href="/openwis-documentation/projects/openwis/#download">Download</a></li>
+               </ul></li>
+               <li class="no-link">Python Metadata Tool</li>
+            </ul>
+         </div>
+         <a class="page-link" href="mailto:contact@openwis.io">Contact</a>
+         <div class="page-link">
+            <ul class="dropdown"><label for="i1">Get Involved</label><input id="i1" type="checkbox">
+                <li><a href="/openwis-documentation/structure/steering-committee.html">Steering Committee</a></li>
+                <li><a href="/openwis-documentation/structure/technical-committee.html">Technical Committee</a></li>
+                <li class="no-link">Developers</li>
+		<li><a href="/openwis-documentation/howto/">How-to Instructions</a></li>
+                <li><a href="/openwis-documentation/posts/">Github Posts Archive</a></li>
+		<li><a href="https://www.openwis.io/cms/forum" target="_blank">Forum*</a></li>
+            </ul>
+         </div>          
+         
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+	<header class="post-header">
+		<h1 class="post-title">The Kanban process for OpenWIS</h1>
+	</header>
+
+	<div class="post-content">
+		<h2 id="introduction">Introduction</h2>
+
+<p>There are a number of agile development methodologies, Kanban being one of them.  Kanban is a set of principles that can be implemented in different ways and tailored to particular situations.  This is a proposal for how the OpenWIS Association AISBL could improve its development processes by adopting Kanban-style procedures into its existing development and governance arrangements.</p>
+
+<p>But before we describe how we might do that, let’s think about what the OpenWIS Association development process is and what it is trying to achieve.</p>
+
+<h2 id="user-story-for-the-development-process">User story for the development process</h2>
+
+<ul>
+  <li><strong>As</strong> a non-profit association whose purpose is ‘to facilitate collaboration on the development, promotion and sharing of open source software for the exchange of global meteorological information’  <a href="http://openwis.github.io/openwis-documentation/articles/2-purpose.html">article 2.1</a></li>
+  <li><strong>We</strong> want a development process that, with limited resources, boosts collaboration and expedites the regular delivery of quality software</li>
+  <li><strong>So that</strong> all interested parties can exchange global meteorological information as effectively and as efficiently as possible.</li>
+</ul>
+
+<p>To do this, the OpenWIS Association is running a development programme.  This programme has been running for years and is expected to continue into the future, for so long as the Association retains the objectives above and is succeeding in meeting them through this vehicle. At present this programme develops one key product, OpenWIS Core, but has aspirations to develop others that fit with the purpose of the Association. The Association takes strategic direction from a global WMO programme (WIS) that is itself still unfolding and that is expected to continue into the foreseeable future.  Further strategic direction may come from other WMO programmes.</p>
+
+<p>The OpenWIS Association development programme has run a number of projects over the years to initially develop and then refine the OpenWIS Core software, the last being the upgrade to OpenWIS v3.14 and the next being the re-architecture to OpenWIS v4. There have also been side-projects, such as the project within the UK Met Office to more fully automate the deployment of OpenWIS v3.14 and product extensions such as the project within Australian Bureau of Meteorology to provide WIS Monitoring for OpenWIS Core.</p>
+
+<p>So, the OpenWIS Association is running an ongoing software development programme consisting of a stream of projects and releases.  Most of the new requirements are improvements to the existing product requested by the Users, or come from the evolving WIS strategic programme, or are new technology opportunities.</p>
+
+<p>The modern way to manage such an activity is by using an agile development methodology.  The agile development methodology that fits well with a continuous improvement programme where workflow is constrained is - Kanban.</p>
+
+<h2 id="proposed-kanban-process-overview">Proposed Kanban process overview</h2>
+
+<h3 id="backlog---product-backlog">Backlog - product-backlog</h3>
+
+<p>Initially, all new requirements, feature requests and issues should be added to a product-backlog.  Now since OpenWIS Association is running a programme that includes multiple products and projects, we’ll just call it the <em>Backlog</em> and put every new idea etc in there.  Then we can decide later whether a new idea is worthy of a project in its own right, is a completely new product or how it fits with existing products and projects.</p>
+
+<p>There are instructions below on how to add a new item to the Backlog.  The main thing is to provide information about the idea that will allow it to be assessed by the Technical Committee.  If this information is accessible elsewhere then just link to it from the Backlog item.  This is often the case with something that has arisen as a result of an issue on GitHub.</p>
+
+<h3 id="kanban---release-backlog">Kanban - release-backlog</h3>
+
+<p>From time to time, the Technical Committee will review the Backlog and decide which ideas should be taken forward to the next release.  This always happens at least once a year at the Annual Meeting of the OpenWIS Association.  The ideas to be taken forward will be moved to the Kanban Board, which is effectively the release-backlog.  Once an item is on the Kanban Board then contributors can volunteer to undertake the related tasks.  Often, this will involve going through a development lifecycle, so the Kanban Board categories describe our preferred cycle:</p>
+
+<ul>
+  <li>analyse</li>
+  <li>design</li>
+  <li>develop</li>
+  <li>code review</li>
+  <li>test</li>
+  <li>test review</li>
+  <li>release</li>
+  <li>done</li>
+</ul>
+
+<p>The other key feature of a Kanban Board is that we set a limit on how many things we try to do at once.  It might sound as if this slows down progress, but actually it has the opposite effect; real progress, ie: valuable improvements getting delivered, is speeded up, because we focus on finishing things before we start something else.  We also avoid the complexity overload that can come with too many things changing at once, which improves quality.</p>
+
+<p>For relatively simple items, the progress can be tracked by just updating the status of the items on the Kanban Board as they move through the cycle.</p>
+
+<h3 id="project---sprint-backlog">Project - sprint-backlog</h3>
+
+<p>However, most software development of a sophisticated product like OpenWIS Core is not simple, so we need to track progress at a lower level of granularity.  For example, say we have an item in <em>analyse</em> and as we do the analysis we find that the item breaks down into a number of sub-tasks that involve some design and some development.  What we do then is we break the work down into <em>sprints</em> and we track progress within each sprint using GitHub projects for each.  In effect, we assign the sub-tasks to sprint-backlogs and then work through those, iterating through the work in a controlled way at a lower level.  When the sprint-backlog work is complete we pop back up a level to the Kanban Board to continue the development cycle for the release.</p>
+
+<p>So, by using this approach, we will be able to easily share with each other what progress we are making, where we might work on things together, provide help etc.</p>
+
+<h2 id="backlog-items">Backlog items</h2>
+
+<p>New Backlog items should be saved as individual Markdown files into the folder <em>OpenWIS/openwis-documentation/_backlog/</em>.  The filename format is: <em>OpenWIS-Backlog-nnnnnn.md</em>, where <em>nnnnnn</em> is the 6 digit item number with explicit leading zeros; so Backlog item 60 has the filename <em>OpenWIS-Backlog-000060.md</em>.  Markdown is a plain text format; be sure to use a plain text editor to create the files because word processors introduce spurious characters that can crash the gh-pages processor or lead to formatting errors in the html output.</p>
+
+<h3 id="leading-block-yaml">Leading block: yaml</h3>
+
+<p>Internally, the file consists of a leading block of yaml, followed by the Markdown.  The yaml block must be the first thing in the file. The two lines of 3 dashes that frame the yaml are required.  For example:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>---
+layout: backlog
+title: Remove PostgresSQL JDBC driver jar dependencies
+kanCategory: backlog
+kanSubCategory:
+kanAssigned: UKMO
+kanBacklog: 38
+kanIssue: 74
+kanPullReq:
+kanFeature: Integrated catalogue
+kanRelease: 4.1
+kanMetric: 1.2
+kanSize: 1
+kanPriority: 7
+kanRepo: OpenWIS/openwis
+kanProject:
+---
+</code></pre>
+</div>
+
+<p>This yaml block defines metadata about the Backlog item.  Fill out the metadata as follows:</p>
+
+<ul>
+  <li><strong>layout:</strong> is always <strong>backlog</strong>; it defines the html layout for the pages that show Backlog items.   Example - <strong>layout: backlog</strong></li>
+  <li><strong>title:</strong> is the title you give to the Backlog item.  It is displayed on the Backlog index page and as the title of the Backlog page and browser tab.   Example - <strong>title: My awesome new feature</strong></li>
+  <li><strong>kanCategory:</strong> is always <strong>backlog</strong> for a Backlog item; it only changes to something else when the item gets moved to the Kanban Board (see below).   Example - <strong>kanCategory: backlog</strong></li>
+  <li><strong>kanSubCategory:</strong> is almost always left blank for a new Backlog item.  However, it can be one of the following:
+    <ul>
+      <li>new project: for a Backlog item that will be a project in its own right,</li>
+      <li>urgent: use this to draw attention to a new item that is, well, urgent!</li>
+      <li>in-progress: shouldn’t normally be applied to a new Backlog item, but has cropped up when transferring items from our old spreadsheet,</li>
+      <li>merge: again, shouldn’t normally be applied to a new Backlog item, but has cropped up when transferring items from our old spreadsheet that appear to be duplicates,</li>
+      <li>won’t do: again, shouldn’t normally be applied to a new Backlog item, but has/might crop up when reviewing the Backlog.</li>
+      <li>Example - <strong>kanSubCategory: new project</strong></li>
+    </ul>
+  </li>
+  <li><strong>kanAssigned:</strong> initials of person, group or organisation assigned to the task, can be left blank.   Example - <strong>kanAssigned: KMA</strong></li>
+  <li><strong>kanBacklog:</strong> next free item number, same as nnnnnn in the filename, but without the leading zeroes. Check both the <em>/_backlog/</em> and <em>/_kanban/</em> folders for the highest number used so far, then increment.   Example - <strong>kanBacklog: 177</strong></li>
+  <li><strong>kanIssue:</strong> issue number on GitHub for the one most relevant issue, can be left blank. Example - <strong>kanIssue: 46</strong></li>
+  <li><strong>kanPullReq:</strong> pull request number on GitHub for the one most relevant pull request, can be left blank.   Example - <strong>kanPullReq: 5</strong></li>
+  <li><strong>kanFeature:</strong> leave blank for now.</li>
+  <li><strong>kanRelease:</strong> target release number, can be left blank.   Example - <strong>kanRelease: 4.2</strong></li>
+  <li><strong>kanMetric:</strong> goal.metric eg: 2.1 for goal 2, metric 1.  Or, just 2 for goal 2.  Can be left blank, but all Backlog items should relate to our goals somehow.   Example - <strong>kanMetric: 3.2</strong></li>
+  <li><strong>kanSize:</strong> estimate of task size, for initial planning purposes, using the rough measure of 1 point for every 10 days effort. Can be left blank. Example - <strong>kanSize: 1</strong></li>
+  <li><strong>kanPriority:</strong> task priority - one of: 6, 7, 8, 9, 10, where 6=very-high;  7=high; 8=medium; 9=low; 10=very-low.   <strong>Do not leave blank</strong> because this is what the Backlog list is grouped by. Note that task priorities 1 to 5 are reserved for items on the Kanban Board; this is explained later. The priority you set here in the Backlog will be used to inform Technical Committee discussions about which tasks should be promoted to the Kanban Board, which is where the tasks we intend to work on in the near future are put. During that discussion, you will have to justify why you assigned a particular priority, so it would be useful to add this justification or supporting evidence to the Backlog item body text, especially for priorities 6-very-high and 7-high. Example - <strong>kanPriority: 8</strong></li>
+  <li><strong>kanRepo:</strong> the main code repository that contains the Code, Issues, Pull Requests and Projects that are relevant to this Backlog item.  The current repos are listed below.  Example - <strong>kanRepo: OpenWIS/openwis</strong>
+    <ul>
+      <li>OpenWIS/openwis</li>
+      <li>OpenWIS/openwis-documentation</li>
+      <li>OpenWIS/open-dj-am-install-scripts</li>
+      <li>OpenWIS/openwis-deploy</li>
+      <li>OpenWIS/openwis-automated-tests</li>
+      <li>OpenWIS/data-harness-Moved-To-Stash</li>
+      <li>OpenWIS/geonetwork-extensions</li>
+      <li>OpenWIS/core-geonetwork</li>
+      <li>or any new repos we create. Can be left blank. Any secondary repositories can be linked to from the body text.</li>
+    </ul>
+  </li>
+  <li><strong>kanProject:</strong> usually blank for a new item, this is the project number assigned by GitHub when a project is created.  Example - <strong>kanProject: 2</strong></li>
+</ul>
+
+<h3 id="body-text-markdown">Body text: Markdown</h3>
+
+<p>Text describing the item, written in <a href="https://daringfireball.net/projects/markdown/">Markdown</a> or <a href="https://guides.github.com/features/mastering-markdown/">GFM</a>. This text can be any length and include links and images.  It can be updated anytime there is new information related to the item.</p>
+
+<h2 id="kanban-board-items">Kanban Board items</h2>
+
+<p>The exact same template used for Backlog items is also used for Kanban Board items.  There are only 2 changes that <em>need</em> to be made to a backlog item file to promote the item from the Backlog to the Kanban Board, plus another couple that usually get updated at the same time:</p>
+
+<ul>
+  <li>The first essential change is to move the file from the <strong>/_backlog/</strong> folder to the <strong>/_kanban/</strong> folder.  The filename stays exactly the same.</li>
+  <li>
+    <p>The second essential change is to update the <strong>kanCategory</strong> in the file yaml header block, from <strong>backlog</strong> to one of the Kanban Board categories. This is required because this is the field which represents the phases of the development cycle and that the Kanban Board items are grouped by:</p>
+
+    <ul>
+      <li>analyse</li>
+      <li>design</li>
+      <li>develop</li>
+      <li>code review</li>
+      <li>test</li>
+      <li>test review</li>
+      <li>release</li>
+      <li>done</li>
+    </ul>
+  </li>
+</ul>
+
+<p>For any item that will require significant work you are most likely to be updating the <strong>kanCategory</strong> to <strong>analyse</strong> when first promoting it to the Kanban Board. However, for a very small piece of work like a quick bug-fix, you might move it straight to <strong>develop</strong>.  Another possibility is that you move something directly to <strong>test</strong> to gather test evidence prior to moving it to <strong>analyse</strong>.  There is no enforced restriction or order, it is up to you to put items into sensible categories that fit the situation.</p>
+
+<p>The next useful change to make to the item once it is on the Kanban Board is to update the <strong>kanSubCategory</strong>.  This is usually blank for a <strong>backlog</strong> item and is usually updated to <em>pending</em> when an item is first moved onto the Kanban Board. The other option for <strong>kanSubCategory</strong> on the Kanban Board is <em>in-progress</em>.  This indicates whether the task is waiting to be assigned resources and for work to begin on it (pending) or is being actively worked on (in-progress). The <strong>kanCategory</strong> and <strong>kanSubCategory</strong> are then taken together to mean one of the following:</p>
+
+<ul>
+  <li>analyse pending <em>OR</em> analyse in-progress</li>
+  <li>design pending <em>OR</em> design in-progress</li>
+  <li>develop pending <em>OR</em> develop in-progress</li>
+  <li>code review pending <em>OR</em> code review in-progress</li>
+  <li>test pending <em>OR</em> test in-progress</li>
+  <li>test review pending <em>OR</em> test review in-progress</li>
+  <li>release pending <em>OR</em> release in-progress</li>
+</ul>
+
+<p>When the <strong>kanCategory</strong> is <em>done</em> then the <strong>kanSubCategory</strong> is irrelevant, so it can be set to blank.</p>
+
+<p>The other very useful thing to update is the <strong>kanPriority</strong>.  This has a different meaning on the Kanban Board from the meaning it has in the Backlog, which is why the task priority numbering scheme is different. On the Kanban Board the <strong>kanPriority</strong> is in the range 1 to 5, where 1 is the highest priority and:</p>
+
+<ul>
+  <li>1 = blocker</li>
+  <li>2 = must</li>
+  <li>3 = should</li>
+  <li>4 = could</li>
+  <li>5 = blocked</li>
+</ul>
+
+<p>So you can see that, once an item has been promoted to the Kanban Board, we begin prioritising using the common <em>must/should/could</em> scheme, with the addition of <em>blocker</em> and <em>blocked</em>.  This scheme helps us organise the tasks into sprints and projects.  Ultimately, it also helps us specify which features will be in specific Releases.  Each of these priorities has the following meaning:</p>
+
+<ul>
+  <li>5 - blocked: We had planned to do this task at this time but some obstacle to starting or completing this task is preventing further work, so it is parked until the obstacle is removed.</li>
+  <li>4 - could: Tasks that we could choose to do when we have completed all the <em>musts</em> and <em>shoulds</em>; nice to haves but not essential to the Release/Project/Sprint.</li>
+  <li>3 - should: Tasks that would add significant value but that we can live without if we have to.</li>
+  <li>2 - must: Tasks that represent the main purpose and value of the Release/Project/Sprint.</li>
+  <li>
+    <p>1 - blocker: can be either:</p>
+
+    <ul>
+      <li>Real showstoppers; if we can’t do these then there is no point doing the Release/Project/Sprint at all,</li>
+      <li>or a task that is working on removing obstacles that are causing other tasks to be <em>blocked</em>.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>This last change may require some discussion with the Technical Committee, so we might decide that this only happens when the Technical Committee actions somebody to do that, based on the decisions they have taken.</p>
+
+<h2 id="sprint-or-project-backlogs">Sprint or Project Backlogs</h2>
+
+<p>I suggest we use GitHub projects for these low-level backlogs.  They are a brand new feature, GitHub only introduced them on 14th September 2016, but I thought it better to use them than invent another level of backlog ourselves.  They work by grouping related GitHub issues into ‘projects’ onto a Kanban-style board.  There are some limitations, such as they only work from within one repository, that make them unsuitable at present for our main Kanban Board, but I will keep an eye on how they develop.</p>
+
+<p>I have set up an example <a href="https://github.com/OpenWIS/openwis-documentation/projects/1">project</a> for this very task (60. Adopt Kanban) on GitHub.  I am very happy to help set these up for other tasks.</p>
+
+<h2 id="any-issues-need-help">Any issues? Need help?</h2>
+
+<p>If you find any issues with the process, or just need help, then please either raise an Issue on GitHub, in the openwis-documentation repo, and assign to rogers492, or contact Paul Rogers directly.</p>
+
+	</div>
+
+</article>
+
+      </div>
+    </div>
+
+    
+<div class="wrapper">
+
+</div>
+
+
+    
+<div class="wrapper">
+
+
+
+</div>
+
+  
+  
+    
+<footer class="site-footer">
+
+  <div class="wrapper">
+    <div>
+      <p><a class="gh-pages-editor-link" href="https://github.com/OpenWIS/openwis-documentation/blob/gh-pages/_posts/2016-10-11-OpenWIS-Kanban-Process.md">Edit this page on gh-pages</a></p>
+    </div>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li><a href="http://openwis.io">OpenWIS Association AISBL</a></li>
+          <li><a href="mailto:contact@openwis.io">contact@openwis.io</a></li>
+        </ul>
+      </div>
+
+      <div style="text-align:right; float:right" class="footer-col footer-col-3">
+        <p><a rel="license" href="//creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt="License"/></a></p>
+        <p><small>Except where otherwise noted, content on <span href="http://openwis.io">this site</span> is licensed under a <a rel="license" href="//creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International license</a>.</small></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
