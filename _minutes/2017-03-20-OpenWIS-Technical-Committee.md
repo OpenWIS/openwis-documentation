@@ -419,7 +419,53 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
 13. **Metadata hierarchies**
     1. DW - Why we need metadata hierarchies
 14. **WIS 2.0**
-    1. JT - WIS 2.0 Status Update
+    1. WIS 2.0 Status Update
+        1. JT - The initial presentation on the need for WIS 2.0 was made at WMO CBS in November 2016.   It was recommended.
+            - [WIS 2.0 proposal - WORD]({{ site.baseurl | prepend: site.url }}/assets/CBS-16-d05-5-1-DEVELOPMENT-OF-WIS-draft1_en.docx)
+            - [WIS 2.0 proposal - PDF ]({{ site.baseurl | prepend: site.url }}/assets/CBS-16-d05-5-1-DEVELOPMENT-OF-WIS-draft1_en.pdf)
+        2. JT - So, we are hoping for approval at the WMO Executive Council meeting in May 2017.
+        3. JT - WIS 2.0 is a fundamentally different proposition to WIS 1.0. WIS 1.0 didn't extend the reach or availability of weather data. WIS 2.0 does involve a fair amount of change and we expected challenges, but it was well supported by lots of people who have similar concerns about increasing data volumes etc.
+        4. JT - We have asked WMO Secretariat to employ a full-time project manager to get the WIS 2.0 programme up and running. However, we're not sure if we'll get the spend prioritized from June.
+    2. OpenWIS Association strategy for WIS 2.0
+        1. JT - So for the rest of this discussion, I'll assume the WIS 2.0 project manager is approved.
+        2. JT - That project manager would support TT-EWIS; the chair is Bob Bunge and vice chair is me (JT).  BR is also involved. The task team role is to establish an implementation plan.
+        3. JT - This plan would need to be founded on reality, which means we need to show that the technology works and delivers value. I estimate that the draft Technical Specifications will take 24 months to develop. During that time the community needs to validate ideas so that the Technical Specifications will be truly implementable.
+        4. JT - BR, do you think 2 years is achievable?
+        5. BR - Yes, based on the experience of the last time (1.0 Specifications), I would say so.
+        6. JT - There was a lot of prior knowledge last time about how to implement. We will need more outreach this time, to find out what people are doing with cloud etc. There will be overlaps, for example with Copernicus.
+        7. JT - So I would expect the proposal to be put before CBS in 2020.
+        8. JT - I would want to see the Association doing pilots in the meantime to show that the Technical Specifications can be implemented.
+        9. JT - We need a significant rethink about how metadata is structured.
+        10. BR - Yes, metadata is for people, not for computers; people can't use half a million metadata records!
+        11. JT - From the UKMO perspective, we have a major programme running, _Transform & Efficiency_, that is looking at the adoption of cloud, message driven architectures etc. We're expecting proposals by October 2017 and we will share that.
+        12. Anyone else got relevant projects running in the next 12 months?
+        13. WQ - Yes, at BoM we have a proposal for a 5 year programme to reengineer our main infrastructure:
+            - Security (2017-2018)
+            - MSS including WIS (2017-2019)
+            - Forecasting apps etc (2019-2021)
+        14. JT - So it would be useful to BoM to understand what OpenWISv5 looks like.
+        15. WQ - Yes. We are already using a messaging backbone, in pockets; what is missing is an enterprise approach to a message-based architecture. Someone has to demonstrate the capabilities.
+        16. SO - Within NOAA we have a number of activities, but I don't think they influence these timelines here.
+        17. KS - One-stop discovery and data-shopping is something I want to promote.
+        18. JT - In WIS 2.0 we will implement general patterns for data discovery and sharing that will be useful for way more than GTS etc.
+        19. BS - In MF we are still working on INSPIRE. We are working on OGC web services for access to climatology and other data. The future now is to offer web services and not to push data. This is the main project around WIS in MF. We will be using enterprise-bus services to build a web services catalog. We can show a presentation later on.  Also work on our DCPCs: VAAC, Radar, Long-range forecasts, Cyclone (by the Summer). We are also involved in Copernicus and waiting for OpenWIS4.
+        20. BR - At ECMWF we are looking into cloud, especially how we deliver our forecasts into cloud. And Copernicus, with EUMETSAT.
+        21. WQ - What's Copernicus?
+        22. JT - Earth monitoring; various satellite data services.
+        23. BR - ECMWF are doing the Climate Change and Atmospheric Monitoring. We redistribute the work tenders.
+        24. [Copernicus](http://www.eumetsat.int/website/home/AboutUs/InternationalCooperation/Copernicus/index.html)
+        25. SD - At KMA we are not planning any OpenWIS activities this year, but we have another Harness project. We don't know what data is going out of OpenWIS, or how much, so we are deploying monitoring.
+        26. RGb - At MFI we are developing the Assisi solution. WE are using OpenWIS as a module to deliver data to end users. We have a dedicated Harness for long-range forecasts etc. We have one data centre for Climate and one for Satellite and Radar imagery. We have plugged these into WIS.
+        27. MV - At FMI we have nothing planned that is directly related to WIS. We are mainly working on our open data portal, based on OGC services and our Smartmet server. We want Smartmet to be our backend for OpenWIS.
+        28. MV - We are also working on Copernicus, where we use Smartmet server and GeoNetork already. We could perhaps use OpenWIS.
+        29. SO - Kari and I discussed a couple of aspects with Fred Branski and Bill Bolhofer:
+            1. How important is it to show linkage to other WMO programmes?
+            2. How important is the use of emerging data formats such as JSON and GeoJSON?
+        30. JT - So both are very important, as explained in section 4.1 of the proposal to CBS:
+            - [WIS 2.0 proposal - WORD]({{ site.baseurl | prepend: site.url }}/assets/CBS-16-d05-5-1-DEVELOPMENT-OF-WIS-draft1_en.docx)
+            - [WIS 2.0 proposal - PDF ]({{ site.baseurl | prepend: site.url }}/assets/CBS-16-d05-5-1-DEVELOPMENT-OF-WIS-draft1_en.pdf)
+        31. WQ - Ok, this is all good; but let's not take another decade!
+        32. JT - So we can expect the Technical Specifications to be finally approved in 4 years time; that gives us time to do this properly.
 15. **AOB**
 16. **Summary for SC**
 
