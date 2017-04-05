@@ -125,13 +125,13 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
                     11. DW - There seems to be a limit of 25 per heading; but that's no good to us, maybe it is configurable.
                     12. BR - Looking at the keywords, it looks random.
                     13. DW - Perhaps it needs work with our metadata; we could get rid of this tool, but I found it useful.
-                    14. MG - How many levels to the parent/child relations go?
+                    14. MG - How many levels do the parent/child relations go?
                     15. DW - It's not really parent/child; it's just grabbed headings from the metadata.
                     16. MG - Lucene flattens the metadata out, so you lose structure.
                     17. DW - There is no parent/child in the WMO metadata.
                     18. BS - Can we configure this?
                     19. DW - Nothing in the documentation to say whether we can or not. GeoNetwork acknowledge that the documentation is incomplete. We may find some information on their forum; might be best if we raise a list of questions on there.
-                    20. DW - The initial metadata view is a cut-down version; it can be expanded, but it is useful for a quick check that you have the thing.
+                    20. DW - The initial metadata view is a cut-down version; it can be expanded, but it is useful for a quick check that you have found the thing you were looking for.
                     21. DW - The _subscribe_ button is part of the OpenWIS4 overlay.
                     22. DW - the other display icons, such as the social sharing buttons, may be useful, or we can remove them.  No other GISC will have them so maybe hide them.
                     23. SO - Are subscriptions _push_ or _pull_?
@@ -143,7 +143,7 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
                         2. DW - Icons built from keywords and topics.
                     28. **Metadata Options**
                         1. DW - It's not clear how _owners_ and _groups_ work when managing metadata.
-                        2. DW - You can create a child group, but that wouldn't work for other GISCs.  This is why we need parent/child in the WMO metadata model. WE should switch that feature off until we have that.
+                        2. DW - You can create a child group, but that wouldn't work for other GISCs.  This is why we need parent/child in the WMO metadata model. We should switch that feature off until we have that.
                         3. DW - Can transfer ownership eg: _institutional_.
                 3. **Admin Page**
                     1. DW - The summary on the right hand side is similar to OpenWISv3 but it is broken down further.
@@ -182,26 +182,160 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
                         1. DW - The way GeoNetworkv3 does this is not the way we currently work; we do it by GISCs, but they want it broken down by datasets.
                         2. DW - Categories can have a logo; could we use them for GISCs?
                         3. DW - Though the UI looks different, it works in a similar way to the old one.
-                    13. 
-
-            - [GeoNetwork 3.2.1](http://cgn-original.eurodyn.com:8080/geonetwork)
-            - [OpenWIS 4 (using GeoNetwork 3.2.1)](http://cgn-openwis.eurodyn.com/geonetwork)
-            - (The credentials required to log into these instances are available from GT)
-        6. XX - Compliance of OpenWIS4 to WIS Technical Regulations
+                    13. **Harvesting**
+                        1. DW - The documentation on harvesting is very poor; it appears to be the old v2 documentation.
+                        2. DW - Some useful features we had are missing in the new version, I think; hard to say without proper documentation.
+                        3. DW - Harvesting is very slow, which is why Nassos had to come up with an improved method.
+                        4. DW - Harvest set up is ok; a few minor bugs.
+                        5. DW - The harvest count is wrong.
+                        6. DW - I have concerns about _Sync_; it says it's doing a sync, but in the interface log it looks like a full harvest, although it appears to be quicker.
+                        7. DW - There is no button to force a _validation_. There was an issue with the Melbourne metadata, but not sure what. Validation seems to have to be done after the harvest, but an editor can't really do an edit after a harvest.  Unfortunately, you can't just choose a GISC and press _validate_. Is OpenWISv3 validating against ISO 19139? I dunno.
+                        8. DW - Still getting memory errors, but there is no alerts page like in OpenWISv3.
+                    14. **Metadata**
+                        1. DW - Supports ISO 19139 and a couple of other standards.
+                        2. DW - So this is the screen where you add metadata and it has these icons for the edit functions.
+                        3. SO - Are those icons based on your privileges?
+                        4. DW - I guess so, they disappear when harvesting; you can't edit harvested metadata.
+                        5. DW - We would need to configure these menus.
+                        6. DW - Now, do we need _stop-gap metadata_? As far as I can see, no-one is fixing the _stop-gap metadata_, so we need to discuss this.
+                            - DW/LM/BS/SO: [Action-TC-2017-04 Stop-gap metadata](https://github.com/OpenWIS/openwis-documentation/issues/154)
+                        7. DW - Admin gets logged as the owner of the metadata, just because the Admin harvested it; but the Admin doesn't own the metadata.
+                        8. DW - If you add duplicate metadata you can sometimes overwrite the original metadata unintentionally.
+                        9. DW - OAI-PMH: OpenWISv4.0 only gives us a _category_, whereas OpenWISv3 gives us a _count_ as well; we need to have that in v4.
+                        10. DW - GeoNetworkv3 has the concept of a metadata _lifecycle_; this could be useful for DCPCs and NCs.
+                    15. **Reports**
+                        1. DW - These need work to be useful.
+                        2. DW - They can be extracted into CSV/Excel, but they're not well presented.
+                        3. DW - There are some nice charts and graphs in Status/Statistics that may be useful to show what metadata is being used.
+                    16. **Batch Tools**
+                        1. DW - I had hoped that this would be good for changing multiple fields, but it doesn't allow you to change all the XML headers you would want.
+                4. **Further analysis required**
+                    1. DW - So, there is still work to do to identify everything important that is still missing from the combined GeoNetworkv3.2.1/OpenWISv4.0 package.
+                5. **Q&A**
+                    1. SO - Is there metadata version control?
+                    2. DW - Yes, but only in your system, using _last updated date_; but no version number.
+                    3. PR - Wouldn't that have to be in the WMO metadata?
+                    4. MG - Seems like there's a lot to do to get this to do what we want. We're looking at a big tool-chain and complexity to keep this going.
+                    5. BR - We have a project where we use GeoNetwork to do the heavy lifting, but also Drupal for the outside world.
+                    6. MG - I don't consider the UI heavy lifting.
+                    7. NM - Ok, the UI is lightweight, but there are many things going on in the backend. There are close to 100 issues that we must at least investigate. The question is: how does the backend suit our purposes? The more we deviate from vanilla GeoNetwork, the more load we have to carry. We can't really say at the moment whether it is better to continue with GeoNetwork.  However, from what I have seen, GeoNetworkv3 isn't the best scaffolding to build on. Maybe we could come up with a couple of options and work out how much effort each would take.
+                    8. SO - We may need to delve into the next level.
+                    9. DW - Nassos is presenting some future options later...
+                    10. PR - ...when the Bureau is online.
+                    11. SD - GeoNetwork is an essential part of OpenWIS - managing the metadata - so we need to check compliance.
+                    12. DW - If we do the work we should be able to get a v4 that does what we need.
+                    13. SD - The Data Policy needs to be taken care of.
+                    14. BR - You have to implement the Data Policy yourself, through a flag in the metadata.
+                    15. DW - This is where the AKKA glue comes in.
+                    16. PR - I think that's in the Data Services that LM is expecting to port from OpenWISv3.14.
+                6. **Demo instances**
+                    1. DW - Anyway, you can all have a look for yourselves at the demos that ED have set up:
+                        - [GeoNetwork 3.2.1](http://cgn-original.eurodyn.com:8080/geonetwork)
+                        - [OpenWIS 4 (using GeoNetwork 3.2.1)](http://cgn-openwis.eurodyn.com/geonetwork)
+                        - (The credentials required to log into these instances are available from GT)
+        6. Compliance of OpenWIS4 to WIS Technical Regulations
+            1. SO - Wasn't sure who would lead this, it was discussed at the Developer Conference in Washington.
+            2. DW - Should we wait for JT, to talk about WIS2.0?
+            3. MF - There won't be any 2.0 Technical Regulations for a while, so OpenWIS needs to remain compliant with the 1.0 Technical Regulations.  That compliance must be recorded and preferably published.
+            4. PR - Ok, when we look at the lifecycle later, you will see on the diagram that test criteria for 1.0 compliance feed into the acceptance procedure via requirements, so proof of compliance is a test outcome.
     2. **Development process for OpenWIS4**
-        1. XX - Engagement with the Core GeoNetwork Community
-        2. SO - Process for handling contributions offered from external collaborators
-        3. SO - Options for Forum - [Discus]({{ site.baseurl | prepend: site.url }}/assets/TC201703-DisqusNotes.pdf), [Discourse]({{ site.baseurl | prepend: site.url }}/assets/TC201703-DiscourseNotes.pdf), [NodeBB]({{ site.baseurl | prepend: site.url }}/assets/TC201703-NodebbNotes.pdf)
-            - [Discourse forum](https://discourse.dev2.openwis.io);
-            - [Discourse website plugin](https://cassie-stearns.github.io/test/discourse40.html)
-            - [NodeBB forum](https://nodebb.dev2.openwis.io);
-            - (log in to both forums through a portal using: username: openwis password: 9Sym2c3ypjv; You should be able to register on the front page. If you are having problems, please email Cassie with **subject:openwis forum help**
-        4. We would like to evaluate the following:
-            - Which forum do you prefer (Discourse or NodeBB)? Why?
-            - Are the categories and subcategories good? What do you want to change?
-            - What tags do you think should be used?
-            - Any other comments or questions
-            - [Comparison so far]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWISForumDevelopment.pdf)
+        1. Engagement with the Core GeoNetwork Community
+            1. PR - We know who the Core GeoNetwork community is:
+                1. PR - The repository is public: https://github.com/geonetwork/core-geonetwork
+                2. PR - We worked with two of the main developers from GeoCat, Maria (Delawen) and Jose (josegar74) during 2015
+                3. PR - JT is acquainted with the founder, Jeroen Ticheler
+                4. PR - Other members are known to some of us - eg: BoM/Simon Pigot
+            2. SO - How transparent are they?
+                - NM - The code is very open; we've not seen much of the community governance; seen no roadmaps.  We haven't explored how we would work with any committees; we just submitted a small pull-request.
+            3. SO - How engaged do we want to be?
+                - NM - Depends; technically, it will always be easier to do things in their code than to work independently, but obviously that increases our dependence on them.
+        2. Process for handling contributions offered from external collaborators
+            1. SO - I wanted to discuss how external collaboration would work in an open source environment. I have 2 questions relating to external contributors:
+                1. What are the ground-rules?
+                2. What is the process?
+            2. SO - Here are my initial thoughts (email):
+                1. Motivation to expand developer participation.
+                2. Discuss level of code openness.
+                3. Discuss vetting needed to support expanded openness.
+                4. What needs defining:
+                    1. What is the nature of the project - how open do we want it to be?
+                        - Who gets to access the code?
+                        - Do we want a login at all?
+                        - Can any developer participate, or only weather-related entities?
+                        - Who gets to join (who gets to get access to the code) and what are requirements?
+                        - Can non-GISC members join?
+                        - To what degree do you need to have a relationship with a GISC entity to join?
+                        - Do we really want a true open-source community?
+                    2. Given a less than completely open posture, how does vetting happen?
+                        - Are there technical qualifications?
+                        - Are there organizational qualifications?
+              3. PR - Ok, so let me explain a little about how the GitHub repositories work, to give some context:
+                  1. Most of the code repositories are public, which means they are open for anyone to read the code, the issues, the documentation, anything we put on there.
+                  2. To do anything else, for example, update code, fork the repo or comment on an issue, the user must sign-in to GitHub.
+                  3. To update code, the user account must have the rights to update the relevant branch assigned to it, by the UKMO Release Engineering team.
+                  4. Usually, you would issue a Pull-Request from your own fork and get your code reviewed prior to updating a branch.  If you try to update a branch you do not have permission to update, GitHub does not update the branch, instead, it generates a Pull-Request for you.
+                  5. A Pull-Request can only be merged by someone with the permissions to do so.
+                  6. As a safety precaution, only the UKMO Release Engineering team has permission to update the master branches and the rest of us merge our forks into the develop branch.
+              4. SO - Do we use the forum to manage discussions about contributions or potential contributions?
+                  1. PR - If the code/pull-request exists or relates to an existing issue or kanban task, then we would discuss that on GitHub. The CLA process says that it is the responsibility of the Pull-Request reviewer to ensure a signed CLA is on file. We would use the forum to discuss new ideas or perhaps new contributors.
+                  2. NM - Having to sign a CLA makes it more difficult for people to submit small changes.
+                  3. PR - In future, we might make it easier by having an electronic CLA, but we do need a CLA.
+                  4. MP - FMI also require CLAs to be signed, to safeguard future rights to the code.
+                  5. PR - Would we expect the TC to be involved in any forum discussions? Perhaps the forum would be used to publish the decision.
+                  6. DW - Could the CLA be signed on the forum?
+                  7. PR - It might be possible to have the gateway to an electronic CLA on the forum - we should investigate that.
+                      - PR/CS - [Action-TC-2017-05 Electronic CLA](https://github.com/OpenWIS/openwis-documentation/issues/155)
+              5. SO - Who decides we are going to accept a change or suggestion?
+                  1. DW - TC is fine but may need an official SC decision.
+                  2. PR - TC/PMC recommends and SC approves.
+                  3. MP - We need 3 levels, I think. Small changes can be made lower down; I suggest the person reviewing the pull-request can make the decision. They would escalate only larger changes.
+                  4. PR - Yes, the squads could make that assessment.
+                  5. SO - GitHub or the forum for small changes?
+                  6. MP - GitHub.
+                  7. SO - So we keep the forum out of the process for small changes.
+                  8. SO - Who would manage the pull-requests and utilize the TC?
+                  9. PR - The squads.
+                  10. KS - Is there a list of standard questions?
+                  11. PR - I guess we would be interested in impacts on the current work. If it isn't small and ends up being discussed on the forum, do we escalate to the PMC/TC?
+                  12. SO - Could this be an activity we engage GeoNetwork on; what are their processes?
+                  13. DW - Who will find time to monitor and respond to that activity on the forum? What about the 4 week delay between TC meetings?
+                  14. SO - We should position ourselves to manage expectations. Do we need a process diagram?
+                  15. DW - Copy someone else's process?
+                  16. PR - This is a Community Manager task, but while the community activity is low level, we are all Community Managers.
+                  17. SO - Any volunteers to define the process?
+                  18. PR - Ok, I can investigate some options.
+                      - PR - [Action-TC-2017-06 CLA management](https://github.com/OpenWIS/openwis-documentation/issues/156)
+                      - BR - Have a look at the CLA on the Discourse forum site.
+                  19. RGb - Did we define the Community Manager role?
+                  20. PR - Yes, JT has a document describing it. We can ask him about it tomorrow when he joins the meeting.
+        3. Options for Forum
+            1. SO - Thanks to MF for publishing the forum option demos on the internet.
+            2. SO - CS and MG set up these demos, hope some of you got to try them out:
+                - [Discourse forum demo](https://discourse.dev2.openwis.io);
+                - [Discourse website plugin demo](https://cassie-stearns.github.io/test/discourse40.html)
+                - [NodeBB forum](https://nodebb.dev2.openwis.io);
+                - (log in to both forums through a portal using: username: openwis password: 9Sym2c3ypjv; You should be able to register on the front page. If you are having problems, please email Cassie with **subject:openwis forum help**)
+            2. SO - CS also provided some notes:
+                - [Notes on Disqus]({{ site.baseurl | prepend: site.url }}/assets/TC201703-DisqusNotes.pdf)
+                - [Notes on Discourse]({{ site.baseurl | prepend: site.url }}/assets/TC201703-DiscourseNotes.pdf)
+                - [Notes on NodeBB]({{ site.baseurl | prepend: site.url }}/assets/TC201703-NodebbNotes.pdf)
+            3. SO - We wanted to evaluate the following:
+                - Which forum do you prefer (Discourse or NodeBB)? Why?
+                - Are the categories and subcategories good? What do you want to change?
+                - What tags do you think should be used?
+                - Any other comments or questions
+                - [Comparison so far]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWISForumDevelopment.pdf)
+            4. SO - CS will take us through the software.
+            5. CS ran through Discourse and NodeBB, via WebEx; some additional questions were asked:
+                1. BR - Can Discourse be moderated?
+                    - CS - Yes, there are both _moderators_ and _admins_; admins set up the categories for topics.  Discourse has _trust levels_. So a brand new user has limited capabilities.  As they interact, their trust level increases and they get more capabilities. There is a large amount of flexibility in the configuration of these trust levels. We found Discourse easier to manage than NodeBB and when we needed help, the Discourse forum was responsive, whereas we got no replies from NodeBB.
+                2. PR - Will we need Disqus?
+                    - CS - Probably not.  We were looking at it as a way to put comments on the website pages. Where we do need that, there is a plug-in for Discourse that actually links back to the forum, so Discourse appears to do everything we need in one package.
+            6. SO - Are we ready to vote? Yes, ok, let's vote:
+                - Discourse: 8 votes
+                - NodeBB: 0 votes.
+            7. SO - Ok, the decision is to establish the Forum on Discourse and to collect feedback on what Category/Tag/Topic structure we want to start with, to use the Forum in earnest for the next year.
+                - SO - [Action-TC-2017-07 Forum on Discourse](https://github.com/OpenWIS/openwis-documentation/issues/157)
 7. **Future strategy (to 3 years ahead)**
     1. **Architecture Possibilities for OpenWIS5**
         1. NM - [OpenWIS5]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWIS5.pdf); including pros and cons of v4 vs v5 and description/demo of the advanced MQ PoC
