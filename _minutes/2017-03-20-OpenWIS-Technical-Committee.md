@@ -67,6 +67,9 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
                 1. NM - We have not discussed that yet.  We will need a full set of tests for future releases, unit tests and everything else.
             3. SO - How much attention do we want to pay to SAML? If we envision the use of SAML for individual users, we may want to discuss that here this week.
                 1. NM - GT has worked on that.  We have the choice of using an external SAML provider or using the internal security in CGN.
+                2. JT - The difficulty of installing OpenAM/DJ has given us the impetus to break-out the security.
+                3. PR - Especially since ForgeRock just closed their repository.
+                4. NM - We will have to find those artefacts and build/provide them ourselves.
             4. SO - What about automated installation?
                 1. NM - We have used Puppet for these instances.  
                 2. BR - Only for the development environment?
@@ -86,8 +89,10 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
                 2. GT - Loose coupling would be best for OpenWIS; it would also be best for CGN.  We could contribute the whole approach to CGN.  It gives anyone flexibility in contributing back to them.  But, it all depends on what they want to do; we should discuss that with them.
                 3. NM - So we need a background communications channel if we work in their code.  While it would be useful, we don't depend on that communications channel if we use the Overlay approach; we release as often as we want without CGN approval.
                 4. GT - So far, we have added the plug-in mechanism, as well as the features that GeoCat worked on before.  It would be better if we were able to plug-in directly, but CGN has no hooks, it was not designed to work that way. We could contribute some glue code, but we would need to contact them about that.  We could also contribute some features they do not have, like subscriptions.
-            4. Are there any compatibility issues with the Overlay approach?
+            4. SO - Are there any compatibility issues with the Overlay approach?
                 1. NM - As long as the plug-in places don't change we don't have any compatibility issues.  If they removed a major feature, say the entire Admin Menu, then our code would break and we would have to fix it. But, we would only have to fix that part.  We are as independent as it is possible to be.
+            5. JT - The Overlay approach is based on Angular JS, right? So we are less concerned about binding into Core GeoNetwork code.
+                1. NM - That's right, we don't need to pull-request back to Core GeoNetwork, but we could if we wanted.
         3. NM presented: [Skills and training]({{ site.baseurl | prepend: site.url }}/assets/TC201703-Skills-and-training.pdf) - how will we transfer skills in the Overlay Approach?
             1. NM - So its a mixture of skills; there is some legacy technology left hanging around in CGN as well as some newer technology.  This is expected of a 10 year old project.  A lot of it is XML based.
                 1. SO - What schemas are supported out of the box?
@@ -338,7 +343,51 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
                 - SO - [Action-TC-2017-07 Forum on Discourse](https://github.com/OpenWIS/openwis-documentation/issues/157)
 7. **Future strategy (to 3 years ahead)**
     1. **Architecture Possibilities for OpenWIS5**
-        1. NM - [OpenWIS5]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWIS5.pdf); including pros and cons of v4 vs v5 and description/demo of the advanced MQ PoC
+        1. NM presented [OpenWIS5]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWIS5.pdf); including pros and cons of v4 vs v5.
+            1. SO - Just referring back to slide 7, are we stuck with Lucene?
+                1. NM - We could use something else but we would need big changes to Core GeoNetwork. We haven't found a problem with Lucene itself; Solr and Elastic Search both use Lucene and give good performance. So Lucene is fine if it is configured properly.
+            2. NM - It takes 19 hours to harvest Beijing because the process makes serial http and indexing calls, one item at a time. However, Core GeoNetwork already supports harvesting from the file-system, so I separated the http calls from the indexing, using an external tool for the http fetch to disk. This gives at least a x10 performance improvement so that you can harvest Beijing in a couple of hours. The external http app is free, has a nice UI, does OAI-PMH and has a built-in scheduler.
+                1. BS - But we do the full harvest only once, so it is not a problem, we usually sync.
+                2. DW - Well, I tried to set up a harvest from Germany and it is still running, days later.
+                3. BS - For us, 21 hours for Beijing is ok.
+                4. BS - Is it possible to index separately?
+                5. NM - It's not set up that way. Anyway the indexing is ok, it's the http calls that take the time.
+                6. BS - Could we compress the metadata?
+                7. NM - Yes, if both ends use the same protocol. But that's not really the problem, it's the handshakes etc. Sequential fetch-and-index is a clear design flaw.
+                8. JT - A typical GeoNetwork catalog would contain 200 metadata records, whereas we have tens of thousands.
+                9. DW - We raised this issue with GeoCat, but they didn't fix it. We don't want a harvest running for 5 days! We've checked memory and it look adequate. Strangely, the sync log appears to be the same as for a harvest, though a sync does run quicker. You don't get to set a data for a sync, just a time. Also, in v3 you get more breakdown on what was added/deleted.
+            3. NM - So for v5, the installation is fully automated, you just trigger it with one command. It is all done using Docker.
+            4. JT - So, just referring back to slide 14; what you're calling the _private cloud_ is on public cloud infrastructure, it's private in the sense that you are controlling access. It's just a different instance of the same software. Also, you're deploying multiple instances of the same software because that is much easier to manage and maintain than having a single piece of software do multiple jobs; that would make the software too complex.
+                1. BS - Do users have to log in to 2 instances?
+                2. JT - No, you would configure your local instance to log in to both private and public clouds.
+                3. NM - You define how many upstream clouds you can connect to through your local instance.
+                4. JT - Also note that all the metadata is made public, even if the data is controlled. Public data is in a cache that provides simple data access. A DCPC or NC may provide more complex subsets of data through a richer API, outside of the OpenWIS software. OpenWIS just provides the metadata that you use to discover the service end-points.
+            6. NM - Slide 16 shows the asynchronous message driven architecture that overcomes the serial processing issues we discussed earlier; it also scales very well.
+            7. NM - Slide 18. With the automated, containerized installation, we aim to provide an out-of-the-box experience, but also make it possible to install the OWPC into your own infrastructure or cloud.
+                1. SO - There is a lot in your v5 architecture that we prototyped a few years ago and I can vouch for the approach.
+                2. SO - Did you think about dynamic vs static queues?
+                3. NM - In the PoC they are static. However, we could have monitoring and auto-tuning of dynamic queues. We could also use elastic load-balancing to auto-tune the number of boxes, for example. Docker also has similar auto-load-balancing features.
+                4. SO - We were thinking of using JBoss for load balancing, perhaps we don't need that?
+                5. NM - You don't need JBoss, but you could use it.
+                6. BS - At MF we have a project to Dockerize OpenWIS v3.14, this year. We hope it will also work for OpenWIS4.
+                7. PR - It would be useful to have a GitHub issue or Kanban item for that so others could observe progress or even contribute.
+                8. BS - [Action-TC-2017-08 v3.14 on Docker](https://github.com/OpenWIS/openwis-documentation/issues/158)
+                9. WQ - The architecture looks great. At the Bureau we are building a similar event-driven system with a message-broker at its heart. We did try to Dockerize but our security people say that you can ship malicious code in your container. How can I go to our security people and say not to worry?
+                10. NM - The data can be externalised.
+                11. WQ - Not talking about data.
+                12. NM - In the latest version of Docker, you can get a paid service, _Trusted Registry_, that will auto-scan, validate and sign your container. It is like shipping an operating system, so it is up to us to check. We need DevOps to take care of that; as long as we have guaranteed the parts, they will deploy. We could operate our own private Docker registry, so only our containers are in there and we know what is in them. External companies also offer that service.
+                13. MF - You have the yaml manifest, so you can decide whether you trust the services in there.
+                14. NM - Ok, but unless you are sure you can trust all those sources, you can't be sure your container is secure.
+        2. NM presented a demo of the advanced message queue protocol (AMQP) PoC
+            1. NM - So for the PoC we have created a container based on Ubuntu.
+            2. MC - So this includes no Core GeoNetork and no OpenWIS?
+            3. NM - That's right, it just demonstrates the underlying message architecture. However, we are doing OAI-PMH harvesting in real-time from real GISCs.
+            4. NM - Ok, so the PoC has started; it came up in 1 minute and 10 seconds.
+            5. {NM showed the harvest queues working very quickly, the raw XML metadata results from Elastic Search and also a rich variety of out-of-the-box sample UI components}
+            6. NM - So, this is what we managed to achieve in just 5 days.
+            7. JT - Elastic Search, which is based on Lucene, provides all sorts of tools for geo-searches etc. Some distribution companies use it to track all their parcels. A colleague of mine has 2 billion records in Elastic Search and gets sub-second responses to queries. Elastic Search is open source and you can also buy support.
+            8. NM - Elastic Search also does clustering.
+            9. SO - We use Elastic Search at NWS to do audit reports on our log files.
     2. **Release roadmap**
         1. PR - for at least next 12 months - schedule releases 4.1 and 4.2
 8. **OpenWIS Lifecycle**
