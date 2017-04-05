@@ -389,7 +389,30 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
             8. NM - Elastic Search also does clustering.
             9. SO - We use Elastic Search at NWS to do audit reports on our log files.
     2. **Release roadmap**
-        1. PR - for at least next 12 months - schedule releases 4.1 and 4.2
+        1. PR - So when we set the agenda, we thought this item would be about the schedule for releases 4.1 and 4.2 over the next 12 months. However, after what we heard about v5 from NM in section 7.1.1 and about WIS 2.0 from JT in section 14 (which we did earlier in the meeting to accommodate BoM), we have much more to think about. Now it's more about v4 vs v5.
+        2. WQ - If we decide to go for v5, then the sooner the better:
+            1. Why spend money on v4 when we will soon move to v5?
+            2. How could we make v4 align with WIS 2.0? It could be difficult.
+            3. The way we build v5, modular, bearing in mind that WIS 2.0 is still taking shape, we should be ok, confident that it will align with WIS 2.0.
+            4. So we should do the bare minimum on versions earlier than v5.
+        3. JT - A key difference between v4 and v5 is the shape and handling of metadata:
+            1. The WIS 2.0 strategy document talks about discovery by search engines...
+            2. Rather than the use of heavy-weight ISO metadata standards that are difficult to operate.
+            3. So I think we will see a significant change in the way we do those things.
+            4. v4 leverages the management of metadata by Core GeoNetork in that heavy way.
+            5. v5 brings much lighter metadata management.
+            6. The modularity that we strive for today could be developed for v4 and reused for v5.
+        4. NM - If we start changing Core GeoNetork in such a major way then we end up with our own product. I would prefer to do that in cooperation with the GeoNetork community.
+        5. JT - But we could do some containerization.
+        6. NM - They currently use the Quartz scheduler so there could be some difficulties. Better to do those kinds of changes in their source code.
+        7. JT - Core GeoNetork is only one of the 6 or 7 components; could we do the message-driven thing to the Data Services, cache, etc?
+        8. NM - Yes, we could.
+        9. JT - Ok, let's use Core GeoNetork to the max but not unpick it; stitch-in our other components.
+        10. NM - Yes, ok. How much effort do we put into v4 before we work on v5? Do the minimum?
+        11. JT - As we work on the next level down, the question is: how much effort do we invest in something that will be used for 4ish years?
+
+
+
 8. **OpenWIS Lifecycle**
     1. PR - 'features' and 'squads' and how they will work in practice ([lifecycle]({{ site.baseurl | prepend: site.url }}/howto/2017-03-17-OpenWIS-Development-Process.html)) / ([features and squads]({{ site.baseurl | prepend: site.url }}/howto/2017-03-17-OpenWIS-Features-and-Squads.html))
 9. **Planning workshop**
@@ -465,7 +488,7 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
             - [WIS 2.0 proposal - WORD]({{ site.baseurl | prepend: site.url }}/assets/CBS-16-d05-5-1-DEVELOPMENT-OF-WIS-draft1_en.docx)
             - [WIS 2.0 proposal - PDF ]({{ site.baseurl | prepend: site.url }}/assets/CBS-16-d05-5-1-DEVELOPMENT-OF-WIS-draft1_en.pdf)
         31. WQ - Ok, this is all good; but let's not take another decade!
-        32. JT - So we can expect the Technical Specifications to be finally approved in 4 years time; that gives us time to do this properly.
+        32. JT - So we can expect the Technical Specifications to be finally approved in 4 years time; that gives us time to do this properly and be ready for that approval.
 15. **AOB**
 16. **Summary for SC**
 
