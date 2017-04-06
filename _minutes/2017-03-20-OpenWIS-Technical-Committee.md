@@ -401,15 +401,37 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
             3. So I think we will see a significant change in the way we do those things.
             4. v4 leverages the management of metadata by Core GeoNetork in that heavy way.
             5. v5 brings much lighter metadata management.
-            6. The modularity that we strive for today could be developed for v4 and reused for v5.
-        4. NM - If we start changing Core GeoNetork in such a major way then we end up with our own product. I would prefer to do that in cooperation with the GeoNetork community.
-        5. JT - But we could do some containerization.
-        6. NM - They currently use the Quartz scheduler so there could be some difficulties. Better to do those kinds of changes in their source code.
-        7. JT - Core GeoNetork is only one of the 6 or 7 components; could we do the message-driven thing to the Data Services, cache, etc?
-        8. NM - Yes, we could.
-        9. JT - Ok, let's use Core GeoNetork to the max but not unpick it; stitch-in our other components.
-        10. NM - Yes, ok. How much effort do we put into v4 before we work on v5? Do the minimum?
-        11. JT - As we work on the next level down, the question is: how much effort do we invest in something that will be used for 4ish years?
+        4. JT - The modularity that we strive for today could be developed for v4 and reused for v5.
+            1. NM - If we start changing Core GeoNetork in such a major way then we end up with our own product. I would prefer to do that in cooperation with the GeoNetork community.
+            2. JT - But we could do some containerization.
+            3. NM - They currently use the Quartz scheduler so there could be some difficulties. Better to do those kinds of changes in their source code.
+            4. JT - Core GeoNetork is only one of the 6 or 7 components; could we do the message-driven thing to the Data Services, cache, etc?
+            5. NM - Yes, we could.
+            6. JT - Ok, let's use Core GeoNetork to the max but not unpick it; stitch-in our other components.
+            7. NM - Yes, ok.
+        5. NM - How much effort do we put into v4 before we work on v5? Do the minimum?
+            1. JT - As we work on the next level down, the question is: how much effort do we invest in something that will be used for 4ish years?
+            2. JT - v4 does improve on v3.
+            3. JT - We could work on v4 and do v5 pilot activities in parallel to influence how WIS 2.0 works.
+            4. WQ - I agree with what JT said earlier; let's work around Core GeoNetork in v4. Apart from the plug-n-play features, what new stuff do we really need? Bulk Subscriptions?
+            5. PR - We will work that out during the workshop later.
+        6. BS - But metadata is not an application problem, it is a WMO problem.
+            1. WQ - Agree, but the fact is that OpenWIS is geared to handle that metadata model and 150 thousand metadata records.
+            2. PR - So we change the software as much as we can without altering the metadata model.
+        7. LM - We can implement Bulk Subscriptions when we migrate Data Services to v4.
+            1. PR - So there are choices to be made between the way Core GeoNetork provides a function and the way our Data Services provides the same or similar.
+            2. LM - So we can change Data Services to use the Core GeoNetork function or we write our own.
+        8. BS - Do we still need subscription, or do we migrate to web services?
+            1. RGr - You would have to change the WMO Technical Specifications.
+            2. JT - Yes, that's WIS 2.0 and we will have to support _push_.
+            3. NM - Probably need to subscribe to notifications that data is ready.
+            4. WQ - Yes, people will have to subscribe somehow; email, web services etc. are all just delivery mechanism. I think we will still have subscriptions in WIS 2.0.
+        9. PR - So, the schedule I had in mind for v4 was 2 main Releases over the next 12 months:
+            1. PR - A development release, v4.1, in September 2017. The objective of this is to check we are making good progress on the main features.
+            2. PR - A stable production release, v4.2, in January 2018, so that we can prepare the deployment package and documentation etc. by March 2018.
+            3. PR - We will be using the agile approach, so only those features that are ready on time will make it into the release.
+            4. JT - What about the parallel v5 pilots?
+            5. PR - We could decide on a case by case basis whether we think any of them are candidates for inclusion in a v4 release, otherwise they're stand-alone pilots.
 
 
 
