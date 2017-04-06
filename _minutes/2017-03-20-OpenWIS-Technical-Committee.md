@@ -111,7 +111,9 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
                 - ECMWF = 1
                 - NWS = 2/3
                 - BoM = 2
-            2. PR - Ok, what we thought is that we could do some WebEx training first, so that GT can take small groups through the approach and get people started.  Then later, if further consolidation is required, we could arrange a Developer Conference.
+            2. PR - Ok, so we could do some WebEx training first, so that GT can take small groups through the approach and get people started.  Then later, if further consolidation is required, we could arrange a Developer Conference. Assuming the SC are happy with the approach, the TC can schedule the training, then the Developer Conference later.
+                - SO - [Action-TC-2017-20 Schedule Training](https://github.com/OpenWIS/openwis-documentation/issues/230)
+                - SO - [Action-TC-2017-21 Schedule DevCon](https://github.com/OpenWIS/openwis-documentation/issues/231)
         5. GeoNetwork3 features relevant to OpenWIS4
             1. DW presented the following analysis of GeoNetwork v3.2.1 and OpenWIS v4.0: [powerpoint]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pptx)/[pdf]({{ site.baseurl | prepend: site.url }}/assets/TC201703-GeoNetwork_Features.pdf); additional discussions about each slide are captured below:
                 1. **Home Page**
@@ -432,37 +434,158 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
             3. PR - We will be using the agile approach, so only those features that are ready on time will make it into the release.
             4. JT - What about the parallel v5 pilots?
             5. PR - We could decide on a case by case basis whether we think any of them are candidates for inclusion in a v4 release, otherwise they're stand-alone pilots.
-
-
-
 8. **OpenWIS Lifecycle**
-    1. PR - 'features' and 'squads' and how they will work in practice ([lifecycle]({{ site.baseurl | prepend: site.url }}/howto/2017-03-17-OpenWIS-Development-Process.html)) / ([features and squads]({{ site.baseurl | prepend: site.url }}/howto/2017-03-17-OpenWIS-Features-and-Squads.html))
+    1. Features and Squads and how they will work in practice
+        1. PR presented [lifecycle]({{ site.baseurl | prepend: site.url }}/howto/2017-03-17-OpenWIS-Development-Process.html)
+        2. PR presented [features and squads]({{ site.baseurl | prepend: site.url }}/howto/2017-03-17-OpenWIS-Features-and-Squads.html)
+            1. NM - So it's not pair-programming as I understand it?
+            2. PR - Correct, it's not true pair-programming as practised in eXtreme Programming, where 2 programmers look at one screen and work through the coding together; obviously, we can't do that because the squad members are not often together. But we can get some of the knowledge sharing and code-quality benefits by working in pairs as best we can. I think this will be particularly helpful in embedding the Overlay approach.
 9. **Planning workshop**
-    - [Workshop instructions]({{ site.baseurl | prepend: site.url }}/howto/2017-03-17-OpenWIS-Planning-Workshop.html)
-    - [kanban board](http://openwis.github.io/openwis-documentation/kanban/)
-    - [backlog](http://openwis.github.io/openwis-documentation/backlog/)
-    - [github issues: OpenWIS4](https://github.com/OpenWIS/openwis4/issues)
-    - [github issues: OpenWIS3](https://github.com/OpenWIS/openwis/issues)
-    - [github issues: openwis-documentation](https://github.com/OpenWIS/openwis-documentation/issues)
-    - We will go through the kanban/backlog items and agree the following:
-        - the definition and priority (MSCW) of each kanban/backlog item
-        - which kanban/backlog items belong to which Features
-        - which Features are candidates for releases 4.1 and 4.2
-    - this will include work on the website and docs as well as the code (they are all on the kanban)
-    - PR will add any new ideas to the backlog, preferably before the meeting, but can do during as well
-    - new backlog items can just refer to an issue on GitHub, otherwise, a brief description would be useful for PR to publish on the website prior to the meeting (for example, the MF/INSPIRE question on the metadata query performance of OpenWIS v3 should be raised as a GitHub issue)
+    1. PR - The purpose of this workshop is to agree what priorities we want to assign to OpenWISv4 development activities, for Release 4.2, and by implication, Release 4.1. If we get time, we'll have a look at the OpenWISv3 maintenance backlog and the documentation backlog too.
+    2. PR presented [Workshop instructions]({{ site.baseurl | prepend: site.url }}/howto/2017-03-17-OpenWIS-Planning-Workshop.html)
+    3. PR - So for round 1, we're looking at the issues in:
+        - [github issues: OpenWIS4](https://github.com/OpenWIS/openwis4/issues)
+    4. PR - You can add new issues, but you should check they're not logged somewhere already:
+        - [kanban board](http://openwis.github.io/openwis-documentation/kanban/)
+        - [backlog](http://openwis.github.io/openwis-documentation/backlog/)
+        - [github issues: OpenWIS3](https://github.com/OpenWIS/openwis/issues)
+        - [github issues: openwis-documentation](https://github.com/OpenWIS/openwis-documentation/issues)
+    5. PR - The teams are:
+        1. Pink: BR, BS, MV, PR
+        2. Blue: KS, NM, RGb, YG
+        3. Green: DW, MF, MG, MC
+        4. Yellow: DP, MP, SO, SD
+    6. PR - Some of you have a remote team member on WebEx, so you will need to figure out how to include them; this is something we will have to do when we work in squads.
+    7. {Each team worked independently on the round 1 task and then the post-its were collected by PR}
+    8. The results were:
+        1. Pink:
+            - +2: https://github.com/OpenWIS/openwis4/issues/107
+            - +2: https://github.com/OpenWIS/openwis4/issues/58
+            - +1: https://github.com/OpenWIS/openwis4/issues/74
+            - +1: https://github.com/OpenWIS/openwis4/issues/72
+            - +1: https://github.com/OpenWIS/openwis4/issues/42
+            - +1: https://github.com/OpenWIS/openwis4/issues/20
+            - +1: https://github.com/OpenWIS/openwis4/issues/14
+            - +1: https://github.com/OpenWIS/openwis4/issues/8
+        2. Blue:
+            - +1: https://github.com/OpenWIS/openwis4/issues/103
+            - +1: https://github.com/OpenWIS/openwis4/issues/94
+            - +1: https://github.com/OpenWIS/openwis4/issues/90
+            - +1: https://github.com/OpenWIS/openwis4/issues/89
+            - +1: https://github.com/OpenWIS/openwis4/issues/85
+            - +1: https://github.com/OpenWIS/openwis4/issues/84
+            - +1: https://github.com/OpenWIS/openwis4/issues/83
+            - +1: https://github.com/OpenWIS/openwis4/issues/54
+            - +1: https://github.com/OpenWIS/openwis4/issues/40
+            - +1: https://github.com/OpenWIS/openwis4/issues/18
+        3. Green:
+            - +2: https://github.com/OpenWIS/openwis4/issues/73
+            - +2: https://github.com/OpenWIS/openwis4/issues/71
+            - +2: https://github.com/OpenWIS/openwis4/issues/70
+            - +2: https://github.com/OpenWIS/openwis4/issues/50
+            - +2: https://github.com/OpenWIS/openwis4/issues/29
+        4. Yellow:
+            - +2: https://github.com/OpenWIS/openwis4/issues/103
+            - +2: https://github.com/OpenWIS/openwis4/issues/99
+            - +1: https://github.com/OpenWIS/openwis4/issues/84
+            - +1: https://github.com/OpenWIS/openwis4/issues/82
+            - +1: https://github.com/OpenWIS/openwis4/issues/73
+            - +1: https://github.com/OpenWIS/openwis4/issues/72
+            - +1: https://github.com/OpenWIS/openwis4/issues/18
+            - +1: https://github.com/OpenWIS/openwis4/issues/10
+    9. PR - Ok, so looking at the results together, we have 11 issues that scored more than 1.
+        1. PR - That seems like an achievable number of changes to be considering for a release; around a dozen would be 3 changes per squad on average. Could we just say that those 11 are the MUSTs, so they represent the MVP for the release?
+        2. SO - That sounds reasonable.
+        3. PR - Ok.
+        4. PR - Because BoM couldn't be with us this afternoon, LM is sending their votes by email, so I will add those in, but they won't alter the numbers by much.
+            1. _Post meeting note_: BoM voted as follows, which resulted in 13 MUSTs:
+                - +3: https://github.com/OpenWIS/openwis4/issues/58
+                - +2: https://github.com/OpenWIS/openwis4/issues/72
+                - +2: https://github.com/OpenWIS/openwis4/issues/45
+                - +1: https://github.com/OpenWIS/openwis4/issues/70
+                - +1: https://github.com/OpenWIS/openwis4/issues/54
+                - +1: https://github.com/OpenWIS/openwis4/issues/48
+        5. PR - OK, I will take an action to label the issues list on GitHub with the priorities we have agreed.
+            1. So more than 1 vote is a MUST, 1 vote only is a SHOULD, 0 votes is a COULD.
+            2. PR - [Action-TC-2017-15 Add priority labels to openwis4 issues](https://github.com/OpenWIS/openwis-documentation/issues/165)
+    10. PR - Ok, we're short of time, so I suggest we do the other backlogs offline if required.  They have far fewer issues and we could probably just cover them during a TC meeting.
 10.  **Allocation of people to squads to features**
-    1. PR - work allocation:
-        - establish who is interested in each feature
-        - build squads accordingly
-        - firm up on lists of Features for upcoming releases (eg: 3.14.9 and 4.1)
+    1. PR - I think we need to deliver some Overlay training and see how that goes before we can assign people and features to squads. I am happy to take actions to follow that up at the appropriate time.
+        - PR - [Action-TC-2017-16 Feature squads](https://github.com/OpenWIS/openwis-documentation/issues/166)
+        - PR - [Action-TC-2017-17 Feature backlogs](https://github.com/OpenWIS/openwis-documentation/issues/167)
+    2. PR - However, it would be interesting to see who is interested in each feature, just to give an idea of the spread; I will not be using the responses to allocate work. Shall we go round the table?
+        1. The responses were:
+            - 7 Interested in Discovery: NM, PR, KS, JT, SO, SD, DP
+            - 2 Interested in Access: RGb, YG
+            - 5 Interested in Retrieval: MP, MV, DW, MF, MC
+            - 3 Interested in System Admin: MG, BR, BS
+        2. PR - That's probably the sort of distribution we will need, with more focus on the things the end-users are most concerned about, Discovery and Retrieval.
+    3. PR - Ok, I will think about how best to structure the backlog/Kanban etc. for the work ahead and take actions to update them as required.
+        - PR - [Action-TC-2017-18 Update the Kanban](https://github.com/OpenWIS/openwis-documentation/issues/168)
+        - PR - [Action-TC-2017-19 Update the Backlog](https://github.com/OpenWIS/openwis-documentation/issues/169)
 11. **Development facilities for OpenWIS4**
-    1. MC - status of MF servers - are they useful and should we keep them?
-    2. XX - status of AWS CI - is it still useful and should we repurpose it for v4?
+    1. Status of MF servers - are they useful and should we keep them?
+        1. MC - We have 6 months subscription remaining for the servers. We recently used them for the Forum demos.
+        2. JT - What's the running cost of the servers?
+        3. MC - 70 Euros per month per server.
+        4. NM - What's the purpose of this infrastructure? What happens after 6 months?
+        5. BS - They could be paid for by OpenWIS Association?
+        6. MC - They can be used for whatever we want. They are 2 physical servers with the Proxmox VM installed.
+        7. NM - What memory do they have?
+        8. BS - 32Gb.
+        9. SO - How easy is it to create new accounts and support development?
+        10. MC - Quite easy, MF agreed at the Developer Conference in Washington to support development on them.
+        11. NM - So we could move the public servers at European Dynamics there?
+        12. MC- Yes.
+        13. MC - We use the nginx proxy to authorise http connections. We direct according to url, to the dedicated VM we have set up for you.
+    2. SO - Where do we envisage Discourse is deployed operationally?
+        1. NM - For long term use, I would look at a cloud provider. We had to assign 16Gb to Core GeoNetwork v3.2, which is half of the 32Gb. Rather we put things on cloud so we can uplift memory etc. as things grow. Also, we would be doing less system admin.
+        2. MG - There are several options for various containers or commercial offerings for running Discourse.
+        3. SO - Rough cost?
+        4. MG - No idea, but I'm sure there are some low-end tiers.
+        5. SO - Could you get us a table of cost options?
+        6. MG - Sure.
+            - MG - [Action-TC-2017-09 Costed options for Discourse](https://github.com/OpenWIS/openwis-documentation/issues/159)
+        7. JT - Shall we try it for 6 months?
+        8. PR - I suggest a year to give it a good run. Anyway we only really discuss costs at the annual meetings.
+        9. JT - Ok, we'll recommend SC budget for a year of Discourse.
+        10. JT - Someone should ask the question: how do we get our forum data out of Discourse if we change our minds after one year?
+        12. KS - It's standard in US contracts to require that.
+        11. MG - Ok, I can do that too.
+            - MG - [Action-TC-2017-10 Establish how we could get off Discourse](https://github.com/OpenWIS/openwis-documentation/issues/160)
+        12. RGb - Is the Forum only for developers, or for end-users?
+        13. JT - Both. I'm just looking for the address of a well used Discourse instance...
+            1. JT - Try looking at: [W3C Web Incubator Group](https://discourse.wicg.io/)
+            2. JT - Also, if you go up one level to [here](https://wicg.io/), you will see a choice between GitHub and Discourse.
+            3. RGb - Should developers discuss on Discourse?
+            4. PR - Developers should mainly use GitHub for discussion of issues or detailed technical work that is in progress (limited audience). New ideas, theories etc. should be discussed initially on Discourse (wider audience).
+    3. Status of AWS CI - is it still useful and should we repurpose it for v4?
+        1. PR - AWS CI is currently in use for OpenWISv3.14 builds and we still need that throughout maintenance mode.
+        2. NM - We also need to build CI for OpenWIS4. AWS is ok, so no need to change to something else.
+        3. JT - So budget to continue the existing spend of about 2000 USD per year?
+        4. NM - Well, we need to build another for v4 and nice to know quickly when something is broken, so should also run continuously, so probably cost more.
+        5. MF - At present we are running: 1 large, 3 medium and 3 micro services.
+        6. JT - NM, perhaps you could take a look at our current usage and decide what we might end up using?
+        7. PR - The UKMO Release Engineering team will be able to say what we run on it. We probably used it more when we were in the thick of v3.14 uplift.
+        6. NM - Ok, I'll speak to Release Engineering and look at how it is being used.
+            - NM - [Action-TC-2017-11 Future use of the CI environment](https://github.com/OpenWIS/openwis-documentation/issues/161)
+    4. RGb - Do we want to redirect openwis.io?
+        1. PR - Yes, once Discourse is operational.
 12. **excel2wis**
-    1. MC - Metadata tool [excel2wis](https://github.com/OpenWIS/excel2wis)
+    1. BS presented [excel2wis](https://github.com/OpenWIS/excel2wis)
+         1. MC - We have submitted the pull-request. How do we get it approved?
+         2. PR - You can approve your own pull-request into the _develop_ branch - you know the code best.
+         3. PR - Then the Release Engineering team will merge to _master_; I will arrange that with them if you like.
+         4. DW - How does it handle updates to metadata?
+         5. BS - We run some Javascript to copy out the original metadata to a CSV file, then import it into Excel and edit it.
+         6. MC - I have just merged back to _develop_.
+         7. PR - Ok - [Action-TC-2017-12 Merge excel2wis to master](https://github.com/OpenWIS/openwis-documentation/issues/162)
+         8. SO - I suggest we incorporate a 'new project' page for excel2wis on the website.
+         9. JT - So, you need to make that recommendation to the SC.
+         10. BS - I will prepare a summary and send it to CS, to put on the website.
+             - BS - [Action-TC-2017-13 Project summary for excel2wis](https://github.com/OpenWIS/openwis-documentation/issues/163)
 13. **Metadata hierarchies**
-    1. DW - Why we need metadata hierarchies
+    1. DW - To save time, I won't say much more on this now; we've covered it a few times already. We all know we need better metadata hierarchies, to make it easier to find and manage metadata as well as to improve subscriptions.
 14. **WIS 2.0**
     1. WIS 2.0 Status Update
         1. JT - The initial presentation on the need for WIS 2.0 was made at WMO CBS in November 2016.   It was recommended.
@@ -512,6 +635,26 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
         31. WQ - Ok, this is all good; but let's not take another decade!
         32. JT - So we can expect the Technical Specifications to be finally approved in 4 years time; that gives us time to do this properly and be ready for that approval.
 15. **AOB**
+    1. YG presented [MF OpenWIS Operations]({{ site.baseurl | prepend: site.url }}/assets/2017_MF_OpenWIS_Deployments_YGO_vAnim_20170317.odp) (first part of slide-deck).
+    2. BS presented [MF OpenWIS Deployments]({{ site.baseurl | prepend: site.url }}/assets/2017_MF_OpenWIS_Deployments_YGO_vAnim_20170317.odp) (second part of slide-deck)
+        1. BS - The enterprise service bus (ESB) is the backbone of our system architecture.
+        2. BS - DCPC data services access at MF is based on a Services Oriented Architecture.
+        3. SD - Is the ESB around OpenWIS?
+        4. BS - The ESB is not part of OpenWIS, it's in front of the data.
+        5. SD - So data policy is separate?
+        6. BS - It is linked.
+        7. BS - All the software is open source, Docker solutions.
+        8. We have only one main entrance for users. We monitor all use of web services, preventing each system from doing its own monitoring.
+    3. MC presented [MF OpenWIS Harness]({{ site.baseurl | prepend: site.url }}/assets/2017-MF-Harness-v3-20170319.odp)
+        1. MC - Should we make the Harness code open source and share experiences of implementation and deployment?
+        2. DW - How does dissemination work? Does the Harness deliver the data?
+        3. YG - We install the Harness on the NWP DCPC etc. It produces an XML file that specifies a non-OpenWIS location.
+        4. RGb - OpenWIS is very specific to the data source. Is yours more generic?
+        5. MC - The harness indicates our own SOAP web service, so is specific.
+        6. BR - So an adapter pattern model?
+        7. MC - Yes. So that means we could share some components.
+        8. PR - Ok, I'll arrange for a new Repository and then you can start us off by adding your Harness code.
+            - PR/MC - [Action-TC-2017-14 Share Harness components](https://github.com/OpenWIS/openwis-documentation/issues/164)
 16. **Summary for SC**
 
 ---
