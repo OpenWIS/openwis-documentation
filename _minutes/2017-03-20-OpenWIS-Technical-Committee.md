@@ -100,7 +100,7 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
                 3. SO - Is there support to change that through plug-ins?
                 4. NM - No need to do that, just change the XML.
             2. NM - We have made plug-in examples of all the components we could think of; there may be a few others.
-            3. RGr - Is it possible to disable SSO?
+            3. RGb - Is it possible to disable SSO?
                 1. NM - OpenWIS v4 does not use SSO by default; you have to enable SSO if you want it.  You can do that, but CGN will not create new users in your SSO.  CGN has built-in security that you can use out of the box.  If you are currently using SSO then you might need a way to port your User accounts from your v3 SSO to the v4 CGN database.
         4. Developer Conference - when and where is best to embed Overlay Approach skills?
             1. PR - Can we just take a poll of how many coders each organisation is likely to have who will need training in the Overlay approach:
@@ -424,7 +424,7 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
             1. PR - So there are choices to be made between the way Core GeoNetork provides a function and the way our Data Services provides the same or similar.
             2. LM - So we can change Data Services to use the Core GeoNetork function or we write our own.
         8. BS - Do we still need subscription, or do we migrate to web services?
-            1. RGr - You would have to change the WMO Technical Specifications.
+            1. RGb - You would have to change the WMO Technical Specifications.
             2. JT - Yes, that's WIS 2.0 and we will have to support _push_.
             3. NM - Probably need to subscribe to notifications that data is ready.
             4. WQ - Yes, people will have to subscribe somehow; email, web services etc. are all just delivery mechanism. I think we will still have subscriptions in WIS 2.0.
@@ -655,26 +655,52 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
         7. MC - Yes. So that means we could share some components.
         8. PR - Ok, I'll arrange for a new Repository and then you can start us off by adding your Harness code.
             - PR/MC - [Action-TC-2017-14 Share Harness components](https://github.com/OpenWIS/openwis-documentation/issues/164)
-16. **Summary for SC**
+16. **Summary for SC** (SO)
+    1. LM gave us a retrospective on the last year:
+        1. It's been a good year with the release of a stable v3.14
+        2. And we have gone open source.
+    2. LM also shared the results of an online survey. It was notable that:
+        1. Most GISCs are running v3.12 or v3.13.
+        2. The hardest part of v3.14 to install was OpenAM/DJ.
+        3. Most installs took days rather than hours.
+        4. Two centres have used puppet to get installs down to 2 hours.
+    3. We heard from NM about the progress with v4:
+        1. We have a v4.0 instance running.
+        2. We have developed the Overlay approach to make development of v4 easier.
+        3. We're looking at training 10-12 folks in multiple sessions.
+        4. After that we'll assess whether to hold a Developer Conference.
+    4. DW has briefed us on the facilities of Core GeoNetwork, relative to OpenWIS4:
+        1. There is a lot of work to do and in progress.
+        2. We've discussed parent/child metadata
+        3. And the compliance of OpenWIS4 to WIS Technical Specifications; we need a set of tests to show compliance.
+    5. We discussed the level of engagement with the Core GeoNetwork community.
+    6. We also discussed how to deal with external collaborators and contributions and we distinguished between major and minor contributions.
+    7. We intend to look at other small open source organisations to see how they work.
+    8. We compared the options for forum software and we chose Discourse.
+    9. We have discussed how we balance the work on v4 vs v5.
+    10. We are recommending that we Release a v4.1 and a v4.2 during the next year
+    11. We have discussed a squad based approach to future development; to which we will assign work at the next TC.
+    12. We have discussed the facilities we need and the financial implications.
+    13. We have decided to adopt excel2wis into the Association and to create a shared repository for harness components.
+    12. We have also heard about the future, in the shape of WIS 2.0.
 
 ---
 
 #### Participants
 - SO - Steve Olson, National Weather Service, United States of America [NWS], [delegate], Chair
-- WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM], [delegate], (WebEx)
+- WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM], [delegate], (WebEx) (mornings only)
 - SD - Sungsoo Do, Korea Meteorological Administration, Republic of Korea [KMA], [delegate]
 - MC - Michael Claudon, Meteo-France, France [MF], [delegate]
 - RGb - Remy Gibault, Meteo-France International [MFI], [delegate]
 - MP - Mikko Partio, Finnish Meteorological Institute [FMI], [delegate]
-- JT - Jeremy Tandy, Met Office, UK [UKMO], [delegate]
+- JT - Jeremy Tandy, Met Office, UK [UKMO], [delegate] (day two only)
 - KS - Kari Sheets, National Weather Service, United States of America [NWS]
 - MG - Marc Giannoni, National Weather Service, United States of America [NWS], (WebEx)
-- CS - Cassie Stearns, National Weather Service, United States of America [NWS] (WebEx)
-- LM - Leon Mika, Bureau of Meteorology, Australia [BoM], (WebEx)
+- CS - Cassie Stearns, National Weather Service, United States of America [NWS] (WebEx) (parts)
+- LM - Leon Mika, Bureau of Meteorology, Australia [BoM], (WebEx) (mornings only)
 - BS - Benjamin Saclier, Meteo-France, France [MF]
 - YG - Yves Goupil, Meteo-France, France [MF]
-- JMD - Jean Marie Dumas, Meteo-France, France [MF]
-- RGr - Remy Giraud, Meteo-France, France [MF]
+- JMD - Jean Marie Dumas, Meteo-France, France [MF] (observer)
 - MV - Mikko Visa, Finnish Meteorological Institute [FMI]
 - BR - Baudouin Raoult, European Centre for Medium Range Weather Forecasting [ECMWF]
 - PR - Paul Rogers, Met Office, UK [UKMO]
