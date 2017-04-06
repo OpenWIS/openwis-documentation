@@ -248,7 +248,7 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
     2. **Development process for OpenWIS4**
         1. Engagement with the Core GeoNetwork Community
             1. PR - We know who the Core GeoNetwork community is:
-                1. PR - The repository is public: https://github.com/geonetwork/core-geonetwork
+                1. PR - The [repository](https://github.com/geonetwork/core-geonetwork) is public
                 2. PR - We worked with two of the main developers from GeoCat, Maria (Delawen) and Jose (josegar74) during 2015
                 3. PR - JT is acquainted with the founder, Jeroen Ticheler
                 4. PR - Other members are known to some of us - eg: BoM/Simon Pigot
@@ -357,7 +357,7 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
                 6. BS - Could we compress the metadata?
                 7. NM - Yes, if both ends use the same protocol. But that's not really the problem, it's the handshakes etc. Sequential fetch-and-index is a clear design flaw.
                 8. JT - A typical GeoNetwork catalog would contain 200 metadata records, whereas we have tens of thousands.
-                9. DW - We raised this issue with GeoCat, but they didn't fix it. We don't want a harvest running for 5 days! We've checked memory and it look adequate. Strangely, the sync log appears to be the same as for a harvest, though a sync does run quicker. You don't get to set a data for a sync, just a time. Also, in v3 you get more breakdown on what was added/deleted.
+                9. DW - We raised this issue with GeoCat, but they didn't fix it. We don't want a harvest running for 5 days! We've checked memory and it looks adequate. Strangely, the sync log appears to be the same as for a harvest, though a sync does run quicker. You don't get to set a date for a sync, just a time. Also, in v3 you get more breakdown on what was added/deleted.
             3. NM - So for v5, the installation is fully automated, you just trigger it with one command. It is all done using Docker.
             4. JT - So, just referring back to slide 14; what you're calling the _private cloud_ is on public cloud infrastructure, it's private in the sense that you are controlling access. It's just a different instance of the same software. Also, you're deploying multiple instances of the same software because that is much easier to manage and maintain than having a single piece of software do multiple jobs; that would make the software too complex.
                 1. BS - Do users have to log in to 2 instances?
@@ -382,7 +382,7 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
                 14. NM - Ok, but unless you are sure you can trust all those sources, you can't be sure your container is secure.
         2. NM presented a demo of the advanced message queue protocol (AMQP) PoC
             1. NM - So for the PoC we have created a container based on Ubuntu.
-            2. MC - So this includes no Core GeoNetork and no OpenWIS?
+            2. MC - So this includes no Core GeoNetwork and no OpenWIS?
             3. NM - That's right, it just demonstrates the underlying message architecture. However, we are doing OAI-PMH harvesting in real-time from real GISCs.
             4. NM - Ok, so the PoC has started; it came up in 1 minute and 10 seconds.
             5. {NM showed the harvest queues working very quickly, the raw XML metadata results from Elastic Search and also a rich variety of out-of-the-box sample UI components}
@@ -401,28 +401,28 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
             1. The WIS 2.0 strategy document talks about discovery by search engines...
             2. Rather than the use of heavy-weight ISO metadata standards that are difficult to operate.
             3. So I think we will see a significant change in the way we do those things.
-            4. v4 leverages the management of metadata by Core GeoNetork in that heavy way.
+            4. v4 leverages the management of metadata by Core GeoNetwork in that heavy way.
             5. v5 brings much lighter metadata management.
         4. JT - The modularity that we strive for today could be developed for v4 and reused for v5.
-            1. NM - If we start changing Core GeoNetork in such a major way then we end up with our own product. I would prefer to do that in cooperation with the GeoNetork community.
+            1. NM - If we start changing Core GeoNetwork in such a major way then we end up with our own product. I would prefer to do that in cooperation with the GeoNetwork community.
             2. JT - But we could do some containerization.
             3. NM - They currently use the Quartz scheduler so there could be some difficulties. Better to do those kinds of changes in their source code.
-            4. JT - Core GeoNetork is only one of the 6 or 7 components; could we do the message-driven thing to the Data Services, cache, etc?
+            4. JT - Core GeoNetwork is only one of the 6 or 7 components; could we do the message-driven thing to the Data Services, cache, etc?
             5. NM - Yes, we could.
-            6. JT - Ok, let's use Core GeoNetork to the max but not unpick it; stitch-in our other components.
+            6. JT - Ok, let's use Core GeoNetwork to the max but not unpick it; stitch-in our other components.
             7. NM - Yes, ok.
         5. NM - How much effort do we put into v4 before we work on v5? Do the minimum?
             1. JT - As we work on the next level down, the question is: how much effort do we invest in something that will be used for 4ish years?
             2. JT - v4 does improve on v3.
             3. JT - We could work on v4 and do v5 pilot activities in parallel to influence how WIS 2.0 works.
-            4. WQ - I agree with what JT said earlier; let's work around Core GeoNetork in v4. Apart from the plug-n-play features, what new stuff do we really need? Bulk Subscriptions?
+            4. WQ - I agree with what JT said earlier; let's work around Core GeoNetwork in v4. Apart from the plug-n-play features, what new stuff do we really need? Bulk Subscriptions?
             5. PR - We will work that out during the workshop later.
         6. BS - But metadata is not an application problem, it is a WMO problem.
             1. WQ - Agree, but the fact is that OpenWIS is geared to handle that metadata model and 150 thousand metadata records.
             2. PR - So we change the software as much as we can without altering the metadata model.
         7. LM - We can implement Bulk Subscriptions when we migrate Data Services to v4.
-            1. PR - So there are choices to be made between the way Core GeoNetork provides a function and the way our Data Services provides the same or similar.
-            2. LM - So we can change Data Services to use the Core GeoNetork function or we write our own.
+            1. PR - So there are choices to be made between the way Core GeoNetwork provides a function and the way our Data Services provides the same or similar.
+            2. LM - So we can change Data Services to use the Core GeoNetwork function or we write our own.
         8. BS - Do we still need subscription, or do we migrate to web services?
             1. RGb - You would have to change the WMO Technical Specifications.
             2. JT - Yes, that's WIS 2.0 and we will have to support _push_.
@@ -459,66 +459,66 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
     7. {Each team worked independently on the round 1 task and then the post-its were collected by PR}
     8. The results were:
         1. Pink:
-            - +2: https://github.com/OpenWIS/openwis4/issues/107
-            - +2: https://github.com/OpenWIS/openwis4/issues/58
-            - +1: https://github.com/OpenWIS/openwis4/issues/74
-            - +1: https://github.com/OpenWIS/openwis4/issues/72
-            - +1: https://github.com/OpenWIS/openwis4/issues/42
-            - +1: https://github.com/OpenWIS/openwis4/issues/20
-            - +1: https://github.com/OpenWIS/openwis4/issues/14
-            - +1: https://github.com/OpenWIS/openwis4/issues/8
+            - +2: [#107](https://github.com/OpenWIS/openwis4/issues/107)
+            - +2: [#58](https://github.com/OpenWIS/openwis4/issues/58)
+            - +1: [#74](https://github.com/OpenWIS/openwis4/issues/74)
+            - +1: [#72](https://github.com/OpenWIS/openwis4/issues/72)
+            - +1: [#42](https://github.com/OpenWIS/openwis4/issues/42)
+            - +1: [#20](https://github.com/OpenWIS/openwis4/issues/20)
+            - +1: [#14](https://github.com/OpenWIS/openwis4/issues/14)
+            - +1: [#8](https://github.com/OpenWIS/openwis4/issues/8)
         2. Blue:
-            - +1: https://github.com/OpenWIS/openwis4/issues/103
-            - +1: https://github.com/OpenWIS/openwis4/issues/94
-            - +1: https://github.com/OpenWIS/openwis4/issues/90
-            - +1: https://github.com/OpenWIS/openwis4/issues/89
-            - +1: https://github.com/OpenWIS/openwis4/issues/85
-            - +1: https://github.com/OpenWIS/openwis4/issues/84
-            - +1: https://github.com/OpenWIS/openwis4/issues/83
-            - +1: https://github.com/OpenWIS/openwis4/issues/54
-            - +1: https://github.com/OpenWIS/openwis4/issues/40
-            - +1: https://github.com/OpenWIS/openwis4/issues/18
+            - +1: [#103](https://github.com/OpenWIS/openwis4/issues/103)
+            - +1: [#94](https://github.com/OpenWIS/openwis4/issues/94)
+            - +1: [#90](https://github.com/OpenWIS/openwis4/issues/90)
+            - +1: [#89](https://github.com/OpenWIS/openwis4/issues/89)
+            - +1: [#85](https://github.com/OpenWIS/openwis4/issues/85)
+            - +1: [#84](https://github.com/OpenWIS/openwis4/issues/84)
+            - +1: [#83](https://github.com/OpenWIS/openwis4/issues/83)
+            - +1: [#54](https://github.com/OpenWIS/openwis4/issues/54)
+            - +1: [#40](https://github.com/OpenWIS/openwis4/issues/40)
+            - +1: [#18](https://github.com/OpenWIS/openwis4/issues/18)
         3. Green:
-            - +2: https://github.com/OpenWIS/openwis4/issues/73
-            - +2: https://github.com/OpenWIS/openwis4/issues/71
-            - +2: https://github.com/OpenWIS/openwis4/issues/70
-            - +2: https://github.com/OpenWIS/openwis4/issues/50
-            - +2: https://github.com/OpenWIS/openwis4/issues/29
+            - +2: [#73](https://github.com/OpenWIS/openwis4/issues/73)
+            - +2: [#71](https://github.com/OpenWIS/openwis4/issues/71)
+            - +2: [#70](https://github.com/OpenWIS/openwis4/issues/70)
+            - +2: [#50](https://github.com/OpenWIS/openwis4/issues/50)
+            - +2: [#29](https://github.com/OpenWIS/openwis4/issues/29)
         4. Yellow:
-            - +2: https://github.com/OpenWIS/openwis4/issues/103
-            - +2: https://github.com/OpenWIS/openwis4/issues/99
-            - +1: https://github.com/OpenWIS/openwis4/issues/84
-            - +1: https://github.com/OpenWIS/openwis4/issues/82
-            - +1: https://github.com/OpenWIS/openwis4/issues/73
-            - +1: https://github.com/OpenWIS/openwis4/issues/72
-            - +1: https://github.com/OpenWIS/openwis4/issues/18
-            - +1: https://github.com/OpenWIS/openwis4/issues/10
+            - +2: [#103](https://github.com/OpenWIS/openwis4/issues/103)
+            - +2: [#99](https://github.com/OpenWIS/openwis4/issues/99)
+            - +1: [#84](https://github.com/OpenWIS/openwis4/issues/84)
+            - +1: [#82](https://github.com/OpenWIS/openwis4/issues/82)
+            - +1: [#73](https://github.com/OpenWIS/openwis4/issues/73)
+            - +1: [#72](https://github.com/OpenWIS/openwis4/issues/72)
+            - +1: [#18](https://github.com/OpenWIS/openwis4/issues/18)
+            - +1: [#10](https://github.com/OpenWIS/openwis4/issues/10)
     9. PR - Ok, so looking at the results together, we have 11 issues that scored more than 1.
         1. PR - That seems like an achievable number of changes to be considering for a release; around a dozen would be 3 changes per squad on average. Could we just say that those 11 are the MUSTs, so they represent the MVP for the release?
         2. SO - That sounds reasonable.
         3. PR - Ok.
         4. PR - Because BoM couldn't be with us this afternoon, LM is sending their votes by email, so I will add those in, but they won't alter the numbers by much.
             1. _Post meeting note_: BoM voted as follows, which resulted in 13 MUSTs:
-                - +3: https://github.com/OpenWIS/openwis4/issues/58
-                - +2: https://github.com/OpenWIS/openwis4/issues/72
-                - +2: https://github.com/OpenWIS/openwis4/issues/45
-                - +1: https://github.com/OpenWIS/openwis4/issues/70
-                - +1: https://github.com/OpenWIS/openwis4/issues/54
-                - +1: https://github.com/OpenWIS/openwis4/issues/48
+                - +3: [#58](https://github.com/OpenWIS/openwis4/issues/58)
+                - +2: [#72](https://github.com/OpenWIS/openwis4/issues/72)
+                - +2: [#45](https://github.com/OpenWIS/openwis4/issues/45)
+                - +1: [#70](https://github.com/OpenWIS/openwis4/issues/70)
+                - +1: [#54](https://github.com/OpenWIS/openwis4/issues/54)
+                - +1: [#48](https://github.com/OpenWIS/openwis4/issues/48)
         5. PR - OK, I will take an action to label the issues list on GitHub with the priorities we have agreed.
             1. So more than 1 vote is a MUST, 1 vote only is a SHOULD, 0 votes is a COULD.
             2. PR - [Action-TC-2017-15 Add priority labels to openwis4 issues](https://github.com/OpenWIS/openwis-documentation/issues/165)
     10. PR - Ok, we're short of time, so I suggest we do the other backlogs offline if required.  They have far fewer issues and we could probably just cover them during a TC meeting.
-10.  **Allocation of people to squads to features**
+10. **Allocation of people to squads to features**
     1. PR - I think we need to deliver some Overlay training and see how that goes before we can assign people and features to squads. I am happy to take actions to follow that up at the appropriate time.
         - PR - [Action-TC-2017-16 Feature squads](https://github.com/OpenWIS/openwis-documentation/issues/166)
         - PR - [Action-TC-2017-17 Feature backlogs](https://github.com/OpenWIS/openwis-documentation/issues/167)
     2. PR - However, it would be interesting to see who is interested in each feature, just to give an idea of the spread; I will not be using the responses to allocate work. Shall we go round the table?
         1. The responses were:
-            - 7 Interested in Discovery: NM, PR, KS, JT, SO, SD, DP
-            - 2 Interested in Access: RGb, YG
-            - 5 Interested in Retrieval: MP, MV, DW, MF, MC
-            - 3 Interested in System Admin: MG, BR, BS
+            - 7 interested in Discovery: NM, PR, KS, JT, SO, SD, DP
+            - 2 interested in Access: RGb, YG
+            - 5 interested in Retrieval: MP, MV, DW, MF, MC
+            - 3 interested in System Admin: MG, BR, BS
         2. PR - That's probably the sort of distribution we will need, with more focus on the things the end-users are most concerned about, Discovery and Retrieval.
     3. PR - Ok, I will think about how best to structure the backlog/Kanban etc. for the work ahead and take actions to update them as required.
         - PR - [Action-TC-2017-18 Update the Kanban](https://github.com/OpenWIS/openwis-documentation/issues/168)
@@ -623,9 +623,9 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
         23. BR - ECMWF are doing the Climate Change and Atmospheric Monitoring. We redistribute the work tenders.
         24. [Copernicus](http://www.eumetsat.int/website/home/AboutUs/InternationalCooperation/Copernicus/index.html)
         25. SD - At KMA we are not planning any OpenWIS activities this year, but we have another Harness project. We don't know what data is going out of OpenWIS, or how much, so we are deploying monitoring.
-        26. RGb - At MFI we are developing the Assisi solution. WE are using OpenWIS as a module to deliver data to end users. We have a dedicated Harness for long-range forecasts etc. We have one data centre for Climate and one for Satellite and Radar imagery. We have plugged these into WIS.
+        26. RGb - At MFI we are developing the Assisi solution. We are using OpenWIS as a module to deliver data to end users. We have a dedicated Harness for long-range forecasts etc. We have one data centre for Climate and one for Satellite and Radar imagery. We have plugged these into WIS.
         27. MV - At FMI we have nothing planned that is directly related to WIS. We are mainly working on our open data portal, based on OGC services and our Smartmet server. We want Smartmet to be our backend for OpenWIS.
-        28. MV - We are also working on Copernicus, where we use Smartmet server and GeoNetork already. We could perhaps use OpenWIS.
+        28. MV - We are also working on Copernicus, where we use Smartmet server and GeoNetwork already. We could perhaps use OpenWIS.
         29. SO - Kari and I discussed a couple of aspects with Fred Branski and Bill Bolhofer:
             1. How important is it to show linkage to other WMO programmes?
             2. How important is the use of emerging data formats such as JSON and GeoJSON?
@@ -638,13 +638,13 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
     1. YG presented [MF OpenWIS Operations]({{ site.baseurl | prepend: site.url }}/assets/2017_MF_OpenWIS_Deployments_YGO_vAnim_20170317.odp) (first part of slide-deck).
     2. BS presented [MF OpenWIS Deployments]({{ site.baseurl | prepend: site.url }}/assets/2017_MF_OpenWIS_Deployments_YGO_vAnim_20170317.odp) (second part of slide-deck)
         1. BS - The enterprise service bus (ESB) is the backbone of our system architecture.
-        2. BS - DCPC data services access at MF is based on a Services Oriented Architecture.
+        2. BS - DCPC data services access at MF is based on a Service Oriented Architecture.
         3. SD - Is the ESB around OpenWIS?
         4. BS - The ESB is not part of OpenWIS, it's in front of the data.
         5. SD - So data policy is separate?
         6. BS - It is linked.
         7. BS - All the software is open source, Docker solutions.
-        8. We have only one main entrance for users. We monitor all use of web services, preventing each system from doing its own monitoring.
+        8. BS - We have only one main entrance for users. We monitor all use of web services, preventing each system from doing its own monitoring.
     3. MC presented [MF OpenWIS Harness]({{ site.baseurl | prepend: site.url }}/assets/2017-MF-Harness-v3-20170319.odp)
         1. MC - Should we make the Harness code open source and share experiences of implementation and deployment?
         2. DW - How does dissemination work? Does the Harness deliver the data?
