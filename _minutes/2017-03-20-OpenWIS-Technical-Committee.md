@@ -655,31 +655,34 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
         7. MC - Yes. So that means we could share some components.
         8. PR - Ok, I'll arrange for a new Repository and then you can start us off by adding your Harness code.
             - PR/MC - [Action-TC-2017-14 Share Harness components](https://github.com/OpenWIS/openwis-documentation/issues/164)
-16. **Summary for SC** (SO)
+16. **Meeting Summary** (SO)
     1. LM gave us a retrospective on the last year:
         1. It's been a good year with the release of a stable v3.14
         2. And we have gone open source.
     2. LM also shared the results of an online survey. It was notable that:
-        1. Most GISCs are running v3.12 or v3.13.
-        2. The hardest part of v3.14 to install was OpenAM/DJ.
-        3. Most installs took days rather than hours.
+        1. Most GISCs are running v3.12 or v3.13
+        2. The hardest part of v3.14 to install was OpenAM/DJ
+        3. Most installs took days rather than hours
         4. Two centres have used puppet to get installs down to 2 hours.
     3. We heard from NM about the progress with v4:
-        1. We have a v4.0 instance running.
-        2. We have developed the Overlay approach to make development of v4 easier.
-        3. We're looking at training 10-12 folks in multiple sessions.
+        1. We have a v4.0 instance running
+        2. We have developed the Overlay approach to make development of v4 easier
+        3. We're looking at training 10-12 folks in multiple sessions
         4. After that we'll assess whether to hold a Developer Conference.
-    4. DW has briefed us on the facilities of Core GeoNetwork, relative to OpenWIS4:
-        1. There is a lot of work to do and in progress.
+    4. DW has briefed us on the capabilities of Core GeoNetwork, relative to OpenWIS4:
+        1. There is a lot of work to do and in progress
         2. We've discussed parent/child metadata
-        3. And the compliance of OpenWIS4 to WIS Technical Specifications; we need a set of tests to show compliance.
-    5. We discussed the level of engagement with the Core GeoNetwork community.
-    6. We also discussed how to deal with external collaborators and contributions and we distinguished between major and minor contributions.
-    7. We intend to look at other small open source organisations to see how they work.
+        3. And the compliance of OpenWIS4 to WIS Technical Specifications
+        4. We need a set of tests to show compliance.
+    5. We discussed engagement with external communities:
+        1. The Core GeoNetwork community
+        2. External contributors
+        3. And we distinguished between major and minor contributions
+        4. Also, we intend to look at how other small open source organisations work.
     8. We compared the options for forum software and we chose Discourse.
-    9. We have discussed how we balance the work on v4 vs v5.
-    10. We are recommending that we Release a v4.1 and a v4.2 during the next year
-    11. We have discussed a squad based approach to future development; to which we will assign work at the next TC.
+    9. We have discussed what the balance of the work should be between v4 vs v5.
+    10. We anticipate that we will Release a v4.1 and a v4.2 during the next year
+    11. We have discussed a squad and feature based approach to future development and aim to assign work at the next TC.
     12. We have discussed the facilities we need and the financial implications.
     13. We have decided to adopt excel2wis into the Association and to create a shared repository for harness components.
     12. We have also heard about the future, in the shape of WIS 2.0.
