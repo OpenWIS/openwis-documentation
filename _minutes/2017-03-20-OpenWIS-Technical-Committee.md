@@ -345,7 +345,7 @@ title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
                 - SO - [Action-TC-2017-07 Forum on Discourse](https://github.com/OpenWIS/openwis-documentation/issues/157)
 7. **Future strategy (to 3 years ahead)**
     1. **Architecture Possibilities for OpenWIS5**
-        1. NM presented [OpenWIS5]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWIS5.pdf); including pros and cons of v4 vs v5.
+        1. NM presented [OpenWIS5]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWIS5v2.pdf); including pros and cons of v4 vs v5.
             1. SO - Just referring back to slide 7, are we stuck with Lucene?
                 1. NM - We could use something else but we would need big changes to Core GeoNetwork. We haven't found a problem with Lucene itself; Solr and Elastic Search both use Lucene and give good performance. So Lucene is fine if it is configured properly.
             2. NM - It takes 19 hours to harvest Beijing because the process makes serial http and indexing calls, one item at a time. However, Core GeoNetwork already supports harvesting from the file-system, so I separated the http calls from the indexing, using an external tool for the http fetch to disk. This gives at least a x10 performance improvement so that you can harvest Beijing in a couple of hours. The external http app is free, has a nice UI, does OAI-PMH and has a built-in scheduler.
