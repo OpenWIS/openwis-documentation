@@ -1,16 +1,17 @@
 ---
 layout: page
-title: Minutes - OpenWIS Technical Committee 2017 March - Toulouse
+title: OpenWIS Technical Committee 2017 March
 ---
 
-#### 20th - 21st March 2017
+#### 20th - 21st March 2017, Toulouse, France - meeting minutes
 
 ---
 
 1. **Welcome and introductions**
     - SO - Welcome everybody.
 2. **Approval of agenda**
-    - SO - The agenda is approved.
+    - SO - All happy with the agenda?
+    - SO - Ok, the agenda is approved.
 3. **Declaration of delegates**
     - PR - Delegates and attendees are listed at the foot of these minutes.  
     - PR - Six delegates are present in the room and one delegate is on WebEx; with seven of seven represented, the meeting is quorate.
