@@ -209,16 +209,53 @@ title: OpenWIS Steering Committee 2017 March
         12. JT - And there is more to do on distributed development, though we have made progress. The team was fragmented in Melbourne, 2 years ago, and not understanding what each other wanted. Since Seoul we're more organised and still getting better. I am happy to point people to OpenWIS to show how to do distributed development.
         13. MF - At the GISC-WISC meeting in Melbourne recently, there was recognition that the Association is a success at working together.
     2. **Review the continuing need for the OpenWIS Association**
-        - JT
+        1. JT - Given that we are talking WIS 2.0, the evolution expected by that and CMA enquiring about joining, I propose there is still a need for the Association.
+        2. MDA - Even if we don't get new members, the work is impressive and should continue.
+        3. JT - Any other comments? Ok, all happy.
     3. **How do we see OpenWIS Association evolving?**
-        - JT
+        1. JT - I think we have already discussed this.
+            1. We have discussed how we transition to support WIS 2.0.
+            2. We have discussed how we provide a better home for development projects.
+        2. WQ - Also, I think we are getting more mature in our collaborative development; that's a good sign.
+            1. JT - Yes, we will continue to evolve a maturing, federated, software development process.
     4. **Future requirements of WIS Centres**
-        1. MF - Future Requirements of WIS Centres -
+        1. MF (ET-WISC Co-chair) presented: Future Requirements of WIS Centres -
         [ppt]({{ site.baseurl | prepend: site.url }}/assets/SC201703-Future-requirements-of-WIS-Centres-Toulouse-March-2017.pptx) /
         [pdf]({{ site.baseurl | prepend: site.url }}/assets/SC201703-Future-requirements-of-WIS-Centres-Toulouse-March-2017.pdf)
-        2. JT - Evolution of WMO Core Metadata Profile
+            1. MF - It's been an interesting few days; everyone here seems familiar with WIS 2.0.
+            2. MF - The one thing I would urge you to do is to record the test results that demonstrate OpenWIS is compliant with WIS 1.0 and publish them on your web site.
+                - SO - [Action-SC-2017-24 Publish test results](https://github.com/OpenWIS/openwis-documentation/issues/195)
+            3. JT - Are there any particular recommendations you want us to endorse?
+                - MF - No.
+            4. MDA - When we worked on the first version of OpenWIS, we worked on SIMDAT. Are we considering applying for funding to do the investigation?
+                1. JT - Earlier, we said there was no opportunity for further collaboration going.
+                2. JT - SIMDAT was an EU funded project on grid-computing. We developed software that influenced WIS 1.0 Technical Specifications.
+                3. JT - Should we seek funds or engagement from outside OpenWIS? We could pursue Option 4 using our own funds, or we could seek Horizon 2020 funding.
+                4. RGb - Any plan to converge WIGOS and WIS? They are similar.
+                5. MDA - WMO tried to merge WIS into WIGOS, but I explained that WIS is underlying infrastructure that serves several programmes.
+                6. WQ - We could get funding from WIGOS or WMO?
+                7. JT - Would Horizon 2020 or WMO be best?
+                8. MDA - Horizon 2020; we would have to wait for Congress in 2018 to get funds from WMO.
+                9. JT - So much of the Horizon 2020 funding is around Copernicus; BR are there calls that fit?
+                10. BR - Not sure.
+                11. JT - So, ECMWF is already managing around Copernicus. MDA, how do you want to proceed?
+                12. MDA - ECMWF are close to the Directors etc. So BR could evaluate whether there are any calls in Horizon 202 that are relevant to OpenWIS.
+                   - BR - [Action-SC-2017-25 Horizon 2020 funding calls](https://github.com/OpenWIS/openwis-documentation/issues/196)
+                13. JT - Just remember, there is a lot of admin and commitment involved in seeking this sort of funding.
+        2. Evolution of WMO Core Metadata Profile
+            1. JT - I've talked about this. Metadata could look quite different for WIS 2.0. I don't know any more than that.
+            2. MDA - So you no-longer believe that ISO19000 will be a feature of WIS?
+            3. JT - If you look at INSPIRE, they have moved to more flexible standards, so I would look to leverage those.
+            4. WQ - Internally, we just use JSON and MongoDB, not ISO.
+            5. JT - The NM demo use Elastic Search, which also uses JSON.
+            6. BR - So, Core-GeoNetwork will support D-Cat?
+            7. JT - I think it already does.
+        3. How we support Data Policy inside OpenWIS
+            1. JT - {**awaiting words from JT**}
     5. **Review of Strategic Goals and Metrics (3 year horizon)**
-        - JT
+        1. JT - Goal 1: We have already assigned actions to the TC to define software quality metrics at 1.1 and 1.2. Goal 1.3 can be removed because it isn't a quality metric.
+            - PR - [Action-SC-2017-39 Update Goal 1](https://github.com/OpenWIS/openwis-documentation/issues/210)
+        2. JT - Goal 2
     6. **Recommendations to the Board**
         - JT - Medium term goals; 3 year strategy:
 10. **Review of recommendations from Technical Committee**
@@ -249,9 +286,9 @@ title: OpenWIS Steering Committee 2017 March
             2. MF also presented their work on Harnesses and we are recommending that we adopt a common approach to development of Harness components.
         6. JT - So if we look back over the past year, how do you think the technical group have performed?
             1. SO - Been a strong year. We've worked through a number of issues. Bringing European Dynamics on-board has also been a strength and a good path forward.
-	3. **Resolution of issues referred to SC (if any arising)**
-		  - JT
-	4. **Approval of strategic programme and work plan(s)**
+	2. **Resolution of issues referred to SC (if any arising)**
+		  1. JT - No issues have been received.
+	3. **Approval of strategic programme and work plan(s)**
       1. JT - Looking forward, we are establishing _feature-driven_ development.
       2. PR - Which will be a small change, just a slightly enhanced use of Kanban and GitHub.
       3. JT - I propose that we draw a line under OpenWISv3. If a security issue arises we will patch it, but it is in maintenance mode.
@@ -388,10 +425,10 @@ title: OpenWIS Steering Committee 2017 March
       123. MDA - So in 12 months we could have a new system?
       124. WQ - Yes and it could be better.
       125. DW - It would help if we all saw NM presentation.
-      126. MDA - Yes, let's see the presentation.
-      127. NM presented [OpenWIS5]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWIS5v2.pdf)
-      128. JT - We said we would have finished v4 by now, 2 years ago, but, we only finished v3.14 six months ago, so we've spent most of our time and effort on that.
-      129. JT - So let's summarise the options:
+      126. MDA - Yes.
+
+      127. JT - We said we would have finished v4 by now, 2 years ago, but, we only finished v3.14 six months ago, so we've spent most of our time and effort on that.
+      128. JT - So let's summarise the options:
           1. Option 1:
               - continue developing v3
               - stop working on v4
@@ -411,32 +448,98 @@ title: OpenWIS Steering Committee 2017 March
               - develop MVP on new architecture in 1 year and release
               - evolve that to meet WIS 2.0 Technical Specifications
               - wouldn't need to be MVP, just functional release in 12 months
-      130. MP - When will the WIS 2.0 Tech Specifications be ready?
-      131. JT - 2020-2022; having WIS 2.0 as the Technical Specifications for exchange.
-      132. RGr - The WIS 1.0 software will survive until at least 2025.
-      133. MDA - I am expecting to have a software starting to be used by 2020.
-      134. JT - The Implementation Team, that I am running, are trying for an incremental implementation plan.
-      135. RGr - So, there is going to be a transition or migration over some years.
-      136. PR - So we will have software that can support both WIS 1.0 and 2.0 and is upgraded as things change.
-      137. JT - I think Option 3 is too many architectural changes in 2 years.
-      138. {Everyone agreed - Option 3 is removed}
-      139. JT - Option 1 doesn't deliver new user features for 4 years.
-      140. JT - Option 4 has more risk associated with it because of the new architecture. However, WQ and ourselves both said we're already working on these architectures elsewhere, so that's ok.
-      141. KS - How compatible is Option 4 with the squad system?
-      142. PR - It's compatible.
-      143. MDA - Squads?
-      144. PR - An improvement to the development process we discussed at the TC. It helps to focus on delivering finished features by assigning each feature to a to sub-team.
-      145. MDA - What is the benefit of having a v4?
-      146. WQ - Are Options 1 and 4 almost the same?
-      147. DW - In Option 1 we continue v3 development, but in Option 4 we develop v5.
-      148. RGr - The main difference is that you consider v5 is not compliant with WIS 1.0 in Option 1, but in Option 4 it is also compliant with both. We don't know how much of the current Technical Specifications we are going to keep.
-      149. WQ - I don't think that is true. We will do things that will work with both and we do know what some of the ideas are; it will not ne totally different.
-      150. DW - v5 with WIS 1.0 requirements, new architecture, with indication of new 2.0 Technical Specifications. v4 will all be thrown away, so with v5 we throw less away.
-      151. JT - In Option 4 we may use vanilla Core-GeoNetwork as a stand alone editor, but it is integrated with the new architecture. So, some design work to get the MVP on the new architecture.
-
-
-		  1. RES-OWIS-SC-2017-nn:Resolution: vote:
-	5. **Identification of investment required from OpenWIS Association required to deliver the work plan**
+      129. MP - When will the WIS 2.0 Tech Specifications be ready?
+      130. JT - 2020-2022; having WIS 2.0 as the Technical Specifications for exchange.
+      131. RGr - The WIS 1.0 software will survive until at least 2025.
+      132. MDA - I am expecting to have a software starting to be used by 2020.
+      133. JT - The Implementation Team, that I am running, are trying for an incremental implementation plan.
+      134. RGr - So, there is going to be a transition or migration over some years.
+      135. PR - So we will have software that can support both WIS 1.0 and 2.0 and is upgraded as things change.
+      136. JT - I think Option 3 is too many architectural changes in 2 years.
+      137. {Everyone agreed - Option 3 is removed}
+      138. JT - Option 1 doesn't deliver new user features for 4 years.
+      139. JT - Option 4 has more risk associated with it because of the new architecture. However, WQ and ourselves both said we're already working on these architectures elsewhere, so that's ok.
+      140. KS - How compatible is Option 4 with the squad system?
+      141. PR - It's compatible.
+      142. MDA - Squads?
+      143. PR - An improvement to the development process we discussed at the TC. It helps to focus on delivering finished features by assigning each feature to a to sub-team.
+      144. MDA - What is the benefit of having a v4?
+      145. WQ - Are Options 1 and 4 almost the same?
+      146. DW - In Option 1 we continue v3 development, but in Option 4 we develop v5.
+      147. RGr - The main difference is that you consider v5 is not compliant with WIS 1.0 in Option 1, but in Option 4 it is also compliant with both. We don't know how much of the current Technical Specifications we are going to keep.
+      148. WQ - I don't think that is true. We will do things that will work with both and we do know what some of the ideas are; it will not ne totally different.
+      149. DW - v5 with WIS 1.0 requirements, new architecture, with indication of new 2.0 Technical Specifications. v4 will all be thrown away, so with v5 we throw less away.
+      150. JT - In Option 4 we may use vanilla Core-GeoNetwork as a stand alone editor, but it is integrated with the new architecture. So, some design work to get the MVP on the new architecture.
+      151. RGb - So, we have started on Option 2 and the development of OpenWIS4, with the goal of being independent of Core-GeoNetwork?
+      152. JT - No, the Overlay approach allows us to just plug-in our code to Core-GeoNetwork.
+      153. RGb - Are we sure that this Overlay approach will still work in 2018?
+      154. DW - We need to figure out what the AKKA glue was and replace it in OpenWISv4.
+      155. RGr - But we don't know what the cost of the options are. So, at the end of the day:
+          - Option 1 might cost $
+          - Option 2 might cost $$$
+          - Option 4 might cost $$ or $$$
+          - can we afford them?
+      156. SO - Option 4 is riskier but may be a better path. The alternative is Option 2.
+      157. DW - Another issue is where each organisation is moving, for example WQ/BoM is going for this new architecture anyway. So are UKMO and NWS. Eventually, v3 will have support issues, whereas v5 looks to the future, so Option 4 is strategically aligned.
+      158. BR - You can reuse Harnesses, as micro-services, so don't need to port everything. You can have an adapter for your SOAP services.
+      159. NM re-presented [OpenWIS5]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWIS5v2.pdf)
+      160. MDA - Have you considered having separate customer interfaces?
+      161. NM - Yes, but it introduces a lot of security complexity.
+      162. PR - Simpler to have multiple instances, each dedicated to a specific role.
+      163. MDA - Which components serve Technical Specifications 1.0?
+      164. NM - This architecture would work for any Technical Specifications.
+      165. JT - So we're assembling components, not building from scratch.
+      166. DW - Which is useful for building a virtual GISC.
+      167. BS - We already have Docker components for v3.14, without so much effort.
+      168. MDA - I'm still not convinced that Option 4 is cheaper than Options 1 or 2; we need a better cost estimate.
+      169. RGb - Not sure I understand the benefit of the private cloud.
+      170. DW - So they are a DCPC or NC.
+      171. RGb - So this is not a new feature, we can do this in v3.
+      172. BR - So are we 1% or 90% through v4?
+      173. JT - There's an action on the TC to do that estimate.
+      174. DW - I'd say about 15 to 20%.
+      175. WQ - We uplifted the middleware. The only new thing was to plug in Core-GeoNetwork.
+      176. BR - So that broke a lot of features?
+      177. WQ - Well, some features are gone. If we abandon v4 now we are not losing much.
+      178. MDA - So, UKMO, you invested a lot of effort.
+      179. JT - We spent about £30k with GeoCat. We're not looking to recover that from the Association. We're not emotionally attached to v4. Two years ago we didn't know that WIS 2.0 was coming; our target has changed.
+      180. MDA - So Option 1 or Option 4?
+      181. JT - With Option 2, if we decide we want to use Core-GeoNetwork for 4 years, that's ok, but we would be waiting longer for the new architecture and evolution to WIS 2.0.
+      182. MDA - If you don't have WIS 2.0, which option?
+      183. JT - We can still use Core-GeoNetwork standalone to do metadata management, but my gut feeling is Option 4 is my preference.
+      184. WQ - I agree, rather not integrate Core-GeoNetworkv3 and the new architecture now.
+      185. MDA - I like that; Core-GeoNetworkv3 would not be the core of the system.
+      186. JT - So if we still need to edit ISO19115 metadata, then let's use Core-GeoNetworkv3; but that decision is up to the TC.
+      187. WQ - So if Option 4, we have to agree the design and one option is to use Core-GeoNetworkv3 as the metadata editor.
+      188. JT - So MF has a preference for Option 4.
+      189. MDA - Option 1 could be cheaper, no?
+      190. WQ - Not necessarily; if you delay development of WIS 2.0 then you just delay the cost, not save it.
+      191. JT - Option 4 is the preferred option, pending cost analysis, with Option 1 as a fall-back. With Option 1 we're in investigative mode for longer.
+      192. WQ - So with Option 1 we don't go operational for 3 to 4 years; why?
+      193. JT - To inform the development of the WIS 2.0 Technical Specifications.
+      194. DW - Option 1 might become Option 4 at some point.
+      195. MDA - I'm not convinced. Not sure 'evolve v5' is cheaper than starting from scratch.
+      196. JT - Because we're using a micro-services approach, we'd be plugging in different services, but still have the old metadata etc.
+      197. WQ - So WIS 1.0 still valid; presentation is different.
+      198. RGr - It is difficult to answer because we know what is not going to be in WIS 2.0, so:
+          - no exchange between 15 sites,
+          - no global cache sync,
+          - unlikely to be ISO19115 metadata.
+      199. RGr - Costs are around those 3 elements, so cost to redevelop those would be high for something we are going to throw away.
+      200. RGr - We could work on improving v3 instead, making it easier to deploy etc.
+      201. RGr - Considering how WIS 2.0 is going to be different, we spend a lot of time and money on something we bin.
+      202. RGr - So perhaps an interface between v3 and v5 and we evolve v3.
+      203. JT - We have already tasked the TC on how they would develop v4 by calendar Q1 next year [Action-SC-2017-21](https://github.com/OpenWIS/openwis-documentation/issues/192) and what costs are involved [Action-SC-2017-22](https://github.com/OpenWIS/openwis-documentation/issues/193).
+      204. JT - So Option 2 is moribund.
+      205. JT - Option 1 includes v3 with Dockerisation, a valid option, but we need more information on costs and risks.
+      206. DW - So v4 is not having more work done on it?
+      207. JT - OK, so here's the proposal:
+          - Ask the TC for a cost estimate for Option 4; report back in 3 months (June 2017).
+      208. WQ - And also a comparable cost estimate for Option 1, with pros and cons of each option.
+      209. JT - Ok, let's vote on that:
+          1. RES-OWIS-SC-2017-01:Resolution: Task TC with:[Action-SC-2017-23 Future development options report](https://github.com/OpenWIS/openwis-documentation/issues/193); vote: 7 in favour, 0 against.
+      210. JT - So approval of the strategic programme and work plan is deferred, pending the action above by the TC.
+	4. **Identification of investment required from OpenWIS Association required to deliver the work plan**
 		  1. JT - Can we summarise the key budget recommendations so far?
           1. JT - MF servers = 1700 Euros per year.
           2. JT - Do we need to renew the domain name?
@@ -450,24 +553,189 @@ title: OpenWIS Steering Committee 2017 March
           10. SO - I don't think we need that at this time.
           11. JT - So that's all the costs to run the Association?
           12. SO - Yep.
-	7. **Review of Lead Developer role**
-		  1. JT
+	5. **Review of Lead Developer role**
+		  1. JT - With LM becoming TC Vice-chair, do we continue with the Lead Developer role?
+      2. PR - I don't think we need that now, we will have a lead developer for each squad.
+      3. RGr - Could have as PMC chair, so that LM as project leader chairs the PMC.
+      4. PR - Won't the TC still be the PMC for OpenWIS-Core for the foreseeable future? We can work out what we want as we begin to use squads.
+      5. JT - I propose that we decommission the Lead Developer role.
+          1. RES-OWIS-SC-2017-02:Resolution: Decommission Lead Developer role:[Action-SC-2017-12 Decommission the Lead Developer role](https://github.com/OpenWIS/openwis-documentation/issues/183); vote: 7 in favour, 0 against.
 11. **Risk review and development of mitigation plans**
-    1. JT
+    1. JT - The 3 items in the earlier action on PR ([Action-SC-2016-14 Add new risks to Risk Register](https://github.com/OpenWIS/openwis-documentation/issues/170)), require us to create and maintain a Risk Register.
+    2. JT - We should all consider what risks there are to the Association and how we mitigate them. Here are some I have noted recently:
+        1. JT - Since the Articles do not mention Contributors, they are not covered by the rules. Article 21.2 should mention them, but since changing the Articles is hard, do we just add it to the Risk Register for now?
+        2. JT - The ForgeRock repository closure; a risk that needs a mitigation strategy.
+        3. JT - The CLAs have not been filled-out; easy to resolve if we all just do that.
+            - JT/SD/RGr/KS/WQ/MV/LLG - [Action-SC-2016-19 Submit completed CLA forms](https://github.com/OpenWIS/openwis-documentation/issues/190)
+        4. MDA - Do we, the members, also have to sign?
+        5. JT - Yes, we all do, that's what it says in the Articles. PR, you will have to update the form for adding a list of contributors.
+            - PR - [Action-SC-2016-18 Update CLA form](https://github.com/OpenWIS/openwis-documentation/issues/189)
+    3. JT - Any other risks?
+        1. PR - There is the bank account issue.
+        2. JT - Yes, we created a new bank account with ING but they're not talking to us; we'll cover that at the Board meeting.
+    4. JT - Ok, I encourage you all to think about risks and let PR know so he can keep a list.
+        - JT/SD/RGr/KS/WQ/MV/LLG - [Action-SC-2016-20 Risks to the Association](https://github.com/OpenWIS/openwis-documentation/issues/191)
 12. **Recommendations to the Board to make and adopt, alter, supplement or repeal the Internal Rules**
     1. **Support for multiple concurrent projects within the OpenWIS governance framework**
-        1. JT
+        1. JT - You may recall that I presented a paper on project governance at the meeting in Seoul, last year: [Support for multiple concurrent projects within the OpenWIS governance framework]({{ site.baseurl | prepend: site.url }}/assets/ATT-OWIS-SC-2016-6-governance_r4.pdf).
+        2. JT - I intend to insert the proposed amendments into the Internal Rules shortly, as a supplement. However, there is still time to send me any final review comments you may have.
+        3. JT - To prepare us for agenda item 13, I will just bring the section _Initiation of new projects_ up on the screen, to remind us of the process.
 13. **New opportunities for collaboration**
 	  1. **Review proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
-		    1. JT
-        2. MV - FMI Smartmet Server. ([on GitHub:](https://github.com/fmidev/)) and as described [here](https://github.com/fmidev/smartmet-server/) and [here](http://www.slideshare.net/tervo/smartmet-server-providing-metocean-data).
-            1. does it match the purpose of OpenWIS Association? [1](http://openwis.github.io/openwis-documentation/articles/2-purpose.html#article-2.1)
-            2. how / if the project governance could / should be integrated into OpenWIS?
-            3. whether any other Members or Partners want to contribute resources to the project?
+		    1. JT - So, for each potential new project, we are asking:
+            1. Does it match the purpose of OpenWIS Association? [1](http://openwis.github.io/openwis-documentation/articles/2-purpose.html#article-2.1)
+            2. How / if the project governance could / should be integrated into OpenWIS?
+            3. Whether any other Members or Partners want to contribute resources to the project?
+        2. JT - So let's just list the projects we have for consideration today:
+            1. FMI SmartMet Server
+            2. WIS 2.0 / OpenWIS5
+            3. excel2wis
+            4. OpenCDMS
+            5. Weather API Specifications
+            6. RGr - WIGOS? Probably the requirement is still not clear enough.
+            7. SO - During the TC, we suggested a common approach to Harness components. The idea is that, as we look at how GISCs/DCPCs work, they all have their own set of interfaces. So we could have a generic Harness, if we think: local data store, ingestion, extraction, ad-hoc subscriptions in various ways.
+                1. BS - So we have a shared template for building a Harness, rather than starting from scratch.
+                2. MDA - Is this a new project?
+                3. JT - Data harness was always out of scope.
+                4. BS - So, an API with OpenWIS and with local data, as an example.
+                5. RGr - A good part of the code will be reusable with some tweaking.
+                6. JT - So if UKMO was contributing, we would help with templates and contribute to the growing set of Harnesses.
+                7. MDA - But is that a new project?
+                8. PR - An alternative to a new project would be to have a Harness component repository within the OpenWIS GitHub.
+                9. JT - All ok with that? Ok, so the recommendation is, not a new project, but a new repository under OpenWIS-Core.
+                    - PR - [Action-SC-2017-13 New Harness repository](https://github.com/OpenWIS/openwis-documentation/issues/184)
+        3. MV - FMI SmartMet Server
+            1. Information provided with the agenda: SmartMet Server [on GitHub:](https://github.com/fmidev/)) and as described [here](https://github.com/fmidev/smartmet-server/) and [here](http://www.slideshare.net/tervo/smartmet-server-providing-metocean-data).
+            2. MV presented [SmartMet Server]({{ site.baseurl | prepend: site.url }}/assets/SmartMetServer_AMS_2017.pdf)
+            3. MDA - What will it be used for in Copernicus?
+            4. MV - To provide INSPIRE services, mostly.
+            5. MDA - Can you show us some outputs?
+            6. MV - Yes, I can show you the [FMI public web pages](http://ilmatieteenlaitos.fi/), which are using SmartMet.
+            7. RGr - So you get the JSON back from SmartMet Server and then the web page or app renders that.
+            8. MV - What would it mean in practice if SmartMet Server was under the OpenWIS umbrella? We would like to build a community of contributors.
+            9. BR - What about CLA, IPR etc?
+            10. JT - Each project has its own OSI license. SmartMet Server already has this. We concluded that we would have one CLA that works for all projects. It says: I give permission for the OpenWIS Association to use it forever and you can't take it away. You still own the IPR of how it is right now. As other people contribute the IPR becomes shared, but you can always fork it back again.
+            11. MV - We are seeking collaboration and feedback. We run our own PMC and we have about 5 developers. We open sourced to get more features and to speed up development.
+            12. JT - Currently, it sits in its own repository. In practice it doesn't matter where it sits. Do you want to move it to OpenWIS?
+            13. MDA - Would there be an impact on the Copernicus project?
+            14. MV - No.
+            15. JT - There would only be one project, used by FMI and all other contributors.
+            16. JT - You can always copy the fork for safe keeping; we fork our UKMO OpenWIS build to Stash.
+            17. BR - What matters is that people can merge changes.
+            18. JT - Would you comply with the OpenWIS Association Technical Rules? There are a number of practical things to work out.
+            19. JT - But, before we do that, does it align with the OpenWIS purpose?
+            20. {general agreement}
+            21. JT - So, the SC agrees that it does.
+            22. JT - We will need to consider whether we need one GitHub organisation or two. We will need to discuss that with the TC and then the SC can make the decision.
+            23. RGr - Do we imagine loose coupled projects or tight coupled? It's important we have only one umbrella. We should have one view that opens out to the various projects.
+            24. JT - So the Association web site is where you find all Association projects.
+            25. DW - Would there be a separate TC?
+            26. JT - There's only one TC; there are multiple PMCs.
+            27. MDA - what is the role of TC vs PMC? The TC give global rules but will not decide what is done in each project?
+            28. JT - Correct. So, that is described in the document I referred you to earlier: [Support for multiple concurrent projects within the OpenWIS governance framework]({{ site.baseurl | prepend: site.url }}/assets/ATT-OWIS-SC-2016-6-governance_r4.pdf).
+            29. BR - Ok, FMI will continue working on the software for their own needs.
+            30. MDA - So who is the SC for? SmartMet Server? OpenWIS? FMI?
+            31. LLG - We have two kinds of project: OpenWIS, based on a WMO concept, the FMI project, based on FMI's own requirements. So how is the governance applied?
+            32. RGr - So we end up with multiple forks, like many open source projects.
+            33. DW - Just want a partnership that provides promotion and technical contributions.
+            34. JT - If you want to bring it into the OpenWIS Association to develop the future of the project, then the governance happens under OpenWIS Association, until you split. Is the Director of FMI happy that the OpenWIS Association SC steers the development of SmartMet Server?
+            35. RGr - So clarify the concept of 'owner'.
+            36. JT - The PMC is responsible for making a plan, but SC approve it. PMCs figure out their own resources. The PMC lead would be on the TC. But, does the SC need to approve work plans for projects? Can you imagine having a conversation like the one about WIS 2.0?
+            37. MDA - It cannot be like that, becuase not all SC members will take part in the project, so the SC cannot drive the project.
+            38. JT - The SC is for the Association.
+            39. MDA - So SC decisions are global to all the projects. So the SC should not be steering the OpenWIS-Core project.
+            40. JT - SC might be making decisions about suitability; the PMC should be driving the project.
+            41. BS - So, would a project join just for the governance?
+            42. RGr - The PMC is still not in place; will it work for FMI SmartMet Server? So, the description of the PMC can be amended if needed.
+            43. JT - The project governance changes are due to be published soon. I'll go through the articles and rules and see what needs to change about the way the SC/TC/PMC works.
+                - JT - [Action-SC-2017-14 Improve processes for managing new projects](https://github.com/OpenWIS/openwis-documentation/issues/185)
+            44. MV - Work with the TC to determine how the SmartMet Server project might operate within the Association in practical terms (eg: where should repos be, how would PMC work etc). Draft a Project Charter and report back to SC in June on feasibility.
+                - MV -  [Action-SC-2017-15 SmartMet project proposal](https://github.com/OpenWIS/openwis-documentation/issues/186)
+            45. MDA - Do we also have all the elements needed to set up a new project? Suppose we all want to participate, FMI will come with a roadmap, Copernicus also have requirements; what will be the process to introduce _our_ requirements?
+            46. JT - You get a seat on the PMC if you are putting resources in. If we left it entirely to FMI then ECMWF would be concerned. People on the PMC are those most engaged in developing the project.
+            47. JT - Do any other partners anticipate contributing resources and using SmartMet Server?
+                1. JT - At UKMO we have no C++, so we probably wouldn't be active.
+                2. BS - At MF we could perhaps use it or test it.
+                3. JT - And so contribute that way with documentation and test reports etc.
+                4. JT - The PMC would manage RFCs.
+                5. BR - We will be using it as part of Copernicus. We will be contributing, but we will be keeping the IPR.
+                6. JT - So you keep the IPR but assign a perpetual license.
+                7. BR - The background/foreground IPR belongs to OpenWIS.
+                8. MDA - The project will be reporting to Copernicus. ECMWF can be on the PMC and bring the money to the table to get what they want.
+                9. JT - Would MF be interested in contributing?
+                10. MDA - Maybe. I need more information. We have some software that does this, but, maybe.
+                11. KS - I am intrigued. We have a C++ developer. Maybe.
+        4. WIS 2.0/OpenWIS5
+            1. JT - So is this a new project?
+            2. LLG - Do we need to conclude our discussion about OpenWIS4 vs OpenWIS5?
+            3. MDA - A new project for WIS 2.0.
+            4. JT - Ok, don't call it OpenWIS5. A new project for whatever the software is that will meet the WIS 2.0 Technical Specifications.
+            5. PR - Initially, it will just be the go-to place for the documentation.
+            6. BR - Ok, so give it a code name.
+            7. MDA - It is really important to start work on this.
+            8. MV - What form will it take?
+            9. JT - OPAG-ISS will develop the WIS 2.0 specifications, which we, individually, can influence. So, we should write a project charter, using a code name. Can you suggest a code name BR?
+            10. BR - Eh?
+            11. LLG - So this is to experiment with technical architecture and interpret new technical specifications.
+            12. JT - We would start with some pilots; it may morph into some software.
+                - KS - [Action-SC-2017-16 Project Charter for WIS 2.0](https://github.com/OpenWIS/openwis-documentation/issues/187)
+            13. MDA - Do we have information on cost or manpower in the charter?
+            14. JT - What we agreed last year was that the charter covers the scope and duration of the incubation phase.
+            15. MDA - What is the process to bring a new member or partner into this project.
+            16. JT - You mean CMA? They would have to join the Association to be on the PMC. Or, they could be individual contributors if they didn't want to influence them.
+        5. OpenCDMS
+            1. JT - Bruce Bannerman forwarded me an email. The main points from that are:
+                - There has been no further substantial development at this stage.
+                - The initial bid for GFCS funding via CSIS appears to have been torpedoed
+                - There appears to be growing support for Open-CDMS from within WMO. This may see the concept opened up to other domains, such as hydrology.
+                - We have several other funding bids out there
+                - It appears that climate data management, data rescue and CDMS funding is becoming a hot topic.
+                - EC requested the CCl MG to put together a strategic plan
+                - Bill Wright is putting together a draft for this year’s EC
+                - *If it gets approved*, there may hopefully be some funding for:
+                    - Maintenance of several existing open source CDMS
+                    - A Prototype of Open-CDMS
+                - Bruce Bannerman is currently about to start a few months work on some Open-CDMS related tasks. I’ll need to liaise with you both on some aspects:
+                    - A high level proposal for an Open-CDMS Prototype, based on the roadmap that I did two years ago.
+                    - A revised Roadmap for CliDE and Open-CDMS
+                    - Ideas for work packages that will help to start building an extended Open-CDMS community. We’ll present these at a CDMS developer’s meeting proposed for the end of this year.
+            2. JT - So, at this point, I suggest we take no action.
+            3. MDA - Do we have the project charter?
+            4. JT - Bruce hasn't done it yet.
+            5. MDA - What's the meeting in the last paragraph?
+            6. JT - It's not an OpenWIS meeting.
+            7. MDA - Should we attend?
+            8. JT - Not as OpenWIS Association.
+        6. Weather API Specifications
+            1. JT - At the UKMO, we are about to redevelop our web APIs, using RESTful web services, for gridded and point data. Over the coming 18 months, about 12 FTE will be working on these new end-points.
+            2. JT - Developing the specifications for this API would be a good shared project. The output would be common patterns for weather data access using REST. We discussed this at a previous meeting, but we took no action. If we collectively take action now to develop these patterns, then there is a good chance they will become standardized.
+            3. KS - SO is keen.
+            4. LLG - WMS, WCS?
+            5. JT - Not OGC web services, RESTful web services.
+            6. BR - So, here is a flowchart for a REST API we are working on at ECMWF. It provides for genuinely asynchronous web services.
+            7. JT - Discussions about the payloads are also needed.
+            8. BR - this is how it works:
+                - If the data is ready
+                    - you get a 200
+                    - you get the data
+                - Else
+                    - you get a 202
+                    - you get the url of where to get the data later.
+            9. JT - Is ECMWF happy for us to reuse this?
+            10. BR - Yes. You will find a client in several languages.
+            11. LLG - For big data?
+            12. BR - Yes.
+            13. JT - Is it worth a project charter?
+            14. MDA - Yes.
+            15. LLG - Can you give an idea of a use-case or proposal?
+            16. JT - So, we'll describe the purpose in the project charter.
+                - JT - [Action-SC-2017-17 Project Charter for Weather API](https://github.com/OpenWIS/openwis-documentation/issues/188)
     2. **Identification of opportunities to participate in calls for proposals in externally funded projects**
-        1. JT
+        1. JT - Should we be interested in Copernicus? Or is it easier as individual organisations?
+        2. MDA - Individual.
+        3. JT - Any others? Hearing none.
     3. **Recommendation to the Board regarding new projects to establish**
-        1. JT
+        1. JT - There are no recommendations, until project charters are ready.
 14. **Outreach, communications and community**
 	  1. **Recommendations to the Board regarding admission of new Partners**
 		    1. JT
