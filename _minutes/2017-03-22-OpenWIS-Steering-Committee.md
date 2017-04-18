@@ -30,7 +30,10 @@ title: OpenWIS Steering Committee 2017 March
 5. **Outstanding actions**
     1. PR - So, just running down the list of SC actions outstanding on 15th March, in reverse order:
         - 2016-32: EE - Check with Michael Robbins for fees related to trademarks.
-            1. JT - OPEN - EE will join us for the Board Meeting later, so keep open until then.
+            1. EE - I dealt with this last year and sent you something.
+            2. JT - I can't recall what the outcome was. Would you please follow-up with PR.
+            3. EE - Ok, I'll revisit.
+            4. EE - [Action-SC-2016-32 Check for Trademark fees](https://github.com/OpenWIS/openwis-documentation/issues/247)
         - 2016-31: BB - Will help develop a value proposition.  But I'm not ideal; people in WMO have that experience, so I will ask around to see if I can identify the right.
             1. JT - CLOSED - I will cover this on the agenda.
         - 2016-30: JT - Let's put targeted communications on the agenda for the next SC meeting.
@@ -250,14 +253,88 @@ title: OpenWIS Steering Committee 2017 March
             5. JT - The NM demo use Elastic Search, which also uses JSON.
             6. BR - So, Core-GeoNetwork will support D-Cat?
             7. JT - I think it already does.
-        3. How we support Data Policy inside OpenWIS
-            1. JT - {**awaiting words from JT**}
+        3. How we support WIS Data Policy inside OpenWIS
+            1. JT - Currently we have:
+                1. _WMO Essential_ = no access control.
+                2. _WMO Additional_ = additional policies apply - but these will vary from dataset to dataset.
+            2. JT - For international data exchange, we encourage _OPEN BY DEFAULT_ data access. Restricted terms and conditions should be by exception.
+                1. But, is it even possible to _enforce_ access control based on trust of the user?
+                2. We _can_ specify the LICENSE (data policy), so that the user knows what they _should_ do.
+                3. Once data is in the GISC Cache, access control is based on rules implemented by the GISC and trust that the user complies with the License. This is no worse than the 'Additional' data already shared on the GTS.
+            3. JT - There is no way to uniformly synchronise the ROLES (eg: institutional, NMHS, academic/research, commercial/private sector, etc.) or AUTHORISATION policy for data in global CACHE between all the GISCs, because all the GISC implementations work differently. Also, it is further complicated if a user has multiple roles, because a user would need to select which ROLE they are in when they are accessing the data.
+            4. JT - Where data is accessed via a SERVICE, authorisation can be enforced at the end-point:
+                1. The user DISCOVERS the service via the WIS Catalogue.
+                2. The service-end-point (eg: at DCPC or NC) may be subject to access control - determined by local policies.
+                3. Only when data is put into the global Cache do you lose control.
+                4. The metadata record from the WIS Catalogue _describes_ the License/data policy.
+            5. JT - We don't want to restrict access to metadata, at least not within the WIS Catalogue.
+            6. JT - So my **RECOMMENDATION: we give up trying to be clever in OpenWIS by trying to INFER the access control policy for data in the global Cache.**
+            7. JT - That said, _do_ use Groups and Roles as GeoNetwork intends, to manage the metadata creation, approval, publication and maintenance workflows.
+            8. JT - Note that local OpenWIS installations _may_ choose to restrict access to metadata, if local policies require this, but this is a much simpler case, as there is no need to synchronise metadata or authorisation policies with other catalogue instances.
+            9. JT - So, we need take no further action to support WIS Data Policy inside OpenWIS.
     5. **Review of Strategic Goals and Metrics (3 year horizon)**
-        1. JT - Goal 1: We have already assigned actions to the TC to define software quality metrics at 1.1 and 1.2. Goal 1.3 can be removed because it isn't a quality metric.
-            - PR - [Action-SC-2017-39 Update Goal 1](https://github.com/OpenWIS/openwis-documentation/issues/210)
+        1. JT - Goal 1
+            1. We have already assigned actions to the TC to define software quality metrics at 1.1 and 1.2. Goal 1.3 can be removed because it isn't a quality metric.
+            2. PR - [Action-SC-2017-39 Update Goal 1](https://github.com/OpenWIS/openwis-documentation/issues/210)
         2. JT - Goal 2
+            1. Metric 2.1 - change to 'latest release'.
+            2. Metric 2.2 - change to 'all running a version less than 1 year old'.
+            3. ADD Metric 2.3 - 'verifiable compliance with Tech Specs'.
+            4. PR - [Action-SC-2017-54 Update Goal 2](https://github.com/OpenWIS/openwis-documentation/issues/244)
+        3. JT - Goal 3
+            1. Metric 3.1 is ok.
+            2. Metric 3.2 - change to '...requires a simple config change only'.
+            3. PR - [Action-SC-2017-55 Update Goal 3](https://github.com/OpenWIS/openwis-documentation/issues/245)
+        4. JT - Goal 4
+            1. Metric 4.1 - change '...requirements, particularly from GDPFS and CSIS'.
+            2. PR - [Action-SC-2017-56 Update Goal 4](https://github.com/OpenWIS/openwis-documentation/issues/246)
+            3. Metric 4.2 - ok.
+            4. Metric 4.3 - ok.
+        5. JT - Goal 5
+            1. All ok.
+        6. JT - Goal 6
+            1. Metric 6.1 - TC should talk to IPET-DD to request up-to-date metadata guidance.
+            2. SO - [Action-SC-2017-40 Update Goal 6](https://github.com/OpenWIS/openwis-documentation/issues/211)
+        7. JT - Goal 7
+            1. This goal is 'Search algorithms in OpenWIS software favourably rank _quality_ metadata'.
+            2. PR - This was suggested by BR last year.
+            3. JT - Ok, ask BR to suggest a definition for Metric 7.1.
+            4. BR - [Action-SC-2017-41 Update Goal 7](https://github.com/OpenWIS/openwis-documentation/issues/212)
+        8. JT - Goal 8
+            1. Metrics all ok.
+            2. KS - Do we want something in there about having good documentation?
+            3. JT - OK, would you be able to draft an additional metric describing 'good' documentation?
+            4. KS - [Action-SC-2017-42 Update Goal 8](https://github.com/OpenWIS/openwis-documentation/issues/213)
+        9. JT - Goal 9
+            1. Metric 9.1 is ok; we have work in progress to establish new projects.
+            2. Metric 9.2 - Probably needs to be a more general measure of improvements to the development process. I suggest PR drafts a new metric describing how to measure maturity of process, by next years annual meeting.
+            3. PR - [Action-SC-2017-43 Update Goal 9](https://github.com/OpenWIS/openwis-documentation/issues/214)
+        10. JT - So when do we want to review these? Ok, Let's set all these actions for the SC in June so we can review then.
+        11. JT - Are these goals an adequate guide for the work of the Association?
+        12. SD - We talked a lot about metric 9.1 in Seoul. I suggest we are clearer about what we expect.
+        13. JT - Ok, then would you please draft some words for Paul on Metric 9.1.
+        14. SD - [Action-SC-2017-44 Update Goal 9](https://github.com/OpenWIS/openwis-documentation/issues/215)
+        15. MDA - We have 9 goals and 8 of them relate to OpenWIS-Core. I think we are missing goals for the Association itself.
+        16. JT - What do you suggest?
+        17. MDA - We should have additional goals about expansion and being active on WIS 2.0.
+        18. JT - The OpenWIS Association is now active in the development of WIS 2.0, so how would we measure that?
+        19. RGr - These are the goals of the Core project, rather than the Association; they are PMC goals, not Association goals.
+        20. JT - That's true; a lot of the things we do in the SC/TC should be in the PMC.
+        21. MDA - Each delegate should propose what the goals of the Association should be.
+        22. JT - Ok, so each delegate proposes 3 goals for the SC in June, for the Association rather than the Core project, and with metrics to measure progress over the next 3 years. There will be some overlap, so we'll probably end up with a good number. PR, if you could move Goals 1 to 8 to the Core project page and change the title of the current Goals page to 'Goals and Metrics of the Association'.
+        23. JT/SD/RGr/KS/WQ/MV/LLG - [Action-SC-2017-45 Goals for the Association](https://github.com/OpenWIS/openwis-documentation/issues/216)
+        24. PR - [Action-SC-2017-46 Move Goals to Project Page](https://github.com/OpenWIS/openwis-documentation/issues/217)
+        25. PR - [Action-SC-2017-47 Change Goals Page Title](https://github.com/OpenWIS/openwis-documentation/issues/218)
+        26. JT - While you're doing that, on the OpenWIS Project page, change all OpenWIS Project to OpenWIS-Core Project etc.
+        27. PR - [Action-SC-2017-48 Change OpenWIS to OpenWIS-Core](https://github.com/OpenWIS/openwis-documentation/issues/219)
     6. **Recommendations to the Board**
-        - JT - Medium term goals; 3 year strategy:
+        1. JT - Medium term goals; 3 year strategy
+            1. JT - So we have some work to do in the SC, but no recommendations to the Board until afterwards.
+            2. MDA - Shall we arrange a Board meeting after the SC?
+            3. JT - Ok, we could follow the June SC with a Board meeting in early July.
+            4. JT - So the SC will be around midday UK time on June 8th. The Board meeting will be on July 5th, at a time that is convenient for KMA/BoM.
+            5. PR - [Action-SC-2017-49 Schedule June SC Meeting](https://github.com/OpenWIS/openwis-documentation/issues/220)
+            4. PR - [Action-SC-2017-50 Schedule July Board Meeting](https://github.com/OpenWIS/openwis-documentation/issues/221)
 10. **Review of recommendations from Technical Committee**
     1. **Report(s) from Technical Committee March 2017, Toulouse, France**
         1. SO - Development
@@ -462,7 +539,7 @@ title: OpenWIS Steering Committee 2017 March
       140. KS - How compatible is Option 4 with the squad system?
       141. PR - It's compatible.
       142. MDA - Squads?
-      143. PR - An improvement to the development process we discussed at the TC. It helps to focus on delivering finished features by assigning each feature to a to sub-team.
+      143. PR - An improvement to the development process we discussed at the TC. It helps to focus on delivering finished features by assigning each feature to a sub-team.
       144. MDA - What is the benefit of having a v4?
       145. WQ - Are Options 1 and 4 almost the same?
       146. DW - In Option 1 we continue v3 development, but in Option 4 we develop v5.
@@ -537,7 +614,7 @@ title: OpenWIS Steering Committee 2017 March
           - Ask the TC for a cost estimate for Option 4; report back in 3 months (June 2017).
       208. WQ - And also a comparable cost estimate for Option 1, with pros and cons of each option.
       209. JT - Ok, let's vote on that:
-          1. RES-OWIS-SC-2017-01:Resolution: Task TC with:[Action-SC-2017-23 Future development options report](https://github.com/OpenWIS/openwis-documentation/issues/193); vote: 7 in favour, 0 against.
+          1. RES-OWIS-SC-2017-05:Resolution: Task TC with:[Action-SC-2017-23 Future development options report](https://github.com/OpenWIS/openwis-documentation/issues/193); vote: 7-0 in favour. OWIS-RES
       210. JT - So approval of the strategic programme and work plan is deferred, pending the action above by the TC.
 	4. **Identification of investment required from OpenWIS Association required to deliver the work plan**
 		  1. JT - Can we summarise the key budget recommendations so far?
@@ -559,7 +636,7 @@ title: OpenWIS Steering Committee 2017 March
       3. RGr - Could have as PMC chair, so that LM as project leader chairs the PMC.
       4. PR - Won't the TC still be the PMC for OpenWIS-Core for the foreseeable future? We can work out what we want as we begin to use squads.
       5. JT - I propose that we decommission the Lead Developer role.
-          1. RES-OWIS-SC-2017-02:Resolution: Decommission Lead Developer role:[Action-SC-2017-12 Decommission the Lead Developer role](https://github.com/OpenWIS/openwis-documentation/issues/183); vote: 7 in favour, 0 against.
+          1. RES-OWIS-SC-2017-06:Resolution: Decommission Lead Developer role:[Action-SC-2017-12 Decommission the Lead Developer role](https://github.com/OpenWIS/openwis-documentation/issues/183); vote: 7-0 in favour. OWIS-RES
 11. **Risk review and development of mitigation plans**
     1. JT - The 3 items in the earlier action on PR ([Action-SC-2016-14 Add new risks to Risk Register](https://github.com/OpenWIS/openwis-documentation/issues/170)), require us to create and maintain a Risk Register.
     2. JT - We should all consider what risks there are to the Association and how we mitigate them. Here are some I have noted recently:
@@ -578,15 +655,24 @@ title: OpenWIS Steering Committee 2017 March
 12. **Recommendations to the Board to make and adopt, alter, supplement or repeal the Internal Rules**
     1. **Support for multiple concurrent projects within the OpenWIS governance framework**
         1. JT - You may recall that I presented a paper on project governance at the meeting in Seoul, last year: [Support for multiple concurrent projects within the OpenWIS governance framework]({{ site.baseurl | prepend: site.url }}/assets/ATT-OWIS-SC-2016-6-governance_r4.pdf).
-        2. JT - I intend to insert the proposed amendments into the Internal Rules shortly, as a supplement. However, there is still time to send me any final review comments you may have.
-        3. JT - To prepare us for agenda item 13, I will just bring the section _Initiation of new projects_ up on the screen, to remind us of the process.
+        2. JT - I intend to insert the proposed amendments into the Internal Rules, as a supplement.
+    2. **Small changes that the Board agreed last year**
+        1. RESOLUTION-AM-2016-07: Clarification of the Internal Rules on Associate Partner eligibility to participate in the TC.
+            1. JT - Here is the pull request on GitHub, where you can see the changes to the file: [Amended Rule 6.4 as per RESOLUTION-AM-2016-07](https://github.com/OpenWIS/openwis-documentation/pull/144)
+            2. JT - This pull-request was closed without merging - the change was applied as part of #145.
+        2. RESOLUTION-AM-2016-08: Rule 9.1 change, declaring that license is chosen from OSI list.
+            1. JT - Here is the pull request on GitHub, where you can see the changes to the file: [Amended Rule 9.1 as per RESOLUTION-AM-2016-08](https://github.com/OpenWIS/openwis-documentation/pull/144)
+            2. JT - Ok?
+            3. All - Ok - #143 merged and closed.
+
 13. **New opportunities for collaboration**
 	  1. **Review proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
-		    1. JT - So, for each potential new project, we are asking:
+        1. JT - I will just bring the section _Initiation of new projects_ up on the screen, to remind us of the process.
+		    2. JT - So, for each potential new project, we are asking:
             1. Does it match the purpose of OpenWIS Association? [1](http://openwis.github.io/openwis-documentation/articles/2-purpose.html#article-2.1)
             2. How / if the project governance could / should be integrated into OpenWIS?
             3. Whether any other Members or Partners want to contribute resources to the project?
-        2. JT - So let's just list the projects we have for consideration today:
+        3. JT - So let's just list the projects we have for consideration today:
             1. FMI SmartMet Server
             2. WIS 2.0 / OpenWIS5
             3. excel2wis
@@ -604,7 +690,7 @@ title: OpenWIS Steering Committee 2017 March
                 8. PR - An alternative to a new project would be to have a Harness component repository within the OpenWIS GitHub.
                 9. JT - All ok with that? Ok, so the recommendation is, not a new project, but a new repository under OpenWIS-Core.
                     - PR - [Action-SC-2017-13 New Harness repository](https://github.com/OpenWIS/openwis-documentation/issues/184)
-        3. MV - FMI SmartMet Server
+        4. MV - FMI SmartMet Server
             1. Information provided with the agenda: SmartMet Server [on GitHub:](https://github.com/fmidev/)) and as described [here](https://github.com/fmidev/smartmet-server/) and [here](http://www.slideshare.net/tervo/smartmet-server-providing-metocean-data).
             2. MV presented [SmartMet Server]({{ site.baseurl | prepend: site.url }}/assets/SmartMetServer_AMS_2017.pdf)
             3. MDA - What will it be used for in Copernicus?
@@ -665,7 +751,7 @@ title: OpenWIS Steering Committee 2017 March
                 9. JT - Would MF be interested in contributing?
                 10. MDA - Maybe. I need more information. We have some software that does this, but, maybe.
                 11. KS - I am intrigued. We have a C++ developer. Maybe.
-        4. WIS 2.0/OpenWIS5
+        5. WIS 2.0/OpenWIS5
             1. JT - So is this a new project?
             2. LLG - Do we need to conclude our discussion about OpenWIS4 vs OpenWIS5?
             3. MDA - A new project for WIS 2.0.
@@ -683,7 +769,7 @@ title: OpenWIS Steering Committee 2017 March
             14. JT - What we agreed last year was that the charter covers the scope and duration of the incubation phase.
             15. MDA - What is the process to bring a new member or partner into this project.
             16. JT - You mean CMA? They would have to join the Association to be on the PMC. Or, they could be individual contributors if they didn't want to influence them.
-        5. OpenCDMS
+        6. OpenCDMS
             1. JT - Bruce Bannerman forwarded me an email. The main points from that are:
                 - There has been no further substantial development at this stage.
                 - The initial bid for GFCS funding via CSIS appears to have been torpedoed
@@ -706,7 +792,7 @@ title: OpenWIS Steering Committee 2017 March
             6. JT - It's not an OpenWIS meeting.
             7. MDA - Should we attend?
             8. JT - Not as OpenWIS Association.
-        6. Weather API Specifications
+        7. Weather API Specifications
             1. JT - At the UKMO, we are about to redevelop our web APIs, using RESTful web services, for gridded and point data. Over the coming 18 months, about 12 FTE will be working on these new end-points.
             2. JT - Developing the specifications for this API would be a good shared project. The output would be common patterns for weather data access using REST. We discussed this at a previous meeting, but we took no action. If we collectively take action now to develop these patterns, then there is a good chance they will become standardized.
             3. KS - SO is keen.
@@ -753,18 +839,80 @@ title: OpenWIS Steering Committee 2017 March
     6. **Review need for Community Manager and any other new roles**
         1. JT
 15. **Recommendations to the Board regarding the creation of ad-hoc committees or subsidiary bodies**
-	  1. JT
+	  1. JT - We are not recommending the creation of any subsidiary bodies at this time.
 16. **Finances of the OpenWIS Association**
 	  1. **Challenges arising from existing funding mechanisms**
-		    2. MDA
+		    1. MDA - We have an issue that relates to in-kind contributions to the Association. A lot of new members would prefer in-kind manpower contributions rather than money. We don't define the equivalent of 10,00 Euros contribution as an in-kind contribution.
+        2. JT - When the fees are spent, they are spent to help the Association, not to help a project. So, in-kind cannot be just to a project; it has to be for the Association facilities or other help to the Association as a whole.
+        3. RGb - If you want to improve some software by manpower then is that a problem?
+        4. JT - You can affiliate with any project, there is no need for equal contributions.
+        5. So, you are contributing to the running of the Association; what is the equivalent of 10,000 Euros?
+        6. JT - 20 days.
+        7. MDA - Ok, so long as it is stated somewhere.
+        8. RGb - How do you control that?
+        9. JT - The Internal Rules talk about in-kind payments.
+        10. MDA - But we would close the door to some.
+        11. JT - You can be a contributor without being a partner or a member.
+        12. MDA - But I won't be able to sit on the committees.
+        13. JT - If you prove your good-standing then you can be elected to the PMC. You can only propose a new project if you are a partner or member.
+        14. MDA - What about Russia, say? We would like to have them on-board, but they cannot contribute to the Association.
+        15. JT - So removing the in-kind clause would be a problem?
+        16. MDA - Yes, could close the door on some.
+        17. RGr - So if we are discussing a real contribution, we can work with them to see what works.
+        18. JT - So, in-kind contributions shall be mutually agreed prior to contract signature.
+        19. MDA - Agreed by who?
+        20. JT - The SC.
+        21. RGb - Not the Board?
+        22. MDA - Will be a Board decision in the end, but it cannot be a project contribution.
+        23. KS - So if not project related, it's very limited.
+        24. JT - So, they could run the Forum, say.
+        25. RGr - Ok, why exclude the projects? The annual budget is less than 10,000 Euros for the Association.
+        26. MDA - So I can give 10 FTE, but I cannot sit on the Board?
+        27. JT - So we just say that in-kind contributions will be by mutual consent prior to acceptance into the Association.
+        28. JT - OK, I'll draft that this evening.
+        29. JT - [Action-SC-2017-52 Internal Rule on in-kind contributions](https://github.com/OpenWIS/openwis-documentation/issues/223)
+        30. JT - There is nothing in Internal Rule 6 about in-kind, so we can add one.
+        31. MDA - Look at Internal Rule 4.10, that's where it mentions in-kind.
+        32. PR - So why not wait until it comes up, as RGr suggested?
+        33. MDA - But people look on the website and it is not mentioned.
+        34. JT - So we direct them to Internal Rule 6, where they see the fees; it doesn't mention in-kind. Then as the president, if an organisation comes along and says: _I don't want to pay 10,000 Euros, but I'll put some effort in_, we'll play it by ear. And I could amend Internal Rule 6.3 to say that Associate Partners may make an in-kind contribution, to be mutually agreed within year; only for annual contributions, between the Associate and the Association, in place of a financial contribution.
+        35. MDA - Ok.
 	  2. **Review of need for additional finance**
-		    1. JT
+		    1. JT - We have over 395,000 Euros in the account.
+        2. JT - I propose that we need no additional funding this year. Vote?
+        3. RES-OWIS-SC-2017-07:Resolution: vote: 7-0 - in favour - Recommended to Board - No additional funding required this year. OWIS-RES
 	  3. **Preparation of budget for 2017/18**
-		    1. JT
+		    1. JT - So we'll through the budget and list the items.
+        2. EE - Last year, we put 1000 Euros in for Trademark transfers.
+        3. JT - So the items we have so far (Euros):
+            1. MF servers = 1700 per year
+            2. Tax expert = 1200 per year plus VAT
+            3. Late payment fine = 50
+            4. Trademark transfer = 1000
+            5. Domain name renewal = 150
+            6. AWS CI environment = 2000
+            7. Promotional material = 500
+            8. Discourse Forum = 1200
+        4. JT - We decided we didn't need the Technical Author or the Community Manager.
+        5. JT - So total anticipated expenditure is 7800 Euros for the year. Anything else?
+        6. EE - Bank account fees of about 150 Euros.
+        7. MDA - I have not been able to sort the bank account with ING. We will have to go through the process again; go to Brussels and do all the paperwork on one day.
+        8. RGr - I have a couple of others. First, shall we give up with ING? Shall we ask the tax expert if he can help us?
+        9. JT - Yes, he may know banks predisposed to AISBL. We have a problem, not being able to spend our own money, so let's get some help.
+        10. RGr - I will ask what he can do and what it would cost and then report to the Board.
+        11. MDA - So add provision for that help.
+        12. JT - Ok, how about a 2000 Euro contingency?
+        13. MDA - Ok.
+        14. RGr - Second, when we move the 390,000 Euros to Belgium, we need to check any tax aspect. In theory, the contributions come from memebers to the Association, so the Belgian tax system may take, say, 10%.
+        15. JT - It that happens then we'll hold an emergency Board meeting and amend the budget.
+        16. RGr - So, I'll check with the tax expert.
+        17. RGr - [Action-SC-2017-51 Money transfer tax](https://github.com/OpenWIS/openwis-documentation/issues/222)
 	  4. **Budget Recommendations to the Board**
-		    2. RES-OWIS-SC-2016-12:Resolution: vote: n-n - in favour - Recommended to Board - an annual budget provision of EUR NN,000.
+        1. JT - We expect about 8000 Euros expenditure and about 2000 Euros contingency, so a budget of 10000 Euros.
+        2. JT - So, recommend to the Board?
+		    3. RES-OWIS-SC-2017-08:Resolution: vote: 7-0 - in favour - Recommended to Board - an annual budget provision of EUR 10,000. OWIS-RES
 17. **Any other business**
-    1. JT
+    1. MV - FMI are happy to host the annual meeting next year, in Finland.
 18. **Summary of recommendations to the Board**
 	  1. PR
 19. **Closure of the meeting**
