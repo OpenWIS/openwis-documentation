@@ -1,0 +1,75 @@
+---
+layout: page
+title: The OpenWIS Project
+---
+
+<h2>About</h2>
+<div class="project-section">
+<div>
+<p>The excel2wis xml tool is a script used to generate large set of XML metadata WMO Core 1.3 files from an excel file.
+The software is under the free open source GNU license: GPL v3</p>
+</div>
+</div>
+<h2>Requirements</h2>
+<div class="project-section">
+<h3>System and Program Requirements</h3>
+<div>
+<p>The script has been tested in <em>Linux</em> and <em>Windows 7</em> with:
+<ul>
+<li>Python 2.6.6</li>
+<li>Excel 2003</li>
+</ul></p>
+</div>
+<h3>Required Libraries</h3>
+<div>
+<p>Excel2wis requires 4 python libraries:
+<ul>
+<li>xlrd 0.9.4 (<a href="https://pypi.python.org/pypi/xlrd" target="_blank">https://pypi.python.org/pypi/xlrd</a>)</li>
+<li>xmltodict 0.9.2 (<a href="https://pypi.python.org/pypi/xmltodict" target=_blank">https://pypi.python.org/pypi/xmltodict</a>)</li>
+<li>xlwt 1.0.0 (<a href="https://pypi.python.org/pypi/xlwt" target="_blank">https://pypi.python.org/pypi/xlwt</a>)</li>
+<li>argparse 7.1.2 (<a href="https://pypi.python.org/pypi/argparse" target="_blank">https://pypi.python.org/pypi/argparse</a>)</li>
+</ul>
+</p>
+</div>
+</div>
+<h2>Use</h2>
+<div class="project-section">
+<h3>Command Line Example</h3>
+<p>From a Linux station, save the python script, the template and the excel document in a dedicated
+directory. Give the execution permission to the script and execute it by passing in argument the excel file.</p>
+<div>./excel2xml.py Metadata-guide-record.xls</div>
+<p>The generation xml files will be stored in the same directory, with filename format:
+<em>MD_uniqueid_YYYYMMDDHHMMSS.xml</em></p>
+</div>
+
+<h2 id="download">Code Repository</h2>
+<div class="project-section">
+<p>The github repository for excel2wis is at:<a href="https://github.com/OpenWIS/excel2wis">https://github.com/OpenWIS/excel2wis</a></p>
+</div>
+
+<h2>Documentation</h2>
+<div class="project-section">
+</div>
+
+<h2>Community</h2>
+<div class="project-section">
+   <h3>How to Get Involved</h3>
+   <div>
+       <p>To get involved with the project, or if you have any questions, please send an email to Meteo France team.</p>
+   </div>
+
+   <h3>Contact</h3>
+   <div>
+      <p>Project Email: <a href="mailto:gisc_support@meteo.fr">gisc_support@meteo.fr</a></p>
+   </div>
+</div>
+
+<!--<h2>Additional Support</h2>
+<div class="project-section">
+<h3>Meteo France International (MFI)</h3>
+<p>
+Subsidiary of Météo-France, Meteo France International (MFI) is specialized in meteorological IT solutions and modernization projects for National Meteorological Services. MFI provides commercial support for OpenWIS®, studying the terms and conditions as well as all technical issues to provide you with the best WIS-compliant solution, integrating the OpenWIS® software. Find out more at the <a href="http://www.mfi.fr/en/page/meteorological-information-systems/openwis-wis-compliance-1.php">MFI OpenWIS Page</a> and do not hesitate to use the <a href="http://www.mfi.fr/en/contact.php" target="_blank">MFI contact form</a> to let us know about your projects.
+</p>
+</div>-->
+
+
