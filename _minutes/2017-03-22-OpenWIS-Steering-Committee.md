@@ -268,7 +268,7 @@ title: OpenWIS Steering Committee 2017 March
                 3. Only when data is put into the global Cache do you lose control.
                 4. The metadata record from the WIS Catalogue _describes_ the License/data policy.
             5. JT - We don't want to restrict access to metadata, at least not within the WIS Catalogue.
-            6. JT - So my **RECOMMENDATION: we give up trying to be clever in OpenWIS by trying to INFER the access control policy for data in the global Cache.**
+            6. JT - So propose that we give up trying to be clever in OpenWIS by trying to INFER the access control policy for data in the global Cache.
             7. JT - That said, _do_ use Groups and Roles as GeoNetwork intends, to manage the metadata creation, approval, publication and maintenance workflows.
             8. JT - Note that local OpenWIS installations _may_ choose to restrict access to metadata, if local policies require this, but this is a much simpler case, as there is no need to synchronise metadata or authorisation policies with other catalogue instances.
             9. JT - So, we need take no further action to support WIS Data Policy inside OpenWIS.
@@ -503,7 +503,6 @@ title: OpenWIS Steering Committee 2017 March
       124. WQ - Yes and it could be better.
       125. DW - It would help if we all saw NM presentation.
       126. MDA - Yes.
-
       127. JT - We said we would have finished v4 by now, 2 years ago, but, we only finished v3.14 six months ago, so we've spent most of our time and effort on that.
       128. JT - So let's summarise the options:
           1. Option 1:
@@ -655,16 +654,124 @@ title: OpenWIS Steering Committee 2017 March
 12. **Recommendations to the Board to make and adopt, alter, supplement or repeal the Internal Rules**
     1. **Support for multiple concurrent projects within the OpenWIS governance framework**
         1. JT - You may recall that I presented a paper on project governance at the meeting in Seoul, last year: [Support for multiple concurrent projects within the OpenWIS governance framework]({{ site.baseurl | prepend: site.url }}/assets/ATT-OWIS-SC-2016-6-governance_r4.pdf).
-        2. JT - I intend to insert the proposed amendments into the Internal Rules, as a supplement.
+        2. JT - I intend to insert the proposed amendments into the Internal Rules, as a supplement. So I have taken the text we agreed last year and added it to [my copy of] the website. Shall we go through it?
+        3. MDA - Yes.
+        4. JT - So the proposed changes are as per RESOLUTION-AM-2016-09, agreed by the Board last year.
+        5. JT - They are in pull-request #145: [edits to describe governance for multiple projects](https://github.com/OpenWIS/openwis-documentation/pull/145)
+        6. JT - [Scrolls through the proposed changes]
+            1. MDA - I have a question about participation. So, it's not default that a member or partner can join a project; it is the decision of the PMC?
+            2. JT - At project charter stage, MF could register an interest; you're talking about later, when the project has already started?
+            3. MDA - So the existing PMC may decide they don't want us?
+            4. JT - Yes, but you could escalate that to the SC.
+        7. JT - Another thing to note: imagine we become a self-sustaining project and not all contributors are members or partners. A PMC may elect contributors, not members or partners, to the PMC. Is unanimous consent appropriate? Also, if a project leader needed to be replaced, is unanimous consent appropriate?
+            1. MDA - Unanimous is hard to achieve.
+            2. JT - Simple majority then?
+            3. MDA - I would prefer 2/3 majority as used at ECMWF.
+            4. JT - Ok, I will adjust to say 2/3 majority of PMC.
+        8. MDA - How do I reach this page, on the website?
+            1. JT - It's a new branch, not the master. I am editing it on GitHub as we speak.
+        9. JT - So the PMC decide what they want to do and the SC hold them to account that they do what they said.
+        10. JT - Everyone happy with those small editorial changes?
+            1. ALL - Yes.
+            2. JT - Ok, that change is done on GitHub.
+        11. LLG - What about leaving a project?
+            1. JT - There's no explicit rule, you just leave.
+            2. LLG - But, perhaps that can be a problem, maybe cause a delay for the project.
+            3. MDA - So the project will no-longer be able to meet deadlines. Should that be a constraint?
+            4. JT - So, just looking at the paragraph: Amendments to existing projects, which mentions, regarding the assessment of level of contributions, previous contributions. If you lose reputation, you won't get accepted onto projects in future.
+            5. JT - Maybe we use the phrase _reasonable endeavours_ to describe the level of commitment expected?
+            6. WQ - Yes, _reasonable endeavours_ is ok.
+            7. JT - I would suggest it is part of _project delivery_.
+            8. MDA - I don't think so; we are amending the way the project will be run.
+            9. JT - OK, how about a new paragraph: _Member and partner commitments_?
+            10. WQ - Yes, ok.
+        12. JT - There are a bunch of other changes associated with this section, just typos and editorial stuff I noted as I went through it; I'll skip over those.
+        13. JT - I have added a couple of extra Internal Rules under the PURPOSE section:
+            1. Rule 2.10:
+                - The Association may host multiple concurrent open source software development projects ("Projects") and foster community around each of those projects.
+                - Projects shall be governed according to the procedures defined in the OpenWIS Project Governance rules supplement.
+            2. Rule 2.11:
+                - The term "OpenWIS software" shall be taken to mean the software deliverables produced by the Projects of the Association.
+            3. JT - Are those changes ok?
+            4. ALL - Yes.
+            5. MDA - But today, we have just the OpenWIS-Core.
+            6. JT - Yes, just be clear in communications whether we mean the software or the Association.
+        14. JT - So, under Rule 6, I have added the definition of a Contributor to Rule 6.1:
+            1. JT - A Contributor is a person contributing to code and/or non-code activities within a Project. Individual Contributors pay no fees or subscriptions.
+            2. JT - Happy?
+            3. ALL - Yes.
+            4. MDA - Why do we need to include this?
+            5. JT - Because people need to see that they don't need to pay 10,000 Euros to contribute.
+        15. JT - Under Rule 6.4, I have clarified Associate Partner eligibility to participate in the TC. I have also done the same for Contributors and added a column for that to the table.
+            1. WQ - A Contributor has no status as a member or partner?
+            2. JT - Correct. So they have no rights to appoint delegates to committees or propose new projects etc. It's in the table.
+            3. WQ - If they are a contributor to another project, not OpenWIS-Core, isn't this too specific?
+            4. JT - No, this means the Association, not the project.
+            5. MDA - 'Access to software'; what does that mean?
+            6. JT - They can download any Association software from GitHub.
+            7. JT - They are eligible for the TC, if they have the right skills. Ok?
+            8. MDA - No, we don't have that in the rules. They are not contributing in-kind.
+            9. JT - They are giving us their time; they are individuals, not organisations.
+            10. JT - Note that I am _not_ proposing that Article 14.1 is updated to mention the PMCs, because that would require consent from the King of Belgium.
+            11. JT - Also note that Article 14.2 doesn't say that they have to be a member or partner to be on the TC; they only have to demonstrate competence.
+            12. JT - All are eligible to be on a PMC.
+            13. JT - All happy?
+            14. WQ - Didn't quite get the last one; what's the terms of reference for the PMC if everyone can be on it?
+            15. JT - We talk about the PMC in 'Initiation of new projects.'
+            16. MDA - Are you a PMC member by default?
+            17. JT - No, you are eligible to participate.
+            18. MDA - Subject only to qualifying criteria?
+            19. JT - We have statements about who can serve on it. The PMC vote them onto it.
+            20. MDA - But we don't explain the process.
+            21. JT - What do you recommend?
+            22. MDA - I don't know.
+            23. PR - So think of BR as an example. ECMWF are not yet a partner, but we have BR on the TC/PMC because we all agree that he is technically qualified, competent, etc.
+            24. MDA - Yes, add the statement about the qualifying criteria.
+            25. JT - Ok, so I am adding the statement from the TC paragraph. And I have broken it out. Happy?
+            26. WQ - I thought MDA was saying that the PMC may still refuse a request to join, even if qualified.
+            27. KS - You may leave, but still be happy for the project to continue.
+            28. MDA - Can I attend the PMC, even if I have no skill?
+            29. JT - You can attend the meeting, but you're not _on_ the PMC. If I now change 'participate' to 'serve on', to make it clear you're on the committee. Then where it says 'participate', you're just in the room.
+            30. JT - Ok?
+            31. ALL - Ok.
+        16. JT - Just added Rule 6.9:
+            1. Contributors shall comply with the OpenWIS Code of Conduct.
+        17. JT - Additions to Rule 7:
+            1. Rule 7.6: For every Project established within the Association, the Steering Committee shall, in accordance with Article 13.2, create a Project Management Committee with responsibility for leading each Project.
+            2. Rule 7.7: The Steering Committee shall appoint a Contributor as the Project Leader for each Project Management Committee who has, in their opinion, the appropriate capacity, training, skills and/or experience to lead the associated Project.
+            3. JT - So initially, the SC appoint the project leader. Ok?
+            4. ALL - Yes.
+            5. Rule 7.8: The Technical Committee shall operate as a cross-Project technical architecture / design authority body that provides technical oversight; (i) monitoring, guiding, and influencing the software architectures used by Projects, (ii) new Project mentoring, and (iii) maintaining and revising the Technical Rules of the Association.
+            6. JT - Ok?
+            7. ALL - Yes.
+        18. JT - Rule 11.1; I just added Contributors.
+            1. Ok?
+            2. ALL - Yes.
+        19. JT - So in Rule 2.10, I've added a link to the Rules Supplement:
+            1. Rule 2.10: Projects shall be governed according to the procedures defined in the [OpenWIS Project Governance rules supplement](http://openwis.github.io/openwis-documentation/rules2/2016-03-11-OpenWIS-Project-Governance.md).
+        20. JT - So is everyone content that we make all those changes to the website?
+            1. ALL - Yes.
+            2. JT - Ok, pull-request #145 is merged and closed. Does GitHub regenerate the website straight away?
+            3. PR - Yes, it takes a minute or two.
+            4. JT - Ok, there it is, the website has been updated already!
     2. **Small changes that the Board agreed last year**
         1. RESOLUTION-AM-2016-07: Clarification of the Internal Rules on Associate Partner eligibility to participate in the TC.
-            1. JT - Here is the pull request on GitHub, where you can see the changes to the file: [Amended Rule 6.4 as per RESOLUTION-AM-2016-07](https://github.com/OpenWIS/openwis-documentation/pull/144)
-            2. JT - This pull-request was closed without merging - the change was applied as part of #145.
+            1. JT - Here is the pull request on GitHub:[Amended Rule 6.4 as per RESOLUTION-AM-2016-07](https://github.com/OpenWIS/openwis-documentation/pull/144)
+            2. JT - We will close this pull-request without merging - an amended version of this change was applied as part of #145, as agreed earlier.
         2. RESOLUTION-AM-2016-08: Rule 9.1 change, declaring that license is chosen from OSI list.
             1. JT - Here is the pull request on GitHub, where you can see the changes to the file: [Amended Rule 9.1 as per RESOLUTION-AM-2016-08](https://github.com/OpenWIS/openwis-documentation/pull/144)
             2. JT - Ok?
             3. All - Ok - #143 merged and closed.
-
+    3. **New changes for recommendation to the Board**
+        1. JT - I have prepared a small change that adds a partner contract termination clause, Rule 5.13.
+            1. JT - This is pull request #146: [amendment to TITLE 5 adding partner contract termination clause](https://github.com/OpenWIS/openwis-documentation/pull/146)
+            2. JT - All Ok?
+            3. ALL - Yes.
+        2. JT - I have updated Rule 6.3 to reflect our conversations on in-kind contributions:
+            1. Rule 6.3 [after table]: An Associate Partner may, by mutual consent with the Association, substitute an agreed in-kind contribution for the Annual Contribution fee of €10,000.
+            2. JT - This is pull request #147: [updated rule 6.3 to allow in-kind contributions by associate partners](https://github.com/OpenWIS/openwis-documentation/pull/147)
+            2. JT - All Ok?
+            3. ALL - Yes.
 13. **New opportunities for collaboration**
 	  1. **Review proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
         1. JT - I will just bring the section _Initiation of new projects_ up on the screen, to remind us of the process.
@@ -824,20 +931,119 @@ title: OpenWIS Steering Committee 2017 March
         1. JT - There are no recommendations, until project charters are ready.
 14. **Outreach, communications and community**
 	  1. **Recommendations to the Board regarding admission of new Partners**
-		    1. JT
+		    1. JT - There are currently no recommendations regarding the admission of new partners.
 	  2. **Recommendations to the Board regarding engagement with third-parties to participate in consortia responding to calls for proposals in respect of externally funded projects**
-		    1. JT
-	  3. **Management of Contributor License Agreements**
-            1. See: (http://openwis.github.io/openwis-documentation/rules/A-contributor-license-agreement.html)
-            2. JT - MR: Click-thru; jurisdiction - local or Belgian?
-            3. JT - Item (15.3.1) 'Example CLA management service': CLA Assistant is an open source project from SAP (see https://github.com/cla-assistant/cla-assistant) that integrates CLA management with GitHub identities and workflow. A hosted instance is provided at https://cla-assistant.io/.
-            4. JT - Article 9.7: All member and partner contributors (staff and contractors) must sign the CLA.
+		    1. JT - Yesterday, we asked BR to check for any Horizon 2020 (EU) funding calls to support evolution of WIS 2.0. So, KS, SD, WQ, are there any funding calls in your regions?
+        2. KS - I could look into it.
+            - KS - [Action-SC-2017-26 US funding calls](https://github.com/OpenWIS/openwis-documentation/issues/197)
+        3. WQ - I doubt there are any in Australia, but I can check. How much are we asking for?
+            1. MDA - In Europe, usually you are asked to provide half of the funding. So, for a €2M project, €1M funded by the EU and €1M funded by the Association.
+            2. JT - So, say a 3 million AUD project.
+            3. WQ - So we're looking for half?
+            4. MDA - That is the way it works in Europe; the manpower we are putting into another project is half the project cost.
+            5. WQ - Ok.
+                - WQ - [Action-SC-2017-27 Aus funding calls](https://github.com/OpenWIS/openwis-documentation/issues/198)
+        4. JT - Anything in KMA?
+            1. SD - I don't think so.
+        5. JT - We said we wouldn't ask WMO because of the delay. But for next year's SC we could put that on the agenda; how we engage with WMO.
+            - PR - [Action-SC-2017-28 Add funding calls to SC 2018 agenda](https://github.com/OpenWIS/openwis-documentation/issues/199)
+	  3. **Management of Contributor License Agreements (CLA)**
+            1. JT - The CLA has been published on the website for a while now, see: (http://openwis.github.io/openwis-documentation/rules/A-contributor-license-agreement.html)
+            2. JT - We are using a manual process rather than a click-thru, at this stage.
+            3. JT - So the CLA needs to be agreed by each of our Legal departments.
+            4. JT - Article 9.7 says that: All member and partner contributors (staff and contractors) must sign the CLA.
+            5. JT - So, all delegates must get the signatures of all contributors:
+                - KS/SD/MV/WQ/LLG/RGr/JT - [Action-SC-2017-19 Submit completed CLA forms](https://github.com/OpenWIS/openwis-documentation/issues/190)
+            6. WQ - The lawyers at BoM made some comments.
+                1. PR - Yes they did; they are with Michael Robbins for review. We are still waiting for responses from everyone else. We will need something from you all, even if it is 'no-comment', which will be taken as acceptance. Would it be helpful if I sent a reminder?
+                2. ALL - Yes.
+                3. ok, will do:
+                    - PR - [Action-SC-2017-29 CLA legal reviews](https://github.com/OpenWIS/openwis-documentation/issues/200)
+            7. PR - The CLA is an Annex to the Internal Rules, so you will find the link at the foot of the contents page for the Internal Rules:
+                -  [CLA](http://openwis.github.io/openwis-documentation/rules/A-contributor-license-agreement.html)
+            8. PR - Within the agreement text is the obvious link to the form itself (Sign me up!):
+                - [CLA Form](http://openwis.github.io/openwis-documentation/static/CLA/CLAform.html)
+            9. PR - You will also find a link to the page that describes how contributors should be dealt with and how the CLA forms are managed:
+                - [CLA process](http://openwis.github.io/openwis-documentation/static/CLA/CLAprocess.html)
+            10. MDA - So, why do we need these?
+                1. JT - To protect contributors and the Association from any rights issues; to avoid the SCO-Unix problem.
+                2. MDA - Where are we keeping them? Do we have a paper copy? A backup?
+                3. PR - They are kept in the GitHub repository, so it is backed up as part of the GitHub infrastructure. Also, because the repository is distributed, everyone who has forked it has copies.
+                4. JT - Perhaps MF can take a printed copy and put it in a safe? Check with MF legal whether a hardcopy of each signed CLA Form is required:
+                    - RGr - [Action-SC-2017-30 Hardcopy CLA forms](https://github.com/OpenWIS/openwis-documentation/issues/201)
+            11. WQ - I thought it was only external contributors who needed to sign these; does this apply to members and associate partners too?
+                1. JT - The relevant article says that all members and partners and contributors must sign the CLA.
+                2. WQ - Ok. Am I signing for myself or for BoM?
+                3. JT - ACTION-SC-2016-20 from last year was on me to discuss jurisdiction of an umbrella agreement. So, in section 1.Definitions, of the [CLA](http://openwis.github.io/openwis-documentation/rules/A-contributor-license-agreement.html) I have provided a clause that allows a contributor to be an individual or an organisation.
+                4. WQ - Do we see any difference legally, between BoM signing and WQ signing as an individual?
+                5. PR - We still need the GitHub-IDs of each individual contributor and their names.
+                6. WQ - This paragraph is trying to make the life of the contributors easier, so, Ok.
+            12. PR - So, shall we say the SC in June will review the final comments on the CLA?:
+                - PR - [Action-SC-2017-31 Add CLA review to June SC agenda](https://github.com/OpenWIS/openwis-documentation/issues/202)
     4. **Community growth strategy**
-        1. JT
+        1. JT - In general, we're content to grow what we're doing by building better software and experience and expertise, as we do that. We have some other organisations interested in joining. We're not in a rush to get lots of external contributors. If we get some, then ok, but we're not actively seeking any. Does that sound right?
+        2. RES-OWIS-SC-2017-XX:Resolution: vote: 7-0 - in favour - We will not actively seek external contributions for the next year. OWIS-RES
+        3. JT - As we look ahead, we want to engage more with the OSS community, so, should we try to engage with some OSS conferences? For example:
+            - FOSS4G
+            - OSCON
+            - Community Development Leadership Summit
+        4. WQ - For what reason?
+        5. JT - Well, we might go to FOSS4G to better understand the context for OSS development and to promote OpenWIS.
+        6. WQ - If we have the time and resources, then maybe.
+        7. JT - A few years ago, UKMO sponsored a hackathon at FOSS4G, for £25,000. As well as running the hackathon, we put posters up, did presentations etc. We might want to do that next year, it's too late for this year's event.
+        8. KS - FOSS4G this year is in Boston. By engaging with FOSS4G, we might network with GeoNetwork, show them what we're doing and maybe attract them to what we're doing.
+        9. JT - So for next year we would need to think about it this year. Should we investigate, make a proposal?
+        10. JT - What happened after the FOSS4G we sponsored was we got our tools put on the OSGEO DVD and increased the number of users.
+        11. MDA - We need to understand the benefits.
+        12. KS - We should at least go to give presentations, to raise awareness.
+        13. JT - So, let's ask ourselves what the benefits might be:
+            1. FOSS4G - probably the best fit. So do an analysis of how we might engage in 2018; just turn-up, present, or sponsor?
+            2. Identify other conferences that we might, as individual organizations or as the Association, send people to. Find out the dates for submissions etc. and decide if we should put something in.
+        14. MDA - Is this to present the Association or the software?
+        15. JT - To be decided. Could be interesting to do both.
+        16. JT - KS, is NWS sending somebody to FOSS4G this year?
+        17. KS - Don't know yet.
+        18. JT - Could you look at how the Association might engage with FOSS4G?
+        19. KS - Yes.
+            - KS - [Action-SC-2017-32 FOSS4G](https://github.com/OpenWIS/openwis-documentation/issues/203)
+        20. JT - Ok, then UKMO will consider if there are any other relevant events.
+            - PR - [Action-SC-2017-33 Other relevant conferences](https://github.com/OpenWIS/openwis-documentation/issues/204)
+        21. JT - Maybe we could even hold our Developer Conference at FOSS4G?
+        22. JT - As we promote ourselves as providers of OSS and develop pilot projects for WIS 2.0, we may find that others, JMA, say, might take our software and use it, without making a contribution. I think that would be fine; we would be supporting WIS.
+        23. MDA - I hope that will happen.
+        24. KS - Maybe IMD would do that.
+        25. MDA - In India, they are running OpenWIS?
+        26. LLG - No, the tender was cancelled.
+        27. MDA - As it is today, they will never be able to install it themselves.
+        28. JT - It's fine too if others just want to take some of it.
+        29. KS - Yes, they may fork our repository and use or modify it, but never put back.
+        30. JT - Anything else on community growth? Ok, hearing nothing.
     5. **Communications plan**
-        1. JT
+        1. JT - Last year we prepared for WMO CBS. Are there any WMO meetings this year that we want to prepare for?
+        2. WQ - WMO Executive Council?
+        3. JT - The submission deadline for that passes in 6 days. I'm not sure the Executive Council is the right place to tout software.
+        4. WQ - Rather than the Association?
+        5. JT - We only have one software currently. Perhaps mention pilots for WIS 2.0?
+        6. MDA - Too early; WIS 2.0 will not even be a side event this year. In 2018 there will be a side event and it would be good to say what we are doing on WIS 2.0. Also, we will be clearer ourselves. I will consider it.
+            - MDA/RGr - [Action-SC-2017-34 Promotion at WMO Exec Council 2018](https://github.com/OpenWIS/openwis-documentation/issues/205)
+        7. MDA - I don't know where we could go to present what we are doing. At CBS we discussed OpenWIS, but not sure we get valuable feedback.
+        8. JT - We're not ready to go specifically to talk OpenWIS.
+        9. MDA - This year, there is the WMO Workshop on Information Management; we could put the effort into that. I think it is in September.
+        10. JT - MDA, I imagine you're involved in that?
+        11. MDA - Yes, I could consider that too:
+            - MDA - [Action-SC-2017-35 Promotion at WMO Info Mgt workshop](https://github.com/OpenWIS/openwis-documentation/issues/206)
+        12. JT - So I think we have concluded that there is nothing specific for the Communications Plan right now?
+        13. ALL - Agreed.
     6. **Review need for Community Manager and any other new roles**
-        1. JT
+        1. JT - We've already said we're not ready yet to employ a Community Manager. So I propose that we look at the document we circulated at last year's SC and just check if we should be doing any of those things now. We could take that away and report back.
+        2. MDA - Ok, yes, we'll report back.
+        3. JT - LLG, would you be able to look at the Community Manager role to see who could be doing what?
+        4. LLG - Ok, yes:
+            - LLG - [Action-SC-2017-36 Review the Community Manager role](https://github.com/OpenWIS/openwis-documentation/issues/207)
+        5. JT - PR, would you attach the description of the Community Manager role to the minutes?
+        6. PR - Ok, yes:
+            - PR - [Action-SC-2017-37 Attach the Community Mgr role desc to minutes](https://github.com/OpenWIS/openwis-documentation/issues/208)
+        7. Description of [Community Manager role](http://openwis.github.io/openwis-documentation/assets/ATT-OWIS-SC-2016-3_Community_Mgr.DOC)
 15. **Recommendations to the Board regarding the creation of ad-hoc committees or subsidiary bodies**
 	  1. JT - We are not recommending the creation of any subsidiary bodies at this time.
 16. **Finances of the OpenWIS Association**
@@ -913,10 +1119,34 @@ title: OpenWIS Steering Committee 2017 March
 		    3. RES-OWIS-SC-2017-08:Resolution: vote: 7-0 - in favour - Recommended to Board - an annual budget provision of EUR 10,000. OWIS-RES
 17. **Any other business**
     1. MV - FMI are happy to host the annual meeting next year, in Finland.
+    2. WQ - None.
+    3. SD - None.
+    4. KS - None.
+    5. MDA - None.
+    6. LLG - None.
+    7. JT - PR and I were having thoughts about how to gather the requirements for the analysis that we asked the TC to do. We propose to send DW to Athens for a few days to work with European Dynamics. We would like BS to be there as well, to improve the quality of the outcome. We were also wondering if NWS and MFI would want to participate?
+        1. WQ - What is this about?
+        2. JT - The cost estimates for building the v5 architecture, based on the Options 1 and 4 we discussed earlier. We're looking for suggestions as to how we can quickly feed the requirements to European Dynamics so they can provide these estimates in time for the June SC.
+        3. WQ - Ok.
+        4. MDA - Yes, MF will send BS.
+        4. PR - We recognize that the cost of attending in person would be difficult, especially for BoM and KMA, so we're proposing this as a first-cut, which we all review and refine later.
+        5. MDA - Ok, yes, it's a good idea.
+            - PR/DW/BS/NM - [Action-SC-2017-38 Revise SoR](https://github.com/OpenWIS/openwis-documentation/issues/209)
 18. **Summary of recommendations to the Board**
 	  1. PR
 19. **Closure of the meeting**
-	  1. JT
+	  1. JT - So, we've agreed an ad-hoc SC meeting on 8th June 2017. Draft agenda:
+        1. Review the costed proposals from the TC on the work plan.
+        2. Assess the goals for the Association.
+        3. Review the project charters from KS and JT.
+        4. Review the funding calls.
+        5. Review the legal comments on the CLA.
+    2. JT - We also agreed to hold an ad-hoc Board meeting on 5th July 2017. Draft agenda:
+        1. Review SC recommendations on the work plan.
+        2. Review SC recommendations on the project charters.
+        3. Election of officials.
+        4. Risk management review.
+    3. JT - Thank you all for your hard work. I look forward to seeing you all in Finland in 2018. The meeting is now closed.
 
 ---
 
