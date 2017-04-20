@@ -25,14 +25,14 @@
 
   <div class="wrapper">
 
-    <div class="site-banner"><span class="site-title"><img src="http://openwis.io/cms/images/openwis.jpg" alt="OpenWIS®" style="max-height:40px; width:auto"/><a href="/openwis-documentation/">OpenWIS Association AISBL</a></span></div>
+    <div class="site-banner"><span class="site-title"><img src="/openwis-documentation/assets/openwis.jpg" alt="OpenWIS®" style="max-height:40px; width:auto"/><a href="/openwis-documentation/">OpenWIS Association AISBL</a></span></div>
 
 
     <nav class="site-nav">
       <div class="trigger">
 	 <a class="page-link" href="/openwis-documentation/">Home</a>      
          <div class="page-link">
-            <ul class="dropdown"><label for="a1"><a href="/about/">Association</a></label><input id="a1" type="checkbox">
+            <ul class="dropdown"><label for="a1"><a href="/openwis-documentation/about/">Association</a></label><input id="a1" type="checkbox">
                   <li><a href="/openwis-documentation/structure/members.html">Members</a></li>
 	          <li><a href="/openwis-documentation/structure/governance.html">Governance</a></li>
                   <li><a href="/openwis-documentation/articles/">Articles of Association</a></li>
@@ -45,8 +45,8 @@
             </ul>
          </div>
          <div class="page-link">
-            <ul class="dropdown"><label for="p1"><a href="/projects/">Projects</a></label><input id="p1" type="checkbox">
-               <li><ul class="dropdown"><label for="p21"><a href="/openwis-documentation/projects/openwis/">OpenWIS</a></label><input id="p21" type="checkbox">
+            <ul class="dropdown"><label for="p1"><a href="/openwis-documentation/projects/">Projects</a></label><input id="p1" type="checkbox">
+               <li><ul class="dropdown"><label for="p21"><a href="/openwis-documentation/projects/openwis/">OpenWIS</a></label><input id="p21" type="checkbox" checked>
 		     <li><a href="/openwis-documentation/backlog/">Backlog</a></li>
                      <li><a href="/openwis-documentation/kanban/">Kanban</a></li>
 		     <li><a href="https://openwis.github.io/openwis" target="_blank">Github Development*</a></li>
@@ -54,10 +54,12 @@
                      <li><a href="https://github.com/OpenWIS/openwis/wiki" target="_blank">Wiki*</a></li>
                      <li><a href="/openwis-documentation/projects/openwis/#download">Download</a></li>
                </ul></li>
-               <li class="no-link">Python Metadata Tool</li>
+               <li><ul class="dropdown"><label for="p22"><a href="/openwis-documentation/projects/excel2wis/">Excel2wis Tool</a></label><input id="p22" type="checkbox" checked>
+	          <li><a href="https://github.com/OpenWIS/excel2wis" target="_blank">Excel2wis github repository</a></li>
+	       </ul></li>
             </ul>
          </div>
-         <a class="page-link" href="mailto:contact@openwis.io">Contact</a>
+         <a class="page-link" href="mailto: contact@openwis.io">Contact</a>
          <div class="page-link">
             <ul class="dropdown"><label for="i1">Get Involved</label><input id="i1" type="checkbox">
                 <li><a href="/openwis-documentation/structure/steering-committee.html">Steering Committee</a></li>
@@ -105,6 +107,8 @@
 				
 					<li><a href="#rule-6.8">Rule 6.8</a></li>
 				
+					<li><a href="#rule-6.9">Rule 6.9</a></li>
+				
     		</ol>
     	</nav>
     
@@ -114,6 +118,8 @@
     <h2 id="rule-6.1">Rule 6.1</h2>
 
 <p>Membership fees, subscriptions and contributions are due from all Members and Partners of the Association, as set down in these <a href="/openwis-documentation/rules/">Internal Rules</a>.</p>
+
+<p>A <strong>Contributor</strong> is a person contributing to code and/or non-code activities within a Project. Individual Contributors pay no fees or subscriptions.</p>
 
 <h2 id="rule-6.2">Rule 6.2</h2>
 
@@ -150,9 +156,11 @@
   </tbody>
 </table>
 
+<p>An Associate Partner may, by mutual consent with the Association, substitute an agreed in-kind contribution for the Annual Contribution fee of €10,000.</p>
+
 <h2 id="rule-6.4">Rule 6.4</h2>
 
-<p>The rights and privileges afforded to Members, Strategic Partners, and Associate Partners, in return for their fees, shall be as set out in the table below:</p>
+<p>The rights and privileges afforded to Members, Strategic Partners, Associate Partners, and Contributors in return for their fees (where applicable), shall be as set out in the table below:</p>
 
 <table>
   <thead>
@@ -161,6 +169,7 @@
       <th><strong>Member</strong></th>
       <th><strong>Strategic Partner</strong></th>
       <th><strong>Associate Partner</strong></th>
+      <th><strong>Contributors</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -169,11 +178,13 @@
       <td>✓</td>
       <td>X</td>
       <td>X</td>
+      <td>X</td>
     </tr>
     <tr>
       <td>Right to appoint a Delegate to the Steering Committee (with vote)</td>
       <td>✓</td>
       <td>✓</td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
@@ -181,9 +192,18 @@
       <td>X</td>
       <td>X</td>
       <td>✓</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>Right to propose new Projects</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>X</td>
     </tr>
     <tr>
       <td>Reception of copies of the <a href="/openwis-documentation/articles/">Articles of Association</a> and <a href="/openwis-documentation/rules/">Internal Rules</a></td>
+      <td>✓</td>
       <td>✓</td>
       <td>✓</td>
       <td>✓</td>
@@ -193,15 +213,18 @@
       <td>✓</td>
       <td>✓</td>
       <td>✓</td>
+      <td>X</td>
     </tr>
     <tr>
       <td>Information and consultation on an on-going basis about the activities of the Association</td>
       <td>✓</td>
       <td>✓</td>
       <td>✓</td>
+      <td>X</td>
     </tr>
     <tr>
-      <td>Access to the OpenWIS Software</td>
+      <td>Access to the OpenWIS® software</td>
+      <td>✓</td>
       <td>✓</td>
       <td>✓</td>
       <td>✓</td>
@@ -211,15 +234,18 @@
       <td>✓</td>
       <td>✓</td>
       <td>✓</td>
-    </tr>
-    <tr>
-      <td>OpenWIS Community Support</td>
-      <td>✓</td>
-      <td>✓</td>
       <td>✓</td>
     </tr>
     <tr>
-      <td>Visibility of the OpenWIS development roadmap</td>
+      <td>OpenWIS® Community Support</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+    </tr>
+    <tr>
+      <td>Visibility of the OpenWIS® development roadmap</td>
+      <td>✓</td>
       <td>✓</td>
       <td>✓</td>
       <td>✓</td>
@@ -229,21 +255,32 @@
       <td>✓</td>
       <td>✓</td>
       <td>✓</td>
+      <td>X</td>
     </tr>
     <tr>
       <td>Access to a sandbox reference implementation</td>
       <td>✓</td>
       <td>✓</td>
       <td>✓</td>
-    </tr>
-    <tr>
-      <td>Eligibility to participate in the Technical Committee (following election by the Steering Committee)</td>
-      <td>✓</td>
-      <td>✓</td>
       <td>✓</td>
     </tr>
     <tr>
-      <td>Eligibility to participate in OpenWIS user groups, workshops and conferences</td>
+      <td>Eligible to serve on the Technical Committee, subject to qualifying criteria in <a href="/openwis-documentation/articles/articles/14-technical-committee.html#article-14.2">Article 14.2</a></td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+    </tr>
+    <tr>
+      <td>Eligible to serve on OpenWIS® Project Management Committees, subject to procedures defined in <a href="/openwis-documentation/rules2/2016-03-11-OpenWIS-Project-Governance.md">OpenWIS® Project Governance rules supplement</a></td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+    </tr>
+    <tr>
+      <td>Eligible to participate in OpenWIS® meetings, user groups, workshops and conferences</td>
+      <td>✓</td>
       <td>✓</td>
       <td>✓</td>
       <td>✓</td>
@@ -276,6 +313,10 @@
 
 <p>Amounts due to the Association must be paid within 30 days of becoming due. In accordance with the Belgian Late Payment Law, interest on amounts overdue by more than 30 days will be charged at 8 percentage points on top of the interest rate applied by the European Central Bank to its most recent main refinancing operation, rounded up to the higher half percentage point.</p>
 
+<h2 id="rule-6.9">Rule 6.9</h2>
+
+<p>Contributors shall comply with the <a href="/openwis-documentation/conduct/">OpenWIS® Code of Conduct</a>.</p>
+
 <p><a href="/openwis-documentation/rules/5-relationship-with-organisational-partners.html">previous: TITLE 5</a> | <a href="/openwis-documentation/rules/7-management-structure-and-qualification-of-officers.html">next: TITLE 7</a></p>
 
   </div>
@@ -287,20 +328,13 @@
     
 <div class="wrapper">
 
-</div>
-
-
-    
-<div class="wrapper">
-
 
 
 </div>
 
   
   
-    
-<footer class="site-footer">
+    <footer class="site-footer">
 
   <div class="wrapper">
     <div>
@@ -310,14 +344,14 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li><a href="http://openwis.io">OpenWIS Association AISBL</a></li>
+          <li><a href="/openwis-documentation/">OpenWIS Association AISBL</a></li>
           <li><a href="mailto:contact@openwis.io">contact@openwis.io</a></li>
         </ul>
       </div>
 
       <div style="text-align:right; float:right" class="footer-col footer-col-3">
-        <p><a rel="license" href="//creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt="License"/></a></p>
-        <p><small>Except where otherwise noted, content on <span href="http://openwis.io">this site</span> is licensed under a <a rel="license" href="//creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International license</a>.</small></p>
+        <p><a rel="license" href="//creativecommons.org/licenses/by/4.0/" target="_blank" title="Creative Commons Attribution 4.0 International license"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt="License"/></a></p>
+        <p><small>Except where otherwise noted, content on <span href="/openwis-documentation">this site</span> is licensed under a <a rel="license" href="//creativecommons.org/licenses/by/4.0/" target="_blank"> Creative Commons Attribution 4.0 International license</a>.</small></p>
       </div>
     </div>
 
