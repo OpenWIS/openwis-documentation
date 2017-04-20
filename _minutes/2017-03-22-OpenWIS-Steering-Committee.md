@@ -17,10 +17,15 @@ title: OpenWIS Steering Committee 2017 March
     3. JT - Also, we will pause the SC meeting tomorrow at 3pm, to have a couple of hours of the Board Meeting; this is so Emma, our Treasurer, can join us via WebEx.
 3. **Declaration of delegates**
     1. JT - Here's reminder of the rules for the SC meeting:
+
         > A Delegate may represent up to one (1) other Member or Strategic Partner, besides the Member or Strategic Partner which appointed him or her, at a meeting of the Steering Committee. A written proxy, signed by the Member or Strategic Partner giving the proxy, shall be required for that purpose. The represented Member(s) and/or Strategic Partner(s) shall then be considered as present. (Article A13.8)
+
         > A meeting of the Steering Committee shall be quorate if at least three-quarters of the Members and Strategic Partners are together present. Delegates may be assisted by advisers at meetings of the Steering Committee. (Article A13.9)
+
         > Except where these Articles of Association require any matter to be decided unanimously, decision and recommendations of the Steering Committee shall be made by simple majority of those Delegates present. Each Delegate shall have one vote. (Article A13.10)
+
         > Associate  Partners may attend Steering Committee meetings as observers. WMO representatives may attend the Steering Committee meetings as observers to represent the interests of OpenWIS users. Observers may contribute to discussions but have no formal role in making decisions. (Article A13.13)
+
         > Resolutions and decisions of the Steering Committee shall be recorded in writing and made available to all Delegates. (Rule R8.14)
 
     2. JT - So, we are quorate, even if WQ can't hear us. Whenever WQ is not on WebEx, MDA is proxy.
@@ -52,7 +57,7 @@ title: OpenWIS Steering Committee 2017 March
                 - Singapore has requested improvements in Security.
                 - There are also comments that OpenWIS is not so easy to manage.
             3. MDA - I have been in contact with Moscow; they have tried to use it more, to the full solution, but it is still too complicated for them to manage alone.
-            4. I have had an exchange with India, but they are lost with it.
+            4. MDA - I have had an exchange with India, but they are lost with it.
             5. LLG - We worked with Russia in their own framework, so it is a very specific solution. Now, they want a more standard solution; we are in the early discussion stage.
             6. LLG - India is difficult to progress; they are really interested but they are looking at all the options. We will try to discuss in future. Maybe they will be joining the Association? We'll wait and see.
         - 2016-24: LLG – Clarify in the communications plan.
@@ -63,7 +68,8 @@ title: OpenWIS Steering Committee 2017 March
             1. JT - CLOSED - I discussed it with Michael, but anyway the current process doesn't use a click-thru.
         - 2016-20: JT/PR - Talk to Michael Robbins about whether an umbrella agreement would have legal standing.
             1. JT - CLOSED - The assumption is that one umbrella agreement covers all contributors from an organisation, as stated in Annex A to the Internal Rules:
-            > 'You' (or 'Your') shall mean the copyright owner or legal entity authorized by the copyright owner that is making this Agreement with the OpenWIS Association AISBL. For legal entities, the entity making a Contribution and all other entities that control, are controlled by, or are under common control with that entity are considered to be a single Contributor.
+
+                > 'You' (or 'Your') shall mean the copyright owner or legal entity authorized by the copyright owner that is making this Agreement with the OpenWIS Association AISBL. For legal entities, the entity making a Contribution and all other entities that control, are controlled by, or are under common control with that entity are considered to be a single Contributor.
 
             2. JT - So basically, an organisation is a single contributor.
         - 2016-19: RGr - Investigate appetite for a project proposal with DWD.
@@ -139,8 +145,8 @@ title: OpenWIS Steering Committee 2017 March
     10. JT - We also note that Sungsoo Do has replaced Okki Lee as both the TC and SC delegate for KMA (by prior email).
     11. JT - Any more nominations? Ok, hearing none, let's vote.
     12. Vote:
-			1. RES-OWIS-SC-2017-01:Resolution: vote: 7-0 in favour - JT is elected as SC-Chair. OWIS-RES
-			2. RES-OWIS-SC-2017-02:Resolution: vote: 7-0 in favour - RGr is elected as SC-Vice-Chair. OWIS-RES
+        1. RES-OWIS-SC-2017-01:Resolution: vote: 7-0 in favour - JT is elected as SC-Chair. OWIS-RES
+        2. RES-OWIS-SC-2017-02:Resolution: vote: 7-0 in favour - RGr is elected as SC-Vice-Chair. OWIS-RES
 7. **Election of chairperson ("TC-Chair") and vice-chairperson ("TC-Vice-Chair") of the Technical Committee (see Article A14.3)**
 	  1. JT – In terms of nominations so far, WQ has withdrawn, so thank you WQ for all your efforts and dedication as Chair of the TC for the last few years.
     2. JT - I have one nomination, for TC-Chair or TC-Vice-Chair: SO
@@ -148,10 +154,10 @@ title: OpenWIS Steering Committee 2017 March
     4. SO - I spoke to LM and he said he would stand for TC-Vice-Chair, so I nominate LM.
     5. JT - Any more nominations? Hearing none, let's vote.
     6. Vote:
-			1. RES-OWIS-SC-2017-03:Resolution: vote: 7-0 in favour - SO is elected as TC-Chair. OWIS-RES
-			2. RES-OWIS-SC-2017-04:Resolution: vote: 7-0 in favour - LM is elected as TC-Vice-Chair. OWIS-RES
+        1. RES-OWIS-SC-2017-03:Resolution: vote: 7-0 in favour - SO is elected as TC-Chair. OWIS-RES
+        2. RES-OWIS-SC-2017-04:Resolution: vote: 7-0 in favour - LM is elected as TC-Vice-Chair. OWIS-RES
 8. **Recommendations to the Board regarding admission of new Members (see Article 6 and Internal Rule 4)**
-	  1. JT - So where are we with the ECMWF partnership?
+    1. JT - So where are we with the ECMWF partnership?
         1. BR - We have the budget. Our lawyer has returned the contract to RGr and Michael Robbins.
     2. JT - And what about Indian Met Department (IMD)?
         1. MDA - I have nothing to add to what I said before about the contact with IMD.
@@ -242,15 +248,15 @@ title: OpenWIS Steering Committee 2017 March
                 9. JT - So much of the Horizon 2020 funding is around Copernicus; BR are there calls that fit?
                 10. BR - Not sure.
                 11. JT - So, ECMWF is already managing around Copernicus. MDA, how do you want to proceed?
-                12. MDA - ECMWF are close to the Directors etc. So BR could evaluate whether there are any calls in Horizon 202 that are relevant to OpenWIS.
-                   - BR - [Action-SC-2017-25 Horizon 2020 funding calls](https://github.com/OpenWIS/openwis-documentation/issues/196)
+                12. MDA - ECMWF are close to the Directors etc. So BR could evaluate whether there are any calls in Horizon 2020 that are relevant to OpenWIS.
+                    - BR - [Action-SC-2017-25 Horizon 2020 funding calls](https://github.com/OpenWIS/openwis-documentation/issues/196)
                 13. JT - Just remember, there is a lot of admin and commitment involved in seeking this sort of funding.
         2. Evolution of WMO Core Metadata Profile
             1. JT - I've talked about this. Metadata could look quite different for WIS 2.0. I don't know any more than that.
             2. MDA - So you no-longer believe that ISO19000 will be a feature of WIS?
             3. JT - If you look at INSPIRE, they have moved to more flexible standards, so I would look to leverage those.
             4. WQ - Internally, we just use JSON and MongoDB, not ISO.
-            5. JT - The NM demo use Elastic Search, which also uses JSON.
+            5. JT - The NM demo uses Elastic Search, which also uses JSON.
             6. BR - So, Core-GeoNetwork will support D-Cat?
             7. JT - I think it already does.
         3. How we support WIS Data Policy inside OpenWIS
@@ -268,7 +274,7 @@ title: OpenWIS Steering Committee 2017 March
                 3. Only when data is put into the global Cache do you lose control.
                 4. The metadata record from the WIS Catalogue _describes_ the License/data policy.
             5. JT - We don't want to restrict access to metadata, at least not within the WIS Catalogue.
-            6. JT - So propose that we give up trying to be clever in OpenWIS by trying to INFER the access control policy for data in the global Cache.
+            6. JT - So I recommend that we give up trying to be clever in OpenWIS by trying to INFER the access control policy for data in the global Cache.
             7. JT - That said, _do_ use Groups and Roles as GeoNetwork intends, to manage the metadata creation, approval, publication and maintenance workflows.
             8. JT - Note that local OpenWIS installations _may_ choose to restrict access to metadata, if local policies require this, but this is a much simpler case, as there is no need to synchronise metadata or authorisation policies with other catalogue instances.
             9. JT - So, we need take no further action to support WIS Data Policy inside OpenWIS.
@@ -363,279 +369,278 @@ title: OpenWIS Steering Committee 2017 March
             2. MF also presented their work on Harnesses and we are recommending that we adopt a common approach to development of Harness components.
         6. JT - So if we look back over the past year, how do you think the technical group have performed?
             1. SO - Been a strong year. We've worked through a number of issues. Bringing European Dynamics on-board has also been a strength and a good path forward.
-	2. **Resolution of issues referred to SC (if any arising)**
-		  1. JT - No issues have been received.
-	3. **Approval of strategic programme and work plan(s)**
-      1. JT - Looking forward, we are establishing _feature-driven_ development.
-      2. PR - Which will be a small change, just a slightly enhanced use of Kanban and GitHub.
-      3. JT - I propose that we draw a line under OpenWISv3. If a security issue arises we will patch it, but it is in maintenance mode.
-      4. MDA - Have you been through the requirements and checked there are no critical issues?
-      5. WQ - We would fix any new critical issues in OpenWISv4, except for security issues.
-      6. DW - Some improvements in OpenWISv4 might be backward-compatible.
-      7. WQ - That would be a bonus.
-      8. DW - So v3.14.8 will be the maintenance release, the latest.
-      9. WQ - v3.14 was mainly an uplift of the middleware, no real new functionality or features.
-      10. SO - The open source release (v3.14.7) did include the patch for Java.
-      11. JT - The PMC/TC is responsible for identifying when a patch release is required and coordinating that activity.
-      12. PR - v3.14.8 also contains the last updates from MF. The ForgeRock issue is not a blocker; we will work around that, make the release and then put 3.14 into maintenance mode.
-          - SO - [Action-SC-2017-11 Put v3.14 into maintenance mode](https://github.com/OpenWIS/openwis-documentation/issues/182)
-      13. JT - So, on to OpenWISv4 then. We said a development release in September and an operational release in calendar Q1 2018.
-      14. JT - There are significant deployment implications then for operational WIS centres, around the new Core-GeoNetwork and other changes.
-      15. JT - We've mentioned things like bulk-subscriptions and containerisation, but what functional improvements are actually planned?
-      16. DW - They are listed in the output from the TC workshop.
-      17. SO - The list is on GitHub: [OpenWIS4 issues](https://github.com/OpenWIS/openwis4/issues). There are about 95 issues and we prioritised about 11 of them (labelled MUST).
-      18. WQ - Sorry, I couldn't attend the workshop, but I have some thoughts to add on this.
-      19. WQ - Personally, I would go further with maintenance mode. I am encouraged by the v5 architecture discussion. Given the issues with Core GeoNetworkv3, JBoss etc, it's still probably worthwhile doing a _minimum viable product_ (MVP) version of OpenWIS4, so that we get some improvements, like bulk-subscriptions. So, release one version of OpenWIS4 at the end of this year and then look at OpenWISv5, starting early next year and, by the end of 2018, have an architecture like the one NM presented. Maybe a bit aggressive, but why put all that effort into v4 if we not using it for very long? Think of the features we really want, in v5. What is the feeling of the floor?
-      20. DW - v4 is a waste.
-      21. MDA - A v5 meeting the future requirements of WIS?
-      22. WQ - A bit of both. We don't have new requirements yet, but we can see some of them. By doing v5 we can shape the requirements.
-      23. JT - I wanted to discuss as well... we keep talking about v4, v5 and WIS 2.0, but what do they each support? I came here thinking v5 was for WIS 2.0 and v4 will only support the existing Technical Specifications. If we stop working on v4 then centres will have new requirements coming up but we wouldn't deliver until v5.
-      24. JT - I propose recognizing the NM architecture proposal and that under a v5 project we do a pilot implementation of what we anticipate the WIS 2.0 Technical Specifications will look like. After January, we take what we learned from the v5 pilots and port that to v4. So v4 will support existing Technical Specifications, v4 never will.
-      25. WQ - The basic WIS functions will still remain.
-      26. NM - Because v4 and v5 are very different, any v4 work won't be reusable, except, perhaps, a small percentage. If we want something to support the current Technical Specifications then the closest we have is v4.
-      27. NM - We can anticipate v5. The question is, how do we want to balance the work between v4 and v5?
-      28. Also, v4 is someone else's product that we have modified; v5 would belong to the Association.
-      29. JT - So we can't easily port v5 to v4?
-      30. NM - Correct.
-      31. LLG - Also, the other way.
-      32. MDA - It's not clear to me what is v4, what is v5.
-      33. KS - v4 is continuation of the current architecture and Technical Specifications; v5 is new Technical Specifications, what we think we know, plus a new architecture.
-      34. DW - If WIS 1.0 isn't like WIS 2.0 then working on WIS 1.0 stuff is a waste of time, unless WIS 1.0 is in WIS 2.0.
-      35. KS - Yeah.
-      36. WQ - My point as well. I'm pretty sure the v5 architecture can satisfy both WIS 1.0 and WIS 2.0 Technical Specifications.
-      37. KS - The good bits of WIS 1.0 would be in WIS 2.0.
-      38. RGr - We haven't yet the Technical Specifications of WIS 2.0. The ideas around WIS 2.0 are completely different. Right now we have a bit of metadata and a huge part of data in it. In WIS 2.0 we will move away from the data we have now. I can't imagine having bulk-subscriptions in WIS 2.0, so that would be a waste.
-      39. RGr - Ok, it's a gamble, but ideas are so different that I don't think we can count on reuse of v4 in v5, except some metadata; cache etc. will disappear.
-      40. BR - From a pure development point of view, with a micro-services architecture you can change services easily, so why not start that approach in v4?
-      41. NM - The problem is the missing back-end. v3 is what you used up to now. v4 is the back-end Data Services with a new front-end from Core GeoNetworkv3. So we took an external project (GeoNetworkv3) and added the v3 Data Services and then called it v4. The coding was mainly glue. From now on we have to work on fixing the 95 issues. All those fixes are trying to make Core GeoNetworkv3 compatible with our needs.
-      42. NM - So with v4 we aren't starting from scratch and doing micro-services. If we wanted to start that architecture right now we would develop the v5 micro-services architecture to support the current Technical Specifications and change later to support the 2.0 Technical Specifications.
-      43. LLG - Will v5 use Core GeoNetwork?
-      44. NM - No, we replace many of the functions of Core GeoNetwork.
-      45. JT - Metadata management is quite heavy-weight.
-      46. WQ - We are working with the v4 architecture for about a year now and it is almost incompatible; you wouldn't choose to marry them together. Once you have the new v5 architecture you have more light-weight services and a lot of benefits from that.
-      47. WQ - If you are asking me to spend more energy on v4... well, we still need to maintain it, but do the minimum.
-      48. WQ - Maybe we go straight to v5? Probably a step too far. But, go to v5 as soon as possible, do current Technical Specifications and then do the future Technical Specifications as they appear. The technology we looked at for v5 addresses all the WIS 2.0 ideas.
-      49. JT - So, the key point appears to be: get onto the new architecture as soon as possible and use it to support both the old and new Technical Specifications.
-      50. MDA - So are we adding to Core GeoNetwork?
-      51. JT - Yes, cache, Data Management, etc.
-      52. MDA - v5 start from scratch, but with Core GeoNetwork for metadata?
-      53. JT - But ultimately the metadata won't look like it does now, ISO etc. But we do need to support operations for the next 5 years and we don't know yet how we will make the change.
-      54. NM - We won't need Core GeoNetwork, we'll have our own harvesting etc.
-      55. MDA - have you looked at the cost?
-      56. NM - No.
-      57. MDA - That is key.
-      58. SO - There isn't a simple way forward, so we may need to proceed carefully. There will be such a paradigm shift that we need to consider training etc. We want it to be successful and demonstrate how you move from this environment to that environment.
-      59. JT - Ok, to summarise...
-      60. JT - The question is: how do we transition from v4 and existing Technical Specifications to, in at least 4 years time, WIS 2.0 with new Technical Specifications?
-      61. JT - The proposal from the TC is to make significant architecture improvements to support the anticipated WIS 2.0 Technical Specifications.
-      62. JT - The challenge is to determine how to make the transition.
-      63. JT - Yesterday, we agreed to start a new project to develop our ideas on WIS 2.0.
-      64. JT - Constraints:
-          1. WIS 2.0 Technical Specifications will not be approved until 2020.
-          2. So we need to support the WIS 1.0 Technical Specifications for 4 years.
-      65. JT - WQ, your aspiration was for an OpenWISv4 MVP, followed as soon as possible by a move to the new architecture, while still meeting current Technical Specifications.
-      66. WQ - Yes.
-      67. JT - And as new Technical Specifications evolve we would add them into the system, which would be highly componentised.
-      68. NM - That would be much easier in the v5 architecture than in the v4.
-      69. WQ - Yes and it would also save some effort overall.
-      70. JT - I want to ask each of the delegates what their position is... do we all understand the proposal from WQ?
-      71. NM - Do we need to define the MVP for v4? How much work would it be?
-      72. WQ - The TC discussed having a v4 release by calendar Q1 2018. The most important things are on the Kanban and issues tracker. We would get them fixed; no more new stuff.
-      73. JT - So we're continuing with Core GeoNetwork, looking at priority issues, about a dozen?
-      74. PR - If you define the MVP as the list of issues we labelled as MUST in the workshop: [MUST](https://github.com/OpenWIS/openwis4/issues?q=is%3Aissue+is%3Aopen+label%3AMUST), there are currently 13. But that won't be all we have to do. We have to adapt to using some of the new Core GeoNetworkv3 features, we said we will do compliance testing and anyway, general testing will throw up new issues.
-      75. DW - And there are some missing features that need to be put on top, stuff AKKA put into GeoNetworkv2. We don't know what all of these are, but things like Data Access Policies.
-      76. JT - So we need further analysis to identify all that other work.
-          - SO - [Action-SC-2017-21 Feature comparison for v3 vs v4](https://github.com/OpenWIS/openwis-documentation/issues/192)
-      77. JT - So let me play that back. The MVP is defined as:
-          1. Core GeoNetworkv3
-          2. Fixes for the priority issues (MUST)
-          3. Fixes for any non-compliance
-          4. Anything else v3 has that we need to put back into v4.
-      78. JT - The roadmap aims for calendar Q1 2018 to deliver that.
-      79. WQ - Yes.
-      80. JT - Does anybody feel we shouldn't do at least that?
-      81. DW - The less complicated security services is a benefit; so are the new features of Core GeoNetworkv3 that we want. But there aren't that many, so it's not that much different from v3. So why not just improve v3?
-      82. BS - Because we are waiting for the better metadata discovery features in Core GeoNetworkv3.
-      83. DW - Ok. There is still work to be done there; I like the new tree feature too, but it's not sufficient.
-      84. BS - So this is part of the gap. So, BS, for you the new interface is important.
-      85. MDA - Sorry, which version?
-      86. JT - The new Core GeoNetwork is version 3, which we will use as part of OpenWIS version 4, to support Technical Specifications version 1.0.
-      87. SO - Let's frame the question: are we talking about how much to include in OpenWIS v4.2?
-      88. JT - Yes, so spend 1 year on an OpenWISv4 MVP; is this the minimum we should do?
-      89. SO - Most of the top issues were well aligned from the four workshop teams, so yes, that's the bare minimum.
-      90. DW - There are other things missing that will need to be fixed. Features that were in Core GeoNetworkv2 but are not in Core GeoNetworkv3: stop-gap metadata, synchronisation, reporting. Do we need these? So we might go backwards in some areas, but ok, it depends how important they are. We have the MF excel2wis metadata tool, so maybe we use that. Do we need the Alerts Page? We do need a way of alerting the System Admin.
-      91. SO - A couple of things come into play here:
-          1. Even though we are event driven, we are fixing the release date.
-          2. We are aligning to squads and features. A new approach with some unknowns, but possibly quicker results. I am hoping the developer pool will be larger.
-      92. PR - We'll see where we are when we've delivered the training.
-      93. JT - Because we're agile, we have scheduled delivery, so we'll release in September and January, if we're willing to spend one year to get to MVP.
-      94. MDA - So we'll have a version 4 which is considered better, but it may not have all the features of version 3?
-      95. RGr - MVP equals comply with Technical Specifications 1.0.
-      96. JT - Yes.
-      97. DW - Some compliance will be added.
-      98. RGr - No, we have been audited and we are compliant.
-      99. RGr - So, what is the cost?
-      100. MDA - I don't know where we are with OpenWISv4; near the end or near the beginning?
-      101. PR - There is not much more to do that is entirely new. We developed much of the functionality we need to add to Core-GeoNetwork with GeoCat. It's just that we didn't like the way they did it, so we developed the Overlay approach to give us more independence from the GeoNetwork code and community.
-      102. NM - The overlay approach allows independence from Core-GeoNetwork, but it adds some complexity, so if we throw it away in one year, it's not worth it.
-      103. MDA - We're not throwing it away in one year. I don't understand what is missing and what is the cost.
-      104. JT - I don't believe the TC has estimates for the tasks in the MVP.
-      105. NM - If we want to develop v5 then we will throw away v4.
-      106. MDA - We may consider v5 if you prove that v5 is a lot cheaper than v4 and that we can have it in less time.
-      107. JT - Continuing with v4 is one of our options. We don't have a cost estimate for that.
-          - SO - [Action-SC-2017-22 v4 MVP cost estimate](https://github.com/OpenWIS/openwis-documentation/issues/193)
-      108. JT - If we continue with v4 then we start the new architecture later.
-      109. WQ - The current v3 is still our operational system.
-      110. JT - So v3 is still our flagship.
-      111. WQ - Yes.
-      112. JT - So, there may be some v3 maintenance. Can we afford v3 maintenance, v4 development and investigating the new architecture all at the same time?
-      113. WQ - So after calendar Q1 next year, v4 is operational and maintenance mode; so that is when we start investigating the new architecture.
-      114. JT - So if we choose to develop v4, we have to postpone new architecture work for a year.
-      115. MDA - What about the option to forget v4?
-      116. JT - Could we get an MVP based on the new architecture in one year?
-      117. RGr - No. We have been working on v4 for two years, so v5 in a year is a dream.
-      118. MDA - So can we develop v3 further?
-      119. WQ - It doesn't look good if, as an open source project, we don't have a new version.
-      120. WQ - Regarding whether we can have v5 in a year, I don't know, but we can't compare it with the OpenWIS we have now, that took 10 years. Now, using micro-services, it is much quicker to develop due to technology advances. We probably can, but can't guarantee.
-      121. MDA - But how long would it take to define, 1 year, 2 years?
-      122. WQ - We already have a definition, based on the current system. We could make a v5 that does just what the v3 system does now.
-      123. MDA - So in 12 months we could have a new system?
-      124. WQ - Yes and it could be better.
-      125. DW - It would help if we all saw NM presentation.
-      126. MDA - Yes.
-      127. JT - We said we would have finished v4 by now, 2 years ago, but, we only finished v3.14 six months ago, so we've spent most of our time and effort on that.
-      128. JT - So let's summarise the options:
-          1. Option 1:
-              - continue developing v3
-              - stop working on v4
-              - develop WIS 2.0 pilots in new architecture and evolve pilots to meet WIS 2.0 Technical Specifications circa 2020.
-          2. Option 2:
-              - put v3 into maintenance mode
-              - develop v4 on Core GeoNetworkv3
-              - develop new architecture for the WIS 2.0 Technical Specifications
-          3. Option 3:
-              - put v3 into maintenance mode
-              - work on v4 MVP for 1 year
-              - then develop new architecture for WIS 1.0 Technical Specifications
-              - then evolve that to support WIS 2.0 Technical Specifications
-          4. Option 4:
-              - put v3 into maintenance mode
-              - stop working on v4
-              - develop MVP on new architecture in 1 year and release
-              - evolve that to meet WIS 2.0 Technical Specifications
-              - wouldn't need to be MVP, just functional release in 12 months
-      129. MP - When will the WIS 2.0 Tech Specifications be ready?
-      130. JT - 2020-2022; having WIS 2.0 as the Technical Specifications for exchange.
-      131. RGr - The WIS 1.0 software will survive until at least 2025.
-      132. MDA - I am expecting to have a software starting to be used by 2020.
-      133. JT - The Implementation Team, that I am running, are trying for an incremental implementation plan.
-      134. RGr - So, there is going to be a transition or migration over some years.
-      135. PR - So we will have software that can support both WIS 1.0 and 2.0 and is upgraded as things change.
-      136. JT - I think Option 3 is too many architectural changes in 2 years.
-      137. {Everyone agreed - Option 3 is removed}
-      138. JT - Option 1 doesn't deliver new user features for 4 years.
-      139. JT - Option 4 has more risk associated with it because of the new architecture. However, WQ and ourselves both said we're already working on these architectures elsewhere, so that's ok.
-      140. KS - How compatible is Option 4 with the squad system?
-      141. PR - It's compatible.
-      142. MDA - Squads?
-      143. PR - An improvement to the development process we discussed at the TC. It helps to focus on delivering finished features by assigning each feature to a sub-team.
-      144. MDA - What is the benefit of having a v4?
-      145. WQ - Are Options 1 and 4 almost the same?
-      146. DW - In Option 1 we continue v3 development, but in Option 4 we develop v5.
-      147. RGr - The main difference is that you consider v5 is not compliant with WIS 1.0 in Option 1, but in Option 4 it is also compliant with both. We don't know how much of the current Technical Specifications we are going to keep.
-      148. WQ - I don't think that is true. We will do things that will work with both and we do know what some of the ideas are; it will not ne totally different.
-      149. DW - v5 with WIS 1.0 requirements, new architecture, with indication of new 2.0 Technical Specifications. v4 will all be thrown away, so with v5 we throw less away.
-      150. JT - In Option 4 we may use vanilla Core-GeoNetwork as a stand alone editor, but it is integrated with the new architecture. So, some design work to get the MVP on the new architecture.
-      151. RGb - So, we have started on Option 2 and the development of OpenWIS4, with the goal of being independent of Core-GeoNetwork?
-      152. JT - No, the Overlay approach allows us to just plug-in our code to Core-GeoNetwork.
-      153. RGb - Are we sure that this Overlay approach will still work in 2018?
-      154. DW - We need to figure out what the AKKA glue was and replace it in OpenWISv4.
-      155. RGr - But we don't know what the cost of the options are. So, at the end of the day:
-          - Option 1 might cost $
-          - Option 2 might cost $$$
-          - Option 4 might cost $$ or $$$
-          - can we afford them?
-      156. SO - Option 4 is riskier but may be a better path. The alternative is Option 2.
-      157. DW - Another issue is where each organisation is moving, for example WQ/BoM is going for this new architecture anyway. So are UKMO and NWS. Eventually, v3 will have support issues, whereas v5 looks to the future, so Option 4 is strategically aligned.
-      158. BR - You can reuse Harnesses, as micro-services, so don't need to port everything. You can have an adapter for your SOAP services.
-      159. NM re-presented [OpenWIS5]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWIS5v2.pdf)
-      160. MDA - Have you considered having separate customer interfaces?
-      161. NM - Yes, but it introduces a lot of security complexity.
-      162. PR - Simpler to have multiple instances, each dedicated to a specific role.
-      163. MDA - Which components serve Technical Specifications 1.0?
-      164. NM - This architecture would work for any Technical Specifications.
-      165. JT - So we're assembling components, not building from scratch.
-      166. DW - Which is useful for building a virtual GISC.
-      167. BS - We already have Docker components for v3.14, without so much effort.
-      168. MDA - I'm still not convinced that Option 4 is cheaper than Options 1 or 2; we need a better cost estimate.
-      169. RGb - Not sure I understand the benefit of the private cloud.
-      170. DW - So they are a DCPC or NC.
-      171. RGb - So this is not a new feature, we can do this in v3.
-      172. BR - So are we 1% or 90% through v4?
-      173. JT - There's an action on the TC to do that estimate.
-      174. DW - I'd say about 15 to 20%.
-      175. WQ - We uplifted the middleware. The only new thing was to plug in Core-GeoNetwork.
-      176. BR - So that broke a lot of features?
-      177. WQ - Well, some features are gone. If we abandon v4 now we are not losing much.
-      178. MDA - So, UKMO, you invested a lot of effort.
-      179. JT - We spent about £30k with GeoCat. We're not looking to recover that from the Association. We're not emotionally attached to v4. Two years ago we didn't know that WIS 2.0 was coming; our target has changed.
-      180. MDA - So Option 1 or Option 4?
-      181. JT - With Option 2, if we decide we want to use Core-GeoNetwork for 4 years, that's ok, but we would be waiting longer for the new architecture and evolution to WIS 2.0.
-      182. MDA - If you don't have WIS 2.0, which option?
-      183. JT - We can still use Core-GeoNetwork standalone to do metadata management, but my gut feeling is Option 4 is my preference.
-      184. WQ - I agree, rather not integrate Core-GeoNetworkv3 and the new architecture now.
-      185. MDA - I like that; Core-GeoNetworkv3 would not be the core of the system.
-      186. JT - So if we still need to edit ISO19115 metadata, then let's use Core-GeoNetworkv3; but that decision is up to the TC.
-      187. WQ - So if Option 4, we have to agree the design and one option is to use Core-GeoNetworkv3 as the metadata editor.
-      188. JT - So MF has a preference for Option 4.
-      189. MDA - Option 1 could be cheaper, no?
-      190. WQ - Not necessarily; if you delay development of WIS 2.0 then you just delay the cost, not save it.
-      191. JT - Option 4 is the preferred option, pending cost analysis, with Option 1 as a fall-back. With Option 1 we're in investigative mode for longer.
-      192. WQ - So with Option 1 we don't go operational for 3 to 4 years; why?
-      193. JT - To inform the development of the WIS 2.0 Technical Specifications.
-      194. DW - Option 1 might become Option 4 at some point.
-      195. MDA - I'm not convinced. Not sure 'evolve v5' is cheaper than starting from scratch.
-      196. JT - Because we're using a micro-services approach, we'd be plugging in different services, but still have the old metadata etc.
-      197. WQ - So WIS 1.0 still valid; presentation is different.
-      198. RGr - It is difficult to answer because we know what is not going to be in WIS 2.0, so:
-          - no exchange between 15 sites,
-          - no global cache sync,
-          - unlikely to be ISO19115 metadata.
-      199. RGr - Costs are around those 3 elements, so cost to redevelop those would be high for something we are going to throw away.
-      200. RGr - We could work on improving v3 instead, making it easier to deploy etc.
-      201. RGr - Considering how WIS 2.0 is going to be different, we spend a lot of time and money on something we bin.
-      202. RGr - So perhaps an interface between v3 and v5 and we evolve v3.
-      203. JT - We have already tasked the TC on how they would develop v4 by calendar Q1 next year [Action-SC-2017-21](https://github.com/OpenWIS/openwis-documentation/issues/192) and what costs are involved [Action-SC-2017-22](https://github.com/OpenWIS/openwis-documentation/issues/193).
-      204. JT - So Option 2 is moribund.
-      205. JT - Option 1 includes v3 with Dockerisation, a valid option, but we need more information on costs and risks.
-      206. DW - So v4 is not having more work done on it?
-      207. JT - OK, so here's the proposal:
-          - Ask the TC for a cost estimate for Option 4; report back in 3 months (June 2017).
-      208. WQ - And also a comparable cost estimate for Option 1, with pros and cons of each option.
-      209. JT - Ok, let's vote on that:
-          1. RES-OWIS-SC-2017-05:Resolution: Task TC with:[Action-SC-2017-23 Future development options report](https://github.com/OpenWIS/openwis-documentation/issues/193); vote: 7-0 in favour. OWIS-RES
-      210. JT - So approval of the strategic programme and work plan is deferred, pending the action above by the TC.
-	4. **Identification of investment required from OpenWIS Association required to deliver the work plan**
-		  1. JT - Can we summarise the key budget recommendations so far?
-          1. JT - MF servers = 1700 Euros per year.
-          2. JT - Do we need to renew the domain name?
-          3. LLG - Yes, we do every year and we did it 3 months ago.
-          4. JT - Domain name = 150 Euros per year.
-          5. JT - AWS = 2000 USD per year.
-          6. JT - Discourse hosting = ? To be confirmed.
-          7. JT - Are there any others?
-          8. SO - No.
-          9. JT - Last year we said we would hire a Technical Author, but we didn't so we paid nothing for that.
-          10. SO - I don't think we need that at this time.
-          11. JT - So that's all the costs to run the Association?
-          12. SO - Yep.
-	5. **Review of Lead Developer role**
-		  1. JT - With LM becoming TC Vice-chair, do we continue with the Lead Developer role?
-      2. PR - I don't think we need that now, we will have a lead developer for each squad.
-      3. RGr - Could have as PMC chair, so that LM as project leader chairs the PMC.
-      4. PR - Won't the TC still be the PMC for OpenWIS-Core for the foreseeable future? We can work out what we want as we begin to use squads.
-      5. JT - I propose that we decommission the Lead Developer role.
-          1. RES-OWIS-SC-2017-06:Resolution: Decommission Lead Developer role:[Action-SC-2017-12 Decommission the Lead Developer role](https://github.com/OpenWIS/openwis-documentation/issues/183); vote: 7-0 in favour. OWIS-RES
+    2. **Resolution of issues referred to SC (if any arising)**
+        1. JT - No issues have been received.
+    3. **Approval of strategic programme and work plan(s)**
+        1. JT - Looking forward, we are establishing _feature-driven_ development.
+        2. PR - Which will be a small change, just a slightly enhanced use of Kanban and GitHub.
+        3. JT - I propose that we draw a line under OpenWISv3. If a security issue arises we will patch it, but it is in maintenance mode.
+        4. MDA - Have you been through the requirements and checked there are no critical issues?
+        5. WQ - We would fix any new critical issues in OpenWISv4, except for security issues.
+        6. DW - Some improvements in OpenWISv4 might be backward-compatible.
+        7. WQ - That would be a bonus.
+        8. DW - So v3.14.8 will be the maintenance release, the latest.
+        9. WQ - v3.14 was mainly an uplift of the middleware, no real new functionality or features.
+        10. SO - The open source release (v3.14.7) did include the patch for Java.
+        11. JT - The PMC/TC is responsible for identifying when a patch release is required and coordinating that activity.
+        12. PR - v3.14.8 also contains the last updates from MF. The ForgeRock issue is not a blocker; we will work around that, make the release and then put 3.14 into maintenance mode.
+            - SO - [Action-SC-2017-11 Put v3.14 into maintenance mode](https://github.com/OpenWIS/openwis-documentation/issues/182)
+        13. JT - So, on to OpenWISv4 then. We said a development release in September and an operational release in calendar Q1 2018.
+        14. JT - There are significant deployment implications then for operational WIS centres, around the new Core-GeoNetwork and other changes.
+        15. JT - We've mentioned things like bulk-subscriptions and containerisation, but what functional improvements are actually planned?
+        16. DW - They are listed in the output from the TC workshop.
+        17. SO - The list is on GitHub: [OpenWIS4 issues](https://github.com/OpenWIS/openwis4/issues). There are about 95 issues and we prioritised about 11 of them (labelled MUST).
+        18. WQ - Sorry, I couldn't attend the workshop, but I have some thoughts to add on this.
+        19. WQ - Personally, I would go further with maintenance mode. I am encouraged by the v5 architecture discussion. Given the issues with Core GeoNetworkv3, JBoss etc, it's still probably worthwhile doing a _minimum viable product_ (MVP) version of OpenWIS4, so that we get some improvements, like bulk-subscriptions. So, release one version of OpenWIS4 at the end of this year and then look at OpenWISv5, starting early next year and, by the end of 2018, have an architecture like the one NM presented. Maybe a bit aggressive, but why put all that effort into v4 if we not using it for very long? Think of the features we really want, in v5. What is the feeling of the floor?
+        20. DW - v4 is a waste.
+        21. MDA - A v5 meeting the future requirements of WIS?
+        22. WQ - A bit of both. We don't have new requirements yet, but we can see some of them. By doing v5 we can shape the requirements.
+        23. JT - I wanted to discuss as well... we keep talking about v4, v5 and WIS 2.0, but what do they each support? I came here thinking v5 was for WIS 2.0 and v4 will only support the existing Technical Specifications. If we stop working on v4 then centres will have new requirements coming up but we wouldn't deliver until v5.
+        24. JT - I propose recognizing the NM architecture proposal and that under a v5 project we do a pilot implementation of what we anticipate the WIS 2.0 Technical Specifications will look like. After January, we take what we learned from the v5 pilots and port that to v4. So v4 will support existing Technical Specifications, v4 never will.
+        25. WQ - The basic WIS functions will still remain.
+        26. NM - Because v4 and v5 are very different, any v4 work won't be reusable, except, perhaps, a small percentage. If we want something to support the current Technical Specifications then the closest we have is v4.
+        27. NM - We can anticipate v5. The question is, how do we want to balance the work between v4 and v5?
+        28. NM - Also, v4 is someone else's product that we have modified; v5 would belong to the Association.
+        29. JT - So we can't easily port v5 to v4?
+        30. NM - Correct.
+        31. LLG - Also, the other way.
+        32. MDA - It's not clear to me what is v4, what is v5.
+        33. KS - v4 is continuation of the current architecture and Technical Specifications; v5 is new Technical Specifications, what we think we know, plus a new architecture.
+        34. DW - If WIS 1.0 isn't like WIS 2.0 then working on WIS 1.0 stuff is a waste of time, unless WIS 1.0 is in WIS 2.0.
+        35. KS - Yeah.
+        36. WQ - My point as well. I'm pretty sure the v5 architecture can satisfy both WIS 1.0 and WIS 2.0 Technical Specifications.
+        37. KS - The good bits of WIS 1.0 would be in WIS 2.0.
+        38. RGr - We haven't yet the Technical Specifications of WIS 2.0. The ideas around WIS 2.0 are completely different. Right now we have a bit of metadata and a huge part of data in it. In WIS 2.0 we will move away from the data we have now. I can't imagine having bulk-subscriptions in WIS 2.0, so that would be a waste.
+        39. RGr - Ok, it's a gamble, but ideas are so different that I don't think we can count on reuse of v4 in v5, except some metadata; cache etc. will disappear.
+        40. BR - From a pure development point of view, with a micro-services architecture you can change services easily, so why not start that approach in v4?
+        41. NM - The problem is the missing back-end. v3 is what you used up to now. v4 is the back-end Data Services with a new front-end from Core GeoNetworkv3. So we took an external project (GeoNetworkv3) and added the v3 Data Services and then called it v4. The coding was mainly glue. From now on we have to work on fixing the 95 issues. All those fixes are trying to make Core GeoNetworkv3 compatible with our needs.
+        42. NM - So with v4 we aren't starting from scratch and doing micro-services. If we wanted to start that architecture right now we would develop the v5 micro-services architecture to support the current Technical Specifications and change later to support the 2.0 Technical Specifications.
+        43. LLG - Will v5 use Core GeoNetwork?
+        44. NM - No, we replace many of the functions of Core GeoNetwork.
+        45. JT - Metadata management is quite heavy-weight.
+        46. WQ - We are working with the v4 architecture for about a year now and it is almost incompatible; you wouldn't choose to marry them together. Once you have the new v5 architecture you have more light-weight services and a lot of benefits from that.
+        47. WQ - If you are asking me to spend more energy on v4... well, we still need to maintain it, but do the minimum.
+        48. WQ - Maybe we go straight to v5? Probably a step too far. But, go to v5 as soon as possible, do current Technical Specifications and then do the future Technical Specifications as they appear. The technology we looked at for v5 addresses all the WIS 2.0 ideas.
+        49. JT - So, the key point appears to be: get onto the new architecture as soon as possible and use it to support both the old and new Technical Specifications.
+        50. MDA - So are we adding to Core GeoNetwork?
+        51. JT - Yes, cache, Data Management, etc.
+        52. MDA - v5 start from scratch, but with Core GeoNetwork for metadata?
+        53. JT - But ultimately the metadata won't look like it does now, ISO etc. But we do need to support operations for the next 5 years and we don't know yet how we will make the change.
+        54. NM - We won't need Core GeoNetwork, we'll have our own harvesting etc.
+        55. MDA - have you looked at the cost?
+        56. NM - No.
+        57. MDA - That is key.
+        58. SO - There isn't a simple way forward, so we may need to proceed carefully. There will be such a paradigm shift that we need to consider training etc. We want it to be successful and demonstrate how you move from this environment to that environment.
+        59. JT - Ok, to summarise...
+        60. JT - The question is: how do we transition from v4 and existing Technical Specifications to, in at least 4 years time, WIS 2.0 with new Technical Specifications?
+        61. JT - The proposal from the TC is to make significant architecture improvements to support the anticipated WIS 2.0 Technical Specifications.
+        62. JT - The challenge is to determine how to make the transition.
+        63. JT - Yesterday, we agreed to start a new project to develop our ideas on WIS 2.0.
+        64. JT - Constraints:
+            1. WIS 2.0 Technical Specifications will not be approved until 2020.
+            2. So we need to support the WIS 1.0 Technical Specifications for 4 years.
+        65. JT - WQ, your aspiration was for an OpenWISv4 MVP, followed as soon as possible by a move to the new architecture, while still meeting current Technical Specifications.
+        66. WQ - Yes.
+        67. JT - And as new Technical Specifications evolve we would add them into the system, which would be highly componentised.
+        68. NM - That would be much easier in the v5 architecture than in the v4.
+        69. WQ - Yes and it would also save some effort overall.
+        70. JT - I want to ask each of the delegates what their position is... do we all understand the proposal from WQ?
+        71. NM - Do we need to define the MVP for v4? How much work would it be?
+        72. WQ - The TC discussed having a v4 release by calendar Q1 2018. The most important things are on the Kanban and issues tracker. We would get them fixed; no more new stuff.
+        73. JT - So we're continuing with Core GeoNetwork, looking at priority issues, about a dozen?
+        74. PR - If you define the MVP as the list of issues we labelled as MUST in the workshop: [MUST](https://github.com/OpenWIS/openwis4/issues?q=is%3Aissue+is%3Aopen+label%3AMUST), there are currently 13. But that won't be all we have to do. We have to adapt to using some of the new Core GeoNetworkv3 features, we said we will do compliance testing and anyway, general testing will throw up new issues.
+        75. DW - And there are some missing features that need to be put on top, stuff AKKA put into GeoNetworkv2. We don't know what all of these are, but things like Data Access Policies.
+        76. JT - So we need further analysis to identify all that other work.
+            - SO - [Action-SC-2017-21 Feature comparison for v3 vs v4](https://github.com/OpenWIS/openwis-documentation/issues/192)
+        77. JT - So let me play that back. The MVP is defined as:
+            1. Core GeoNetworkv3
+            2. Fixes for the priority issues (MUST)
+            3. Fixes for any non-compliance
+            4. Anything else v3 has that we need to put back into v4.
+        78. JT - The roadmap aims for calendar Q1 2018 to deliver that.
+        79. WQ - Yes.
+        80. JT - Does anybody feel we shouldn't do at least that?
+        81. DW - The less complicated security services is a benefit; so are the new features of Core GeoNetworkv3 that we want. But there aren't that many, so it's not that much different from v3. So why not just improve v3?
+        82. BS - Because we are waiting for the better metadata discovery features in Core GeoNetworkv3.
+        83. DW - Ok. There is still work to be done there; I like the new tree feature too, but it's not sufficient.
+        84. JT - So this is part of the gap. So, BS, for you the new interface is important.
+        85. MDA - Sorry, which version?
+        86. JT - The new Core GeoNetwork is version 3, which we will use as part of OpenWIS version 4, to support Technical Specifications version 1.0.
+        87. SO - Let's frame the question: are we talking about how much to include in OpenWIS v4.2?
+        88. JT - Yes, so spend 1 year on an OpenWISv4 MVP; is this the minimum we should do?
+        89. SO - Most of the top issues were well aligned from the four workshop teams, so yes, that's the bare minimum.
+        90. DW - There are other things missing that will need to be fixed. Features that were in Core GeoNetworkv2 but are not in Core GeoNetworkv3: stop-gap metadata, synchronisation, reporting. Do we need these? So we might go backwards in some areas, but ok, it depends how important they are. We have the MF excel2wis metadata tool, so maybe we use that. Do we need the Alerts Page? We do need a way of alerting the System Admin.
+        91. SO - A couple of things come into play here:
+            1. Even though we are event driven, we are fixing the release date.
+            2. We are aligning to squads and features. A new approach with some unknowns, but possibly quicker results. I am hoping the developer pool will be larger.
+        92. PR - We'll see where we are when we've delivered the training.
+        93. JT - Because we're agile, we have scheduled delivery, so we'll release in September and January, if we're willing to spend one year to get to MVP.
+        94. MDA - So we'll have a version 4 which is considered better, but it may not have all the features of version 3?
+        95. RGr - MVP equals comply with Technical Specifications 1.0.
+        96. JT - Yes.
+        97. DW - Some compliance will be added.
+        98. RGr - No, we have been audited and we are compliant.
+        99. RGr - So, what is the cost?
+        100. MDA - I don't know where we are with OpenWISv4; near the end or near the beginning?
+        101. PR - There is not much more to do that is entirely new. We developed much of the functionality we need to add to Core-GeoNetwork with GeoCat. It's just that we didn't like the way they did it, so we developed the Overlay approach to give us more independence from the GeoNetwork code and community.
+        102. NM - The overlay approach allows independence from Core-GeoNetwork, but it adds some complexity, so if we throw it away in one year, it's not worth it.
+        103. MDA - We're not throwing it away in one year. I don't understand what is missing and what is the cost.
+        104. JT - I don't believe the TC has estimates for the tasks in the MVP.
+        105. NM - If we want to develop v5 then we will throw away v4.
+        106. MDA - We may consider v5 if you prove that v5 is a lot cheaper than v4 and that we can have it in less time.
+        107. JT - Continuing with v4 is one of our options. We need a cost estimate for that.
+                - SO - [Action-SC-2017-22 v4 MVP cost estimate](https://github.com/OpenWIS/openwis-documentation/issues/193)
+        108. JT - If we continue with v4 then we start the new architecture later.
+        109. WQ - The current v3 is still our operational system.
+        110. JT - So v3 is still our flagship.
+        111. WQ - Yes.
+        112. JT - So, there may be some v3 maintenance. Can we afford v3 maintenance, v4 development and investigating the new architecture all at the same time?
+        113. WQ - So after calendar Q1 next year, v4 is operational and maintenance mode; so that is when we start investigating the new architecture.
+        114. JT - So if we choose to develop v4, we have to postpone new architecture work for a year.
+        115. MDA - What about the option to forget v4?
+        116. JT - Could we get an MVP based on the new architecture in one year?
+        117. RGr - No. We have been working on v4 for two years, so v5 in a year is a dream.
+        118. MDA - So can we develop v3 further?
+        119. WQ - It doesn't look good if, as an open source project, we don't have a new version.
+        120. WQ - Regarding whether we can have v5 in a year, I don't know, but we can't compare it with the OpenWIS we have now, that took 10 years. Now, using micro-services, it is much quicker to develop due to technology advances. We probably can, but can't guarantee.
+        121. MDA - But how long would it take to define, 1 year, 2 years?
+        122. WQ - We already have a definition, based on the current system. We could make a v5 that does just what the v3 system does now.
+        123. MDA - So in 12 months we could have a new system?
+        124. WQ - Yes and it could be better.
+        125. DW - It would help if we all saw NM presentation.
+        126. MDA - Yes.
+        127. JT - We said we would have finished v4 by now, 2 years ago, but, we only finished v3.14 six months ago, so we've spent most of our time and effort on that.
+        128. JT - So let's summarise the options:
+                - Option 1:
+                    - continue developing v3
+                    - stop working on v4
+                    - develop WIS 2.0 pilots in new architecture and evolve pilots to meet WIS 2.0 Technical Specifications circa 2020.
+                - Option 2:
+                    - put v3 into maintenance mode
+                    - develop v4 on Core GeoNetworkv3
+                    - develop new architecture for the WIS 2.0 Technical Specifications
+                - Option 3:
+                    - put v3 into maintenance mode
+                    - work on v4 MVP for 1 year
+                    - then develop new architecture for WIS 1.0 Technical Specifications
+                    - then evolve that to support WIS 2.0 Technical Specifications
+                - Option 4:
+                    - put v3 into maintenance mode
+                    - stop working on v4- develop MVP on new architecture in 1 year and release
+                    - evolve that to meet WIS 2.0 Technical Specifications
+                    - wouldn't need to be MVP, just functional release in 12 months
+        129. MP - When will the WIS 2.0 Tech Specifications be ready?
+        130. JT - 2020-2022; having WIS 2.0 as the Technical Specifications for exchange.
+        131. RGr - The WIS 1.0 software will survive until at least 2025.
+        132. MDA - I am expecting to have a software starting to be used by 2020.
+        133. JT - The Implementation Team, that I am running, are trying for an incremental implementation plan.
+        134. RGr - So, there is going to be a transition or migration over some years.
+        135. PR - So we will have software that can support both WIS 1.0 and 2.0 and is upgraded as things change.
+        136. JT - I think Option 3 is too many architectural changes in 2 years.
+        137. {Everyone agreed - Option 3 is removed}
+        138. JT - Option 1 doesn't deliver new user features for 4 years.
+        139. JT - Option 4 has more risk associated with it because of the new architecture. However, WQ and ourselves both said we're already working on these architectures elsewhere, so that's ok.
+        140. KS - How compatible is Option 4 with the squad system?
+        141. PR - It's compatible.
+        142. MDA - Squads?
+        143. PR - An improvement to the development process we discussed at the TC. It helps to focus on delivering finished features by assigning each feature to a sub-team.
+        144. MDA - What is the benefit of having a v4?
+        145. WQ - Are Options 1 and 4 almost the same?
+        146. DW - In Option 1 we continue v3 development, but in Option 4 we develop v5.
+        147. RGr - The main difference is that you consider v5 is not compliant with WIS 1.0 in Option 1, but in Option 4 it is also compliant with both. We don't know how much of the current Technical Specifications we are going to keep.
+        148. WQ - I don't think that is true. We will do things that will work with both and we do know what some of the ideas are; it will not be totally different.
+        149. DW - v5 with WIS 1.0 requirements, new architecture, with indication of new 2.0 Technical Specifications. v4 will all be thrown away, so with v5 we throw less away.
+        150. JT - In Option 4 we may use vanilla Core-GeoNetwork as a stand alone editor, but it is integrated with the new architecture. So, some design work to get the MVP on the new architecture.
+        151. RGb - So, we have started on Option 2 and the development of OpenWIS4, with the goal of being independent of Core-GeoNetwork?
+        152. JT - No, the Overlay approach allows us to just plug-in our code to Core-GeoNetwork.
+        153. RGb - Are we sure that this Overlay approach will still work in 2018?
+        154. DW - We need to figure out what the AKKA glue was and replace it in OpenWISv4.
+        155. RGr - But we don't know what the cost of the options are. So, at the end of the day:
+                - Option 1 might cost €
+                - Option 2 might cost €€€
+                - Option 4 might cost €€ or €€€
+                - can we afford them?
+        156. SO - Option 4 is riskier but may be a better path. The alternative is Option 2.
+        157. DW - Another issue is where each organisation is moving, for example WQ/BoM is going for this new architecture anyway. So are UKMO and NWS. Eventually, v3 will have support issues, whereas v5 looks to the future, so Option 4 is strategically aligned.
+        158. BR - You can reuse Harnesses, as micro-services, so don't need to port everything. You can have an adapter for your SOAP services.
+        159. NM re-presented [OpenWIS5]({{ site.baseurl | prepend: site.url }}/assets/TC201703-OpenWIS5v2.pdf)
+        160. MDA - Have you considered having separate customer interfaces?
+        161. NM - Yes, but it introduces a lot of security complexity.
+        162. PR - Simpler to have multiple instances, each dedicated to a specific role.
+        163. MDA - Which components serve Technical Specifications 1.0?
+        164. NM - This architecture would work for any Technical Specifications.
+        165. JT - So we're assembling components, not building from scratch.
+        166. DW - Which is useful for building a virtual GISC.
+        167. BS - We already have Docker components for v3.14, without so much effort.
+        168. MDA - I'm still not convinced that Option 4 is cheaper than Options 1 or 2; we need a better cost estimate.
+        169. RGb - Not sure I understand the benefit of the private cloud.
+        170. DW - So they are a DCPC or NC.
+        171. RGb - So this is not a new feature, we can do this in v3.
+        172. BR - So are we 1% or 90% through v4?
+        173. JT - There's an action on the TC to do that estimate.
+        174. DW - I'd say about 15 to 20%.
+        175. WQ - We uplifted the middleware. The only new thing was to plug in Core-GeoNetwork.
+        176. BR - So that broke a lot of features?
+        177. WQ - Well, some features are gone. If we abandon v4 now we are not losing much.
+        178. MDA - So, UKMO, you invested a lot of effort.
+        179. JT - We spent about £30k with GeoCat. We're not looking to recover that from the Association. We're not emotionally attached to v4. Two years ago we didn't know that WIS 2.0 was coming; our target has changed.
+        180. MDA - So Option 1 or Option 4?
+        181. JT - With Option 2, if we decide we want to use Core-GeoNetwork for 4 years, that's ok, but we would be waiting longer for the new architecture and evolution to WIS 2.0.
+        182. MDA - If you don't have WIS 2.0, which option?
+        183. JT - We can still use Core-GeoNetwork standalone to do metadata management, but my gut feeling is Option 4 is my preference.
+        184. WQ - I agree, rather not integrate Core-GeoNetworkv3 and the new architecture now.
+        185. MDA - I like that; Core-GeoNetworkv3 would not be the core of the system.
+        186. JT - So if we still need to edit ISO19115 metadata, then let's use Core-GeoNetworkv3; but that decision is up to the TC.
+        187. WQ - So if Option 4, we have to agree the design and one option is to use Core-GeoNetworkv3 as the metadata editor.
+        188. JT - So MF has a preference for Option 4.
+        189. MDA - Option 1 could be cheaper, no?
+        190. WQ - Not necessarily; if you delay development of WIS 2.0 then you just delay the cost, not save it.
+        191. JT - Option 4 is the preferred option, pending cost analysis, with Option 1 as a fall-back. With Option 1 we're in investigative mode for longer.
+        192. WQ - So with Option 1 we don't go operational for 3 to 4 years; why?
+        193. JT - To inform the development of the WIS 2.0 Technical Specifications.
+        194. DW - Option 1 might become Option 4 at some point.
+        195. MDA - I'm not convinced. Not sure 'evolve v5' is cheaper than starting from scratch.
+        196. JT - Because we're using a micro-services approach, we'd be plugging in different services, but still have the old metadata etc.
+        197. WQ - So WIS 1.0 still valid; presentation is different.
+        198. RGr - It is difficult to answer because we know what is not going to be in WIS 2.0, so:
+                - no exchange between 15 sites,
+                - no global cache sync,
+                - unlikely to be ISO19115 metadata.
+        199. RGr - Costs are around those 3 elements, so cost to redevelop those would be high for something we are going to throw away.
+        200. RGr - We could work on improving v3 instead, making it easier to deploy etc.
+        201. RGr - Considering how WIS 2.0 is going to be different, we spend a lot of time and money on something we bin.
+        202. RGr - So perhaps an interface between v3 and v5 and we evolve v3.
+        203. JT - We have already tasked the TC on how they would develop v4 by calendar Q1 next year [Action-SC-2017-21](https://github.com/OpenWIS/openwis-documentation/issues/192) and what costs are involved [Action-SC-2017-22](https://github.com/OpenWIS/openwis-documentation/issues/193).
+        204. JT - So Option 2 is moribund.
+        205. JT - Option 1 includes v3 with Dockerisation, a valid option, but we need more information on costs and risks.
+        206. DW - So v4 is not having more work done on it?
+        207. JT - OK, so here's the proposal:
+                - Ask the TC for a cost estimate for Option 4; report back in 3 months (June 2017).
+        208. WQ - And also a comparable cost estimate for Option 1, with pros and cons of each option.
+        209. JT - Ok, let's vote on that:
+                1. RES-OWIS-SC-2017-05:Resolution: Task TC with:[Action-SC-2017-23 Future development options report](https://github.com/OpenWIS/openwis-documentation/issues/193); vote: 7-0 in favour. OWIS-RES
+        210. JT - So approval of the strategic programme and work plan is deferred, pending the action above by the TC.
+    4. **Identification of investment required from OpenWIS Association required to deliver the work plan**
+        1. JT - Can we summarise the key budget recommendations so far?
+            1. JT - MF servers = 1700 Euros per year.
+            2. JT - Do we need to renew the domain name?
+            3. LLG - Yes, we do every year and we did it 3 months ago.
+            4. JT - Domain name = 150 Euros per year.
+            5. JT - AWS = 2000 USD per year.
+            6. JT - Discourse hosting = ? To be confirmed.
+            7. JT - Are there any others?
+            8. SO - No.
+            9. JT - Last year we said we would hire a Technical Author, but we didn't so we paid nothing for that.
+            10. SO - I don't think we need that at this time.
+            11. JT - So that's all the costs to run the Association?
+            12. SO - Yep.
+    5. **Review of Lead Developer role**
+        1. JT - With LM becoming TC Vice-chair, do we continue with the Lead Developer role?
+        2. PR - I don't think we need that now, we will have a lead developer for each squad.
+        3. RGr - Could have as PMC chair, so that LM as project leader chairs the PMC.
+        4. PR - Won't the TC still be the PMC for OpenWIS-Core for the foreseeable future? We can work out what we want as we begin to use squads.
+        5. JT - I propose that we decommission the Lead Developer role.
+            1. RES-OWIS-SC-2017-06:Resolution: Decommission Lead Developer role:[Action-SC-2017-12 Decommission the Lead Developer role](https://github.com/OpenWIS/openwis-documentation/issues/183); vote: 7-0 in favour. OWIS-RES
 11. **Risk review and development of mitigation plans**
     1. JT - The 3 items in the earlier action on PR ([Action-SC-2016-14 Add new risks to Risk Register](https://github.com/OpenWIS/openwis-documentation/issues/170)), require us to create and maintain a Risk Register.
     2. JT - We should all consider what risks there are to the Association and how we mitigate them. Here are some I have noted recently:
@@ -678,7 +683,7 @@ title: OpenWIS Steering Committee 2017 March
             1. JT - There's no explicit rule, you just leave.
             2. LLG - But, perhaps that can be a problem, maybe cause a delay for the project.
             3. MDA - So the project will no-longer be able to meet deadlines. Should that be a constraint?
-            4. JT - So, just looking at the paragraph: Amendments to existing projects, which mentions, regarding the assessment of level of contributions, previous contributions. If you lose reputation, you won't get accepted onto projects in future.
+            4. JT - So, just looking at the paragraph: _Amendments to existing projects_, which mentions, regarding the assessment of level of contributions, previous contributions. If you lose reputation, you won't get accepted onto projects in future.
             5. JT - Maybe we use the phrase _reasonable endeavours_ to describe the level of commitment expected?
             6. WQ - Yes, _reasonable endeavours_ is ok.
             7. JT - I would suggest it is part of _project delivery_.
@@ -775,10 +780,10 @@ title: OpenWIS Steering Committee 2017 March
             4. ALL - Yes.
             5. RES-OWIS-SC-2017-08:Resolution: vote: 7-0 - in favour - Recommended to Board - Update Rule 6.3 [after table]: An Associate Partner may, by mutual consent with the Association, substitute an agreed in-kind contribution for the Annual Contribution fee of €10,000. OWIS-RES
 13. **New opportunities for collaboration**
-	  1. **Review proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
+    1. **Review proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
         1. JT - I will just bring the section _Initiation of new projects_ up on the screen, to remind us of the process.
 		    2. JT - So, for each potential new project, we are asking:
-            1. Does it match the purpose of OpenWIS Association? [1](http://openwis.github.io/openwis-documentation/articles/2-purpose.html#article-2.1)
+            1. Does it match the [purpose of OpenWIS Association](http://openwis.github.io/openwis-documentation/articles/2-purpose.html#article-2.1)?
             2. How / if the project governance could / should be integrated into OpenWIS?
             3. Whether any other Members or Partners want to contribute resources to the project?
         3. JT - So let's just list the projects we have for consideration today:
@@ -836,7 +841,7 @@ title: OpenWIS Steering Committee 2017 March
             34. JT - If you want to bring it into the OpenWIS Association to develop the future of the project, then the governance happens under OpenWIS Association, until you split. Is the Director of FMI happy that the OpenWIS Association SC steers the development of SmartMet Server?
             35. RGr - So clarify the concept of 'owner'.
             36. JT - The PMC is responsible for making a plan, but SC approve it. PMCs figure out their own resources. The PMC lead would be on the TC. But, does the SC need to approve work plans for projects? Can you imagine having a conversation like the one about WIS 2.0?
-            37. MDA - It cannot be like that, becuase not all SC members will take part in the project, so the SC cannot drive the project.
+            37. MDA - It cannot be like that, because not all SC members will take part in the project, so the SC cannot drive the project.
             38. JT - The SC is for the Association.
             39. MDA - So SC decisions are global to all the projects. So the SC should not be steering the OpenWIS-Core project.
             40. JT - SC might be making decisions about suitability; the PMC should be driving the project.
@@ -935,10 +940,10 @@ title: OpenWIS Steering Committee 2017 March
     3. **Recommendation to the Board regarding new projects to establish**
         1. JT - There are no recommendations for new projects, until project charters are ready.
 14. **Outreach, communications and community**
-	  1. **Recommendations to the Board regarding admission of new Partners**
-		    1. JT - There are currently no recommendations regarding the admission of new partners.
-	  2. **Recommendations to the Board regarding engagement with third-parties to participate in consortia responding to calls for proposals in respect of externally funded projects**
-		    1. JT - Yesterday, we asked BR to check for any Horizon 2020 (EU) funding calls to support evolution of WIS 2.0. So, KS, SD, WQ, are there any funding calls in your regions?
+    1. **Recommendations to the Board regarding admission of new Partners**
+        1. JT - There are currently no recommendations regarding the admission of new partners.
+    2. **Recommendations to the Board regarding engagement with third-parties to participate in consortia responding to calls for proposals in respect of externally funded projects**
+        1. JT - Yesterday, we asked BR to check for any Horizon 2020 (EU) funding calls to support evolution of WIS 2.0. So, KS, SD, WQ, are there any funding calls in your regions?
         2. KS - I could look into it.
             - KS - [Action-SC-2017-26 US funding calls](https://github.com/OpenWIS/openwis-documentation/issues/197)
         3. WQ - I doubt there are any in Australia, but I can check. How much are we asking for?
@@ -952,39 +957,39 @@ title: OpenWIS Steering Committee 2017 March
             1. SD - I don't think so.
         5. JT - We said we wouldn't ask WMO because of the delay. But for next year's SC we could put that on the agenda; how we engage with WMO.
             - PR - [Action-SC-2017-28 Add funding calls to SC 2018 agenda](https://github.com/OpenWIS/openwis-documentation/issues/199)
-	  3. **Management of Contributor License Agreements (CLA)**
-            1. JT - The CLA has been published on the website for a while now, see: (http://openwis.github.io/openwis-documentation/rules/A-contributor-license-agreement.html)
-            2. JT - We are using a manual process rather than a click-thru, at this stage.
-            3. JT - So the CLA needs to be agreed by each of our Legal departments.
-            4. JT - Article 9.7 says that: All member and partner contributors (staff and contractors) must sign the CLA.
-            5. JT - So, all delegates must get the signatures of all contributors:
-                - KS/SD/MV/WQ/LLG/RGr/JT - [Action-SC-2017-19 Submit completed CLA forms](https://github.com/OpenWIS/openwis-documentation/issues/190)
-            6. WQ - The lawyers at BoM made some comments.
-                1. PR - Yes they did; they are with Michael Robbins for review. We are still waiting for responses from everyone else. We will need something from you all, even if it is 'no-comment', which will be taken as acceptance. Would it be helpful if I sent a reminder?
-                2. ALL - Yes.
-                3. ok, will do:
-                    - PR - [Action-SC-2017-29 CLA legal reviews](https://github.com/OpenWIS/openwis-documentation/issues/200)
-            7. PR - The CLA is an Annex to the Internal Rules, so you will find the link at the foot of the contents page for the Internal Rules:
-                -  [CLA](http://openwis.github.io/openwis-documentation/rules/A-contributor-license-agreement.html)
-            8. PR - Within the agreement text is the obvious link to the form itself (Sign me up!):
-                - [CLA Form](http://openwis.github.io/openwis-documentation/static/CLA/CLAform.html)
-            9. PR - You will also find a link to the page that describes how contributors should be dealt with and how the CLA forms are managed:
-                - [CLA process](http://openwis.github.io/openwis-documentation/static/CLA/CLAprocess.html)
-            10. MDA - So, why do we need these?
-                1. JT - To protect contributors and the Association from any rights issues; to avoid the SCO-Unix problem.
-                2. MDA - Where are we keeping them? Do we have a paper copy? A backup?
-                3. PR - They are kept in the GitHub repository, so it is backed up as part of the GitHub infrastructure. Also, because the repository is distributed, everyone who has forked it has copies.
-                4. JT - Perhaps MF can take a printed copy and put it in a safe? Check with MF legal whether a hardcopy of each signed CLA Form is required:
-                    - RGr - [Action-SC-2017-30 Hardcopy CLA forms](https://github.com/OpenWIS/openwis-documentation/issues/201)
-            11. WQ - I thought it was only external contributors who needed to sign these; does this apply to members and associate partners too?
-                1. JT - The relevant article says that all members and partners and contributors must sign the CLA.
-                2. WQ - Ok. Am I signing for myself or for BoM?
-                3. JT - ACTION-SC-2016-20 from last year was on me to discuss jurisdiction of an umbrella agreement. So, in section 1.Definitions, of the [CLA](http://openwis.github.io/openwis-documentation/rules/A-contributor-license-agreement.html) I have provided a clause that allows a contributor to be an individual or an organisation.
-                4. WQ - Do we see any difference legally, between BoM signing and WQ signing as an individual?
-                5. PR - We still need the GitHub-IDs of each individual contributor and their names.
-                6. WQ - This paragraph is trying to make the life of the contributors easier, so, Ok.
-            12. PR - So, shall we say the SC in June will review the final comments on the CLA?:
-                - PR - [Action-SC-2017-31 Add CLA review to June SC agenda](https://github.com/OpenWIS/openwis-documentation/issues/202)
+    3. **Management of Contributor License Agreements (CLA)**
+        1. JT - The [CLA](http://openwis.github.io/openwis-documentation/rules/A-contributor-license-agreement.html) has been published on the website for a while now.
+        2. JT - We are using a manual process rather than a click-thru, at this stage.
+        3. JT - So the CLA needs to be agreed by each of our Legal departments.
+        4. JT - Article 9.7 says that: All member and partner contributors (staff and contractors) must sign the CLA.
+        5. JT - So, all delegates must get the signatures of all contributors:
+            - KS/SD/MV/WQ/LLG/RGr/JT - [Action-SC-2017-19 Submit completed CLA forms](https://github.com/OpenWIS/openwis-documentation/issues/190)
+        6. WQ - The lawyers at BoM made some comments.
+            1. PR - Yes they did; they are with Michael Robbins for review. We are still waiting for responses from everyone else. We will need something from you all, even if it is 'no-comment', which will be taken as acceptance. Would it be helpful if I sent a reminder?
+            2. ALL - Yes.
+            3. ok, will do:
+                - PR - [Action-SC-2017-29 CLA legal reviews](https://github.com/OpenWIS/openwis-documentation/issues/200)
+        7. PR - The CLA is an Annex to the Internal Rules, so you will find the link at the foot of the contents page for the Internal Rules:
+            -  [CLA](http://openwis.github.io/openwis-documentation/rules/A-contributor-license-agreement.html)
+        8. PR - Within the agreement text is the obvious link to the form itself (Sign me up!):
+            - [CLA Form](http://openwis.github.io/openwis-documentation/static/CLA/CLAform.html)
+        9. PR - You will also find a link to the page that describes how contributors should be dealt with and how the CLA forms are managed:
+            - [CLA process](http://openwis.github.io/openwis-documentation/static/CLA/CLAprocess.html)
+        10. MDA - So, why do we need these?
+            1. JT - To protect contributors and the Association from any rights issues; to avoid the SCO-Unix problem.
+            2. MDA - Where are we keeping them? Do we have a paper copy? A backup?
+            3. PR - They are kept in the GitHub repository, so it is backed up as part of the GitHub infrastructure. Also, because the repository is distributed, everyone who has forked it has copies.
+            4. JT - Perhaps MF can take a printed copy and put it in a safe? Check with MF legal whether a hardcopy of each signed CLA Form is required:
+                - RGr - [Action-SC-2017-30 Hardcopy CLA forms](https://github.com/OpenWIS/openwis-documentation/issues/201)
+        11. WQ - I thought it was only external contributors who needed to sign these; does this apply to members and associate partners too?
+            1. JT - The relevant article says that all members and partners and contributors must sign the CLA.
+            2. WQ - Ok. Am I signing for myself or for BoM?
+            3. JT - ACTION-SC-2016-20 from last year was on me to discuss jurisdiction of an umbrella agreement. So, in section 1.Definitions, of the [CLA](http://openwis.github.io/openwis-documentation/rules/A-contributor-license-agreement.html), I have provided a clause that allows a contributor to be an individual or an organisation.
+            4. WQ - Do we see any difference legally, between BoM signing and WQ signing as an individual?
+            5. PR - We still need the GitHub-IDs of each individual contributor and their names.
+            6. WQ - This paragraph is trying to make the life of the contributors easier, so, Ok.
+        12. PR - So, shall we say the SC in June will review the final comments on the CLA?:
+            - PR - [Action-SC-2017-31 Add CLA review to June SC agenda](https://github.com/OpenWIS/openwis-documentation/issues/202)
     4. **Community growth strategy**
         1. JT - In general, we're content to grow what we're doing by building better software and experience and expertise, as we do that. We have some other organisations interested in joining. We're not in a rush to get lots of external contributors. If we get some, then ok, but we're not actively seeking any. Does that sound right?
         2. RES-OWIS-SC-2017-10:Resolution: vote: 7-0 - in favour - We will not actively seek external contributions for the next year. OWIS-RES
@@ -998,7 +1003,7 @@ title: OpenWIS Steering Committee 2017 March
         7. JT - A few years ago, UKMO sponsored a hackathon at FOSS4G, for £25,000. As well as running the hackathon, we put posters up, did presentations etc. We might want to do that next year, it's too late for this year's event.
         8. KS - FOSS4G this year is in Boston. By engaging with FOSS4G, we might network with GeoNetwork, show them what we're doing and maybe attract them to what we're doing.
         9. JT - So for next year we would need to think about it this year. Should we investigate, make a proposal?
-        10. JT - What happened after the FOSS4G we sponsored was we got our tools put on the OSGEO DVD and increased the number of users.
+        10. JT - What happened after the FOSS4G we sponsored was we got our tools put on the OSGeo DVD and increased the number of users.
         11. MDA - We need to understand the benefits.
         12. KS - We should at least go to give presentations, to raise awareness.
         13. JT - So, let's ask ourselves what the benefits might be:
@@ -1052,12 +1057,12 @@ title: OpenWIS Steering Committee 2017 March
 15. **Recommendations to the Board regarding the creation of ad-hoc committees or subsidiary bodies**
 	  1. JT - We are not recommending the creation of any subsidiary bodies at this time.
 16. **Finances of the OpenWIS Association**
-	  1. **Challenges arising from existing funding mechanisms**
-		    1. MDA - We have an issue that relates to in-kind contributions to the Association. A lot of new members would prefer in-kind manpower contributions rather than money. We don't define the equivalent of 10,00 Euros contribution as an in-kind contribution.
+    1. **Challenges arising from existing funding mechanisms**
+        1. MDA - We have an issue that relates to in-kind contributions to the Association. A lot of new members would prefer in-kind manpower contributions rather than money. We don't define the equivalent of €10,000 contribution as an in-kind contribution.
         2. JT - When the fees are spent, they are spent to help the Association, not to help a project. So, in-kind cannot be just to a project; it has to be for the Association facilities or other help to the Association as a whole.
         3. RGb - If you want to improve some software by manpower then is that a problem?
         4. JT - You can affiliate with any project, there is no need for equal contributions.
-        5. So, you are contributing to the running of the Association; what is the equivalent of 10,000 Euros?
+        5. MDA - So, you are contributing to the running of the Association; what is the equivalent of €10,000?
         6. JT - 20 days.
         7. MDA - Ok, so long as it is stated somewhere.
         8. RGb - How do you control that?
@@ -1088,12 +1093,12 @@ title: OpenWIS Steering Committee 2017 March
         33. MDA - But people look on the website and it is not mentioned.
         34. JT - So we direct them to Internal Rule 6, where they see the fees; it doesn't mention in-kind. Then as the president, if an organisation comes along and says: _I don't want to pay 10,000 Euros, but I'll put some effort in_, we'll play it by ear. And I could amend Internal Rule 6.3 to say that Associate Partners may make an in-kind contribution, to be mutually agreed within year; only for annual contributions, between the Associate and the Association, in place of a financial contribution.
         35. MDA - Ok.
-	  2. **Review of need for additional finance**
+    2. **Review of need for additional finance**
 		    1. JT - We have over 395,000 Euros in the account.
         2. JT - I propose that we need no additional funding this year. Vote?
         3. RES-OWIS-SC-2017-11:Resolution: vote: 7-0 - in favour - Recommended to Board - No additional funding required this year. OWIS-RES
-	  3. **Preparation of budget for 2017/18**
-		    1. JT - So we'll through the budget and list the items.
+    3. **Preparation of budget for 2017/18**
+        1. JT - So we'll through the budget and list the items.
         2. EE - Last year, we put 1000 Euros in for Trademark transfers.
         3. JT - So the items we have so far (Euros):
             1. MF servers = 1700 per year
@@ -1114,11 +1119,11 @@ title: OpenWIS Steering Committee 2017 March
         11. MDA - So add provision for that help.
         12. JT - Ok, how about a 2000 Euro contingency?
         13. MDA - Ok.
-        14. RGr - Second, when we move the 390,000 Euros to Belgium, we need to check any tax aspect. In theory, the contributions come from memebers to the Association, so the Belgian tax system may take, say, 10%.
-        15. JT - It that happens then we'll hold an emergency Board meeting and amend the budget.
+        14. RGr - Second, when we move the 390,000 Euros to Belgium, we need to check any tax aspect. In theory, the contributions come from members to the Association, so the Belgian tax system may take, say, 10%.
+        15. JT - If that happens then we'll hold an emergency Board meeting and amend the budget.
         16. RGr - So, I'll check with the tax expert.
         17. RGr - [Action-SC-2017-51 Money transfer tax](https://github.com/OpenWIS/openwis-documentation/issues/222)
-	  4. **Budget Recommendations to the Board**
+    4. **Budget Recommendations to the Board**
         1. JT - We expect about 8,000 Euros expenditure and about 2,000 Euros contingency, so a budget of 10,000 Euros.
         2. JT - So, recommend to the Board?
 		    3. RES-OWIS-SC-2017-12:Resolution: vote: 7-0 - in favour - Recommended to Board - an annual budget provision of EUR 10,000. OWIS-RES
@@ -1138,13 +1143,13 @@ title: OpenWIS Steering Committee 2017 March
         5. MDA - Ok, yes, it's a good idea.
             - PR/DW/BS/NM - [Action-SC-2017-38 Revise SoR](https://github.com/OpenWIS/openwis-documentation/issues/209)
 18. **Summary of recommendations to the Board**
-	  1. PR - recommendations:
+    1. PR - recommendations:
         1. Add a partner contract termination clause, Rule 5.13 - pull request #146: [amendment to TITLE 5 adding partner contract termination clause](https://github.com/OpenWIS/openwis-documentation/pull/146)
         2. Update Rule 6.3 [after table]: An Associate Partner may, by mutual consent with the Association, substitute an agreed in-kind contribution for the Annual Contribution fee of €10,000 - pull request #147: [updated rule 6.3 to allow in-kind contributions by associate partners](https://github.com/OpenWIS/openwis-documentation/pull/147)
         3. No additional funding required this year.
         4. An annual budget provision of €10,000.
 19. **Closure of the meeting**
-	  1. JT - So, we've agreed an ad-hoc SC meeting on 8th June 2017. Draft agenda:
+    1. JT - So, we've agreed an ad-hoc SC meeting on 8th June 2017. Draft agenda:
         1. Review the costed proposals from the TC on the work plan.
         2. Assess the goals for the Association.
         3. Review the project charters from KS and JT.
@@ -1161,9 +1166,9 @@ title: OpenWIS Steering Committee 2017 March
 
 #### Participants
 - JT - Jeremy Tandy, Met Office, UK [UKMO], [delegate], Chair
-- MDA - Matteo Dell'Aqua, Meteo-France, France [MF], [delegate]
+- MDA - Matteo Dell'Aqua, Meteo-France, France [MF], [delegate] (proxy for WQ for afternoon sessions)
 - WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM], [delegate], (WebEx)
-- SD - Sungsoo Do, Korea Meteorological Administration, Republic of Korea [KMA], [delegate (proxy)]
+- SD - Sungsoo Do, Korea Meteorological Administration, Republic of Korea [KMA], [delegate]
 - KS - Kari Sheets, National Weather Service, United States of America [NWS], [delegate]
 - LLG - Loic Le Gallou, Meteo-France International [MFI], [delegate]
 - MV - Mikko Visa, Finnish Meteorological Institute [FMI], [delegate]
