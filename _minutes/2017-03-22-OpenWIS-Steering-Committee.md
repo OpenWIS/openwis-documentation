@@ -642,15 +642,15 @@ title: OpenWIS Steering Committee 2017 March
         1. JT - Since the Articles do not mention Contributors, they are not covered by the rules. Article 21.2 should mention them, but since changing the Articles is hard, do we just add it to the Risk Register for now?
         2. JT - The ForgeRock repository closure; a risk that needs a mitigation strategy.
         3. JT - The CLAs have not been filled-out; easy to resolve if we all just do that.
-            - JT/SD/RGr/KS/WQ/MV/LLG - [Action-SC-2016-19 Submit completed CLA forms](https://github.com/OpenWIS/openwis-documentation/issues/190)
+            - JT/SD/RGr/KS/WQ/MV/LLG - [Action-SC-2017-19 Submit completed CLA forms](https://github.com/OpenWIS/openwis-documentation/issues/190)
         4. MDA - Do we, the members, also have to sign?
         5. JT - Yes, we all do, that's what it says in the Articles. PR, you will have to update the form for adding a list of contributors.
-            - PR - [Action-SC-2016-18 Update CLA form](https://github.com/OpenWIS/openwis-documentation/issues/189)
+            - PR - [Action-SC-2017-18 Update CLA form](https://github.com/OpenWIS/openwis-documentation/issues/189)
     3. JT - Any other risks?
         1. PR - There is the bank account issue.
         2. JT - Yes, we created a new bank account with ING but they're not talking to us; we'll cover that at the Board meeting.
     4. JT - Ok, I encourage you all to think about risks and let PR know so he can keep a list.
-        - JT/SD/RGr/KS/WQ/MV/LLG - [Action-SC-2016-20 Risks to the Association](https://github.com/OpenWIS/openwis-documentation/issues/191)
+        - JT/SD/RGr/KS/WQ/MV/LLG - [Action-SC-2017-20 Risks to the Association](https://github.com/OpenWIS/openwis-documentation/issues/191)
 12. **Recommendations to the Board to make and adopt, alter, supplement or repeal the Internal Rules**
     1. **Support for multiple concurrent projects within the OpenWIS governance framework**
         1. JT - You may recall that I presented a paper on project governance at the meeting in Seoul, last year: [Support for multiple concurrent projects within the OpenWIS governance framework]({{ site.baseurl | prepend: site.url }}/assets/ATT-OWIS-SC-2016-6-governance_r4.pdf).
@@ -749,7 +749,7 @@ title: OpenWIS Steering Committee 2017 March
             2. ALL - Yes.
         19. JT - So in Rule 2.10, I've added a link to the Rules Supplement:
             1. Rule 2.10: Projects shall be governed according to the procedures defined in the [OpenWIS Project Governance rules supplement](http://openwis.github.io/openwis-documentation/rules2/2016-03-11-OpenWIS-Project-Governance.md).
-        20. JT - So is everyone content that we make all those changes to the website?
+        20. JT - So is everyone content that we make all those changes to the website in accordance with RESOLUTION-AM-2016-09?
             1. ALL - Yes.
             2. JT - Ok, pull-request #145 is merged and closed. Does GitHub regenerate the website straight away?
             3. PR - Yes, it takes a minute or two.
@@ -767,11 +767,13 @@ title: OpenWIS Steering Committee 2017 March
             1. JT - This is pull request #146: [amendment to TITLE 5 adding partner contract termination clause](https://github.com/OpenWIS/openwis-documentation/pull/146)
             2. JT - All Ok?
             3. ALL - Yes.
+            4. RES-OWIS-SC-2017-07:Resolution: vote: 7-0 - in favour - Recommended to Board - Add a partner contract termination clause. OWIS-RES
         2. JT - I have updated Rule 6.3 to reflect our conversations on in-kind contributions:
             1. Rule 6.3 [after table]: An Associate Partner may, by mutual consent with the Association, substitute an agreed in-kind contribution for the Annual Contribution fee of €10,000.
             2. JT - This is pull request #147: [updated rule 6.3 to allow in-kind contributions by associate partners](https://github.com/OpenWIS/openwis-documentation/pull/147)
-            2. JT - All Ok?
-            3. ALL - Yes.
+            3. JT - All Ok?
+            4. ALL - Yes.
+            5. RES-OWIS-SC-2017-08:Resolution: vote: 7-0 - in favour - Recommended to Board - Update Rule 6.3 [after table]: An Associate Partner may, by mutual consent with the Association, substitute an agreed in-kind contribution for the Annual Contribution fee of €10,000. OWIS-RES
 13. **New opportunities for collaboration**
 	  1. **Review proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
         1. JT - I will just bring the section _Initiation of new projects_ up on the screen, to remind us of the process.
@@ -876,7 +878,10 @@ title: OpenWIS Steering Committee 2017 March
             14. JT - What we agreed last year was that the charter covers the scope and duration of the incubation phase.
             15. MDA - What is the process to bring a new member or partner into this project.
             16. JT - You mean CMA? They would have to join the Association to be on the PMC. Or, they could be individual contributors if they didn't want to influence them.
-        6. OpenCDMS
+        6. excel2wis
+            1. JT - So, we accept excel2wis into the existing OpenWIS organisation and put the repository there, rather than set up as a new project?
+            2. ALL - Yes.
+        7. OpenCDMS
             1. JT - Bruce Bannerman forwarded me an email. The main points from that are:
                 - There has been no further substantial development at this stage.
                 - The initial bid for GFCS funding via CSIS appears to have been torpedoed
@@ -899,13 +904,13 @@ title: OpenWIS Steering Committee 2017 March
             6. JT - It's not an OpenWIS meeting.
             7. MDA - Should we attend?
             8. JT - Not as OpenWIS Association.
-        7. Weather API Specifications
+        8. Weather API Specifications
             1. JT - At the UKMO, we are about to redevelop our web APIs, using RESTful web services, for gridded and point data. Over the coming 18 months, about 12 FTE will be working on these new end-points.
             2. JT - Developing the specifications for this API would be a good shared project. The output would be common patterns for weather data access using REST. We discussed this at a previous meeting, but we took no action. If we collectively take action now to develop these patterns, then there is a good chance they will become standardized.
             3. KS - SO is keen.
             4. LLG - WMS, WCS?
             5. JT - Not OGC web services, RESTful web services.
-            6. BR - So, here is a flowchart for a REST API we are working on at ECMWF. It provides for genuinely asynchronous web services.
+            6. BR - So, here is a flowchart for a [REST API we are working on at ECMWF](https://software.ecmwf.int/wiki/pages/viewpage.action?pageId=22907895). It provides for genuinely asynchronous web services.
             7. JT - Discussions about the payloads are also needed.
             8. BR - this is how it works:
                 - If the data is ready
@@ -928,7 +933,7 @@ title: OpenWIS Steering Committee 2017 March
         2. MDA - Individual.
         3. JT - Any others? Hearing none.
     3. **Recommendation to the Board regarding new projects to establish**
-        1. JT - There are no recommendations, until project charters are ready.
+        1. JT - There are no recommendations for new projects, until project charters are ready.
 14. **Outreach, communications and community**
 	  1. **Recommendations to the Board regarding admission of new Partners**
 		    1. JT - There are currently no recommendations regarding the admission of new partners.
@@ -982,7 +987,7 @@ title: OpenWIS Steering Committee 2017 March
                 - PR - [Action-SC-2017-31 Add CLA review to June SC agenda](https://github.com/OpenWIS/openwis-documentation/issues/202)
     4. **Community growth strategy**
         1. JT - In general, we're content to grow what we're doing by building better software and experience and expertise, as we do that. We have some other organisations interested in joining. We're not in a rush to get lots of external contributors. If we get some, then ok, but we're not actively seeking any. Does that sound right?
-        2. RES-OWIS-SC-2017-XX:Resolution: vote: 7-0 - in favour - We will not actively seek external contributions for the next year. OWIS-RES
+        2. RES-OWIS-SC-2017-10:Resolution: vote: 7-0 - in favour - We will not actively seek external contributions for the next year. OWIS-RES
         3. JT - As we look ahead, we want to engage more with the OSS community, so, should we try to engage with some OSS conferences? For example:
             - FOSS4G
             - OSCON
@@ -1086,7 +1091,7 @@ title: OpenWIS Steering Committee 2017 March
 	  2. **Review of need for additional finance**
 		    1. JT - We have over 395,000 Euros in the account.
         2. JT - I propose that we need no additional funding this year. Vote?
-        3. RES-OWIS-SC-2017-07:Resolution: vote: 7-0 - in favour - Recommended to Board - No additional funding required this year. OWIS-RES
+        3. RES-OWIS-SC-2017-11:Resolution: vote: 7-0 - in favour - Recommended to Board - No additional funding required this year. OWIS-RES
 	  3. **Preparation of budget for 2017/18**
 		    1. JT - So we'll through the budget and list the items.
         2. EE - Last year, we put 1000 Euros in for Trademark transfers.
@@ -1114,9 +1119,9 @@ title: OpenWIS Steering Committee 2017 March
         16. RGr - So, I'll check with the tax expert.
         17. RGr - [Action-SC-2017-51 Money transfer tax](https://github.com/OpenWIS/openwis-documentation/issues/222)
 	  4. **Budget Recommendations to the Board**
-        1. JT - We expect about 8000 Euros expenditure and about 2000 Euros contingency, so a budget of 10000 Euros.
+        1. JT - We expect about 8,000 Euros expenditure and about 2,000 Euros contingency, so a budget of 10,000 Euros.
         2. JT - So, recommend to the Board?
-		    3. RES-OWIS-SC-2017-08:Resolution: vote: 7-0 - in favour - Recommended to Board - an annual budget provision of EUR 10,000. OWIS-RES
+		    3. RES-OWIS-SC-2017-12:Resolution: vote: 7-0 - in favour - Recommended to Board - an annual budget provision of EUR 10,000. OWIS-RES
 17. **Any other business**
     1. MV - FMI are happy to host the annual meeting next year, in Finland.
     2. WQ - None.
@@ -1126,14 +1131,18 @@ title: OpenWIS Steering Committee 2017 March
     6. LLG - None.
     7. JT - PR and I were having thoughts about how to gather the requirements for the analysis that we asked the TC to do. We propose to send DW to Athens for a few days to work with European Dynamics. We would like BS to be there as well, to improve the quality of the outcome. We were also wondering if NWS and MFI would want to participate?
         1. WQ - What is this about?
-        2. JT - The cost estimates for building the v5 architecture, based on the Options 1 and 4 we discussed earlier. We're looking for suggestions as to how we can quickly feed the requirements to European Dynamics so they can provide these estimates in time for the June SC.
+        2. JT - The cost estimates for building the v5 architecture, based on the Options 1 and 4 we discussed earlier. We're looking to quickly feed the requirements to European Dynamics so they can provide these estimates in time for the June SC.
         3. WQ - Ok.
         4. MDA - Yes, MF will send BS.
         4. PR - We recognize that the cost of attending in person would be difficult, especially for BoM and KMA, so we're proposing this as a first-cut, which we all review and refine later.
         5. MDA - Ok, yes, it's a good idea.
             - PR/DW/BS/NM - [Action-SC-2017-38 Revise SoR](https://github.com/OpenWIS/openwis-documentation/issues/209)
 18. **Summary of recommendations to the Board**
-	  1. PR
+	  1. PR - recommendations:
+        1. Add a partner contract termination clause, Rule 5.13 - pull request #146: [amendment to TITLE 5 adding partner contract termination clause](https://github.com/OpenWIS/openwis-documentation/pull/146)
+        2. Update Rule 6.3 [after table]: An Associate Partner may, by mutual consent with the Association, substitute an agreed in-kind contribution for the Annual Contribution fee of €10,000 - pull request #147: [updated rule 6.3 to allow in-kind contributions by associate partners](https://github.com/OpenWIS/openwis-documentation/pull/147)
+        3. No additional funding required this year.
+        4. An annual budget provision of €10,000.
 19. **Closure of the meeting**
 	  1. JT - So, we've agreed an ad-hoc SC meeting on 8th June 2017. Draft agenda:
         1. Review the costed proposals from the TC on the work plan.
