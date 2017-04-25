@@ -279,7 +279,7 @@ title: OpenWIS Annual Meeting 2017
             3. JT - So PR will make those changes on the website.
                 - PR - [Action-BM-2017-53 Update Financial Supplement](https://github.com/OpenWIS/openwis-documentation/issues/224)
     2. **Review of amendments recommended by SC (SC Chair)**
-        1. JT - AS the SC we approved a small change that adds a partner contract termination clause, Rule 5.13.
+        1. JT - As the SC we approved a small change that adds a partner contract termination clause, Rule 5.13.
             1. JT - This is pull request #146: [amendment to TITLE 5 adding partner contract termination clause](https://github.com/OpenWIS/openwis-documentation/pull/146)
             2. JT - As the Board, do we also now approve this change?
             3. RES-OWIS-AM-2017-10: Vote: 5-0 in favour – Add a partner contract termination clause. OWIS-RES
@@ -302,13 +302,14 @@ title: OpenWIS Annual Meeting 2017
 ---
 
 #### Participants
-    - MDA - Matteo Dell'Aqua, Meteo-France, France [MF], [delegate] (proxy for Weiqing Qu [BoM] for afternoon sessions), Chair
-    - JT - Jeremy Tandy, Met Office, UK [UKMO], [delegate] (proxy for Mikko Visa [FMI]), Vice-chair
-    - WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM], [delegate], (WebEx)
-  ?  - SD - Sungsoo Do, Korea Meteorological Administration, Republic of Korea [KMA], [delegate], (proxy for Si Ryong Lee [KMA])
-    - LLG - Loic Le Gallou, Meteo-France International [MFI], [delegate], (proxy for Patrick Benichou [MFI])
-    - KS - Kari Sheets, National Weather Service, United States of America [NWS]
-    - RGr - Remy Giraud, Meteo-France, France [MF]
-    - EE - Emma Edwards, Met Office, UK [UKMO], Treasurer (WebEx)
-    - MR - Michael Robbins, Met Office, UK [UKMO], (WebEx)
-    - PR - Paul Rogers, Met Office, UK [UKMO]
+
+- MDA - Matteo Dell'Aqua, Meteo-France, France [MF], [delegate] (proxy for Weiqing Qu [BoM] for afternoon sessions), Chair
+- JT - Jeremy Tandy, Met Office, UK [UKMO], [delegate] (proxy for Mikko Visa [FMI]), Vice-chair
+- WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM], [delegate], (WebEx)
+- SD - Sungsoo Do, Korea Meteorological Administration, Republic of Korea [KMA], [delegate], (proxy for Si Ryong Lee [KMA])
+- LLG - Loic Le Gallou, Meteo-France International [MFI], [delegate], (proxy for Patrick Benichou [MFI])
+- KS - Kari Sheets, National Weather Service, United States of America [NWS]
+- RGr - Remy Giraud, Meteo-France, France [MF]
+- EE - Emma Edwards, Met Office, UK [UKMO], Treasurer (WebEx)
+- MR - Michael Robbins, Met Office, UK [UKMO], (WebEx)
+- PR - Paul Rogers, Met Office, UK [UKMO]
