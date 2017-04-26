@@ -17,11 +17,11 @@ contents : [
 ]
 ---
 
-# OpenWIS Association Contributor License Agreement - version 2 (CLAv2) - [Sign me up!]( {{"/static/CLA/CLAform.html" | prepend: site.baseurl}} )
+# OpenWIS Association Contributor License Agreement - version 1 (CLAv1) - [Sign me up!]( {{"/static/CLA/CLA-old-DO-NOT-DELETE/CLAformv1.html" | prepend: site.baseurl}} )
 
 Thank you for your interest in contributing to products owned or managed by the OpenWIS Association AISBL.
 
-In order to clarify the intellectual property license granted with Contributions from any person or entity, the OpenWIS Association AISBL must have a Contributor License Agreement ("**CLA**") on file that has been signed by each Contributor, indicating agreement to the license terms below. Each contributing individual within a contributing organisation must personally sign the CLA form.
+In order to clarify the intellectual property license granted with Contributions from any person or entity, the OpenWIS Association AISBL must have a Contributor License Agreement ("**CLA**") on file that has been signed by each Contributor, indicating agreement to the license terms below.
 
 This license is for your protection as a Contributor as well as the protection of the OpenWIS Association AISBL and users of its products; it does not change your rights to use your own Contributions for any other purpose.
 

@@ -23,7 +23,7 @@
          </div>
          <div class="page-link">
             <ul class="dropdown"><label for="p1"><a href="{{ site.data.projects.subpath | prepend: site.baseurl }}">Projects</a></label><input id="p1" type="checkbox">
-               <li><ul class="dropdown"><label for="p21"><a href="{{ site.data.openwis.subpath | prepend: site.baseurl }}">OpenWIS</a></label><input id="p21" type="checkbox">
+               <li><ul class="dropdown"><label for="p21"><a href="{{ site.data.openwis.subpath | prepend: site.baseurl }}">OpenWIS</a></label><input id="p21" type="checkbox" checked>
 		     <li><a href="{{ site.data.backlog.subpath | prepend: site.baseurl }}">{{ site.data.backlog.title }}</a></li>
                      <li><a href="{{ site.data.kanban.subpath | prepend: site.baseurl }}">{{ site.data.kanban.title }}</a></li>
 		     <li><a href="https://openwis.github.io/openwis" target="_blank">Github Development*</a></li>
@@ -31,7 +31,9 @@
                      <li><a href="https://github.com/OpenWIS/openwis/wiki" target="_blank">Wiki*</a></li>
                      <li><a href="{{ site.data.openwis.subpath | prepend: site.baseurl | append: "#download"}}">Download</a></li>
                </ul></li>
-               <li class="no-link">Python Metadata Tool</li>
+               <li><ul class="dropdown"><label for="p22"><a href="{{ site.data.excel2wis.subpath | prepend: site.baseurl }}">Excel2wis Tool</a></label><input id="p22" type="checkbox" checked>
+	          <li><a href="https://github.com/OpenWIS/excel2wis" target="_blank">Excel2wis github repository</a></li>
+	       </ul></li>
             </ul>
          </div>
          <a class="page-link" href="mailto: {{ site.email }}">Contact</a>

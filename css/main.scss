@@ -16,7 +16,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #005699; //#2a7ae2;
+$brand-color:      blue; //#005699; //#2a7ae2;
 
 $grey-color:       #545454; //#828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -29,10 +29,10 @@ $page-link-space-small: 0.25em;
 $bubble-border: #6693ff;
 
 $no-link-color: #727272;
-$visited-link-color: #002f63;
+$visited-link-color: darkviolet; //#002f63;
 $away-link-color: #660099;
 
-// Variables for dropdown menu - Cassie Stearns 
+// Variables for dropdown menu - Cassie Stearns
 $ndropdowns: 5;
 $dropdown-background-color: #c0c0c0; //#999999;
 $dropdown-left: 1em;
@@ -60,7 +60,7 @@ $on-laptop:        90%;
 /* MIXIN BY CASSIE STEARNS */
 @mixin media-query-range($devicesizemax, $devicesizemin) {
     @media screen and (max-width: $devicesizemax) and (min-width: $devicesizemin) {
-        @content;    
+        @content;
     }
 }
 
