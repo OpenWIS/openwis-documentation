@@ -1,6 +1,7 @@
 ---
 layout: default
 title: OpenWIS Strategic Goal and Metrics
+metricOwner: OpenWIS-Core
 ---
 
 ## Goal 1. Stabilise OpenWIS software to a supportable version with good test coverage ##

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: OpenWIS Strategic Goal and Metrics
+metricOwner: OpenWIS-Core
 ---
 
 ## Goal 6. OpenWIS software helps metadata authors produce 'better' metadata ##

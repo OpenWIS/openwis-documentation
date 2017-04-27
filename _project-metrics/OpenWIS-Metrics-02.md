@@ -1,6 +1,7 @@
 ---
 layout: default
 title: OpenWIS Strategic Goal and Metrics
+metricOwner: OpenWIS-Core
 ---
 
 ## Goal 2. Delivery of OpenWIS software that meets needs of operational WIS Centres ##

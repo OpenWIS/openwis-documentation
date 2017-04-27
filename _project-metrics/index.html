@@ -1,7 +1,7 @@
 ---
 layout: default
-title: OpenWIS Association Strategic Goals and Metrics
-permalink: /metrics/
+title: OpenWIS-Core Strategic Goals and Metrics
+permalink: /project-metrics/
 ---
 
 <article>
@@ -15,7 +15,7 @@ permalink: /metrics/
 
 	{% for m in site.metrics %}
 		{% unless forloop.last %}
-		    {% if m.metricOwner == "OpenWIS-Association" %}
+		    {% if m.metricOwner == "OpenWIS-Core" %}
 				    <p>{{ m.content }}</p>
 				{% endif %}
 		{% endunless %}

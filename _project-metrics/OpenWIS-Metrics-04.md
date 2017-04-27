@@ -1,6 +1,7 @@
 ---
 layout: default
 title: OpenWIS Strategic Goal and Metrics
+metricOwner: OpenWIS-Core
 ---
 
 ## Goal 4. OpenWIS software is being used to reach new communities ##

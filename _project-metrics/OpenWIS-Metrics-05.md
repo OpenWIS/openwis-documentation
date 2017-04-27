@@ -1,6 +1,7 @@
 ---
 layout: default
 title: OpenWIS Strategic Goal and Metrics
+metricOwner: OpenWIS-Core
 ---
 
 ## Goal 5. Usability of the OpenWIS software is improved ##
