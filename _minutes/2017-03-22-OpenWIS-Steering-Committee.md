@@ -618,7 +618,7 @@ title: OpenWIS Steering Committee 2017 March
                 - Ask the TC for a cost estimate for Option 4; report back in 3 months (June 2017).
         208. WQ - And also a comparable cost estimate for Option 1, with pros and cons of each option.
         209. JT - Ok, let's vote on that:
-                1. RES-OWIS-SC-2017-05:Resolution: Task TC with:[Action-SC-2017-23 Future development options report](https://github.com/OpenWIS/openwis-documentation/issues/193); vote: 7-0 in favour. OWIS-RES
+                1. RES-OWIS-SC-2017-05:Resolution: Task TC with:[Action-SC-2017-23 Future development options report](https://github.com/OpenWIS/openwis-documentation/issues/194); vote: 7-0 in favour. OWIS-RES
         210. JT - So approval of the strategic programme and work plan is deferred, pending the action above by the TC.
     4. **Identification of investment required from OpenWIS Association required to deliver the work plan**
         1. JT - Can we summarise the key budget recommendations so far?
@@ -753,7 +753,7 @@ title: OpenWIS Steering Committee 2017 March
             1. Ok?
             2. ALL - Yes.
         19. JT - So in Rule 2.10, I've added a link to the Rules Supplement:
-            1. Rule 2.10: Projects shall be governed according to the procedures defined in the [OpenWIS Project Governance rules supplement](http://openwis.github.io/openwis-documentation/rules2/2016-03-11-OpenWIS-Project-Governance.md).
+            1. Rule 2.10: Projects shall be governed according to the procedures defined in the [OpenWIS Project Governance rules supplement](http://openwis.github.io/openwis-documentation/rules2/2016-03-11-OpenWIS-Project-Governance.html).
         20. JT - So is everyone content that we make all those changes to the website in accordance with RESOLUTION-AM-2016-09?
             1. ALL - Yes.
             2. JT - Ok, pull-request #145 is merged and closed. Does GitHub regenerate the website straight away?
