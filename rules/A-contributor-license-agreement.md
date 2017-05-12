@@ -17,7 +17,7 @@ contents : [
 ]
 ---
 
-# OpenWIS Association Contributor License Agreement - version 2 (CLAv2) - [Sign me up!]( {{"/static/CLA/CLAform.html" | prepend: site.baseurl}} )
+# OpenWIS Association Contributor License Agreement - version 3 (CLAv3) - [Sign me up!]( {{"/static/CLA/CLAform.html" | prepend: site.baseurl}} )
 
 Thank you for your interest in contributing to products owned or managed by the OpenWIS Association AISBL.
 
@@ -25,7 +25,7 @@ In order to clarify the intellectual property license granted with Contributions
 
 This license is for Your protection as a Contributor as well as the protection of the OpenWIS Association AISBL and users of its products; it does not change Your rights to use Your own Contributions for any other purpose.
 
-Contributions shall be made by submitting a Pull Request to the relevant project repository within [GitHub](https://github.com/). Information on using Pull Requests can be found in the [GitHub help](https://help.github.com/articles/using-pull-requests/) pages. When You have created Your Pull Request, please contact the OpenWIS Community Manager via [email](mailto:contact@openwis.io) to request a CLA form. Once Your CLA has been successfully processed, Your Pull Request will be considered.
+Contributions shall be made by submitting a Pull Request to the relevant project repository within [GitHub](https://github.com/). Information on using Pull Requests can be found in the [GitHub help](https://help.github.com/articles/using-pull-requests/) pages. Prior to submitting your first Pull Request you must send a completed [CLA form]( {{"/static/CLA/CLAform.html" | prepend: site.baseurl}} ) to the OpenWIS Community Manager via [email](mailto:contact@openwis.io). A Pull Request will only be reviewed if the Contributor has submitted the CLA form.
 
 The OpenWIS Association AISBL will use and process Your details collected for the purposes of contribution to products owned or managed by the OpenWIS Association AISBL. Your details will be processed in accordance with European Data Protection Law.  Personal Data processed by the OpenWIS Association AISBL will not be disclosed to third parties for marketing purposes, but may be disclosed to members of the OpenWIS Association AISBL for the purposes of managing Your Contributions.
 
