@@ -13,21 +13,28 @@ Please submit a scan of this completed form to the OpenWIS Community Manager via
 
 ----
 
-## For contributions to (OpenWIS Association project(s) - required):
+#### For contributions to (OpenWIS Association project(s) - required):
 
-## Current project license (required):
+#### Current project license (required):
 
-## Organisation (if applicable):
+#### Organisation (if applicable):
 
-## Full name(s) (required):
+### Please enter details of each Contributor in the table below (required):
 
-## GitHub account ID(s) (required):
+full name of contributor | GitHub ID of contributor | email address | signature of contributor
+---|---|---|---
+ | | |
+ | | |
+ | | |
+ | | |
+ | | |
+ | | |
+ | | |
+ | | |
+ | | |
+ | | |
 
-## email address(es) (required):
-
-## Signature(s) (required):
-
-## Date of submission (required):  
+#### Date of submission (required):  
 
 ----
 
