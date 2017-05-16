@@ -21,7 +21,7 @@ Please submit a scan of this completed form to the OpenWIS Community Manager via
 
 ### Please enter details of each Contributor in the table below (required):
 
-full name of contributor | GitHub ID of contributor | email address | signature of contributor
+full name of contributor | GitHub ID of contributor | email address of contributor | signature of contributor
 ---|---|---|---
  | | |
  | | |
