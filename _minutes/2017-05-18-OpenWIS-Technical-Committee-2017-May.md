@@ -88,7 +88,7 @@ title: OpenWIS Technical Committee 2017 May
 - PR - Paul Rogers, Met Office, UK [UKMO]
 - NM - Nassos Michas, European Dynamics, [UKMO]
 - GT - Giorgios Triantafyllidis, European Dynamics, [UKMO]
-- NM - Dimitris Papadeas, European Dynamics, [UKMO]
+- DP - Dimitris Papadeas, European Dynamics, [UKMO]
 
 #### Apologies
 - SO - Steve Olson, National Weather Service, United States of America [NWS], [delegate], Chair
