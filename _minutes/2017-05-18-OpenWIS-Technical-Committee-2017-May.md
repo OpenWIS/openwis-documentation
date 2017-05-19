@@ -70,8 +70,8 @@ title: OpenWIS Technical Committee 2017 May
     56. RGb - Thursday/Friday next week are holidays in France.
     57. LM - Ok, it'll have to be Wednesday then, I'll speak to SO.
     58. Actions:
-        - ALL - [Action-TC-2017-22 Provide feedback VIA the requirements spreadsheet](https://github.com/OpenWIS/openwis-documentation/issues/NNN).    
-        - LM - [Action-TC-2017-23 Update TC chair on progress](https://github.com/OpenWIS/openwis-documentation/issues/NNN).    
+        - ALL - [Action-TC-2017-22 Provide feedback VIA the requirements spreadsheet](https://github.com/OpenWIS/openwis-documentation/issues/269).    
+        - LM - [Action-TC-2017-23 Update TC chair on progress](https://github.com/OpenWIS/openwis-documentation/issues/270).    
     59. LM - We'll adjourn there and leave the rest of the agenda until next time.
 
 ---
