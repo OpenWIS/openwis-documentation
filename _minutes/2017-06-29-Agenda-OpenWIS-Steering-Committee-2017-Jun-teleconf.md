@@ -33,7 +33,11 @@ title: Provisional Agenda - OpenWIS Steering Committee 2017 June - teleconferenc
         - See [Action-SC-2017-23 Future development options report](https://github.com/OpenWIS/openwis-documentation/issues/194)
         - Also see related actions [Action-SC-2017-21 Feature comparison for v3 vs v4](https://github.com/OpenWIS/openwis-documentation/issues/192) and [Action-SC-2017-22 v4 MVP cost estimate](https://github.com/OpenWIS/openwis-documentation/issues/193)
     - Steering Committee recommendation to the Board (SC Chair)
-8. **Review new Project Charters**
+8. **Review rule clarification on how Association’s funds may be spent**
+    - SC Chair
+    - See [Action-BM-2017-04 Internal Rule change on funding projects](https://github.com/OpenWIS/openwis-documentation/issues/228) *“Propose an Internal Rule change to allow Association funds to be provided to a project during special circumstances, including, but not limited to, during project incubation.”*
+    - See [Pull Request 279](https://github.com/OpenWIS/openwis-documentation/pull/279) for pending change
+9. **Review new Project Charters**
     - SmartMet (Mikko Visa) 
         - See [Action-SC-2017-15 smartmet project proposal](https://github.com/OpenWIS/openwis-documentation/issues/186) *“Work with the TC to determine how the smartmet project might operate within the Association in practical terms (eg: where should repos be, how would PMC work etc). Draft a Project Charter and report back to SC in June.”*
     - WIS 2.0 (Kari Sheets) 
@@ -42,9 +46,6 @@ title: Provisional Agenda - OpenWIS Steering Committee 2017 June - teleconferenc
         - *Discussion*: designation of OpenWIS Core 5.0 / WIS 2.0 as a WMO/CBS Affiliated Project
     - Weather API (Jeremy Tandy)
         - See [Action-SC-2017-17 Project Charter for Weather API](https://github.com/OpenWIS/openwis-documentation/issues/188)
-9. **Review rule clarification on how Association’s funds may be spent**
-    - SC Chair
-    - See [Action-BM-2017-04 Internal Rule change on funding projects](https://github.com/OpenWIS/openwis-documentation/issues/228) *“Propose an Internal Rule change to allow Association funds to be provided to a project during special circumstances, including, but not limited to, during project incubation.”*
 10. **Clarify intent for revision of Technical Committee, Steering Committee and Board roles** 
     - SC Chair
     - Agree scope and allocation/assignment of action item [Action-SC-2017-14 Improve processes for managing new projects](https://github.com/OpenWIS/openwis-documentation/issues/185) *“In light of the discussion around new projects during SC-MAR2017 (eg: FMI's [smartmet](https://github.com/fmidev/)) and the uncertainties this has surfaced around the roles of PMC/TC/SC, review the Articles, Internal Rules and Technical Rules and propose any improvements.”*
