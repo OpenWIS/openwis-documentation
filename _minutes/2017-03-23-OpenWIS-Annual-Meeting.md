@@ -39,7 +39,7 @@ title: OpenWIS Annual Meeting 2017
             6. MDA - So, in Finland, we'll have TC, SC, Board. That's ok right now because it's all the same people. But shall we add a PMC to the agenda?
             7. JT - Yes, let's clearly state that the PMC is half the week, or 2 days, with sessions for other small projects. Ok?
             8. MDA - Yes, let's vote.
-            9. RES-OWIS-AM-2017-01: Vote: 5-0 in favour – Divide up the agenda for future annual meetings, into PMC for each project then TC/SC/Board. OWIS-RES
+            9. RES-OWIS-BM-2017-01: Vote: 5-0 in favour – Divide up the agenda for future annual meetings, into PMC for each project then TC/SC/Board. OWIS-RES
                 - PR - [Action-BM-2017-02 New agenda structure for Annual Meeting in 2018](https://github.com/OpenWIS/openwis-documentation/issues/226)
 6. **OpenWIS Association Membership**
     1. MDA - I have nothing to add to what I said during the SC meeting {SC item 8}.
@@ -175,7 +175,7 @@ title: OpenWIS Annual Meeting 2017
         14. EE - Yes; it's when the activity happened.
         15. EE - Any further questions?
         16. MDA - Anyone around the table? Ok, none. So, shall we vote to approve the accounts?
-        17. RES-OWIS-AM-2017-03: Vote: 4-0 in favour – Statement of Accounts is Approved. OWIS-RES
+        17. RES-OWIS-BM-2017-03: Vote: 4-0 in favour – Statement of Accounts is Approved. OWIS-RES
     2. MDA - Status of OpenWIS Association bank account
         1. MDA - So we discussed the bank account during the SC.
         2. JT - Do we want to vote on giving up on ING?
@@ -185,22 +185,22 @@ title: OpenWIS Annual Meeting 2017
         6. JT - If we haven't resolved this by July then we can't vote to drop ING.
         7. MDA - I will contact them tomorrow.
         8. JT - Let's give it one month and if there is no contact, we vote by correspondence to do something else.
-        9. RES-OWIS-AM-2017-04: Vote: 4-0 in favour – ING have one month to contact us before we vote on an alternative approach to set up of a bank account in Belgium. OWIS-RES
+        9. RES-OWIS-BM-2017-04: Vote: 4-0 in favour – ING have one month to contact us before we vote on an alternative approach to set up of a bank account in Belgium. OWIS-RES
 11. **Approval of budget for 2017**
     1. **Review of budget recommended by SC (SC Chair)**
         1. JT - So we all went through the budget items for the current year (2017) at the SC meeting {see SC section 16.3} and EE has listed some of them here: Board Meeting - [Financial Matters]({{ site.baseurl | prepend: site.url }}/assets/2017-03-23-Board-Meeting-Financial-Matters.pdf); _slide 5_.
         2. JT - The SC recommendation is that we provision €10,000 for 2017.
         3. JT - Last year we approved a reserve of €10,000 and I say we do so again.
         4. MDA - Yes, so let's vote.
-        5. RES-OWIS-AM-2017-05: Vote: 4-0 in favour – Budget proposal of €10,000 is approved. OWIS-RES
+        5. RES-OWIS-BM-2017-05: Vote: 4-0 in favour – Budget proposal of €10,000 is approved. OWIS-RES
     2. **Approval of amount of reserve fund (see Rule R10.7)**
         1. MDA - And again for the reserve.
-        2. RES-OWIS-AM-2017-06: Vote: 4-0 in favour – Budget reserve of €10,000 is approved. OWIS-RES
+        2. RES-OWIS-BM-2017-06: Vote: 4-0 in favour – Budget reserve of €10,000 is approved. OWIS-RES
 12. **Approval of fees, subscriptions and contributions for 2017**
     1. MDA - We can continue with what we have. There will be a new rule on in-kind contributions. I propose we keep the current level of fees and subscriptions.
     2. JT - Are we also voting to accept the rule change in principle?
     3. MDA - Yes.
-    4. RES-OWIS-AM-2017-07: Vote: 4-0 in favour – Fees, subscriptions and contributions remain at 2016 values. Also, the rule change to cover in-kind contributions is approved in principle. OWIS-RES
+    4. RES-OWIS-BM-2017-07: Vote: 4-0 in favour – Fees, subscriptions and contributions remain at 2016 values. Also, the rule change to cover in-kind contributions is approved in principle. OWIS-RES
 13. **Approval of changes to Internal Rules (see Rule A12.17)**
     1. **Financial controls for the OpenWIS Association**
         1. MDA – Do we need the help of a professional company in Belgium to ensure we comply with the Belgian accounting and tax rules?
@@ -212,7 +212,7 @@ title: OpenWIS Annual Meeting 2017
             6. RGr - Vincent said we had to declare at Bank Nationale, not less than 30 days after the Association approves the annual accounts. He said we can establish these accounts based on the EE documents and will need the passports of the directors. He said we will need to declare the 2015 accounts too, so I will send the EE docs to him.
             7. MDA - Any other comments? It's a pity we have to spend money on these things.
             8. MDA - Ok, we'll vote.
-            9. RES-OWIS-AM-2017-08: Vote: 4-0 in favour – Retain Vincent Corbeel for the submission of accounts and tax returns. OWIS-RES
+            9. RES-OWIS-BM-2017-08: Vote: 4-0 in favour – Retain Vincent Corbeel for the submission of accounts and tax returns. OWIS-RES
         2. EE suggested rule change: to be added to the [Financial Rules Supplement]({{ "/rules2/2016-03-09-OpenWIS-Financial-Management.html" | prepend: site.baseurl }})
             1. **Support to meet Belgian Requirements (suggest adding after ‘Taxation’ section)**  It is recommended that the association engages with specialist support to ensure all legal, taxation and filing requirements are met. Costs need to be included in the budget to cover this.
         3. EE suggested rule change: to be added to the [Financial Rules Supplement]({{ "/rules2/2016-03-09-OpenWIS-Financial-Management.html" | prepend: site.baseurl }})
@@ -275,20 +275,20 @@ title: OpenWIS Annual Meeting 2017
         4. MDA - Do you have anything else?
             1. EE - No thanks.
             2. MDA - Ok, thank you EE. So is everyone happy with the changes?
-            4. RES-OWIS-AM-2017-09: Vote: 4-0 in favour – Apply rule changes to Financial Supplement. OWIS-RES
+            4. RES-OWIS-BM-2017-09: Vote: 4-0 in favour – Apply rule changes to Financial Supplement. OWIS-RES
             3. JT - So PR will make those changes on the website.
                 - PR - [Action-BM-2017-53 Update Financial Supplement](https://github.com/OpenWIS/openwis-documentation/issues/224)
     2. **Review of amendments recommended by SC (SC Chair)**
         1. JT - As the SC we approved a small change that adds a partner contract termination clause, Rule 5.13.
             1. JT - This is pull request #146: [amendment to TITLE 5 adding partner contract termination clause](https://github.com/OpenWIS/openwis-documentation/pull/146)
             2. JT - As the Board, do we also now approve this change?
-            3. RES-OWIS-AM-2017-10: Vote: 5-0 in favour – Add a partner contract termination clause. OWIS-RES
+            3. RES-OWIS-BM-2017-10: Vote: 5-0 in favour – Add a partner contract termination clause. OWIS-RES
             4. JT - OK, pull request #146 is merged.
         2. JT - AS the SC we updated Rule 6.3 to reflect our conversations on in-kind contributions:
             1. Rule 6.3 [after table]: An Associate Partner may, by mutual consent with the Association, substitute an agreed in-kind contribution for the Annual Contribution fee of €10,000.
             2. JT - This is pull request #147: [updated rule 6.3 to allow in-kind contributions by associate partners](https://github.com/OpenWIS/openwis-documentation/pull/147)
             3. JT - As the Board, do we also now approve this change?
-            4. RES-OWIS-AM-2017-11: Vote: 5-0 in favour – Update Rule 6.3 [after table]: An Associate Partner may, by mutual consent with the Association, substitute an agreed in-kind contribution for the Annual Contribution fee of €10,000. OWIS-RES
+            4. RES-OWIS-BM-2017-11: Vote: 5-0 in favour – Update Rule 6.3 [after table]: An Associate Partner may, by mutual consent with the Association, substitute an agreed in-kind contribution for the Annual Contribution fee of €10,000. OWIS-RES
             5. JT - OK, pull request #147 is merged.
 14. **Management of Risks to the Association**
     1. MDA - As discussed earlier, we will cover this in the July meeting.

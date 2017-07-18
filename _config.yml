@@ -28,6 +28,7 @@ collections:
 - minutes
 - rules2
 - test
+- openwis-core
 collections:
   kanban:
     output: true
@@ -42,4 +43,6 @@ collections:
   rules2:
     output: true
   test:
+    output: true
+  openwis-core:
     output: true
