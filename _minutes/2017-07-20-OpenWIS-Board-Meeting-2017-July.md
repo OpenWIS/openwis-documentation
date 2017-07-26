@@ -17,13 +17,13 @@ title: OpenWIS Board Meeting (Extraordinary) 2017 July
 
         >Here is a very short contribution to the meeting (with respect to agenda items)
         >    
-        >    • 5.3 Internal rules on funding projects
-        >        o MFI agrees with the principle of funding pilot projects if limited to 10k€ or so individually
-        >    • 6.2  & 6.3 Approval of new partners
-        >        o MFI ok with IMD as Strategic Member
-        >        o It would be relevant and welcome to have a sentence incorporated in the OpenWIS formal letter stating the role of MFI (funder and Strat. member) as potential player/integrator for implementing WIS Projects (i.e. with more commitment than the minimum assistance that can be provided by the consortium)
-        >    • 7 Elections
-        >        o MFI ok with all 3 nominations
+        >    - 5.3 Internal rules on funding projects
+        >        - MFI agrees with the principle of funding pilot projects if limited to 10k€ or so individually
+        >    - 6.2  & 6.3 Approval of new partners
+        >        - MFI ok with IMD as Strategic Member
+        >        - It would be relevant and welcome to have a sentence incorporated in the OpenWIS formal letter stating the role of MFI (funder and Strat. member) as potential player/integrator for implementing WIS Projects (i.e. with more commitment than the minimum assistance that can be provided by the consortium)
+        >    - 7 Elections
+        >        - MFI ok with all 3 nominations
 
     2. MDA - I am the Representative for MF.
     3. JT - I am the Representative for UKMO.
@@ -41,8 +41,9 @@ title: OpenWIS Board Meeting (Extraordinary) 2017 July
     3. [Action-BM-2017-04 Internal Rule change on funding projects](https://github.com/OpenWIS/openwis-documentation/issues/228)
         1. JT - I have incorporated the rule change as discussed at the meeting in March. Please see [Added new Rule 12.8 about requesting financial support for Projects](https://github.com/OpenWIS/openwis-documentation/pull/279/files)
         2. MDA - PB added a caveat in his email:
-        >    • 5.3 Internal rules on funding projects
-        >        o MFI agrees with the principle of funding pilot projects if limited to 10k€ or so individually
+
+            >    - 5.3 Internal rules on funding projects
+            >        - MFI agrees with the principle of funding pilot projects if limited to 10k€ or so individually
 
         3. MDA - I think that PB caveat must be to do with Remy's proposal.
         4. JT - I agree: the Rule change requires funding approval by the Board, so imposing an arbitrary limit doesn't make sense. Unless PB is suggesting the Managing Directors can agree up to €10k. I tried to find in the Rules a statement about delegated authority of €10k fot Managing Directors. Do you remember us discussing that?
@@ -61,7 +62,8 @@ title: OpenWIS Board Meeting (Extraordinary) 2017 July
         17. JT - No, some decisions must be unanimous, for example membership of the Board, but in this case it just says: by decision of the Board.
         18. MDA - We should have that in the articles somewhere.
         19. WQ - Yes, Article 12.11:
-        > Except where these Articles of Association expressly require any matter to be decided unanimously, or by a simple majority, motions raised at a Board Meeting shall be carried by a three-quarters majority
+
+            > Except where these Articles of Association expressly require any matter to be decided unanimously, or by a simple majority, motions raised at a Board Meeting shall be carried by a three-quarters majority
 
         20. JT - So 4/5 > 3/4: resolution carried.
         21. JT - So PR [Action-BM-2017-07 Merge PR#279 New Rule 12.8](https://github.com/OpenWIS/openwis-documentation/issues/289) into the website and include Board discussion on PB comments in the pull request comments.
@@ -115,7 +117,8 @@ title: OpenWIS Board Meeting (Extraordinary) 2017 July
             4. MDA - MFI worked with them for a while; they have skills but I'm not sure they will contribute. They mainly want the software to fulfil their GISC function. They use Corobor, but that's not performing properly. When I discussed this with an IMD Director at CBS they wanted help from us. But, maybe they want to work on WIS 2.
             5. RGr - So instead of paying €1m to get a GISC installation they expect to pay €200k and get the same result.
             6. MDA - I explained that is not the role of the Association. But they think they will get all the support they need. There is the comment from PB: MFI will be able to help them:
-            >        o It would be relevant and welcome to have a sentence incorporated in the OpenWIS formal letter stating the role of MFI (funder and Strat. member) as potential player/integrator for implementing WIS Projects (i.e. with more commitment than the minimum assistance that can be provided by the consortium)
+
+                >    - It would be relevant and welcome to have a sentence incorporated in the OpenWIS formal letter stating the role of MFI (funder and Strat. member) as potential player/integrator for implementing WIS Projects (i.e. with more commitment than the minimum assistance that can be provided by the consortium)
 
             7. RGr - We were in touch with NWS when they joined and it took them 18 months to understand that they hadn't bought support. So make that clear to IMD: chargeable support is available from MFI, not for free.
             8. MDA - The letter from IMD does not ask for support. With NWS we sent 2 people to Washington for a week to help them.
@@ -185,7 +188,7 @@ title: OpenWIS Board Meeting (Extraordinary) 2017 July
     14. PR - We only use ED on OpenWIS Association activities. We were doing OpenWIS v3 maintenance and work on OpenWIS v4 then v5. Now that the strategy of the Association has changed, I expect to allocate work to ED on OpenWIS v3 maintenance as needed, plus whatever WIS 2.0 pilot work the SC/TC agrees for the work plan.
     15. JT - I suggest we submit a funding request if we decide we need more cash for ED; but right now we move the pilots forward with the resources we have.
     16. MDA - Ok, so if we discover in 6 months we need money to do a pilot.
-    17. JT - Rgr?
+    17. JT - RGr?
     18. RGr - That makes sense, but I don't agree. I think UKMO, with SciSys and ED, have made tremendous efforts in helping the Association. But, my idea was to make efforts from other places in the Association. So, say KMA have an idea, we would run that pilot project. If we continue as now, I'm not sure we will get new ideas.
     19. MDA - That doesn't conflict with what JT says.
     20. JT - So if we propose pilots and decide we already have the manpower then we use that first.
@@ -210,7 +213,7 @@ title: OpenWIS Board Meeting (Extraordinary) 2017 July
     39. RGr - There may be a couple of issues, the method we can use, and the practicalities. At the moment the money is with MFI. They can spend what they like, as a private company.
     40. WQ - Yes, a private company can.
     41. RGr - If MFI works with a local French company, for example, they can.
-    42. WQ - So MDA is asking: how can the Association pay someone? WE can because we are like a private company.
+    42. WQ - So MDA is asking: how can the Association pay someone? We can because we are like a private company.
     43. RGr - So if we go back to working with ED, the Association would pay ED directly.
     44. MDA - I understand the problem, but our understanding is not mature enough to decide today. JT/RGr, would you please think more about how we would initiate such a project? I need to better understand who I would give the €25k to.
     45. RGr - Can we work on the pilot ideas even if we cannot say we have Board funding yet?
@@ -223,7 +226,7 @@ title: OpenWIS Board Meeting (Extraordinary) 2017 July
     52. WQ - I hope we have OpenWIS v5 in mind when we do these PoCs.
     53. JT - Yes, we're looking for TC oversight to ensure we get value for money.
     54. RGr - One important element of the proposal was having some freedom: they may not be components of OpenWIS v5 because that would constrain the ideas. We want to differentiate between the technical and functional aspects.
-    55. WQ - I am concerned that PoCs doesn't just ignore OpenWIS v5.
+    55. WQ - I am concerned that PoCs don't just ignore OpenWIS v5.
     56. MDA - Ok, we continue the discussion next time.
 9. **Review of budget for 2017 (in consequence of agenda item 8 above)**
     1. **Review of budget**
