@@ -15,7 +15,7 @@ title: OpenWIS Technical Committee 2017 August
     5. MG - Also we're looking at the Spring framework.
     6. PR - Ok, so add some Kanban tasks and we can help out where required.
     7. MG - Ok, there, I'm adding them.
-2. Proposed Pilot Studies
+2. **Proposed Pilot Studies**
     1. SO - MF emailed to say they are unable to attend the meeting due to holidays, but that they will add some pilot proposals on their return. We may need to schedule another meeting to discuss those.
     2. PN - I note there is no pilot proposal suggesting that we use cloud platforms, eg: Azure AD as SAAS for authentication. Since it is free and easy, I expect to be discussing using these services for the PoCs.
     3. SO - Do you have any idea how we would go about prioritising the proposals?
@@ -73,32 +73,85 @@ title: OpenWIS Technical Committee 2017 August
     52. PN - Are they constrained to internet or private networks?
     53. JT - They are constrained to the internet. Djibouti for example, has no fixed or mobile networks, so they rely on satellite. Imagine DW's counterpart in Djibouti: he doesn't understand WMO metadata but has been asked to share some files, what is the minimum he can do?
     54. WQ - Right now they send by email to us.
-    
-
-
-
-        1. The related action on GitHub is: [Action-SC-2017-23](https://github.com/OpenWIS/openwis-documentation/issues/194)
+    55. JT - Ok, let me outline some rough ideas I have about WIS 2.0:
+        1. JT - Say WIS 2.0 will have a set of standards you can layer on top of each other: TCP/IP, HTTP, URL.
+        2. JT - Then, if you're publishing data, you could just publish some web pages that are human-readable.
+        3. PN - And the actual data could be in an S3 bucket on AWS.
+        4. JT - OK, but how would you discover that data? You can use the S3 bucket to hold the base data and combine with a human-readable web page to provide the catalog.
+        5. WQ - Isn't that how OpenWIS works?
+        6. JT - Yes, but it is complex.
+        7. PN - S3 bucket with Elastic Search on top; you could get notified of new data that comes in.
+        8. JT - That's jumping to Elastic Search as the solution and inferring that you're indexing by crawling the files.
+        9. WQ - An expert can find the model data without metadata; no need for the web page.
+        10. DW - Is that just because the metadata is already in the filename?
+        11. PN - That's all we're currently doing with our S3 NetCDF files, storing files with WMO headers.
+        12. JT - We're getting rid of WMO headers; when the data is visible on the internet you won't need local addresses on private networks.
+        13. PN - We'll still need some metadata.
+        14. JT - I agree. We've talked about commercial search engines; you want them to crawl web pages to find some structured markup. It is metadata, but not as we employ it currently, which is painful!
+        15. PN - That metadata is not our responsibility.
+        16. PR - How does the metadata get into the human-readable web pages?
+        17. JT - These pages use [schema.org](http://schema.org/) and the metadata is usually implemented as [JSON-LD](https://json-ld.org/) inside the pages. Simplest way to generate web pages, if the service endpoint is static, is write web pages with tags, or generate by parsing. The [ESIP](http://www.esipfed.org/) convention tells you what you should include in NetCDF so you can populate web pages. On Copernicus, ECMWF is managing the metadata in GeoNetwork, then taking it and publishing a web page, not publishing the metadata catalog itself.
+        18. SO - What is exposed? How easy do you make it for the end-user?
+        19. JT - You only put in what makes it easy to distinguish between the types of data available. If we rely on commercial search engines, they will use sitemaps and crawlers, old technology. One of the things we need to be able to do is retain an authoritative view of what data is published by WIS centres. We would need a simple register to create a list of what data is available. Jumping to solutions again, but maybe we could use Elastic Search to do that.
+        20. PR - We are short of time to get a demo ready, and since it's only a pilot, we _should_ jump to some solutions.
+        21. JT - So we would need to create a list of data available from the WIS centres. We could test how centres would make their data available: for example - _my site map is here, come harvest my data_.
+        22. PR - This sounds as if it would make a good proposal for the demo - OPP-JT.
+        23. DW - Could we include subscriptions?
+        24. JT - Interesting point: so we might have HTTP URLs, maybe through S3 buckets; so now we have to put files on a queue to be subscribed to, even if it is a simple file or a web service.
+        25. SO - It is something tangible; pub-sub is an extension to this.
+        26. JT - Yes, we could layer the pub-sub on top.
+        27. SO - A hybrid of OPP-2 and OPP-JT.
+        28. WQ - I can't see a link between that PoC and OpenWIS v5.
+        29. JT - What does OpenWIS become if we strip out the infrastructure?
+        30. PR - Cheaper.
+        31. JT - Yes, cheaper, easier, etc.
+        32. JT - So we do some components that do pub-sub and some that form the metadata. Sounds like I need to write something down.
+        33. PR - I could draft OPP-JT from the notes I've taken and you can edit it:
+            - [Action-TC-2017-22 Add pilot proposal OPP-JT](https://github.com/OpenWIS/openwis-documentation/issues/304)
+        34. JT - Make sure we're clear on the purpose: to publish data as static files.
+        35. PR - So refer to the Djibouti User Story?
+        36. JT - Yes, a User Story not framed in WIS 1.0, GISCs, global hubs etc.
+        37. SO - We could modify the OPP template to bring in how the proposal ties into something we can demonstrate and also relate to Users.
+        38. PR - Ok, so a section of the proposal could describe the high level User Story.
+3. **Developer Conference**
+    1. LM/WQ - We have agreed to host the Developer Conference.
+    2. DW - Did anyone fill in the poll?
+    3. LM - Just DW and myself so far.
+    4. PR - I'm not clear what the objectives are for the Developer Conference this time. It should be hard-core development of pilots, so I probably don't need to be there in person.
+    5. JT - So a hackathon.
+    6. PR - Yes, not just a meeting we could do by WebEx.
+    7. JT - Yes and we also need to consider the cost.
+    8. PR - I think September is too close; I don't think we'll have developed the pilot ideas sufficiently.
+    9. JT - Early next calendar year then?
+    10. PR - Yes, the Annual Meeting isn't until April.
+    11. SO - Ok, let's push out the Developer Conference to early next year.
+4. **Date of next meeting**
+    1. SO - We'll need to get together again once MF are back, so another TC last week in August ok?
+    2. PR - Yes, I'll be around then but not the first 2 weeks of September.
+    3. SO - Ok, we'll go for last week of August.
 
 
 ---
 
 #### Participants
+- SO - Steve Olson, National Weather Service, USA [NWS], Chair
 - LM - Leon Mika, Bureau of Meteorology, Australia [BoM], Vice-Chair
 - WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM]
+- DW - Dominic Woollatt, Met Office, UK [UKMO]
+- PN - Paul Nelson, Met Office, UK [UKMO]
+- PR - Paul Rogers, Met Office, UK [UKMO]
+- MG - Marc Giannoni, National Weather Service, USA [NWS]
+- JT - Jeremy Tandy, Met Office, UK [UKMO]
+
+#### Apologies
+
 - MC - Michael Claudon, Meteo-France, France [MF]
 - BS - Benjamin Saclier, Meteo-France, France [MF]
 - RGb - Remy Gibault, Meteo-France International [MFI]
-- DW - Dominic Woollatt, Met Office, UK [UKMO]
+- SD - Sungsoo Do, Korea Meteorological Administration, Republic of Korea [KMA], [delegate]
+- MP - Mikko Partio, Finnish Meteorological Institute, Finland [FMI], [delegate]
+- CS - Cassie Stearns, National Weather Service, USA [NWS]
 - DJ - Duncan Jeffery, Met Office, UK [UKMO]
-- PN - Paul Nelson, Met Office, UK [UKMO]
-- PR - Paul Rogers, Met Office, UK [UKMO]
 - NM - Nassos Michas, European Dynamics, [UKMO]
 - GT - Giorgios Triantafyllidis, European Dynamics, [UKMO]
 - DP - Dimitris Papadeas, European Dynamics, [UKMO]
-
-#### Apologies
-- SO - Steve Olson, National Weather Service, United States of America [NWS], [delegate], Chair
-- SD - Sungsoo Do, Korea Meteorological Administration, Republic of Korea [KMA], [delegate]
-- MP - Mikko Partio, Finnish Meteorological Institute, Finland [FMI], [delegate]
-- MG - Marc Giannoni, National Weather Service, United States of America [NWS]
-- CS - Cassie Stearns, National Weather Service, United States of America [NWS]
