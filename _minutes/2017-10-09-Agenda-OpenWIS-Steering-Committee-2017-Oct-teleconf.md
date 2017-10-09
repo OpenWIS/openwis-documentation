@@ -20,7 +20,7 @@ title: Agenda - OpenWIS Steering Committee 2017 October - teleconference
     - [Action-SC-2016-14 Add new risks to Risk Register](https://github.com/OpenWIS/openwis-documentation/issues/170) *“Add a risk to the Risk Register stating that the Articles/Rules of the Association do not adequately define the architecture role of the TC (Article 14.1)”*
     - Note: **Resolution-AM-2016-09** approving "edits to describe governance for multiple projects"
     - See [OpenWIS Project Governance Rules Supplement]({{ site.baseurl | prepend: site.url }}/rules2/2016-03-11-OpenWIS-Project-Governance.html)  [PMC structure diagram]({{ site.baseurl | prepend: site.url }}/assets/ATT-OWIS-SC-2016-7_owis-committee-structure.pdf)
-    - Propose update to [Internal Rules Title 7]({{ site.baseurl | prepend: site.url }}/rules/7-management-structure-and-qualification-of-officers.html) based on responsibilties outlined [here](https://github.com/OpenWIS/openwis-documentation/issues/185)
+    - Propose update to [Internal Rules Title 7]({{ site.baseurl | prepend: site.url }}/rules/7-management-structure-and-qualification-of-officers.html) based on responsibilties outlined [here](https://github.com/OpenWIS/openwis-documentation/issues/185#issuecomment-335121087)
 4. **OpenWIS Technical Workplan**
     - TC Chair
     - OpenWIS-Core
