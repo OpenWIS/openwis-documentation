@@ -2,13 +2,12 @@
 layout: page
 title: OpenWIS Financial Management
 ---
-
-##### Emma Edwards, Treasurer - February 2016
+##### OpenWIS Association AISBL Treasurer, October 2017
 
 This document pulls together the financial operating aspects of the OpenWIS association. This is intended as a supplement to the Articles of Association and Internal Rules. In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.
 
 ### Approvals for Contracts/Agreements
-This covers all costs to be incurred by OpenWIS whether directly as the contracting party or indirectly through the Members, Strategic Partners, and Associate Partners supporting the Association. Expenditure must be approved prior to incurring where required and due diligence should be taken when entering into contracts or incurring expenses on behalf of the association, to ensure the association is getting value for money.
+This covers all costs to be incurred by OpenWIS whether directly as the contracting party or indirectly through the Members, Strategic Partners, and Associate Partners supporting the Association. Expenditure must be approved prior to incurring where required and due diligence should be taken when proceeding with transactions to ensure the association is getting value for money. Refer to the [approvals process flow diagram]({{ site.baseurl | prepend: site.url }}/assets/2017-10-27-Financial-Process.png) for details.
 
 ### Invoice Administration
 Invoices should be passed to the Treasurer who will ensure that sufficient approval is currently in place for the expenditure before approving the invoice for payment and proceeding with payment. Invoices shall be retained with approvals and evidence of payment (where appropriate) for accounting record purposes.
@@ -25,8 +24,16 @@ There are two main ways that OpenWIS Association AISBL could incur staff costs:
 - Indirectly, where the individual is employed by a member organisation
 - Directly by contracting with individual itself
 
-In the case of an indirect arrangement, an agreement should be reached as to how these costs will be reimbursed, taking into account (but not limited to) frequency and total costs to be incurred and subsequently reimbursed by OpenWIS Association AISBL. The member organisation employing the individual is responsible for ensuring that all local tax and filing requirements are met.
-If the OpenWIS Association AISBL directly employs an individual, it is suggested that a local payroll bureau is engaged to ensure all local tax and filing requirements of the resident country of the individual are met. Consideration should any for any local pension, insurance or similar requirements when entering into a contract should also be noted.
+In the case of an indirect arrangement, an agreement should be reached as to how these costs will be reimbursed, taking into account (but not limited to) frequency and total costs to be incurred and subsequently reimbursed by OpenWIS Association aisbl. The member organisation employing the individual is responsible for ensuring that all local tax and filing requirements are met. If the OpenWIS Association aisbl directly employs an individual, it is suggested that a local payroll bureau is engaged to ensure all local tax and filing requirements of the resident country of the individual are met. Consideration should any for any local pension, insurance or similar requirements when entering into a contract should also be noted.
+
+### In-kind contributions
+As part of the operation of the Association, the partners contribute effort to the furthering and support of the aims of the association. This can be in the form of external spend with other suppliers or use of internal resources of the partners (e.g. staff time) to achieve this.
+
+This is an in-kind transaction of the association and as such to the extent that this is measurable, the association should record this in their accounts. For Income & Expenditure Statement purposes, this is represented as a received income and a matching expense in the year.
+
+In order to fulfil this obligation, the partners are required to submit an annual return to the Treasurer confirming the amount of in-kind costs they have incurred. Partners should consider what information they need to retain in year to be able to do this and raise any queries with the Treasurer. Returns should be made on the provided [benefits-in-kind template]({{ site.baseurl | prepend: site.url }}/assets/2017-03-23-Benefit-In-Kind-Template.docx).
+
+In-kind contributions from individual Contributors, who are not part of a member or partner organisation, are considered unmeasurable. Therefore, they are not declared
 
 ### Taxation
 
@@ -71,7 +78,7 @@ Category _Very Large_ are those that exceed an annual average of 100 paid worker
 - balance sheet total: EUR 3.65 million.
 
 Very Large organizations have the same accounting requirements as larger organizations and must also appoint a commissioner and a member of the Institute of Registered Auditors (IRE).
- (As adjusted by Royal Decree on the 25 August 2012)
+     (As adjusted by Royal Decree on the 25 August 2012)
 
 **LARGE** Definition & Requirements:
 
