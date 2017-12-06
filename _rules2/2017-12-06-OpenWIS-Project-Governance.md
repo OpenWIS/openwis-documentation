@@ -23,6 +23,8 @@ This document describes the governance regime for Projects of the OpenWIS&reg; A
     - request the necessary environment for the project to be provisioned (“Project Provisioning”); e.g. hosting space for Project websites, wikis, mailing lists, source code repositories, etc.
 - New Projects shall begin in the **Incubation Phase**. Classification of “incubation” is less a statement about the quality of the Project’s code; rather it is about assessing the Project team’s progress in practicing the open and public processes necessary to establish the two communities (developers and users) around the Project. When a the Project's code and documentation is ready, and the Project team has learned to operate as an open source project, the project may opt to graduate into the **Mature Phase**.
 
+The project initiation procedure is described [here]({{ "/assets/OpenWIS_Association_governance-project_initiation.pdf" | prepend: site.baseurl }}).
+
 ### Amendments to existing Projects
 - Members and Partner organisations may become additional ‘participants’ in a given Project (and thus assign a representative to the PMC) via mutual consent from the existing participating Member and Partner organisations. Participation may be subject to assessment of the level of contribution that the new organisation is willing to commit and/or previous contribution(s) from the organisation. Member or Partner organisations may escalate requests to the Steering Committee.
 - A PMC may request an amendment or extension to their Charter. Amendments and extensions are subject to Board approval following recommendation from the Steering Committee.
@@ -52,3 +54,5 @@ This document describes the governance regime for Projects of the OpenWIS&reg; A
 - With guidance from the Technical Committee, the PMC will define the release mechanism, quality criteria and schedule pertinent to the project. 
 - The PMC must agree the release quality criteria with the Steering Committee.
 - Steering Committee will hold PMC to account with respect to the release quality criteria.
+
+The governance of project delivery and software releases is described in [this flowchart]({{ "/assets/OpenWIS_Association_governance-project_operation_(software_release_cycle).pdf" | prepend: site.baseurl }}).

@@ -60,7 +60,7 @@ Nothing in [Rule 2.8](#rule-2.8) shall prevent any Member or Partner from pursui
 
 The Association may host multiple concurrent open source software development projects (“**Projects**”) and foster community around each of those projects.
 
-Projects shall be governed according to the procedures defined in the [OpenWIS&reg; Project Governance rules supplement]({{ "/rules2/2016-03-11-OpenWIS-Project-Governance.md" | prepend: site.baseurl }}).
+Projects shall be governed according to the procedures defined in the [OpenWIS&reg; Project Governance rules supplement]({{ "/rules2/2017-12-06-OpenWIS-Project-Governance.md" | prepend: site.baseurl }}).
 
 <h2 id="rule-2.11">Rule 2.11</h2>
 
