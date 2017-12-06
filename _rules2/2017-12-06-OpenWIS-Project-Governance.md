@@ -3,7 +3,7 @@ layout: page
 title: OpenWIS&reg; Project Governance
 ---
 
-##### March 2016
+##### December 2017
 
 This document describes the governance regime for Projects of the OpenWIS&reg; Association. This is intended as a supplement to the Articles of Association and Internal Rules. In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.
 
