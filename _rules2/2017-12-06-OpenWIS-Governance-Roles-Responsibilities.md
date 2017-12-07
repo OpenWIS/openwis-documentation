@@ -5,7 +5,7 @@ title: OpenWIS&reg; Governance Roles and Responsibilities
 
 ##### December 2017
 
-This document summarises the roles and responsibilities of the governance bodies within the OpenWIS&reg; Association.
+This document summarises the composition and responsibilities of the governance bodies within the OpenWIS&reg; Association.
 
 This is intended as a supplement to the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}) and [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}). In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.
 
