@@ -16,7 +16,7 @@ title: OpenWIS Technical Committee 2018 January
         2. NM - The pilot we are building has a Local Data Sharing Hub (LDSH), where the data sets are initially published by the data owner; a Regional Data Sharing Hub (RDSH), which collates data sets from the LDSHs; and an Authoritative WIS Catalogue (AWISC), which is where official WIS data sets are registered.
         3. NM - The LDSH collects local measurements. It connects to the RDSH to create message queues. Users of the data sets can subscribe to the queues at the RDSH.
         4. NM - When the data set is deployed at the LDSH a web page is automatically created that contains structured metadata for search engine crawlers such as Google and Yahoo! etc.
-        5. NM - The AWISC is also a search engine that indexes the RDSHs only and gives a richer search experience than Google etc, because it understands the RDSH metadata.
+        5. NM - The AWISC is also a search engine that indexes the LDSHs only and gives a richer search experience than Google etc, because it understands the LDSH metadata.
         6. NM - The goal is to have the demo ready about 2 weeks before the TECO meeting.
         7. NM - We have created mock-ups, more than mock-ups really, with routing and other processing included, to demo what we are building.
         8. GT - So I will first show the LDSH (demo via shared screen).
@@ -28,7 +28,7 @@ title: OpenWIS Technical Committee 2018 January
         14. GT - So here we can see the download URL and the subscription URI and how Moultar creates them.
         15. NM - And here Mouktar provides the metadata and uploads the actual data.
         16. GT - This filename gives the prefix for the files Mouktar will upload.
-        17. GT - If Mouktar wants he can also here enable the RDSH dissemination, either a notification or the data itself. If Mouktar enables subscriptions then the data set users will be able to see this URI.
+        17. GT - If Mouktar wants he can also here enable the RDSH dissemination, either a notification or the data itself. If Mouktar enables subscriptions in the data set users will be able to see this URI.
         18. GT - The search engine metadata is added here on the metadata page.
         19. NM - We are using open text for now.
         20. BS - Would I be able to download a data set from yesterday?
@@ -42,7 +42,7 @@ title: OpenWIS Technical Committee 2018 January
         28. GT - Once Mouktar's LDSH is registered, other Mouktar data sets can be automatically published by Omar's RDSH.
         29. GT - The AWISC is where the authoritative datasets are registered. So if Mouktar is a partner of WMO he will be registered here so that Users can find the official data for Djibouti etc.
         30. GT - Mouktar will put a token into his LDSH and then every dataset that Mouktar publishes is registered within the AWISC in order to be searched for. So, the AWISC will show Mouktar's datasets in the search results, along with the metadata Mouktar provided. So, Users can get a lot of useful information about the data to help them decide whether they want to subscribe to it.
-        31. GT - At the AWISC, Users who understand WMO codes can use them to do intelligent searching. There is not just one vocabulary of WMO codes, but many different ones for different weather types. This intelligent searching would be done here through the advanced search interface.
+        31. GT - At the AWISC, users who understand WMO codes can use them to do intelligent searching. There is not just one vocabulary of WMO codes, but many different ones for different weather types. This intelligent searching would be done here through the advanced search interface.
         32. GT - And here we have the setting page, where you can see the contact info etc.
         33. GT - This is the page where the queues are managed. There are queue statistics and graphs of the traffic.
         34. SO - Do we envision using static queues for the messages?
