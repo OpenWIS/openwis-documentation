@@ -23,7 +23,8 @@ contents : [
     ["#rule-8.15", "Rule 8.15"],
     ["#rule-8.16", "Rule 8.16"],
     ["#rule-8.17", "Rule 8.17"],
-    ["#rule-8.18", "Rule 8.18"]
+    ["#rule-8.17", "Rule 8.18"],
+    ["#rule-8.18", "Rule 8.19"]
 ]
 ---
 
@@ -77,7 +78,7 @@ Documentation and information relating to items on an agenda shall be circulated
 
 <h2 id="rule-8.10">Rule 8.10</h2>
 
-In accordance with [Article  12.18]({{ "/articles/12-board.html#article-12.18" | prepend: site.baseurl }}) of the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}), resolutions of all Board meetings should be recorded in writing and made available to all Members of the Association. 
+In accordance with [Article  12.18]({{ "/articles/12-board.html#article-12.18" | prepend: site.baseurl }}) of the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}), resolutions of all Board meetings should be recorded in writing and made available to all Members of the Association.
 
 <h2 id="rule-8.11">Rule 8.11</h2>
 
@@ -97,7 +98,7 @@ Meetings of the Steering Committee should always be called on at least 31 days n
 
 <h2 id="rule-8.15">Rule 8.15</h2>
 
-Resolutions and decisions of the Steering Committee shall be recorded in writing and made available to all Delegates. Third parties may ask to be informed about such resolutions and decisions. Such requests should be addressed to the SC Chair. 
+Resolutions and decisions of the Steering Committee shall be recorded in writing and made available to all Delegates. Third parties may ask to be informed about such resolutions and decisions. Such requests should be addressed to the SC Chair.
 
 <h2 id="rule-8.16">Rule 8.16</h2>
 
@@ -105,10 +106,14 @@ All records of the decisions and resolutions taken in meeting of the Association
 
 <h2 id="rule-8.17">Rule 8.17</h2>
 
-Meetings of the Association are held in private. Only those persons identified in the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}) have an automatic right to attend. As an exception to this rule, the Chairperson, SC Chair and TC Chair may invite guests and experts to specific sessions of any meeting. The meeting may revoke this invitation at any time. 
+Meetings of the Association are held in private. Only those persons identified in the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}) have an automatic right to attend. As an exception to this rule, the Chairperson, SC Chair and TC Chair may invite guests and experts to specific sessions of any meeting. The meeting may revoke this invitation at any time.
 
 <h2 id="rule-8.18">Rule 8.18</h2>
 
 In the event that any Member or Partner wishes to be represented at any meeting by a proxy in accordance with Articles [12.5]({{ "/articles/12-board.html#article-12.5" | prepend: site.baseurl }}) or [13.8]({{ "/articles/13-steering-committee.html#article-13.8" | prepend: site.baseurl }}) of the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}), the written, signed proxy should be presented to the chairperson of the meeting at the earliest opportunity. Each meeting should consider how many Members and/or Partners are present (and, therefore, whether the meeting is quorate) before moving on to consider the agenda.
+
+<h2 id="rule-8.19">Rule 8.19</h2>
+
+Resolutions and decisions of the Board or other committee may be made ex-committee, with voting by email or other virtual poll. Ex-committee decisions and resolutions shall be recorded and published in the same manner as those taken at committee meetings, as if an extraordinary meeting of the committee had taken place. 
 
 [previous: TITLE 7]({{ "/rules/7-management-structure-and-qualification-of-officers.html" | prepend: site.baseurl }}) \| [next: TITLE 9]({{ "/rules/9-software-licensing.html" | prepend: site.baseurl }})
