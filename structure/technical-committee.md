@@ -18,5 +18,5 @@ In accordance with [Article 14.3]({{ "/articles/14-technical-committee.html#arti
 
 <h2 id="participants">Elected participants of the Technical Committee</h2>
 
-* Mr. QU Weiqing, [Bureau of Meteorology](http://www.bom.gov.au/) (**TC Chair**)
-* Mr. OLSON Steve, [National Weather Service](http://www.weather.gov/) (**TC Vice-Chair**)
+* Mr. OLSON Steve, [National Weather Service](http://www.weather.gov/) (**TC Chair**)
+* Mr. SACLIER Benjamin, [Météo France](http://meteo.fr/) (**TC Vice-Chair**)
