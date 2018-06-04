@@ -13,7 +13,9 @@ contents : [
     ["#rule-7.5", "Rule 7.5"],
     ["#rule-7.6", "Rule 7.6"],
     ["#rule-7.7", "Rule 7.7"],
-    ["#rule-7.8", "Rule 7.8"]
+    ["#rule-7.8", "Rule 7.8"],
+    ["#rule-7.9", "Rule 7.9"],
+    ["#rule-7.10", "Rule 7.10"]
 ]
 ---
 
@@ -52,5 +54,13 @@ The Steering Committee shall appoint a Contributor as the **Project Leader** for
 <h2 id="rule-7.8">Rule 7.8</h2>
 
 The Technical Committee shall operate as a cross-Project technical architecture / design authority body that provides technical oversight; (i) monitoring, guiding, and influencing the software architectures used by Projects, (ii) new Project mentoring, and (iii) maintaining and revising the [Technical Rules]({{ "/tr/" | prepend: site.baseurl }}) of the Association.
+
+<h2 id="rule-7.9">Rule 7.9</h2>
+
+In the event that a sitting SC Chair and/or SC Vice-Chair expresses their intention to stand for re-election under [Rule 7.5](#rule-7.5) and no other candidate wishes to stand against him or her, he or she may be re-elected to the role unopposed, provided that such re-election does not breach the term limit of four consecutive years laid down in [Article 13.6]({{ "/articles/13-steering-committee.html#article-13.6" | prepend: site.baseurl }}) of the Articles of Association.
+
+<h2 id="rule-7.10">Rule 7.10</h2>
+
+The composition and responsibilities of the governance bodies within the OpenWIS&reg; Association are summarised in [this supplement]({{ site.baseurl | prepend: site.url }}/rules2/2017-12-06-OpenWIS-Governance-Roles-Responsibilities.html) to the internal rules.
 
 [previous: TITLE 6]({{ "/rules/6-membership-and-partnership-fees-rights-privileges-and-obligations.html" | prepend: site.baseurl }}) \| [next: TITLE 8]({{ "/rules/8-meetings.html" | prepend: site.baseurl }})
