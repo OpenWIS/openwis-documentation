@@ -5,13 +5,13 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    
+
     // Positioning context for the mobile navigation icon
     position: relative;
 
     @include media-query-range(1149px, 640px) {
        min-height: 84px;
-    }  
+    }
 
 }
 
@@ -29,8 +29,8 @@
     }
 }
 
-/* 
- * HEADER MENU - ALL SIZES 
+/*
+ * HEADER MENU - ALL SIZES
  */
 
 .page-link {
@@ -40,14 +40,14 @@ border-radius: 0.5em;
 opacity: 1;
 padding-left: 0.25em;
 padding-right: 0.25em;
-   
+
    a {
    color: $text-color;
    }
 }
 
 /*
- * HEADER MENU - FOR LARGE SCREENS (width is 1150 px or greater) 
+ * HEADER MENU - FOR LARGE SCREENS (width is 1150 px or greater)
  */
 
 @include media-query-range(10000px, 1150px) {
@@ -87,7 +87,7 @@ padding-right: 0.25em;
    position: absolute;
    left: -9999em;
    }
-   ul.dropdown:hover > li { 
+   ul.dropdown:hover > li {
    position: relative;
    left: 0;
    margin-left: $dropdown-left;
@@ -107,7 +107,7 @@ padding-right: 0.25em;
 }
 
 /*
- * HEADER MENU - FOR MODERATE DISPLAYS (width is 1149-670 px) 
+ * HEADER MENU - FOR MODERATE DISPLAYS (width is 1149-670 px)
  */
 
 @include media-query-range(1149px, 670px) {
@@ -145,7 +145,7 @@ padding-right: 0.25em;
    position: absolute;
    left: -9999em;
    }
-   ul.dropdown:hover > li { 
+   ul.dropdown:hover > li {
    position: relative;
    left: 0;
    margin-left: $dropdown-left-small;
@@ -164,7 +164,7 @@ padding-right: 0.25em;
 }
 
 /*
- * HEADER MENU - FOR SMALL DISPLAYS (width is < 670 px) 
+ * HEADER MENU - FOR SMALL DISPLAYS (width is < 670 px)
  */
 
 @include media-query-range(669px, 0) {
@@ -191,7 +191,7 @@ padding-right: 0.25em;
    padding: 0;
    z-index: 1;
    background-color: inherit;
-   border-radius: inherit;  
+   border-radius: inherit;
    }
    ul.dropdown > li {
    position: absolute;
@@ -306,27 +306,27 @@ padding-right: 0.25em;
     font-size: 24px;
 }
 
-/** 
-  * Additional page formatting - by Cassie Stearns 
-  */ 
+/**
+  * Additional page formatting - by Cassie Stearns
+  */
 
-/* Make 2 columns */ 
-.halfpage-left { 
-   vertical-align: top; 
-   width: -webkit-calc(50% - #{$spacing-unit}); 
-   width:         calc(50% - #{$spacing-unit});  
-   display: inline-block; 
-   padding: 0.5em; 
-   float: left; 
-   } 
-.halfpage-right { 
-   vertical-align: top; 
-   width: -webkit-calc(50% - #{$spacing-unit}); 
-   width:         calc(50% - #{$spacing-unit}); 
-   display: inline-block; 
-   padding: 0.5em; 
-   float: right; 
-   } 
+/* Make 2 columns */
+.halfpage-left {
+   vertical-align: top;
+   width: -webkit-calc(50% - #{$spacing-unit});
+   width:         calc(50% - #{$spacing-unit});
+   display: inline-block;
+   padding: 0.5em;
+   float: left;
+   }
+.halfpage-right {
+   vertical-align: top;
+   width: -webkit-calc(50% - #{$spacing-unit});
+   width:         calc(50% - #{$spacing-unit});
+   display: inline-block;
+   padding: 0.5em;
+   float: right;
+   }
 @include media-query(674px) {
    .halfpage-left, .halfpage-right {
       width: 100%;
@@ -339,7 +339,7 @@ padding-right: 0.25em;
 .linkblock {
    position: relative;
    display: block;
-   
+
    a {
      line-height: $base-line-height;
      text-decoration: underline;
@@ -360,12 +360,12 @@ padding-right: 0.25em;
    border-radius: 0.25em;
    background-color: #99ccff;
    color: black;
-   
+
    &:link, &:visited {
       color: black;
       text-decoration: none;
    }
-   
+
    &:hover {
       background-color: #cccc99;
    }
@@ -387,24 +387,24 @@ ul.image-list {
    padding: 0;
    margin-left: 0;
    margin-right: 0;
-   vertical-align: top;  
- 
+   vertical-align: top;
+
    li {
-      width: 200px;
+      width: 600px;
       display: inline-block;
-      border: 2px solid black;
+/*      border: 2px solid black; */
       border-radius: 0.5em;
       margin: 0.25em;
       padding: 0.5em;
-      
+
       img {
          max-width:100%;
          height: -webkit-calc(#{$base-line-height} * 4);
          height:         calc(#{$base-line-height} * 4);
-         border: 1px solid black;
+/*         border: 1px solid black; */
          text-align: center;
          clear: both;
-         display: block; 
+         display: block;
       }
    }
 }
@@ -422,7 +422,7 @@ ul.image-list {
    margin-right: 0.5em;
    margin-top: 0.5em;
    margin-bottom: 0.5em;
-   
+
 }
 
 
@@ -438,7 +438,7 @@ border: 1px solid $bubble-border;
 border-radius: 0.5em;
 padding: 0.5em;
 margin: 0.5em;
-  
+
    h2 {
    margin: 0;
    padding: 0;
@@ -454,7 +454,7 @@ margin: 0.5em;
    margin: 0;
    border: 1px solid black;
    }
-   
+
    .projecttextbox {
    position: relative;
    display: inline-block;
@@ -468,7 +468,7 @@ margin: 0.5em;
 
       p {
       margin: 0;
-      }   
+      }
    }
 
    @include media-query-range(599px, 0) {
@@ -483,7 +483,7 @@ margin: 0.5em;
       float: none;
       padding-top: 0.5em;
       }
-   }  
+   }
 
 }
 
