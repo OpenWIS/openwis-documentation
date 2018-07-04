@@ -277,7 +277,7 @@ title: OpenWIS Steering Committee 2018 May
             - [Action-SC-2017-76 Travel to ING Brussels for face-to-face meeting](https://github.com/OpenWIS/openwis-documentation/issues/346)
         2. The SC agreed to increase the budget for four people to travel to ING Bank to 1600 Euros.
     5. Delegated financial authority for Managing Directors – proposed amendment to OpenWIS Financial Management Rules Supplement
-        1. RES-OWIS-SC-2018-16 – Having reviewed the financial management rules supplement, the SC resolve that the existing limit of 10,000 Euros should not change. OWIS-RES
+        1. RES-OWIS-SC-2018-17 – Having reviewed the financial management rules supplement, the SC resolve that the existing limit of 10,000 Euros should not change. OWIS-RES
 15. **Recommendations to the Board to make and adopt, alter, supplement or repeal the Internal Rules**
     1. A new risk management supplement will be developed and recommended to the Board in due course.
         - [Action-SC-2018-6 Create a risk management rules supplement](https://github.com/OpenWIS/openwis-documentation/issues/410)
