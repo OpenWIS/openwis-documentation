@@ -7,23 +7,23 @@
 
     <nav class="site-nav">
       <div class="trigger">
-	 <a class="page-link" href="{{site.baseurl | append: "/" }}">Home</a>      
+	 <a class="page-link" href="{{site.baseurl | append: "/" }}">Home</a>
          <div class="page-link">
             <ul class="dropdown"><label for="a1"><a href="{{ site.baseurl | append: "/about/"}}">Association</a></label><input id="a1" type="checkbox">
                   <li><a href="{{ site.data.structure.subpath | prepend: site.baseurl | append: "members.html"}}">Members</a></li>
 	          <li><a href="{{ site.data.structure.subpath | prepend: site.baseurl | append: "governance.html"}}">Governance</a></li>
                   <li><a href="{{ site.data.articles.subpath | prepend: site.baseurl }}">{{ site.data.articles.title }}</a></li>
                   <li><a href="{{ site.data.rules.subpath | prepend: site.baseurl }}">{{ site.data.rules.title }}</a></li>
-                  <li><a href="{{ site.data.conduct.subpath | prepend: site.baseurl }}">{{ site.data.conduct.title }}</a></li> 
+                  <li><a href="{{ site.data.conduct.subpath | prepend: site.baseurl }}">{{ site.data.conduct.title }}</a></li>
                   <li><a href="{{ site.data.tr.subpath | prepend: site.baseurl }}">{{ site.data.tr.title }}</a></li>
 		  <li><a href="{{ site.data.rules2.subpath | prepend: site.baseurl }}">{{ site.data.rules2.title }}</a></li>
-                  <li><a href="{{ site.data.minutes.subpath | prepend: site.baseurl }}">{{ site.data.minutes.title }}</a></li> 
-                  <li><a href="{{ site.data.metrics.subpath | prepend: site.baseurl }}">{{ site.data.metrics.title }}</a></li> 
+                  <li><a href="{{ site.data.minutes.subpath | prepend: site.baseurl }}">{{ site.data.minutes.title }}</a></li>
+                  <li><a href="{{ site.data.metrics.subpath | prepend: site.baseurl }}">{{ site.data.metrics.title }}</a></li>
             </ul>
          </div>
          <div class="page-link">
             <ul class="dropdown"><label for="p1"><a href="{{ site.data.projects.subpath | prepend: site.baseurl }}">Projects</a></label><input id="p1" type="checkbox">
-               <li><ul class="dropdown"><label for="p21"><a href="{{ site.data.openwis.subpath | prepend: site.baseurl }}">OpenWIS</a></label><input id="p21" type="checkbox" checked>
+               <li><ul class="dropdown"><label for="p21"><a href="{{ site.data.openwis.subpath | prepend: site.baseurl }}">OpenWIS-Core</a></label><input id="p21" type="checkbox" checked>
 		     <li><a href="{{ site.data.backlog.subpath | prepend: site.baseurl }}">{{ site.data.backlog.title }}</a></li>
                      <li><a href="{{ site.data.kanban.subpath | prepend: site.baseurl }}">{{ site.data.kanban.title }}</a></li>
 		     <li><a href="https://openwis.github.io/openwis" target="_blank">Github Development*</a></li>
@@ -46,8 +46,8 @@
                 <li><a href="{{ site.data.posts.subpath | prepend: site.baseurl }}">Github Posts Archive</a></li>
 		<li><a href="https://discourse.dev2.openwis.io/" target="_blank">Forum*</a></li>
             </ul>
-         </div>          
-         
+         </div>
+
       </div>
     </nav>
 
