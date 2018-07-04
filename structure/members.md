@@ -16,3 +16,7 @@ title: OpenWIS Association Members and Partners
    <li><a href="http://www.weather.gov/" target="_blank"><img src="{{ "/assets/noaa_nws_us_ico.png" | prepend: site.baseurl }}">National Weather Service, United States</a></li>
    <li><a href="http://www.fmi.fi/" target="_blank"><img src="{{ "/assets/meteo_fi_ico.png" | prepend: site.baseurl }}">Finnish Meteorological Institute, Finland</a></li>
 </ul>
+<h2>Associate Partners</h2>
+<ul class="image-list">
+   <li><a href="https://www.ecmwf.int/" target="_blank"><img src="{{ "/assets/ECMWF-logo-1.png" | prepend: site.baseurl }}">European Centre for Medium-Range Weather Forecasts</a></li>
+</ul>
