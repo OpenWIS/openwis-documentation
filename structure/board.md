@@ -20,6 +20,6 @@ Note that, as stated in [Article 12.7]({{ "/articles/12-board.html#article-12.7"
 * Mr. TANDY Jeremy, [Met Office](http://www.metoffice.gov.uk/) (**Managing Director: Vice-Chairperson**)
 * Mr. BENICHOU Patrick, [Météo France International](http://www.mfi.fr)
 * Mr. QU Weiqing, [Bureau of Meteorology](http://www.bom.gov.au/)
-* Mr. LEE Si Ryong, [Korea Meteorological Administration](http://www.kma.go.kr/)
+* Mr. YUN Hyuk Jin, [Korea Meteorological Administration](http://www.kma.go.kr/)
 
 In support of the Board, Mrs. HARVEY Stacey ([Met Office](http://www.metoffice.gov.uk/)) is appointed as the **Treasurer** of the OpenWIS Association.
