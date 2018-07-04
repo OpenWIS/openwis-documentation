@@ -8,7 +8,7 @@ permalink: /conduct/
 
 The OpenWIS Association adheres to the **Contributor Covenant code of conduct**, which defines the expectations for all **Contributors** who participate in OpenWIS® Projects.
 
-Please report unacceptable behavior to the OpenWIS Community Manager via [email](mailto:contact@openwis.io).  Your report should include the date, time and place of the incident, who was involved and a description of what happened.  All such issues shall be taken very seriously and dealt with as soon as possible by the Chair or Vice-chair of the OpenWIS Steering Committee, depending on who is most readily available.  Your identity will be disclosed to no-one else.
+Please report unacceptable behaviour to the OpenWIS Technical Committee Chair via [email](mailto:contact@openwis.io). The report should include the date, time and place of the incident, who was involved and a description of what happened. The Technical Committee Chair will attempt to resolve all issues internally. However, issues requiring escalation will be reported to the Steering Committee Chair for resolution. All such issues shall be taken very seriously and dealt with as soon as possible. Your identity will be disclosed to no-one else.
 
 # Contributor Covenant Code of Conduct
 
