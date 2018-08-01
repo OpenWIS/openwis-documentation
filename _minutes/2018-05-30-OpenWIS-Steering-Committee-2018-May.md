@@ -57,7 +57,7 @@ title: OpenWIS Steering Committee 2018 May
       Association web site, i.e. on this page - http://openwis.github.io/openwisdocumentation/structure/members.html
             - [Action-SC-2018-21 resolve the different sizing of logos on the web site](https://github.com/OpenWIS/openwis-documentation/issues/427)
         3. The page title of the membership page of the website (i.e. this page http://openwis.github.io/openwis-documentation/structure/members.html) needs to be altered: the Page Title 'OpenWIS Members and Partners'; the Sub Heading is 'members' instead of 'core founders'; and a new sub-heading needs to be added to say  'Associate partners'.
-            - [Action-SC-2018-22 change the membership web page](https://github.com/OpenWIS/openwisdocumentation/issues/428)
+            - [Action-SC-2018-22 change the membership web page](https://github.com/OpenWIS/openwis-documentation/issues/428)
 7. **Recap on governance and organisation roles within OpenWIS Association**
     1. A recap of [Action-SC-2017-14 Improve processes for managing new projects](https://github.com/OpenWIS/openwis-documentation/issues/185) and MS PowerPoint slide (i.e. OpenWIS) took place and the following was agreed:
         1. Amend the wording for membership of PMC; remove word 'initially' and append a statement 'membership may evolve over time'; also change 'participating' to 'sponsoring' is needed.
