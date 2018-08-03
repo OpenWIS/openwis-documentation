@@ -31,7 +31,7 @@ The proper expenses of the Association include any costs associated with the ach
 
 * Costs of services required to ensure compliance with applicable legislation;
 * Costs of services required to provision Web hosting and development environments for the OpenWIS Association and its Projects
-* Costs relating to financial support for a Project, approved in accordance with [Rule 12.8](#rule-12.8); for example, to support a Project during its **Incubation Phase** reach a **Mature Phase** (*Project phases are defined in [OpenWIS Project governance]({{ site.baseurl | prepend: site.url }}/rules2/2016-03-11-OpenWIS-Project-Governance.html)*)
+* Costs relating to financial support for a Project, approved in accordance with [Rule 12.8](#rule-12.8); for example, to support a Project during its **Incubation Phase** reach a **Mature Phase** (*Project phases are defined in [OpenWIS Project governance]({{ site.baseurl | prepend: site.url }}/rules2/2017-12-06-OpenWIS-Project-Governance.html)*)
 
 The following categories of costs are not applicable as proper costs of the Association:
 
@@ -58,7 +58,7 @@ As a safeguard against expenses arising from unexpected developments or events, 
 
 <h2 id="rule-12.8">Rule 12.8</h2>
 
-Financial support may be requested for a Project at any time during the Project’s lifecycle - although such requests are anticipated to typically occur during the **Incubation Phase** of a Project (*Project phases are described in [OpenWIS Project governance]({{ site.baseurl | prepend: site.url }}/rules2/2016-03-11-OpenWIS-Project-Governance.html)*).
+Financial support may be requested for a Project at any time during the Project’s lifecycle - although such requests are anticipated to typically occur during the **Incubation Phase** of a Project (*Project phases are described in [OpenWIS Project governance]({{ site.baseurl | prepend: site.url }}/rules2/2017-12-06-OpenWIS-Project-Governance.html)*).
 
 Any request for financial support shall be submitted to the Steering Committee for review by an eligible party, as specified in [Rule 6.4]({{ "/rules/6-membership-and-partnership-fees-rights-privileges-and-obligations.html#rule-6.4" | prepend: site.baseurl }}). Such a request must contain sufficient information for the cost-benefit to be assessed by the Steering Committee. 
 
@@ -67,5 +67,7 @@ In cases where the request for financial support is deemed worthwhile, the Steer
 As stated in [Article 12.2]({{ "/articles/12-board.html#article-12.2" | prepend: site.baseurl }}) item (6), the Board has the exclusive right decide on all matters relating to the finances of the Organization. Noting [Rule 12.5](#rule-12.5) and [Rule 12.6](#rule-12.6), the Board will consider the request for financial support for a Project, subject to affordability and noting that the operational costs of the Association itself will always be prioritised. 
 
 Any expenditure following approval by the Board shall be undertaken in accordance with the [OpenWIS Financial Management supplemental rules]({{ site.baseurl | prepend: site.url }}/rules2/2016-03-09-OpenWIS-Financial-Management.html) and relevant [Articles]({{ "/articles/" | prepend: site.baseurl }}) and [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}).
+
+The procedure for allocation of OpenWIS Association funds to projects is described [here]({{ "/assets/OpenWIS_Association_governance-allocation_of_funds_to_projects.pdf" | prepend: site.baseurl }}).
 
 [previous: TITLE 11]({{ "/rules/11-technical-rules.html" | prepend: site.baseurl }}) \| [next: TITLE 13]({{ "/rules/13-changing-these-rules.html" | prepend: site.baseurl }})
