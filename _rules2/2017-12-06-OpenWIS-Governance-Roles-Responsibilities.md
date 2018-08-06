@@ -46,7 +46,7 @@ Defined in [ARTICLE 13: STEERING COMMITTEE]({{ "/articles/13-steering-committee.
 * Review Project’s requests to amend their Charter
 * Recommend amendments to Articles and Internal Rules to Board
 * Arbitrate where Project-level issues cannot be resolved by the PMC or TC
-* Review Project requests for financial support; approve where these requests are within existing budget
+* Review Project requests for financial support; approve where these requests are within existing budget and less than €10,000 [EUR]
 * Coordinate legal & financial issues for portfolio of OpenWIS projects (e.g. contributor license agreement)
 * Ensure compliance with OpenWIS&reg; Association processes
 * Manage risks to the OpenWIS&reg; Association; act as point of escalation for Project-level risks
