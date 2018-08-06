@@ -9,6 +9,8 @@ This document summarises the composition and responsibilities of the governance 
 
 This is intended as a supplement to the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}) and [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}). In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.
 
+An overview of the governance roles and resposibilities is provided [here]({{ "/assets/OpenWIS_Association_governance-summary.pdf" | prepend: site.baseurl }}).
+
 ### Board
 Defined in [ARTICLE 12: BOARD]({{ "/articles/12-board.html" | prepend: site.baseurl }})
 
