@@ -66,6 +66,7 @@ Defined in [Article 14: TECHNICAL COMMITTEE]({{ "/articles/14-technical-committe
 * Define, and ensure compliance with, the general [Technical Rules]({{ "/tr/" | prepend: site.baseurl }})) applying to all Projects (coding standards, software packaging policy etc.)
 * Provide technical oversight for Projects (e.g. “design authority”); monitor, guide, and influence the technical approach and its implementation within Projects
 * Provide release management oversight for Projects
+* Recommend follow-on actions or Projects for consideration by SC
 * Mentor Projects in Incubation phase
 * Define technical standards that Projects must adhere to; verify compliance
 * Recommend to SC budgeted proposals for infrastructure necessary to support portfolio of OpenWIS&reg; Projects 
