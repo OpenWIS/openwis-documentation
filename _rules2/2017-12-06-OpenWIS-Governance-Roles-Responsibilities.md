@@ -28,6 +28,7 @@ Defined in [ARTICLE 12: BOARD]({{ "/articles/12-board.html" | prepend: site.base
 * Approve the terms on which OpenWIS&reg; deliverables are licensed
 * Approve appointment of new Partners and Members
 * Appoint Managing Directors
+* Publish a record of Board meetings, listing Recommendations and Resolutions made
 
 ### Steering Committee (SC)
 Defined in [ARTICLE 13: STEERING COMMITTEE]({{ "/articles/13-steering-committee.html" | prepend: site.baseurl }})
@@ -51,6 +52,7 @@ Defined in [ARTICLE 13: STEERING COMMITTEE]({{ "/articles/13-steering-committee.
 * Manage risks to the OpenWIS&reg; Association; act as point of escalation for Project-level risks
 * Appoint SC Chair and Vice-chair
 * Appoint TC Chair and Vice-chair
+* Publish a record of SC meetings, listing Recommendations and Resolutions made
 
 ### Technical Committee (TC)
 Defined in [Article 14: TECHNICAL COMMITTEE]({{ "/articles/14-technical-committee.html" | prepend: site.baseurl }})
