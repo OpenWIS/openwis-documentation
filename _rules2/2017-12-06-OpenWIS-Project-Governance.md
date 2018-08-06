@@ -8,7 +8,7 @@ title: OpenWIS&reg; Project Governance
 This document describes the governance regime for Projects of the OpenWIS&reg; Association. This is intended as a supplement to the Articles of Association and Internal Rules. In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.
 
 ### Initiation of new Projects
-- A Member or Partner organisation may submit a proposal for a new Project; ‘**Project Proposal**’; for example, for the development of a new software package or as part of a contribution to an externally funded initiative. 
+- A Member or Partner organisation may submit a proposal for a new Project; ‘**Project Proposal**’; for example, a study or research activity, or for the development of a new software package or as part of a contribution to an externally funded initiative. 
 - When the Steering Committee deem that there is sufficient interest in a Project Proposal, the Steering Committee Chair will announce the development of a new **Project Charter**.
 - A Project Charter must define the scope, anticipated duration of **Incubation Phase** and other characteristics of the intended work.
 - Member and Partner organisations wishing to participate should register their interest their interest in the proposed Project, indicating, without binding commitment, what level resource they may be able to contribute.
@@ -50,9 +50,9 @@ The project initiation procedure is described [here]({{ "/assets/OpenWIS_Associa
     - ‘**z**’ = patch release number. 
 - Even number ‘Feature Releases’ (e.g. 4.**2**.0) will be stable releases intended for operational deployment; odd number ‘Feature Releases’ (e.g. 4.**1**.7) will be developer releases. The developer release allows new and experimental features to be exposed prior to their incorporation in a stable release.
 
-### Governance for Project deliverables and software releases
+### Governance for Project deliverables and releases
 - With guidance from the Technical Committee, the PMC will define the release mechanism, quality criteria and schedule pertinent to the project. 
 - The PMC must agree the release quality criteria with the Steering Committee.
-- Steering Committee will hold PMC to account with respect to the release quality criteria.
+- Steering Committee will hold PMC to account with respect to the release quality criteria - either through review of each release, or by post-release audit.
 
-The governance of project delivery and software releases is described in [this flowchart]({{ "/assets/OpenWIS_Association_governance-project_operation_(software_release_cycle).pdf" | prepend: site.baseurl }}).
+The governance of project delivery and releases is described in [this flowchart]({{ "/assets/OpenWIS_Association_governance-project_operation_(software_release_cycle).pdf" | prepend: site.baseurl }}).
