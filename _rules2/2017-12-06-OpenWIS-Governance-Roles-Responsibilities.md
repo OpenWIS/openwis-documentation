@@ -74,7 +74,7 @@ Defined in [Article 14: TECHNICAL COMMITTEE]({{ "/articles/14-technical-committe
 #### Composition
 **Project Lead(s)** (initially appointed by SC, otherwise elected by vote of PMC)
 **TC mentor** (appointed by TC)
-**PMC members** («_any person qualified by training, skills and/or experience, as judged by the SC or Project Lead_» = initially, one per participating Member of Partner organisation, otherwise elected from teh active Contributors by vote of the PMC)
+**PMC members** («_any person qualified by training, skills and/or experience, as judged by the SC or Project Lead_» = one per sponsoring Member of Partner organisation, membership may change over time through election from the active Contributors by vote of the PMC)
 
 #### Responsibilities
 * Ensure all Contributors have completed a CLA for the Project
