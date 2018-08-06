@@ -25,7 +25,7 @@ Defined in [ARTICLE 12: BOARD]({{ "/articles/12-board.html" | prepend: site.base
 * Approval of OpenWIS&reg; Association policy - including amendments to [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}) and [Internal Rules]({{ "/rules/" | prepend: site.baseurl }})
 * Approve annual budget, budget amendments and extraordinary expenditure; set membership fees
 * Approve initiation of Projects and amendments to Project Charters recommended by SC
-* Approve the terms on which OpenWIS&reg; software is licensed
+* Approve the terms on which OpenWIS&reg; deliverables are licensed
 * Approve appointment of new Partners and Members
 * Appoint Managing Directors
 
@@ -41,7 +41,7 @@ Defined in [ARTICLE 13: STEERING COMMITTEE]({{ "/articles/13-steering-committee.
 * Conduct out-reach to encourage organisations to join as Partners
 * Coordinate initiation of new Projects (determine if proposed projects fit the purpose of the OpenWIS&reg; Association; review Project Charters; establish the PMC for the Project; appoint Project Leader; help determine the License under which the Project will operate; commission technical resources (from TC) required by the Project etc.)
 * Hold Projects accountable for delivering to their schedule and quality plan (PMC must agree release criteria with SC); assess whether they are ready to move from Incubation to Mature phase
-* Approve release of OpenWIS&reg; software
+* Approve release strategy for OpenWIS&reg; deliverables and hold PMCs accountable for adherence to their approved strategy
 * Review Project’s requests to amend their Charter
 * Recommend amendments to Articles and Internal Rules to Board
 * Arbitrate where Project-level issues cannot be resolved by the PMC or TC
@@ -63,11 +63,11 @@ Defined in [Article 14: TECHNICAL COMMITTEE]({{ "/articles/14-technical-committe
 * Plan, manage & operate the technical infrastructure and resources required to support portfolio of OpenWIS&reg; Projects 
 * Manage CLAs from Contributors
 * Define, and ensure compliance with, the [Code of Conduct]({{ "/conduct/" | prepend: site.baseurl }}))
-* Define, and ensure compliance with, the general [Technical Rules]({{ "/tr/" | prepend: site.baseurl }})) applying to all Projects (coding standards, [software] packaging policy etc.)
-* Provide architectural oversight for Projects (e.g. “design authority” providing technical oversight); monitor, guide, and influence the software architectures used by Projects
+* Define, and ensure compliance with, the general [Technical Rules]({{ "/tr/" | prepend: site.baseurl }})) applying to all Projects (coding standards, software packaging policy etc.)
+* Provide technical oversight for Projects (e.g. “design authority”); monitor, guide, and influence the technical approach and its implementation within Projects
 * Provide release management oversight for Projects
 * Mentor Projects in Incubation phase
-* Define technical standards that Projects must adhere to; verifies compliance
+* Define technical standards that Projects must adhere to; verify compliance
 * Recommend to SC budgeted proposals for infrastructure necessary to support portfolio of OpenWIS&reg; Projects 
 * Advise SC on highlights, risks and issues pertaining to individual OpenWIS&reg; Projects
 
@@ -81,13 +81,13 @@ Defined in [Article 14: TECHNICAL COMMITTEE]({{ "/articles/14-technical-committe
 #### Responsibilities
 * Ensure all Contributors have completed a CLA for the Project
 * Run the Project, approve work-packages, collect requirements, set milestones, define quality criteria / release criteria
-* Engage with TC to review technical architecture for the Project's software
+* Engage with TC to review the technical approach for the Project
 * Develop plan for user and developer community engagement 
 * Communicate with individual Contributors
 * Define, and ensure compliance with, Technical Rules for the Project
 * Appoint PMC members and elect new Project Leaders
-* Agree Project quality criteria, milestones, release schedule and software license with SC
-* Prepare software releases and seek release approval from SC
+* Agree Project quality criteria, milestones, release schedule and usage license with SC
+* Prepare Project releases and, where necessary, seek release approval from SC
 * Report annually to SC on Project status vs. quality criteria, milestones, release schedule, community engagement, summary of interactions with TC (technical details not required) and any specific activities receiving financial support from the OpenWIS&reg; Association (as outlined in [Rule 12.8]({{ "/rules/12-financial-accounting-and-organisational-expenses.html#rule-12.8" | prepend: site.baseurl }}))
 
 ### Project teams
