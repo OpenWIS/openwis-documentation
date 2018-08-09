@@ -9,6 +9,8 @@ This document summarises the composition and responsibilities of the governance 
 
 This is intended as a supplement to the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}) and [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}). In the event of any discrepancy between the intentions noted in this document, meaning and governance shall be sought from the Articles of Association then the Internal Rules over this document.
 
+An overview of the governance roles and resposibilities is provided [here]({{ "/assets/OpenWIS_Association_governance-summary.pdf" | prepend: site.baseurl }}).
+
 ### Board
 Defined in [ARTICLE 12: BOARD]({{ "/articles/12-board.html" | prepend: site.baseurl }})
 
@@ -74,7 +76,7 @@ Defined in [Article 14: TECHNICAL COMMITTEE]({{ "/articles/14-technical-committe
 #### Composition
 **Project Lead(s)** (initially appointed by SC, otherwise elected by vote of PMC)
 **TC mentor** (appointed by TC)
-**PMC members** («_any person qualified by training, skills and/or experience, as judged by the SC or Project Lead_» = initially, one per participating Member of Partner organisation, otherwise elected from teh active Contributors by vote of the PMC)
+**PMC members** («_any person qualified by training, skills and/or experience, as judged by the SC or Project Lead_» = one per sponsoring Member of Partner organisation, membership may change over time through election from the active Contributors by vote of the PMC)
 
 #### Responsibilities
 * Ensure all Contributors have completed a CLA for the Project
