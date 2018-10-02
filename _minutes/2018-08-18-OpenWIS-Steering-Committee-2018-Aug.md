@@ -58,8 +58,7 @@ The attendees and proxies for this meeting via tele-conference were:
 
     d.	SC-2018-10 clarify 'in kind' position of UKMO re Amazon Web Services (AWS) -
         (https://github.com/OpenWIS/openwis-documentation/issues/414).
-
-        - JT –  the UK Met Office is content to keep paying the AWS costs at this current rate (EUR 2k / year).
+        JT –  the UK Met Office is content to keep paying the AWS costs at this current rate (EUR 2k / year).
 
     e.	SC-2018-11 check costs due from historic work to prepare annual accounts Steering Committee -
         (https://github.com/OpenWIS/openwis-documentation/issues/416).
