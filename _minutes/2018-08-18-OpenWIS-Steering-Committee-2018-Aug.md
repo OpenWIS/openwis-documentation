@@ -32,7 +32,7 @@ The attendees and proxies for this meeting via tele-conference were:
 - All attendees agreed that recording actions and their progress in GitHub was working OK and should continue.
 
   *From last SC*
-  
+
   a.	SC-2018-2 support cache in the cloud         
       (https://github.com/OpenWIS/openwis-documentation/issues/406)
       - RGr – JMA are developing a system that is to be hosted solely within JMA, i.e. not in the cloud.
@@ -123,12 +123,19 @@ From last Board -
   b.	**Schema.org**
       (https://github.com/OpenWIS/openwis-documentation/issues/439)
     - JT gave an overview of the proposal as set out in GitHub.
+
     - JT - Is there any suggestions or feedback on the proposal?
+
     - SO - Need a consistent approach to the content of the Project Charter – a template.
+
     - JT - JA to create a template to enable consistency.
+
     - RGr - need to clarify time-scales of tender, what is to be delivered and budget required.
+
     - JT – Will update proposal.  Funding will be from OpenWIS Association.  The UK Met Office will lead this activity, member are invited to review documents.
+
     - JT - Please add any comments to the issue in GitHub.
+    
     [ACTION SC-2018-36 Develop template for Project Charters](https://github.com/OpenWIS/openwis-documentation/issues/499)
 
 c.	**AMQP**
