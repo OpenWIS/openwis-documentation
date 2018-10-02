@@ -3,7 +3,7 @@ layout: page
 title: OpenWIS Steering Committee 2018 August
 ---
 
-##### 18th August 2018 - via WebEx teleconference
+#### 18th August 2018 - via WebEx teleconference
 
 **Attendance and proxies**
 The attendees and proxies for this meeting via tele-conference were:
@@ -36,8 +36,7 @@ The attendees and proxies for this meeting via tele-conference were:
 
     From last SC:
 
-    a.	SC-2018-2 support cache in the cloud - (https://github.com/OpenWIS/openwis-documentation/issues/406)
-
+    a.	SC-2018-2 support cache in the cloud - (https://github.com/OpenWIS/openwis-documentation/issues/406).
         - RGr – JMA are developing a system that is to be hosted solely within JMA, i.e. not in the cloud.
         - JT - The decision recorded at the WMO Executive Council 70 (EC-70) meeting did not mention shared
         services.  
@@ -51,12 +50,10 @@ The attendees and proxies for this meeting via tele-conference were:
 
     b.	SC-2018-7 set up a register of obligations to the Belgian Authorities Steering Committee -
         (https://github.com/OpenWIS/openwis-documentation/issues/411).
-
         - RGr – This is in progress.  RGr to update on issues and time-scales. It is estimated that 3 months are needed to complete the work.
 
     c.	SC-2018-9 raise an invoice of 10,000 Euros for ECMWF Associate Partner fees Steering Committee   
         (https://github.com/OpenWIS/openwis-documentation/issues/413).
-
         - Agreed to discuss this action as part of agenda item 6 - the OpenWIS Association’s bank account.
 
     d.	SC-2018-10 clarify 'in kind' position of UKMO re Amazon Web Services (AWS) -
@@ -145,6 +142,7 @@ The attendees and proxies for this meeting via tele-conference were:
         RGr - need to clarify time-scales of tender, what is to be delivered and budget required.
         JT – Will update proposal.  Funding will be from OpenWIS Association.  The UK Met Office will lead this activity, member are invited to review documents.               
         JT - Please add any comments to the issue in GitHub.
+[Action-SC-2017-77 Sign the agreement with ECMWF]
         [ACTION SC-2018-36 Develop template for Project Charters] (https://github.com/OpenWIS/openwis-documentation/issues/499).
 
     c.	AMQP - (https://github.com/OpenWIS/openwis-documentation/issues/440).
