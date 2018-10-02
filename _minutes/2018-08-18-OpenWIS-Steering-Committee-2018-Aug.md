@@ -88,14 +88,12 @@ The attendees and proxies for this meeting via tele-conference were:
         (https://github.com/OpenWIS/openwis-documentation/issues/434).
         JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
 
-        From last Board:
+        From last Board
 
     l.	Latest correspondence from potential new partners to be send to new President -
         (https://github.com/OpenWIS/openwis-documentation/issues/443).
         RGr – No correspondence from potential new partners.  However, we do have a new strategic partner – IMD.
-
         China – will try to meet at TT EWIS.  
-
         DWD and Canada – Waiting for Project Charter for AMQP to be approved to contact DWD and China as they are have an interest in AMQP; this may be a reason for them to be part of this consortium.
 
     m.	BM-2018-4 Check amount of invoice due to ECMWF -
@@ -104,7 +102,6 @@ The attendees and proxies for this meeting via tele-conference were:
 
     n.	BM-2018-3 Establish Belgian Authority requirements for change of President Board Meeting -
         (https://github.com/OpenWIS/openwis-documentation/issues/404).
-
         This is complete.  The work was carried out via Vincent Corbeel.  The costs are 1000 euros.
 
     o.	BM-2018-2 New president to introduce himself to IMD -
@@ -151,11 +148,9 @@ The attendees and proxies for this meeting via tele-conference were:
         JT - Yes
         RGr - JA to work on this as part of the Project Charter template.
         JT - We also need to agree the sponsors.  Therefore, to clarify for Scheme.org, the UK Met Office is the sponsor.  Is there anyone else interested?
-
         [ACTION SC-2018-38 Ensure that the Project Charter Template indicates the source of funding] (https://github.com/OpenWIS/openwis-documentation/issues/501).
         RGr - MF need to check.
         JT - By default, expecting review and feedback.
-
         [ACTION SC-2018-39 Feedback on all Project Charters within two weeks] (https://github.com/OpenWIS/openwis-documentation/issues/502).
 
     d.	Trust Model - (https://github.com/OpenWIS/openwis-documentation/issues/441).
