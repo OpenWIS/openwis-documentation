@@ -32,6 +32,7 @@ The attendees and proxies for this meeting via tele-conference were:
 - All attendees agreed that recording actions and their progress in GitHub was working OK and should continue.
 
   *From last SC*
+  
   a.	SC-2018-2 support cache in the cloud         
       (https://github.com/OpenWIS/openwis-documentation/issues/406)
       - RGr – JMA are developing a system that is to be hosted solely within JMA, i.e. not in the cloud.
