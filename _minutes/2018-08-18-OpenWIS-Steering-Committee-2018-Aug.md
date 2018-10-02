@@ -20,15 +20,15 @@ The attendees and proxies for this meeting via tele-conference were:
 - Kuldeep Srivastava (KS) India Meteorological Department (IMD)
 - Dr. S.L. Singh (SS) India Meteorological Department (IMD)
 
-1.	**Minutes and actions from the previous meeting**
+1.**Minutes and actions from the previous meeting**
 - All attendees agreed that no changes or additions were needed to the minutes of the previous meeting.
 
-2.	**Introduction from IMD – new strategic partner**
+2.**Introduction from IMD – new strategic partner**
 - JT handed the floor to RGr to introduce IMD.
 - RGr – I am glad that we have a new member and glad to be working on exciting proposals that will help the OpenWIS Association grow.
 - IMD representatives were unable to respond due to problems they were experiencing with their WebEx connection.
 
-3.	**Outstanding and due actions:**
+3.**Outstanding and due actions:**
 - All attendees agreed that recording actions and their progress in GitHub was working OK and should continue.
 
   *From last SC*
@@ -113,7 +113,7 @@ The attendees and proxies for this meeting via tele-conference were:
       (https://github.com/OpenWIS/openwis-documentation/issues/334)
   - The action for this is in progress.  Please see response to item 3b, above.
 
-4.	**Project Charters for WIS2:**
+4.**Project Charters for WIS2:**
 
   a.	Metadata formats
       (https://github.com/OpenWIS/openwis-documentation/issues/469)
@@ -164,7 +164,7 @@ The attendees and proxies for this meeting via tele-conference were:
   - JT – So we only need start and end dates.
     [ACTION SC-2018-40 Identify procurement support required for all study Project Charters](https://github.com/OpenWIS/openwis-documentation/issues/503)
 
-e.	**INSPIRE and OGC**
+e.	INSPIRE and OGC
     (https://github.com/OpenWIS/openwis-documentation/issues/438)
   - MV gave an overview of the current position, i.e. expecting updates and responses from Expert meeting and will give an update at the next SC.  No funding is required; the work will be benefit –in-kind.
   - JT – Any comments
@@ -172,12 +172,12 @@ e.	**INSPIRE and OGC**
     [ACTION SC-2018-41 Give and update on the INSPIRE and OGC Project Charter](https://github.com/OpenWIS/openwis-documentation/issues/504)
 
 
-5.	**Project Charter for OpenWIS 3**
+5.**Project Charter for OpenWIS 3**
     (https://github.com/OpenWIS/openwis-documentation/issues/497)
   - JA gave an overview of the proposal and the need to decide what type of governance is needed for OpenWIS 3x as there is no active development going forward, only maintenance and fixing of bugs.  There are three options – manage as a development project; manage with minimal governance, or manage work informally as fixes and patching is needed.  The recommendation is to discuss the best option at the next TC.
   [ACTION SC-2018-42 Ensure the OpenWIS 3x governance is on the agenda of the next TC](https://github.com/OpenWIS/openwis-documentation/issues/505)
 
-6.	**OpenWIS Association bank account**
+6.**OpenWIS Association bank account**
   - RGr - The transfer of the bank account from MFI to ING bank is not yet completed.  In the light of the complexity so far, an alternative solution is being explored.
   It was agreed that RGr would ask MFI President whether MFI is happy to continue with the current bank account in the meantime.  
   [ACTION SC-2018-43 Establish whether MFI are able to continue to operate the bank account](https://github.com/OpenWIS/openwis-documentation/issues/506)
@@ -186,7 +186,7 @@ e.	**INSPIRE and OGC**
   - It was agreed that 10k Euros is the correct amount to be invoiced to ECMWF as ECMWF actually joined in 2018 and that the invoice should be paid into the MFI bank account as the position with the ING bank is being progressed.
   [ACTION SC-2018-44 Email Rémy Gibault to get the MFI bank details in order to invoice ECMWF](https://github.com/OpenWIS/openwis-documentation/issues/507)
 
-7.	**Use of DropBox for storing CLAs and VAT documents**              
+7.**Use of DropBox for storing CLAs and VAT documents**              
     (https://github.com/OpenWIS/openwis-documentation/issues/424)
     (https://github.com/OpenWIS/openwis-documentation/issues/457)
 
@@ -197,25 +197,25 @@ e.	**INSPIRE and OGC**
 
   - All agreed with the approach to get legal advice first.
 
-8.	**Next annual meeting**
+8.**Next annual meeting**
     https://github.com/OpenWIS/openwis-documentation/issues/420)
 
   - JT - Is NWS able to host the annual meeting?
   - SO - Absolutely.  Discussions are in progress on the specific venue, likely to be Springfield’s, and, the likely dates are March or early April 2019.
   [ACTION SC-2018-45 Circulate dates to gauge availability for delegates for the 2019 annual meeting](https://github.com/OpenWIS/openwis-documentation/issues/508)
 
-  9.	**Risks**  
+9.**Risks**  
       SC-2018-8 update the risk log Steering Committee  - (https://github.com/OpenWIS/openwis-documentation/issues/412)
       Risk log is here - (https://github.com/OpenWIS/openwis-documentation/projects/4)
   - JT – The risks have been updated.  Please take a look a feedback
   - All – no comments
 
-10.	**AOB**
+10.**AOB**
     - SH – I am expecting a baby in February 2019.  Therefore, unable to carry on being the Treasurer of the OpenWIS Association.  I am looking at options within my Department but it is unlikely to be result in finding a replacement for me.  Therefore, there is a need to explore whether a Treasurer can be found from one of the partners.
     - SH – This could be MFI, which could make managing the bank account easier
     - RGb – I will check within MFI and respond by early September 2018.
     [ACTION SC-2018-46 Confirm whether MFI can provide a Treasurer](https://github.com/OpenWIS/openwis-documentation/issues/509)
 
 
-11.	**Next SC meeting** - SC-2018-13 schedule SC meetings quarterly -       
+11.**Next SC meeting** - SC-2018-13 schedule SC meetings quarterly -       
     (https://github.com/OpenWIS/openwis-documentation/issues/418)
