@@ -29,12 +29,13 @@ The attendees and proxies for this meeting via tele-conference were:
 
     - RGr – I am glad that we have a new member and glad to be working on exciting proposals that will help
       the OpenWIS Association grow.
-
-    IMD representatives were unable to respond due to problems they were experiencing with their WebEx connection.
+    - IMD representatives were unable to respond due to problems they were experiencing with their WebEx connection.
 
 3.	**Outstanding and due actions:**
-    All attendees agreed that recording actions and their progress in GitHub was working OK and should continue.
+    - All attendees agreed that recording actions and their progress in GitHub was working OK and should continue.
+
     From last SC:
+
     a.	SC-2018-2 support cache in the cloud - https://github.com/OpenWIS/openwis-documentation/issues/406
         RGr – JMA are developing a system that is to be hosted solely within JMA, i.e. not in the cloud.
         JT - The decision recorded at the WMO Executive Council 70 (EC-70) meeting did not mention shared services.  
