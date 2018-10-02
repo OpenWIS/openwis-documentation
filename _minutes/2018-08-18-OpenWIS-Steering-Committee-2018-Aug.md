@@ -50,11 +50,11 @@ The attendees and proxies for this meeting via tele-conference were:
 
     b.	SC-2018-7 set up a register of obligations to the Belgian Authorities Steering Committee -
         (https://github.com/OpenWIS/openwis-documentation/issues/411).
-        - RGr – This is in progress.  RGr to update on issues and time-scales. It is estimated that 3 months are needed to complete the work.
+        RGr – This is in progress.  RGr to update on issues and time-scales. It is estimated that 3 months are needed to complete the work.
 
     c.	SC-2018-9 raise an invoice of 10,000 Euros for ECMWF Associate Partner fees Steering Committee   
         (https://github.com/OpenWIS/openwis-documentation/issues/413).
-        - Agreed to discuss this action as part of agenda item 6 - the OpenWIS Association’s bank account.
+        Agreed to discuss this action as part of agenda item 6 - the OpenWIS Association’s bank account.
 
     d.	SC-2018-10 clarify 'in kind' position of UKMO re Amazon Web Services (AWS) -
         (https://github.com/OpenWIS/openwis-documentation/issues/414).
@@ -63,7 +63,7 @@ The attendees and proxies for this meeting via tele-conference were:
     e.	SC-2018-11 check costs due from historic work to prepare annual accounts Steering Committee -
         (https://github.com/OpenWIS/openwis-documentation/issues/416).
 
-        - RGr - No progress.  Work is in progress to complete accounts for last year, the costs of which are usually around 800 euros per annum, will check with Vincent Corbeel and provide an update in September 2018.
+        RGr - No progress.  Work is in progress to complete accounts for last year, the costs of which are usually around 800 euros per annum, will check with Vincent Corbeel and provide an update in September 2018.
 
     f.	SC-2018-16 update the 'stronger together' presentation -
         (https://github.com/OpenWIS/openwis-documentation/issues/421).
