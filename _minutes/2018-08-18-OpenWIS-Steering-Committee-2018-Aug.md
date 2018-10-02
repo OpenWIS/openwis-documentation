@@ -34,16 +34,16 @@ The attendees and proxies for this meeting via tele-conference were:
   *From last SC*
 
   a.	SC-2018-2 support cache in the cloud         
-      (https://github.com/OpenWIS/openwis-documentation/issues/406)
-      - RGr – JMA are developing a system that is to be hosted solely within JMA, i.e. not in the cloud.
-      - JT - The decision recorded at the WMO Executive Council 70 (EC-70) meeting did not mention shared services.  
-      - RGr - There was opposition from JMA, DWD and Russia.
-      - JT - The shared service aspect still holds.
-      - WQ – Does the CBS standing still valid?
-      - JT - WIS2 is still under consideration but will be more complicated to gain agreement on.
-      - JT – Is there support for a separate discussion on WIS2 as it is not on this agenda?
-      - WQ – Not at present.
-      - JT – ET WIS will informed about WIS2 information.
+  (https://github.com/OpenWIS/openwis-documentation/issues/406)
+  - RGr – JMA are developing a system that is to be hosted solely within JMA, i.e. not in the cloud.
+  - JT - The decision recorded at the WMO Executive Council 70 (EC-70) meeting did not mention shared services.  
+  - RGr - There was opposition from JMA, DWD and Russia.
+  - JT - The shared service aspect still holds.
+  - WQ – Does the CBS standing still valid?
+  - JT - WIS2 is still under consideration but will be more complicated to gain agreement on.
+  - JT – Is there support for a separate discussion on WIS2 as it is not on this agenda?
+  - WQ – Not at present.
+  - JT – ET WIS will informed about WIS2 information.
 
   b.	SC-2018-7 set up a register of obligations to the Belgian Authorities Steering Committee -
       (https://github.com/OpenWIS/openwis-documentation/issues/411)
