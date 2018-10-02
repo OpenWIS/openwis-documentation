@@ -85,7 +85,7 @@ The attendees and proxies for this meeting via tele-conference were:
       (https://github.com/OpenWIS/openwis-documentation/issues/434)
   - JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
 
-From last Board -
+*From last Board*
 
   l.	Latest correspondence from potential new partners to be send to new President -
       (https://github.com/OpenWIS/openwis-documentation/issues/443)
@@ -115,100 +115,100 @@ From last Board -
 
 4.	**Project Charters for WIS2:**
 
-  a.	**Metadata formats**
-      (https://github.com/OpenWIS/openwis-documentation/issues/469)  
-    - JT – The work is intended to commence in January 2019.  Therefore, the Charter should be postponed until near that time.
-    - All agreed to this approach.
+  a.	Metadata formats
+      (https://github.com/OpenWIS/openwis-documentation/issues/469)
+  - JT – The work is intended to commence in January 2019.  Therefore, the Charter should be postponed until near that time.
+  - All agreed to this approach.
 
-  b.	**Schema.org**
+  b.	Schema.org
       (https://github.com/OpenWIS/openwis-documentation/issues/439)
-    - JT gave an overview of the proposal as set out in GitHub.
-    - JT - Is there any suggestions or feedback on the proposal?
-    - SO - Need a consistent approach to the content of the Project Charter – a template.
-    - JT - JA to create a template to enable consistency.
-    - RGr - need to clarify time-scales of tender, what is to be delivered and budget required.
-    - JT – Will update proposal.  Funding will be from OpenWIS Association.  The UK Met Office will lead this activity, member are invited to review documents.
-    - JT - Please add any comments to the issue in GitHub.
+  - JT gave an overview of the proposal as set out in GitHub.
+  - JT - Is there any suggestions or feedback on the proposal?
+  - SO - Need a consistent approach to the content of the Project Charter – a template.
+  - JT - JA to create a template to enable consistency.
+  - RGr - need to clarify time-scales of tender, what is to be delivered and budget required.
+  - JT – Will update proposal.  Funding will be from OpenWIS Association.  The UK Met Office will lead this activity, member are invited to review documents.
+  - JT - Please add any comments to the issue in GitHub.
     [ACTION SC-2018-36 Develop template for Project Charters](https://github.com/OpenWIS/openwis-documentation/issues/499)
 
-c.	**AMQP**
+  c.	AMQP
     (https://github.com/OpenWIS/openwis-documentation/issues/440)
-    - RGr gave an overview of the proposal.
-    - JT - this is consistent with the discussions in Helsinki.
-    - RGr – David Podeur has already started working on this.  Is there is another partner interested being the ‘client’ to receive data?
-    - SO – There are some touchpoints with the Trust Model, so we are happy to link up.
-    - RGr- Who is contact person, please?
-    - SO – I will put you in touch with the contact point.
+  - RGr gave an overview of the proposal.
+  - JT - this is consistent with the discussions in Helsinki.
+  - RGr – David Podeur has already started working on this.  Is there is another partner interested being the ‘client’ to receive data?
+  - SO – There are some touchpoints with the Trust Model, so we are happy to link up.
+  - RGr- Who is contact person, please?
+  - SO – I will put you in touch with the contact point.
     [ACTION SC-2018-37 Provide NWS contact regarding the AMQP work](https://github.com/OpenWIS/openwis-documentation/issues/500)
 
-    - JT – As a point of process, are we all happy with this approach?
-    - All – yes.
-    - JT – With all Project Charters, we seek approval by SC. Therefore, if there are no concerns this is the recommendation to the Board.
-    - SH – We need to confirm the funding source, i.e. whether from the OpenWIS Association or in-kind contributions.
-    - JT - Yes
-    - RGr - JA to work on this as part of the Project Charter template.
-    - JT - We also need to agree the sponsors.  Therefore, to clarify for Scheme.org, the UK Met Office is the sponsor.  Is there anyone else interested?
+  - JT – As a point of process, are we all happy with this approach?
+  - All – yes.
+  - JT – With all Project Charters, we seek approval by SC. Therefore, if there are no concerns this is the recommendation to the Board.
+  - SH – We need to confirm the funding source, i.e. whether from the OpenWIS Association or in-kind contributions.
+  - JT - Yes
+  - RGr - JA to work on this as part of the Project Charter template.
+  - JT - We also need to agree the sponsors.  Therefore, to clarify for Scheme.org, the UK Met Office is the sponsor.  Is there anyone else interested?
     [ACTION SC-2018-38 Ensure that the Project Charter Template indicates the source of funding](https://github.com/OpenWIS/openwis-documentation/issues/501)
 
-    - RGr - MF need to check.
-    - JT - By default, expecting review and feedback.
+  - RGr - MF need to check.
+  - JT - By default, expecting review and feedback.
     [ACTION SC-2018-39 Feedback on all Project Charters within two weeks](https://github.com/OpenWIS/openwis-documentation/issues/502)
 
-d.	**Trust Model**
+  d.	Trust Model
     (https://github.com/OpenWIS/openwis-documentation/issues/441)
-    - SO gave a high-level introduction and overview of the Project Charter.
-    - JT - how has the time-scales been defined?
-    - SO - Assumptions made
-    - JT - Is the work to be done by a third party?
-    - SO - Yes
-    - JT – So we only need start and end dates.
+  - SO gave a high-level introduction and overview of the Project Charter.
+  - JT - how has the time-scales been defined?
+  - SO - Assumptions made
+  - JT - Is the work to be done by a third party?
+  - SO - Yes
+  - JT – So we only need start and end dates.
     [ACTION SC-2018-40 Identify procurement support required for all study Project Charters](https://github.com/OpenWIS/openwis-documentation/issues/503)
 
 e.	**INSPIRE and OGC**
     (https://github.com/OpenWIS/openwis-documentation/issues/438)
-    - MV gave an overview of the current position, i.e. expecting updates and responses from Expert meeting and will give an update at the next SC.  No funding is required; the work will be benefit –in-kind.
-    - JT – Any comments
-    - All – No comments.  
+  - MV gave an overview of the current position, i.e. expecting updates and responses from Expert meeting and will give an update at the next SC.  No funding is required; the work will be benefit –in-kind.
+  - JT – Any comments
+  - All – No comments.  
     [ACTION SC-2018-41 Give and update on the INSPIRE and OGC Project Charter](https://github.com/OpenWIS/openwis-documentation/issues/504)
 
 
 5.	**Project Charter for OpenWIS 3**
     (https://github.com/OpenWIS/openwis-documentation/issues/497)
-    - JA gave an overview of the proposal and the need to decide what type of governance is needed for OpenWIS 3x as there is no active development going forward, only maintenance and fixing of bugs.  There are three options – manage as a development project; manage with minimal governance, or manage work informally as fixes and patching is needed.  The recommendation is to discuss the best option at the next TC.
-    [ACTION SC-2018-42 Ensure the OpenWIS 3x governance is on the agenda of the next TC](https://github.com/OpenWIS/openwis-documentation/issues/505)
+  - JA gave an overview of the proposal and the need to decide what type of governance is needed for OpenWIS 3x as there is no active development going forward, only maintenance and fixing of bugs.  There are three options – manage as a development project; manage with minimal governance, or manage work informally as fixes and patching is needed.  The recommendation is to discuss the best option at the next TC.
+  [ACTION SC-2018-42 Ensure the OpenWIS 3x governance is on the agenda of the next TC](https://github.com/OpenWIS/openwis-documentation/issues/505)
 
 6.	**OpenWIS Association bank account**
-    - RGr - The transfer of the bank account from MFI to ING bank is not yet completed.  In the light of the complexity so far, an alternative solution is being explored.
-    It was agreed that RGr would ask MFI President whether MFI is happy to continue with the current bank account in the meantime.  
-    [ACTION SC-2018-43 Establish whether MFI are able to continue to operate the bank account](https://github.com/OpenWIS/openwis-documentation/issues/506)
+  - RGr - The transfer of the bank account from MFI to ING bank is not yet completed.  In the light of the complexity so far, an alternative solution is being explored.
+  It was agreed that RGr would ask MFI President whether MFI is happy to continue with the current bank account in the meantime.  
+  [ACTION SC-2018-43 Establish whether MFI are able to continue to operate the bank account](https://github.com/OpenWIS/openwis-documentation/issues/506)
 
-    - It was agreed to wait until the position regarding bank accounts is finalised before issuing an invoice to IMD.  
-    - It was agreed that 10k Euros is the correct amount to be invoiced to ECMWF as ECMWF actually joined in 2018 and that the invoice should be paid into the MFI bank account as the position with the ING bank is being progressed.
-    [ACTION SC-2018-44 Email Rémy Gibault to get the MFI bank details in order to invoice ECMWF](https://github.com/OpenWIS/openwis-documentation/issues/507)
+  - It was agreed to wait until the position regarding bank accounts is finalised before issuing an invoice to IMD.  
+  - It was agreed that 10k Euros is the correct amount to be invoiced to ECMWF as ECMWF actually joined in 2018 and that the invoice should be paid into the MFI bank account as the position with the ING bank is being progressed.
+  [ACTION SC-2018-44 Email Rémy Gibault to get the MFI bank details in order to invoice ECMWF](https://github.com/OpenWIS/openwis-documentation/issues/507)
 
 7.	**Use of DropBox for storing CLAs and VAT documents**              
     (https://github.com/OpenWIS/openwis-documentation/issues/424)
     (https://github.com/OpenWIS/openwis-documentation/issues/457)
 
-    - JA stated that the original reason for requesting DropBox was for storing completed CLA forms.  
+  - JA stated that the original reason for requesting DropBox was for storing completed CLA forms.  
     However, a process for this already exists which uses GitHub.  There is wider issue to understand how the OpenWIS Association needs to manage personal information for GDPR, commercial confidentiality and other legal requirements.  The UK Met Office is looking into this and it would be good to review the need for using Dropbox once this legal assessment is available.  It is expected in early September 2018.
 
-    - JT - It is possible to secure repositories in GitHub and it is good to store all information in one place.  So, depending on the outcome of the legal advice GitHub may be suitable
+  - JT - It is possible to secure repositories in GitHub and it is good to store all information in one place.  So, depending on the outcome of the legal advice GitHub may be suitable
 
-    - All agreed with the approach to get legal advice first.
+  - All agreed with the approach to get legal advice first.
 
 8.	**Next annual meeting**
     https://github.com/OpenWIS/openwis-documentation/issues/420)
 
-    - JT - Is NWS able to host the annual meeting?
-    - SO - Absolutely.  Discussions are in progress on the specific venue, likely to be Springfield’s, and, the likely dates are March or early April 2019.
-    [ACTION SC-2018-45 Circulate dates to gauge availability for delegates for the 2019 annual meeting](https://github.com/OpenWIS/openwis-documentation/issues/508)
+  - JT - Is NWS able to host the annual meeting?
+  - SO - Absolutely.  Discussions are in progress on the specific venue, likely to be Springfield’s, and, the likely dates are March or early April 2019.
+  [ACTION SC-2018-45 Circulate dates to gauge availability for delegates for the 2019 annual meeting](https://github.com/OpenWIS/openwis-documentation/issues/508)
 
   9.	**Risks**  
       SC-2018-8 update the risk log Steering Committee  - (https://github.com/OpenWIS/openwis-documentation/issues/412)
       Risk log is here - (https://github.com/OpenWIS/openwis-documentation/projects/4)
-      - JT – The risks have been updated.  Please take a look a feedback
-      - All – no comments
+  - JT – The risks have been updated.  Please take a look a feedback
+  - All – no comments
 
 10.	**AOB**
     - SH – I am expecting a baby in February 2019.  Therefore, unable to carry on being the Treasurer of the OpenWIS Association.  I am looking at options within my Department but it is unlikely to be result in finding a replacement for me.  Therefore, there is a need to explore whether a Treasurer can be found from one of the partners.
