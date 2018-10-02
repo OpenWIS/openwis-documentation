@@ -22,12 +22,13 @@ The attendees and proxies for this meeting via tele-conference were:
 
 
 1.	**Minutes and actions from the previous meeting**
-    All attendees agreed that no changes or additions were needed to the minutes of the previous meeting.
+    - All attendees agreed that no changes or additions were needed to the minutes of the previous meeting.
 
 2.	**Introduction from IMD – new strategic partner**
-    JT handed the floor to RGr to introduce IMD.
+    - JT handed the floor to RGr to introduce IMD.
 
-    RGr – I am glad that we have a new member and glad to be working on exciting proposals that will help the OpenWIS Association grow.
+    - RGr – I am glad that we have a new member and glad to be working on exciting proposals that will help
+      the OpenWIS Association grow.
 
     IMD representatives were unable to respond due to problems they were experiencing with their WebEx connection.
 
