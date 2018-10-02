@@ -123,19 +123,12 @@ From last Board -
   b.	**Schema.org**
       (https://github.com/OpenWIS/openwis-documentation/issues/439)
     - JT gave an overview of the proposal as set out in GitHub.
-
     - JT - Is there any suggestions or feedback on the proposal?
-
     - SO - Need a consistent approach to the content of the Project Charter – a template.
-
     - JT - JA to create a template to enable consistency.
-
     - RGr - need to clarify time-scales of tender, what is to be delivered and budget required.
-
     - JT – Will update proposal.  Funding will be from OpenWIS Association.  The UK Met Office will lead this activity, member are invited to review documents.
-
     - JT - Please add any comments to the issue in GitHub.
-    
     [ACTION SC-2018-36 Develop template for Project Charters](https://github.com/OpenWIS/openwis-documentation/issues/499)
 
 c.	**AMQP**
@@ -146,8 +139,8 @@ c.	**AMQP**
     - SO – There are some touchpoints with the Trust Model, so we are happy to link up.
     - RGr- Who is contact person, please?
     - SO – I will put you in touch with the contact point.
-    [ACTION SC-2018-37 Provide NWS contact regarding the AMQP work]
-    (https://github.com/OpenWIS/openwis-documentation/issues/500)
+    [ACTION SC-2018-37 Provide NWS contact regarding the AMQP work](https://github.com/OpenWIS/openwis-documentation/issues/500)
+
     - JT – As a point of process, are we all happy with this approach?
     - All – yes.
     - JT – With all Project Charters, we seek approval by SC. Therefore, if there are no concerns this is the recommendation to the Board.
@@ -156,6 +149,7 @@ c.	**AMQP**
     - RGr - JA to work on this as part of the Project Charter template.
     - JT - We also need to agree the sponsors.  Therefore, to clarify for Scheme.org, the UK Met Office is the sponsor.  Is there anyone else interested?
     [ACTION SC-2018-38 Ensure that the Project Charter Template indicates the source of funding](https://github.com/OpenWIS/openwis-documentation/issues/501)
+
     - RGr - MF need to check.
     - JT - By default, expecting review and feedback.
     [ACTION SC-2018-39 Feedback on all Project Charters within two weeks](https://github.com/OpenWIS/openwis-documentation/issues/502)
@@ -168,14 +162,15 @@ d.	**Trust Model**
     - JT - Is the work to be done by a third party?
     - SO - Yes
     - JT – So we only need start and end dates.
-    [ACTION SC-2018-40 Identify procurement support required for all study Project Charters] (https://github.com/OpenWIS/openwis-documentation/issues/503)
+    [ACTION SC-2018-40 Identify procurement support required for all study Project Charters](https://github.com/OpenWIS/openwis-documentation/issues/503)
 
 e.	**INSPIRE and OGC**
     (https://github.com/OpenWIS/openwis-documentation/issues/438)
     - MV gave an overview of the current position, i.e. expecting updates and responses from Expert meeting and will give an update at the next SC.  No funding is required; the work will be benefit –in-kind.
-    [ACTION SC-2018-41 Give and update on the INSPIRE and OGC Project Charter](https://github.com/OpenWIS/openwis-documentation/issues/504)
     - JT – Any comments
-    - All – No comments.
+    - All – No comments.  
+    [ACTION SC-2018-41 Give and update on the INSPIRE and OGC Project Charter](https://github.com/OpenWIS/openwis-documentation/issues/504)
+
 
 5.	**Project Charter for OpenWIS 3**
     (https://github.com/OpenWIS/openwis-documentation/issues/497)
@@ -220,6 +215,7 @@ e.	**INSPIRE and OGC**
     - SH – This could be MFI, which could make managing the bank account easier
     - RGb – I will check within MFI and respond by early September 2018.
     [ACTION SC-2018-46 Confirm whether MFI can provide a Treasurer](https://github.com/OpenWIS/openwis-documentation/issues/509)
+
 
 11.	**Next SC meeting** - SC-2018-13 schedule SC meetings quarterly -       
     (https://github.com/OpenWIS/openwis-documentation/issues/418)
