@@ -62,59 +62,50 @@ The attendees and proxies for this meeting via tele-conference were:
 
     e.	SC-2018-11 check costs due from historic work to prepare annual accounts Steering Committee -
         (https://github.com/OpenWIS/openwis-documentation/issues/416).
-
         RGr - No progress.  Work is in progress to complete accounts for last year, the costs of which are usually around 800 euros per annum, will check with Vincent Corbeel and provide an update in September 2018.
 
     f.	SC-2018-16 update the 'stronger together' presentation -
         (https://github.com/OpenWIS/openwis-documentation/issues/421).
-
-        - RGr – No response from Mattéo Dell’Acqua, I expect to get a response in September or October 2018
+        RGr – No response from Mattéo Dell’Acqua, I expect to get a response in September or October 2018
 
     g.	SC-2018-23 update the “responsibilities” rule supplement and the “Project Initiation” PowerPoint  
         slide  - (https://github.com/OpenWIS/openwis-documentation/issues/430).
-
-        - JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
+        JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
 
     h.	SC-2018-24 update the “responsibilities” rule supplement and the “Project Operation” PowerPoint
-        slide - (https://github.com/OpenWIS/openwis-documentation/issues/431).  
-
-        - JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
+        slide - (https://github.com/OpenWIS/openwis-documentation/issues/431).
+        JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
 
     i.	SC-2018-25 update “responsibilities” rule supplement Steering Committee  
         #432 - (https://github.com/OpenWIS/openwis-documentation/issues/432).
-
-        - JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
+        JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
 
     j.	SC-2018-26 update “responsibilities” rule supplement -    
         (https://github.com/OpenWIS/openwis-documentation/issues/433).
-
-        - JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
+        JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
 
     k.	SC-2018-27 update the “allocation of funds” PowerPoint slide -
         (https://github.com/OpenWIS/openwis-documentation/issues/434).
-
-        - JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
+        JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
 
         From last Board:
 
     l.	Latest correspondence from potential new partners to be send to new President -
         (https://github.com/OpenWIS/openwis-documentation/issues/443).
+        RGr – No correspondence from potential new partners.  However, we do have a new strategic partner – IMD.
 
-        - RGr – No correspondence from potential new partners.  However, we do have a new strategic partner – IMD.
+        China – will try to meet at TT EWIS.  
 
-        - China – will try to meet at TT EWIS.  
-
-        - DWD and Canada – Waiting for Project Charter for AMQP to be approved to contact DWD and China as they are have an interest in AMQP; this may be a reason for them to be part of this consortium.
+        DWD and Canada – Waiting for Project Charter for AMQP to be approved to contact DWD and China as they are have an interest in AMQP; this may be a reason for them to be part of this consortium.
 
     m.	BM-2018-4 Check amount of invoice due to ECMWF -
         (https://github.com/OpenWIS/openwis-documentation/issues/415).
-
-        - It was agreed that 10k Euros is the correct amount to be invoiced to ECMWF as ECMWF actually joined in 2018. Therefore, the action is complete.
+        It was agreed that 10k Euros is the correct amount to be invoiced to ECMWF as ECMWF actually joined in 2018. Therefore, the action is complete.
 
     n.	BM-2018-3 Establish Belgian Authority requirements for change of President Board Meeting -
         (https://github.com/OpenWIS/openwis-documentation/issues/404).
 
-        - This is complete.  The work was carried out via Vincent Corbeel.  The costs are 1000 euros.
+        This is complete.  The work was carried out via Vincent Corbeel.  The costs are 1000 euros.
 
     o.	BM-2018-2 New president to introduce himself to IMD -
         (https://github.com/OpenWIS/openwis-documentation/issues/403).
@@ -141,7 +132,7 @@ The attendees and proxies for this meeting via tele-conference were:
         RGr - need to clarify time-scales of tender, what is to be delivered and budget required.
         JT – Will update proposal.  Funding will be from OpenWIS Association.  The UK Met Office will lead this activity, member are invited to review documents.               
         JT - Please add any comments to the issue in GitHub.
-[Action-SC-2017-77 Sign the agreement with ECMWF]
+        [Action-SC-2017-77 Sign the agreement with ECMWF]
         [ACTION SC-2018-36 Develop template for Project Charters] (https://github.com/OpenWIS/openwis-documentation/issues/499).
 
     c.	AMQP - (https://github.com/OpenWIS/openwis-documentation/issues/440).
@@ -176,11 +167,11 @@ The attendees and proxies for this meeting via tele-conference were:
         JT – So we only need start and end dates.
         [ACTION SC-2018-40 Identify procurement support required for all study Project Charters] (https://github.com/OpenWIS/openwis-documentation/issues/503).
 
-        e.	INSPIRE and OGC - (https://github.com/OpenWIS/openwis-documentation/issues/438).
-            MV gave an overview of the current position, i.e. expecting updates and responses from Expert meeting and will give an update at the next SC.  No funding is required; the work will be benefit –in-kind.
-            [ACTION SC-2018-41 Give and update on the INSPIRE and OGC Project Charter] (https://github.com/OpenWIS/openwis-documentation/issues/504).
-            JT – Any comments
-            All – No comments.
+    e.	INSPIRE and OGC - (https://github.com/OpenWIS/openwis-documentation/issues/438).
+        MV gave an overview of the current position, i.e. expecting updates and responses from Expert meeting and will give an update at the next SC.  No funding is required; the work will be benefit –in-kind.
+        [ACTION SC-2018-41 Give and update on the INSPIRE and OGC Project Charter] (https://github.com/OpenWIS/openwis-documentation/issues/504).
+        JT – Any comments
+        All – No comments.
 
 5.	**Project Charter for OpenWIS 3** - (https://github.com/OpenWIS/openwis-documentation/issues/497).
     JA gave an overview of the proposal and the need to decide what type of governance is needed for OpenWIS 3x as there is no active development going forward, only maintenance and fixing of bugs.  There are three options – manage as a development project; manage with minimal governance, or manage work informally as fixes and patching is needed.  The recommendation is to discuss the best option at the next TC.
@@ -190,7 +181,6 @@ The attendees and proxies for this meeting via tele-conference were:
     All – none
 
 6.	**OpenWIS Association bank account**
-
     RGr - The transfer of the bank account from MFI to ING bank is not yet completed.  In the light of the complexity so far, an alternative solution is being explored.
 
     It was agreed that RGr would ask MFI President whether MFI is happy to continue with the current bank account in the meantime.  
@@ -202,23 +192,23 @@ The attendees and proxies for this meeting via tele-conference were:
     [ACTION SC-2018-44 Email Rémy Gibault to get the MFI bank details in order to invoice ECMWF] (https://github.com/OpenWIS/openwis-documentation/issues/507).
 
 
-  7.	**Use of DropBox for storing CLAs and VAT documents** -      
-      (https://github.com/OpenWIS/openwis-documentation/issues/424).
-      (https://github.com/OpenWIS/openwis-documentation/issues/457).
+7.	**Use of DropBox for storing CLAs and VAT documents** -      
+    (https://github.com/OpenWIS/openwis-documentation/issues/424).
+    (https://github.com/OpenWIS/openwis-documentation/issues/457).
 
-      JA stated that the original reason for requesting DropBox was for storing completed CLA forms.  
-      However, a process for this already exists which uses GitHub.  There is wider issue to understand how the OpenWIS Association needs to manage personal information for GDPR, commercial confidentiality and other legal requirements.  The UK Met Office is looking into this and it would be good to review the need for using Dropbox once this legal assessment is available.  It is expected in early September 2018.
+    JA stated that the original reason for requesting DropBox was for storing completed CLA forms.  
+    However, a process for this already exists which uses GitHub.  There is wider issue to understand how the OpenWIS Association needs to manage personal information for GDPR, commercial confidentiality and other legal requirements.  The UK Met Office is looking into this and it would be good to review the need for using Dropbox once this legal assessment is available.  It is expected in early September 2018.
 
-      JT - It is possible to secure repositories in GitHub and it is good to store all information in one place.  So, depending on the outcome of the legal advice GitHub may be suitable
+    JT - It is possible to secure repositories in GitHub and it is good to store all information in one place.  So, depending on the outcome of the legal advice GitHub may be suitable
 
-      All agreed with the approach to get legal advice first.
+    All agreed with the approach to get legal advice first.
 
 8.	**Next annual meeting** - (https://github.com/OpenWIS/openwis-documentation/issues/420).
 
-        JT - Is NWS able to host the annual meeting?
-        SO - Absolutely.  Discussions are in progress on the specific venue, likely to be Springfield’s, and, the likely dates are March or early April 2019.
+    JT - Is NWS able to host the annual meeting?
+    SO - Absolutely.  Discussions are in progress on the specific venue, likely to be Springfield’s, and, the likely dates are March or early April 2019.
 
-        [ACTION SC-2018-45 Circulate dates to gauge availability for delegates for the 2019 annual meeting] (https://github.com/OpenWIS/openwis-documentation/issues/508).
+    [ACTION SC-2018-45 Circulate dates to gauge availability for delegates for the 2019 annual meeting] (https://github.com/OpenWIS/openwis-documentation/issues/508).
 
 9.	**Risks  SC-2018-8 update the risk log Steering Committee**  -
     (https://github.com/OpenWIS/openwis-documentation/issues/412).
