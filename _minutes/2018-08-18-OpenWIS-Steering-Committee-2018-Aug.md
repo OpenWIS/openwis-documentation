@@ -33,8 +33,7 @@ The attendees and proxies for this meeting via tele-conference were:
 
   *From last SC*
 
-  a.	SC-2018-2 support cache in the cloud         
-      (https://github.com/OpenWIS/openwis-documentation/issues/406)
+  a.	[SC-2018-2 support cache in the cloud](https://github.com/OpenWIS/openwis-documentation/issues/406)
   - RGr – JMA are developing a system that is to be hosted solely within JMA, i.e. not in the cloud.
   - JT - The decision recorded at the WMO Executive Council 70 (EC-70) meeting did not mention shared services.  
   - RGr - There was opposition from JMA, DWD and Russia.
@@ -45,72 +44,56 @@ The attendees and proxies for this meeting via tele-conference were:
   - WQ – Not at present.
   - JT – ET WIS will informed about WIS2 information.
 
-  b.	SC-2018-7 set up a register of obligations to the Belgian Authorities Steering Committee -
-      (https://github.com/OpenWIS/openwis-documentation/issues/411)
+  b.	[SC-2018-7 set up a register of obligations to the Belgian Authorities Steering Committee](https://github.com/OpenWIS/openwis-documentation/issues/411)
   - RGr – This is in progress.  RGr to update on issues and time-scales. It is estimated that 3 months are needed to complete the work.
 
-  c.	SC-2018-9 raise an invoice of 10,000 Euros for ECMWF Associate Partner fees Steering Committee
-      (https://github.com/OpenWIS/openwis-documentation/issues/413)
+  c.	[SC-2018-9 raise an invoice of 10,000 Euros for ECMWF Associate Partner fees Steering Committee](https://github.com/OpenWIS/openwis-documentation/issues/413)
   - Agreed to discuss this action as part of agenda item 6 - the OpenWIS Association’s bank account.
 
-  d.	SC-2018-10 clarify 'in kind' position of UKMO re Amazon Web Services (AWS) -
-      (https://github.com/OpenWIS/openwis-documentation/issues/414)
+  d.	[SC-2018-10 clarify 'in kind' position of UKMO re Amazon Web Services (AWS)](https://github.com/OpenWIS/openwis-documentation/issues/414)
   - JT –  the UK Met Office is content to keep paying the AWS costs at this current rate (EUR 2k / year).
 
-  e.	SC-2018-11 check costs due from historic work to prepare annual accounts Steering Committee -
-      (https://github.com/OpenWIS/openwis-documentation/issues/416)
+  e.	[SC-2018-11 check costs due from historic work to prepare annual accounts Steering Committee](https://github.com/OpenWIS/openwis-documentation/issues/416)
   -  RGr - No progress.  Work is in progress to complete accounts for last year, the costs of which are usually around 800 euros per annum, will check with Vincent Corbeel and provide an update in September 2018.
 
-  f.	SC-2018-16 update the 'stronger together' presentation -
-      (https://github.com/OpenWIS/openwis-documentation/issues/421)
+  f.	[SC-2018-16 update the 'stronger together' presentation](https://github.com/OpenWIS/openwis-documentation/issues/421)
   - RGr – No response from Mattéo Dell’Acqua, I expect to get a response in September or October 2018
 
-  g.	SC-2018-23 update the “responsibilities” rule supplement and the “Project Initiation” PowerPoint slide  
-      (https://github.com/OpenWIS/openwis-documentation/issues/430)
+  g.	[SC-2018-23 update the “responsibilities” rule supplement and the “Project Initiation” PowerPoint slide](https://github.com/OpenWIS/openwis-documentation/issues/430)
   - JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
 
-  h.	SC-2018-24 update the “responsibilities” rule supplement and the “Project Operation” PowerPoint slide -
-      (https://github.com/OpenWIS/openwis-documentation/issues/431)  
+  h.	[SC-2018-24 update the “responsibilities” rule supplement and the “Project Operation” PowerPoint slide](https://github.com/OpenWIS/openwis-documentation/issues/431)  
   - JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
 
-  i.	SC-2018-25 update “responsibilities” rule supplement Steering Committee
-      (https://github.com/OpenWIS/openwis-documentation/issues/432)
+  i.	[SC-2018-25 update “responsibilities” rule supplement Steering Committee](https://github.com/OpenWIS/openwis-documentation/issues/432)
   - JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
 
-  j.	SC-2018-26 update “responsibilities” rule supplement -
-      (https://github.com/OpenWIS/openwis-documentation/issues/433)
+  j.	[SC-2018-26 update “responsibilities” rule supplement](https://github.com/OpenWIS/openwis-documentation/issues/433)
   - JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
 
-  k.	SC-2018-27 update the “allocation of funds” PowerPoint slide -
-      (https://github.com/OpenWIS/openwis-documentation/issues/434)
+  k.	[SC-2018-27 update the “allocation of funds” PowerPoint slide](https://github.com/OpenWIS/openwis-documentation/issues/434)
   - JT – a Pull Request is being has been prepared to make the change.  All agreed that this Pull Request should be applied.
 
 *From last Board*
 
-  l.	Latest correspondence from potential new partners to be send to new President -
-      (https://github.com/OpenWIS/openwis-documentation/issues/443)
+  l.	[Latest correspondence from potential new partners to be send to new President](https://github.com/OpenWIS/openwis-documentation/issues/443)
   - RGr – No correspondence from potential new partners.  However, we do have a new strategic partner – IMD.
     China – will try to meet at TT EWIS.  
     DWD and Canada – Waiting for Project Charter for AMQP to be approved to contact DWD and China as they are have an interest in AMQP; this may be a reason for them to be part of this consortium.
 
-  m.	BM-2018-4 Check amount of invoice due to ECMWF -
-      (https://github.com/OpenWIS/openwis-documentation/issues/415)
+  m.	[BM-2018-4 Check amount of invoice due to ECMWF](https://github.com/OpenWIS/openwis-documentation/issues/415)
   - It was agreed that 10k Euros is the correct amount to be invoiced to ECMWF as ECMWF actually joined in 2018. Therefore, the action is complete.
 
-  n.	BM-2018-3 Establish Belgian Authority requirements for change of President Board Meeting -
-      (https://github.com/OpenWIS/openwis-documentation/issues/404)
+  n.	[BM-2018-3 Establish Belgian Authority requirements for change of President Board Meeting](https://github.com/OpenWIS/openwis-documentation/issues/404)
   - This is complete.  The work was carried out via Vincent Corbeel.  The costs are 1000 euros.
 
-  o.	BM-2018-2 New president to introduce himself to IMD -
-      (https://github.com/OpenWIS/openwis-documentation/issues/403)
+  o.		[BM-2018-2 New president to introduce himself to IMD](https://github.com/OpenWIS/openwis-documentation/issues/403)
   - This is complete as IMD are now a new strategic partner.
 
-  p.	BM-2018-1 Establish IMD situation
-      (https://github.com/OpenWIS/openwis-documentation/issues/402)
+  p.	[BM-2018-1 Establish IMD situation](https://github.com/OpenWIS/openwis-documentation/issues/402)
   - This is complete as IMD are now a new strategic partner.
 
-  q.	RISK-000002 Compliance failures - carry out agreed mitigation -
-      (https://github.com/OpenWIS/openwis-documentation/issues/334)
+  q.		[RISK-000002 Compliance failures - carry out agreed mitigation](https://github.com/OpenWIS/openwis-documentation/issues/334)
   - The action for this is in progress.  Please see response to item 3b, above.
 
 4.**Project Charters for WIS2:**
