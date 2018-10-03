@@ -98,13 +98,11 @@ The attendees and proxies for this meeting via tele-conference were:
 
 4.**Project Charters for WIS2:**
 
-  a.	Metadata formats
-      (https://github.com/OpenWIS/openwis-documentation/issues/469)
+  a.	[Action-SC-2018-35 create project charter for future of metadata formatsMetadata formats](https://github.com/OpenWIS/openwis-documentation/issues/469)
   - JT – The work is intended to commence in January 2019.  Therefore, the Charter should be postponed until near that time.
   - All agreed to this approach.
 
-  b.	Schema.org
-      (https://github.com/OpenWIS/openwis-documentation/issues/439)
+  b.	[Action-SC-2018-31 - create project charter for schema.org studySchema.org](https://github.com/OpenWIS/openwis-documentation/issues/439)
   - JT gave an overview of the proposal as set out in GitHub.
   - JT - Is there any suggestions or feedback on the proposal?
   - SO - Need a consistent approach to the content of the Project Charter – a template.
@@ -114,8 +112,7 @@ The attendees and proxies for this meeting via tele-conference were:
   - JT - Please add any comments to the issue in GitHub.
     [ACTION SC-2018-36 Develop template for Project Charters](https://github.com/OpenWIS/openwis-documentation/issues/499)
 
-  c.	AMQP
-    (https://github.com/OpenWIS/openwis-documentation/issues/440)
+  c.	[Action-SC-2018-32 create project charter for AMQP](https://github.com/OpenWIS/openwis-documentation/issues/440)
   - RGr gave an overview of the proposal.
   - JT - this is consistent with the discussions in Helsinki.
   - RGr – David Podeur has already started working on this.  Is there is another partner interested being the ‘client’ to receive data?
@@ -137,8 +134,7 @@ The attendees and proxies for this meeting via tele-conference were:
   - JT - By default, expecting review and feedback.
     [ACTION SC-2018-39 Feedback on all Project Charters within two weeks](https://github.com/OpenWIS/openwis-documentation/issues/502)
 
-  d.	Trust Model
-    (https://github.com/OpenWIS/openwis-documentation/issues/441)
+  d.	[Action-SC-2018-33 create project charter for trust modelTrust Model](https://github.com/OpenWIS/openwis-documentation/issues/441)
   - SO gave a high-level introduction and overview of the Project Charter.
   - JT - how has the time-scales been defined?
   - SO - Assumptions made
@@ -147,16 +143,14 @@ The attendees and proxies for this meeting via tele-conference were:
   - JT – So we only need start and end dates.
     [ACTION SC-2018-40 Identify procurement support required for all study Project Charters](https://github.com/OpenWIS/openwis-documentation/issues/503)
 
-e.	INSPIRE and OGC
-    (https://github.com/OpenWIS/openwis-documentation/issues/438)
+e.		[Action-SC-2018-30 create project charter re INSPIRE and OGC](https://github.com/OpenWIS/openwis-documentation/issues/438)
   - MV gave an overview of the current position, i.e. expecting updates and responses from Expert meeting and will give an update at the next SC.  No funding is required; the work will be benefit –in-kind.
   - JT – Any comments
   - All – No comments.  
     [ACTION SC-2018-41 Give and update on the INSPIRE and OGC Project Charter](https://github.com/OpenWIS/openwis-documentation/issues/504)
 
 
-5.**Project Charter for OpenWIS 3**
-    (https://github.com/OpenWIS/openwis-documentation/issues/497)
+5.**[OpenWIS 3.x - Governance for maintaining operational software until 2024](https://github.com/OpenWIS/openwis-documentation/issues/497)**
   - JA gave an overview of the proposal and the need to decide what type of governance is needed for OpenWIS 3x as there is no active development going forward, only maintenance and fixing of bugs.  There are three options – manage as a development project; manage with minimal governance, or manage work informally as fixes and patching is needed.  The recommendation is to discuss the best option at the next TC.
   [ACTION SC-2018-42 Ensure the OpenWIS 3x governance is on the agenda of the next TC](https://github.com/OpenWIS/openwis-documentation/issues/505)
 
@@ -180,15 +174,13 @@ e.	INSPIRE and OGC
 
   - All agreed with the approach to get legal advice first.
 
-8.**Next annual meeting**
-    https://github.com/OpenWIS/openwis-documentation/issues/420)
+8.**[Action-SC-2018-15 next annual meeting](https://github.com/OpenWIS/openwis-documentation/issues/420)**
 
   - JT - Is NWS able to host the annual meeting?
   - SO - Absolutely.  Discussions are in progress on the specific venue, likely to be Springfield’s, and, the likely dates are March or early April 2019.
   [ACTION SC-2018-45 Circulate dates to gauge availability for delegates for the 2019 annual meeting](https://github.com/OpenWIS/openwis-documentation/issues/508)
 
-9.**Risks**  
-      SC-2018-8 update the risk log Steering Committee  - (https://github.com/OpenWIS/openwis-documentation/issues/412)
+9.**[Action-SC-2018-8 update the risk log](https://github.com/OpenWIS/openwis-documentation/issues/412)**  
       Risk log is here - (https://github.com/OpenWIS/openwis-documentation/projects/4)
   - JT – The risks have been updated.  Please take a look a feedback
   - All – no comments
@@ -202,3 +194,4 @@ e.	INSPIRE and OGC
 
 11.**Next SC meeting** - SC-2018-13 schedule SC meetings quarterly -       
     (https://github.com/OpenWIS/openwis-documentation/issues/418)
+    - It was agreed that the next SC should be in October 2018.
