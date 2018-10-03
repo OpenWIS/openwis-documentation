@@ -163,9 +163,9 @@ e.		[Action-SC-2018-30 create project charter re INSPIRE and OGC](https://github
   - It was agreed that 10k Euros is the correct amount to be invoiced to ECMWF as ECMWF actually joined in 2018 and that the invoice should be paid into the MFI bank account as the position with the ING bank is being progressed.
   [ACTION SC-2018-44 Email Rémy Gibault to get the MFI bank details in order to invoice ECMWF](https://github.com/OpenWIS/openwis-documentation/issues/507)
 
-7.**Use of DropBox for storing CLAs and VAT documents**              
-[Action-SC-2018-18 place VAT documents in DropBox for Business](https://github.com/OpenWIS/openwis-documentation/issues/424)
-[Action-TC-2018-20 check CLA process with paul rogers](https://github.com/OpenWIS/openwis-documentation/issues/457)
+7.**Use of DropBox for storing CLAs and VAT documents**
+  [Action-SC-2018-18 place VAT documents in DropBox for Business](https://github.com/OpenWIS/openwis-documentation/issues/424)
+  [Action-TC-2018-20 check CLA process with paul rogers](https://github.com/OpenWIS/openwis-documentation/issues/457)
 
   - JA stated that the original reason for requesting DropBox was for storing completed CLA forms.  
     However, a process for this already exists which uses GitHub.  There is wider issue to understand how the OpenWIS Association needs to manage personal information for GDPR, commercial confidentiality and other legal requirements.  The UK Met Office is looking into this and it would be good to review the need for using Dropbox once this legal assessment is available.  It is expected in early September 2018.
@@ -174,14 +174,14 @@ e.		[Action-SC-2018-30 create project charter re INSPIRE and OGC](https://github
 
   - All agreed with the approach to get legal advice first.
 
-8.**[Action-SC-2018-15 next annual meeting](https://github.com/OpenWIS/openwis-documentation/issues/420)**
-
+8.**Next annual meeting**
+  [Action-SC-2018-15 next annual meeting](https://github.com/OpenWIS/openwis-documentation/issues/420)**
   - JT - Is NWS able to host the annual meeting?
   - SO - Absolutely.  Discussions are in progress on the specific venue, likely to be Springfield’s, and, the likely dates are March or early April 2019.
   [ACTION SC-2018-45 Circulate dates to gauge availability for delegates for the 2019 annual meeting](https://github.com/OpenWIS/openwis-documentation/issues/508)
 
 9.**Risks**
-    [Action-SC-2018-8 update the risk log](https://github.com/OpenWIS/openwis-documentation/issues/412)  
+  [Action-SC-2018-8 update the risk log](https://github.com/OpenWIS/openwis-documentation/issues/412)  
     Risk log is here - (https://github.com/OpenWIS/openwis-documentation/projects/4)
   - JT – The risks have been updated.  Please take a look a feedback
   - All – no comments
