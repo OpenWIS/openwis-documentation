@@ -10,7 +10,7 @@ The attendees and proxies for this meeting via tele-conference were:
 - Jeremy Tandy (JT), Met Office (UKMO) - SC Chair
 - Rémy Giraud (RGr), Météo France (MF) - SC Vice-Chair
 - Stacey Harvey (SH), Met Office (UKMO) – OpenWIS Association Treasurer
-- Rémy Gibault (RGb), representing Météo-France International [MFI] with authority from  Loïc Le - - - -  
+- Rémy Gibault (RGb), representing Météo-France International [MFI] with authority from  Loïc Le  
   Gallou(LG) of Météo France International (MFI)
 - Weiqing Qu (WQ), Bureau of Meteorology (BoM)
 - Sungsoo Do (SD), Korea Meteorological Administration (KMA)
@@ -164,8 +164,8 @@ e.		[Action-SC-2018-30 create project charter re INSPIRE and OGC](https://github
   [ACTION SC-2018-44 Email Rémy Gibault to get the MFI bank details in order to invoice ECMWF](https://github.com/OpenWIS/openwis-documentation/issues/507)
 
 7.**Use of DropBox for storing CLAs and VAT documents**              
-    (https://github.com/OpenWIS/openwis-documentation/issues/424)
-    (https://github.com/OpenWIS/openwis-documentation/issues/457)
+[Action-SC-2018-18 place VAT documents in DropBox for Business](https://github.com/OpenWIS/openwis-documentation/issues/424)
+[Action-TC-2018-20 check CLA process with paul rogers](https://github.com/OpenWIS/openwis-documentation/issues/457)
 
   - JA stated that the original reason for requesting DropBox was for storing completed CLA forms.  
     However, a process for this already exists which uses GitHub.  There is wider issue to understand how the OpenWIS Association needs to manage personal information for GDPR, commercial confidentiality and other legal requirements.  The UK Met Office is looking into this and it would be good to review the need for using Dropbox once this legal assessment is available.  It is expected in early September 2018.
@@ -180,8 +180,9 @@ e.		[Action-SC-2018-30 create project charter re INSPIRE and OGC](https://github
   - SO - Absolutely.  Discussions are in progress on the specific venue, likely to be Springfield’s, and, the likely dates are March or early April 2019.
   [ACTION SC-2018-45 Circulate dates to gauge availability for delegates for the 2019 annual meeting](https://github.com/OpenWIS/openwis-documentation/issues/508)
 
-9.**[Action-SC-2018-8 update the risk log](https://github.com/OpenWIS/openwis-documentation/issues/412)**  
-      Risk log is here - (https://github.com/OpenWIS/openwis-documentation/projects/4)
+9.**Risks**
+    [Action-SC-2018-8 update the risk log](https://github.com/OpenWIS/openwis-documentation/issues/412)  
+    Risk log is here - (https://github.com/OpenWIS/openwis-documentation/projects/4)
   - JT – The risks have been updated.  Please take a look a feedback
   - All – no comments
 
@@ -192,6 +193,6 @@ e.		[Action-SC-2018-30 create project charter re INSPIRE and OGC](https://github
     [ACTION SC-2018-46 Confirm whether MFI can provide a Treasurer](https://github.com/OpenWIS/openwis-documentation/issues/509)
 
 
-11.**Next SC meeting** - SC-2018-13 schedule SC meetings quarterly -       
-    (https://github.com/OpenWIS/openwis-documentation/issues/418)
+11.**Next SC meeting**
+    [Action-SC-2018-13 schedule SC meetings quarterly](https://github.com/OpenWIS/openwis-documentation/issues/418)
     - It was agreed that the next SC should be in October 2018.
