@@ -96,8 +96,7 @@ Not present:
   - SO - Agreed that SO will get more information from JT. ACTION
   - SO – Can we discuss the effort required at a future PMC meeting?
   - ALL- agreed.
-
-  - **[set up PMC agenda and meeting](https://github.com/OpenWIS/openwis-documentation/issues/516)**
+  - **[SO to set up PMC agenda and meeting](https://github.com/OpenWIS/openwis-documentation/issues/516)**
 
 - [Consider new goals for quality](https://github.com/OpenWIS/openwis-documentation/issues/451)
 Agreed to discuss at next PMC
