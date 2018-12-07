@@ -97,7 +97,7 @@ Not present:
   - SO – Can we discuss the effort required at a future PMC meeting?
   - ALL- agreed.
 
-**[set up PMC agenda and meeting](https://github.com/OpenWIS/openwis-documentation/issues/516)**
+- **[set up PMC agenda and meeting](https://github.com/OpenWIS/openwis-documentation/issues/516)**
 
 - [Consider new goals for quality](https://github.com/OpenWIS/openwis-documentation/issues/451)
 Agreed to discuss at next PMC
