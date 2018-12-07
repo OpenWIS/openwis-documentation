@@ -31,17 +31,18 @@ Not present:
 **3. Review of Annual TC meeting actions**
 
   1. [Ensure that all outstanding CLAs are completed](https://github.com/OpenWIS/openwis-documentation/issues/456)  
-a.	BOM Status: BoM will be re-submit
-b.	Exeter Status: Completed.  MO to re-submit as Paul Rogers left organisation.
-c.	MF Status: Submitted in September 2018
-d.	Korean Status: Completed
-e.	NWS Status: to be submitted and will update and the next TC meeting
-f.	FMI Status: SO to chase FMI
-g.	ECMWF Status: SO to chase
-h.	India Status: SO to chase
+- a.	BOM Status: BoM will be re-submit
+- b.	Exeter Status: Completed.  MO to re-submit as Paul Rogers left organisation.
+- c.	MF Status: Submitted in September 2018
+- d.	Korean Status: Completed
+- e.	NWS Status: to be submitted and will update and the next TC meeting
+- f.	FMI Status: SO to chase FMI
+- g.	ECMWF Status: SO to chase
+- h.	India Status: SO to chase
 
 2.	[Check CLA  Process with Paul Rogers](#457).  
     - Agreed to close the action.
+
 3.	[Check secure dropbox service options](https://github.com/OpenWIS/openwis-documentation/issues/465)
 - Agreed  to leave open until decision on GDPR is known to inform wheher DropBox is required
 
@@ -60,9 +61,11 @@ h.	India Status: SO to chase
     - SO - can we amend the text to reflect flexible and use Cloudbees and Jenkins as an example?
     - WQ - If the aim is consider software quality then we should be more general
      - SO - agreed
+
      **ACTION – SO to update statement on Technical rules and align web site page information on technical rules, code of conduct and development process.**
 
-- [Re-align web site pages on technical rules and development process] (https://github.com/OpenWIS/openwis-documentation/issues/163)
+
+- [Re-align web site pages on technical rules and development process](https://github.com/OpenWIS/openwis-documentation/issues/163)
   - SO – asked for comments on the draft process
   - All – no comments
   - SO – A general question on what information should information should on the Wikki vs the website?
@@ -70,7 +73,8 @@ h.	India Status: SO to chase
   - WQ – agree with DW
   - SO – Any comments
   - All – none
-  - **ACTION All to comment on the word document to enable Steve to update document for approval at    the next TC meeting.**
+
+  **ACTION All to comment on the word document to enable Steve to update document for approval at    the next TC meeting.**
 
 - [Technical rules on how disputes on breach of technical rules are resolved should be    added](https://github.com/OpenWIS/openwis-documentation/issues/450)
   - This is closed!
@@ -92,7 +96,8 @@ h.	India Status: SO to chase
   - SO - Agreed that SO will get more information from JT. ACTION
   - SO – Can we discuss the effort required at a future PMC meeting?
   - ALL- agreed.
-**[Action-TC-2018-25 set up PMC agenda and meeting] (https://github.com/OpenWIS/openwis-documentation/issues/516)**
+
+**[set up PMC agenda and meeting](https://github.com/OpenWIS/openwis-documentation/issues/516)**
 
 - [Consider new goals for quality](https://github.com/OpenWIS/openwis-documentation/issues/451)
 Agreed to discuss at next PMC
@@ -105,6 +110,7 @@ Agreed to discuss at next PMC
    - JA -  who is best to co-ordinate? SO and BS?
    - SO and BS agreed
    - SO - Agreed the use the model.
+
 
 - **Develop an approach to technical standards.**
    See Action-TC-2018-1 create rules supplement on approach to technical standards
@@ -136,18 +142,21 @@ Agreed to discuss at next PMC
   - SO - Agreed.
   - WQ - OK
   - BS - OK
+
   **ACTION JA and SO to investigate what information is available and establish what DW has done in the past**
 
 - [Develop a repeatable process for quality](https://github.com/OpenWIS/openwis-documentation/issues/455)
   SO presented the issue. Does everyone agree that there are the proposed items are OK?
   - JA - Yes, it is a good base-line.
   - SO - Run out of time.
+
   **ACTION - SO to create a demo for approval by TC and SC**
 
 - [Set up of user forum](https://github.com/OpenWIS/openwis-documentation/issues/468)
   SO - Need understand who will be owner of the IP addresses and DNS for Discourse, to enable the Discourse service to be set up?
   DW - It may have been MFI
   BS - Quite possibly.
+
 **ACTION SO to contact RGb**
 
 - [Deploy the WIS2 PoC on AWS Servers in UKMO](https://github.com/OpenWIS/openwis-documentation/issues/448)
@@ -171,4 +180,5 @@ All agreed that this will be discussed at the next PMC meeting
    - SO - can you add as an issue in Github?
    - BS - Yes. Also allow SC to comment.
    - ALL - agreed.
-   - **ACTION - BS to raise the issue on Github**
+
+   **ACTION - BS to raise the issue on Github**
