@@ -68,6 +68,6 @@ As stated in [Article 12.2]({{ "/articles/12-board.html#article-12.2" | prepend:
 
 Any expenditure following approval by the Board shall be undertaken in accordance with the [OpenWIS Financial Management supplemental rules]({{ site.baseurl | prepend: site.url }}/rules2/2016-03-09-OpenWIS-Financial-Management.html) and relevant [Articles]({{ "/articles/" | prepend: site.baseurl }}) and [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}).
 
-The procedure for allocation of OpenWIS Association funds to projects is described [here]({{ "/assets/OpenWIS_Association_governance-allocation_of_funds_to_projects.pdf" | prepend: site.baseurl }}).
+The procedure for allocation of OpenWIS Association funds to projects is described [here]({{ "/assets/OpenWIS_Association_governance-allocation_of__funds_to_projects.pdf" | prepend: site.baseurl }}).
 
 [previous: TITLE 11]({{ "/rules/11-technical-rules.html" | prepend: site.baseurl }}) \| [next: TITLE 13]({{ "/rules/13-changing-these-rules.html" | prepend: site.baseurl }})
