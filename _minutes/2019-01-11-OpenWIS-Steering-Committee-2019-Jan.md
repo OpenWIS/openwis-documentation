@@ -42,7 +42,7 @@ JT opened the meeting and noted that there were sufficient representatives for t
 - SH - will add and invoice for IMD fees as a Strategic Partner.
 - RGr- Yes we will need to invoice.
 
-[ACTION – Natalie to raise invoice 200,000 Euros to IMD]()
+**ACTION – Natalie to raise invoice 200,000 Euros to IMD**
 
 *Costs:*
 - SH - 2018 costs are not finalised so a direct comparison is not possible.
@@ -65,7 +65,7 @@ JT opened the meeting and noted that there were sufficient representatives for t
 - LG - Board meeting?
 - RGr - No need for a Board Meeting. Can be approved virtually (i.e. via email)
 
-[ACTION – Need responses from remaining Board members (i.e. MFI, KMA, UK) via email]
+**ACTION – Need responses from remaining Board members (i.e. MFI, KMA, UK) via email]**
 
 - SH - Handover has started with Natalie.
 
@@ -104,7 +104,8 @@ JT opened the meeting and noted that there were sufficient representatives for t
 - LG - Please copy me in
 - SH – No problem
 
-[ACTION - Meeting with SH and Nathalie Dureisseix and LG to meet ACTION SH to send availability]
+**ACTION - Meeting with SH and Nathalie Dureisseix and LG to meet ACTION SH to send availability]**
+
 - JT – Can SC recommend the budget for 2019 to the Board?
 - All agreed
 
