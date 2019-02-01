@@ -81,4 +81,6 @@ Where RAG status is: R=RED, A=AMBER, G=GREEN.
 
 Although a project PMC doesn't have to use the risk register structure above (each project manages its risks as agreed by the project) it might be useful because the Project Management Committee will need to escalate any risks to the Steering Committee that are a threat to the Association. They may also transfer technical risks that have wider implications than just the project, to the Technical Committee.
 
-See the OpenWIS Association [risk log](https://github.com/OpenWIS/openwis-documentation/projects/4)
+See the OpenWIS Association [risk log](https://github.com/OpenWIS/openwis-documentation/projects/4).
+
+Individual risks will be reviewed by the Steering Committee on a schedule appropriate for the management of that risk, and by exception (ex-committee) if a risk requires urgent attention. The Steering Committee will review the entire [risk log](https://github.com/OpenWIS/openwis-documentation/projects/4) on a twice-yearly basis.
