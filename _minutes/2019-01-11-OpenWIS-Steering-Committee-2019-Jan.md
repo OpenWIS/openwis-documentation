@@ -84,7 +84,7 @@ JT opened the meeting and noted that there were sufficient representatives for t
 - ALL – agreed
 - SH – Is there a budget for all of remaining projects?
 - JT – We should budget for 4 projects.
-- •	All- agreed
+- All- agreed
 
 *2019 budget contingencies:*
 - SH - I proposed that contingency remains at 10,000 euros for project related expenditure.
@@ -143,10 +143,10 @@ RES-OWIS – The SC agreed the Project Charter template
 - JA - Seen some progress on the AMQP work but no progress on others. I am aware that the Trust Model Charter and work is due to start now.
 
 *4.2 AMQP Project Charter*
-- RGr gave the following update:
-  o	There are two aspects to AMQP which was discussed in China (TT-eWIS)
-  o	There are similarities with OpenWIS proposal and WIS2 framework.
-  o	There is potential interest for two groups, so contact to be made with DWD and Canada to join.
+- RGr gave the following update:  
+  o	There are two aspects to AMQP which was discussed in China (TT-eWIS)  
+  o	There are similarities with OpenWIS proposal and WIS2 framework.  
+  o	There is potential interest for two groups, so contact to be made with DWD and Canada to join.  
   o	A meeting is scheduled on 15th January 2019 with Canada, DWD (Germany), and other interested parties of Russia and Brazil to discuss interest and make progress in a way that can remove duplication of effort.
 
 - JT - There is a Project Charter for this. We can seek to approve it.
@@ -208,22 +208,25 @@ RES-OWIS – The SC agreed amendment to the Project Governance rules supplement
 
 [ACTION – BS to merge the additional text with the existing Project Governance rules supplement using a new branch and submit via a Pull Request in Github for approval.](https://github.com/OpenWIS/openwis-documentation/issues/401#issuecomment-455602814)
 
-**[6.Managing the Compliance Risk](https://github.com/OpenWIS/openwis-documentation/projects/6OpenWIS)**
+**6.Managing the Compliance Risk88**
+
+  [Compliance risk](https://github.com/OpenWIS/openwis-documentation/projects/6OpenWIS)**  
+
 The actions to manage this were reviewed:
 
-- [Set up a register of obligations to the Belgian Authorities](https://github.com/OpenWIS/openwis-documentation/411)
-  o	RGr – updated that there is no progress at this point and further progress should be available by mid-2019.
+- [Set up a register of obligations to the Belgian Authorities](https://github.com/OpenWIS/openwis-documentation/411)  
+o	RGr – updated that there is no progress at this point and further progress should be available by mid-2019.
 
-- [Check for Trademark fees](https://github.com/OpenWIS/openwis-documentation/247)
-  o	MV - It appears that this is not due until 2020.
-  o	All agreed that this should be left until expired.
-  o	JA - Vincent Corbeel may be able to help
-  o	RGr - Need to check with Legal colleagues within MF.
-  o	JT - from the document, it looks like MF own the registration. Therefore, we have options of keeping registered with MF or let the trademark lapse and submit the trademark under name of the OpenWIS Association.
-  o	JT - It would be good for the OpenWIS Association to own its own trademark.
-  o	RGr -The Board would need to decide on the option.
-  o	JT - Yes, the Board will need ownership of this item, so it should be tagged as an item for the Board in Github (done during meeting).
-  o	RGr - There will be a need to put aside a budget for this.
+- [Check for Trademark fees](https://github.com/OpenWIS/openwis-documentation/247)  
+  o	MV - It appears that this is not due until 2020.  
+  o	All agreed that this should be left until expired.  
+  o	JA - Vincent Corbeel may be able to help  
+  o	RGr - Need to check with Legal colleagues within MF.  
+  o	JT - from the document, it looks like MF own the registration. Therefore, we have options of keeping registered with MF or let the trademark lapse and submit the trademark under name of the OpenWIS Association.  
+  o	JT - It would be good for the OpenWIS Association to own its own trademark.  
+  o	RGr -The Board would need to decide on the option.  
+  o	JT - Yes, the Board will need ownership of this item, so it should be tagged as an item for the Board in Github (done during meeting).  
+  o	RGr - There will be a need to put aside a budget for this.  
   o	JT – So, no further action from this meeting.
 
 [ACTION – RGr to consult Legal and other relevant colleagues within MF.](https://github.com/OpenWIS/openwis-documentation/issues/247#issuecomment-455605022)
