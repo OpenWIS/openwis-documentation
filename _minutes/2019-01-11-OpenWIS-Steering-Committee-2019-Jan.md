@@ -27,10 +27,10 @@ Not present:
 
 JT opened the meeting and noted that there were sufficient representatives for the meeting to be quorate.
 
-1.**Minutes and actions from the previous meeting**
+**1.Minutes and actions from the previous meeting**
 - All attendees agreed that no changes or additions were needed to the minutes of the previous meeting.
 
-2.**Budget for 2019**
+**2.Budget for 2019**
 - SH presented the draft budget proposal for 2019.
 
 *Income:*
@@ -113,13 +113,13 @@ RES-OWIS – 2019 budget agreed at this meeting by the SC is to be recommended t
 
 [ACTION – SH to send SC approved budget to Board for approval](https://github.com/OpenWIS/openwis-documentation/issues/525)
 
-3.**OpenWIS bank account and Treasurer**
+**3.OpenWIS bank account and Treasurer**
 
 - RGr - Due to the difficulties experienced in setting up the ING Bank account and as the OpenWIS Association is VAT ex exempt, the Board has been recommended to continue to use MFI’s bank account for the OpenWIS Association.
 - RGr - We have, as already discussed, proposing to the use MFI for Treasury services.
 - All - the SC notes the recommendations that have been put to the Board.
 
-4.**Project Charters for WIS2:**
+**4.Project Charters for WIS2:**
 - JT gave a recap of the agreed project at the last annual meeting in Helsinki and asked the SC to note the development in WMO since Helsinki -
 - WIS2 implementation has matured significantly.
 - WMO has produced a paper for consultation before Congress in June 2019.
@@ -128,7 +128,7 @@ RES-OWIS – 2019 budget agreed at this meeting by the SC is to be recommended t
 - RGr - have the documents been sent?
 - JT – Need to check with David Thomas at WMO.
 
-*4.1 Revised Project Charter template #499*
+*4.1 Revised Project Charter template*
 - JA - gave an overview of the revised project charter template
 - JT - Any questions or clarifications?
 - JT - No responses, so this will work.
@@ -142,7 +142,7 @@ RES-OWIS – The SC agreed the Project Charter template
 - JT - JA please update of status of the project charters agreed at Helsinki.
 - JA - Seen some progress on the AMQP work but no progress on others. I am aware that the Trust Model Charter and work is due to start now.
 
-*4.2 AMQP Project Charter #440 (comment)*
+*4.2 AMQP Project Charter*
 - RGr gave the following update:
   o	There are two aspects to AMQP which was discussed in China (TT-eWIS)
   o	There are similarities with OpenWIS proposal and WIS2 framework.
@@ -160,7 +160,7 @@ RES-OWIS – THE SC approved the AMQP Project Charter
 
 [ACTION – JA to convert the AMQP Project Charter document to Markdown and publish in a tab under ‘projects’ on the OpenWIS Association web site.](https://github.com/OpenWIS/openwis-documentation/issues/440#issuecomment-455596435)
 
-*4.3	INSPIRE Project Charter #438 (comment)*
+*4.3	INSPIRE Project Charter*
 - MV - Awaiting information from the INSPIRE MIG Working Group, which should be available in mid-January 2019.
 - JT – All OK to approve the Charter?
 - ALL SC agreed
@@ -171,10 +171,10 @@ RES-OWIS – THE SC approved the AMQP Project Charter
 - JT – No progress on this this point.
 
 
-5.**Items from the Technical Committee**
+**5.Items from the Technical Committee**
 
 *5.1	Project Charters for OpenWIS 3x*
-- BS introduced and gave an overview of this proposal #497 (comment)
+- BS introduced and gave an overview of this proposal
 - JT – Any comments?
 - All – None.
 - SC – Approved this Charter
@@ -184,7 +184,7 @@ RES-OWIS – SC agreed the OpenWIS 3x Project Charter
 [ACTION – BS and JA to convert this Project Charter to Markdown format and publish on the OpenWIS web site.](https://github.com/OpenWIS/openwis-documentation/issues/497#issuecomment-456356804)
 
 *5.2	Project Initiation process*
-- BS introduced and gave an overview of this proposal #401
+- BS introduced and gave an overview of this proposal
 - JT - What is meant by the ‘task force’?
 - BS - May need resources from the OpenWIS Association
 - JT - We have referred to this as the ‘project team’ before.
@@ -208,13 +208,13 @@ RES-OWIS – The SC agreed amendment to the Project Governance rules supplement
 
 [ACTION – BS to merge the additional text with the existing Project Governance rules supplement using a new branch and submit via a Pull Request in Github for approval.](https://github.com/OpenWIS/openwis-documentation/issues/401#issuecomment-455602814)
 
-6.**Managing the Compliance Risk https://github.com/OpenWIS/openwis-documentation/projects/6OpenWIS**
+**[6.Managing the Compliance Risk](https://github.com/OpenWIS/openwis-documentation/projects/6OpenWIS)**
 The actions to manage this were reviewed:
 
-- Set up a register of obligations to the Belgian Authorities #411
+- [Set up a register of obligations to the Belgian Authorities](https://github.com/OpenWIS/openwis-documentation/411)
   o	RGr – updated that there is no progress at this point and further progress should be available by mid-2019.
 
-- Check for Trademark fees #247
+- [Check for Trademark fees](https://github.com/OpenWIS/openwis-documentation/247)
   o	MV - It appears that this is not due until 2020.
   o	All agreed that this should be left until expired.
   o	JA - Vincent Corbeel may be able to help
@@ -231,7 +231,7 @@ The actions to manage this were reviewed:
 - The action to move funds from the MFI bank account to the ING bank account was closed as the SC has agreed with the recommendation to the Board of keeping the OpenWIS Association bank account with MFI.
 
 
-7.**General Data Protection Regulation (GDPR) #459 (comment)**
+**7.General Data Protection Regulation (GDPR)**
 
 *7.1 GDPR Legal Advice and recommendation*
 - JA presented the GDPR positon and suggested way forward following consultation with Legal colleagues in the Met Office.
@@ -256,9 +256,9 @@ The actions to manage this were reviewed:
 - JT - This work on DropBox should wait until further progress is made on the GDPR work.
 - All – agreed.
 
-8.**Any other business**
+**8.Any other business**
 
-*8.1 Duplicate OpenWIS Association web site information #105 (comment)*
+*8.1 Duplicate OpenWIS Association web site information*
 - JT - please be aware that duplicate information exists and we will need to do some work to direct people to the correct and up to date information.
 - RGr - Eventually MFI would do an http re-direct. However, this can be done now.
 - JT - If done now, the forum will not be accessible.
@@ -278,7 +278,7 @@ RES-OWIS – the SC agreed to use the http re-direct now as a quick-win to ensur
 [ACTION – BS to work with RGb to make the necessary changes.](https://github.com/OpenWIS/openwis-documentation/issues/105#issuecomment-455607464)
 
 
-9.**Open actions assigned to SC, next SC meeting and Annual meeting**
+**9.Open actions assigned to SC, next SC meeting and Annual meeting**
 - It was agreed that these items are to be discussed via email
 
 CLOSE
