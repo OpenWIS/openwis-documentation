@@ -24,19 +24,27 @@ _Please state the name of the sponsor, the organisation represented by the spons
 ## Milestones & Schedule
 
 _Please list the milestones that will be needed to achieve each of the deliverables that are included within the scope of this project._
-Project Milestone 	Begin Date 	End Date
-Project start 	  	
-_insert milestone 1_ 		
-_insert milestone 2_ 		
-_insert milestone n_ 		
-Project closure 		
+
+|  Project Milestone  |  Begin Date  |  End Date  |
+| ---------------------|---------------|-------------|
+|  Project   start        |  
+|  _insert milestone 1_|
+|  _insert milestone 2_|
+|  _insert milestone n_|
+|  Project closure |
+
+
 ## Roles and Responsibilities
 
 _Please list the people to involve or equipment (such as hardware and/or software) in this project; what their role in the project is; and what they will deliver (relate this to a milestone where relevant)_
-Resource Name 	Organisation 	Role 	What this resource will be do in relation to a listed milestone 	Time period resource needed for
-Resource 1 				
-Resource 2 				
-Resource n 				
+
+
+Resource Name  |  Organisation  |  Role  | What this resource will be do in relation to a listed milestone | Time period resource needed for|
+| ---------------------|---------------|-------------|-------------|-------------|
+|  Resource 1 |    |    |  | |
+|  Resource 2 |    |    |  | |
+|  Resource n |    |    |  | |
+
 ## Communication and Reporting
 
 _Please state the communication and reporting arrangements for interactions with:_
