@@ -47,12 +47,13 @@ Resource Name  |  Organisation  |  Role  | What this resource will be do in rela
 
 ## Communication and Reporting
 
-_Please state the communication and reporting arrangements for interactions with:_
-_• The Project Team_
-_• Project Management MCommittee(s) Please list if more than one._
-_• Technical Committee (TC) and Steering Committee (SC)_
-_• Delivery of the final report/briefing on the project outcome or study findings and recommendations_
-_• Another relevant communication or interactions_
+_Please state the communication and reporting arrangements for interactions with:_  
+_• The Project Team_  
+_• Project Management MCommittee(s) Please list if more than one._  
+_• Technical Committee (TC) and Steering Committee (SC)_  
+_• Delivery of the final report/briefing on the project outcome or study findings and recommendations_  
+_• Another relevant communication or interactions_  
+
 ## Configuration Management Process
 
 _Please state how any of artefacts needed for each of the deliverables will be managed, referring to the relevant rules and rules supplements of the OpenWIS Association._
