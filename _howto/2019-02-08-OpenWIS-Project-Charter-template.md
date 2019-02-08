@@ -21,6 +21,7 @@ _Please list the specific things that this project deliver that is part of the i
 ## Sponsor and funding source
 
 _Please state the name of the sponsor, the organisation represented by the sponsor and the source of funding for this project._
+
 ## Milestones & Schedule
 
 _Please list the milestones that will be needed to achieve each of the deliverables that are included within the scope of this project._
@@ -33,11 +34,9 @@ _Please list the milestones that will be needed to achieve each of the deliverab
 |  _insert milestone n_|
 |  Project closure |
 
-
 ## Roles and Responsibilities
 
 _Please list the people to involve or equipment (such as hardware and/or software) in this project; what their role in the project is; and what they will deliver (relate this to a milestone where relevant)_
-
 
 Resource Name  |  Organisation  |  Role  | What this resource will be do in relation to a listed milestone | Time period resource needed for|
 | ---------------------|---------------|-------------|-------------|-------------|
@@ -47,13 +46,14 @@ Resource Name  |  Organisation  |  Role  | What this resource will be do in rela
 
 ## Communication and Reporting
 
-_Please state the communication and reporting arrangements for interactions with:_  
-_• The Project Team_  
-_• Project Management MCommittee(s) Please list if more than one._  
-_• Technical Committee (TC) and Steering Committee (SC)_  
-_• Delivery of the final report/briefing on the project outcome or study findings and recommendations_  
-_• Another relevant communication or interactions_  
+_Please state the communication and reporting arrangements for interactions with:_
+_•	The Project Team_
+_•	Project Management MCommittee(s) Please list if more than one._
+_•	Technical Committee (TC)  and Steering Committee (SC)_
+_•	Delivery of the final report/briefing on the project outcome or study findings and recommendations_
+_•	Another relevant communication or interactions_
 
-## Configuration Management Process
+
+## Configuration Management
 
 _Please state how any of artefacts needed for each of the deliverables will be managed, referring to the relevant rules and rules supplements of the OpenWIS Association._
