@@ -5,7 +5,7 @@ title: A Markdown template for OpenWIS Project Charters
 
 
 ---
-(horizontal rule)
+
 
 # Project Charter for _please insert name of project here_
 ## Aim
