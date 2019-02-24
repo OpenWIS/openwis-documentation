@@ -1,0 +1,23 @@
+---
+layout: default
+title: Action Tracker documentation 
+# This generates a directory /minutes/ with an index.html file containing the html output from the for loop below, which list all the files in _minutes
+permalink: /minutes/action/
+# minuteOwner: action
+---
+<header>
+   <h1 class="post-title">{{ page.title }}</h1>
+</header>
+
+<div class="posts-index">
+
+	{% for post in site.minutes %}
+	   {% unless forloop.last %}
+		{% if post.minuteOwner == "action" %}
+		<li>
+			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</li>
+				{% endif %}
+	   {% endunless %}
+	{% endfor %}
+</div>
