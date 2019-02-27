@@ -36,6 +36,14 @@
                <li><ul class="dropdown"><label for="p22"><a href="{{ site.data.excel2wis.subpath | prepend: site.baseurl }}">Excel2wis Tool</a></label><input id="p22" type="checkbox" checked>
 	          <li><a href="https://github.com/OpenWIS/excel2wis" target="_blank">Excel2wis github repository</a></li>
 	       </ul></li>
+               <li><ul class="dropdown"><label for="p23"><a href="{{ site.data.wis2poc.subpath | prepend: site.baseurl }}">WIS2-PoC-1</a></label><input id="p23" type="checkbox" checked>
+                  <li><a href="https://github.com/OpenWIS/WIS2-PoC-1">{{ site.data.wis2poc.title }}</a></li>
+               </ul></li>
+            </ul>
+         </div>
+         <div class="page-link">
+            <ul class="dropdown"><label for="rm"><a href="{{ site.data.release.subpath | prepend: site.baseurl }}">Release Management</a></label><input id="rm1" type="checkbox">
+                <li><a href="{{ site.data.releaseprocess.subpath | prepend: site.baseurl | append: "release-management.html"}}">Release Management Process</a></li>
             </ul>
          </div>
          <a class="page-link" href="mailto: {{ site.email }}">Contact</a>

@@ -1,19 +1,23 @@
 ---
-layout: default
-title: Meetings documentation 
-# This generates a directory /minutes/ with an index.html file containing the html output from the for loop below, which list all the files in _minutes
+layout: page
+title: Meetings documentation
 permalink: /minutes/
 ---
-<header>
-   <h1 class="post-title">{{ page.title }}</h1>
-</header>
 
-<div class="posts-index">
-	{% for post in site.minutes %}
-	   {% unless forloop.last %}
-		<li>
-			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-		</li>
-	   {% endunless %}
-	{% endfor %}
+<div class="home">
+
+<a href="{{ "/minutes/board/index.html" | prepend: site.baseurl }}">Board Documentation</a>
+<p>
+<a href="{{ "/minutes/steering/index.html" | prepend: site.baseurl }}">Steering Committee Documentation</a>
+<p>
+<a href="{{ "/minutes/technical/index.html" | prepend: site.baseurl }}">Technical Committee Documentation</a>
+<p>
+<a href="{{ "/minutes/annual/index.html" | prepend: site.baseurl }}">Annual Meetings Documentation</a>
+<p>
+<a href="{{ "/minutes/devcon/index.html" | prepend: site.baseurl }}">DevCon Meetings Documentation</a>
+<p>
+<a href="{{ "/minutes/action/index.html" | prepend: site.baseurl }}">Action Tracker Documentation</a>
+
 </div>
+
+
