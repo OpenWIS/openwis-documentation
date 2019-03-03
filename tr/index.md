@@ -36,6 +36,14 @@ As set out in [Title 11]({{ "/rules/11-technical-rules.html" | prepend: site.bas
 - **Testing lead**
  - The Test Lead role is tasked with overall responsibility for the test effort's success. The role involves quality and test advocacy, resource planning and management, and resolution of issues that impede the test effort.
 
+## Patch Management of OpenWIS Software
+
+Patch Mangement, which is part of the Lifecycle Management, is ultimately how we can demonstrate Patchability.  To be "patchable" means that corrections to software can be applied to the software without altering the expected application behavior or performance.  The OpenWIS application is most certainly "patchable". The entire development process and Continuous Integration environment contributes to the application's "patchability". 
+
+## Software Quality
+
+OpenWIS follows an Agile Development Model and supports a full (https://github.com/OpenWIS/openwis-deploy/wiki "Continuous Integration Environment"). The code resides on (https://openwis.github.io/openwis/ "GitHub") and follows the traditional GitHub revision process. The Continuous Integration Environment performs automated (https://github.com/OpenWIS/openwis-automated-tests/wiki "Testing") using (https://github.com/OpenWIS/openwis/wiki/OpenWIS-Testing-Regime "Jenkins and Cloudbees") tooling.
+
 ## Code Style
 
 ### C/C++ bute to the community, providing technical leadership, coaching and mentoring the team, promoting knowledge sharing and adoption of good practicepractices
