@@ -6,7 +6,23 @@ This project uses [Jekyll](https://jekyllrb.com/) to build HTML documentation fr
 
 For tips on writing [Markdown](https://daringfireball.net/projects/markdown/) see the [GitHub guide](https://guides.github.com/features/mastering-markdown/).
 
-To build the documentation site, we're using the `github-pages` gem from GitHub and [Bundler](http://bundler.io/). More information about using Jekyll with GitHub-Pages can be found [here](https://jekyllrb.com/docs/github-pages/). So- to build from the command-line:
+To build the documentation site, we're using the `github-pages` gem from GitHub and [Bundler](http://bundler.io/). More information about using Jekyll with GitHub-Pages can be found [here](https://jekyllrb.com/docs/github-pages/). There is more to building the sources from the command line than simply "bundle exec jekyll build".  First you must clone the "openwis-documentation" sources!
+
+```
+git clone https://<user>@github.com/OpenWIS/openwis-documentation
+```
+For a brand new "cloned" repository, the build is likely to fail with the following message:
+
+```
+[mgiannoni@jekyll openwis-documentation]$ bundle exec jekyll build
+Could not locate Gemfile or .bundle/ directory
+```
+For this case run the follwoing:
+
+```
+jekyll new . --force
+```
+Not the sources should build correctly with:
 
 ```
 bundle exec jekyll build
