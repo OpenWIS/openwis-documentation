@@ -19,6 +19,7 @@
 		  <li><a href="{{ site.data.rules2.subpath | prepend: site.baseurl }}">{{ site.data.rules2.title }}</a></li>
                   <li><a href="{{ site.data.minutes.subpath | prepend: site.baseurl }}">{{ site.data.minutes.title }}</a></li>
                   <li><a href="{{ site.data.metrics.subpath | prepend: site.baseurl }}">{{ site.data.metrics.title }}</a></li>
+                  <li><a href="{{ site.data.quality.subpath | prepend: site.baseurl }}">{{ site.data.quality.title }}</a></li>
             </ul>
          </div>
          <div class="page-link">
@@ -36,8 +37,8 @@
                <li><ul class="dropdown"><label for="p22"><a href="{{ site.data.excel2wis.subpath | prepend: site.baseurl }}">Excel2wis Tool</a></label><input id="p22" type="checkbox" checked>
 	          <li><a href="https://github.com/OpenWIS/excel2wis" target="_blank">Excel2wis github repository</a></li>
 	       </ul></li>
-               <li><ul class="dropdown"><label for="p23"><a href="{{ site.data.wis2poc.subpath | prepend: site.baseurl }}">WIS2-PoC-1</a></label><input id="p23" type="checkbox" checked>
-                  <li><a href="https://github.com/OpenWIS/WIS2-PoC-1">{{ site.data.wis2poc.title }}</a></li>
+               <li><ul class="dropdown"><label for="p23"><a href="{{ site.data.wis2prototypes.subpath | prepend: site.baseurl }}">WIS2-Prototypes</a></label><input id="p23" type="checkbox" checked>
+                  <li><a href="{{ site.data.wis2prototypes.subpath | prepend: site.baseurl | append: "index.html"}}">WIS2 Prototypes</a></li>
                </ul></li>
             </ul>
          </div>
@@ -54,7 +55,7 @@
                 <li class="no-link">Developers</li>
 		<li><a href="{{ site.data.howto.subpath | prepend: site.baseurl }}">How-to Instructions</a></li>
                 <li><a href="{{ site.data.posts.subpath | prepend: site.baseurl }}">Github Posts Archive</a></li>
-		<li><a href="https://discourse.dev2.openwis.io/" target="_blank">Forum*</a></li>
+		<li><a href="https://forum.openwis.io/" target="_blank">Forum*</a></li>
             </ul>
          </div>
 

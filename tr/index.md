@@ -28,7 +28,7 @@ As set out in [Title 11]({{ "/rules/11-technical-rules.html" | prepend: site.bas
 - **Lead Developer**
  - The Lead Developer guide the ways in which the team works.  They are proficient in a wide range of technical disciplines and involved in identifying appropriate technology and approaches, deciding when software should be written.  The lead developer contributes to the community, providing technical leadership, coaching and mentoring the team, promoting knowledge sharing and adoption of good practice.  The Lead Developer also ensures that what's being implemented by the team is of the highest quality and has been developed in the shortest amount of time.  Above all, the Lead Developer is responsible for making the team successful!  
 - **Developer**
- - A developer is responsible for ensuring that software quality standards and principles agreed is done to the highest possible quality.  A developer must accept that continuously learning is part of what it is to be a software developer, and by improving ones skills goes a long way to consistently delivering value.
+ - A developer is responsible for ensuring that software quality standards and principles agreed is done to the highest possible quality.  A developer must accept that continuously learning is part of what it is to be a software developer, and by improving ones skills goes a long way to consistently delivering value.  Developers are also known as contributors
 - **CI lead**
  - A Continuous Integration (CI) Lead uses a software development practice in which each member of a development team integrates their work with that produced by others on a continuous basis.  
 - **Quality control lead**
@@ -42,7 +42,7 @@ Patch Mangement, which is part of the Lifecycle Management, is ultimately how we
 
 ## Software Quality
 
-OpenWIS follows an Agile Development Model and supports a full (https://github.com/OpenWIS/openwis-deploy/wiki "Continuous Integration Environment"). The code resides on (https://openwis.github.io/openwis/ "GitHub") and follows the traditional GitHub revision process. The Continuous Integration Environment performs automated (https://github.com/OpenWIS/openwis-automated-tests/wiki "Testing") using (https://github.com/OpenWIS/openwis/wiki/OpenWIS-Testing-Regime "Jenkins and Cloudbees") tooling.
+OpenWIS follows an Agile Development Model and supports a full [Continuous Integration Environment](https://github.com/OpenWIS/openwis-deploy/wiki). The code resides on [GitHub](https://openwis.github.io/openwis/) and follows the traditional GitHub revision process. The Continuous Integration Environment performs automated [Testing](https://github.com/OpenWIS/openwis-automated-tests/wiki) using [Jenkins and Cloudbees](https://github.com/OpenWIS/openwis/wiki/OpenWIS-Testing-Regime) tooling.
 
 ## Code Style
 
