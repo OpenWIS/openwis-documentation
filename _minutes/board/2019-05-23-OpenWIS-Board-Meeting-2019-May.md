@@ -57,14 +57,13 @@ minuteOwner: board
     *6.2 Approve new Partners recommended by the SC*
         - No change
     *6.3 Fees, subscriptions and contributions to become strategic or associate partner*
+      - RGr - at present, the fees for a Strategic Partner or Member is a one-off payment of 200k Euros and for an Associate Partner its 10k Euros per annum. No reason to change the fees as no new members.
+      - JT - Please note at some point there will be a need to discuss a new category of partner.
+      - All - Unanimously (5) agreed to keep fees unchanged and review following the Steering Committee meeting in October 2019.
 
-        - RGr - at present, the fees for a Strategic Partner or Member is a one-off payment of 200k Euros and for an Associate Partner its 10k Euros per annum. No reason to change the fees as no new members.
-        - JT - Please note at some point there will be a need to discuss a new category of partner.
-        - All - Unanimously (5) agreed to keep fees unchanged and review following the Steering Committee meeting in October 2019.
+      RES-OWIS The Board decided to keep the membership fees for the current categories of members unchanged.
 
-        RES-OWIS The Board decided to keep the membership fees for the current categories of members unchanged.
-
-        [Action - 2019 budget items](https://github.com/OpenWIS/openwis-documentation/issues/556)
+      [Action - 2019 budget items](https://github.com/OpenWIS/openwis-documentation/issues/556)
 
 7. **Election of Managing Directors**
     - RGr - I am happy to continue for one more year as Chair. Regarding the Treasurer role, we have a proposal for Nathalie Dureisseix (ND) from MFI to be Treasurer, therefore we will vote on Nathalie being the Treasurer of the Association
