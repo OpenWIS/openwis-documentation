@@ -338,7 +338,7 @@ minuteOwner: steering
   - JT - Agreed to proceed with DropBox for Business account.
   - JT – Integration with commercial search engine will not be required. However, work on CI environment and removing dependency of Forgerock will incur expenditure. Therefore, a new budget line is required. Therefore, a budget of 80k euros was agreed for this.
   - Add a 10k euros for contingency. Remove ING.
-  - 10,146 euros is the budget to be recommend ed to the Board for 2019.
+  - 113,472 euros is the budget to be recommend ed to the Board for 2019.
 
   RES-OWIS The Steering Committee (SC) agreed to recommend these budgetary arrangements for 2019 to the Board.
 
