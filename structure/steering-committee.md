@@ -16,8 +16,8 @@ As stated in [Article 13.1]({{ "/articles/13-steering-committee.html#article-13.
 
 <h2 id="delegates">Steering Committee Delegates</h2>
 
-* Mr. TANDY Jeremy, [Met Office](http://www.metoffice.gov.uk/) (**SC Chair**)
-* Mr. GIRAUD Rémy, [Météo France](http://meteo.fr/) (**SC Vice-Chair**)
+* Mr. GIRAUD Rémy, [Météo France](http://meteo.fr/) (**SC Chair**)
+* Mr. TANDY Jeremy, [Met Office](http://www.metoffice.gov.uk/) (**SC Vice-Chair**)
 * Mr. LE GALLOU Loïc, [Météo France International](http://www.mfi.fr)
 * Mr. QU Weiqing, [Bureau of Meteorology](http://www.bom.gov.au/)
 * Mr. DO Sungsoo, [Korea Meteorological Administration](http://www.kma.go.kr/)
