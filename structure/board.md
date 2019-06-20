@@ -16,10 +16,10 @@ Note that, as stated in [Article 12.7]({{ "/articles/12-board.html#article-12.7"
 
 <h2 id="representatives">Board Representatives</h2>
 
-* Mr. DELL'ACQUA Mattéo, [Météo France](http://meteo.fr/) (**Managing Director: Chairperson**)
+* Mr. Giraud Rémy, [Météo France](http://meteo.fr/) (**Managing Director: Chairperson**)
 * Mr. TANDY Jeremy, [Met Office](http://www.metoffice.gov.uk/) (**Managing Director: Vice-Chairperson**)
 * Mr. BENICHOU Patrick, [Météo France International](http://www.mfi.fr)
 * Mr. QU Weiqing, [Bureau of Meteorology](http://www.bom.gov.au/)
 * Mr. YUN Hyuk Jin, [Korea Meteorological Administration](http://www.kma.go.kr/)
 
-In support of the Board, Mrs. HARVEY Stacey ([Met Office](http://www.metoffice.gov.uk/)) is appointed as the **Treasurer** of the OpenWIS Association.
+In support of the Board, Ms. DUREISSEIX  Nathalie  ([Météo France International](http://www.mfi.fr/en/)) is appointed as the **Treasurer** of the OpenWIS Association.
