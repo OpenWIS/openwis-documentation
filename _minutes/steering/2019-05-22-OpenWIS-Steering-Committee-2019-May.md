@@ -37,6 +37,7 @@ minuteOwner: steering
     • Kwangjae Lee (KL), Korea Meteorological Administration [KMA]
     • Fred Branski, National Weather Service [NWS]
     • David Podeur, Météo France [MF]
+    • Jude Anthonisz, Met Office [UKMO]
 
 4. **Approval of previous minutes**
     1. The minutes of the meeting on 11 January 2019 were approved by all.
