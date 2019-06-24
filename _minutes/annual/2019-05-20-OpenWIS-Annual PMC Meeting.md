@@ -31,6 +31,7 @@ minuteOwner: annual
     - KL - Kwangjae Lee, Korea Meteorological Administration (KMA)
     - SS - Stephan Siemen, European Centre for Medium-Range Weather Forecasts (ECMWF)
     - JT - Jeremy Tandy, Met Office, UK [UKMO]
+    - JA - Jude Anthonisz, Met Office [UKMO]
     - DPa - Dimitris Papadeas, European Dynamics, [ED]
 
   *Apologies:*
