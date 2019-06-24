@@ -30,6 +30,7 @@ minuteOwner: board
     - Stephan Siemen (SS), European Centre for Medium-Range Weather Forecasts [ECMWF]
     - Kari Sheets (KS) of the National Weather Service [NWS]
     - Steve Olson (SO) of National Weather Service [NWS]
+    - Jude Anthonisz (JA) of the Met Office (UKMO)
 
 4.	**Approval of previous minutes**
     1. There were no comments or issues relating to the previous meeting.  Therefore, the minutes of last meeting were approved.
