@@ -320,7 +320,7 @@ minuteOwner: technical
         3. Options for Forum
             1. SO - Thanks to MF for publishing the forum option demos on the internet.
             2. SO - CS and MG set up these demos, hope some of you got to try them out:
-                - [Discourse forum demo](https://discourse.dev2.openwis.io);
+                - [Discourse forum demo](https://forum.openwis.io);
                 - [Discourse website plugin demo](https://cassie-stearns.github.io/test/discourse40.html)
                 - [NodeBB forum](https://nodebb.dev2.openwis.io);
                 - (log in to both forums through a portal using: username: openwis password: 9Sym2c3ypjv; You should be able to register on the front page. If you are having problems, please email Cassie with **subject:openwis forum help**)
