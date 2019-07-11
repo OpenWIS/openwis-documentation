@@ -1,6 +1,7 @@
 ---
 layout: page
 title: OpenWIS Steering Committee 2018 August
+minuteOwner: steering
 ---
 
 #### 18th August 2018 - via WebEx teleconference

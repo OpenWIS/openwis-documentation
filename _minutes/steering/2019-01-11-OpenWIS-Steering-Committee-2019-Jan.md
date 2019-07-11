@@ -1,6 +1,7 @@
 ---
 layout: page
 title: OpenWIS Steering Committee 2019 January
+minuteOwner: steering
 ---
 
 #### 11th January 2019 - via WebEx teleconference
