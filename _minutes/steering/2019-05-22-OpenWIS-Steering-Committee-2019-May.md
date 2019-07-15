@@ -1,10 +1,10 @@
 ---
 layout: page
-title: OpenWIS Steering Committee 2018 May
+title: OpenWIS Steering Committee 2019 May
 minuteOwner: steering
 ---
 
-#### 30th - 22nd May 2018 - Washington, USA
+#### 30th - 22nd May 2019 - Washington, USA
 
 ---
 
