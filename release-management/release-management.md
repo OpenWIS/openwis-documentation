@@ -74,7 +74,7 @@ The OpenWIS automated deployment approach makes use of the following elements:
 
 The diagram below illustrates the way that Cloudbees/Jenkins orchestrates automated build, environment creation, and system deployment:
 
-![alt text](http://github.com/OpenWIS/openwis-documentation/release-management/images/OpenWIS-Baseline-Deployment-Architecture.png)
+![alt text](https://github.com/OpenWIS/openwis-documentation/blob/master/release-management/images/OpenWIS-Baseline-Deployment-Architecture.png)
 
 The implementation of the above process on Cloudbees makes uses of the [Jenkins Build Pipeline plugin](https://plugins.jenkins.io/build-pipeline-plugin), and be seen in the image below:
 
