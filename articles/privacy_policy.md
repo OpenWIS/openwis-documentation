@@ -26,26 +26,26 @@ __THE DATA WE COLLECT ABOUT YOU__
  
 We may collect and process the following information about you:
 
-     <p> •  Contact data for the purposes of administering your membership to OpenWIS, for example details of meetings, membership, annual accounts, administration of the Contributor Licence Agreement. </p>
+     •  Contact data for the purposes of administering your membership to OpenWIS, for example details of meetings, membership, annual accounts, administration of the Contributor Licence Agreement. 
  
 We do not collect any special categories of personal data about you (this includes details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health, and genetic and biometric data), nor do we collect any information about criminal convictions and offences.
-     <p> •  First bullet under “We may use information about you in the following ways:” on page 2 – I would say: “Rule 6.1 of the OpenWIS Association Internal Rules” </p>
+     •  First bullet under “We may use information about you in the following ways:” on page 2 – I would say: “Rule 6.1 of the OpenWIS Association Internal Rules” 
 
 __HOW WE USE YOUR PERSONAL DATA__  
  
 We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:
  
-     <p> •  Where we need to perform the contract we are about to enter into or have entered into with you. </p>
-     <p> •  Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests. </p>
-     <p> •  Where we need to comply with a legal obligation.</p>
+     •  Where we need to perform the contract we are about to enter into or have entered into with you. 
+     •  Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests. 
+     •  Where we need to comply with a legal obligation.
 
 To find out more about the types of lawful bases that we rely on to process your personal data, please visit the Belgium Data Protection Authority, located at https://www.dataprotectionauthority.be/
 
 We may use information about you in the following ways:
  
-     <p>•  To register you as a new Contributor, as defined in [Rule 6.1 of the OpenWIS Association Internal Rules,  to OpenWIS Association](http://openwis.github.io/openwis-documentation/rules/6-membership-and-partnership-fees-rights-privileges-and-obligations.html#rule-6.1) projects and manage our relationship with you (contractual necessity, legitimate interests) </p>
+     •  To register you as a new Contributor, as defined in [Rule 6.1 of the OpenWIS Association Internal Rules,  to OpenWIS Association](http://openwis.github.io/openwis-documentation/rules/6-membership-and-partnership-fees-rights-privileges-and-obligations.html#rule-6.1) projects and manage our relationship with you (contractual necessity, legitimate interests) 
 
-     <p>•  To administer OpenWIS (legitimate interests, compliance with legal obligations) </p>
+     •  To administer OpenWIS (legitimate interests, compliance with legal obligations) 
 
 __THIRD-PARTY PLATFORMS__
  
@@ -78,9 +78,9 @@ HOW LONG WILL YOU USE MY PERSONAL DATA FOR?
 We will only retain your personal information for as long as necessary to fulfil the purposes we collected it for, including the purposes of satisfying any legal and regulatory requirements.
 Unless otherwise specified, we will hold your personal information:
 
-     <p>•  In accordance with our business needs; </p>
-     <p>•  In accordance with our contractual retention period; </p>
-     <p>•  In accordance with any legal and regulatory requirements. </p> 
+     •  In accordance with our business needs; 
+     •  In accordance with our contractual retention period; 
+     •  In accordance with any legal and regulatory requirements.  
 
 To determine the appropriate retention period for personal information, we consider the amount, nature and sensitivity of the personal data, the potential risk of harm from unauthorised use or disclosure of your personal data, the purposes for which we process your personal data and whether we can achieve those purposes through other means, and the applicable legal requirements.  
 
@@ -88,14 +88,14 @@ __YOUR LEGAL RIGHTS__
  
 You have the following rights under data protection legislation in relation to the processing of your personal data: 
 
-     <p>•  The right to be informed </p>
-     <p>•  The right of access </p>
-     <p>•  The right to rectification </p>
-     <p>•  The right to erasure </p>
-     <p>•  The right to restrict processing </p>
-     <p>•  The right to data portability </p>
-     <p>•  The right to object </p>
-     <p>•  The right to prevent automated decision making and profiling. </p>
+     •  The right to be informed 
+     •  The right of access 
+     •  The right to rectification 
+     •  The right to erasure 
+     •  The right to restrict processing 
+     •  The right to data portability 
+     •  The right to object 
+     •  The right to prevent automated decision making and profiling. 
 
 For further information in respect of your rights as a data subject, please see visit the Belgium Data Protection Authority - https://www.dataprotectionauthority.be/faq-themes/the-different-rights.  To exercise any of the above rights, please contact the Data Privacy Manager - data-privacy-manager@openwis.io
 
