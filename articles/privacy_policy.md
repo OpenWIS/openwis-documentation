@@ -26,18 +26,18 @@ __THE DATA WE COLLECT ABOUT YOU__
  
 We may collect and process the following information about you:
 
-     <p>•  Contact data for the purposes of administering your membership to OpenWIS, for example details of meetings, membership, annual accounts, administration of the Contributor Licence Agreement. </p>
+     <p> •  Contact data for the purposes of administering your membership to OpenWIS, for example details of meetings, membership, annual accounts, administration of the Contributor Licence Agreement. </p>
  
 We do not collect any special categories of personal data about you (this includes details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health, and genetic and biometric data), nor do we collect any information about criminal convictions and offences.
-     <p>•  First bullet under “We may use information about you in the following ways:” on page 2 – I would say: “Rule 6.1 of the OpenWIS Association Internal Rules” </p>
+     <p> •  First bullet under “We may use information about you in the following ways:” on page 2 – I would say: “Rule 6.1 of the OpenWIS Association Internal Rules” </p>
 
 __HOW WE USE YOUR PERSONAL DATA__  
  
 We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:
  
-     <p>•  Where we need to perform the contract we are about to enter into or have entered into with you. </p>
-     <p>•  Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests. </p>
-     <p>•  Where we need to comply with a legal obligation.</p>
+     <p> •  Where we need to perform the contract we are about to enter into or have entered into with you. </p>
+     <p> •  Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests. </p>
+     <p> •  Where we need to comply with a legal obligation.</p>
 
 To find out more about the types of lawful bases that we rely on to process your personal data, please visit the Belgium Data Protection Authority, located at https://www.dataprotectionauthority.be/
 
