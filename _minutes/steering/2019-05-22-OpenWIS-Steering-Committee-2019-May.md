@@ -14,7 +14,7 @@ minuteOwner: steering
     1. All attendees were content with the agenda.
 3. **Declaration of delegates**
 
-    *1. The current members of the SC are:*
+    *3.1 The current members of the SC are:*
       - Jeremy Tandy (JT), Met Office [UKMO] - SC Chair
       - Rémy Giraud (RGr), Météo France [MF] - SC Vice-Chair
       - Benjamin Saclier (BS), Météo France [MF]
@@ -24,13 +24,13 @@ minuteOwner: steering
       - Mikko Visa, Finnish Meteorological Institute [FMI]
       - Weiqing Qu (WQ), Bureau of Meteorology (BoM)
 
-    *2. All attendees were content with the following:*
+    *3.2 All attendees were content with the following:*
       - JT representing WQ of BoM with authority from WQ.
       - SD representing Dr. S.L. Singh (SLS), India Meteorological Department [IMD] with authority from Dr.   SLS.
 
       The meeting was declared as quorate as 7 attending.
 
-    *Other attendees:*
+    *3.3 Other attendees:*
     • Steve Olson (SO), National Weather Service [NWS]
     • Stephan Siemen (SS), European Centre for Medium-Range Weather Forecasts [ECMWF]
     • Mikko Partio, Finnish Meteorological Institute [FMI]
@@ -40,7 +40,7 @@ minuteOwner: steering
     • Jude Anthonisz, Met Office [UKMO]
 
 4. **Approval of previous minutes**
-    1. The minutes of the meeting on 11 January 2019 were approved by all.
+    - The minutes of the meeting on 11 January 2019 were approved by all.
 
 
 5. **Election of chairperson ("TC-Chair") and vice-chairperson ("TC-Vice-Chair") of the Technical Committee**
@@ -52,7 +52,7 @@ minuteOwner: steering
 
 6. **Recommendations to the Board regarding admission of new Members and Partners (see Articles 6 & 9 and Rules 4 & 5)**
 
-    *- 6.1 CMA*
+    *6.1 CMA*
       - RGr reported that there is no progress.
 
     *6.2 Others*
@@ -61,7 +61,7 @@ minuteOwner: steering
 
 7. **Project Reports and requests for Financial Support or changes to existing Charters:**
 
-  - *7.1 [OpenWIS 3.x](https://github.com//issues/497)*
+  *7.1 [OpenWIS 3.x](https://github.com//issues/497)*
 
     - SO - Agreed at the TC that requirements definition for help with CI environment setup and annual audit needs to be developed in order to enable a procurement of a third party. This means that a a request for funds for this service will be come later in the year.
     - SO - Also in February 2020 Discourse licence (for the forum) will need to be extended.
@@ -110,7 +110,7 @@ minuteOwner: steering
 
     RES-OWIS The Steering Committee (SC) confirmed that there will be a meeting in October 2019 to approve outcome technical evaluation and funding required regarding the maintenance of OpenWIS 3.x and the CI environment.
 
- - *7.2 [AMQP](https://github.com//issues/440)*
+ *7.2 [AMQP](https://github.com//issues/440)*
 
     - JT - for status see slide pack on status from DP’s presentation.
     - DP - OK
@@ -124,7 +124,7 @@ minuteOwner: steering
    - JT - I urge all OpenWIS partners to contribute to this project and promote this work in respective organisations.
    - FB - Once a WIS2 adoption strategy is clearly defined, that it made clear in the OpenWIS Association information packages.
 
-- *7.3 [Trust Model](https://github.com//issues/441)*
+  *7.3 [Trust Model](https://github.com//issues/441)*
   - SO - In principle, we need some guidance on what type of procurement can be used for this work.
   - JT - Do you still believe its necessary to do this work?
   - SO - I am tempted to delay this work, given the changes in train within WMO.
@@ -134,21 +134,21 @@ minuteOwner: steering
 
   RES-OWIS The Steering Committee (SC) confirmed that work on this project will be deferred until May 2020.
 
-- *7.4 [Schema.org](https://github.com//issues/498)*
+  *7.4 [Schema.org](https://github.com//issues/498)*
 
   - JT - as reported in TC and PMC, this work is being taken up by the broader community. So, I would proposed to close this project and support the broader community.
   - ALL - Agreed.
 
   RES-OWIS The Steering Committee (SC) confirmed that this project is closed.
 
-- *7.5 [Metadata formats](https://github.com//issues/469)*
+  *7.5 [Metadata formats](https://github.com//issues/469)*
 
   - JT - as reported in TC and PMC, this work is being taken up by the broader community. So, I would proposed to close this project and support the broader community.
   - ALL - Agreed
 
   RES-OWIS The Steering Committee (SC) confirmed that this project is closed.
 
-- *7.6 [INSPIRE](https://github.com//issues/438)*
+  *7.6 [INSPIRE](https://github.com//issues/438)*
   - MV- per slide pack, which is here #539 (comment)
   - JT - How does the hackathon feed into the work of OGC?
   - SO - Map tiles, Coverages, data processing.
@@ -329,10 +329,10 @@ minuteOwner: steering
 
 16. **Finances of the OpenWIS Association [Treasurer]**
 
-  *- 16.1 FY2018 expenditure*
+  *16.1 FY2018 expenditure*
     - LG - presented the expenditure for 2018 on behalf of Nathalie Dureisseix (ND).
 
-  *- 16.2 Review of need for additional finance*
+  *16.2 Review of need for additional finance*
     - Work on CI environment and removing dependency of Forgerock will incur expenditure. Therefore, a new budget line is required. Therefore, a budget of 80k euros was agreed for this.
     - Add a 10k euros for contingency. Remove ING costs.
 
@@ -340,7 +340,7 @@ minuteOwner: steering
 
    RES-OWIS The Steering Committee (SC) agreed to recommend this proposal regarding additional finance and contingency to the Board.
 
-  *- 16.3 Budget for 2019/20*  
+  *16.3 Budget for 2019/20*  
   - SO - There will be no charge for 2019 regarding the forum. Therefore £1k should be removed
   - JT - Agreed to proceed with DropBox for Business account.
   - JT – Integration with commercial search engine will not be required. However, work on CI environment and removing dependency of Forgerock will incur expenditure. Therefore, a new budget line is required. Therefore, a budget of 80k euros was agreed for this.
@@ -364,7 +364,7 @@ minuteOwner: steering
     The chair of the SC would like to get confirmation that Weiqing Qu from BoM to agreeing in principle to host the next annual meeting.
 
 20. **Any other business**
-    *- Procurement*
+    *Procurement*
 
       - Options
         - Options were discussed -
