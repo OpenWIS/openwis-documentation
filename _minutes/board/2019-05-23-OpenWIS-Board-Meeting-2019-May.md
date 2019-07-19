@@ -7,13 +7,13 @@ minuteOwner: board
 ##### 23 May 2018, Washington USA.
 
 1.	**Welcome and introductions**
-    RGr welcomed the attendees
+    - RGr welcomed the attendees
 
 2.	**Approval of agenda**
-    The agenda was approved by all present.
+    - The agenda was approved by all present.
 
 3.	**Declaration of delegates**
-    The current Board members are:
+    - The current Board members are:
     - Rémy Giraud (RGr), Météo France [MF] - Managing Director: Chairperson
     - Jeremy Tandy (JT), Met Office [UKMO] - Managing Director: Vice-Chairperson
     - Patrick Benichou (PB), Météo France International [MFI]

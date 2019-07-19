@@ -43,8 +43,10 @@ minuteOwner: technical
         - Ask contractor whether they can recommend system environment, such as a cloud provider (not provision) based on snapshot of previous CI environment.
         - Share RFP by secure means (I.e. to protect commercial issues)
 
-        *[ACTION – JA provide the costs from the work done by European Dynamics work as an indicator of cost}(https://github.com/OpenWIS/openwis-documentation/issues/564)*
+        *[ACTION – JA provide the costs from the work done by European Dynamics work as an indicator of cost](https://github.com/OpenWIS/openwis-documentation/issues/564)*
+
         *[ACTION – SO and BS Discuss other topics for Devcon](https://github.com/OpenWIS/openwis-documentation/issues/565)*
+
         *[ACTION - LL and SO to present options and costs at the Dev Con for approval by SC following TC endorsement](https://github.com/OpenWIS/openwis-documentation/issues/542)*
 
         - BS and DP – We need for an environment for development without a CI. Agreed that from considering whether to use a virtual environment or a cloud end, that its best to evaluate a third party could build an environment as OpenWIS 3x is in maintenance development.
