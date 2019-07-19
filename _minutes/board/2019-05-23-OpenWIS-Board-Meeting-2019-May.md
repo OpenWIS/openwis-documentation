@@ -96,7 +96,6 @@ minuteOwner: board
         - None other than internal rules regarding GDPR.
 
     *8.2 Approve initiation of Projects and amendments to Project Charters recommended by SC*
-
         - There were no new Charters or amendments to existing Project Charters.
 
 9. **Review and agree mitigation of OpenWIS Association risks, including those escalated by the SC**

@@ -37,6 +37,11 @@ The Steering Committee shall hold the following competences:
 5. Deciding upon the membership and composition of the Technical Committee; 
 6. Deciding upon the creation or dissolution of other ad hoc committees as and when the need for such committees may arise;
 7. Taking any decision (which is not a decision on matters reserved for the Board) that may be necessary for the efficient and effective running of the Organization.
+8.  The role of the Data Privacy Manager to be performed by the Vice Chair of this Committee”, i.e.:
+   a.  Respond to queries on the [Privacy policy](./privacy_policy.md) and complaints within 30 days
+   b.  Ensure that security measures to protect personal data are in place and review these periodically
+   c.  Ensure that when there is a breach of personal data, a process is in place to assess and take steps to change/improve
+   d.  Establish the retention period for personal and other data and have a process for review
 
 <h2 id="article-13.3">Article 13.3</h2>
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: OpenWIS Technical Committee 2018 September
+minuteOwner: technical
 ---
 
 #### 7th September 2018 - via WebEx teleconference

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OpenWIS Annual Meeting OMC 2019
+title: OpenWIS Annual Meeting PMC 2019
 minuteOwner: annual
 ---
 

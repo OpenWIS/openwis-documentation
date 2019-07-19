@@ -17,12 +17,12 @@ For a brand new "cloned" repository, the build is likely to fail with the follow
 [mgiannoni@jekyll openwis-documentation]$ bundle exec jekyll build
 Could not locate Gemfile or .bundle/ directory
 ```
-For this case run the follwoing:
+For this case run the following:
 
 ```
 jekyll new . --force
 ```
-Not the sources should build correctly with:
+Note the sources should build correctly with:
 
 ```
 bundle exec jekyll build

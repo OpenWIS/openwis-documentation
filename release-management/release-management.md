@@ -74,7 +74,7 @@ The OpenWIS automated deployment approach makes use of the following elements:
 
 The diagram below illustrates the way that Cloudbees/Jenkins orchestrates automated build, environment creation, and system deployment:
 
-![alt text](http://github.com/OpenWIS/openwis-documentation/release-management/images/OpenWIS-Baseline-Deployment-Architecture.png)
+![alt text](https://github.com/OpenWIS/openwis-documentation/blob/master/release-management/images/OpenWIS-Baseline-Deployment-Architecture.png)
 
 The implementation of the above process on Cloudbees makes uses of the [Jenkins Build Pipeline plugin](https://plugins.jenkins.io/build-pipeline-plugin), and be seen in the image below:
 
@@ -126,17 +126,21 @@ The development of OpenWIS 3.14.9 is a work in progress, and a build project is 
 European Dynamics engineers have been requested to perform tasks on the OpenWIS Cloudbees installation on several occasions, and although they do not claim expertise on the said platform, have noted the following items of interest:
 
 1. Dedicated DevOps
+
 In order for CI/CD processes to produce the best results, ensuring that the CI/CD pipeline is always operational has the highest priority. The impression received by the ED engineers is that although a Release Engineering team exists, it is not 100% available for the support of the OpenWIS CI/CD environment.
 
 2. Test Coverage
+
 There was no obvious way to measure Test Coverage, so ED engineers temporarily installed the Emma Jenkins plugin in order to examine the percentage of code covered by tests. As can be seen in the report below, only 2.3% of the total Lines Of Code are covered by the existing tests. This percentage is not adequate for a CI/CD process, since automated testing plays a very important role.
 
 Picture
 
 3. Static Code Analysis
+
 No static code analysis reporting was found to be configured for the OpenWIS builds, even though this functionality is supported by Jenkins.
 
 4. Disabled Latest Stable Branch Build
+
 The latest production/stable OpenWIS branch (3.14.8) does have an associated build project, but that is disabled, as can be seen below. This creates a risk in a situation where changes are merged from the develop branch.
 
 Picture

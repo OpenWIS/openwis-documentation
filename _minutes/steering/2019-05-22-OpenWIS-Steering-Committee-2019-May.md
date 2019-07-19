@@ -1,10 +1,10 @@
 ---
 layout: page
-title: OpenWIS Steering Committee 2018 May
+title: OpenWIS Steering Committee 2019 May
 minuteOwner: steering
 ---
 
-#### 30th - 22nd May 2018 - Washington, USA
+#### 30th - 22nd May 2019 - Washington, USA
 
 ---
 
@@ -41,6 +41,7 @@ minuteOwner: steering
 
 4. **Approval of previous minutes**
     1. The minutes of the meeting on 11 January 2019 were approved by all.
+
 
 5. **Election of chairperson ("TC-Chair") and vice-chairperson ("TC-Vice-Chair") of the Technical Committee**
     - SO (Chair) and BS (VC) confirmed that they are both content to continue in the roles.
@@ -83,7 +84,7 @@ minuteOwner: steering
     - RGr - I think it was implicit, so we just need to be remind/reaffirm.
     - JT - OK. To confirm, we can reaffirm our intent that the Open WIS Association intends to make available software that can be deployed and used without any payment of licence fees.
 
-    RES-OIWS The Steering Committee (SC) decided support make software available that can be deployed without any payment of licence fees.
+    RES-OWIS The Steering Committee (SC) decided support make software available that can be deployed without any payment of licence fees.
 
     - JT - any more points?
     - ALL - no.
@@ -167,6 +168,7 @@ minuteOwner: steering
 
   RES-OWIS The Steering Committee (SC) confirmed that the Association should continue to be kept informed of the status and progress of this work.
 
+
 8. **Review new proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
 
   - JT - Functional assessment of WIS2 to enable developing indicative budgets for build and implementations, with a view to providing this information to WMO.
@@ -191,7 +193,8 @@ minuteOwner: steering
     - Re initial use of forum. It was agreed that initially it will be unstructured and open. Auto tagging and an easy way for manual tagging will be investigated.
     - Also, the ways in which the TC can evolve and make it better by periodically make presentation on emerging tech standards and periodic checks on WIS2 planning updates.
 
-    RES-OWIS The Steering Committee (SC) confirmed that updates on the development of techni
+  RES-OWIS The Steering Committee (SC) confirmed that updates on the development of technical Committee
+
 
 12. **penWIS Association logistics**
 
@@ -202,14 +205,14 @@ minuteOwner: steering
     - RGr - It is always a pleasure and glad that you happy to continue.
     - ALL - Agreed. 6 in favour and one abstention.
 
-    RES-OWIS The Steering Committee (SC) confirmed that the Met Office and Jude Anthonisz to continue to provide the Secretariat function in same way as in 2018.
+  RES-OWIS The Steering Committee (SC) confirmed that the Met Office and Jude Anthonisz to continue to provide the Secretariat function in same way as in 2018.
 
   *12.2 Treasurer*
    - RGr - Nathalie has taken on this role from Stacey in UKMO. Has taken over this role and has prepared the annual accounts for 2019 and in a similar way to the role of the Programme Management/Secretariat function.
    - LG - MFI is happy to do the role of Treasurer, but we need a basic contract in place. The proposed contract is here - https://github.com/OpenWIS/openwis-documentation/issues/539#issuecomment-494879908
    - Agreed. 6 in favour and 1 abstention.
 
-   RES-OWIS The Steering Committee (SC) confirmed that the Météo France International (MFI) will provide the Treasury function via Nathalie Dureisseix (ND).
+  RES-OWIS The Steering Committee (SC) confirmed that the Météo France International (MFI) will provide the Treasury function via Nathalie Dureisseix (ND).
 
   - JT - Will MFI invoice for work so far and routinely in April?
   - LG - Yes
@@ -307,13 +310,16 @@ minuteOwner: steering
      - This is agreed as pub-sub messaging. Aiming to increase number of participants by October or November 2019, the outcome which will be in 12 months-time, will inform the specification of a prototype operational network.
      - There will be additional aspects that would need to be developed that would address principle WMO principles 6 to 9 of the WMO WIS2 implementation approach.
 
-    RES-OWIS The Steering Committee (SC) agreed to loosen the scope of the OpenWIS Association to enable: lobbying, out-reach, and building operational services and introduce the category of ‘contributing’ partner.
+  RES-OWIS The Steering Committee (SC) agreed to loosen the scope of the OpenWIS Association to enable: lobbying, out-reach, and building operational services and introduce the category of ‘contributing’ partner.
 
-    ACTIONS:
-    [RGr to draft changes to Articles of Association](https://github.com/OpenWIS/openwis-documentation/issues/553)
-    [ALL to- to review and feedback by mid-July 2019](https://github.com/OpenWIS/openwis-documentation/issues/553)
-    [The aim being a legal review with Legal team and finalise by October 2019 SC](https://github.com/OpenWIS/openwis-documentation/issues/553)
-    [ACTION _ JA to speak to Michael Robbins](https://github.com/OpenWIS/openwis-documentation/issues/553)
+  ACTIONS:
+  [RGr to draft changes to Articles of Association](https://github.com/OpenWIS/openwis-documentation/issues/553)
+
+  [ALL to- to review and feedback by mid-July 2019](https://github.com/OpenWIS/openwis-documentation/issues/553)
+
+  [The aim being a legal review with Legal team and finalise by October 2019 SC](https://github.com/OpenWIS/openwis-documentation/issues/553)
+
+  [ACTION _ JA to speak to Michael Robbins](https://github.com/OpenWIS/openwis-documentation/issues/553)
 
 14. **Review of Strategic Goals and Metrics (3-year horizon) [metrics]**
     - [Agreed defer this to the October 2019 SC](https://github.com/OpenWIS/openwis-documentation/issues/554)
@@ -347,6 +353,7 @@ minuteOwner: steering
 
 17. **Recommendations to the Board to make and adopt, alter, supplement or repeal the Internal Rules**
   - Agreed to recommend Internal rules for GDPR and Data Privacy Manager.
+
 
 18. **[Outstanding actions](https://github.com/OpenWIS/openwis-documentation/issues?page=1&q=is%3Aopen+is%3Aissue+label%3A%22Steering+Committee%22)**
   - To be discussed on 23 May 2019)
