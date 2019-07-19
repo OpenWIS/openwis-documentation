@@ -7,13 +7,13 @@ minuteOwner: board
 ##### 23 May 2018, Washington USA.
 
 1.	**Welcome and introductions**
-    1.RGr welcomed the attendees
+    RGr welcomed the attendees
 
 2.	**Approval of agenda**
-    1. The agenda was approved by all present.
+    The agenda was approved by all present.
 
 3.	**Declaration of delegates**
-    1. The current Board members are:
+    The current Board members are:
     - Rémy Giraud (RGr), Météo France [MF] - Managing Director: Chairperson
     - Jeremy Tandy (JT), Met Office [UKMO] - Managing Director: Vice-Chairperson
     - Patrick Benichou (PB), Météo France International [MFI]
@@ -33,21 +33,18 @@ minuteOwner: board
     - Jude Anthonisz (JA) of the Met Office (UKMO)
 
 4.	**Approval of previous minutes**
-    1. There were no comments or issues relating to the previous meeting.  Therefore, the minutes of last meeting were approved.
+    There were no comments or issues relating to the previous meeting.  Therefore, the minutes of last meeting were approved.
 
 5.	**Outstanding actions**
-    1. The following items were outstanding:
-        https://github.com/OpenWIS/openwis-documentation/issues?q=is%3Aopen+is%3Aissue+label%3A%22Board+Meeting%22
-        These actions were reviewed, updated and closed as appropriate.
+    The following items were outstanding:
+    https://github.com/OpenWIS/openwis-documentation/issues?q=is%3Aopen+is%3Aissue+label%3A%22Board+Meeting%22
+    These actions were reviewed, updated and closed as appropriate.
 
-        JT - Is the trademark fees in the budget for 2019?
-        LG - will is be invoiced in 2019?
-        RGr - Possibly, 3326.36 Euros
+    JT - Is the trademark fees in the budget for 2019?
+    LG - will is be invoiced in 2019?
+    RGr - Possibly, 3326.36 Euros
 
     RES-OWIS The Board decided to include the cost of trademark fees in the budget for 2019
-
-    Action - 2019 budget items
-    Action - RGr to check whether the trademark covers only Europe
 
     [Action - 2019 budget items](https://github.com/OpenWIS/openwis-documentation/issues/556)
     [Action - RGr to check whether the trademark covers only Europe](https://github.com/OpenWIS/openwis-documentation/issues/247#issuecomment-495235905)
