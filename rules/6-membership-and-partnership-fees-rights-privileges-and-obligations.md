@@ -32,11 +32,11 @@ In accordance with [Article 12.5]({{ "/articles/12-board.html#article-12.5" | pr
 
 The current fees payable by Members and Partners of the Association are set out below:
 
-&nbsp;                | **On admission as a Member or Partner** | **Subsequent Annual Contribution**
---------------------- | --------------------------------------- | ----------------------------------
-**Member**            | €200,000                                | NIL
-**Strategic Partner** | €200,000                                | NIL
-**Associate Partner** | NIL                                     | €10,000 **or** €40,000 for a five year term, at the Partner’s option
+|  &nbsp;             | **On admission as a Member or Partner** | **Subsequent Annual Contribution** |
+|  ------------------ | --------------------------------------- | ---------------------------------- |
+|  **Member**         | €200,000                                | NIL |
+|  **Strategic Partner**  | €200,000                            | NIL |
+|  **Associate Partner**  | NIL                                 | €10,000 **or** €40,000 for a five year term, at the Partner’s option |
 
 An Associate Partner may, by mutual consent with the Association, substitute an agreed in-kind contribution for the Annual Contribution fee of €10,000.
 
