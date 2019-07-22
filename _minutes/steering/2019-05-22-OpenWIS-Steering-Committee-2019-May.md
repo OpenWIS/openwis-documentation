@@ -14,7 +14,7 @@ minuteOwner: steering
     1. All attendees were content with the agenda.
 3. **Declaration of delegates**
 
-    *1. The current members of the SC are:*
+    *3.1 The current members of the SC are:*
       - Jeremy Tandy (JT), Met Office [UKMO] - SC Chair
       - Rémy Giraud (RGr), Météo France [MF] - SC Vice-Chair
       - Benjamin Saclier (BS), Météo France [MF]
@@ -24,13 +24,13 @@ minuteOwner: steering
       - Mikko Visa, Finnish Meteorological Institute [FMI]
       - Weiqing Qu (WQ), Bureau of Meteorology (BoM)
 
-    *2. All attendees were content with the following:*
+    *3.2 All attendees were content with the following:*
       - JT representing WQ of BoM with authority from WQ.
       - SD representing Dr. S.L. Singh (SLS), India Meteorological Department [IMD] with authority from Dr.   SLS.
 
       The meeting was declared as quorate as 7 attending.
 
-    *Other attendees:*
+    *3.3 Other attendees:*
     • Steve Olson (SO), National Weather Service [NWS]
     • Stephan Siemen (SS), European Centre for Medium-Range Weather Forecasts [ECMWF]
     • Mikko Partio, Finnish Meteorological Institute [FMI]
@@ -40,7 +40,8 @@ minuteOwner: steering
     • Jude Anthonisz, Met Office [UKMO]
 
 4. **Approval of previous minutes**
-    1. The minutes of the meeting on 11 January 2019 were approved by all.
+    - The minutes of the meeting on 11 January 2019 were approved by all.
+
 
 5. **Election of chairperson ("TC-Chair") and vice-chairperson ("TC-Vice-Chair") of the Technical Committee**
     - SO (Chair) and BS (VC) confirmed that they are both content to continue in the roles.
@@ -51,7 +52,7 @@ minuteOwner: steering
 
 6. **Recommendations to the Board regarding admission of new Members and Partners (see Articles 6 & 9 and Rules 4 & 5)**
 
-    *- 6.1 CMA*
+    *6.1 CMA*
       - RGr reported that there is no progress.
 
     *6.2 Others*
@@ -60,112 +61,111 @@ minuteOwner: steering
 
 7. **Project Reports and requests for Financial Support or changes to existing Charters:**
 
-  - *7.1 [OpenWIS 3.x](https://github.com//issues/497)*
+  *7.1 [OpenWIS 3.x](https://github.com//issues/497)*
+  - SO - Agreed at the TC that requirements definition for help with CI environment setup and annual audit needs to be developed in order to enable a procurement of a third party. This means that a a request for funds for this service will be come later in the year.
+  - SO - Also in February 2020 Discourse licence (for the forum) will need to be extended.
+  - RGr - If a 2020 item, it will be next financial year, so need to have an estimate of this before December 2019.
+  - SO - the cost will around 1000 USD
+  - RGr – We will put a provision in the budget.
 
-    - SO - Agreed at the TC that requirements definition for help with CI environment setup and annual audit needs to be developed in order to enable a procurement of a third party. This means that a a request for funds for this service will be come later in the year.
-    - SO - Also in February 2020 Discourse licence (for the forum) will need to be extended.
-    - RGr - If a 2020 item, it will be next financial year, so need to have an estimate of this before December 2019.
-    - SO - the cost will around 1000 USD
-    - RGr – We will put a provision in the budget.
+  RES-OWIS The Steering Committee (SC) decided to place a provision in the 2019 budget for the Discourse licence.
+  - SO - A recommendation will be made regarding the removal of Forgerock from OpenWIS 3.14.8 make a recommendation. This will include whether a third-party vendor will provide support for code changes.
+  - JT - time-scales?
+  - SO - This will be by September 2019
+  - JT - Any other aspects?
+  - JA - Documentation updates.
+  - JT - OK, also see (#451).
+  - JT - TC recommend a principle that OpenWIS 3x will be free to use. So, does a TC want to recommend a principle?
+  - SO - Yes.
+  - FB - Do we want to be specific, i.e. must be licenced and the cost of the must be free?
+  - JT - The moral position we were started was that small countries and island states did have any barriers to adoption. So, the question is whether a SC policy directive help us and materially affect the way we operate.
+  - RGr - I think it was implicit, so we just need to be remind/reaffirm.
+  - JT - OK. To confirm, we can reaffirm our intent that the Open WIS Association intends to make available software that can be deployed and used without any payment of licence fees.
 
-    RES-OWIS The Steering Committee (SC) decided to place a provision in the 2019 budget for the Discourse licence.
+  RES-OWIS The Steering Committee (SC) decided support make software available that can be deployed without any payment of licence fees.
 
-    - SO - A recommendation will be made regarding the removal of Forgerock from OpenWIS 3.14.8 make a recommendation. This will include whether a third-party vendor will provide support for code changes.
-    - JT - time-scales?
-    - SO - This will be by September 2019
-    - JT - Any other aspects?
-    - JA - Documentation updates.
-    - JT - OK, also see (#451).
-    - JT - TC recommend a principle that OpenWIS 3x will be free to use. So, does a TC want to recommend a principle?
-    - SO - Yes.
-    - FB - Do we want to be specific, i.e. must be licenced and the cost of the must be free?
-    - JT - The moral position we were started was that small countries and island states did have any barriers to adoption. So, the question is whether a SC policy directive help us and materially affect the way we operate.
-    - RGr - I think it was implicit, so we just need to be remind/reaffirm.
-    - JT - OK. To confirm, we can reaffirm our intent that the Open WIS Association intends to make available software that can be deployed and used without any payment of licence fees.
+  - JT - any more points?
+  - ALL - no.
+  - JT - Still check that we all agree that we are in a maintenance mode
+  - All - Yes
+  - JT - only changes that will made relates to security vulnerabilities?
+  - SO - Yes.
+  - JT - So, if there request for any other aspects, we say no?
+  - ALL - Yes.
 
-    RES-OIWS The Steering Committee (SC) decided support make software available that can be deployed without any payment of licence fees.
+  RES-OWIS The Steering Committee (SC) confirmed that OpenWIS 3x is in maintenance mode and the only changes will be to remedy security vulnerabilities.
 
-    - JT - any more points?
-    - ALL - no.
-    - JT - Still check that we all agree that we are in a maintenance mode
-    - All - Yes
-    - JT - only changes that will made relates to security vulnerabilities?
-    - SO - Yes.
-    - JT - So, if there request for any other aspects, we say no?
-    - ALL - Yes.
-
-    RES-OWIS The Steering Committee (SC) confirmed that OpenWIS 3x is in maintenance mode and the only changes will be to remedy security vulnerabilities.
-
-    - SS - Do we start a new code base for WIS2?
-    - All - Yes.
-    - SS - Do we start test driven development?
-    - ALL - yes
-    - RGr - Do we want to clarity that there will a SC meeting in September re outcome of evaluation?
-    - SO - Yes, the whole evaluation will be completed and discussed at the TC.
-    - JT - OK, so we will have a SC meeting to approve in early October 2019, including any finances.
-    - JT - Can we treat as an extra-ordinary item?
-    - RGr - Yes, as we don’t want to put a limit at this stage.
-    - ALL- agreed.
+   - SS - Do we start a new code base for WIS2?
+   - All - Yes.
+   - SS - Do we start test driven development?
+   - ALL - yes
+   - RGr - Do we want to clarity that there will a SC meeting in September re outcome of evaluation?
+   - SO - Yes, the whole evaluation will be completed and discussed at the TC.
+   - JT - OK, so we will have a SC meeting to approve in early October 2019, including any finances.
+   - JT - Can we treat as an extra-ordinary item?
+   - RGr - Yes, as we don’t want to put a limit at this stage.
+   - ALL- agreed.
 
     RES-OWIS The Steering Committee (SC) confirmed that there will be a meeting in October 2019 to approve outcome technical evaluation and funding required regarding the maintenance of OpenWIS 3.x and the CI environment.
 
- - *7.2 [AMQP](https://github.com//issues/440)*
+   *7.2 [AMQP](https://github.com//issues/440)*
 
-    - JT - for status see slide pack on status from DP’s presentation.
-    - DP - OK
-    - JT - How long do you expect to be continuing with the pilot?
-    - DP - Continue to develop cannot say when the end.
-    - JT - SC to review in 12 months?
-    - All - Agreed.
+   - JT - for status see slide pack on status from DP’s presentation.
+   - DP - OK
+   - JT - How long do you expect to be continuing with the pilot?
+   - DP - Continue to develop cannot say when the end.
+   - JT - SC to review in 12 months?
+   - All - Agreed.
 
-    RES-OWIS The Steering Committee (SC) confirmed that the AMQP project could continue and it would be reviewed in May 2020.
+   RES-OWIS The Steering Committee (SC) confirmed that the AMQP project could continue and it would be reviewed in May 2020.
 
    - JT - I urge all OpenWIS partners to contribute to this project and promote this work in respective organisations.
    - FB - Once a WIS2 adoption strategy is clearly defined, that it made clear in the OpenWIS Association information packages.
 
-- *7.3 [Trust Model](https://github.com//issues/441)*
-  - SO - In principle, we need some guidance on what type of procurement can be used for this work.
-  - JT - Do you still believe its necessary to do this work?
-  - SO - I am tempted to delay this work, given the changes in train within WMO.
-  - RGr - Do we defer, or do we close? As we will be in the same position next year?
-  - LG - Can be have a status as ‘frozen’
-  - JT - Agreed.
+   *7.3 [Trust Model](https://github.com//issues/441)*
+   - SO - In principle, we need some guidance on what type of procurement can be used for this work.
+   - JT - Do you still believe its necessary to do this work?
+   - SO - I am tempted to delay this work, given the changes in train within WMO.
+   - RGr - Do we defer, or do we close? As we will be in the same position next year?
+   - LG - Can be have a status as ‘frozen’
+   - JT - Agreed.
 
-  RES-OWIS The Steering Committee (SC) confirmed that work on this project will be deferred until May 2020.
+   RES-OWIS The Steering Committee (SC) confirmed that work on this project will be deferred until May 2020.
 
-- *7.4 [Schema.org](https://github.com//issues/498)*
+   *7.4 [Schema.org](https://github.com//issues/498)*
 
-  - JT - as reported in TC and PMC, this work is being taken up by the broader community. So, I would proposed to close this project and support the broader community.
-  - ALL - Agreed.
+   - JT - as reported in TC and PMC, this work is being taken up by the broader community. So, I would proposed to close this project and support the broader community.
+   - ALL - Agreed.
 
-  RES-OWIS The Steering Committee (SC) confirmed that this project is closed.
+   RES-OWIS The Steering Committee (SC) confirmed that this project is closed.
 
-- *7.5 [Metadata formats](https://github.com//issues/469)*
+   *7.5 [Metadata formats](https://github.com//issues/469)*
 
-  - JT - as reported in TC and PMC, this work is being taken up by the broader community. So, I would proposed to close this project and support the broader community.
-  - ALL - Agreed
+   - JT - as reported in TC and PMC, this work is being taken up by the broader community. So, I would proposed to close this project and support the broader community.
+   - ALL - Agreed
 
-  RES-OWIS The Steering Committee (SC) confirmed that this project is closed.
+   RES-OWIS The Steering Committee (SC) confirmed that this project is closed.
 
-- *7.6 [INSPIRE](https://github.com//issues/438)*
-  - MV- per slide pack, which is here #539 (comment)
-  - JT - How does the hackathon feed into the work of OGC?
-  - SO - Map tiles, Coverages, data processing.
-  - MV - The approach is to simplify. A pilot project has started (slides 4 ,5 and 7). Also, a comparison with the approach of the Weather-on-the-web project (slide 6).
-  - JT - good that both projects are sharing information with each other.
-  - MV - queried the status for the Weather-on-the web project and WIS2 specs status roadmap.
-  - JT - provide an update.
-  - KS - Is there a way that WMO can work with OGC?
-  - JT - Secretariat can work with project and/or work with representatives to implement but the Secretariat will not do this.
-  - FB - there is a MOU between OGC and WMO.
-  - JT - who is involved in OGC? RGr, LG, FMI, NWS. So, there is work on service standards and framework on weather and climate standards, is it something that you want to engage with? I encourage you to promote OGC (www.opengeospatial.org) within your organisations.
+   *7.6 [INSPIRE](https://github.com//issues/438)*
+   - MV- per slide pack, which is here #539 (comment)
+   - JT - How does the hackathon feed into the work of OGC?
+   - SO - Map tiles, Coverages, data processing.
+   - MV - The approach is to simplify. A pilot project has started (slides 4 ,5 and 7). Also, a comparison with the approach of the Weather-on-the-web project (slide 6).
+   - JT - good that both projects are sharing information with each other.
+   - MV - queried the status for the Weather-on-the web project and WIS2 specs status roadmap.
+   - JT - provide an update.
+   - KS - Is there a way that WMO can work with OGC?
+   - JT - Secretariat can work with project and/or work with representatives to implement but the Secretariat will not do this.
+   - FB - there is a MOU between OGC and WMO.
+   - JT - who is involved in OGC? RGr, LG, FMI, NWS. So, there is work on service standards and framework on weather and climate standards, is it something that you want to engage with? I encourage you to promote OGC (www.opengeospatial.org) within your organisations.
 
-  - JT - MV in term of going forward, please keep us update on developments throughout the year.
-  - SS - Is there a GitHub page?
-  - MV - Yes, it’s in the slide pack.
-  - JT - SS please liaise with SO on best place to interact.
+   - JT - MV in term of going forward, please keep us update on developments throughout the year.
+   - SS - Is there a GitHub page?
+   - MV - Yes, it’s in the slide pack.
+   - JT - SS please liaise with SO on best place to interact.
 
-  RES-OWIS The Steering Committee (SC) confirmed that the Association should continue to be kept informed of the status and progress of this work.
+   RES-OWIS The Steering Committee (SC) confirmed that the Association should continue to be kept informed of the status and progress of this work.
+
 
 8. **Review new proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
 
@@ -191,7 +191,8 @@ minuteOwner: steering
     - Re initial use of forum. It was agreed that initially it will be unstructured and open. Auto tagging and an easy way for manual tagging will be investigated.
     - Also, the ways in which the TC can evolve and make it better by periodically make presentation on emerging tech standards and periodic checks on WIS2 planning updates.
 
-    RES-OWIS The Steering Committee (SC) confirmed that updates on the development of techni
+  RES-OWIS The Steering Committee (SC) confirmed that updates on the development of technical Committee
+
 
 12. **penWIS Association logistics**
 
@@ -202,14 +203,14 @@ minuteOwner: steering
     - RGr - It is always a pleasure and glad that you happy to continue.
     - ALL - Agreed. 6 in favour and one abstention.
 
-    RES-OWIS The Steering Committee (SC) confirmed that the Met Office and Jude Anthonisz to continue to provide the Secretariat function in same way as in 2018.
+  RES-OWIS The Steering Committee (SC) confirmed that the Met Office and Jude Anthonisz to continue to provide the Secretariat function in same way as in 2018.
 
   *12.2 Treasurer*
    - RGr - Nathalie has taken on this role from Stacey in UKMO. Has taken over this role and has prepared the annual accounts for 2019 and in a similar way to the role of the Programme Management/Secretariat function.
    - LG - MFI is happy to do the role of Treasurer, but we need a basic contract in place. The proposed contract is here - https://github.com/OpenWIS/openwis-documentation/issues/539#issuecomment-494879908
    - Agreed. 6 in favour and 1 abstention.
 
-   RES-OWIS The Steering Committee (SC) confirmed that the Météo France International (MFI) will provide the Treasury function via Nathalie Dureisseix (ND).
+  RES-OWIS The Steering Committee (SC) confirmed that the Météo France International (MFI) will provide the Treasury function via Nathalie Dureisseix (ND).
 
   - JT - Will MFI invoice for work so far and routinely in April?
   - LG - Yes
@@ -307,13 +308,16 @@ minuteOwner: steering
      - This is agreed as pub-sub messaging. Aiming to increase number of participants by October or November 2019, the outcome which will be in 12 months-time, will inform the specification of a prototype operational network.
      - There will be additional aspects that would need to be developed that would address principle WMO principles 6 to 9 of the WMO WIS2 implementation approach.
 
-    RES-OWIS The Steering Committee (SC) agreed to loosen the scope of the OpenWIS Association to enable: lobbying, out-reach, and building operational services and introduce the category of ‘contributing’ partner.
+  RES-OWIS The Steering Committee (SC) agreed to loosen the scope of the OpenWIS Association to enable: lobbying, out-reach, and building operational services and introduce the category of ‘contributing’ partner.
 
-    ACTIONS:
-    [RGr to draft changes to Articles of Association](https://github.com/OpenWIS/openwis-documentation/issues/553)
-    [ALL to- to review and feedback by mid-July 2019](https://github.com/OpenWIS/openwis-documentation/issues/553)
-    [The aim being a legal review with Legal team and finalise by October 2019 SC](https://github.com/OpenWIS/openwis-documentation/issues/553)
-    [ACTION _ JA to speak to Michael Robbins](https://github.com/OpenWIS/openwis-documentation/issues/553)
+  ACTIONS:
+  [RGr to draft changes to Articles of Association](https://github.com/OpenWIS/openwis-documentation/issues/553)
+
+  [ALL to- to review and feedback by mid-July 2019](https://github.com/OpenWIS/openwis-documentation/issues/553)
+
+  [The aim being a legal review with Legal team and finalise by October 2019 SC](https://github.com/OpenWIS/openwis-documentation/issues/553)
+
+  [ACTION _ JA to speak to Michael Robbins](https://github.com/OpenWIS/openwis-documentation/issues/553)
 
 14. **Review of Strategic Goals and Metrics (3-year horizon) [metrics]**
     - [Agreed defer this to the October 2019 SC](https://github.com/OpenWIS/openwis-documentation/issues/554)
@@ -323,18 +327,17 @@ minuteOwner: steering
 
 16. **Finances of the OpenWIS Association [Treasurer]**
 
-  *- 16.1 FY2018 expenditure*
+  *16.1 FY2018 expenditure*
     - LG - presented the expenditure for 2018 on behalf of Nathalie Dureisseix (ND).
 
-  *- 16.2 Review of need for additional finance*
+  *16.2 Review of need for additional finance*
     - Work on CI environment and removing dependency of Forgerock will incur expenditure. Therefore, a new budget line is required. Therefore, a budget of 80k euros was agreed for this.
     - Add a 10k euros for contingency. Remove ING costs.
-
     - The above to be recommended to the Board.
 
    RES-OWIS The Steering Committee (SC) agreed to recommend this proposal regarding additional finance and contingency to the Board.
 
-  *- 16.3 Budget for 2019/20*  
+  *16.3 Budget for 2019/20*  
   - SO - There will be no charge for 2019 regarding the forum. Therefore £1k should be removed
   - JT - Agreed to proceed with DropBox for Business account.
   - JT – Integration with commercial search engine will not be required. However, work on CI environment and removing dependency of Forgerock will incur expenditure. Therefore, a new budget line is required. Therefore, a budget of 80k euros was agreed for this.
@@ -348,6 +351,7 @@ minuteOwner: steering
 17. **Recommendations to the Board to make and adopt, alter, supplement or repeal the Internal Rules**
   - Agreed to recommend Internal rules for GDPR and Data Privacy Manager.
 
+
 18. **[Outstanding actions](https://github.com/OpenWIS/openwis-documentation/issues?page=1&q=is%3Aopen+is%3Aissue+label%3A%22Steering+Committee%22)**
   - To be discussed on 23 May 2019)
 
@@ -357,7 +361,7 @@ minuteOwner: steering
     The chair of the SC would like to get confirmation that Weiqing Qu from BoM to agreeing in principle to host the next annual meeting.
 
 20. **Any other business**
-    *- Procurement*
+    *Procurement*
 
       - Options
         - Options were discussed -

@@ -35,24 +35,26 @@ minuteOwner: technical
 3. **Technical infrastructure: status and plan for future management and operation (including any costs and costs of improvements for SC approval)**
 
     *- 3.1 Definition of new CI requirements definition by mid-June 2019.*
-        - The following was agreed:
-          - Estimates of effort 6 weeks for set up and 2 weeks for audit. Training to be included within the 6 weeks, potentially as a DEVCON activity. Who would want to be part of this activity? We would do remote web sessions that are recorded that are re-usable.
-          - A face-to-face 3-day Developer Conference would take place, that focuses on the quality measures in early September with supplier (so travel cost for supplier). Topics – CI env and quality measure themes (#451).
-          - The time and location of the of the Developer Conference to be included as part of contract.
-          - The location will be Météo France, Toulouse, 23 to 25 September 2019.
-          - Ask contractor whether they can recommend system environment, such as a cloud provider (not provision) based on snapshot of previous CI environment.
-          - Share RFP by secure means (I.e. to protect commercial issues)
+      - The following was agreed:
+        - Estimates of effort 6 weeks for set up and 2 weeks for audit. Training to be included within the 6 weeks, potentially as a DEVCON activity. Who would want to be part of this activity? We would do remote web sessions that are recorded that are re-usable.
+        - A face-to-face 3-day Developer Conference would take place, that focuses on the quality measures in early September with supplier (so travel cost for supplier). Topics – CI env and quality measure themes (#451).
+        - The time and location of the of the Developer Conference to be included as part of contract.
+        - The location will be Météo France, Toulouse, 23 to 25 September 2019.
+        - Ask contractor whether they can recommend system environment, such as a cloud provider (not provision) based on snapshot of previous CI environment.
+        - Share RFP by secure means (I.e. to protect commercial issues)
 
-         *ACTION – JA provide the costs from the work done by European Dynamics work as an indicator of cost*
-         *ACTION – SO and BS Discuss other topics for Devcon*
-         *[ACTION - LL and SO to present options and costs at the Dev Con for approval by SC following TC endorsement](https://github.com/OpenWIS/openwis-documentation/issues/542)*
+        *[ACTION – JA provide the costs from the work done by European Dynamics work as an indicator of cost](https://github.com/OpenWIS/openwis-documentation/issues/564)*
 
-         - BS and DP – We need for an environment for development without a CI. Agreed that from considering whether to use a virtual environment or a cloud end, that its best to evaluate a third party could build an environment as OpenWIS 3x is in maintenance development.
-         - All - agreed.
+        *[ACTION – SO and BS Discuss other topics for Devcon](https://github.com/OpenWIS/openwis-documentation/issues/565)*
 
-         *ACTION - SS to incorporate into RFP or recommend a separate RFP*
+        *[ACTION - LL and SO to present options and costs at the Dev Con for approval by SC following TC endorsement](https://github.com/OpenWIS/openwis-documentation/issues/542)*
 
-         RES-OWIS Recommend to the Steering Committee (SC) the proposal to use external resource resource to help set-up a CI CD environment with follow up audits each year for 2 years with the approach and time-scale for defining requirements by mid-June 2019 and using a Developer Conference on 23-25 September 2019.
+        - BS and DP – We need for an environment for development without a CI. Agreed that from considering whether to use a virtual environment or a cloud end, that its best to evaluate a third party could build an environment as OpenWIS 3x is in maintenance development.
+        - All - agreed.
+
+        *[ACTION - SS to incorporate into RFP or recommend a separate RFP](https://github.com/OpenWIS/openwis-documentation/issues/543)*
+
+        RES-OWIS Recommend to the Steering Committee (SC) the proposal to use external resource resource to help set-up a CI CD environment with follow up audits each year for 2 years with the approach and time-scale for defining requirements by mid-June 2019 and using a Developer Conference on 23-25 September 2019.
 
     *3.2 EOL and Dependencies.*
       - Agreed to adopt the agreements and approach at the PMC on 20 May 2019- please see #538). The target start date for completion of end of September to benefit from the outcome of the CI development.
@@ -122,33 +124,33 @@ minuteOwner: technical
 
    RES-OWIS recommend to SC that WIS2 and technical updates to be part of TC meetings and encourage MSS team to attend TC meetings.
 
-    *Forum*
-    - SO - proposed that a strategic item should be added.
-    - JT - Is it possible to use to the Github credentials to log into the forum?
-    [ACTION - SO to explore whether the credentials used for accessing Github can be used for accessing the forum (which is based on Discourse) to make it easier to manage both tools](https://github.com/OpenWIS/openwis-documentation/issues/549)
-    - MV - Installation and upgrade support documents.
-    - ALL - no other suggestions
-    [ACTION - SO to add OpenWIS 3x installation and upgtade support documents to forum](https://github.com/OpenWIS/openwis-documentation/issues/546)
-    - JT - Add documents as requests are received from MG.
-    - BS - Sub categories under ‘documents’
-    - BS - ‘OpenWIS Project’ to ‘OpenWIS Core
-    [ACTION – SO to make changes to the description of OpenWIS from 'OpenWIS Project' to 'OpenWIS Core'](https://github.com/OpenWIS/openwis-documentation/issues/547)
-    - BS - Clarify where to register a bug – on forum or github?
-    - JT - Can have discussion in forum re bugs but the store of the bug is GitHub, so GitHub should be referenced when closing a thread.
-    - BS - Clarify what can be seen without registering.
-    - SO - Private while being set up and public in the future.
-    - BS, LL, SS – would prefer to change to public
-    [ACTION – SO to change to forum access to ‘public’](https://github.com/OpenWIS/openwis-documentation/issues/548)
-    - SO - what tags should be adopted. For example, 3.14.8 is a tag.
-    - JT - Let the forum be populated and then decide what tags to add.
-    - SS - Installation related questions are usually the most common discussion.
-    - RGr - Prefer to see content and then see what happens
-    - JT - worth having a category for each project.
-    - BS - in MF use a category and no-sub tags.
-    - JA – Explore auto-tagging plug-ins
-    - RGr - Add Core and Excel2WIS and WIS2 Projects.
-    - SO - And other general questions.
-   [ACTION – SO to explore auto-tagging plug-ins and Add OpenWIS Core, Excel2WIS, and WIS2 as tags to the forum](https://github.com/OpenWIS/openwis-documentation/issues/549)
+  *Forum*
+  - SO - proposed that a strategic item should be added.
+  - JT - Is it possible to use to the Github credentials to log into the forum?
+  [ACTION - SO to explore whether the credentials used for accessing Github can be used for accessing the forum (which is based on Discourse) to make it easier to manage both tools](https://github.com/OpenWIS/openwis-documentation/issues/549)
+  - MV - Installation and upgrade support documents.
+  - ALL - no other suggestions
+  [ACTION - SO to add OpenWIS 3x installation and upgtade support documents to forum](https://github.com/OpenWIS/openwis-documentation/issues/546)
+  - JT - Add documents as requests are received from MG.
+  - BS - Sub categories under ‘documents’
+  - BS - ‘OpenWIS Project’ to ‘OpenWIS Core
+  [ACTION – SO to make changes to the description of OpenWIS from 'OpenWIS Project' to 'OpenWIS Core'](https://github.com/OpenWIS/openwis-documentation/issues/547)
+  - BS - Clarify where to register a bug – on forum or github?
+  - JT - Can have discussion in forum re bugs but the store of the bug is GitHub, so GitHub should be referenced when closing a thread.
+  - BS - Clarify what can be seen without registering.
+  - SO - Private while being set up and public in the future.
+  - BS, LL, SS – would prefer to change to public
+  [ACTION – SO to change to forum access to ‘public’](https://github.com/OpenWIS/openwis-documentation/issues/548)
+  - SO - what tags should be adopted. For example, 3.14.8 is a tag.
+  - JT - Let the forum be populated and then decide what tags to add.
+  - SS - Installation related questions are usually the most common discussion.
+  - RGr - Prefer to see content and then see what happens
+  - JT - worth having a category for each project.
+  - BS - in MF use a category and no-sub tags.
+  - JA – Explore auto-tagging plug-ins
+  - RGr - Add Core and Excel2WIS and WIS2 Projects.
+  - SO - And other general questions.
+  [ACTION – SO to explore auto-tagging plug-ins and Add OpenWIS Core, Excel2WIS, and WIS2 as tags to the forum](https://github.com/OpenWIS/openwis-documentation/issues/549)
 
 
 **11. Any Other Business**
