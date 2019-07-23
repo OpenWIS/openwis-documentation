@@ -44,27 +44,25 @@ An Associate Partner may, by mutual consent with the Association, substitute an 
 
 The rights and privileges afforded to Members, Strategic Partners, Associate Partners, and Contributors in return for their fees (where applicable), shall be as set out in the table below:
 
-&nbsp; | **Member** | **Strategic Partner** | **Associate Partner** | **Contributors**
------- | ---------- | --------------------- | --------------------- | ----------------
-Right to appoint a Representative to the Board | &#x2713; | X | X | X
-Right to appoint a Delegate to the Steering Committee (with vote) | &#x2713; | &#x2713; | X | X
-Right to attend Steering Committee meetings as an observer (without vote) | X | X | &#x2713; | X
-Right to propose new Projects | &#x2713; | &#x2713; | &#x2713; | X
-Reception of copies of the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}) and [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | &#x2713;
-Reception of appropriate notice of all meetings of the Association which Member or Partner is eligible to attend | &#x2713; | &#x2713; | &#x2713; | X
-Information and consultation on an on-going basis about the activities of the Association | &#x2713; | &#x2713; | &#x2713; | X
-Access to the OpenWIS&reg; software | &#x2713; | &#x2713; | &#x2713; | &#x2713;
-Access to documentation and reference implementations | &#x2713; | &#x2713; | &#x2713; | &#x2713;
-OpenWIS&reg; Community Support | &#x2713; | &#x2713; | &#x2713; | &#x2713;
-Visibility of the OpenWIS&reg; development roadmap | &#x2713; | &#x2713; | &#x2713; | &#x2713;
-Replies to new feature requests | &#x2713; | &#x2713; | &#x2713; | X
-Access to a sandbox reference implementation | &#x2713; | &#x2713; | &#x2713; | &#x2713;
-
-Eligible to serve on the Technical Committee, subject to qualifying criteria in [Article 14.2]({{ "/articles/14-technical-committee.html#article-14.2" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | &#x2713;
-Eligible to serve on OpenWIS&reg; Project Management Committees, subject to procedures defined in [OpenWIS&reg; Project Governance rules supplement]({{ "/rules2/2017-12-06-OpenWIS-Project-Governance.md" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | &#x2713;
-
-Eligible to participate in OpenWIS&reg; meetings, user groups, workshops and conferences | &#x2713; | &#x2713; | &#x2713; | &#x2713;
-Eligible to request financial support for an OpenWIS&reg; Project, as outlined in [Rule 12.8]({{ "/rules/12-financial-accounting-and-organisational-expenses.html#rule-12.8" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | X
+| &nbsp; | **Member** | **Strategic Partner** | **Associate Partner** | **Contributors** |
+| ------ | ---------- | --------------------- | --------------------- | ---------------- |
+| Right to appoint a Representative to the Board | &#x2713; | X | X | X |
+| Right to appoint a Delegate to the Steering Committee (with vote) | &#x2713; | &#x2713; | X | X |
+| Right to attend Steering Committee meetings as an observer (without vote) | X | X | &#x2713; | X |
+| Right to propose new Projects | &#x2713; | &#x2713; | &#x2713; | X |
+| Reception of copies of the [Articles of Association]({{ "/articles/" | prepend: site.baseurl }}) and [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | &#x2713; |
+| Reception of appropriate notice of all meetings of the Association which Member or Partner is eligible to attend | &#x2713; | &#x2713; | &#x2713; | X |
+| Information and consultation on an on-going basis about the activities of the Association | &#x2713; | &#x2713; | &#x2713; | X |
+| Access to the OpenWIS&reg; software | &#x2713; | &#x2713; | &#x2713; | &#x2713; |
+| Access to documentation and reference implementations | &#x2713; | &#x2713; | &#x2713; | &#x2713; |
+| OpenWIS&reg; Community Support | &#x2713; | &#x2713; | &#x2713; | &#x2713; |
+| Visibility of the OpenWIS&reg; development roadmap | &#x2713; | &#x2713; | &#x2713; | &#x2713; |
+| Replies to new feature requests | &#x2713; | &#x2713; | &#x2713; | X |
+| Access to a sandbox reference implementation | &#x2713; | &#x2713; | &#x2713; | &#x2713; |
+| Eligible to serve on the Technical Committee, subject to qualifying criteria in [Article 14.2]({{ "/articles/14-technical-committee.html#article-14.2" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | &#x2713; |
+| Eligible to serve on OpenWIS&reg; Project Management Committees, subject to procedures defined in [OpenWIS&reg; Project Governance rules supplement]({{ "/rules2/2017-12-06-OpenWIS-Project-Governance.md" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | &#x2713; |
+| Eligible to participate in OpenWIS&reg; meetings, user groups, workshops and conferences | &#x2713; | &#x2713; | &#x2713; | &#x2713; |
+| Eligible to request financial support for an OpenWIS&reg; Project, as outlined in [Rule 12.8]({{ "/rules/12-financial-accounting-and-organisational-expenses.html#rule-12.8" | prepend: site.baseurl }}) | &#x2713; | &#x2713; | &#x2713; | X |
 
 <h2 id="rule-6.5">Rule 6.5</h2>
 
