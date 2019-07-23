@@ -26,10 +26,10 @@ __THE DATA WE COLLECT ABOUT YOU__
  
 We may collect and process the following information about you:
 
-     •  Contact data for the purposes of administering your membership to OpenWIS, for example details of meetings, membership, annual accounts, administration of the Contributor Licence Agreement. 
+* Contact data for the purposes of administering your membership to OpenWIS, for example details of meetings, membership, annual accounts, administration of the Contributor Licence Agreement. 
  
 We do not collect any special categories of personal data about you (this includes details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health, and genetic and biometric data), nor do we collect any information about criminal convictions and offences.
-     •  First bullet under “We may use information about you in the following ways:” on page 2 – I would say: “Rule 6.1 of the OpenWIS Association Internal Rules” 
+* First bullet under “We may use information about you in the following ways:” on page 2 – I would say: “Rule 6.1 of the OpenWIS Association Internal Rules” 
 
 __HOW WE USE YOUR PERSONAL DATA__  
  
