@@ -18,7 +18,7 @@ Ringlaan 3, Avenue Circulaire, B-1180
 Brussels
 Belgium
 
-data-privacy-manager@openwis.io
+data_privacy_manager.openwis@meteo.fr
 
 You have the right to make a complaint at any time to the Supervisory Authority, the Data Protection Authority, Belgium at https://www.dataprotectionauthority.be/. We would, however, appreciate the chance to deal with your concerns before you approach the Data Protection Authority, Belgium, so please contact us in the first instance.
 
@@ -97,7 +97,7 @@ You have the following rights under data protection legislation in relation to t
 * The right to object 
 * The right to prevent automated decision making and profiling. 
 
-For further information in respect of your rights as a data subject, please see visit the Belgium Data Protection Authority - https://www.dataprotectionauthority.be/faq-themes/the-different-rights.  To exercise any of the above rights, please contact the Data Privacy Manager - data-privacy-manager@openwis.io
+For further information in respect of your rights as a data subject, please see visit the Belgium Data Protection Authority - https://www.dataprotectionauthority.be/faq-themes/the-different-rights.  To exercise any of the above rights, please contact the Data Privacy Manager - data_privacy_manager.openwis@meteo.fr
 
 Please note that we may require evidence of your identity in relation to your request.
 
