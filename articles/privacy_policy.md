@@ -18,7 +18,7 @@ Ringlaan 3, Avenue Circulaire, B-1180
 Brussels
 Belgium
 
-data_privacy_manager.openwis@meteo.fr
+(data_privacy_manager.openwis@meteo.fr)
 
 You have the right to make a complaint at any time to the Supervisory Authority, the Data Protection Authority, Belgium at https://www.dataprotectionauthority.be/. We would, however, appreciate the chance to deal with your concerns before you approach the Data Protection Authority, Belgium, so please contact us in the first instance.
 
@@ -51,9 +51,9 @@ __THIRD-PARTY PLATFORMS__
  
 OpenWIS uses the following third-party platforms as detailed below:
 
-Github for the purposes of administration of storing and managing software code and documentation - [](https://help.github.com/en/articles/github-privacy-statement)
+Github for the purposes of administration of storing and managing software code and documentation - https://help.github.com/en/articles/github-privacy-statement)
 
-Discourse for the purposes of administering collaboration - https://www.discourse.org/privacy
+Discourse for the purposes of administering collaboration - (https://www.discourse.org/privacy)
 
 By registering with the above third-party platforms, you may allow third parties to collect or share data about you. We do not control these third-party platforms and are not responsible for their privacy statements.   We would encourage you to read the privacy policies of these platforms prior to registration.
 
@@ -97,7 +97,7 @@ You have the following rights under data protection legislation in relation to t
 * The right to object 
 * The right to prevent automated decision making and profiling. 
 
-For further information in respect of your rights as a data subject, please see visit the Belgium Data Protection Authority - https://www.dataprotectionauthority.be/faq-themes/the-different-rights.  To exercise any of the above rights, please contact the Data Privacy Manager - data_privacy_manager.openwis@meteo.fr
+For further information in respect of your rights as a data subject, please see visit the Belgium Data Protection Authority - (https://www.dataprotectionauthority.be/faq-themes/the-different-rights).  To exercise any of the above rights, please contact the Data Privacy Manager - (data_privacy_manager.openwis@meteo.fr)
 
 Please note that we may require evidence of your identity in relation to your request.
 
