@@ -9,7 +9,7 @@ This document describes the different steps of a project creation.
 
 ### Set up and submit a project proposal
 
-Formulating your proposals on a project charter document using the following [template](/assets/Project.Charter_template.v0.2.docx). Please note that the project charter is a minimal require document, feel free to add any others useful documents in your proposal.
+Formulating your proposals on a project charter document using the following [template](http://openwis.github.io/openwis-documentation/howto/2019-02-08-OpenWIS-Project-Charter-template.html). Please note that the project charter is a minimal require document, feel free to add any others useful documents in your proposal.
 Submit your proposal to the following email:[contact@openwis.io]( mailto:contact@openwis.io), please add in the email subject the term : "Project proposal : name_of_your_project"
 
 ### Review of the project charter
