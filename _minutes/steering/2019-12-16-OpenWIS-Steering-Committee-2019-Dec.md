@@ -8,31 +8,32 @@ minuteOwner: steering
 
 ---
 
-1. **Welcome and introductions**
-    1. *1.1 Attendees:*
-      - Rémy Giraud (RGr), Météo France [MF] - SC Vice-Chair
-      - Benjamin Saclier (BS), Météo France [MF]
-      - Loïc Le Gallou (LG), Météo France International [MFI]
-      - Sungsoo Do (SD), Korea Meteorological Administration [KMA]
-      - Kwangjae Lee (KL), Korea Meteorological Administration [KMA]
-      - Kari Sheets (KS), National Weather Service [NWS]
-      - Steve Olson (SO), National Weather Service [NWS]
-      - Weiqing Qu (WQ), Bureau of Meteorology (BoM)
-      - Stephan Siemen (SS), European Centre for Medium-Range Weather Forecasts [ECMWF]
-      - Jude Anthonisz, Met Office [UKMO]
-      - Steve Palmer, Met Office [UKMO]
-   1. *1.2 Apologies:*
-    - Mikko Visa, Finnish Meteorological Institute [FMI]
-    - Dr. S.L. Singh (SLS), India Meteorological Department [IMD]
-    - Jeremy Tandy, Met Office [UKMO]
+**1. Welcome and introductions**
+  *1.1 Attendees:*
+  - Rémy Giraud (RGr), Météo France [MF] - SC Vice-Chair
+  - Benjamin Saclier (BS), Météo France [MF]
+  - Loïc Le Gallou (LG), Météo France International [MFI]
+  - Sungsoo Do (SD), Korea Meteorological Administration [KMA]
+  - Kwangjae Lee (KL), Korea Meteorological Administration [KMA]
+  - Kari Sheets (KS), National Weather Service [NWS]
+  - Steve Olson (SO), National Weather Service [NWS]
+  - Weiqing Qu (WQ), Bureau of Meteorology (BoM)
+  - Stephan Siemen (SS), European Centre for Medium-Range Weather Forecasts [ECMWF]
+  - Jude Anthonisz, Met Office [UKMO]
+  - Steve Palmer, Met Office [UKMO]
 
-2. **Approval of the agenda**
-- The agenda was approved by all.
+  *1.2 Apologies:*
+  - Mikko Visa, Finnish Meteorological Institute [FMI]
+  - Dr. S.L. Singh (SLS), India Meteorological Department [IMD]
+  - Jeremy Tandy, Met Office [UKMO]
 
-3. **Approval of previous minutes**
-- The minutes of the meeting on 22 May 2019 were approved by all.
+**2. Approval of the agenda**
+  - The agenda was approved by all.
 
-4. **Project Reports (for existing active project) and requests for financial support or changes to existing Charters**
+**3. Approval of previous minutes**
+  - The minutes of the meeting on 22 May 2019 were approved by all.
+
+**4. Project Reports (for existing active project) and requests for financial support or changes to existing Charters**
 
 *4.1 OpenWIS 3.x [https://github.com/OpenWIS/openwis-documentation/issues/497]*
   4.1.1 CICD environment (Highlights and any support required)
@@ -67,17 +68,17 @@ minuteOwner: steering
 	- SO - Agree to keep separate, too as there is much going on CICD as well AMQP.
   - RGr - Any other views or opposition? WQ, are you able to join if the Annual meeting is in Toulouse?
   - WQ - Assume not for planning purposes.
-	- RGr - Any other options or views?
-	- RGb/LL - For MF and MFI better if the Annual meeting is in Toulouse.
-	- RGr - For the OpenWIS community, it is better to keep the meetings separate.
-	- WQ - The Annual Meeting dates are confirmed dates as 25-28 May 2020 for 4 days.
-	- RGr - I will send confirmation email to Association members.
+  - RGr - Any other options or views?
+  - RGb/LL - For MF and MFI better if the Annual meeting is in Toulouse.
+  - RGr - For the OpenWIS community, it is better to keep the meetings separate.
+  - WQ - The Annual Meeting dates are confirmed dates as 25-28 May 2020 for 4 days.
+  - RGr - I will send confirmation email to Association members.
 
-5. **Review new proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
+**5.  Review new proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
 
 *5.1 [OpenCDMS Charter](https://github.com/opencdms/opencdms-project/blob/master/charteropencdms_charter.mdkey) - Key points and approval decision and next steps (Steve Palmer presenting) )*
 
-- RGr - introduced the OpenCDS background:
+- RGr introduced the OpenCDS background:
   - This activity has been ongoing for a number of years. It includes the development of the opencdms specifications, which is now an official WMO document.
   - Currently there is a difference in view of the approach and direction to the work within various project teams.  
   -	I hope that there is a way of reconciling both options / views.  
@@ -108,19 +109,18 @@ minuteOwner: steering
 
 - All - agreed discuss a potential alternative approach with other OpenCDMS team member in late January 2020 before accepting hosting of OpenCDMS within AISBL.
 
-*6.0	Recommendations to the Board regarding new or amended Projects*  
+**6.0	Recommendations to the Board regarding new or amended Projects**  
 - RGr - Agreed in principle  to adopt OpenCDMS, but will be confirmed after the meeting with key OpenCDMS representatives on 30 January 2020. A postal vote will then be organised with the Openwis SC to confirm by mid-February 2020 to the OpenCDMS team the outcome of the request.
 
 
-*[7. Review of Strategic Goals and Metrics (3-year horizon) [metrics]](https://github.com/OpenWIS/openwis-documentation/issues/442)*
+**[7. Review of Strategic Goals and Metrics (3-year horizon) [metrics]](https://github.com/OpenWIS/openwis-documentation/issues/442)**
 - RGr - The 3 goals proposed at the last annual meeting are still relevant and work on CICD, Middleware and AMQP reflect metrics for goals 1 and 3.  Goal 2 is also relevant and agreement in principle to OpenCDMS could once confirmed form relevant metrics.
 
-*8.	OpenWIS Association Logistics*
-
+**8.  OpenWIS Association Logistics**
 [8.1	Can the Annual meeting beheld to coincide with the location of 4.1.1 and 4.2.1) to save excessive of travel](https://github.com/OpenWIS/openwis-documentation/issues/558)
 - Please see 4.1.1, above.
 
-*9.	[Risk review and development of mitigation plans](https://github.com/OpenWIS/openwis-documentation/issues/555) and (https://github.com/OpenWIS/openwis-documentation/projects/4)*
+**9.	[Risk review and development of mitigation plans](https://github.com/OpenWIS/openwis-documentation/issues/555) and (https://github.com/OpenWIS/openwis-documentation/projects/4)**
 - JA - highlighted the risks resourcing/capacity risk (risk000003) was emerging due to the multiple strands of work (I.e. CICD, Middleware, OpenCDMS, and Annual meeting).
 - RGr and All  - Agreed to keep the risk evaluation unchanged as although prioritising CICD and  AMQP until March 2020 and keeping the Annual meeting in late May 2020 helps reduce continuity issues, the implications of middleware procurement and OpenCDMS is not yet known.
 - JA - the other risk that warrants a discussion is compliance failure risk000002)
@@ -130,7 +130,7 @@ minuteOwner: steering
 - JA - Any other exiting exists or new risks?
 - All - No.
 
-*10.	Key Outstanding actions:*
+**10.	Key Outstanding actions:**
 - [A number of actions remaining unclosed that could easily be closed subject to agreement  (full list of actions](https://github.com/OpenWIS/openwis-documentation/issues?page=1&q=is%3Aopen+is%3Aissue+label%3A%22Steering+Committee%22)
 
 - The key and substantive items that are not already on the agenda are:
@@ -154,13 +154,13 @@ minuteOwner: steering
 - RGr - MF have been helpful and pay MF for transfer of trademark get confirmation of duration for renewal.
 - RGr – to check and confirm date of renewal.
 
-*11.	Next meeting*
+**11.	Next meeting**
 Agreed that the next SC is needed in March 2020 to confirm finalisation of the Articles of Association; confirm completion of CICD work; and get the latest position and agree the way forward  on Middleware.  
 
-*12.	Any other business*
+**12.	Any other business**
 - None.
 
-*13.	Summary of recommendations to the Board*
+**13.	Summary of recommendations to the Board**
 - None.  
 
-*14.	Closure of the meeting*
+**14.	Closure of the meeting**
