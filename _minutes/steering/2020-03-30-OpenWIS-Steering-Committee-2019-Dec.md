@@ -20,7 +20,7 @@ minuteOwner: steering
   - Jude Anthonisz, Met Office [UKMO]
   - Jeremy Tandy, Met Office [UKMO] - SC Vice-Chair
   - Mikko Visa (MV), Finnish Meteorological Institute [FMI]
-	- Mikko Partio (MP), Finnish Meteorological Institute, Finland [FMI]
+  - Mikko Partio (MP), Finnish Meteorological Institute, Finland [FMI]
 
   *1.2 Apologies:*
   - Benjamin Saclier (BS), Météo France [MF]

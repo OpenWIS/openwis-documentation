@@ -19,6 +19,7 @@ minuteOwner: technical
       - WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM]
       - JA - Jude Anthonisz, Met Office [UKMO]
       - JR - Jeyoung Ryu (KMA)
+      
     *- Not present:*
       - DP - David Podeur, Météo-France, France [MF]
       - MV - Mikko Visa, Finnish Meteorological Institute, Finland [FMI]
