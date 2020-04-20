@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OpenWIS Steering Committee 2019 December
+title: OpenWIS Steering Committee 2020 March
 minuteOwner: steering
 ---
 
@@ -10,7 +10,7 @@ minuteOwner: steering
 
 **1. Welcome and introductions**
   *1.1 Attendees:*
-  - Rémy Giraud (RGr), Météo France [MF] - SC Vice-Chair
+  - Rémy Giraud (RGr), Météo France [MF] - SC Chair
   - Benjamin Saclier (BS), Météo France [MF]
   - Loïc Le Gallou (LG), Météo France International [MFI]
   - Sungsoo Do (SD), Korea Meteorological Administration [KMA]
@@ -25,7 +25,7 @@ minuteOwner: steering
   *1.2 Apologies:*
   - Mikko Visa, Finnish Meteorological Institute [FMI]
   - Dr. S.L. Singh (SLS), India Meteorological Department [IMD]
-  - Jeremy Tandy, Met Office [UKMO]
+  - Jeremy Tandy, Met Office [UKMO] - SC Vice-Chair
 
 **2. Approval of the agenda**
   - The agenda was approved by all.
