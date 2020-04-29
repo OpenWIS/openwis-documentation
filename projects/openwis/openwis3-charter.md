@@ -52,4 +52,4 @@ _The Chair(s) of the PMC for this Charter will inform the SC of progress against
 
 ## Configuration Management
 
-_This project will produce arterfacts that are in-line with the internal rules of the Association._
+_This project will produce artifacts that are in-line with the internal rules of the Association._
