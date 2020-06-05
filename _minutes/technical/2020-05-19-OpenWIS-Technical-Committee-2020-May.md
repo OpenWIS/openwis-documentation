@@ -37,10 +37,12 @@ minuteOwner: technical
       - RGb - Remy Gibault, Météo-France International [MFI]
       - LG - Loïc Le Gallou (LG), Météo France International, France [MFI]
 
+
 2. **Technical infrastructure: status and plan for future management and operation (including any costs and costs of improvements for SC approval)**
     - SO - We have a new CICD environment in place with no cost due as the components  are open source.  Therefore, the recommendation to the Steering Committee (SC) is that there is no cost or issues for technical infrastructure.
     - SO - Any questions
     - ALL - No. Therefore approved.
+
 
 3. **Code of conduct and CLA compliance: status, review, and recommendations.**
     - SO - All CLAs are up to date and in place with exception of NWS.
@@ -80,15 +82,13 @@ minuteOwner: technical
 
     [ACTION - SO to propose a workflow and guidance to TC](https://github.com/
     OpenWIS/   openwis-documentation/issues/454 and https://github.com/OpenWIS/openwis-documentation/issues/581#issuecomment-634652718)
-  
+
 6. **Key risks and issues of individual OpenWIS Projects: advise the Steering Committee.**
 
 *6.1 	OpenWIS 3.x*
    - SO - EOL risks were discussed PMC on 18 May20. The outcome is that the items in the existing middleware RFP need to remain in scope. A budget for external spend previously approved in 2019.   
    - SO - The only unknown is whether Keycloak is viable replacement for OpenAM and/or OpenDJ and whether the work to replace and migrate will be done with internal or external effort.
-
    - SO - Any questions?
-
    - All - No
 
 *6.2 ExceltoWIS *
@@ -110,6 +110,7 @@ minuteOwner: technical
 
   [ACTION - SO to set up a workshop to a time-scale and format agreed by the SC to gain ideas for potential work that would benefit WIS2]( https://github.com/OpenWIS/openwis-documentation/issues/583)
 
+
 **7. Forum**
   - SO - It’s time to renew the forum license with Discourse, so we need to workout the process for renewing with MFI and NWS.  The cost is a an annually recurring 1000 USD.
   - SO - KS what are your thoughts on invoicing MFI ?
@@ -124,6 +125,7 @@ minuteOwner: technical
   - JA - My proposal is to decide now rather than an evaluation as they is no current usage and to save management time all round.
   - JT - OK so, the TC take a decision to lapse or evaluation to the vote.
   - All – agreed
+
 
 **8. OpenCDMS**
   - SO - It would be good to get a brief on what is seen as the role of the TC regarding the OpenCDMS project.
