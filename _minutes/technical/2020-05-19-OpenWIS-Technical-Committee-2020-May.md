@@ -104,7 +104,7 @@ minuteOwner: technical
 
   [ACTION - SO to create an issue to draft a statement to reflect WIS2 as being a closed and unsupported repo, for approval by the TC]( https://github.com/OpenWIS/openwis-documentation/issues/581#issuecomment-634652718)
 
-	- WMO Expert/Task Team activities and potential impacts to TC for supporting OpenWIS
+  - WMO Expert/Task Team activities and potential impacts to TC for supporting OpenWIS.
 
   - SO - Following on from the discussions at the 18 May 2020 PMC, I will set up a new workshop.
 
