@@ -48,7 +48,7 @@ minuteOwner: steering
 
   -  All - No changes. Therefore approved.
 
-5. Election of chairperson ("TC-Chair") and vice-chairperson ("TC-Vice-Chair") of the Technical Committee 
+**5. Election of chairperson ("TC-Chair") and vice-chairperson ("TC-Vice-Chair") of the Technical Committee **
 
   - RGr - Do we have to re-elect?
 	- JT - Yes
@@ -121,7 +121,7 @@ RES-OWIS The Steering Committee agreed that Steve Olson and Benjamin Saclier wer
   - RGr - Any other points?
   - All - Agreed.
 
-**[ACTION – SO and BS to update the existing OpenWIS 3.x Charter with the latest plan and time-scales and prepare new Charters for the Keycloak investigation](https://github.com/OpenWIS/openwis-documentation/issues/584 and https://github.com/OpenWIS/openwis-documentation/issues/585)**
+**[ACTION – SO and BS to update the existing OpenWIS 3.x Charter with the latest plan and time-scales](https://github.com/OpenWIS/openwis-documentation/issues/584)[and prepare new Charters for the Keycloak investigation](https://github.com/OpenWIS/openwis-documentation/issues/585)**
 
   - RGr - 3rd area Geonetwork.  We first looked at Geonetwork several years  ago and concluded that it was not to be pursued due to the amount of effort needed.  So, a bit worried about this. Is it the right time to consider this as          OpenWIS 3.x is in maintenance mode and is Geonetwork proposal is more than  maintenance?
   - SO - The drive to do this that Geonetwork support and repositories have not been available which generated maintenance issues and caused a concern.  Secondly, a third of current Githubbot security vulnerabilities are not to do with Geonetwork and the analysis has shown a lot of customisation and additional OpenWIS coding that meshes with Geonetwork.  So, a good way forward would be to start a fresh to make it easy to manage OpenWIS code.  The proposal is to investigate the level of effort needed and to look at the future. As the closer we get to WIS2, we need to be ready.
@@ -365,7 +365,7 @@ RES OWIS The Steering Committee agreed to adopt the OpenCDMS Project.
 
 **[ACTION – JT to draft a set of goals to shape the association and circulate to SC](https://github.com/OpenWIS/openwis-documentation/issues/589)**
 
-**[ACTION – All provide reasons/benefits received to respective organisations as a result of participation in the Association] (https://github.com/OpenWIS/openwis-documentation/issues/589)**
+**[ACTION – All provide reasons/benefits received to respective organisations as a result of participation in the Association](https://github.com/OpenWIS/openwis-documentation/issues/589)**
 
 **14.	Risk review and development of mitigation plans (i.e. material changes to risks since 30 March 2020)**
 
