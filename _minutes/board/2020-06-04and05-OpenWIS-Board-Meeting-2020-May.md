@@ -41,12 +41,10 @@ minuteOwner: board
 6. **OpenWIS Association Membership**
 
     *6.1 Status update - designation of current Partners*
-
-        - No change
+    - No change
 
     *6.2 Approve new Partners recommended by the SC*
-
-        - No recommendatons from the SC
+    - No recommendatons from the SC
 
     *6.3 Fees, subscriptions and contributions to become strategic or associate partner*
 
@@ -173,7 +171,9 @@ RES-OWIS The Board approved the annual accounts for 2019.
 
 RES-OWIS The Board agreed a budget of 39470 Euros for review in September 2020
 
-14. **Any other business**
+- Please see 6.3 for the resolution on membership fees.
+
+**14. Any other business**
 
 - WQ - BoM could do the procurement on behalf of the Association.
 - RGr - WQ officially report back on procurement position by September 2020.
@@ -184,12 +184,12 @@ RES-OWIS The Board agreed a budget of 39470 Euros for review in September 2020
 
 **[ACTION – JT to check the legal position regarding BoM undertaking procurement on behalf of the Association](https://github.com/OpenWIS/openwis-documentation/issues/590#issuecomment-639356060)**
 
-15. **Confirm the host of next meeting**
+**15. Confirm the host of next meeting**
 
 - RGr - next meeting virtual meeting on 1 October 2020.  Regarding the next annual meeting I believe that BoM is happy to host.
 - WQ - Confirmed that BoM will host.
 - RGr - Therefore assume BoM
 
-16. Close
+**16. Close**
 
-1243 UTC
+- 1243 UTC
