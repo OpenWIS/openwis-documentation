@@ -31,7 +31,7 @@ minuteOwner: board
 4.	**[Approval of previous minutes](http://openwis.github.io/openwis-documentation/minutes/board/2019-05-23-OpenWIS-Board-Meeting-2019-May.html)**
     - All - approved
 
-5.	**[Outstanding actions]**(https://github.com/OpenWIS/openwis-documentation/issues?q=is%3Aopen+is%3Aissue+label%3A%22Board+Meeting%22)
+5.	**[Outstanding actions](https://github.com/OpenWIS/openwis-documentation/issues?q=is%3Aopen+is%3Aissue+label%3A%22Board+Meeting%22)**
 
     - RGr - I propose that the risk on Compliance failure is closed as the reference document (list) is available in French.
     - All agreed.
@@ -39,10 +39,13 @@ minuteOwner: board
     - All - noted.
 
 6. **OpenWIS Association Membership**
+
     *6.1 Status update - designation of current Partners*
+
         - No change
 
     *6.2 Approve new Partners recommended by the SC*
+
         - No recommendatons from the SC
 
     *6.3 Fees, subscriptions and contributions to become strategic or associate partner*
@@ -59,14 +62,15 @@ minuteOwner: board
     - RGr - I am also happy to continue as is ND
     - All - Agreed and no other changes in representation.
 
+
 8. **Reports and recommendations from the SC**
 
 *8.1 Review governance and compliance status escalated by the SC*
-   - RGr – Re changes in by-laws,  currently no change for review.  However, there is an -SC and Board in September 2020 - 3 hours for each session.
+   - RGr – Re changes in by-laws,  currently no change for review.  However, there is an SC and Board in September 2020 - 3 hours for each session.
 
  **ACTION JA to send invitations to SC and Board members**
 
- **ACTION  [All SC and Board members to read and feedback on proposed changes to the by-laws](https://github.com/OpenWIS/openwis-documentation/issues/553#issuecomment-636042227)**
+ **[ACTION All SC and Board members to read and feedback on proposed changes to the by-laws](https://github.com/OpenWIS/openwis-documentation/issues/553#issuecomment-636042227)**
 
 *8.2 Approve initiation of Projects and amendments to Project Charters recommended by SC*
    - RGr - Regarding the agreement to adopt the OpenCDMS is any further discussion needed?
@@ -80,7 +84,7 @@ RES-OWIS The Board agreed to adopt the OpenCDMS project.
    - All - agreed
 
 
-9. **Review and agree mitigation of OpenWIS Association risks, including those escalated by the SC**
+**9. Review and agree mitigation of OpenWIS Association risks, including those escalated by the SC**
 
 - RGr - We should note the new risk we agreed at the SC regarding the adoption of OpenCDMS (#591) 
 - All - agreed
@@ -92,7 +96,7 @@ RES-OWIS The Board agreed to adopt the OpenCDMS project.
 - WQ - Agreed.  We have known issues that is being progressed actively by the TC.
 - RGr -  OK. In summary, we have 2 new risks to replace risk 3. 1 – OpenWIS software becomes non-compliant against WMO requirements because of lack of investment (people or money).  Mitigations – CICD, middleware and investigating candidate technologies, i.e. Keycloak and Geonetwork (#592).
 2 -  A delay in WIS2 implementation results in significant spend in maintaining OpenWIS software to continue WMO compliance (#593).
-All - agreed.
+- All - agreed.
 - RGr – The mitigation for the second new risk (#593) are: Firstly, RGr and JT are the Chair and Vice Chairs of the new WMO Standing Committee, thereby ensuring progress on WIS2 is made. Secondly, OpenWIS partners will have representation in relevant WMO teams, and thirdly, the OpenWIS Association will facilitate WIS2 development on behalf of WMO.
 - RGr - risk 2 is Green (#334) .  In recent months 2 actions have been taken (i.e. completion of list of annual obligations agreed with VC and study done by Belgian lawyers.  Also see item 5, above)
 - All - agreed
@@ -122,7 +126,7 @@ appointment on the WMO Standing Committee is for 4 years
 
 **ACTION - JA to add revised risks and mitigations to risk log**
 
-10. **Approve of changes to Internal Rules**
+**10. Approve of changes to Internal Rules**
 
 - JA - no proposals for internal rules at this stage.
 - RGr- Let’s discuss by-laws in September 2020.  When we have new by-laws at that stage.
@@ -131,7 +135,7 @@ appointment on the WMO Standing Committee is for 4 years
 
 **[ACTION – All to feedback proposal to change Association by-laws in time for agreement in September 2020](https://github.com/OpenWIS/openwis-documentation/issues/553)**
 
-11. **Annual accounts from 2019 (Treasurer)**
+**11. Annual accounts from 2019 (Treasurer)**
 - RGr - handed to LL
 - LL - Income and expenditure.  Key points:
 	•	200k fed from IMD led to a surplus of £161k compared with 8k deficit in 2018.
@@ -143,7 +147,7 @@ appointment on the WMO Standing Committee is for 4 years
 
 RES-OWIS The Board approved the annual accounts for 2019.
 
-12. **Review the budget set by the SC Chair.**
+**12. Review the budget set by the SC Chair.**
 
 - LL – The budget for 2020 is as discussed in the SC:
 			- Income: 10k from ECMWF
@@ -162,7 +166,7 @@ RES-OWIS The Board approved the annual accounts for 2019.
 - WQ - 10k Euro provision. Can this be used for the procurement?
 - LL - We agreed that we review in September 2020 as the procurement may not be fully completed in 2020.
 
-13. **Approve the 2019: annual budget, budget amendments and extraordinary expenditure; and reserve fund (see Rule R10.7), set membership fees**
+**13. Approve the 2020: annual budget, budget amendments and extraordinary expenditure; and reserve fund (see Rule R10.7), set membership fees**
 
 - All - agreed approval of the budget of 39470 euros.
 - All - agreed 2020 budget.
@@ -173,8 +177,11 @@ RES-OWIS The Board agreed a budget of 39470 Euros for review in September 2020
 
 - WQ - BoM could do the procurement on behalf of the Association.
 - RGr - WQ officially report back on procurement position by September 2020.
+
 **[ACTION - WQ to report back arrangements for BoM to undertake procurement on behalf of the Association in September 2020](https://github.com/OpenWIS/openwis-documentation/issues/590#issuecomment-639354987)**
+
 - JT - Check with Michael Robbins in UKMO Legal whether the approach from BoM is OK regarding procurement on behalf the Association
+
 **[ACTION – JT to check the legal position regarding BoM undertaking procurement on behalf of the Association](https://github.com/OpenWIS/openwis-documentation/issues/590#issuecomment-639356060)**
 
 15. **Confirm the host of next meeting**
