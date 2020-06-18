@@ -5,13 +5,13 @@ minuteOwner: board
 ---
 ##### 4 and 5 June 2020, BlueJeans video-conference.
 
-1.	**Welcome and introductions**
+**1.	Welcome and introductions**
     - RGr welcomed the attendees
 
-2.	**Approval of agenda**
+**2.	Approval of agenda**
     - No changes to the agenda were needed
 
-3.	**Declaration of delegates**
+**3.	Declaration of delegates**
     - The current Board members are:
     - Rémy Giraud (RGr), Météo France [MF] - Managing Director: Chairperson
     - Weiqing Qu (WQ), Bureau of Meteorology [BoM] - Managing Director: Vice-Chairperson
@@ -27,17 +27,17 @@ minuteOwner: board
     *Other attendees:*
     - Jude Anthonisz (JA) of the Met Office (OpenWIS Secretariat) (UKMO)
 
-4.	**[Approval of previous minutes](http://openwis.github.io/openwis-documentation/minutes/board/2019-05-23-OpenWIS-Board-Meeting-2019-May.html)**
+**4.	[Approval of previous minutes](http://openwis.github.io/openwis-documentation/minutes/board/2019-05-23-OpenWIS-Board-Meeting-2019-May.html)**
     - All - approved
 
-5.	**[Outstanding actions](https://github.com/OpenWIS/openwis-documentation/issues?q=is%3Aopen+is%3Aissue+label%3A%22Board+Meeting%22)**
+**5.	[Outstanding actions](https://github.com/OpenWIS/openwis-documentation/issues?q=is%3Aopen+is%3Aissue+label%3A%22Board+Meeting%22)**
 
     - RGr - I propose that the risk on Compliance failure is closed as the reference document (list) is available in French.
     - All agreed.
     - RGr - Please also note that the OpenWIS trademark has been transferred to the Association and extended for 10 years.
     - All - noted.
 
-6. **OpenWIS Association Membership**
+**6. OpenWIS Association Membership**
 
     *6.1 Status update - designation of current Partners*
     - No change
@@ -52,7 +52,7 @@ minuteOwner: board
 
     RES-OWIS The Board agreed that membership fees will remain unchanged.
 
-7. **Election of Managing Directors**
+**7. Election of Managing Directors**
 
     - RGr - the Managing Director roles are in mid-term as they elected last year, i.e. the Chair, Vice Chair and Treasurer.
     - WQ - happy to continue as VC
@@ -60,7 +60,7 @@ minuteOwner: board
     - All - Agreed and no other changes in representation.
 
 
-8. **Reports and recommendations from the SC**
+**8. Reports and recommendations from the SC**
 
 *8.1 Review governance and compliance status escalated by the SC*
    - RGr – Re changes in by-laws,  currently no change for review.  However, there is an SC and Board in September 2020 - 3 hours for each session.
