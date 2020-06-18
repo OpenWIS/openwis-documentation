@@ -3,7 +3,6 @@ layout: page
 title: OpenWIS Board Meeting 2020 May
 minuteOwner: board
 ---
-
 ##### 4 and 5 June 2020, BlueJeans video-conference.
 
 1.	**Welcome and introductions**
