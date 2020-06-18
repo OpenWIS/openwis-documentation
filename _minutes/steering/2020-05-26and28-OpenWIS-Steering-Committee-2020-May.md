@@ -121,7 +121,7 @@ RES-OWIS The Steering Committee agreed that Steve Olson and Benjamin Saclier wer
   - RGr - Any other points?
   - All - Agreed.
 
-**[ACTION – SO and BS to update the existing OpenWIS 3.x Charter with the latest plan and time-scales](https://github.com/OpenWIS/openwis-documentation/issues/584)[and prepare new Charters for the Keycloak investigation](https://github.com/OpenWIS/openwis-documentation/issues/585)**
+**[ACTION – SO and BS to update the existing OpenWIS 3.x Charter with the latest plan and time-scales](https://github.com/OpenWIS/openwis-documentation/issues/584)[and prepare a new Charter for the Keycloak investigation](https://github.com/OpenWIS/openwis-documentation/issues/585)**
 
   - RGr - 3rd area Geonetwork.  We first looked at Geonetwork several years  ago and concluded that it was not to be pursued due to the amount of effort needed.  So, a bit worried about this. Is it the right time to consider this as          OpenWIS 3.x is in maintenance mode and is Geonetwork proposal is more than  maintenance?
   - SO - The drive to do this that Geonetwork support and repositories have not been available which generated maintenance issues and caused a concern.  Secondly, a third of current Githubbot security vulnerabilities are not to do with Geonetwork and the analysis has shown a lot of customisation and additional OpenWIS coding that meshes with Geonetwork.  So, a good way forward would be to start a fresh to make it easy to manage OpenWIS code.  The proposal is to investigate the level of effort needed and to look at the future. As the closer we get to WIS2, we need to be ready.
@@ -211,7 +211,7 @@ RES-OWIS The Steering Committee agreed for NWS to begin work on investigating Ge
  - SO - I certainly think that a workshop is a good format but not sure it will be part of the same workshop or not.
  - All - agreed to close and cross refer to a new action regarding the WIS2 workshop
 
-RES OWIS The Steering Committee agreed the closure of the Trust Model Charter.
+RES-OWIS The Steering Committee agreed the closure of the Trust Model Charter.
 
 **ACTION – SO to close the Trust Model Charter and note that it is a potential item for the WIS2 workshop  Meeting closed at 1352 hours UTC on 26 May 2020.**
 
@@ -290,7 +290,7 @@ RES OWIS The Steering Committee agreed to adopt the OpenCDMS Project.
 
 **[ACTION - JA to ensure there is an action to review the term of the Treasurer role](https://github.com/OpenWIS/openwis-documentation/issues/553)**
 
-**11.3 	Information Management [from GDPR https://github.com/OpenWIS/openwis-documentation/issues/459]** 
+**11.3 	Information Management [from GDPR](https://github.com/OpenWIS/openwis-documentation/issues/459)** 
 
 - JA - This is a routine check as part of the Privacy Policy and GDPR implementation. I am not aware of any issues
 - JT - no issues.
@@ -324,9 +324,11 @@ RES OWIS The Steering Committee agreed to adopt the OpenCDMS Project.
 
 *12.5 Review the byelaws of the Association*
 
-- RGr - started working on changing by laws a year ago and revised wording is   available. I am awaiting feedback (https://github.com/OpenWIS/openwis-documentation/issues/553).  What I hear so far is that there   are two potential changes:
+- RGr - started working on changing by laws a year ago and revised wording is   available. I am awaiting [feedback](https://github.com/OpenWIS/openwis-documentation/issues/553).  What I hear so far is that there are two potential changes:
+
 	•	Expanding scope of association
 	•	Accepting funds
+
 - JT - a new item is the changing of terms of Treasurer appointment term
 - RGr – Please have a look at the draft byelaws on github, provide feedback to enable this
 
