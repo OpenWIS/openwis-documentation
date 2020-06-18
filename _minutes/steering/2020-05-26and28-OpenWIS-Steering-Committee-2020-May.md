@@ -8,11 +8,14 @@ minuteOwner: steering
 
 ---
 **1. Welcome and introductions**
+
   - RGr – introduced the meeting and Nicole Brinsmead (NB), Deputy Director of DDG (Data and Digital)
   -	NB- Welcomed everyone and gave good wishes for a productive meeting and confirmed BoM’s ongoing commitment to the Association and hoped to host the OpenWIS annual meeting in Melbourne in 2021.
 
 **2. Attendance**
+
 *2.1 Current members that were present*
+
   - Rémy Giraud (RGr), Météo France [MF] - SC Chair
   -	Jeremy Tandy (JT), Met Office [UKMO] - SC Vice Chair
   -	Loïc Le Gallou (LG), Météo France International [MFI]
@@ -22,9 +25,11 @@ minuteOwner: steering
   -	Weiqing Qu (WQ), Bureau of Meteorology (BoM)
 
 *2.2 Members not present*
+
   - Dr. S.L. Singh (SLS), India Meteorological Department [IMD]
 
 *2.3 Other attendees*
+
   -	Nicole Brinsmead (NM), Bureau of Meteorology (BoM) (Part of 26th)
   - Steve Olson (SO), National Weather Service [NWS]
   - Stephan Siemen (SS), European Centre for Medium-Range Weather Forecasts [ECMWF]  
@@ -32,13 +37,17 @@ minuteOwner: steering
   - Steve Palmer (SP), Met Office [OpenCDMS Project] (Beginning of Day 28th)
 
 **3. Approval of the agenda**
+
   - RGr - Is everyone happy with the agenda?
 	-	JT - Can we discuss OpenCDMS on Thursday?
 	-	All - OK
 	-	RGr - So this item confirmed for Thursday
 	-	All - No other comments
+
 **4. Approval of previous minutes**
+
   -  All - No changes. Therefore approved.
+
 5. Election of chairperson ("TC-Chair") and vice-chairperson ("TC-Vice-Chair") of the Technical Committee 
 
   - RGr - Do we have to re-elect?
@@ -51,6 +60,7 @@ minuteOwner: steering
 RES-OWIS The Steering Committee agreed that Steve Olson and Benjamin Saclier were the Chairperson and Vice Chairperson for the Technical Committee, respectively.
 
  **6.0	Recommendations to the Board regarding admission of new Members and Partners (see Articles 6 & 9, and Rules 4 & 5)**
+
   - RGr - I believe that we do not have any new candidates.  Is everyone else aware of any?
   - JT - I am not
   - All - No
@@ -58,6 +68,7 @@ RES-OWIS The Steering Committee agreed that Steve Olson and Benjamin Saclier wer
 **7.	Project Reports and requests for Financial Support or changes to existing Charters**
 
 *[7.1	OpenWIS 3.x](https://github.com/OpenWIS/openwis-documentation/issues/497)*
+
   - RGr - Is the current charter working well for you?
   - SO - Yes.  In terms of going forward there is a work plan I have sent to the SC.  In summary,  no monies to support, but a caveat.  There have been problems with access to Geonetwork repositories, this is now OK.  A new charter – for OpenWIS 4.0 with the outcomes of investigating alternatives to OpenAM and DJ security services components along with middleware work which may require funding if external effort is required.
   - RGr - I was wondering whether we should look at agenda item 10 as we are also discussing OpenCDMS on 28 May and give an opportunity for others to discuss the work plan.
@@ -111,7 +122,8 @@ RES-OWIS The Steering Committee agreed that Steve Olson and Benjamin Saclier wer
   - All - Agreed.
 
 **[ACTION – SO and BS to update the existing OpenWIS 3.x Charter with the latest plan and time-scales and prepare new Charters for the Keycloak investigation](https://github.com/OpenWIS/openwis-documentation/issues/584 and https://github.com/OpenWIS/openwis-documentation/issues/585)**
-   - RGr - 3rd area Geonetwork.  We first looked at Geonetwork several years  ago and concluded that it was not to be pursued due to the amount of effort needed.  So, a bit worried about this. Is it the right time to consider this as          OpenWIS 3.x is in maintenance mode and is Geonetwork proposal is more than  maintenance?
+
+  - RGr - 3rd area Geonetwork.  We first looked at Geonetwork several years  ago and concluded that it was not to be pursued due to the amount of effort needed.  So, a bit worried about this. Is it the right time to consider this as          OpenWIS 3.x is in maintenance mode and is Geonetwork proposal is more than  maintenance?
   - SO - The drive to do this that Geonetwork support and repositories have not been available which generated maintenance issues and caused a concern.  Secondly, a third of current Githubbot security vulnerabilities are not to do with Geonetwork and the analysis has shown a lot of customisation and additional OpenWIS coding that meshes with Geonetwork.  So, a good way forward would be to start a fresh to make it easy to manage OpenWIS code.  The proposal is to investigate the level of effort needed and to look at the future. As the closer we get to WIS2, we need to be ready.
   - RGr - Two aspects. Ensuring Geonetwork is available is a major risk to OpenWIS 3.x running. So, is there a way of limiting the risk , such as creating a fork or copy?  Is this possible?
   - SO - Yes. NWS is looking at this using Maven to rebuild with the repo. So yes.
@@ -178,6 +190,7 @@ RES-OWIS The Steering Committee agreed for NWS to begin work on investigating Ge
   - RGr - thanked all who participated in TC work and plans.
 
 *[7.2	AMQP](https://github.com/OpenWIS/openwis-documentation/issues/440)*
+
   - RGr - The translation of the project has been a bit broader than the Charter that materialised with pub/sub workshop in early March 2020. I’ll re distribute the minutes.  It was quite successful - 2 tracks. First, the experience of use of pub/sub in different locations – Canada, ECMWF,  Germany and MF…. Secondly - what to do next.  I will make sure the documents of the minutes are available to you.
   - RGr - Normally chair of ET will be leading this.  The Chair and Co-chairs will lead on this going forward.  In terms of the Association, this project is closed and transferred to the official WMO structure as we don’t need to replicate what is being done by WMO ETs.
   - JT - are there implementation activities that the Association should focus on?
@@ -188,6 +201,7 @@ RES-OWIS The Steering Committee agreed for NWS to begin work on investigating Ge
   - All - no comments
 
 *[7.3	Trust Model](https://github.com/OpenWIS/openwis-documentation/issues/441)*
+
  - SO - Not started anything as no resources.  The question I pose is still a piece of work to be done or is it being picked up by an ET or TT?
  - JT - TT and ETs are yet to be formed.
  - RGr - So, now current work in progress.  Security is a key element, so this work is useful.  In terms of timeframe, we are looking at potentially a year’s time in 2021.  SO - we could follow the pub/sub to flesh this out
@@ -206,6 +220,7 @@ The meeting closed at 1433 hours UK time.
 **8.	Review new proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
 
 *8.1	OpenCDMS*
+
 - JT - Introduced and gave an overview of the Charter.
 - JT - in terms of governance there is a PMC and is quite autonomous. Engaging the Association to have broader representation and assuring that it remains open source. PMC has representation from WMO.  There is a broad timescale on the Wiki.  Sponsorship and funding via WMO (nothing required from the Association).
 - JT - My view is that this project is compatible with the Association and its aims to improve accessibility of meteorological data globally and as an SC member, I support this Charter.  Any questions?
@@ -282,11 +297,11 @@ RES OWIS The Steering Committee agreed to adopt the OpenCDMS Project.
 
 **12. Shaping the OpenWIS Association** 
 
-*12.1.    Status of WIS 2.0 and support the implementation and pilot projects (e.g. funding cloud resources)*
+*12.1.  Status of WIS 2.0 and support the implementation and pilot projects (e.g. funding cloud resources)*
 
 - This is covered in 7, above.
 
-*12.2     How/where can/should OpenWIS Association add value?*
+*12.2  How/where can/should OpenWIS Association add value?*
 
 - RGr - We touched on this on 26th May already, so not revisit. Please see 7, above). In essence use the Association as a tool make/facilitate WIS2 happening.  Any questions?
 - JT - agreed. Main purpose is to stimulate up take on WIS2 and OpenCDMS is well aligned to this aim. SO, looking not just infrastructure but systems as well.
@@ -296,18 +311,18 @@ RES OWIS The Steering Committee agreed to adopt the OpenCDMS Project.
 - RGr - Many reasons for WMO restructure, mainly to streamline and make things happen faster.  
 - RGr - All please check with your PRs and contacts to make sure your names are on the list of forming WMO teams.
 
-*12.3     Review the continuing need for the OpenWIS Association*
+*12.3  Review the continuing need for the OpenWIS Association*
 
 - RGr - The Association is a tool to enable WIS2.20
 
-*12.4.    Identification of opportunities for engagement with WMO*
+*12.4. Identification of opportunities for engagement with WMO*
 
 - The following was agreed, i.e. via:
 	•	Adopting the OpenCDMS project
 	•	Having experts in various WMO teams
 	•	Facilitation of WMO initiatives such as for WIS2
 
-*12.5     Review the byelaws of the Association*
+*12.5 Review the byelaws of the Association*
 
 - RGr - started working on changing by laws a year ago and revised wording is   available. I am awaiting feedback (https://github.com/OpenWIS/openwis-documentation/issues/553).  What I hear so far is that there   are two potential changes:
 	•	Expanding scope of association
@@ -320,6 +335,7 @@ RES OWIS The Steering Committee agreed to adopt the OpenCDMS Project.
 - RGr - So, I propose a September SC - a 3 hour virtual session focusing on OpenCDMS PMC and Approving changes to the byelaws.
 
 **13.	Review of Strategic Goals and Metrics (3-year horizon) [metrics]**
+
 - RGr handed to JT for items 14 and 15.
 - JT - On the website we only have one goal and metric. In Helsinki (2018) we agreed that the goals were focused on the OpenWIS software and so we removed quite a number of goals and one overall arching goals was agreed.
 - RGr - The Association has completed the following since:
@@ -350,6 +366,7 @@ RES OWIS The Steering Committee agreed to adopt the OpenCDMS Project.
 **[ACTION – JT to draft a set of goals to shape the association and circulate to SC](https://github.com/OpenWIS/openwis-documentation/issues/589)**
 
 **[ACTION – All provide reasons/benefits received to respective organisations as a result of participation in the Association] (https://github.com/OpenWIS/openwis-documentation/issues/589)**
+
 **14.	Risk review and development of mitigation plans (i.e. material changes to risks since 30 March 2020)**
 
 - RGr - not aware of any.
@@ -375,6 +392,7 @@ RES OWIS The Steering Committee agreed to adopt the OpenCDMS Project.
 **15.	Finances of the OpenWIS Association [Treasurer]**
 
 *15.1	FY2019 expenditure*
+
 - LL shared the expenditure for 2019 prepared by Nathalie.  Key points:
 	•	Treasurer function operated by MFI (Nathalie) since 01/01/2019
 	•	New bank account opened for and owned by OpenWIS association
@@ -404,7 +422,7 @@ RES OWIS The Steering Committee agreed to adopt the OpenCDMS Project.
 - Any questions?
 - All - No.
 
-*15.2•	Review of need for additional finance and Budget for 2020/21*
+*15.2 Review of need for additional finance and Budget for 2020/21*
 
 - LL - So budget for 2020.  Key points:
 	•	DropBox duplicated.  Therefore, remove one.
@@ -466,13 +484,14 @@ RES OWIS The Steering Committee agreed to adopt the OpenCDMS Project.
 - JT - I’m not aware of any
 - All - No
 
-**17.	Outstanding actions https://github.com/OpenWIS/openwis-documentation/issues?page=1&q=is%3Aopen+is%3Aissue+label%3A%22Steering+Committee%22**
+**[17.	Outstanding actions](https://github.com/OpenWIS/openwis-documentation/issues?page=1&q=is%3Aopen+is%3Aissue+label%3A%22Steering+Committee%22)**
 - RGr -we have covered risks, CLA, 2019 budget,
 - RGr Any further comments?
 
 **ACTION - JA review and close as required**
 
 **ACTION - KS and MV to review actions and decide whether to attend a quick 15 min session before the Board.**
+
 **18.	Next meeting**
 
 - RGr – agenda items - OpenCDMS, Change of Association by-laws and risk review in late September 2020.
