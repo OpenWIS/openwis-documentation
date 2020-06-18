@@ -6,9 +6,11 @@ minuteOwner: board
 ##### 4 and 5 June 2020, BlueJeans video-conference.
 
 **1.	Welcome and introductions**
+
     - RGr welcomed the attendees
 
 **2.	Approval of agenda**
+
     - No changes to the agenda were needed
 
 **3.	Declaration of delegates**
