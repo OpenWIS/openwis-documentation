@@ -13,7 +13,7 @@ minuteOwner: board
 
 **3.	Declaration of delegates**
 
-    - The current Board members are:
+    The current Board members are:
 
     - Rémy Giraud (RGr), Météo France [MF] - Managing Director: Chairperson
     - Weiqing Qu (WQ), Bureau of Meteorology [BoM] - Managing Director: Vice-Chairperson
