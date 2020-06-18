@@ -7,21 +7,20 @@ minuteOwner: board
 
 **1.	Welcome and introductions**
 
-    - RGr welcomed the attendees
+- RGr welcomed the attendees
 
 **2.	Approval of agenda**
 
-    - No changes to the agenda were needed
+- No changes to the agenda were needed
 
 **3.	Declaration of delegates**
 
-    The current Board members are:
-
-    - Rémy Giraud (RGr), Météo France [MF] - Managing Director: Chairperson
-    - Weiqing Qu (WQ), Bureau of Meteorology [BoM] - Managing Director: Vice-Chairperson
-    - Jeremy Tandy (JT), Met Office [UKMO]
-    - Patrick Benichou (PB), Météo France International [MFI]
-    - Mr. YUN Hyuk Jin (HY), Korea Meteorological Administration [KMA]
+The current Board members are:
+- Rémy Giraud (RGr), Météo France [MF] - Managing Director: Chairperson
+- Weiqing Qu (WQ), Bureau of Meteorology [BoM] - Managing Director: Vice-Chairperson
+- Jeremy Tandy (JT), Met Office [UKMO]
+- Patrick Benichou (PB), Météo France International [MFI]
+- Mr. YUN Hyuk Jin (HY), Korea Meteorological Administration [KMA]
 
     All attendees were content with the following:
     - KMA - Sungsoo Do (SD) representing with authority from KMA Director Mr. YUN Hyuk Jin.
