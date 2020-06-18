@@ -12,7 +12,9 @@ minuteOwner: board
     - No changes to the agenda were needed
 
 **3.	Declaration of delegates**
+
     - The current Board members are:
+
     - Rémy Giraud (RGr), Météo France [MF] - Managing Director: Chairperson
     - Weiqing Qu (WQ), Bureau of Meteorology [BoM] - Managing Director: Vice-Chairperson
     - Jeremy Tandy (JT), Met Office [UKMO]
@@ -28,6 +30,7 @@ minuteOwner: board
     - Jude Anthonisz (JA) of the Met Office (OpenWIS Secretariat) (UKMO)
 
 **4.	[Approval of previous minutes](http://openwis.github.io/openwis-documentation/minutes/board/2019-05-23-OpenWIS-Board-Meeting-2019-May.html)**
+
     - All - approved
 
 **5.	[Outstanding actions](https://github.com/OpenWIS/openwis-documentation/issues?q=is%3Aopen+is%3Aissue+label%3A%22Board+Meeting%22)**
@@ -40,9 +43,10 @@ minuteOwner: board
 **6. OpenWIS Association Membership**
 
     *6.1 Status update - designation of current Partners*
-    - No change
 
+    - No change
     *6.2 Approve new Partners recommended by the SC*
+
     - No recommendatons from the SC
 
     *6.3 Fees, subscriptions and contributions to become strategic or associate partner*
@@ -58,7 +62,6 @@ minuteOwner: board
     - WQ - happy to continue as VC
     - RGr - I am also happy to continue as is ND
     - All - Agreed and no other changes in representation.
-
 
 **8. Reports and recommendations from the SC**
 
