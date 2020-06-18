@@ -22,52 +22,54 @@ The current Board members are:
 - Patrick Benichou (PB), Météo France International [MFI]
 - Mr. YUN Hyuk Jin (HY), Korea Meteorological Administration [KMA]
 
-    All attendees were content with the following:
-    - KMA - Sungsoo Do (SD) representing with authority from KMA Director Mr. YUN Hyuk Jin.
-    - MFI - Loïc Le Gallou (LG) representing with authority from MFI President - Patrick Benichou
-    - MFI - Loïc Le Gallou (LG) representing Nathalie Dureisseix (ND) with authority from - Patrick Benichou
+All attendees were content with the following:
+- KMA - Sungsoo Do (SD) representing with authority from KMA Director Mr. YUN Hyuk Jin.
+- MFI - Loïc Le Gallou (LG) representing with authority from MFI President - Patrick Benichou
+- MFI - Loïc Le Gallou (LG) representing Nathalie Dureisseix (ND) with authority from - Patrick Benichou
 
-    *Other attendees:*
-    - Jude Anthonisz (JA) of the Met Office (OpenWIS Secretariat) (UKMO)
+*Other attendees:*
+
+- Jude Anthonisz (JA) of the Met Office (OpenWIS Secretariat) (UKMO)
 
 **4.	[Approval of previous minutes](http://openwis.github.io/openwis-documentation/minutes/board/2019-05-23-OpenWIS-Board-Meeting-2019-May.html)**
 
-    - All - approved
+- All - approved
 
 **5.	[Outstanding actions](https://github.com/OpenWIS/openwis-documentation/issues?q=is%3Aopen+is%3Aissue+label%3A%22Board+Meeting%22)**
 
-    - RGr - I propose that the risk on Compliance failure is closed as the reference document (list) is available in French.
-    - All agreed.
-    - RGr - Please also note that the OpenWIS trademark has been transferred to the Association and extended for 10 years.
-    - All - noted.
+- RGr - I propose that the risk on Compliance failure is closed as the reference document (list) is available in French.
+- All agreed.
+- RGr - Please also note that the OpenWIS trademark has been transferred to the Association and extended for 10 years.
+- All - noted.
 
 **6. OpenWIS Association Membership**
 
-    *6.1 Status update - designation of current Partners*
+*6.1 Status update - designation of current Partners*
 
-    - No change
-    *6.2 Approve new Partners recommended by the SC*
+- No change
 
-    - No recommendatons from the SC
+*6.2 Approve new Partners recommended by the SC*
 
-    *6.3 Fees, subscriptions and contributions to become strategic or associate partner*
+- No recommendatons from the SC
 
-    - RGr - I propose that no changes are needed as funds in the ban account, as discussed at the SC, is healthy.
-    - All - agreed.
+*6.3 Fees, subscriptions and contributions to become strategic or associate partner*
 
-    RES-OWIS The Board agreed that membership fees will remain unchanged.
+- RGr - I propose that no changes are needed as funds in the ban account, as discussed at the SC, is healthy.
+- All - agreed.
+
+RES-OWIS The Board agreed that membership fees will remain unchanged.
 
 **7. Election of Managing Directors**
 
-    - RGr - the Managing Director roles are in mid-term as they elected last year, i.e. the Chair, Vice Chair and Treasurer.
-    - WQ - happy to continue as VC
-    - RGr - I am also happy to continue as is ND
-    - All - Agreed and no other changes in representation.
+- RGr - the Managing Director roles are in mid-term as they elected last year, i.e. the Chair, Vice Chair and Treasurer.
+- WQ - happy to continue as VC
+- RGr - I am also happy to continue as is ND
+- All - Agreed and no other changes in representation.
 
 **8. Reports and recommendations from the SC**
 
 *8.1 Review governance and compliance status escalated by the SC*
-   - RGr – Re changes in by-laws,  currently no change for review.  However, there is an SC and Board in September 2020 - 3 hours for each session.
+- RGr – Re changes in by-laws,  currently no change for review.  However, there is an SC and Board in September 2020 - 3 hours for each session.
 
  **ACTION JA to send invitations to SC and Board members**
 
