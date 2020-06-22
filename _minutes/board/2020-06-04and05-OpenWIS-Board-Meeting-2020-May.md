@@ -156,7 +156,7 @@ RES-OWIS The Board approved the annual accounts for 2019.
 			- Income: 10k from ECMWF
 			- Expenses:
 - Service costs for domain name - 150 Euros
-- Secretariat and Treasurer fees - 14450 Euros
+- Secretariat and Treasurer fees - 14250 Euros
 - Dropbox - 435 Euros
 - Accounts - 1500 Euros
 - Procurement legal advice - 4235 Euros
