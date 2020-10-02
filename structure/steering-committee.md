@@ -23,5 +23,4 @@ As stated in [Article 13.1]({{ "/articles/13-steering-committee.html#article-13.
 * Mr. DO Sungsoo, [Korea Meteorological Administration](http://www.kma.go.kr/)
 * Mrs. SHEETS Kari, [National Weather Service](http://www.weather.gov/)
 * Mr. VISA Mikko, [Finnish Meteorological Institute](http://www.fmi.fi/)
-* Dr. Singh S.L, [India Meteorological Department](http://www.imd.gov.in/)
-
+* Mr. Reddy Y.K, [India Meteorological Department](http://www.imd.gov.in/)
