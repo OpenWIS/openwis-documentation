@@ -25,20 +25,21 @@ For the realisation of its purpose, the Organization shall offer the opportunity
 
 Partners shall be categorised as:
 
-1. Strategic Partners; or
-2. Associate Partners.
+1. Strategic Partners;
+2. Associate Partners;
+3. Contributing Partners.
 
 <h2 id="article-9.3">Article 9.3</h2>
 
-Strategic Partners and Associate Partners may only be granted such status by decision of the Board on recommendation of the Steering Committee (as defined in [ARTICLE 13]({{ "/articles/13-steering-committee.html" | prepend: site.baseurl }})).
+Strategic Partners, Associate Partners and Contributing Partners may only be granted such status by decision of the Board on recommendation of the Steering Committee (as defined in [ARTICLE 13]({{ "/articles/13-steering-committee.html" | prepend: site.baseurl }})).
 
 <h2 id="article-9.4">Article 9.4</h2>
  
-No person shall become a Strategic Partner or Associate Partner until they have signed an appropriate written contract and paid the appropriate subscription or contribution in the amount and manner provided for in the [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}).
+No person shall become a Strategic Partner, Associate Partner or Contributing Partner until they have signed an appropriate written contract and paid the appropriate subscription or contribution in the amount and manner provided for in the [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}).
 
 <h2 id="article-9.5">Article 9.5</h2>
 
-The rights and privileges of Strategic Partners and Associate Partners shall be set out in the [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}), which may be amended by decision of the Board from time to time. 
+The rights and privileges of Strategic Partners, Associate Partners and Contributing Partners shall be set out in the [Internal Rules]({{ "/rules/" | prepend: site.baseurl }}), which may be amended by decision of the Board from time to time. 
 
 <h2 id="article-9.6">Article 9.6</h2>
 
@@ -46,7 +47,7 @@ Rules regarding use of the software shall be determined by the Open Source licen
 
 <h2 id="article-9.7">Article 9.7</h2>
 
-Persons or organizations wishing to contribute code to OpenWIS® must sign a Contributor Licence Agreement in a form to be agreed by the Steering Committee and must comply with all relevant policies approved by the Steering Committee.
+*(This clause has been deleted)*
 
 <h2 id="article-9.8">Article 9.8</h2>
 
