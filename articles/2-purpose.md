@@ -16,7 +16,9 @@ contents : [
 
 <h2 id="article-2.1">Article 2.1</h2>
 
-The Organization, which does not seek financial gain, aims to work in the collective interest of its Members and Partners (as defined respectively in [ARTICLE 4]({{ "/articles/4-members.html" | prepend: site.baseurl }}) and [ARTICLE 9]({{ "/articles/9-organizational-partners-and-relationship-with-other-third-parties.html" | prepend: site.baseurl }})) to facilitate collaboration on the development, promotion and sharing of open source software for the exchange of global meteorological information.
+The Organization, which does not seek financial gain, aims to work in the collective interest of its Members and Partners (as defined respectively in [ARTICLE 4]({{ "/articles/4-members.html" | prepend: site.baseurl }}) and [ARTICLE 9]({{ "/articles/9-organizational-partners-and-relationship-with-other-third-parties.html" | prepend: site.baseurl }})) to:
+1. Facilitate collaboration on the development, promotion and sharing of open source software for the management and exchange of meteorological information;
+2. Foster cooperation and coordination within the meteorological community on the management and exchange of meteorological information.
 
 <h2 id="article-2.2">Article 2.2</h2>
 
