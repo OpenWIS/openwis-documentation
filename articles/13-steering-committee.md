@@ -30,14 +30,13 @@ A Steering Committee shall be established. Each Member and Strategic Partner sha
 
 The Steering Committee shall hold the following competences:
 
-1. Responsibility for ensuring that the OpenWIS® system continues to meet the evolving needs of the WIS and WIS centre, operates efficiently, remains secure and conforms to relevant standards;
-2. Adjudication on issues about requirements, design, implementation and standards where established procedures are unable to achieve an outcome in line with the objectives of the Organization;
-3. Keeping under review whether there is a continuing needs for OpenWIS® and how this need can be tackled;
-4. Deciding how and when new OpenWIS® versions are released;
-5. Deciding upon the membership and composition of the Technical Committee; 
-6. Deciding upon the creation or dissolution of other ad hoc committees as and when the need for such committees may arise;
-7. Taking any decision (which is not a decision on matters reserved for the Board) that may be necessary for the efficient and effective running of the Organization.
-8.  The role of the Data Privacy Manager to be performed by the Vice Chair of this Committee”, i.e.:
+1.	Taking any decision (which is not a decision on matters reserved for the Board) that may be necessary for the efficient and effective running of the Organization;
+2.	Deciding upon the membership and composition of the Technical Committee; 
+3.	Deciding upon the creation or dissolution of other ad hoc committees as and when the need for such committees may arise; 
+4.	Appointing the Leader of ad hoc committees based on capacity, training, skills and/or experience to lead the associated committee;
+5.	Revoking the Leader of ad hoc committees as and when the need for such revocation may arise;
+6.	Adjudicating on issues about requirements, design, implementation and standards where established procedures are unable to achieve an outcome in line with the objectives of the Organization;
+7.  The role of the Data Privacy Manager to be performed by the Vice Chair of this Committee”, i.e.:
    a.  Respond to queries on the [Privacy policy](./privacy_policy.md) and complaints within 30 days
    b.  Ensure that security measures to protect personal data are in place and review these periodically
    c.  Ensure that when there is a breach of personal data, a process is in place to assess and take steps to change/improve
