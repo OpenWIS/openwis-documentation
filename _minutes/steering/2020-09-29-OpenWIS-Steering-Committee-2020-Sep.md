@@ -4,7 +4,7 @@ title: OpenWIS Steering Committee 2020 September
 minuteOwner: steering
 ---
 
-#### 29th Septemnber 2020 - BlueJeans video-conference
+#### 29th September 2020 - BlueJeans video-conference
 
 ---
 **1. Welcome and introductions**
@@ -267,9 +267,3 @@ RES-OWIS RESOLUTION - SC agreed to recommend to the Board to pay the higher lega
 **21.	Closure of the meeting**
 
 The meeting closed at 1455 UTC
-
-
-**[17.	Outstanding actions](https://github.com/OpenWIS/openwis-documentation/issues?page=1&q=is%3Aopen+is%3Aissue+label%3A%22Steering+Committee%22)**
-
-
-**[ACTION - LL to let the SC know how visibility of the changes to the OpenWIS code by MFI will be provided]( https://github.com/OpenWIS/openwis-documentation/issues/587)**
