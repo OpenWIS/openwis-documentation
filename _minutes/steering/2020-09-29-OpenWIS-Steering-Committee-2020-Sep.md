@@ -234,10 +234,10 @@ RES-OWIS - SC agreed to recommend to the Board to pay the higher legal cost rela
 - SO - Would be good to know the core strengths of FMI suppliers to see what shows up to help options.
 - RGr - also to check whether sub-contracting is possible.
 
-*[ACTION MV to establish whether FMI can undertake procurement, whether sub contracting is possible; along with timescales and process by end November 2020.*
-*ACTION - JT and JA to establish whether UKMO can undertake procurement along with timescales and process by end November 2020*
-*ACTION - RGr to establish whether Belgium can an undertake procurement along with timescales and process by end November 2020*
-*ACTION -  SO to provide a more certain timeline (including when requirements for enable procurement to start) by end November 2020]
+*[ACTION MV to establish whether FMI can undertake procurement, whether sub contracting is possible; along with timescales and process by end November 2020.
+ACTION - JT and JA to establish whether UKMO can undertake procurement along with timescales and process by end November 2020
+ACTION - RGr to establish whether Belgium can an undertake procurement along with timescales and process by end November 2020
+ACTION -  SO to provide a more certain timeline (including when requirements for enable procurement to start) by end November 2020]
 (https://github.com/OpenWIS/openwis-documentation/issues/590#issuecomment-702186355)*
 
 
