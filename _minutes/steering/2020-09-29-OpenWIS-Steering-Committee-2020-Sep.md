@@ -79,7 +79,7 @@ minuteOwner: steering
   - SD - OK
   - KS and SO – Yes
 
-RES-OWIS RESOLUTION – SC Agreed the membership of the OpenCDMS PMC
+RES-OWIS – SC Agreed the membership of the OpenCDMS PMC
 
   - RGr - We need to discuss:
 
@@ -88,7 +88,7 @@ RES-OWIS RESOLUTION – SC Agreed the membership of the OpenCDMS PMC
   - RGr - please continue and thank for the work done so far.
   - ALL - OK
 
-RES-OWIS RESOLUTION – SC agreed that JT can continue as the representative of the OpenCDMS Project from the OpenWIS Association.
+RES-OWIS – SC agreed that JT can continue as the representative of the OpenCDMS Project from the OpenWIS Association.
 
 *Proposed changes to CLA for OpenCDMS*
   - JT - The aim is to share documentation via an open source licence
@@ -104,7 +104,7 @@ RES-OWIS RESOLUTION – SC agreed that JT can continue as the representative of 
   - RGr - Is SC happy to accept OpenCDMS’ proposals if there is no need for all to re-sign the CLA and then propose recommendation to the Board.
   - All - OK.
 
-RES-OWIS RESOLUTION - SC agreed that the CLA changes can be recommended to the Board subject to there being no need for re-signing by all who have already signed the current CLA
+RES-OWIS - SC agreed that the CLA changes can be recommended to the Board subject to there being no need for re-signing by all who have already signed the current CLA
 
 *[ACTION - JT to Update issue 601 and create a Pull Request for the changes to the CLA](https://github.com/OpenWIS/openwis-documentation/pull/604)*
 
@@ -127,7 +127,7 @@ RES-OWIS RESOLUTION - SC agreed that the CLA changes can be recommended to the B
   - RGr - Is that OK?
   - All - OK
 
-  RES-OWIS RESOLUTON - SC Decision is to recommend to the Board that joint discussions (JT and RGr) take place going forward to enable decision regarding entering and partnership with the Association and how this will operate.*
+  RES-OWIS - SC Decision is to recommend to the Board that joint discussions (JT and RGr) take place going forward to enable decision regarding entering and partnership with the Association and how this will operate.*
 
 **6. Association by-laws**
   - RGr - introduced the context, i.e. include a third type of partner to make it easy to accept contributions.  
@@ -140,7 +140,7 @@ RES-OWIS RESOLUTION - SC agreed that the CLA changes can be recommended to the B
   - SS - Look good to me
   - RGr - So shall I make a clean version for approval by the Board on 1 Oct 2020.
 
-  RES-OWIS RESOLUTON - SC Agreed that the updates to the by-laws can be recommended to the Board
+  RES-OWIS - SC Agreed that the updates to the by-laws can be recommended to the Board
 
   - JT - There may also be updates to Internal rules to accompany.
   - RGr - Yes if the Board approve the by-laws, the SC can be tasked with update of Internal Rules.
@@ -154,7 +154,7 @@ RES-OWIS RESOLUTION - SC agreed that the CLA changes can be recommended to the B
   - IMD - No response
   - JT - Agreed. Really all we are doing is broadening scope not fundamental legal changes.
 
-  RES-OWIS RESOLUTON – Agreed that Internal Rules changes that follow on from changes to the by-laws could be made once the by-laws are approved by the Board with input from Michael Robbins.
+  RES-OWIS – Agreed that Internal Rules changes that follow on from changes to the by-laws could be made once the by-laws are approved by the Board with input from Michael Robbins.
 
   *[ACTION - JT to update Internal Rules once the by-laws are approved by the Board](https://github.com/OpenWIS/openwis-documentation/pull/604)*
 
@@ -184,7 +184,7 @@ RES-OWIS RESOLUTION - SC agreed that the CLA changes can be recommended to the B
 
  - ALL - Yes.
 
-RES-OWIS RESOLUTION - SC agreed to recommend to the Board to pay the higher legal cost relating to procurement advise, with the exact value agreed ahead of the Board meeting on 1 October 2020.
+RES-OWIS - SC agreed to recommend to the Board to pay the higher legal cost relating to procurement advise, with the exact value agreed ahead of the Board meeting on 1 October 2020.
 
 *ACTION LL and RGr to double check amount and update budget*
 
