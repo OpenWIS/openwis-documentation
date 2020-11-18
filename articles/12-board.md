@@ -58,7 +58,7 @@ The Annual Meeting shall receive reports and recommendations from the Steering C
 
 <h2 id="article-12.6">Article 12.6</h2>
 
-The Annual Meeting shall appoint, when required, a Chairperson, a Vice-Chairperson and a Treasurer of the Organization (respectively, the "**Chairperson**", the "**Vice-Chairperson**" and the “**Treasurer**” and collectively the “**Managing Directors**”) for two years, eligible for re-election for two years. The Chairperson and Vice-Chairperson shall be selected from amongst the Representatives. The Chairperson, the Vice-Chairperson and the Treasurer shall be appointed by a simple majority of those Representatives present and voting.
+The Annual Meeting shall appoint, when required, a Chairperson, a Vice-Chairperson and a Treasurer of the Organization (respectively, the "**Chairperson**", the "**Vice-Chairperson**" and the “**Treasurer**” and collectively the “**Managing Directors**”). ”). The Chairperson and Vice-Chairperson shall be appointed for two years, eligible for re-election for two years. The Chairperson and Vice-Chairperson shall be selected from amongst the Representatives. The Treasurer shall be appointed for two years, eligible for re-election indefinitely. The Chairperson, the Vice-Chairperson and the Treasurer shall be appointed by a simple majority of those Representatives present and voting.
 
 <h2 id="article-12.7">Article 12.7</h2>
 
