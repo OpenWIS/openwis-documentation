@@ -65,7 +65,7 @@ RES-OWIS The Board agreed that membership fees will remain unchanged.
 - WQ - happy to continue as VC and ND to continue as Treasurer. I am proposing RGr to continue as Chair
 - RGr - I am also happy to continue if decided by the Board
 - All - Agreed
-- RGr will continue for a new 2-year mandate as Chair of the association
+- RGr - I will continue for a new 2-year mandate as Chair of the association
 
 **8. Reports and recommendations from the SC**
 
