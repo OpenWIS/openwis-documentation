@@ -4,7 +4,7 @@ title: OpenWIS Board Meeting 2019 May
 minuteOwner: board
 ---
 
-##### 23 May 2018, Washington USA.
+#### 23 May 2018, Washington USA.
 
 1.	**Welcome and introductions**
     - RGr welcomed the attendees

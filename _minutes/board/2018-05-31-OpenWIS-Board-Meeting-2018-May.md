@@ -4,7 +4,7 @@ title: OpenWIS Board Meeting 2018 May
 minuteOwner: board
 ---
 
-##### 31 May - 1 June 2018
+#### 31 May - 1 June 2018 Helsinki, Finland.
 
 1.	**Welcome and introductions**
     1. Matteo Dell’Acqua (MDA) (Chair), Weiqing Qu ( WQ), Stephan Siemen (SS), Stacey Harvey (SH), and Kari Sheets (KS) joined the meeting remotely.

@@ -3,7 +3,7 @@ layout: page
 title: OpenWIS Board Meeting 2020 October
 minuteOwner: board
 ---
-##### 1 October 2020, BlueJeans video-conference.
+#### 1 October 2020, BlueJeans video-conference.
 
 **1.	Welcome and introductions**
 
