@@ -92,7 +92,6 @@ RES-OWIS RESOLUTION - The Board approved the updated version of the by-laws (8.1
 - Vote - All agreed.
 
 **9. Any other business**
-
 - None.
 
 **10. Confirm the host of next meeting**
