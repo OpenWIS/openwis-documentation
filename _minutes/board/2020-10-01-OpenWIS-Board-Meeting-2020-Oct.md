@@ -33,6 +33,7 @@ All attendees were content with the following:
 
 - All - approved
 
+
 **5.	Approval of the OpenCDMS PMC**
 
 - JT Summarised the position and purpose of OpenCDMS and members of PMC and recommended the Board to accept.
