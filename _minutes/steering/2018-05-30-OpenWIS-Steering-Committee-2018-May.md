@@ -21,6 +21,7 @@ minuteOwner: steering
         -  Sungsoo Do (SD), Korea Meteorological Administration (KMA)
         -  Kari Sheets (KS), National Weather Service (NWS)
         -  Mikko Visa, Finnish Meteorological Institute (FMI)
+        -  Jude Anthonisz (JA), OpenWIS Association Secretariat
     2. All attendees were content with the following:
         - Steve Olson (SO) representing National Weather Service (NWS) with authority from Kari Sheets
         - Rémy Gibault (RGb) representing Météo France International (MFI) with authority from Loïc Le Gallou.
