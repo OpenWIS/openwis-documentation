@@ -24,7 +24,7 @@ minuteOwner: technical
       - KS - Kari Sheets, National Weather Service, USA [NWS]
       - SS - Stephan Siemen, European Centre for Medium-Range Weather Forecasts [ECMWF]
       - JT - Jeremy Tandy, Met Office, UK [UKMO]
-      - JA - Jude Anthonisz, Met Office [UKMO]
+      - JA - Jude Anthonisz, OpenWIS Association Secretariat
 
     *- Apologies:*
       • WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM]
