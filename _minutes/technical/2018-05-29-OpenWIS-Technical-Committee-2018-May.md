@@ -17,6 +17,7 @@ minuteOwner: technical
         - RGb - Remy Gibault, Météo-France International [MFI]
         - SD - Sungsoo Do, Korea Meteorological Administration, Republic of Korea [KMA]
         - JT - Jeremy Tandy, Met Office, UK [UKMO]
+        - Jude Anthonisz (JA), OpenWIS Association Secretariat
         - RGr - Remy Giraud, Météo-France, France [MF]
         - MV - Mikko Visa, Finnish Meteorological Institute [FMI]
         - WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM],
