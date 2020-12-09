@@ -31,7 +31,7 @@ minuteOwner: steering
 
   - Steve Olson (SO), National Weather Service [NWS]
   - Stephan Siemen (SS), European Centre for Medium-Range Weather Forecasts [ECMWF]  
-  - Jude Anthonisz (JA), Met Office (OpenWIS Association Secretariat)
+  - Jude Anthonisz (JA), OpenWIS Association Secretariat
 
 **3. Approval of the agenda**
 
