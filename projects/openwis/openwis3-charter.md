@@ -30,11 +30,20 @@ _To be agreed by the PMC and recommended to the TC for each specific issue._
 
 |  Project Milestone  |  Begin Date  |  End Date  |
 | ---------------------|---------------|-------------|
-|  Project   start        |  
-|  _insert milestone 1_|
-|  _insert milestone 2_|
-|  _insert milestone n_|
-|  Project closure |
+|  keycloak Study (Alternative to OpenAM/OpenDJ       |  
+|  Kickoff Meeting  |  May 19, 2020   |    |
+|  Assess Viable Approach Options  |   May 19, 2020  |   July 2020  |
+|  Investigate various Approaches |  July 2020  |   November 2020  |
+|  Finalize Report of findings |  November 2020  |   December 2020  |
+|  Project closure |     |    December 2020  |
+|  Singapore Release        |  
+|  Singapore Release Discussion  |   December 14, 2020  |   December 15, 2020  |
+|  MFI to look at 3.14.9 Installation Guide and to highlight changes in steps to take with Singapore Release testing  | Early January 2021  |   Early January 2021  | 
+|  Check in Singapore release into Github |  Early January 2021  |   Early January 2021  |
+|  KMA, MF, NWS to independently test Singapore release in their respective test environments |  January 2021  |   Mid February 2021  |
+|  Report on findings and discuss with MFI & AKKA |  Mid February 2021  |   Early March 2021  |
+|  Merge Singapore release into master branch |  Early March 2021  |   End of March 2021  |
+|  Project closure |     |    April 2021  |
 
 ## Roles and Responsibilities
 
