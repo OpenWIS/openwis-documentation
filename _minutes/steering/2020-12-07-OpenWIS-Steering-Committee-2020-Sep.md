@@ -293,4 +293,4 @@ RES-OWIS RESOLUTION the SC agreed to proceed with using FMI as the procurement p
 *ACTION JA carry out a doodle poll 22 March plus two weeks to firm up the date for the next SC.*
 
 **21.	Closure of the meeting**
-- 1425 UTC
+- 1425 UTC 
