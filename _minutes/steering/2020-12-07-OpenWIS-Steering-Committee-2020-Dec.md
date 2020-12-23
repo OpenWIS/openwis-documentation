@@ -4,7 +4,7 @@ title: OpenWIS Steering Committee 2020 December
 minuteOwner: steering
 ---
 
-#### 29th Septemnber 2020 - BlueJeans video-conference
+#### 7th December 2020 - MS Teams video-conference
 
 ---
 **1. Welcome and introductions**
