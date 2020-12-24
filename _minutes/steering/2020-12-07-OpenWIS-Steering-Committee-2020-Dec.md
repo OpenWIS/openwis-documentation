@@ -42,7 +42,7 @@ minuteOwner: steering
 
 **5. OpenCDMS**
 
-- *Update on discussions with AWS.*
+*Update on discussions with AWS.*
 
 - JT - I had intended to begin discussions with AWS. However, I was unable to have the intended discussion
   with AWS in November 2021 due to WMO commitments and changes in MO.  So, I expect things to begin soon, but no update at this point.
