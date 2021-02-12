@@ -30,7 +30,7 @@ minuteOwner: steering
 *2.3 Other attendees*
 
   - Steve Olson (SO), National Weather Service [NWS]
-  - Jude Anthonisz (JA), (OpenWIS Association Secretariat)
+  - Jude Anthonisz (JA), OpenWIS Association Secretariat
 
 **3. Approval of the agenda**
 
