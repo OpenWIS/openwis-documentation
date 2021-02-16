@@ -2,6 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 TMP3BBD.htm
+.DS_Store
 
 Gemfile
 *.lock
