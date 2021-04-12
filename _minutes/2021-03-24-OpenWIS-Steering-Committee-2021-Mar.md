@@ -133,4 +133,4 @@ minuteOwner: steering
 
 **21.	Closure of the meeting**
 
- - - 1215 UTC  
+ -  1215 UTC  
