@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OpenWIS Steering Committee 2020 December
+title: OpenWIS Steering Committee 2021 March
 minuteOwner: steering
 ---
 
