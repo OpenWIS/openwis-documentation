@@ -7,7 +7,7 @@ title: OpenWIS Project Charter for OpenAM/OpenDS replacement by Keycloak identit
 ---
 
 
-# Project Charter for Openwis v4.0 
+# Project Charter for Alternatives to Security Service 
 ## Aim
 
 To maintain open-source nature associated with the security service. With Forgerock closing repo, we need to eliminate the need for reliance on community version of OpenAM/OpenDJ
