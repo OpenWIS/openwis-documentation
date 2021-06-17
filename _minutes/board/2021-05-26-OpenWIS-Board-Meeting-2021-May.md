@@ -35,7 +35,7 @@ All attendees were content with the following:
  - Jude Anthonisz (JA) of the Met Office (OpenWIS Secretariat) (UKMO)
 
 
-**4.	[Approval of previous minutes](http://openwis.github.io/openwis-documentation/minutes/board/2019-05-23-OpenWIS-Board-Meeting-2020-Oct.html)**
+**4.	[Approval of previous minutes](http://openwis.github.io/openwis-documentation/minutes/board/2020-10-01-OpenWIS-Board-Meeting-2020-Oct.html)**
 
 - All - approved
 
