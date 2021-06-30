@@ -45,7 +45,7 @@ minuteOwner: steering
 
 **5. Election of chairperson ("TC-Chair") and vice-chairperson ("TC-Vice-Chair") of the Technical Committee**
 
- -  JT - SO full term. Benjamin Saclier left and David Podeur (DP) has taken over.  So, DP as Chair and SO
+ - JT - SO full term. Benjamin Saclier left and David Podeur (DP) has taken over.  So, DP as Chair and SO
    as Vice Chair.
  - JT - So, one nomination for Chair and Vice Chair.  Any more nominations?
  - All - No
@@ -55,11 +55,11 @@ minuteOwner: steering
  - JT - Everyone happy to SO to be Vice Chair?
  - All - OK
 
-RES-OWIS RESOLUTION - The SC agreed that the TC Chair is David Podeur and that the Vice Chair is Steve Olson
+RES-OWIS - The SC agreed that the TC Chair is David Podeur and that the Vice Chair is Steve Olson
 
 **6. Recommendations to the Board regarding admission of new Members and Partners (see Articles 6 & 9, and Rules 4 & 5)**
 
--  JT - Expecting DWD
+- JT - Expecting DWD
 - All - No others.
 - JT - DWD have approached RGr and me with a view to working together to support WIS 2.0.  Wanting to work to
   help design WIS 2.0 compliant software.  So, RGr and I feel that DWD should be allowed to participate in Association discussion re WIS 2.0.
@@ -75,13 +75,13 @@ RES-OWIS RESOLUTION - The SC agreed that the TC Chair is David Podeur and that t
   member.
 - RGr - Agreed. Can cover as part of no.8
 
-  RES-OWIS RESOLUTION - The SC agreed that DWD would participate in WIS 2.0 discussion as an informal contributing partner OpenWIS 3.x**
+  RES-OWIS - The SC agreed that DWD would participate in WIS 2.0 discussion as an informal contributing partner OpenWIS 3.x**
 
 **7. Project Reports and requests for Financial Support or changes to existing Charters**
 
 *7.1	OpenWIS 3.x (https://github.com/OpenWIS/openwis-documentation/projects/8) **
 
-- JT - Two active lines of work – 3.15 branch which the TC is aware of and middleware project that builds on
+- JT - Two active lines of work – 3.15 branch which the TC is aware of and middleware project that builds on
   version 3.15.  SO - Background - 3.15 uploaded by MFI to GitHub.  BoM, KMA, MF and NWS working on this branch. An omnibus issue created in GitHub to track.  A few issues need resolving.  It became apparent that 3.15 is aimed at a DCPC and as such GISC related aspects were missing.  Tickets raised with developer and some have been resolved.
 
 - SO - Was looking to complete evaluations by end Feb 2021.  But needed to delay to end April as  result of
@@ -289,9 +289,9 @@ Meeting resumed on 19 May:  
 
 - RGr - OK
 
-RES-OWIS RESOLUTION - The SC agreed that rather than a formal assessment against compliance by the SC, it’s the SC rep on each Project Management Committee should drive assurance on compliance on technical rules.
+RES-OWIS - The SC agreed that rather than a formal assessment against compliance by the SC, it’s the SC rep on each Project Management Committee should drive assurance on compliance on technical rules.
 
--  JT - Is there anything else to advise the SC?
+- JT - Is there anything else to advise the SC?
 - SO - the only things is about the WIS2 and other OpenWIS 3.x projects will be stopped or managed informally.
 - RGr - Anything else?
 - LL - will good work on planning the middleware upgrade and share the main milestones, how to take to do the
@@ -340,7 +340,7 @@ RES-OWIS RESOLUTION - The SC agreed that rather than a formal assessment against
 
 *12.3 	[Information Management [from GDPR](https://github.com/OpenWIS/openwis-documentation/issues/459)*
 
-- JT - No progress, on the basis that we haven’t expanded the pool of people.
+- JT - No progress, on the basis that we haven’t expanded the pool of people.
 - JA - We’ve not had any requests for information or complaints.
 - RGr - OK.  No issues.  But let’s talk about the situation regarding CLAs and NWS.
 - JT - Very little has happened as legal teams is NWS and UKMO are busy.  However, a meeting is scheduled for
@@ -362,7 +362,7 @@ RES-OWIS RESOLUTION - The SC agreed that rather than a formal assessment against
 
 *13.1.    Status establishing a procurement partner](https://github.com/OpenWIS/openwis-documentation/issues/590)*
 
--  RGr - Any more to add? All issues resolved?
+- RGr - Any more to add? All issues resolved?
 - LL  - agreement reached on using French or Swiss law.  Probably good to have a contract between FMI and the
   Association, so to initialise can propose a document.
 - MV  - No addition, a good summary.  Should be not a big issue re contract between FMI and Association.
@@ -476,7 +476,7 @@ RES-OWIS RESOLUTION - The SC agreed that rather than a formal assessment against
 
 **15. 	[Risk review and development of mitigation plans](https://github.com/OpenWIS/openwis-documentation/projects/4)**
 
-- Not discussed.
+- Not discussed.
 
 **16.	Finances of the OpenWIS Association [Treasurer or delegate for Treasurer]**
 
@@ -505,7 +505,7 @@ RES-OWIS RESOLUTION - The SC agreed that rather than a formal assessment against
 - SO - I want to recognise the work done by BS and YG for the work done via MF.
 
 *Budget 2020 review*
-- LL – The highlights are:
+- LL – The highlights are:
 	•	ECMWF fees
 	•	Domain name paid by MFI directly
 	•	Secretariat little more than expected
@@ -516,9 +516,9 @@ RES-OWIS RESOLUTION - The SC agreed that rather than a formal assessment against
 
 *Budget for 2021 (https://github.com/OpenWIS/openwis-documentation/issues/611) **
 
- - LL – The usual repeating items and we need to consider whether all of the 50k Euros for project will be
+- LL – The usual repeating items and we need to consider whether all of the 50k Euros for project will be
   spent in 2021.  The total budget is 44640 euros.  Note that this includes accrual for ECMWF fees, legal costs and Secretariat fees.
- - JT - By law work coming up. Is this reflected
+- JT - By law work coming up. Is this reflected
 - RGr - Invoice for 1.7k
 - JT - Any more costs
 - RGr - No 
@@ -527,9 +527,9 @@ RES-OWIS RESOLUTION - The SC agreed that rather than a formal assessment against
 
 - All  - Agreed 
 
-RES-OWIS RESOLUTION - The SC agreed the that Annual Accounts for 2020 as presented for recommendation to the Board
+RES-OWIS - The SC agreed the that Annual Accounts for 2020 as presented for recommendation to the Board
 
-RES-OWIS RESOLUTION - The SC agreed that 2021 budget values for recommendation to the Board
+RES-OWIS - The SC agreed that 2021 budget values for recommendation to the Board
 
 **17. Recommendations to the Board to make and adopt, alter, supplement, or repeal the Internal Rules**
 
