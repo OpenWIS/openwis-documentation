@@ -75,14 +75,15 @@ RES-OWIS - The SC agreed that the TC Chair is David Podeur and that the Vice Cha
   member.
 - RGr - Agreed. Can cover as part of no.8
 
-  RES-OWIS - The SC agreed that DWD would participate in WIS 2.0 discussion as an informal contributing partner OpenWIS 3.x**
+  RES-OWIS - The SC agreed that DWD would participate in WIS 2.0 discussion as an informal contributing partner OpenWIS 3.x**
 
 **7. Project Reports and requests for Financial Support or changes to existing Charters**
 
-*7.1	OpenWIS 3.x (https://github.com/OpenWIS/openwis-documentation/projects/8) **
+*7.1	OpenWIS 3.x (https://github.com/OpenWIS/openwis-documentation/projects/8)*
 
 - JT - Two active lines of work – 3.15 branch which the TC is aware of and middleware project that builds on
-  version 3.15.  SO - Background - 3.15 uploaded by MFI to GitHub.  BoM, KMA, MF and NWS working on this branch. An omnibus issue created in GitHub to track.  A few issues need resolving.  It became apparent that 3.15 is aimed at a DCPC and as such GISC related aspects were missing.  Tickets raised with developer and some have been resolved.
+  version 3.15.
+- SO - Background - 3.15 uploaded by MFI to GitHub.  BoM, KMA, MF and NWS working on this branch. An omnibus issue created in GitHub to track.  A few issues need resolving.  It became apparent that 3.15 is aimed at a DCPC and as such GISC related aspects were missing.  Tickets raised with developer and some have been resolved.
 
 - SO - Was looking to complete evaluations by end Feb 2021.  But needed to delay to end April as  result of
   installation issues.
@@ -115,7 +116,8 @@ RES-OWIS - The SC agreed that the TC Chair is David Podeur and that the Vice Cha
 - RGr - I have no preference in who does the middleware.
 - SO - a few factors.  New developers in the team, so time needed for learning. A question for RGr – any
   chance that more time can be gained from the developers of 3.15?
-- RGr - I can ask within MF to see if I can help.  WQ - in TC we didn’t discuss having two branches.  Any
+- RGr - I can ask within MF to see if I can help.
+- WQ - in TC we didn’t discuss having two branches.  Any
   work would start from 3.15 and if any issues then include in RFP, same as LL.  If we can resolve within the Association, then less cost of RFP.  Prefer not to delay.
 - SO - the problem here is if we accept some of the issues of 3.15, then faced with not understanding the
   interdependencies and testing/validation in all potential implementation scenarios.
@@ -141,17 +143,20 @@ RES-OWIS - The SC agreed that the TC Chair is David Podeur and that the Vice Cha
 
 *Middleware RFP*
 - SO - Recommendations from the TC to upgrade to Tomcat 10; Java 11 preferred if not v8; Wildfly v19;
-  Postgres 13; OpenAM and OpenDJ replaced by Plug in - Keycloak; Merge 3.15 into master and incorporated in the CICD environment.  RGr - In principle I would like to avoid paying for an upgrade unless absolutely necessary.
+  Postgres 13; OpenAM and OpenDJ replaced by Plug in - Keycloak; Merge 3.15 into master and incorporated in the CICD environment.
+- RGr - In principle I would like to avoid paying for an upgrade unless absolutely necessary.
 - SO - that’s the stance taken by the TC.
 - JT and RGr - Great
 - MK - Java OpenJDK or Oracle?
-- SO – OpenJDK  	JT - The other aspect is incorporating procurement and budget?
+- SO – OpenJDK
+- JT - The other aspect is incorporating procurement and budget?
 - SO - My understanding is that the contract is on track to start in July.
 - LL - Yes.  Everything is on track.  Now awaiting content of RFP and then agree how payments will be made.
 - MV - Agreed.
 - JT - Thank you all three of you for working through the technical and contractual matters.
 - SO - Thank you LL and MV.  The budget value agreed in 2020 is deferred to 2021.  I don’t expect much
-  additional costs.  Can’t speak for MF or developers of 3.15.  May be maximum of in the region of 75k Euros. JT - recommend that we take a break and resume in 10 minutes and for RGr to chair.
+  additional costs.  Can’t speak for MF or developers of 3.15.  May be maximum of in the region of 75k Euros.
+- JT - recommend that we take a break and resume in 10 minutes and for RGr to chair.
 - RGr -  OK.
 - RGr - A summary.  By July a conclusion either all OK with 3.15 or a recommendation for an alternative to
   SC. So, this means a potential change to the RFP.  The RFP goes to the procurement partner and the procurement partner provides a response.  The response will inform the budget needed to be known by the SC.  
@@ -164,15 +169,14 @@ RES-OWIS - The SC agreed that the TC Chair is David Podeur and that the Vice Cha
 
 *7.2	[OpenCDMS](https://github.com/OpenWIS/openwis-documentation/projects/14)*
 
-- JT- We have previously talked about AWS.  A driver for this is OpenCDMS.  OpenCDMS is about building a
+- JT- We have previously talked about AWS.  A driver for this is OpenCDMS.  OpenCDMS is about building a
   reference implementation that its cloud deployable.  At the TC Ian mentioned that he would want to be deployable on any cloud platform.  So, no dependency on AWS.  AWS are happy to contribute via in-kind contributions.  No need to have AWS to be an Associate member.  
 - JT - Any questions?
 - RGr - No issues.  Still cautious but based on what you say that there is no need for this at present.
 - JT - The project will develop a more structured relationship via an MOU and would help if you can join.
 - RGr - No problem at all.
 - JT continued with an overview of OpenCDMS (per slide deck).
-- JT - Aspects that OpenCDMS would like to engage and share with OpenWIS members (per slide on             
-  ‘plans for next 12 months’ slide)
+- JT - Aspects that OpenCDMS would like to engage and share with OpenWIS members (per slide on ‘plans for next 12 months’ slide)
 - RGr - From OpenWIS members, which one are contributing to the software?
 - JT - From UK perspective, Ian Edwards via VCP.
 - RGr - Any others?
@@ -180,13 +184,14 @@ RES-OWIS - The SC agreed that the TC Chair is David Podeur and that the Vice Cha
 -	JT - We have the right level of autonomy.
 - RGr - No other questions
 
-
-**8.	Review new proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners  ***
+**8.	Review new proposals for projects that are compatible with the purpose and objectives of the OpenWIS Association and in the interest of Members and Partners**
 
 - RGr - This relates to the discussion on item 6.  JT and I are heavily involved with WMO re WIS 2.0.  In MF,
-  we concluded that we will still need a new MSS system when WIS 2.0 is implemented.  RGr - So is this the right time to create a pre PMC environment for starting discussions on what an MSS would be as part of and compliant with WIS 2.0.  It would, therefore, be good to have DWD on board for this. What do people think?
+  we concluded that we will still need a new MSS system when WIS 2.0 is implemented.
+ - RGr - So is this the right time to create a pre PMC environment for starting discussions on what an MSS would be as part of and compliant with WIS 2.0.  It would, therefore, be good to have DWD on board for this. What do people think?
 
-- SO - This makes sense to me.  JT - A really good call, as the change on how real time data is handled is
+- SO - This makes sense to me.
+- JT - A really good call, as the change on how real time data is handled is
   key.  Will be good to see working code as soon as possible.  There is also the link with metadata.  What did you have the outcome of this project in mind- finished software, prototype, something else?
 
 - RGr - Looking at what is happening in OpenCDMS, potentially a reference implementation.  Perhaps in 3-4
@@ -225,10 +230,10 @@ RES-OWIS - The SC agreed that the TC Chair is David Podeur and that the Vice Cha
 - RGr - At the moment, within WIS 2.0, there is a list of demonstrator projects.  In the Association is kind
   of another demonstration project.
 - WQ - Understood.
-- JT - WMO defines the standards, we and others will figure out how to make it work.  All - happy to DP to
-  set up the pre PMC and agree the Charter.  All to dominate representatives.
+- JT - WMO defines the standards, we and others will figure out how to make it work.
+- All - happy to DP to set up the pre PMC and agree the Charter.  All to dominate representatives.
 
-  [ACTION - DP write short Charter as soon as possible and for the pre PMC feedback by December 2021 (work between June and November 2021)](https://github.com/OpenWIS/openwis-documentation/issues/627)
+[ACTION - DP write short Charter as soon as possible and for the pre PMC feedback by December 2021 (work between June and November 2021)](https://github.com/OpenWIS/openwis-documentation/issues/627)
 
 - SO - Other pre WIS 2.0 studies.  Metadata – working with Canada – authoritative template/API for
   consideration for WIS 2.0.  The aim is to find the minimum amount of data that aids discovery.  
@@ -245,16 +250,15 @@ RES-OWIS - The SC agreed that the TC Chair is David Podeur and that the Vice Cha
 - RGr - Is there anything else?
 - JT - As mentioned I am working on the WIS 2.0 architecture.  As this develops, there will need to be
   projects.
-- RGr - So this concludes this agenda item.  
+- RGr - So this concludes this agenda item.
 
-Meeting resumed on 19 May:  
-
+Meeting resumed on 19 May:
 
 **9.	Recommendations to the Board regarding new or amended Projects (incl. creation of any ad-hoc committees or subsidiary bodies (including PMCs for new Projects)**
 
 - RGr - No recommendations to Board (pre PMC to stay at SC level)
 - JT - agreed
-- All - agreed 
+- All - agreed
 
 **10.	Report and recommendations from Technical Committee**
 
@@ -280,7 +284,8 @@ Meeting resumed on 19 May:  
 - SO - Agreed.
 - RGr - No additional requirement of funding?
 - SO - Yes.
-- RGr - Any more questions?  JT - a function of SC is to make projects accountable.  We’ve seen milestones
+- RGr - Any more questions?
+- JT - a function of SC is to make projects accountable.  We’ve seen milestones
   for OpenCDMS.  It would be useful, once the technical rules, a short report on the status of compliance with the technical rules.  Is there is any value in projects reporting to the SC on compliance on technical rules?
 - RGr - I am confident that OpenWIS is being managed well, so not concerned with reporting.  OpenCDMS is high
   profile and the SC doesn’t want to hold things up but should get some form of assurance.  
@@ -413,13 +418,13 @@ RES-OWIS - The SC agreed that rather than a formal assessment against compliance
 
 [ACTION – LL to ensure that the draft contract includes the need for an Association SC or Board member to be part of decisions when making payments and contract development](https://github.com/OpenWIS/openwis-documentation/issues/590#issuecomment-844893022)
 
-*13.2    Status of establishing updated byelaws of the Association (also see item 17, below)  **
+*13.2    Status of establishing updated byelaws of the Association (also see item 17, below)*
 
 - RGr - I wrote to Board members on 25 Feb 2021 with the power of attorney to allows notaries to sign on
   behalf.  Awaiting responses from KMA.  Received responses from others.  LL has the invoice been paid to the notaries 1662.80 Euros?  Will check as part of Accounts.
 - RGr - I expect that the new by-laws are published in the Belgian gazette by July 2021.
 
-*13.3    How/where can/should OpenWIS Association add value?  **
+*13.3    How/where can/should OpenWIS Association add value?*
 
 - RGr - This is the open question to make sure we are not wasting time.
 - JT - I’ll share a paper to INFCOM, I gave in October on the need for open-source software for WIS 2.0.  It
@@ -431,7 +436,8 @@ RES-OWIS - The SC agreed that rather than a formal assessment against compliance
 - SO - Cloud based development appetite?
 
 - JT - This aspect was not discussed.  However, it was evident that some members with higher operating costs
-  correlated with lower implementation costs – meaning likely cloud-based implementation.  SO - Has WMO ever broached the subject of Weather Watch data being part of the big data initiative?
+  correlated with lower implementation costs – meaning likely cloud-based implementation.
+ - SO - Has WMO ever broached the subject of Weather Watch data being part of the big data initiative?
 
 - JT - Is this the NWS big data initiative with the four cloud providers?
 - SO - I wasn’t aware whether there is an initiative like this in Europe?
@@ -469,10 +475,10 @@ RES-OWIS - The SC agreed that rather than a formal assessment against compliance
 
 *ACTION -  RGr or JT to end Enrico Fucile, Anthony Rea on whether it’s possible for  side session at Congress and whether an equivalent of CBS TECO is available.*
 
-**14.	[Review of Strategic Goals and Metrics (3-year horizon) [metrics]] (https://github.com/OpenWIS/openwis-documentation/issues/589 ***
+**14.	[Review of Strategic Goals and Metrics (3-year horizon) [metrics]] (https://github.com/OpenWIS/openwis-documentation/issues/589**
 
 - JT - Two things on our books – Make available open-source software for WIS 2.0 and maintain OpenWIS
-  software for WIS 1.0 that is secure 
+  software for WIS 1.0 that is secure
 
 **15. 	[Risk review and development of mitigation plans](https://github.com/OpenWIS/openwis-documentation/projects/4)**
 
@@ -480,7 +486,7 @@ RES-OWIS - The SC agreed that rather than a formal assessment against compliance
 
 **16.	Finances of the OpenWIS Association [Treasurer or delegate for Treasurer]**
 
-*16.1	FY2020 expenditure* 
+*16.1	FY2020 expenditure*
 - LL – Total in-kind contributions 199k
 - LL – total income is 203.9-k
 - LL – total expenditure 232k
@@ -492,7 +498,8 @@ RES-OWIS - The SC agreed that rather than a formal assessment against compliance
 - LL - Total 507k available to Association
 - JT - Why do we have two accounts?
 - LL - Not sure?
-- RGr - Most of the funds should be in the savings account.  WQ - Can withdraw at any time from savings?
+- RGr - Most of the funds should be in the savings account.
+- WQ - Can withdraw at any time from savings?
 - LL - Yes.
 
 [ACTION - LL to ask ND to move money into savings account following advice from Société Générale](https://github.com/OpenWIS/openwis-documentation/issues/611#issuecomment-844876239)
@@ -506,26 +513,28 @@ RES-OWIS - The SC agreed that rather than a formal assessment against compliance
 
 *Budget 2020 review*
 - LL – The highlights are:
-	•	ECMWF fees
-	•	Domain name paid by MFI directly
-	•	Secretariat little more than expected
-	•	Dropbox a little less than expected.
-	•	CICD final costs
-	•	Total – overall 5k less than expected due to project costs being in 2021. 
-	•	Review of need for additional finance  Agreed that there is no need for additional finance.  Review at SC in September 2021 
+  - ECMWF fees
+  - Domain name paid by MFI directly
+  - Secretariat little more than expected
+  - Dropbox a little less than expected.
+  - CICD final costs
+  - Total – overall 5k less than expected due to project costs being in 2021.
+  - Review of need for additional finance - Agreed that there is no need for additional finance and review at SC in September 2021
 
-*Budget for 2021 (https://github.com/OpenWIS/openwis-documentation/issues/611) **
+*Budget for 2021 (https://github.com/OpenWIS/openwis-documentation/issues/611)*
 
 - LL – The usual repeating items and we need to consider whether all of the 50k Euros for project will be
-  spent in 2021.  The total budget is 44640 euros.  Note that this includes accrual for ECMWF fees, legal costs and Secretariat fees.
+  spent in 2021.  The total budget is 44640 euros.  Note that this includes accrual for ECMWF fees, legal costs and Secretariat fees.
 - JT - By law work coming up. Is this reflected
 - RGr - Invoice for 1.7k
 - JT - Any more costs
-- RGr - No 
+- RGr - No
 
-*ACTION - LL to check with ND re adding the 1.7k invoice relating to by laws legal work, if not already accounted for.  RGr -  Is the SC OK with the budget.*
+*ACTION - LL to check with ND re adding the 1.7k invoice relating to by laws legal work, if not already accounted for.
 
-- All  - Agreed 
+- RGr -  Is the SC OK with the budget.*
+
+- All  - Agreed
 
 RES-OWIS - The SC agreed the that Annual Accounts for 2020 as presented for recommendation to the Board
 
