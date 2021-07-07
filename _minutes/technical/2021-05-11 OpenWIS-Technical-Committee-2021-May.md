@@ -7,31 +7,32 @@ minuteOwner: technical
 #### 11th May 2021, Teleconference
 
 ---
+
 **1. Welcome and introductions**
     - Steve Olson (SO) (TC chair) welcomed all present.
 
-    *- The attendees were:*
-    - SO - Steve Olson, National Weather Service, USA [NWS], Chair
-    - DP - David Podeur, Météo-France, France [MF], Vice Chair
-    - YG - Yves Goupil, Météo-France, France [MF]
-    - WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM]
-    - JA - Jude Anthonisz, OpenWIS Association Secretariat
-    - JR - Jeyoung Ryu (KMA)
-    - SD - Sungsoo Do, Korea Meteorological Administration [KMA]
-    - BH - Boram HEO, Korea Meteorological Administration [KMA]
-    - DP - David Podeur, Météo-France, France [MF]
-    - JT - Jeremy Tandy, UK Met Office [UKMO]
-    - IE - Ian Edwards, [OpenCDMS]
-    - FB - Fred Branski, National Weather Service, USA [NWS]
-    - MG - Marc Giannoni, National Weather Service, USA [NWS]
-    - ZZ - Zhan Zhang, National Weather Service, USA [NWS]
-    - YR - YK Reddy [IMD]
-    - KSr - Kuldeep Srivastava, India Meteorological Department (IMD)
+*- The attendees were:*
+  - SO - Steve Olson, National Weather Service, USA [NWS], Chair
+  - DP - David Podeur, Météo-France, France [MF], Vice Chair
+  - YG - Yves Goupil, Météo-France, France [MF]
+  - WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM]
+  - JA - Jude Anthonisz, OpenWIS Association Secretariat
+  - JR - Jeyoung Ryu (KMA)
+  - SD - Sungsoo Do, Korea Meteorological Administration [KMA]
+  - BH - Boram HEO, Korea Meteorological Administration [KMA]
+  - DP - David Podeur, Météo-France, France [MF]
+  - JT - Jeremy Tandy, UK Met Office [UKMO]
+  - IE - Ian Edwards, [OpenCDMS]
+  - FB - Fred Branski, National Weather Service, USA [NWS]
+  - MG - Marc Giannoni, National Weather Service, USA [NWS]
+  - ZZ - Zhan Zhang, National Weather Service, USA [NWS]
+  - YR - YK Reddy [IMD]
+  - KSr - Kuldeep Srivastava, India Meteorological Department (IMD)
 
-    *- Not present:*
-    - RGb - Remy Gibault, Météo-France International [MFI]
-    - MP - Mikko Partio, Finnish Meteorological Institute, Finland [FMI]
-    - BR – Baudouin Raoult [ECMWF]
+*- Not present:*
+  - RGb - Remy Gibault, Météo-France International [MFI]
+  - MP - Mikko Partio, Finnish Meteorological Institute, Finland [FMI]
+  - BR – Baudouin Raoult [ECMWF]
 
 
 **2. Technical infrastructure: status and plan for future management and operation (including any costs and costs of improvements for SC approval)**
