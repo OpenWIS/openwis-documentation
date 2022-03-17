@@ -10,8 +10,10 @@ contents : [
     ["#article-11.2", "Article 11.2"],
     ["#article-11.3", "Article 11.3"],
     ["#article-11.4", "Article 11.4"],
-    ["#article-11.5", "Article 11.5"],
-    ["#article-11.6", "Article 11.6"]
+    ["#article-11.4a", "Article 11.5"],
+    ["#article-11.5", "Article 11.6"],
+    ["#article-11.6", "Article 11.7"],
+    ["#article-11.8", "Article 11.8"],
 ]
 ---
 
@@ -29,14 +31,22 @@ In compliance with the Act, the day-to-day activities of the Organization shall 
 
 <h2 id="article-11.4">Article 11.4</h2>
 
-The Organization shall also establish a Steering Committee and a Technical Committee. 
+The Organization shall establish a Steering Committee and a Technical Committee. 
 
-<h2 id="article-11.5">Article 11.5</h2>
+<h2 id="article-11.4a">Article 11.5</h2>
+
+The Organization shall also establish a Project Management Committee for each Project endorsed by the Organisation.
+
+<h2 id="article-11.5">Article 11.6</h2>
 
 The Steering Committee shall support the work of the Board on strategic matters.
 
-<h2 id="article-11.6">Article 11.6</h2>
+<h2 id="article-11.6">Article 11.7</h2>
 
-The Technical Committee shall advise the Steering Committee and the Board on technical matters relating to the development and management of the OpenWIS® Software.
+The Technical Committee shall advise the Steering Committee and the Board on technical matters.
+
+<h2 id="article-11.8">Article 11.8</h2>
+
+A Project Management Committee (PMC) shall coordinate the technical work related to the project with the support of the Technical Committee and shall report to the Steering Committee. The responsibilities of the PMC are described in the Internal Rules.
 
 [previous: ARTICLE 10]({{ "/articles/10-membership-contributions-subscriptions-fees-and-additional-finance.html" | prepend: site.baseurl }}) \| [next: ARTICLE 12]({{ "/articles/12-board.html" | prepend: site.baseurl }})

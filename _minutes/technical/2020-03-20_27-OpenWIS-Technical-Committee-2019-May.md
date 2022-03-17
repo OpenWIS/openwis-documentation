@@ -17,7 +17,7 @@ minuteOwner: technical
       - SO - Steve Olson, National Weather Service, USA [NWS], Chair
       - BS - Benjamin Saclier, Météo-France, France [MF], Vice-chair
       - WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM]
-      - JA - Jude Anthonisz, Met Office [UKMO]
+      - JA - Jude Anthonisz, OpenWIS Association Secretariat
       - JR - Jeyoung Ryu (KMA)
       
     *- Not present:*

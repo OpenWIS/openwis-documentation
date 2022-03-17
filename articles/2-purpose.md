@@ -16,14 +16,16 @@ contents : [
 
 <h2 id="article-2.1">Article 2.1</h2>
 
-The Organization, which does not seek financial gain, aims to work in the collective interest of its Members and Partners (as defined respectively in [ARTICLE 4]({{ "/articles/4-members.html" | prepend: site.baseurl }}) and [ARTICLE 9]({{ "/articles/9-organizational-partners-and-relationship-with-other-third-parties.html" | prepend: site.baseurl }})) to facilitate collaboration on the development, promotion and sharing of open source software for the exchange of global meteorological information.
+The Organization, which does not seek financial gain, aims to work in the collective interest of its Members and Partners (as defined respectively in [ARTICLE 4]({{ "/articles/4-members.html" | prepend: site.baseurl }}) and [ARTICLE 9]({{ "/articles/9-organizational-partners-and-relationship-with-other-third-parties.html" | prepend: site.baseurl }})) to:
+1. Facilitate collaboration on the development, promotion and sharing of open source software for the management and exchange of meteorological information;
+2. Foster cooperation and coordination within the meteorological community on the management and exchange of meteorological information.
 
 <h2 id="article-2.2">Article 2.2</h2>
 
 More specifically the purpose of the Organization is: 
-1. Coordinating, managing and undertaking development of software for the exchange of global meteorological information by the Organization’s Members, Partners, and any other interested persons;
-2. Licensing and promoting of software for the exchange of global meteorological information;
-3. Fostering cooperation and coordination within the meteorological community on the exchange of global meteorological information;
+1. Coordinating and supporting development of solutions enabling the management and exchange of meteorological information;
+2. Coordinating, managing and undertaking development of software for the management and exchange of meteorological information by the Organization’s Members, Partners, and any other interested persons;
+3. Licensing and promoting of software for the exchange of global meteorological information;
 4. Collection of membership, subscription and other fees from Members and Partners for application towards the objectives set out above.
 
 <h2 id="article-2.3">Article 2.3</h2>

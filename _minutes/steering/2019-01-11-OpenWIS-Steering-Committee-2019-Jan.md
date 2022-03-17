@@ -19,6 +19,7 @@ The attendees and proxies for this meeting via tele-conference were:
 - Benjamin Saclier (BS), Météo France (MF)
 - Kwangjae Lee (KL), Korea Meteorological Administration (KMA)
 - Stephan Siemen (SS), European Centre for Medium-Range Weather Forecasts (ECMWF)
+- Jude Anthonisz (JA), OpenWIS Association Secretariat
 
 Not present:
 - Weiqing Qu (WQ), Bureau of Meteorology (BoM)

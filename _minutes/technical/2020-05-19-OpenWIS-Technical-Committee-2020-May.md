@@ -20,7 +20,7 @@ minuteOwner: technical
       - YG - Yves  Goupil, Météo-France, France [MF]
       - WQ - Weiqing Qu, Bureau of Meteorology, Australia [BoM]
       - AA - Anuruddha Abhayasinghe, Bureau of Meteorology, Australia [BoM]   
-      - JA - Jude Anthonisz, Met Office [UKMO]
+      - Jude Anthonisz (JA), OpenWIS Association Secretariat
       - JR - Jeyoung Ryu (KMA)
       - SD - Sungsoo Do, Korea Meteorological Administration [KMA]
       - MP - Mikko Partio, Finnish Meteorological Institute, Finland [FMI]

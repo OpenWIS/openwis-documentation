@@ -23,6 +23,7 @@ minuteOwner: steering
       - Kari Sheets (KS), National Weather Service [NWS]
       - Mikko Visa, Finnish Meteorological Institute [FMI]
       - Weiqing Qu (WQ), Bureau of Meteorology (BoM)
+      - Jude Anthonisz (JA), OpenWIS Association Secretariat
 
     *3.2 All attendees were content with the following:*
       - JT representing WQ of BoM with authority from WQ.

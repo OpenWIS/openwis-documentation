@@ -23,7 +23,7 @@ minuteOwner: annual
     - LG - Loïc Le Gallou, Météo France International (MFI)
     - SS - Stephan Siemen, European Centre for Medium-Range Weather Forecasts (ECMWF)
     - JT - Jeremy Tandy, Met Office, UK [UKMO]
-    - JA - Jude Anthonisz, Met Office [UKMO]
+    - JA - Jude Anthonisz, OpenWIS Association Secretariat
 
 2. **History**
     Formation of WMO (IMO) in 1873 – 1963 World Weather Watch – 1970s GTS established (pre-IP technology) – good as decentralised.

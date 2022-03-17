@@ -19,7 +19,7 @@ minuteOwner: steering
   - Steve Olson (SO), National Weather Service [NWS]
   - Weiqing Qu (WQ), Bureau of Meteorology (BoM)
   - Stephan Siemen (SS), European Centre for Medium-Range Weather Forecasts [ECMWF]
-  - Jude Anthonisz, Met Office [UKMO]
+  - Jude Anthonisz (JA), OpenWIS Association Secretariat
   - Steve Palmer, Met Office [UKMO]
 
   *1.2 Apologies:*

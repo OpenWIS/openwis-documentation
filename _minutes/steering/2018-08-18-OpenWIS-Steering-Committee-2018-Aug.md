@@ -20,6 +20,7 @@ The attendees and proxies for this meeting via tele-conference were:
 - Mikko Visa (MV), Finnish Meteorological Institute (FMI)
 - Kuldeep Srivastava (KS) India Meteorological Department (IMD)
 - Dr. S.L. Singh (SS) India Meteorological Department (IMD)
+- Jude Anthonisz (JA), OpenWIS Association Secretariat
 
 1.**Minutes and actions from the previous meeting**
 - All attendees agreed that no changes or additions were needed to the minutes of the previous meeting.

@@ -14,7 +14,7 @@ The attendees and proxies for this meeting via tele-conference were:
 - Steve Olson (SO) representing National Weather Service (NWS) (Chair)
 - David Podeur (DP), Météo France (MF)
 - Kuldeep Srivastava (KS) India Meteorological Department (IMD)
-- Jude Anthonisz (JA), UK Meteorological Office (UKMO)
+- Jude Anthonisz (JA), OpenWIS Association Secretariat
 
 Apologies:
 - Stephan Siemen (SS), European Centre for Medium-Range Weather Forecasts (ECMWF)

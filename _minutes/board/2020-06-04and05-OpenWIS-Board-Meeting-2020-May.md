@@ -61,10 +61,11 @@ RES-OWIS The Board agreed that membership fees will remain unchanged.
 
 **7. Election of Managing Directors**
 
-- RGr - the Managing Director roles are in mid-term as they elected last year, i.e. the Chair, Vice Chair and Treasurer.
-- WQ - happy to continue as VC
-- RGr - I am also happy to continue as is ND
-- All - Agreed and no other changes in representation.
+- RGr - the VC and Treasurer as Managing Director roles are in mid-term as they elected last year. However, Chair position must be renewed.
+- WQ - happy to continue as VC and ND to continue as Treasurer. I am proposing RGr to continue as Chair
+- RGr - I am also happy to continue if decided by the Board
+- All - Agreed
+- RGr - I will continue for a new 2-year mandate as Chair of the association
 
 **8. Reports and recommendations from the SC**
 

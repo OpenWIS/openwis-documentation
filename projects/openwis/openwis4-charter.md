@@ -7,7 +7,7 @@ title: OpenWIS Project Charter for OpenAM/OpenDS replacement by Keycloak identit
 ---
 
 
-# Project Charter for Openwis v4.0 
+# Project Charter for Alternatives to Security Service 
 ## Aim
 
 To maintain open-source nature associated with the security service. With Forgerock closing repo, we need to eliminate the need for reliance on community version of OpenAM/OpenDJ
@@ -61,7 +61,7 @@ _Please list the milestones that will be needed to achieve each of the deliverab
 |  Keycloak evaluation | April 2020 | Summer 2020
 |  _insert milestone 2_|
 |  _insert milestone n_|
-|  Project closure |
+|  Project closure |  October 2020 |
 
 ## Roles and Responsibilities
 
@@ -69,20 +69,17 @@ _Please list the people to involve or equipment (such as hardware and/or softwar
 
 Resource Name  |  Organisation  |  Role  | What this resource will be do in relation to a listed milestone | Time period resource needed for|
 | ---------------------|---------------|-------------|-------------|-------------|
-|  Resource 1 |    |    |  | |
-|  Resource 2 |    |    |  | |
-|  Resource n |    |    |  | |
+|  Benjamin Saclier |  MF  |  Technical Team member  |  | |
+|  Yves Goupil | MF   |  Technical Team member  |  | |
+|  Steve Olson | NWS  |  Technical Team member  |  | |
+|  Marc Giannoni | NWS  |  Technical Team member  |  | |
+|  Zhan Zhang | NWS  |  Technical Team member  |  | |
 
 ## Communication and Reporting
 
-_Please state the communication and reporting arrangements for interactions with:_  
-_•	The Project Team_  
-_•	Project Management MCommittee(s) Please list if more than one._  
-_•	Technical Committee (TC)  and Steering Committee (SC)_  
-_•	Delivery of the final report/briefing on the project outcome or study findings and recommendations_  
-_•	Another relevant communication or interactions_  
+A github ticket and report on the findings of this work can be found at:  https://github.com/OpenWIS/openwis-documentation/issues/585
 
 ## Configuration Management
 
-_Please state how any of artefacts needed for each of the deliverables will be managed, referring to the relevant rules and rules supplements of the OpenWIS Association._
+This was just an investigative study.  The findings report can be found in:  https://github.com/OpenWIS/openwis-documentation/issues/585
 
