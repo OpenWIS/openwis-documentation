@@ -1,5 +1,7 @@
-﻿---
-**OpenWIS Steering Committee September 2021**
+---
+layout: page
+title: OpenWIS Steering Committee February 2022
+minuteOwner: steering
 ---
 
 #### 22nd February 2022 – MS Teams video-conference
