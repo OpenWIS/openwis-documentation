@@ -1,5 +1,7 @@
-﻿---
-**OpenWIS Steering Committee September 2021**
+---
+layout: page
+title: OpenWIS Steering Committee September 2021
+minuteOwner: steering
 ---
 
 #### 27th September 2021 – MS Teams video-conference
